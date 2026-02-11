@@ -1,0 +1,341 @@
+/* Realmwalker Export Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  background: #1a1a2e;
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Dark Popup Styles */
+.dark-popup .leaflet-popup-content-wrapper {
+  background: #1e1e2f;
+  color: #e0e0e0;
+  border-radius: 5;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.dark-popup .leaflet-popup-tip {
+  background: #1e1e2f;
+}
+
+.dark-popup .leaflet-popup-content {
+  margin: 0;
+}
+
+/* Marker Popup Styles */
+.marker-popup {
+  padding: 16px;
+  min-width: 300px;
+}
+
+.marker-popup h3 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.marker-popup .marker-description {
+  margin: 0 0 12px 0;
+  font-size: 14px;
+  color: #b0b0b0;
+  line-height: 1.5;
+}
+
+.marker-popup .marker-description .ProseMirror {
+  outline: none;
+}
+
+.marker-popup .marker-description p {
+  margin: 0 0 8px 0;
+}
+
+.marker-popup .marker-description p:last-child {
+  margin-bottom: 0;
+}
+
+.marker-popup-image {
+  margin: -16px -16px 12px -16px;
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+}
+
+.marker-popup-image img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+}
+
+.wiki-link {
+  background: #3a3a4d;
+  color: #e0e0e0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.2s ease;
+  width: 100%;
+}
+
+.wiki-link:hover {
+  background: #4a4a5d;
+}
+
+/* Modal Styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  backdrop-filter: blur(4px);
+}
+
+.modal-content {
+  background: #1e1e2f;
+  border-radius: 16px;
+  max-width: 800px;
+  max-height: 85vh;
+  width: 90%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Wiki Cover Image */
+.wiki-cover {
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.wiki-cover::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: linear-gradient(transparent, #1e1e2f);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.modal-header h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.modal-close {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #a0a0a0;
+  line-height: 1;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.modal-close:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+.wiki-content {
+  padding: 24px;
+  overflow-y: auto;
+  line-height: 1.7;
+  color: #d0d0d0;
+}
+
+/* Tiptap Editor Styles */
+.wiki-content .ProseMirror {
+  outline: none;
+}
+
+.wiki-content .ProseMirror:focus {
+  outline: none;
+}
+
+/* Wiki content styling (Tiptap/ProseMirror output) */
+.wiki-content h1 {
+  font-size: 28px;
+  margin: 0 0 20px 0;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.wiki-content h2 {
+  font-size: 22px;
+  margin: 28px 0 16px 0;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.wiki-content h3 {
+  font-size: 18px;
+  margin: 24px 0 12px 0;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.wiki-content p {
+  margin: 0 0 16px 0;
+}
+
+.wiki-content ul, .wiki-content ol {
+  margin: 0 0 16px 24px;
+}
+
+.wiki-content li {
+  margin: 6px 0;
+}
+
+.wiki-content blockquote {
+  border-left: 4px solid #667eea;
+  margin: 16px 0;
+  padding-left: 20px;
+  color: #a0a0a0;
+  font-style: italic;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 12px 12px 12px 20px;
+  border-radius: 0 8px 8px 0;
+}
+
+.wiki-content code {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.9em;
+  color: #e879f9;
+}
+
+.wiki-content pre {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 16px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 16px 0;
+}
+
+.wiki-content pre code {
+  background: none;
+  padding: 0;
+  color: #d0d0d0;
+}
+
+.wiki-content img,
+.wiki-content .wiki-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 16px 0;
+}
+
+.wiki-content a {
+  color: #667eea;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.wiki-content a:hover {
+  color: #818cf8;
+  text-decoration: underline;
+}
+
+.wiki-content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 16px 0;
+}
+
+.wiki-content th, .wiki-content td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.wiki-content th {
+  background: rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.wiki-content tr:nth-child(even) {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.wiki-content hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 24px 0;
+}
+
+.wiki-content strong {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.wiki-content em {
+  color: #b0b0b0;
+}
+
+/* Leaflet popup close button */
+.dark-popup .leaflet-popup-close-button {
+  color: #a0a0a0 !important;
+}
+
+.dark-popup .leaflet-popup-close-button:hover {
+  color: #ffffff !important;
+}
+
+/* Scrollbar styling */
+.wiki-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.wiki-content::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.wiki-content::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+.wiki-content::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
