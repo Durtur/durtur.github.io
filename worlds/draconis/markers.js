@@ -3,10 +3,10 @@
 const mapConfig = {
   "name": "Tellum Draconis",
   "bounds": {
-    "x": 4096,
-    "y": 4096
+    "x": 8192,
+    "y": 8192
   },
-  "maxZoom": 4,
+  "maxZoom": 5,
   "tileSize": 256
 };
 
