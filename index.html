@@ -2,76 +2,98 @@
 <html lang="en">
 
 <head>
-    <title>Ogreforge RPG software</title>
+    <title>Ogreforge — RPG &amp; Wargaming Tools</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Durtur">
-    <meta name="description" content="Modern and open sourced RPG tools for your games.  A virtual tabletop, NPC generator, dice rollers and more.">
-    <meta property="og:title" content="Ogreforge RPG software">
-    <meta property="og:description" content="Modern and open sourced RPG tools for your games.  A virtual tabletop, NPC generator, dice rollers and more.">
+    <meta name="description" content="Modern, open-source tools for tabletop gamers. Run your D&D games with the Dungeoneer virtual tabletop, or build Warhammer 40,000 army lists with Karl's Army Builder.">
+    <meta property="og:title" content="Ogreforge — RPG &amp; Wargaming Tools">
+    <meta property="og:description" content="Modern, open-source tools for tabletop gamers. The Dungeoneer VTT and Karl's Army Builder.">
     <meta property="og:image" content="./img/ogimg.JPG">
 
-    <meta property="og:site_name" content="Dungeoneer D&D Tool">
-    <meta name="twitter:card" content="./img/ogimg.JPG">
-    <meta name="twitter:image:alt" content="Dungeoneer tool">
+    <meta property="og:site_name" content="Ogreforge">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="./img/ogimg.JPG">
+    <meta name="twitter:image:alt" content="Ogreforge tools">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family==Radio+Canada&family=Roboto&display=swap" rel="stylesheet">
-  
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
-
-    <link rel="icon" type="image/svg+xml" href="./img/gear-hammer.png">
+    <link rel="icon" type="image/png" href="./img/gear-hammer.png">
     <link href="style.css" rel="stylesheet">
-
 </head>
 
 <body>
 
-    <section class="cover_img">
-        <h1 class = "cover_header fade_in">Ogreforge RPG Tools</h1>
-    </section>
-    <main class="center">
-        <div class = "center column">
-            <article class = "sub_text fade_in">
-                Ogreforge is a collection of open sourced, modern and web based RPG solutions, designed to help you run your games. 
-            </article>
-            <section class="card center row space-around">
-     
-                <article class="bullet_article">
-                    <img class="bullet_img  center" src="icon.png" alt ="Dungeoneer logo" width="120">
-                    <h2>Dungeoneer VTT</h2>
-                    <p>Dungeoneer is a powerful tool that helps you run your D&D games efficiently.</p>
-                    <a class="center download_button green" href="http://durtur.github.io/Dungeoneer">
-                        Get</a>
-                </article>
-    
-                <article class="bullet_article">
-                    <img class="bullet_img bullet_img_rotate center" src="img/perspective-dice-six-faces-random.svg" alt ="NPC generator logo" width="120">
-                    <h2>NPC generator</h2>
-                    <p>A tool to generate a quick non player character. Creates a short and to the point description.</p>
-                    <a class="center download_button green" href="http://durtur.github.io/npcgen">
-                       Get</a>
-                </article>
-    
-    
-            </section>
+    <section class="hero">
+        <div class="hero_overlay"></div>
+        <div class="hero_content fade_in">
+            <img class="hero_logo" src="./img/gear-hammer.png" alt="Ogreforge logo" width="72">
+            <h1 class="hero_title">Ogreforge</h1>
+            <p class="hero_tagline">Modern, open-source tools forged for the tabletop.</p>
         </div>
-     
+    </section>
 
-        <section class="card" style="margin-bottom:4em">
-            <div class="column">
-                <div id="sharebar" class="sharebar">
-                    <a class="link_base reddit_link" href="https://www.reddit.com/r/dungeoneerVTT"></a>
+    <main class="center">
+        <section id="tools" class="tools">
 
-                    <a class="link_base github_link" href="https://www.github.com/durtur/dungeoneer"></a>
+            <!-- Dungeoneer -->
+            <article class="product product--dungeoneer fade_in">
+                <div class="product_media">
+                    <img class="product_icon" src="icon.png" alt="Dungeoneer logo" width="140">
                 </div>
+                <div class="product_body">
+                    <span class="product_kicker">Virtual Tabletop</span>
+                    <h2>Dungeoneer VTT</h2>
+                    <p>A powerful, no-fuss virtual tabletop for running your D&amp;D games.
+                       Maps, fog of war, dice rollers, an NPC generator and more — all open source.</p>
+                    <a class="btn btn--green" href="http://durtur.github.io/Dungeoneer">Launch Dungeoneer</a>
+                </div>
+            </article>
 
-            </div>
+            <!-- Karl's Army Builder -->
+            <article class="product product--karl fade_in">
+                <div class="product_media">
+                    <img class="product_portrait" src="karls/karlicon.webp" alt="Karl, your loyal list-building sergeant">
+                </div>
+                <div class="product_body">
+                    <span class="product_kicker">Warhammer 40,000</span>
+                    <h2>Karl's Army Builder</h2>
+                    <p>Build Warhammer&nbsp;40,000 army lists straight from the Munitorum Field Manual —
+                       points, detachments and community datasheets, right in your browser.
+                       Karl's got your back, soldier.</p>
+                    <a class="btn btn--amber" href="/karls/">Build a List</a>
+                </div>
+            </article>
+
+            <!-- NPC Generator -->
+            <article class="product product--npc fade_in">
+                <div class="product_media">
+                    <img class="product_icon product_icon--spin" src="img/perspective-dice-six-faces-random.svg" alt="NPC generator logo" width="130">
+                </div>
+                <div class="product_body">
+                    <span class="product_kicker">Quick Tool</span>
+                    <h2>NPC Generator</h2>
+                    <p>Need a face for the tavern keeper right now? Generate a quick non-player character
+                       with a short, to-the-point description in a single click.</p>
+                    <a class="btn btn--teal" href="http://durtur.github.io/npcgen">Generate an NPC</a>
+                </div>
+            </article>
 
         </section>
 
+        <section class="sharebar_wrap">
+            <div id="sharebar" class="sharebar">
+                <a class="link_base reddit_link" href="https://www.reddit.com/r/dungeoneerVTT" aria-label="Dungeoneer on Reddit"></a>
+                <a class="link_base github_link" href="https://www.github.com/durtur/dungeoneer" aria-label="Dungeoneer on GitHub"></a>
+            </div>
+        </section>
     </main>
 
+    <footer class="footer">
+        <p>Ogreforge · open-source tabletop tools · made with ⚔️ by Durtur</p>
+    </footer>
 
     <script src="./script.js"></script>
 </body>
