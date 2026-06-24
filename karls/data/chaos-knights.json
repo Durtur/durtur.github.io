@@ -1,0 +1,516 @@
+{
+  "slug": "chaos-knights",
+  "name": "Chaos Knights",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "4348414f532041434153545553204b4e49474854204153544552495553",
+          "name": "CHAOS ACASTUS KNIGHT ASTERIUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 785
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 860
+            }
+          ]
+        },
+        {
+          "id": "4348414f532041434153545553204b4e4947485420504f5250485952494f4e",
+          "name": "CHAOS ACASTUS KNIGHT PORPHYRION",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 725
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 800
+            }
+          ]
+        },
+        {
+          "id": "4348414f53204345524153545553204b4e494748542041434845524f4e",
+          "name": "CHAOS CERASTUS KNIGHT ACHERON",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 370
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 385
+            }
+          ]
+        },
+        {
+          "id": "4348414f53204345524153545553204b4e494748542041545241504f53",
+          "name": "CHAOS CERASTUS KNIGHT ATRAPOS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 395
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ]
+        },
+        {
+          "id": "4348414f53204345524153545553204b4e494748542043415354494741544f52",
+          "name": "CHAOS CERASTUS KNIGHT CASTIGATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 370
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 385
+            }
+          ]
+        },
+        {
+          "id": "4348414f53204345524153545553204b4e49474854204c414e434552",
+          "name": "CHAOS CERASTUS KNIGHT LANCER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 395
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ]
+        },
+        {
+          "id": "4348414f532051554553544f524953204b4e49474854204d414741455241",
+          "name": "CHAOS QUESTORIS KNIGHT MAGAERA",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 375
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 390
+            }
+          ]
+        },
+        {
+          "id": "4348414f532051554553544f524953204b4e4947485420535459524958",
+          "name": "CHAOS QUESTORIS KNIGHT STYRIX",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 365
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 380
+            }
+          ]
+        },
+        {
+          "id": "4b4e494748542041424f4d494e414e54",
+          "name": "KNIGHT ABOMINANT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 355
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 370
+            }
+          ]
+        },
+        {
+          "id": "4b4e494748542044455345435241544f52",
+          "name": "KNIGHT DESECRATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 355
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 370
+            }
+          ]
+        },
+        {
+          "id": "4b4e4947485420444553504f494c4552",
+          "name": "KNIGHT DESPOILER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 380
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 400
+            }
+          ]
+        },
+        {
+          "id": "4b4e494748542052414d5041474552",
+          "name": "KNIGHT RAMPAGER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 365
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 380
+            }
+          ]
+        },
+        {
+          "id": "4b4e49474854205255494e41544f52",
+          "name": "KNIGHT RUINATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 340
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 355
+            }
+          ]
+        },
+        {
+          "id": "4b4e4947485420545952414e54",
+          "name": "KNIGHT TYRANT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 400
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 420
+            }
+          ]
+        },
+        {
+          "id": "57415220444f472042524947414e44",
+          "name": "WAR DOG BRIGAND",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "57415220444f4720455845435554494f4e4552",
+          "name": "WAR DOG EXECUTIONER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "57415220444f472048554e54534d414e",
+          "name": "WAR DOG HUNTSMAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "57415220444f47204b41524e49564f5245",
+          "name": "WAR DOG KARNIVORE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 155
+            }
+          ]
+        },
+        {
+          "id": "57415220444f47204d4f49524158",
+          "name": "WAR DOG MOIRAX",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "57415220444f47205354414c4b4552",
+          "name": "WAR DOG STALKER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "id": "42415354494f4e53204f4620545952414e4e59",
+      "name": "BASTIONS OF TYRANNY",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "484154452d46494c4c454420444f4d494e494f4e",
+          "name": "Hate-filled Dominion",
+          "points": 20
+        },
+        {
+          "id": "50544552524f52534841444520524f4f4b455259",
+          "name": "Pterrorshade Rookery",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "48454c48554e54204c414e4345",
+      "name": "HELHUNT LANCE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "415350454354204f4620544845204245415354",
+          "name": "Aspect of the Beast",
+          "points": 30
+        },
+        {
+          "id": "48554e544552e28099532048454c4d",
+          "name": "Hunter’s Helm",
+          "points": 15
+        },
+        {
+          "id": "4f4354414752414d204f4620434f4e4a55524154494f4e",
+          "name": "Octagram of Conjuration",
+          "points": 40
+        },
+        {
+          "id": "5448524f4e4520545952414e4e49435553",
+          "name": "Throne Tyrannicus",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "484f554e445041434b204c414e4345",
+      "name": "HOUNDPACK LANCE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "46494e414c20484f574c",
+          "name": "Final Howl",
+          "points": 20
+        },
+        {
+          "id": "4c4f50494e47205052454441544f52",
+          "name": "Loping Predator",
+          "points": 10
+        },
+        {
+          "id": "50414e4f504c59204f462054484520435552534544204b4e4947485453",
+          "name": "Panoply of the Cursed Knights",
+          "points": 15
+        },
+        {
+          "id": "50524559534c41594552e2809953204d414e544c45",
+          "name": "Preyslayer’s Mantle",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "48554e54494e47205741525041434b",
+      "name": "HUNTING WARPACK",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "534e41524c494e4720524956414c525920285550475241444529",
+          "name": "Snarling Rivalry (Upgrade)",
+          "points": 10
+        },
+        {
+          "id": "534f554c2d53504f4f522041555350494341544f5220285550475241444529",
+          "name": "Soul-spoor Auspicator (Upgrade)",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "49434f4e4f434c4153542046494546444f4d",
+      "name": "ICONOCLAST FIEFDOM",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "435255454c204c4153484d415354455220284155524129",
+          "name": "Cruel Lashmaster (Aura)",
+          "points": 25
+        },
+        {
+          "id": "49434f4e4f434c4153542049444f4c20284155524129",
+          "name": "Iconoclast Idol (Aura)",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "494e4645524e414c204c414e4345",
+      "name": "INFERNAL LANCE",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "4245535449414c20415350454354",
+          "name": "Bestial Aspect",
+          "points": 30
+        },
+        {
+          "id": "424c41535048454d4f555320454e47494e45",
+          "name": "Blasphemous Engine",
+          "points": 35
+        },
+        {
+          "id": "464c4553484d4554414c20465553494f4e",
+          "name": "Fleshmetal Fusion",
+          "points": 35
+        },
+        {
+          "id": "4b4e4947485420444941424f4c5553",
+          "name": "Knight Diabolus",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "4c4f524453204f46204452454144",
+      "name": "LORDS OF DREAD",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "424c414445204f462043454c4552495459",
+          "name": "Blade of Celerity",
+          "points": 35
+        },
+        {
+          "id": "424c455353494e47204f4620544845204441524b204d4153544552",
+          "name": "Blessing of the Dark Master",
+          "points": 20
+        },
+        {
+          "id": "4d4952524f52204f46204641544553",
+          "name": "Mirror of Fates",
+          "points": 30
+        },
+        {
+          "id": "505554524944204341524150414345",
+          "name": "Putrid Carapace",
+          "points": 30
+        },
+        {
+          "id": "5448524f4e45204d454348414e4943554d204f4620534b554c4c53",
+          "name": "Throne Mechanicum of Skulls",
+          "points": 25
+        },
+        {
+          "id": "574152502d424f524e45205354414c4b4552",
+          "name": "Warp-borne Stalker",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "54524149544f524953204c414e4345",
+      "name": "TRAITORIS LANCE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4d414c45564f4c454e5420484552414c445259",
+          "name": "Malevolent Heraldry",
+          "points": 30
+        },
+        {
+          "id": "4e494748544d415245e2809953204d4153544552",
+          "name": "Nightmare’s Master",
+          "points": 20
+        },
+        {
+          "id": "545952414e54e280995320534841444f57",
+          "name": "Tyrant’s Shadow",
+          "points": 25
+        },
+        {
+          "id": "5645494c204f46204d454452454e47415244",
+          "name": "Veil of Medrengard",
+          "points": 35
+        }
+      ]
+    }
+  ]
+}

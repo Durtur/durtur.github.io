@@ -1,0 +1,984 @@
+{
+  "slug": "tyranids",
+  "name": "Tyranids",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "424152424741554e5453",
+          "name": "BARBGAUNTS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 55
+            },
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "42494f564f524553",
+          "name": "BIOVORES",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            },
+            {
+              "models": 2,
+              "points": 100
+            },
+            {
+              "models": 3,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "42524f4f444c4f5244",
+          "name": "BROODLORD",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "4341524e494645584553",
+          "name": "CARNIFEXES",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            },
+            {
+              "models": 2,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "id": "44454154484c4541504552",
+          "name": "DEATHLEAPER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "45584f4352494e45",
+          "name": "EXOCRINE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "474152474f594c4553",
+          "name": "GARGOYLES",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 80
+            },
+            {
+              "models": 20,
+              "points": 155
+            }
+          ]
+        },
+        {
+          "id": "47454e45535445414c455253",
+          "name": "GENESTEALERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 140
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "4841525059",
+          "name": "HARPY",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        },
+        {
+          "id": "484152524944414e",
+          "name": "HARRIDAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 610
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 660
+            }
+          ]
+        },
+        {
+          "id": "4841525553504558",
+          "name": "HARUSPEX",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "id": "484945524f5048414e54",
+          "name": "HIEROPHANT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 810
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 910
+            }
+          ]
+        },
+        {
+          "id": "484956452043524f4e45",
+          "name": "HIVE CRONE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "48495645204755415244",
+          "name": "HIVE GUARD",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "4849564520545952414e54",
+          "name": "HIVE TYRANT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ]
+        },
+        {
+          "id": "484f524d414741554e5453",
+          "name": "HORMAGAUNTS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 70
+            },
+            {
+              "models": 20,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "48595045524144415054454420524156454e455253",
+          "name": "HYPERADAPTED RAVENERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 165
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "4c4943544f52",
+          "name": "LICTOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "4d414c45434550544f52",
+          "name": "MALECEPTOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "4d41574c4f43",
+          "name": "MAWLOC",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "id": "4d55434f4c49442053504f524553",
+          "name": "MUCOLID SPORES",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 30
+            },
+            {
+              "models": 2,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "4e4555524f4741554e5453",
+          "name": "NEUROGAUNTS",
+          "tiers": [
+            {
+              "models": 11,
+              "points": 45
+            },
+            {
+              "models": 22,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "4e4555524f4c4943544f52",
+          "name": "NEUROLICTOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "4e4555524f545952414e54",
+          "name": "NEUROTYRANT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "id": "4e4f524e20415353494d494c41544f52",
+          "name": "NORN ASSIMILATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ]
+        },
+        {
+          "id": "4e4f524e20454d495353415259",
+          "name": "NORN EMISSARY",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ]
+        },
+        {
+          "id": "4f4c44204f4e4520455945",
+          "name": "OLD ONE EYE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "5041524153495445204f46204d4f5254524558",
+          "name": "PARASITE OF MORTREX",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "50535943484f5048414745",
+          "name": "PSYCHOPHAGE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "5059524f564f524553",
+          "name": "PYROVORES",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 45
+            },
+            {
+              "models": 2,
+              "points": 65
+            },
+            {
+              "models": 3,
+              "points": 95
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 55
+            },
+            {
+              "models": 2,
+              "points": 75
+            },
+            {
+              "models": 3,
+              "points": 105
+            }
+          ]
+        },
+        {
+          "id": "524156454e455253",
+          "name": "RAVENERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 125
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "id": "52495050455220535741524d53",
+          "name": "RIPPER SWARMS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 30
+            },
+            {
+              "models": 2,
+              "points": 40
+            },
+            {
+              "models": 3,
+              "points": 50
+            }
+          ]
+        },
+        {
+          "id": "53435245414d45522d4b494c4c4552",
+          "name": "SCREAMER-KILLER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "id": "53504f5245204d494e4553",
+          "name": "SPORE MINES",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 55
+            },
+            {
+              "models": 6,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "53504f524f43595354",
+          "name": "SPOROCYST",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "5445524d4147414e5453",
+          "name": "TERMAGANTS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 60
+            },
+            {
+              "models": 20,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "5445525649474f4e",
+          "name": "TERVIGON",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "5448452052454420544552524f52",
+          "name": "THE RED TERROR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "54484520535741524d4c4f5244",
+          "name": "THE SWARMLORD",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 210
+            }
+          ]
+        },
+        {
+          "id": "544f58494352454e45",
+          "name": "TOXICRENE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "id": "545259474f4e",
+          "name": "TRYGON",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "545952414e4944205052494d452057495448204c4153482057484950",
+          "name": "TYRANID PRIME WITH LASH WHIP",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "545952414e49442057415252494f52532057495448204d454c45452042494f2d574541504f4e53",
+          "name": "TYRANID WARRIORS WITH MELEE BIO-WEAPONS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 75
+            },
+            {
+              "models": 6,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "545952414e49442057415252494f525320574954482052414e4745442042494f2d574541504f4e53",
+          "name": "TYRANID WARRIORS WITH RANGED BIO-WEAPONS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 60
+            },
+            {
+              "models": 6,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "545952414e4e4f43595445",
+          "name": "TYRANNOCYTE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "545952414e4e4f464558",
+          "name": "TYRANNOFEX",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "545952414e54204755415244",
+          "name": "TYRANT GUARD",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "56454e4f4d5448524f504553",
+          "name": "VENOMTHROPES",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 55
+            },
+            {
+              "models": 6,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "564f4e205259414ee2809953204c454150455253",
+          "name": "VON RYAN’S LEAPERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 60
+            },
+            {
+              "models": 6,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "57494e474544204849564520545952414e54",
+          "name": "WINGED HIVE TYRANT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        },
+        {
+          "id": "57494e47454420545952414e4944205052494d45",
+          "name": "WINGED TYRANID PRIME",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        },
+        {
+          "id": "5a4f414e5448524f504553",
+          "name": "ZOANTHROPES",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 100
+            },
+            {
+              "models": 6,
+              "points": 200
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "id": "414d42555348205052454441544f5253",
+      "name": "AMBUSH PREDATORS",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "43525950544f50484f544149432043414d4f55464c41474520285550475241444529",
+          "name": "Cryptophotaic Camouflage (Upgrade)",
+          "points": 15
+        },
+        {
+          "id": "454e434952434c494e4720484f52524f525320285550475241444529",
+          "name": "Encircling Horrors (Upgrade)",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "415353494d494c4154494f4e20535741524d",
+      "name": "ASSIMILATION SWARM",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "42494f50484147494320464c4f57",
+          "name": "Biophagic Flow",
+          "points": 10
+        },
+        {
+          "id": "494e5354494e435449564520444546454e4345",
+          "name": "Instinctive Defence",
+          "points": 15
+        },
+        {
+          "id": "5041524153495449432042494f4d4f5250484f4c4f4759",
+          "name": "Parasitic Biomorphology",
+          "points": 25
+        },
+        {
+          "id": "524547454e45524154494e47204d4f4e5354524f53495459",
+          "name": "Regenerating Monstrosity",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "43525553484552205354414d50454445",
+      "name": "CRUSHER STAMPEDE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "454e5241474544205245534552564553",
+          "name": "Enraged Reserves",
+          "points": 20
+        },
+        {
+          "id": "4d4f4e5354524f5553204e454d45534953",
+          "name": "Monstrous Nemesis",
+          "points": 25
+        },
+        {
+          "id": "4e554c4c204e4f44554c4553",
+          "name": "Null Nodules",
+          "points": 10
+        },
+        {
+          "id": "4f4d494e4f55532050524553454e4345",
+          "name": "Ominous Presence",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "494e564153494f4e20464c454554",
+      "name": "INVASION FLEET",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "41444150544956452042494f4c4f4759",
+          "name": "Adaptive Biology",
+          "points": 25
+        },
+        {
+          "id": "414c49454e2043554e4e494e47",
+          "name": "Alien Cunning",
+          "points": 30
+        },
+        {
+          "id": "504552464543544c592041444150544544",
+          "name": "Perfectly Adapted",
+          "points": 15
+        },
+        {
+          "id": "53594e4150544943204c494e434850494e",
+          "name": "Synaptic Linchpin",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "53554254455252414e45414e2041535341554c54",
+      "name": "SUBTERRANEAN ASSAULT",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "53594e4150544943205354524154454759",
+          "name": "Synaptic Strategy",
+          "points": 15
+        },
+        {
+          "id": "5452454d4f522053454e534553",
+          "name": "Tremor Senses",
+          "points": 20
+        },
+        {
+          "id": "545259474f4e205052494d45",
+          "name": "Trygon Prime",
+          "points": 20
+        },
+        {
+          "id": "56414e475541524420494e54454c4c454354",
+          "name": "Vanguard Intellect",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "53594e4150544943204e45585553",
+      "name": "SYNAPTIC NEXUS",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "504f574552204f46205448452048495645204d494e44",
+          "name": "Power of the Hive Mind",
+          "points": 10
+        },
+        {
+          "id": "50535943484f5354415449432044495352555054494f4e",
+          "name": "Psychostatic Disruption",
+          "points": 30
+        },
+        {
+          "id": "53594e415054494320434f4e54524f4c",
+          "name": "Synaptic Control",
+          "points": 20
+        },
+        {
+          "id": "5448452044495247454845415254204f46204b4841524953",
+          "name": "The Dirgeheart of Kharis",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "54414c4f4e53204f4620544845204e4f524e20515545454e",
+      "name": "TALONS OF THE NORN QUEEN",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "444553544142494c4953494e4720505245444154494f4e20285550475241444529",
+          "name": "Destabilising Predation (Upgrade)",
+          "points": 20
+        },
+        {
+          "id": "53594e4150544f505245534349454e434520285550475241444529",
+          "name": "Synaptoprescience (Upgrade)",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "554e454e44494e4720535741524d",
+      "name": "UNENDING SWARM",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "414452454e414c49534544204f4e534c4155474854",
+          "name": "Adrenalised Onslaught",
+          "points": 15
+        },
+        {
+          "id": "4e41545552414c495345442043414d4f55464c414745",
+          "name": "Naturalised Camouflage",
+          "points": 30
+        },
+        {
+          "id": "5049455243494e472054414c4f4e53",
+          "name": "Piercing Talons",
+          "points": 25
+        },
+        {
+          "id": "52454c454e544c4553532048554e474552",
+          "name": "Relentless Hunger",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "56414e4755415244204f4e534c4155474854",
+      "name": "VANGUARD ONSLAUGHT",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4348414d454c454f4e4943",
+          "name": "Chameleonic",
+          "points": 15
+        },
+        {
+          "id": "48554e54494e472047524f554e4453",
+          "name": "Hunting Grounds",
+          "points": 20
+        },
+        {
+          "id": "4e4555524f4e4f4445",
+          "name": "Neuronode",
+          "points": 20
+        },
+        {
+          "id": "5354414c4b4552",
+          "name": "Stalker",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "57415252494f522042494f464f524d204f4e534c4155474854",
+      "name": "WARRIOR BIOFORM ONSLAUGHT",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "454c455641544544204d49474854",
+          "name": "Elevated Might",
+          "points": 30
+        },
+        {
+          "id": "4f43554c41522041444150544154494f4e",
+          "name": "Ocular Adaptation",
+          "points": 20
+        }
+      ]
+    }
+  ]
+}

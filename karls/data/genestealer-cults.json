@@ -1,0 +1,569 @@
+{
+  "slug": "genestealer-cults",
+  "name": "Genestealer Cults",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "4142455252414e5453",
+          "name": "ABERRANTS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 150
+            },
+            {
+              "models": 10,
+              "points": 300
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 160
+            },
+            {
+              "models": 10,
+              "points": 310
+            }
+          ]
+        },
+        {
+          "id": "41424f4d494e414e54",
+          "name": "ABOMINANT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "id": "414348494c4c455320524944474552554e4e455253",
+          "name": "ACHILLES RIDGERUNNERS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            },
+            {
+              "models": 2,
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 105
+            },
+            {
+              "models": 2,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "41434f4c59544520485942524944532057495448204155544f504953544f4c53",
+          "name": "ACOLYTE HYBRIDS WITH AUTOPISTOLS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 70
+            },
+            {
+              "models": 10,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "41434f4c595445204859425249445320574954482048414e4420464c414d455253",
+          "name": "ACOLYTE HYBRIDS WITH HAND FLAMERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "41434f4c5954452049434f4e57415244",
+          "name": "ACOLYTE ICONWARD",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        },
+        {
+          "id": "4154414c414e204a41434b414c53",
+          "name": "ATALAN JACKALS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "42454e45464943545553",
+          "name": "BENEFICTUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "42494f504841475553",
+          "name": "BIOPHAGUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        },
+        {
+          "id": "434c414d41565553",
+          "name": "CLAMAVUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        },
+        {
+          "id": "474f4c4941544820524f434b4752494e444552",
+          "name": "GOLIATH ROCKGRINDER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "474f4c4941544820545255434b",
+          "name": "GOLIATH TRUCK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "485942524944204d4554414d4f52504853",
+          "name": "HYBRID METAMORPHS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "4a41434b414c20414c50485553",
+          "name": "JACKAL ALPHUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        },
+        {
+          "id": "4b454c45524d4f525048",
+          "name": "KELERMORPH",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "4c4f435553",
+          "name": "LOCUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 35
+            }
+          ]
+        },
+        {
+          "id": "4d41475553",
+          "name": "MAGUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        },
+        {
+          "id": "4e454f50485954452048594252494453",
+          "name": "NEOPHYTE HYBRIDS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 70
+            },
+            {
+              "models": 20,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "4e45584f53",
+          "name": "NEXOS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "504154524941524348",
+          "name": "PATRIARCH",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "5052494d5553",
+          "name": "PRIMUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "5055524553545241494e2047454e45535445414c455253",
+          "name": "PURESTRAIN GENESTEALERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 140
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "5245445543545553205341424f54455552",
+          "name": "REDUCTUS SABOTEUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "53414e43545553",
+          "name": "SANCTUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "id": "42494f53414e435449432042524f4f445355524745",
+      "name": "BIOSANCTIC BROODSURGE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "414c49454e204d414a45535459",
+          "name": "Alien Majesty",
+          "points": 15
+        },
+        {
+          "id": "42494f4d4f5250482041444150544154494f4e",
+          "name": "Biomorph Adaptation",
+          "points": 25
+        },
+        {
+          "id": "4d55544147454e494320524547454e45524154494f4e",
+          "name": "Mutagenic Regeneration",
+          "points": 10
+        },
+        {
+          "id": "5052454441544f525920494e5354494e435453",
+          "name": "Predatory Instincts",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "42524f4f442042524f544845525320415558494c4941",
+      "name": "BROOD BROTHERS AUXILIA",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "414441505449564520524550524953414c",
+          "name": "Adaptive Reprisal",
+          "points": 15
+        },
+        {
+          "id": "464952452d504f494e5420434f4d4d414e444552",
+          "name": "Fire-point Commander",
+          "points": 10
+        },
+        {
+          "id": "4d41525449414c20455350494f4e414745",
+          "name": "Martial Espionage",
+          "points": 25
+        },
+        {
+          "id": "544845204845524f2052455455524e4544",
+          "name": "The Hero Returned",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "46494e414c20444159",
+      "name": "FINAL DAY",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "454e52415054555245442044414d4e4154494f4e",
+          "name": "Enraptured Damnation",
+          "points": 10
+        },
+        {
+          "id": "494e48554d414e20494e544547524154494f4e",
+          "name": "Inhuman Integration",
+          "points": 20
+        },
+        {
+          "id": "53594e4150544943204155474552",
+          "name": "Synaptic Auger",
+          "points": 15
+        },
+        {
+          "id": "56414e475541524420545952414e54",
+          "name": "Vanguard Tyrant",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "4845524f4553204f4620544845205550524953494e47",
+      "name": "HEROES OF THE UPRISING",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "434f4e54524142414e44204d554e4954494f4e53",
+          "name": "Contraband Munitions",
+          "points": 20
+        },
+        {
+          "id": "47454e452d5441494c4f52454420544f58494e53",
+          "name": "Gene-tailored Toxins",
+          "points": 35
+        }
+      ]
+    },
+    {
+      "id": "484f5354204f4620415343454e53494f4e",
+      "name": "HOST OF ASCENSION",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "41204348494e4b20494e2054484549522041524d4f5552",
+          "name": "A Chink In Their Armour",
+          "points": 20
+        },
+        {
+          "id": "415353415353494e4154494f4e204544494354",
+          "name": "Assassination Edict",
+          "points": 15
+        },
+        {
+          "id": "4f55522054494d45204953204e494748",
+          "name": "Our Time is Nigh",
+          "points": 20
+        },
+        {
+          "id": "50524f574c494e472041474954414e54",
+          "name": "Prowling Agitant",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "4f55544c414e44455220434c4157",
+      "name": "OUTLANDER CLAW",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "41535341554c5420434f4d4d414e444f",
+          "name": "Assault Commando",
+          "points": 15
+        },
+        {
+          "id": "434152544f4752415048494320444154412d4c45454348",
+          "name": "Cartographic Data-leech",
+          "points": 10
+        },
+        {
+          "id": "53455250454e54494e452054414354494353",
+          "name": "Serpentine Tactics",
+          "points": 10
+        },
+        {
+          "id": "5354415246414c4c205348454c4c53",
+          "name": "Starfall Shells",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "5055524553545241494e2042524f4f44535741524d",
+      "name": "PURESTRAIN BROODSWARM",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "4d41524b204f46205448452053544152204348494c4452454e20285550475241444529",
+          "name": "Mark of the Star Children (Upgrade)",
+          "points": 30
+        },
+        {
+          "id": "54414c4f4e53204f46205448452053495245",
+          "name": "Talons of the Sire",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "58454e4f435245454420434f4e475245474154494f4e",
+      "name": "XENOCREED CONGREGATION",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4445454453205448415420535045414b20544f20544845204d4153534553",
+          "name": "Deeds that Speak to the Masses",
+          "points": 25
+        },
+        {
+          "id": "44454e554e434941544f52204f4620545952414e5453",
+          "name": "Denunciator of Tyrants",
+          "points": 25
+        },
+        {
+          "id": "47454e452d53495245e28099532052454c495155414e54",
+          "name": "Gene-sire’s Reliquant",
+          "points": 5
+        },
+        {
+          "id": "494e43454e444941525920494e535049524154494f4e",
+          "name": "Incendiary Inspiration",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "58454e4f43554c54204d4153534553",
+      "name": "XENOCULT MASSES",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "444556494f55532044495347554953455320285550475241444529",
+          "name": "Devious Disguises (Upgrade)",
+          "points": 15
+        },
+        {
+          "id": "494e53504952454420544f2047524541544e455353",
+          "name": "Inspired to Greatness",
+          "points": 15
+        }
+      ]
+    }
+  ]
+}

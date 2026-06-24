@@ -1,0 +1,759 @@
+{
+  "slug": "imperial-agents",
+  "name": "Imperial Agents",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "415155494c41204b494c4c205445414d",
+          "name": "AQUILA KILL TEAM",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "id": "43414c4c4944555320415353415353494e",
+          "name": "CALLIDUS ASSASSIN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "434f5256555320424c41434b53544152",
+          "name": "CORVUS BLACKSTAR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "id": "43554c4558555320415353415353494e",
+          "name": "CULEXUS ASSASSIN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "44454154485741544348204b494c4c205445414d",
+          "name": "DEATHWATCH KILL TEAM",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "45564552534f5220415353415353494e",
+          "name": "EVERSOR ASSASSIN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "4558414354494f4e205351554144",
+          "name": "EXACTION SQUAD",
+          "tiers": [
+            {
+              "models": 11,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "47524559204b4e4947485453205445524d494e41544f52205351554144",
+          "name": "GREY KNIGHTS TERMINATOR SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "494d50455249414c204e41565920425245414348455253",
+          "name": "IMPERIAL NAVY BREACHERS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "494d50455249414c205248494e4f",
+          "name": "IMPERIAL RHINO",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "494e5155495349544f52",
+          "name": "INQUISITOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        },
+        {
+          "id": "494e5155495349544f5220434f5445415a",
+          "name": "INQUISITOR COTEAZ",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "494e5155495349544f5220445241585553",
+          "name": "INQUISITOR DRAXUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "494e5155495349544f522047524559464158",
+          "name": "INQUISITOR GREYFAX",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        },
+        {
+          "id": "494e5155495349544f5249414c204147454e5453",
+          "name": "INQUISITORIAL AGENTS",
+          "tiers": [
+            {
+              "models": 6,
+              "points": 50
+            },
+            {
+              "models": 12,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "494e5155495349544f5249414c204348494d455241",
+          "name": "INQUISITORIAL CHIMERA",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "494e5155495349544f52204b524f594c45",
+          "name": "INQUISITOR KROYLE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "4d494e4953544f52554d20505249455354",
+          "name": "MINISTORUM PRIEST",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        },
+        {
+          "id": "4e4156494741544f52",
+          "name": "NAVIGATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "524f4755452054524144455220454e544f5552414745",
+          "name": "ROGUE TRADER ENTOURAGE",
+          "tiers": [
+            {
+              "models": 4,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "53414e4354494649455253",
+          "name": "SANCTIFIERS",
+          "tiers": [
+            {
+              "models": 9,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "53495354455253204f4620424154544c4520494d4d4f4c41544f52",
+          "name": "SISTERS OF BATTLE IMMOLATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "53495354455253204f4620424154544c45205351554144",
+          "name": "SISTERS OF BATTLE SQUAD",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "535542445543544f52205351554144",
+          "name": "SUBDUCTOR SQUAD",
+          "tiers": [
+            {
+              "models": 11,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "564947494c414e54205351554144",
+          "name": "VIGILANT SQUAD",
+          "tiers": [
+            {
+              "models": 11,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "56494e44494341524520415353415353494e",
+          "name": "VINDICARE ASSASSIN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "564f4944534d454e2d41542d41524d53",
+          "name": "VOIDSMEN-AT-ARMS",
+          "tiers": [
+            {
+              "models": 6,
+              "points": 50
+            }
+          ]
+        },
+        {
+          "id": "5741544348204341505441494e20415254454d4953",
+          "name": "WATCH CAPTAIN ARTEMIS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        },
+        {
+          "id": "5741544348204d4153544552",
+          "name": "WATCH MASTER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "EVERY MODEL HAS THE IMPERIUM KEYWORD",
+      "units": [
+        {
+          "id": "415155494c41204b494c4c205445414d",
+          "name": "AQUILA KILL TEAM",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "id": "43414c4c4944555320415353415353494e",
+          "name": "CALLIDUS ASSASSIN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "434f5256555320424c41434b53544152",
+          "name": "CORVUS BLACKSTAR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "id": "43554c4558555320415353415353494e",
+          "name": "CULEXUS ASSASSIN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "44454154485741544348204b494c4c205445414d",
+          "name": "DEATHWATCH KILL TEAM",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "id": "45564552534f5220415353415353494e",
+          "name": "EVERSOR ASSASSIN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "4558414354494f4e205351554144",
+          "name": "EXACTION SQUAD",
+          "tiers": [
+            {
+              "models": 11,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "47524559204b4e4947485453205445524d494e41544f52205351554144",
+          "name": "GREY KNIGHTS TERMINATOR SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 210
+            }
+          ]
+        },
+        {
+          "id": "494d50455249414c204e41565920425245414348455253",
+          "name": "IMPERIAL NAVY BREACHERS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "494d50455249414c205248494e4f",
+          "name": "IMPERIAL RHINO",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "494e5155495349544f52",
+          "name": "INQUISITOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        },
+        {
+          "id": "494e5155495349544f5220434f5445415a",
+          "name": "INQUISITOR COTEAZ",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "id": "494e5155495349544f5220445241585553",
+          "name": "INQUISITOR DRAXUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "494e5155495349544f522047524559464158",
+          "name": "INQUISITOR GREYFAX",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        },
+        {
+          "id": "494e5155495349544f5249414c204147454e5453",
+          "name": "INQUISITORIAL AGENTS",
+          "tiers": [
+            {
+              "models": 6,
+              "points": 60
+            },
+            {
+              "models": 12,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "494e5155495349544f5249414c204348494d455241",
+          "name": "INQUISITORIAL CHIMERA",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "494e5155495349544f52204b524f594c45",
+          "name": "INQUISITOR KROYLE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "4d494e4953544f52554d20505249455354",
+          "name": "MINISTORUM PRIEST",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        },
+        {
+          "id": "4e4156494741544f52",
+          "name": "NAVIGATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "524f4755452054524144455220454e544f5552414745",
+          "name": "ROGUE TRADER ENTOURAGE",
+          "tiers": [
+            {
+              "models": 4,
+              "points": 105
+            }
+          ]
+        },
+        {
+          "id": "53414e4354494649455253",
+          "name": "SANCTIFIERS",
+          "tiers": [
+            {
+              "models": 9,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "53495354455253204f4620424154544c4520494d4d4f4c41544f52",
+          "name": "SISTERS OF BATTLE IMMOLATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "id": "53495354455253204f4620424154544c45205351554144",
+          "name": "SISTERS OF BATTLE SQUAD",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "id": "535542445543544f52205351554144",
+          "name": "SUBDUCTOR SQUAD",
+          "tiers": [
+            {
+              "models": 11,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "564947494c414e54205351554144",
+          "name": "VIGILANT SQUAD",
+          "tiers": [
+            {
+              "models": 11,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "56494e44494341524520415353415353494e",
+          "name": "VINDICARE ASSASSIN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "id": "564f4944534d454e2d41542d41524d53",
+          "name": "VOIDSMEN-AT-ARMS",
+          "tiers": [
+            {
+              "models": 6,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "5741544348204341505441494e20415254454d4953",
+          "name": "WATCH CAPTAIN ARTEMIS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        },
+        {
+          "id": "5741544348204d4153544552",
+          "name": "WATCH MASTER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "id": "494d50455249414c495320464c454554",
+      "name": "IMPERIALIS FLEET",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "434c414e44455354494e45204f5045524154494f4e",
+          "name": "Clandestine Operation",
+          "points": 15
+        },
+        {
+          "id": "434f4d424154204c414e44455253",
+          "name": "Combat Landers",
+          "points": 10
+        },
+        {
+          "id": "4449474954414c20574541504f4e53",
+          "name": "Digital Weapons",
+          "points": 10
+        },
+        {
+          "id": "464c4545544d4153544552",
+          "name": "Fleetmaster",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "4f52444f204845524554494355532c20505552474154494f4e20464f524345",
+      "name": "ORDO HERETICUS, PURGATION FORCE",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "49474e4953204a5544494349554d",
+          "name": "Ignis Judicium",
+          "points": 10
+        },
+        {
+          "id": "4c49424552204845524553495553",
+          "name": "Liber Heresius",
+          "points": 10
+        },
+        {
+          "id": "4e4f20455343415045",
+          "name": "No Escape",
+          "points": 25
+        },
+        {
+          "id": "57495443482048554e544552",
+          "name": "Witch Hunter",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "4f52444f204d414c4c4555532c204441454d4f4e2048554e54455253",
+      "name": "ORDO MALLEUS, DAEMON HUNTERS",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "4441454d4f4e20534c41594552",
+          "name": "Daemon Slayer",
+          "points": 10
+        },
+        {
+          "id": "464f524d494441424c45205245534f4c5645",
+          "name": "Formidable Resolve",
+          "points": 5
+        },
+        {
+          "id": "47494654204f462054484520505245534349454e54",
+          "name": "Gift of the Prescient",
+          "points": 20
+        },
+        {
+          "id": "4752494d4f495245204f462054525545204e414d4553",
+          "name": "Grimoire of True Names",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "4f52444f2058454e4f532c20414c49454e2048554e54455253",
+      "name": "ORDO XENOS, ALIEN HUNTERS",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "414d554c4554204f46204155544f2d43484153544953454d454e54",
+          "name": "Amulet of Auto-chastisement",
+          "points": 25
+        },
+        {
+          "id": "424541434f4e20414e47454c4953",
+          "name": "Beacon Angelis",
+          "points": 30
+        },
+        {
+          "id": "424c41434b5745415645205348524f5544",
+          "name": "Blackweave Shroud",
+          "points": 15
+        },
+        {
+          "id": "554e4956455253414c20414e415448454d41",
+          "name": "Universal Anathema",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "5645494c454420424c41444520454c494d494e4154494f4e20464f524345",
+      "name": "VEILED BLADE ELIMINATION FORCE",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "4445434f592054415247455453",
+          "name": "Decoy Targets",
+          "points": 40
+        },
+        {
+          "id": "45534f5445524943204558504c4f5349564553",
+          "name": "Esoteric Explosives",
+          "points": 40
+        },
+        {
+          "id": "494e54524f4e455552414c2042494f54454348",
+          "name": "Introneural Biotech",
+          "points": 35
+        },
+        {
+          "id": "4d4943524f4d454c544120524f554e4453",
+          "name": "Micromelta Rounds",
+          "points": 45
+        }
+      ]
+    }
+  ]
+}

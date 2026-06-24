@@ -1,0 +1,554 @@
+{
+  "slug": "imperial-knights",
+  "name": "Imperial Knights",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "41434153545553204b4e49474854204153544552495553",
+          "name": "ACASTUS KNIGHT ASTERIUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 785
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 860
+            }
+          ]
+        },
+        {
+          "id": "41434153545553204b4e4947485420504f5250485952494f4e",
+          "name": "ACASTUS KNIGHT PORPHYRION",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 725
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 800
+            }
+          ]
+        },
+        {
+          "id": "41524d494745522048454c564552494e",
+          "name": "ARMIGER HELVERIN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "41524d49474552204d4f49524158",
+          "name": "ARMIGER MOIRAX",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "41524d4947455220574152474c41495645",
+          "name": "ARMIGER WARGLAIVE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "43414e495320524558",
+          "name": "CANIS REX",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ]
+        },
+        {
+          "id": "4345524153545553204b4e494748542041434845524f4e",
+          "name": "CERASTUS KNIGHT ACHERON",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 380
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 395
+            }
+          ]
+        },
+        {
+          "id": "4345524153545553204b4e494748542041545241504f53",
+          "name": "CERASTUS KNIGHT ATRAPOS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 405
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 425
+            }
+          ]
+        },
+        {
+          "id": "4345524153545553204b4e494748542043415354494741544f52",
+          "name": "CERASTUS KNIGHT CASTIGATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 380
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 395
+            }
+          ]
+        },
+        {
+          "id": "4345524153545553204b4e49474854204c414e434552",
+          "name": "CERASTUS KNIGHT LANCER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 435
+            }
+          ]
+        },
+        {
+          "id": "4b4e494748542043415354454c4c414e",
+          "name": "KNIGHT CASTELLAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 400
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 420
+            }
+          ]
+        },
+        {
+          "id": "4b4e49474854204352555341444552",
+          "name": "KNIGHT CRUSADER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 395
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ]
+        },
+        {
+          "id": "4b4e4947485420444546454e444552",
+          "name": "KNIGHT DEFENDER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 400
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 420
+            }
+          ]
+        },
+        {
+          "id": "4b4e49474854204445535452494552",
+          "name": "KNIGHT DESTRIER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 265
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 280
+            }
+          ]
+        },
+        {
+          "id": "4b4e4947485420455252414e54",
+          "name": "KNIGHT ERRANT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 355
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 370
+            }
+          ]
+        },
+        {
+          "id": "4b4e494748542047414c4c414e54",
+          "name": "KNIGHT GALLANT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 355
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 370
+            }
+          ]
+        },
+        {
+          "id": "4b4e494748542050414c4144494e",
+          "name": "KNIGHT PALADIN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 375
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 390
+            }
+          ]
+        },
+        {
+          "id": "4b4e4947485420505245434550544f52",
+          "name": "KNIGHT PRECEPTOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 365
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 380
+            }
+          ]
+        },
+        {
+          "id": "4b4e494748542056414c49414e54",
+          "name": "KNIGHT VALIANT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 400
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ]
+        },
+        {
+          "id": "4b4e494748542057415244454e",
+          "name": "KNIGHT WARDEN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 375
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 390
+            }
+          ]
+        },
+        {
+          "id": "51554553544f524953204b4e49474854204d414741455241",
+          "name": "QUESTORIS KNIGHT MAGAERA",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 385
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 400
+            }
+          ]
+        },
+        {
+          "id": "51554553544f524953204b4e4947485420535459524958",
+          "name": "QUESTORIS KNIGHT STYRIX",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 375
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 390
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "id": "444f4d494e555320464f45425245414b455253",
+      "name": "DOMINUS FOEBREAKERS",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "41524348454f54454348204155544f4c4f4144455253",
+          "name": "Archeotech Autoloaders",
+          "points": 25
+        },
+        {
+          "id": "424c455353454420504c415445",
+          "name": "Blessed Plate",
+          "points": 30
+        }
+      ]
+    },
+    {
+      "id": "46524545424c41444520434f4d50414e59",
+      "name": "FREEBLADE COMPANY",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "4252494e474552204f46204a555354494345",
+          "name": "Bringer of Justice",
+          "points": 30
+        },
+        {
+          "id": "48554e544552e280995320455945",
+          "name": "Hunter’s Eye",
+          "points": 25
+        },
+        {
+          "id": "4d5953544552494f555320475541524449414e",
+          "name": "Mysterious Guardian",
+          "points": 35
+        },
+        {
+          "id": "53414e435455415259",
+          "name": "Sanctuary",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "474154452057415244454e204c414e4345",
+      "name": "GATE WARDEN LANCE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "41435155495349544f522d41542d41524d53",
+          "name": "Acquisitor-at-Arms",
+          "points": 15
+        },
+        {
+          "id": "4155475552592048414c4f",
+          "name": "Augury Halo",
+          "points": 20
+        },
+        {
+          "id": "505552474154494f4ee28099532048414e44",
+          "name": "Purgation’s Hand",
+          "points": 20
+        },
+        {
+          "id": "56454e474546554c205452454144",
+          "name": "Vengeful Tread",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "51554553544f5220464f52474550414354",
+      "name": "QUESTOR FORGEPACT",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "4b4e49474854204f4620544845204f505553204d414348494e4120284155524129",
+          "name": "Knight of the Opus Machina (Aura)",
+          "points": 15
+        },
+        {
+          "id": "4d41474f532051554553544f524953",
+          "name": "Magos Questoris",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "51554553544f52495320434f4d50414e494f4e53",
+      "name": "QUESTORIS COMPANIONS",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "4352555348494e4720434f4e44454d4e4154494f4e",
+          "name": "Crushing Condemnation",
+          "points": 10
+        },
+        {
+          "id": "484552414c44204f4620545249554d5048",
+          "name": "Herald of Triumph",
+          "points": 15
+        },
+        {
+          "id": "50454e4e414e54204f462053494c56455245442046555259",
+          "name": "Pennant of Silvered Fury",
+          "points": 15
+        },
+        {
+          "id": "5759524d534c4159455220444956494e4154494f4e",
+          "name": "Wyrmslayer Divination",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "5350454152484541442d41542d41524d53",
+      "name": "SPEARHEAD-AT-ARMS",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4641424c4553204f46204e494748544d415245",
+          "name": "Fables of Nightmare",
+          "points": 10
+        },
+        {
+          "id": "4d41525449414c2054554954494f4e",
+          "name": "Martial Tuition",
+          "points": 15
+        },
+        {
+          "id": "4d454e544f52e2809953205052494445",
+          "name": "Mentor’s Pride",
+          "points": 20
+        },
+        {
+          "id": "54414c4553204f46204845524f49534d",
+          "name": "Tales of Heroism",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "5448524f4e452d424f4e444544204f5554524944455253",
+      "name": "THRONE-BONDED OUTRIDERS",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "414e4345535452414c204f564552424c45454420285550475241444529",
+          "name": "Ancestral Overbleed (Upgrade)",
+          "points": 10
+        },
+        {
+          "id": "4759524f2d4f5054494d49534544204143545541544f525320285550475241444529",
+          "name": "Gyro-optimised Actuators (Upgrade)",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "56414c4f5552535452494b45204c414e4345",
+      "name": "VALOURSTRIKE LANCE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "424541524552204f4620544845204556414e455343454e5420494f4e",
+          "name": "Bearer of the Evanescent Ion",
+          "points": 15
+        },
+        {
+          "id": "424541524552204f46205448452049524f4e204348414c494345",
+          "name": "Bearer of the Iron Chalice",
+          "points": 20
+        },
+        {
+          "id": "424541524552204f4620544845204a55444943414e54e28099532048454c4d",
+          "name": "Bearer of the Judicant’s Helm",
+          "points": 25
+        },
+        {
+          "id": "424541524552204f4620544845204c414e434552e280995320534947494c",
+          "name": "Bearer of the Lancer’s Sigil",
+          "points": 25
+        }
+      ]
+    }
+  ]
+}

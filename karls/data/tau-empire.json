@@ -1,0 +1,778 @@
+{
+  "slug": "tau-empire",
+  "name": "T’au Empire",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "41582d312d3020544947455220534841524b",
+          "name": "AX-1-0 TIGER SHARK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 315
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 375
+            }
+          ]
+        },
+        {
+          "id": "4252454143484552205445414d",
+          "name": "BREACHER TEAM",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "42524f41445349444520424154544c455355495453",
+          "name": "BROADSIDE BATTLESUITS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            },
+            {
+              "models": 2,
+              "points": 150
+            },
+            {
+              "models": 3,
+              "points": 240
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 95
+            },
+            {
+              "models": 2,
+              "points": 170
+            },
+            {
+              "models": 3,
+              "points": 260
+            }
+          ]
+        },
+        {
+          "id": "43414452452046495245424c414445",
+          "name": "CADRE FIREBLADE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        },
+        {
+          "id": "434f4d4d414e444552204641525349474854",
+          "name": "COMMANDER FARSIGHT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "434f4d4d414e44455220494e20434f4c445354415220424154544c4553554954",
+          "name": "COMMANDER IN COLDSTAR BATTLESUIT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "id": "434f4d4d414e44455220494e20454e464f5243455220424154544c4553554954",
+          "name": "COMMANDER IN ENFORCER BATTLESUIT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "434f4d4d414e44455220534841444f5753554e",
+          "name": "COMMANDER SHADOWSUN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "43524953495320464952454b4e49464520424154544c455355495453",
+          "name": "CRISIS FIREKNIFE BATTLESUITS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 100
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "435249534953205354415253435954484520424154544c455355495453",
+          "name": "CRISIS STARSCYTHE BATTLESUITS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 90
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "4352495349532053554e464f52474520424154544c455355495453",
+          "name": "CRISIS SUNFORGE BATTLESUITS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 125
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "id": "4441524b53545249444552",
+          "name": "DARKSTRIDER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "444556494c46495348",
+          "name": "DEVILFISH",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "455448455245414c",
+          "name": "ETHEREAL",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        },
+        {
+          "id": "464952455349474854205445414d",
+          "name": "FIRESIGHT TEAM",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        },
+        {
+          "id": "47484f53544b45454c20424154544c4553554954",
+          "name": "GHOSTKEEL BATTLESUIT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "48414d4d4552484541442047554e53484950",
+          "name": "HAMMERHEAD GUNSHIP",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "4b524f4f54204341524e49564f524553",
+          "name": "KROOT CARNIVORES",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 65
+            },
+            {
+              "models": 20,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "4b524f4f54204641525354414c4b455253",
+          "name": "KROOT FARSTALKERS",
+          "tiers": [
+            {
+              "models": 12,
+              "points": 75
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 12,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "4b524f4f5420464c45534820534841504552",
+          "name": "KROOT FLESH SHAPER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        },
+        {
+          "id": "4b524f4f5420484f554e4453",
+          "name": "KROOT HOUNDS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 45
+            },
+            {
+              "models": 10,
+              "points": 65
+            }
+          ]
+        },
+        {
+          "id": "4b524f4f54204c4f4e452d5350454152",
+          "name": "KROOT LONE-SPEAR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "4b524f4f544f582052414d504147455253",
+          "name": "KROOTOX RAMPAGERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 85
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 95
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "id": "4b524f4f544f5820524944455253",
+          "name": "KROOTOX RIDERS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 45
+            },
+            {
+              "models": 2,
+              "points": 60
+            },
+            {
+              "models": 3,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "4b524f4f5420545241494c20534841504552",
+          "name": "KROOT TRAIL SHAPER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        },
+        {
+          "id": "4b524f4f542057415220534841504552",
+          "name": "KROOT WAR SHAPER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "4d414e5441",
+          "name": "MANTA",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "5041544846494e444552205445414d",
+          "name": "PATHFINDER TEAM",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "504952414e484153",
+          "name": "PIRANHAS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 65
+            },
+            {
+              "models": 2,
+              "points": 110
+            },
+            {
+              "models": 3,
+              "points": 165
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 75
+            },
+            {
+              "models": 2,
+              "points": 120
+            },
+            {
+              "models": 3,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "52415a4f52534841524b20535452494b452046494748544552",
+          "name": "RAZORSHARK STRIKE FIGHTER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "5249505449444520424154544c4553554954",
+          "name": "RIPTIDE BATTLESUIT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 210
+            }
+          ]
+        },
+        {
+          "id": "534b59205241592047554e53484950",
+          "name": "SKY RAY GUNSHIP",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "535445414c544820424154544c455355495453",
+          "name": "STEALTH BATTLESUITS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 100
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "53544f524d5355524745",
+          "name": "STORMSURGE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 360
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 385
+            }
+          ]
+        },
+        {
+          "id": "535452494b45205445414d",
+          "name": "STRIKE TEAM",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "53554e20534841524b20424f4d424552",
+          "name": "SUN SHARK BOMBER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "5441e28099554e41522053555052454d4143592041524d4f5552",
+          "name": "TA’UNAR SUPREMACY ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 790
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 890
+            }
+          ]
+        },
+        {
+          "id": "544845205457494e204c414e4345",
+          "name": "THE TWIN LANCE",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 205
+            }
+          ]
+        },
+        {
+          "id": "5449444557414c4c2044524f4e45504f5254",
+          "name": "TIDEWALL DRONEPORT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "5449444557414c4c2047554e524947",
+          "name": "TIDEWALL GUNRIG",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "5449444557414c4c20534849454c444c494e45",
+          "name": "TIDEWALL SHIELDLINE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            },
+            {
+              "models": 1,
+              "points": 20
+            }
+          ]
+        },
+        {
+          "id": "544947455220534841524b",
+          "name": "TIGER SHARK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 325
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 375
+            }
+          ]
+        },
+        {
+          "id": "564553504944205354494e4757494e4753",
+          "name": "VESPID STINGWINGS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 70
+            },
+            {
+              "models": 10,
+              "points": 115
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "id": "414456414e434544204143515549534954494f4e204341445245",
+      "name": "ADVANCED ACQUISITION CADRE",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "4e45474154494f4e20454d49545445525320285550475241444529",
+          "name": "Negation Emitters (Upgrade)",
+          "points": 15
+        },
+        {
+          "id": "554e4d41534b494e4720535549544520285550475241444529",
+          "name": "Unmasking Suite (Upgrade)",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "415558494c49415259204341445245",
+      "name": "AUXILIARY CADRE",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "41444d49524544204c4541444552",
+          "name": "Admired Leader",
+          "points": 20
+        },
+        {
+          "id": "53545544454e54204f46204b4155594f4e",
+          "name": "Student of Kauyon",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "4558504552494d454e54414c2050524f544f54595045204341445245",
+      "name": "EXPERIMENTAL PROTOTYPE CADRE",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "504c41534d4120414343454c455241544f52205249464c45",
+          "name": "Plasma Accelerator Rifle",
+          "points": 20
+        },
+        {
+          "id": "53555045524e4f5641204c41554e43484552",
+          "name": "Supernova Launcher",
+          "points": 15
+        },
+        {
+          "id": "544845524d4f4e455554524f4e49432050524f4a4543544f52",
+          "name": "Thermoneutronic Projector",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "4b4155594f4e",
+      "name": "KAUYON",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4558454d504c4152204f4620544845204b4155594f4e",
+          "name": "Exemplar of the Kauyon",
+          "points": 20
+        },
+        {
+          "id": "505245434953494f4e204f46205448452050415449454e542048554e544552",
+          "name": "Precision of the Patient Hunter",
+          "points": 15
+        },
+        {
+          "id": "534f4c49442d494d4147452050524f4a454354494f4e20554e4954",
+          "name": "Solid-image Projection Unit",
+          "points": 20
+        },
+        {
+          "id": "5448524f55474820554e4954592c204445564153544154494f4e",
+          "name": "Through Unity, Devastation",
+          "points": 30
+        }
+      ]
+    },
+    {
+      "id": "4b524f4f542048554e54494e47205041434b",
+      "name": "KROOT HUNTING PACK",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "424f525448524f4420474c414e44",
+          "name": "Borthrod Gland",
+          "points": 15
+        },
+        {
+          "id": "4b524f4f544841574b20464c4f434b",
+          "name": "Kroothawk Flock",
+          "points": 10
+        },
+        {
+          "id": "4e4f4d414449432048554e544552",
+          "name": "Nomadic Hunter",
+          "points": 20
+        },
+        {
+          "id": "524f4f542d43415256454420574541504f4e53",
+          "name": "Root-carved Weapons",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "4d4f4e54e280994b41",
+      "name": "MONT’KA",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "434f4f5244494e41544544204558504c4f49544154494f4e",
+          "name": "Coordinated Exploitation",
+          "points": 30
+        },
+        {
+          "id": "4558454d504c4152204f4620544845204d4f4e54e280994b41",
+          "name": "Exemplar of the Mont’ka",
+          "points": 10
+        },
+        {
+          "id": "53545241544547494320434f4e515545524f52",
+          "name": "Strategic Conqueror",
+          "points": 15
+        },
+        {
+          "id": "535452494b452053574946544c59",
+          "name": "Strike Swiftly",
+          "points": 35
+        }
+      ]
+    },
+    {
+      "id": "524554414c494154494f4e204341445245",
+      "name": "RETALIATION CADRE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "494e5445524e414c204752454e414445205241434b53",
+          "name": "Internal Grenade Racks",
+          "points": 20
+        },
+        {
+          "id": "50524f544f5459504520574541504f4e2053595354454d",
+          "name": "Prototype Weapon System",
+          "points": 15
+        },
+        {
+          "id": "505552455449444520454e4752414d204e4555524f43484950",
+          "name": "Puretide Engram Neurochip",
+          "points": 15
+        },
+        {
+          "id": "53544152464c4152452049474e4954494f4e2053595354454d",
+          "name": "Starflare Ignition System",
+          "points": 20
+        }
+      ]
+    }
+  ]
+}

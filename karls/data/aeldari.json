@@ -1,0 +1,1973 @@
+{
+  "slug": "aeldari",
+  "name": "Aeldari",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "415355524d454e",
+          "name": "ASURMEN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "id": "41555441524348",
+          "name": "AUTARCH",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "41555441524348205741594c4541504552",
+          "name": "AUTARCH WAYLEAPER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "415641544152204f46204b4841494e45",
+          "name": "AVATAR OF KHAINE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 265
+            }
+          ]
+        },
+        {
+          "id": "4241484152524f5448",
+          "name": "BAHARROTH",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "id": "434f525341495220534b5952454156455253",
+          "name": "CORSAIR SKYREAVERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "434f525341495220564f494452454156455253",
+          "name": "CORSAIR VOIDREAVERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 65
+            },
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "434f525341495220564f494453434152524544",
+          "name": "CORSAIR VOIDSCARRED",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "4352494d534f4e2048554e544552",
+          "name": "CRIMSON HUNTER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "4441524b2052454150455253",
+          "name": "DARK REAPERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 210
+            }
+          ]
+        },
+        {
+          "id": "442d43414e4e4f4e20504c4154464f524d",
+          "name": "D-CANNON PLATFORM",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "id": "44495245204156454e47455253",
+          "name": "DIRE AVENGERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "454c4452414420554c544852414e",
+          "name": "ELDRAD ULTHRAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "46414c434f4e",
+          "name": "FALCON",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "46415253454552",
+          "name": "FARSEER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "4641525345455220534b5952554e4e4552",
+          "name": "FARSEER SKYRUNNER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "4649524520445241474f4e53",
+          "name": "FIRE DRAGONS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 240
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 130
+            },
+            {
+              "models": 10,
+              "points": 250
+            }
+          ]
+        },
+        {
+          "id": "4649524520505249534d",
+          "name": "FIRE PRISM",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "46554547414e",
+          "name": "FUEGAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "475541524449414e20444546454e44455253",
+          "name": "GUARDIAN DEFENDERS",
+          "tiers": [
+            {
+              "models": 11,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "48454d4c4f434b2057524149544846494748544552",
+          "name": "HEMLOCK WRAITHFIGHTER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 155
+            }
+          ]
+        },
+        {
+          "id": "484f574c494e472042414e5348454553",
+          "name": "HOWLING BANSHEES",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 165
+            }
+          ]
+        },
+        {
+          "id": "4a41494e205a4152",
+          "name": "JAIN ZAR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        },
+        {
+          "id": "4b48415253455448",
+          "name": "KHARSETH",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "4c48594b484953",
+          "name": "LHYKHIS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "id": "4d415547414e205241",
+          "name": "MAUGAN RA",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "4e49474854205350494e4e4552",
+          "name": "NIGHT SPINNER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "5048414e544f4d20544954414e",
+          "name": "PHANTOM TITAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "5052494e434520595249454c",
+          "name": "PRINCE YRIEL",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "id": "52414e47455253",
+          "name": "RANGERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 60
+            },
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "524556454e414e5420544954414e",
+          "name": "REVENANT TITAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 1
+            }
+          ]
+        },
+        {
+          "id": "534841444f572057454156455220504c4154464f524d",
+          "name": "SHADOW WEAVER PLATFORM",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "5348494e494e4720535045415253",
+          "name": "SHINING SPEARS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 105
+            },
+            {
+              "models": 6,
+              "points": 210
+            }
+          ]
+        },
+        {
+          "id": "5348524f55442052554e4e455253",
+          "name": "SHROUD RUNNERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 95
+            },
+            {
+              "models": 6,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "53504952495453454552",
+          "name": "SPIRITSEER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        },
+        {
+          "id": "5354415246414e4753",
+          "name": "STARFANGS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            },
+            {
+              "models": 2,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "53544f524d20475541524449414e53",
+          "name": "STORM GUARDIANS",
+          "tiers": [
+            {
+              "models": 11,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "535452494b494e472053434f5250494f4e53",
+          "name": "STRIKING SCORPIONS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "53574f4f50494e47204841574b53",
+          "name": "SWOOPING HAWKS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 115
+            },
+            {
+              "models": 10,
+              "points": 205
+            }
+          ]
+        },
+        {
+          "id": "564942524f2043414e4e4f4e20504c4154464f524d",
+          "name": "VIBRO CANNON PLATFORM",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "5659504552",
+          "name": "VYPER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            },
+            {
+              "models": 2,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "5741524c4f434b",
+          "name": "WARLOCK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        },
+        {
+          "id": "5741524c4f434b20434f4e434c415645",
+          "name": "WARLOCK CONCLAVE",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 55
+            },
+            {
+              "models": 4,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "5741524c4f434b20534b5952554e4e455253",
+          "name": "WARLOCK SKYRUNNERS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 45
+            },
+            {
+              "models": 2,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "574152502053504944455253",
+          "name": "WARP SPIDERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 115
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 130
+            },
+            {
+              "models": 10,
+              "points": 215
+            }
+          ]
+        },
+        {
+          "id": "5741522057414c4b455253",
+          "name": "WAR WALKERS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            },
+            {
+              "models": 2,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "574156452053455250454e54",
+          "name": "WAVE SERPENT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "id": "57494e44524944455253",
+          "name": "WINDRIDERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "575241495448424c41444553",
+          "name": "WRAITHBLADES",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "5752414954484755415244",
+          "name": "WRAITHGUARD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "5752414954484b4e49474854",
+          "name": "WRAITHKNIGHT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 435
+            }
+          ]
+        },
+        {
+          "id": "5752414954484b4e4947485420574954482047484f5354474c41495645",
+          "name": "WRAITHKNIGHT WITH GHOSTGLAIVE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 405
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 425
+            }
+          ]
+        },
+        {
+          "id": "5752414954484c4f5244",
+          "name": "WRAITHLORD",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "HARLEQUINS",
+      "units": [
+        {
+          "id": "4445415448204a4553544552",
+          "name": "DEATH JESTER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "534841444f5753454552",
+          "name": "SHADOWSEER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "534b5957454156455253",
+          "name": "SKYWEAVERS",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 105
+            },
+            {
+              "models": 4,
+              "points": 210
+            }
+          ]
+        },
+        {
+          "id": "534f4c495441495245",
+          "name": "SOLITAIRE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "id": "53544152574541564552",
+          "name": "STARWEAVER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "54524f555045",
+          "name": "TROUPE",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 6,
+              "points": 100
+            },
+            {
+              "models": 11,
+              "points": 190
+            },
+            {
+              "models": 12,
+              "points": 205
+            }
+          ]
+        },
+        {
+          "id": "54524f555045204d4153544552",
+          "name": "TROUPE MASTER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "564f4944574541564552",
+          "name": "VOIDWEAVER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "YNNARI",
+      "units": [
+        {
+          "id": "5448452056495341524348",
+          "name": "THE VISARCH",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "54484520594e4341524e45",
+          "name": "THE YNCARNE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 245
+            }
+          ]
+        },
+        {
+          "id": "594e4e41524920415243484f4e",
+          "name": "YNNARI ARCHON",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "594e4e41524920494e43554249",
+          "name": "YNNARI INCUBI",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "594e4e415249204b4142414c4954452057415252494f5253",
+          "name": "YNNARI KABALITE WARRIORS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "594e4e41524920524149444552",
+          "name": "YNNARI RAIDER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "594e4e4152492052454156455253",
+          "name": "YNNARI REAVERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 65
+            },
+            {
+              "models": 6,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "594e4e415249205355434355425553",
+          "name": "YNNARI SUCCUBUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        },
+        {
+          "id": "594e4e4152492056454e4f4d",
+          "name": "YNNARI VENOM",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "594e4e41524920575943484553",
+          "name": "YNNARI WYCHES",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "59565241494e45",
+          "name": "YVRAINE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "4241484152524f5448",
+          "name": "BAHARROTH",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "id": "434f525341495220534b5952454156455253",
+          "name": "CORSAIR SKYREAVERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "434f525341495220564f494452454156455253",
+          "name": "CORSAIR VOIDREAVERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 65
+            },
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "434f525341495220564f494453434152524544",
+          "name": "CORSAIR VOIDSCARRED",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "4352494d534f4e2048554e544552",
+          "name": "CRIMSON HUNTER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "4441524b2052454150455253",
+          "name": "DARK REAPERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 210
+            }
+          ]
+        },
+        {
+          "id": "442d43414e4e4f4e20504c4154464f524d",
+          "name": "D-CANNON PLATFORM",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "id": "44495245204156454e47455253",
+          "name": "DIRE AVENGERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "454c4452414420554c544852414e",
+          "name": "ELDRAD ULTHRAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "46414c434f4e",
+          "name": "FALCON",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "46415253454552",
+          "name": "FARSEER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "4641525345455220534b5952554e4e4552",
+          "name": "FARSEER SKYRUNNER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "4649524520445241474f4e53",
+          "name": "FIRE DRAGONS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 240
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 130
+            },
+            {
+              "models": 10,
+              "points": 250
+            }
+          ]
+        },
+        {
+          "id": "4649524520505249534d",
+          "name": "FIRE PRISM",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "46554547414e",
+          "name": "FUEGAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "475541524449414e20444546454e44455253",
+          "name": "GUARDIAN DEFENDERS",
+          "tiers": [
+            {
+              "models": 11,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "48454d4c4f434b2057524149544846494748544552",
+          "name": "HEMLOCK WRAITHFIGHTER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 155
+            }
+          ]
+        },
+        {
+          "id": "484f574c494e472042414e5348454553",
+          "name": "HOWLING BANSHEES",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 165
+            }
+          ]
+        },
+        {
+          "id": "4a41494e205a4152",
+          "name": "JAIN ZAR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        },
+        {
+          "id": "4b48415253455448",
+          "name": "KHARSETH",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "4c48594b484953",
+          "name": "LHYKHIS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "id": "4d415547414e205241",
+          "name": "MAUGAN RA",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "4e49474854205350494e4e4552",
+          "name": "NIGHT SPINNER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "5048414e544f4d20544954414e",
+          "name": "PHANTOM TITAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "5052494e434520595249454c",
+          "name": "PRINCE YRIEL",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "id": "52414e47455253",
+          "name": "RANGERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 60
+            },
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "524556454e414e5420544954414e",
+          "name": "REVENANT TITAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 1
+            }
+          ]
+        },
+        {
+          "id": "534841444f572057454156455220504c4154464f524d",
+          "name": "SHADOW WEAVER PLATFORM",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "5348494e494e4720535045415253",
+          "name": "SHINING SPEARS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 105
+            },
+            {
+              "models": 6,
+              "points": 210
+            }
+          ]
+        },
+        {
+          "id": "5348524f55442052554e4e455253",
+          "name": "SHROUD RUNNERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 95
+            },
+            {
+              "models": 6,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "53504952495453454552",
+          "name": "SPIRITSEER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        },
+        {
+          "id": "5354415246414e4753",
+          "name": "STARFANGS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            },
+            {
+              "models": 2,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "53544f524d20475541524449414e53",
+          "name": "STORM GUARDIANS",
+          "tiers": [
+            {
+              "models": 11,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "535452494b494e472053434f5250494f4e53",
+          "name": "STRIKING SCORPIONS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "53574f4f50494e47204841574b53",
+          "name": "SWOOPING HAWKS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 115
+            },
+            {
+              "models": 10,
+              "points": 205
+            }
+          ]
+        },
+        {
+          "id": "564942524f2043414e4e4f4e20504c4154464f524d",
+          "name": "VIBRO CANNON PLATFORM",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "5659504552",
+          "name": "VYPER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            },
+            {
+              "models": 2,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "5741524c4f434b",
+          "name": "WARLOCK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        },
+        {
+          "id": "5741524c4f434b20434f4e434c415645",
+          "name": "WARLOCK CONCLAVE",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 55
+            },
+            {
+              "models": 4,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "5741524c4f434b20534b5952554e4e455253",
+          "name": "WARLOCK SKYRUNNERS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 45
+            },
+            {
+              "models": 2,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "574152502053504944455253",
+          "name": "WARP SPIDERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 115
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 130
+            },
+            {
+              "models": 10,
+              "points": 215
+            }
+          ]
+        },
+        {
+          "id": "5741522057414c4b455253",
+          "name": "WAR WALKERS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            },
+            {
+              "models": 2,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "574156452053455250454e54",
+          "name": "WAVE SERPENT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "id": "57494e44524944455253",
+          "name": "WINDRIDERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "575241495448424c41444553",
+          "name": "WRAITHBLADES",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "5752414954484755415244",
+          "name": "WRAITHGUARD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "5752414954484b4e49474854",
+          "name": "WRAITHKNIGHT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 435
+            }
+          ]
+        },
+        {
+          "id": "5752414954484b4e4947485420574954482047484f5354474c41495645",
+          "name": "WRAITHKNIGHT WITH GHOSTGLAIVE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 405
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 425
+            }
+          ]
+        },
+        {
+          "id": "5752414954484c4f5244",
+          "name": "WRAITHLORD",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "id": "54524f555045",
+          "name": "TROUPE",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 6,
+              "points": 100
+            },
+            {
+              "models": 11,
+              "points": 190
+            },
+            {
+              "models": 12,
+              "points": 205
+            }
+          ]
+        },
+        {
+          "id": "54524f555045204d4153544552",
+          "name": "TROUPE MASTER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "564f4944574541564552",
+          "name": "VOIDWEAVER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "id": "41524d4f5552454420574152484f5354",
+      "name": "ARMOURED WARHOST",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "47554944494e472050524553454e4345",
+          "name": "Guiding Presence",
+          "points": 25
+        },
+        {
+          "id": "5350495249542053544f4e45204f46205241454c595448",
+          "name": "Spirit Stone of Raelyth",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "41535045435420484f5354",
+      "name": "ASPECT HOST",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "415350454354204f46204d5552444552",
+          "name": "Aspect of Murder",
+          "points": 15
+        },
+        {
+          "id": "4d414e544c45204f4620574953444f4d",
+          "name": "Mantle of Wisdom",
+          "points": 20
+        },
+        {
+          "id": "5348494d4d455253544f4e45",
+          "name": "Shimmerstone",
+          "points": 10
+        },
+        {
+          "id": "53545241544547494320534156414e54",
+          "name": "Strategic Savant",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "434f525341495220434f5445524945",
+      "name": "CORSAIR COTERIE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "41524348524149444552",
+          "name": "Archraider",
+          "points": 35
+        },
+        {
+          "id": "494e46414d59",
+          "name": "Infamy",
+          "points": 25
+        },
+        {
+          "id": "564f494453544f4e45",
+          "name": "Voidstone",
+          "points": 15
+        },
+        {
+          "id": "574542574159205041544853544f4e45",
+          "name": "Webway Pathstone",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "4445564f544544204f4620594e4e454144",
+      "name": "DEVOTED OF YNNEAD",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "424f52524f574544205649474f5552",
+          "name": "Borrowed Vigour",
+          "points": 10
+        },
+        {
+          "id": "47415a45204f4620594e4e454144",
+          "name": "Gaze of Ynnead",
+          "points": 15
+        },
+        {
+          "id": "4d4f52424944204d49474854",
+          "name": "Morbid Might",
+          "points": 15
+        },
+        {
+          "id": "53544f524d204f46205748495350455253",
+          "name": "Storm of Whispers",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "454c4452495443482052414944455253",
+      "name": "ELDRITCH RAIDERS",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "414452454e414c20494e465553494f4e53",
+          "name": "Adrenal Infusions",
+          "points": 20
+        },
+        {
+          "id": "414c41435249544f55532041535341554c54",
+          "name": "Alacritous Assault",
+          "points": 20
+        },
+        {
+          "id": "45584f544943204d554e4954494f4e53",
+          "name": "Exotic Munitions",
+          "points": 15
+        },
+        {
+          "id": "504952415445205052494e4345",
+          "name": "Pirate Prince",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "4641544546554c20504552464f524d414e4345",
+      "name": "FATEFUL PERFORMANCE",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "4120464f4f5420494e2054484520465554555245",
+          "name": "A Foot in the Future",
+          "points": 15
+        },
+        {
+          "id": "4d4953545745415645",
+          "name": "Mistweave",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "47484f535453204f462054484520574542574159",
+      "name": "GHOSTS OF THE WEBWAY",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4345474f52414348e280995320434f494c",
+          "name": "Cegorach’s Coil",
+          "points": 25
+        },
+        {
+          "id": "4d41534b204f462053454352455453",
+          "name": "Mask of Secrets",
+          "points": 15
+        },
+        {
+          "id": "4d4953545745415645",
+          "name": "Mistweave",
+          "points": 15
+        },
+        {
+          "id": "4d5552444552e2809953204a455354",
+          "name": "Murder’s Jest",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "475541524449414e20424154544c45484f5354",
+      "name": "GUARDIAN BATTLEHOST",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "425245415448204f46205641554c",
+          "name": "Breath of Vaul",
+          "points": 10
+        },
+        {
+          "id": "4352414654574f524c44e2809953204348414d50494f4e",
+          "name": "Craftworld’s Champion",
+          "points": 25
+        },
+        {
+          "id": "455448455245414c2050415448574159",
+          "name": "Ethereal Pathway",
+          "points": 30
+        },
+        {
+          "id": "50524f544543544f52204f4620544845205041544853",
+          "name": "Protector of the Paths",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "50415448204f4620544845204f555443415354",
+      "name": "PATH OF THE OUTCAST",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "415353415353494e53272045594520285550475241444529",
+          "name": "Assassins' Eye (Upgrade)",
+          "points": 15
+        },
+        {
+          "id": "43414d4f55464c4147454420534e495045525320285550475241444529",
+          "name": "Camouflaged Snipers (Upgrade)",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "5345455220434f554e43494c",
+      "name": "SEER COUNCIL",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4c5543494420455945",
+          "name": "Lucid Eye",
+          "points": 30
+        },
+        {
+          "id": "52554e4553204f462057415244494e47",
+          "name": "Runes of Warding",
+          "points": 25
+        },
+        {
+          "id": "53544f4e45204f4620454c4452495443482046555259",
+          "name": "Stone of Eldritch Fury",
+          "points": 15
+        },
+        {
+          "id": "544f5243204f46204d4f5241492d484547",
+          "name": "Torc of Morai-Heg",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "53455250454e54e28099532042524f4f44",
+      "name": "SERPENT’S BROOD",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "46414e474544204c454552",
+          "name": "Fanged Leer",
+          "points": 10
+        },
+        {
+          "id": "4b4559204f462047484f535453",
+          "name": "Key of Ghosts",
+          "points": 20
+        },
+        {
+          "id": "53484544534b494e205241494d454e54",
+          "name": "Shedskin Raiment",
+          "points": 25
+        },
+        {
+          "id": "5745415645525327205741494c",
+          "name": "Weavers' Wail",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "53504952495420434f4e434c415645",
+      "name": "SPIRIT CONCLAVE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4849474845522044555459",
+          "name": "Higher Duty",
+          "points": 25
+        },
+        {
+          "id": "4c49474854204f4620434c4152495459",
+          "name": "Light of Clarity",
+          "points": 30
+        },
+        {
+          "id": "52554e45204f46204d49535453",
+          "name": "Rune of Mists",
+          "points": 10
+        },
+        {
+          "id": "5354415645204f46204b55524e4f5553",
+          "name": "Stave of Kurnous",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "5457494c4947485420464c49434b455253",
+      "name": "TWILIGHT FLICKERS",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "5052454c55444520504552464f524d4552",
+          "name": "Prelude Performer",
+          "points": 20
+        },
+        {
+          "id": "534841444f5746414c4c204d41534b5320285550475241444529",
+          "name": "Shadowfall Masks (Upgrade)",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "574152484f5354",
+      "name": "WARHOST",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "47494654204f4620464f52455349474854",
+          "name": "Gift of Foresight",
+          "points": 15
+        },
+        {
+          "id": "50484f454e49582047454d",
+          "name": "Phoenix Gem",
+          "points": 35
+        },
+        {
+          "id": "505359434849432044455354524f594552",
+          "name": "Psychic Destroyer",
+          "points": 30
+        },
+        {
+          "id": "54494d454c4553532053545241544547495354",
+          "name": "Timeless Strategist",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "57494e44524944455220484f5354",
+      "name": "WINDRIDER HOST",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4543484f4553204f4620554c5448414e455348",
+          "name": "Echoes of Ulthanesh",
+          "points": 20
+        },
+        {
+          "id": "4649525354445241574e20424c414445",
+          "name": "Firstdrawn Blade",
+          "points": 10
+        },
+        {
+          "id": "4d4952414745204649454c44",
+          "name": "Mirage Field",
+          "points": 25
+        },
+        {
+          "id": "53454552534947485420535452494b45",
+          "name": "Seersight Strike",
+          "points": 15
+        }
+      ]
+    }
+  ]
+}

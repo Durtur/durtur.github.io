@@ -1,0 +1,54 @@
+{
+  "slug": "chaos-titan-legions",
+  "name": "Chaos Titan Legions",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "4348414f532052454156455220544954414e",
+          "name": "CHAOS REAVER TITAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "4348414f53205741524252494e474552204e454d4553495320544954414e",
+          "name": "CHAOS WARBRINGER NEMESIS TITAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "4348414f5320574152484f554e4420544954414e",
+          "name": "CHAOS WARHOUND TITAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 1
+            }
+          ]
+        },
+        {
+          "id": "4348414f53205741524c4f524420544954414e",
+          "name": "CHAOS WARLORD TITAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": []
+}

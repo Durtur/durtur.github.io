@@ -1,0 +1,625 @@
+{
+  "slug": "adepta-sororitas",
+  "name": "Adepta Sororitas",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "414553545245442054485552474120414e44204147415448414520444f4c414e",
+          "name": "AESTRED THURGA AND AGATHAE DOLAN",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "4152434f2d464c4147454c4c414e5453",
+          "name": "ARCO-FLAGELLANTS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 50
+            },
+            {
+              "models": 10,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "424154544c452053495354455253205351554144",
+          "name": "BATTLE SISTERS SQUAD",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "43414e4f4e455353",
+          "name": "CANONESS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "43414e4f4e4553532057495448204a554d50205041434b",
+          "name": "CANONESS WITH JUMP PACK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "43415354494741544f52",
+          "name": "CASTIGATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 165
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "43454c45535449414e20494e53494449414e5453",
+          "name": "CELESTIAN INSIDIANTS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "43454c45535449414e20534143524553414e5453",
+          "name": "CELESTIAN SACRESANTS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 165
+            }
+          ]
+        },
+        {
+          "id": "4441454d4f4e4946554745",
+          "name": "DAEMONIFUGE",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "4449414c4f475553",
+          "name": "DIALOGUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        },
+        {
+          "id": "444f474d415441",
+          "name": "DOGMATA",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        },
+        {
+          "id": "444f4d494e494f4e205351554144",
+          "name": "DOMINION SQUAD",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 100
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "45584f5243495354",
+          "name": "EXORCIST",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "id": "484f53504954414c4c4552",
+          "name": "HOSPITALLER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "494d41474946494552",
+          "name": "IMAGIFIER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        },
+        {
+          "id": "494d4d4f4c41544f52",
+          "name": "IMMOLATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ],
+          "repeatFromCopy": 4,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "494e5452414e5a4941204652415945",
+          "name": "INTRANZIA FRAYE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "4a554e49544820455255495441",
+          "name": "JUNITH ERUITA",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "id": "4d494e4953544f52554d20505249455354",
+          "name": "MINISTORUM PRIEST",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        },
+        {
+          "id": "4d4f5254494649455253",
+          "name": "MORTIFIERS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            },
+            {
+              "models": 2,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "4d4f5256454e4e205641484c",
+          "name": "MORVENN VAHL",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        },
+        {
+          "id": "50414c4154494e45",
+          "name": "PALATINE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        },
+        {
+          "id": "50415241474f4e205741525355495453",
+          "name": "PARAGON WARSUITS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 180
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "50454e4954454e5420454e47494e4553",
+          "name": "PENITENT ENGINES",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            },
+            {
+              "models": 2,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "524550454e544941205351554144",
+          "name": "REPENTIA SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "52455452494255544f52205351554144",
+          "name": "RETRIBUTOR SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 105
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "id": "5341494e542043454c455354494e45",
+          "name": "SAINT CELESTINE",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "53414e4354494649455253",
+          "name": "SANCTIFIERS",
+          "tiers": [
+            {
+              "models": 9,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "534552415048494d205351554144",
+          "name": "SERAPHIM SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 95
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "53495354455253204e4f56495449415445205351554144",
+          "name": "SISTERS NOVITIATE SQUAD",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "534f524f5249544153205248494e4f",
+          "name": "SORORITAS RHINO",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "545249554d5048204f46205341494e54204b4154484552494e45",
+          "name": "TRIUMPH OF SAINT KATHERINE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 245
+            }
+          ]
+        },
+        {
+          "id": "5a4550485952494d205351554144",
+          "name": "ZEPHYRIM SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "id": "41524d59204f46204641495448",
+      "name": "ARMY OF FAITH",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "424c414445204f46205341494e5420454c4c594e4f52",
+          "name": "Blade of Saint Ellynor",
+          "points": 15
+        },
+        {
+          "id": "444956494e4520415350454354",
+          "name": "Divine Aspect",
+          "points": 5
+        },
+        {
+          "id": "4c4954414e494553204f46204641495448",
+          "name": "Litanies of Faith",
+          "points": 10
+        },
+        {
+          "id": "5452495054594348204f4620544845204d414348415249414e2043525553414445",
+          "name": "Triptych of the Macharian Crusade",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "4252494e47455253204f4620464c414d45",
+      "name": "BRINGERS OF FLAME",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "4649524520414e442046555259",
+          "name": "Fire and Fury",
+          "points": 30
+        },
+        {
+          "id": "49524f4e20535552504c494345204f46205341494e5420495354414c454c41",
+          "name": "Iron Surplice of Saint Istalela",
+          "points": 10
+        },
+        {
+          "id": "4d414e55414c204f46205341494e542047524953454c4441",
+          "name": "Manual of Saint Griselda",
+          "points": 20
+        },
+        {
+          "id": "5249474854454f55532052414745",
+          "name": "Righteous Rage",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "4348414d50494f4e53204f46204641495448",
+      "name": "CHAMPIONS OF FAITH",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "45594553204f4620544845204f5241434c45",
+          "name": "Eyes of the Oracle",
+          "points": 10
+        },
+        {
+          "id": "4d41524b204f46204445564f54494f4e",
+          "name": "Mark of Devotion",
+          "points": 30
+        },
+        {
+          "id": "53414e4354494649454420414d554c4554",
+          "name": "Sanctified Amulet",
+          "points": 25
+        },
+        {
+          "id": "5452495054594348204f46204a554447454d454e54",
+          "name": "Triptych of Judgement",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "43484f525553204f4620434f4e44454d4e4154494f4e",
+      "name": "CHORUS OF CONDEMNATION",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "434c4152494f4e204f4620555247454e4359",
+          "name": "Clarion of Urgency",
+          "points": 15
+        },
+        {
+          "id": "53594d50484f4e4943205041594c4f414420285550475241444529",
+          "name": "Symphonic Payload (Upgrade)",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "48414c4c4f574544204d415254595253",
+      "name": "HALLOWED MARTYRS",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "434841504c4554204f4620534143524946494345",
+          "name": "Chaplet of Sacrifice",
+          "points": 25
+        },
+        {
+          "id": "4d414e544c45204f46204f5048454c4941",
+          "name": "Mantle of Ophelia",
+          "points": 20
+        },
+        {
+          "id": "5341494e544c59204558414d504c45",
+          "name": "Saintly Example",
+          "points": 10
+        },
+        {
+          "id": "5448524f55474820535546464552494e472c20535452454e475448",
+          "name": "Through Suffering, Strength",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "50454e4954454e5420484f5354",
+      "name": "PENITENT HOST",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "43415445434849534d204f4620444956494e452050454e4954454e4345",
+          "name": "Catechism of Divine Penitence",
+          "points": 20
+        },
+        {
+          "id": "5053414c4d204f46205249474854454f5553204a554447454d454e54",
+          "name": "Psalm of Righteous Judgement",
+          "points": 30
+        },
+        {
+          "id": "5245465241494e204f4620454e445552494e47204641495448",
+          "name": "Refrain of Enduring Faith",
+          "points": 25
+        },
+        {
+          "id": "5645525345204f4620484f4c59205049455459",
+          "name": "Verse of Holy Piety",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "534143524544204348414d50494f4e53",
+      "name": "SACRED CHAMPIONS",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "504552464552564944204841535445",
+          "name": "Perfervid Haste",
+          "points": 10
+        },
+        {
+          "id": "57524954204f4620434f4d50554e4354494f4e20285550475241444529",
+          "name": "Writ of Compunction (Upgrade)",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "53414e43544946494544204f5241544f5253",
+      "name": "SANCTIFIED ORATORS",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "484147494f4d4e4946455820285550475241444529",
+          "name": "Hagiomnifex (Upgrade)",
+          "points": 25
+        }
+      ]
+    }
+  ]
+}

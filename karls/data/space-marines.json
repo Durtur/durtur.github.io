@@ -1,0 +1,3231 @@
+{
+  "slug": "space-marines",
+  "name": "Space Marines",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "414747524553534f52205351554144",
+          "name": "AGGRESSOR SQUAD",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 100
+            },
+            {
+              "models": 6,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "414e4349454e54",
+          "name": "ANCIENT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        },
+        {
+          "id": "414e4349454e5420494e205445524d494e41544f522041524d4f5552",
+          "name": "ANCIENT IN TERMINATOR ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        },
+        {
+          "id": "41504f54484543415259",
+          "name": "APOTHECARY",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        },
+        {
+          "id": "41504f544845434152592042494f4c4f474953",
+          "name": "APOTHECARY BIOLOGIS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "41535341554c5420494e544552434553534f52205351554144",
+          "name": "ASSAULT INTERCESSOR SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "41535341554c5420494e544552434553534f52532057495448204a554d50205041434b53",
+          "name": "ASSAULT INTERCESSORS WITH JUMP PACKS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 95
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "4153545241455553",
+          "name": "ASTRAEUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 525
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 575
+            }
+          ]
+        },
+        {
+          "id": "42414c4c49535455532044524541444e4f55474854",
+          "name": "BALLISTUS DREADNOUGHT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "424c414445475541524420414e4349454e54",
+          "name": "BLADEGUARD ANCIENT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        },
+        {
+          "id": "424c4144454755415244205645544552414e205351554144",
+          "name": "BLADEGUARD VETERAN SQUAD",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "42525554414c49532044524541444e4f55474854",
+          "name": "BRUTALIS DREADNOUGHT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "4341505441494e",
+          "name": "CAPTAIN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "4341505441494e20494e204752415649532041524d4f5552",
+          "name": "CAPTAIN IN GRAVIS ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "4341505441494e20494e2050484f424f532041524d4f5552",
+          "name": "CAPTAIN IN PHOBOS ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "4341505441494e20494e205445524d494e41544f522041524d4f5552",
+          "name": "CAPTAIN IN TERMINATOR ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "4341505441494e2057495448204a554d50205041434b",
+          "name": "CAPTAIN WITH JUMP PACK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "43454e545552494f4e2041535341554c54205351554144",
+          "name": "CENTURION ASSAULT SQUAD",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 150
+            },
+            {
+              "models": 6,
+              "points": 300
+            }
+          ]
+        },
+        {
+          "id": "43454e545552494f4e2044455641535441544f52205351554144",
+          "name": "CENTURION DEVASTATOR SQUAD",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 175
+            },
+            {
+              "models": 6,
+              "points": 350
+            }
+          ]
+        },
+        {
+          "id": "434841504c41494e",
+          "name": "CHAPLAIN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "434841504c41494e20494e205445524d494e41544f522041524d4f5552",
+          "name": "CHAPLAIN IN TERMINATOR ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "434841504c41494e204f4e2042494b45",
+          "name": "CHAPLAIN ON BIKE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "434841504c41494e2057495448204a554d50205041434b",
+          "name": "CHAPLAIN WITH JUMP PACK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "434f4d50414e59204845524f4553",
+          "name": "COMPANY HEROES",
+          "tiers": [
+            {
+              "models": 4,
+              "points": 105
+            }
+          ]
+        },
+        {
+          "id": "4445534f4c4154494f4e205351554144",
+          "name": "DESOLATION SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 180
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 210
+            }
+          ]
+        },
+        {
+          "id": "44455641535441544f52205351554144",
+          "name": "DEVASTATOR SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "id": "44524541444e4f55474854",
+          "name": "DREADNOUGHT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "id": "44524f5020504f44",
+          "name": "DROP POD",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "454c494d494e41544f52205351554144",
+          "name": "ELIMINATOR SQUAD",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "45524144494341544f52205351554144",
+          "name": "ERADICATOR SQUAD",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 100
+            },
+            {
+              "models": 6,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "45524144494341544f52205351554144205749544820484541565920424f4c54455253",
+          "name": "ERADICATOR SQUAD WITH HEAVY BOLTERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 70
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "46495245535452494b4520534552564f2d54555252455453",
+          "name": "FIRESTRIKE SERVO-TURRETS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            },
+            {
+              "models": 2,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "474c41444941544f52204c414e434552",
+          "name": "GLADIATOR LANCER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "474c41444941544f5220524541504552",
+          "name": "GLADIATOR REAPER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "474c41444941544f522056414c49414e54",
+          "name": "GLADIATOR VALIANT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "48414d4d455246414c4c2042554e4b4552",
+          "name": "HAMMERFALL BUNKER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "484541565920494e544552434553534f52205351554144",
+          "name": "HEAVY INTERCESSOR SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "id": "48454c4c424c4153544552205351554144",
+          "name": "HELLBLASTER SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "id": "494d50554c534f52",
+          "name": "IMPULSOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "494e434550544f52205351554144",
+          "name": "INCEPTOR SQUAD",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 120
+            },
+            {
+              "models": 6,
+              "points": 240
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 135
+            },
+            {
+              "models": 6,
+              "points": 255
+            }
+          ]
+        },
+        {
+          "id": "494e435552534f52205351554144",
+          "name": "INCURSOR SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 95
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "494e4645524e5553205351554144",
+          "name": "INFERNUS SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "494e46494c545241544f52205351554144",
+          "name": "INFILTRATOR SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 180
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "494e544552434553534f52205351554144",
+          "name": "INTERCESSOR SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "494e564144455220415456",
+          "name": "INVADER ATV",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "494e564943544f5220544143544943414c2057415253554954",
+          "name": "INVICTOR TACTICAL WARSUIT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "id": "4a55444943494152",
+          "name": "JUDICIAR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        },
+        {
+          "id": "4c414e4420524149444552",
+          "name": "LAND RAIDER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "id": "4c414e4420524149444552204352555341444552",
+          "name": "LAND RAIDER CRUSADER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "id": "4c414e44205241494445522052454445454d4552",
+          "name": "LAND RAIDER REDEEMER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ]
+        },
+        {
+          "id": "4c414e442053504545444552",
+          "name": "LAND SPEEDER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        },
+        {
+          "id": "4c494252415249414e",
+          "name": "LIBRARIAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "4c494252415249414e20494e2050484f424f532041524d4f5552",
+          "name": "LIBRARIAN IN PHOBOS ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "4c494252415249414e20494e205445524d494e41544f522041524d4f5552",
+          "name": "LIBRARIAN IN TERMINATOR ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "4c49455554454e414e54",
+          "name": "LIEUTENANT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        },
+        {
+          "id": "4c49455554454e414e5420494e2050484f424f532041524d4f5552",
+          "name": "LIEUTENANT IN PHOBOS ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        },
+        {
+          "id": "4c49455554454e414e5420494e205245495645522041524d4f5552",
+          "name": "LIEUTENANT IN REIVER ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        },
+        {
+          "id": "4c49455554454e414e54205749544820434f4d42492d574541504f4e",
+          "name": "LIEUTENANT WITH COMBI-WEAPON",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "4f55545249444552205351554144",
+          "name": "OUTRIDER SQUAD",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 70
+            },
+            {
+              "models": 6,
+              "points": 140
+            },
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "5052454441544f5220414e4e4948494c41544f52",
+          "name": "PREDATOR ANNIHILATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "5052454441544f522044455354525543544f52",
+          "name": "PREDATOR DESTRUCTOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "52415a4f524241434b",
+          "name": "RAZORBACK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "id": "524544454d50544f522044524541444e4f55474854",
+          "name": "REDEMPTOR DREADNOUGHT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 210
+            }
+          ]
+        },
+        {
+          "id": "524549564552205351554144",
+          "name": "REIVER SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "524550554c534f52",
+          "name": "REPULSOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "524550554c534f5220455845435554494f4e4552",
+          "name": "REPULSOR EXECUTIONER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 260
+            }
+          ]
+        },
+        {
+          "id": "5248494e4f",
+          "name": "RHINO",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "53434f5554205351554144",
+          "name": "SCOUT SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 65
+            },
+            {
+              "models": 10,
+              "points": 120
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "535445524e4755415244205645544552414e205351554144",
+          "name": "STERNGUARD VETERAN SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "53544f524d4841574b20494e544552434550544f52",
+          "name": "STORMHAWK INTERCEPTOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 155
+            }
+          ]
+        },
+        {
+          "id": "53544f524d524156454e2047554e53484950",
+          "name": "STORMRAVEN GUNSHIP",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 280
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 300
+            }
+          ]
+        },
+        {
+          "id": "53544f524d2053504545444552204841494c535452494b45",
+          "name": "STORM SPEEDER HAILSTRIKE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "id": "53544f524d20535045454445522048414d4d4552535452494b45",
+          "name": "STORM SPEEDER HAMMERSTRIKE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "53544f524d2053504545444552205448554e444552535452494b45",
+          "name": "STORM SPEEDER THUNDERSTRIKE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "53544f524d54414c4f4e2047554e53484950",
+          "name": "STORMTALON GUNSHIP",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 165
+            }
+          ]
+        },
+        {
+          "id": "53555050524553534f52205351554144",
+          "name": "SUPPRESSOR SQUAD",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "544143544943414c205351554144",
+          "name": "TACTICAL SQUAD",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "544543484d4152494e45",
+          "name": "TECHMARINE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        },
+        {
+          "id": "5445524d494e41544f522041535341554c54205351554144",
+          "name": "TERMINATOR ASSAULT SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 155
+            },
+            {
+              "models": 10,
+              "points": 310
+            }
+          ]
+        },
+        {
+          "id": "5445524d494e41544f52205351554144",
+          "name": "TERMINATOR SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 160
+            },
+            {
+              "models": 10,
+              "points": 320
+            }
+          ]
+        },
+        {
+          "id": "5448554e4445524841574b2047554e53484950",
+          "name": "THUNDERHAWK GUNSHIP",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 840
+            }
+          ]
+        },
+        {
+          "id": "56414e4755415244205645544552414e2053515541442057495448204a554d50205041434b53",
+          "name": "VANGUARD VETERAN SQUAD WITH JUMP PACKS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 210
+            }
+          ]
+        },
+        {
+          "id": "56494e44494341544f52",
+          "name": "VINDICATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "id": "574849524c57494e44",
+          "name": "WHIRLWIND",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "IMPERIAL FISTS",
+      "units": [
+        {
+          "id": "4441524e415448204c5953414e444552",
+          "name": "DARNATH LYSANDER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "504544524f204b414e544f52",
+          "name": "PEDRO KANTOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "544f522047415241444f4e",
+          "name": "TOR GARADON",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "IRON HANDS",
+      "units": [
+        {
+          "id": "4341414e4f4b20564152",
+          "name": "CAANOK VAR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "49524f4e204641544845522046454952524f53",
+          "name": "IRON FATHER FEIRROS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "SALAMANDERS",
+      "units": [
+        {
+          "id": "414452415820414741544f4e45",
+          "name": "ADRAX AGATONE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "56554c4b414e204845e280995354414e",
+          "name": "VULKAN HE’STAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "RAVEN GUARD",
+      "units": [
+        {
+          "id": "414554484f4e20534841414e",
+          "name": "AETHON SHAAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "4b41595641414e20534852494b45",
+          "name": "KAYVAAN SHRIKE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ULTRAMARINES",
+      "units": [
+        {
+          "id": "4341505441494e205449545553",
+          "name": "CAPTAIN TITUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "4341544f205349434152495553",
+          "name": "CATO SICARIUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "id": "4348494546204c494252415249414e205449475552495553",
+          "name": "CHIEF LIBRARIAN TIGURIUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "id": "4d41524e4555532043414c47415220494e2041524d4f5552204f4620414e54494c4f43485553",
+          "name": "MARNEUS CALGAR IN ARMOUR OF ANTILOCHUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "524f424f555445204755494c4c494d414e",
+          "name": "ROBOUTE GUILLIMAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 340
+            }
+          ]
+        },
+        {
+          "id": "555249454c2056454e54524953",
+          "name": "URIEL VENTRIS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "id": "5649435452495820484f4e4f5552204755415244",
+          "name": "VICTRIX HONOUR GUARD",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 110
+            },
+            {
+              "models": 6,
+              "points": 220
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 130
+            },
+            {
+              "models": 6,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "id": "57415244454e53204f4620554c5452414d4152",
+          "name": "WARDENS OF ULTRAMAR",
+          "tiers": [
+            {
+              "models": 6,
+              "points": 110
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "WHITE SCARS",
+      "units": [
+        {
+          "id": "4b4f52e28099534152524f204b48414e",
+          "name": "KOR’SARRO KHAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        },
+        {
+          "id": "5355424f44454e204b48414e",
+          "name": "SUBODEN KHAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "41504f54484543415259",
+          "name": "APOTHECARY",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        },
+        {
+          "id": "41504f544845434152592042494f4c4f474953",
+          "name": "APOTHECARY BIOLOGIS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "41535341554c5420494e544552434553534f52205351554144",
+          "name": "ASSAULT INTERCESSOR SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "41535341554c5420494e544552434553534f52532057495448204a554d50205041434b53",
+          "name": "ASSAULT INTERCESSORS WITH JUMP PACKS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 95
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "4153545241455553",
+          "name": "ASTRAEUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 525
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 575
+            }
+          ]
+        },
+        {
+          "id": "42414c4c49535455532044524541444e4f55474854",
+          "name": "BALLISTUS DREADNOUGHT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "424c414445475541524420414e4349454e54",
+          "name": "BLADEGUARD ANCIENT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        },
+        {
+          "id": "424c4144454755415244205645544552414e205351554144",
+          "name": "BLADEGUARD VETERAN SQUAD",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "42525554414c49532044524541444e4f55474854",
+          "name": "BRUTALIS DREADNOUGHT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "4341505441494e",
+          "name": "CAPTAIN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "4341505441494e20494e204752415649532041524d4f5552",
+          "name": "CAPTAIN IN GRAVIS ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "4341505441494e20494e2050484f424f532041524d4f5552",
+          "name": "CAPTAIN IN PHOBOS ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "4341505441494e20494e205445524d494e41544f522041524d4f5552",
+          "name": "CAPTAIN IN TERMINATOR ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "4341505441494e2057495448204a554d50205041434b",
+          "name": "CAPTAIN WITH JUMP PACK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "43454e545552494f4e2041535341554c54205351554144",
+          "name": "CENTURION ASSAULT SQUAD",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 150
+            },
+            {
+              "models": 6,
+              "points": 300
+            }
+          ]
+        },
+        {
+          "id": "43454e545552494f4e2044455641535441544f52205351554144",
+          "name": "CENTURION DEVASTATOR SQUAD",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 175
+            },
+            {
+              "models": 6,
+              "points": 350
+            }
+          ]
+        },
+        {
+          "id": "434841504c41494e",
+          "name": "CHAPLAIN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "434841504c41494e20494e205445524d494e41544f522041524d4f5552",
+          "name": "CHAPLAIN IN TERMINATOR ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "434841504c41494e204f4e2042494b45",
+          "name": "CHAPLAIN ON BIKE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "434841504c41494e2057495448204a554d50205041434b",
+          "name": "CHAPLAIN WITH JUMP PACK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "434f4d50414e59204845524f4553",
+          "name": "COMPANY HEROES",
+          "tiers": [
+            {
+              "models": 4,
+              "points": 105
+            }
+          ]
+        },
+        {
+          "id": "4445534f4c4154494f4e205351554144",
+          "name": "DESOLATION SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 180
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 210
+            }
+          ]
+        },
+        {
+          "id": "44455641535441544f52205351554144",
+          "name": "DEVASTATOR SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "id": "44524541444e4f55474854",
+          "name": "DREADNOUGHT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "id": "44524f5020504f44",
+          "name": "DROP POD",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "454c494d494e41544f52205351554144",
+          "name": "ELIMINATOR SQUAD",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "45524144494341544f52205351554144",
+          "name": "ERADICATOR SQUAD",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 100
+            },
+            {
+              "models": 6,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "45524144494341544f52205351554144205749544820484541565920424f4c54455253",
+          "name": "ERADICATOR SQUAD WITH HEAVY BOLTERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 70
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "46495245535452494b4520534552564f2d54555252455453",
+          "name": "FIRESTRIKE SERVO-TURRETS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            },
+            {
+              "models": 2,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "474c41444941544f52204c414e434552",
+          "name": "GLADIATOR LANCER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "474c41444941544f5220524541504552",
+          "name": "GLADIATOR REAPER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "474c41444941544f522056414c49414e54",
+          "name": "GLADIATOR VALIANT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "48414d4d455246414c4c2042554e4b4552",
+          "name": "HAMMERFALL BUNKER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "484541565920494e544552434553534f52205351554144",
+          "name": "HEAVY INTERCESSOR SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "id": "48454c4c424c4153544552205351554144",
+          "name": "HELLBLASTER SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "id": "494d50554c534f52",
+          "name": "IMPULSOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "494e434550544f52205351554144",
+          "name": "INCEPTOR SQUAD",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 120
+            },
+            {
+              "models": 6,
+              "points": 240
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 135
+            },
+            {
+              "models": 6,
+              "points": 255
+            }
+          ]
+        },
+        {
+          "id": "494e435552534f52205351554144",
+          "name": "INCURSOR SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 95
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "494e4645524e5553205351554144",
+          "name": "INFERNUS SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "494e46494c545241544f52205351554144",
+          "name": "INFILTRATOR SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 180
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "494e544552434553534f52205351554144",
+          "name": "INTERCESSOR SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "494e564144455220415456",
+          "name": "INVADER ATV",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "494e564943544f5220544143544943414c2057415253554954",
+          "name": "INVICTOR TACTICAL WARSUIT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "id": "4a55444943494152",
+          "name": "JUDICIAR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        },
+        {
+          "id": "4c414e4420524149444552",
+          "name": "LAND RAIDER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "id": "4c414e4420524149444552204352555341444552",
+          "name": "LAND RAIDER CRUSADER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "id": "4c414e44205241494445522052454445454d4552",
+          "name": "LAND RAIDER REDEEMER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ]
+        },
+        {
+          "id": "4c414e442053504545444552",
+          "name": "LAND SPEEDER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        },
+        {
+          "id": "4c494252415249414e",
+          "name": "LIBRARIAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "4c494252415249414e20494e2050484f424f532041524d4f5552",
+          "name": "LIBRARIAN IN PHOBOS ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "4c494252415249414e20494e205445524d494e41544f522041524d4f5552",
+          "name": "LIBRARIAN IN TERMINATOR ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "4c49455554454e414e54",
+          "name": "LIEUTENANT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        },
+        {
+          "id": "4c49455554454e414e5420494e2050484f424f532041524d4f5552",
+          "name": "LIEUTENANT IN PHOBOS ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        },
+        {
+          "id": "4c49455554454e414e5420494e205245495645522041524d4f5552",
+          "name": "LIEUTENANT IN REIVER ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        },
+        {
+          "id": "4c49455554454e414e54205749544820434f4d42492d574541504f4e",
+          "name": "LIEUTENANT WITH COMBI-WEAPON",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "4f55545249444552205351554144",
+          "name": "OUTRIDER SQUAD",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 70
+            },
+            {
+              "models": 6,
+              "points": 140
+            },
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "5052454441544f5220414e4e4948494c41544f52",
+          "name": "PREDATOR ANNIHILATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "5052454441544f522044455354525543544f52",
+          "name": "PREDATOR DESTRUCTOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "52415a4f524241434b",
+          "name": "RAZORBACK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "id": "524544454d50544f522044524541444e4f55474854",
+          "name": "REDEMPTOR DREADNOUGHT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 210
+            }
+          ]
+        },
+        {
+          "id": "524549564552205351554144",
+          "name": "REIVER SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "524550554c534f52",
+          "name": "REPULSOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "524550554c534f5220455845435554494f4e4552",
+          "name": "REPULSOR EXECUTIONER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 260
+            }
+          ]
+        },
+        {
+          "id": "5248494e4f",
+          "name": "RHINO",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "53434f5554205351554144",
+          "name": "SCOUT SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 65
+            },
+            {
+              "models": 10,
+              "points": 120
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "535445524e4755415244205645544552414e205351554144",
+          "name": "STERNGUARD VETERAN SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "53544f524d4841574b20494e544552434550544f52",
+          "name": "STORMHAWK INTERCEPTOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 155
+            }
+          ]
+        },
+        {
+          "id": "53544f524d524156454e2047554e53484950",
+          "name": "STORMRAVEN GUNSHIP",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 280
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 300
+            }
+          ]
+        },
+        {
+          "id": "53544f524d2053504545444552204841494c535452494b45",
+          "name": "STORM SPEEDER HAILSTRIKE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "id": "53544f524d20535045454445522048414d4d4552535452494b45",
+          "name": "STORM SPEEDER HAMMERSTRIKE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "53544f524d2053504545444552205448554e444552535452494b45",
+          "name": "STORM SPEEDER THUNDERSTRIKE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "53544f524d54414c4f4e2047554e53484950",
+          "name": "STORMTALON GUNSHIP",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 165
+            }
+          ]
+        },
+        {
+          "id": "53555050524553534f52205351554144",
+          "name": "SUPPRESSOR SQUAD",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "544143544943414c205351554144",
+          "name": "TACTICAL SQUAD",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "544543484d4152494e45",
+          "name": "TECHMARINE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        },
+        {
+          "id": "5445524d494e41544f522041535341554c54205351554144",
+          "name": "TERMINATOR ASSAULT SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 155
+            },
+            {
+              "models": 10,
+              "points": 310
+            }
+          ]
+        },
+        {
+          "id": "5445524d494e41544f52205351554144",
+          "name": "TERMINATOR SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 160
+            },
+            {
+              "models": 10,
+              "points": 320
+            }
+          ]
+        },
+        {
+          "id": "5448554e4445524841574b2047554e53484950",
+          "name": "THUNDERHAWK GUNSHIP",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 840
+            }
+          ]
+        },
+        {
+          "id": "56414e4755415244205645544552414e2053515541442057495448204a554d50205041434b53",
+          "name": "VANGUARD VETERAN SQUAD WITH JUMP PACKS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 210
+            }
+          ]
+        },
+        {
+          "id": "56494e44494341544f52",
+          "name": "VINDICATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "id": "574849524c57494e44",
+          "name": "WHIRLWIND",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ]
+        },
+        {
+          "id": "524f424f555445204755494c4c494d414e",
+          "name": "ROBOUTE GUILLIMAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 340
+            }
+          ]
+        },
+        {
+          "id": "555249454c2056454e54524953",
+          "name": "URIEL VENTRIS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "id": "5649435452495820484f4e4f5552204755415244",
+          "name": "VICTRIX HONOUR GUARD",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 110
+            },
+            {
+              "models": 6,
+              "points": 220
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 130
+            },
+            {
+              "models": 6,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "id": "57415244454e53204f4620554c5452414d4152",
+          "name": "WARDENS OF ULTRAMAR",
+          "tiers": [
+            {
+              "models": 6,
+              "points": 110
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "id": "31535420434f4d50414e59205441534b20464f524345",
+      "name": "1ST COMPANY TASK FORCE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "46454152204d414445204d414e4946455354",
+          "name": "Fear Made Manifest",
+          "points": 30
+        },
+        {
+          "id": "49524f4e205245534f4c5645",
+          "name": "Iron Resolve",
+          "points": 15
+        },
+        {
+          "id": "5249544553204f4620574152",
+          "name": "Rites of War",
+          "points": 10
+        },
+        {
+          "id": "54484520494d50455249554de28099532053574f5244",
+          "name": "The Imperium’s Sword",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "414e56494c20534945474520464f524345",
+      "name": "ANVIL SIEGE FORCE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "415243484954454354204f4620574152",
+          "name": "Architect of War",
+          "points": 25
+        },
+        {
+          "id": "464c45455420434f4d4d414e444552",
+          "name": "Fleet Commander",
+          "points": 15
+        },
+        {
+          "id": "494e444f4d495441424c452046555259",
+          "name": "Indomitable Fury",
+          "points": 20
+        },
+        {
+          "id": "53544f494320444546454e444552",
+          "name": "Stoic Defender",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "41524d4f55524544205350454152544950",
+      "name": "ARMOURED SPEARTIP",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "41524d4f5552454420434f4d4d414e444552",
+          "name": "Armoured Commander",
+          "points": 25
+        },
+        {
+          "id": "4c4942455241544f52",
+          "name": "Liberator",
+          "points": 15
+        },
+        {
+          "id": "53484f434b204445504c4f594d454e54",
+          "name": "Shock Deployment",
+          "points": 20
+        },
+        {
+          "id": "544950204f4620544845205350454152",
+          "name": "Tip of the Spear",
+          "points": 40
+        }
+      ]
+    },
+    {
+      "id": "42415354494f4e205441534b20464f524345",
+      "name": "BASTION TASK FORCE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "424c41444553204f462056414c4f5552",
+          "name": "Blades of Valour",
+          "points": 15
+        },
+        {
+          "id": "424f4d42415354204f4d4e49564f58",
+          "name": "Bombast Omnivox",
+          "points": 15
+        },
+        {
+          "id": "455945204f4620544845205052494d41524348",
+          "name": "Eye of the Primarch",
+          "points": 10
+        },
+        {
+          "id": "4845524f204f46205448452043484150544552",
+          "name": "Hero of the Chapter",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "424c414445204f4620554c5452414d4152",
+      "name": "BLADE OF ULTRAMAR",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "41524d4f5552204f4620414e544f4e494e5553",
+          "name": "Armour of Antoninus",
+          "points": 10
+        },
+        {
+          "id": "4f415448204f46204d41435241474745",
+          "name": "Oath of Macragge",
+          "points": 15
+        },
+        {
+          "id": "53545544454e54204f462054484520434f444558",
+          "name": "Student of the Codex",
+          "points": 20
+        },
+        {
+          "id": "5645544552414e204f4620424548454d4f5448",
+          "name": "Veteran of Behemoth",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "434552414d4954452053454e54494e454c53",
+      "name": "CERAMITE SENTINELS",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "43415354454c4c554d204f4d4e49564f58",
+          "name": "Castellum Omnivox",
+          "points": 20
+        },
+        {
+          "id": "444546454e53495645204d415354455259",
+          "name": "Defensive Mastery",
+          "points": 25
+        },
+        {
+          "id": "484f4e4f555220494e4445464154494741424c45",
+          "name": "Honour Indefatigable",
+          "points": 25
+        },
+        {
+          "id": "5350592d534b554c4c2044415441204c494e4b",
+          "name": "Spy-skull Data Link",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "454d5045524f52e280995320534849454c44",
+      "name": "EMPEROR’S SHIELD",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4348414d50494f4e204f4620544845204645415354",
+          "name": "Champion of the Feast",
+          "points": 25
+        },
+        {
+          "id": "4449534349504c45204f4620524845544f5249435553",
+          "name": "Disciple of Rhetoricus",
+          "points": 10
+        },
+        {
+          "id": "494e444f4d495441424c45204348414d50494f4e",
+          "name": "Indomitable Champion",
+          "points": 20
+        },
+        {
+          "id": "4d414c4f4452415849414e205354414e44415244",
+          "name": "Malodraxian Standard",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "4649524553544f524d2041535341554c5420464f524345",
+      "name": "FIRESTORM ASSAULT FORCE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4144414d414e54494e45204d414e544c45",
+          "name": "Adamantine Mantle",
+          "points": 20
+        },
+        {
+          "id": "4348414d50494f4e204f462048554d414e495459",
+          "name": "Champion of Humanity",
+          "points": 10
+        },
+        {
+          "id": "464f5247454420494e20424154544c45",
+          "name": "Forged in Battle",
+          "points": 15
+        },
+        {
+          "id": "5741522d54454d5045524544204152544946494345",
+          "name": "War-tempered Artifice",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "464f524745464154484552e2809953205345454b455253",
+      "name": "FORGEFATHER’S SEEKERS",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4144414d414e54494e45204d414e544c45",
+          "name": "Adamantine Mantle",
+          "points": 20
+        },
+        {
+          "id": "464f5247454420494e20424154544c45",
+          "name": "Forged in Battle",
+          "points": 15
+        },
+        {
+          "id": "494d4d4f4c41544f52",
+          "name": "Immolator",
+          "points": 10
+        },
+        {
+          "id": "5741522d54454d5045524544204152544946494345",
+          "name": "War-tempered Artifice",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "46554c4755524953205441534b20464f524345",
+      "name": "FULGURIS TASK FORCE",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "42454c4c49434f534520574541504f4e205350495249545320285550475241444529",
+          "name": "Bellicose Weapon Spirits (Upgrade)",
+          "points": 15
+        },
+        {
+          "id": "524150544f5249414c20434f47495441544f5220434f524520285550475241444529",
+          "name": "Raptorial Cogitator Core (Upgrade)",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "474c4144495553205441534b20464f524345",
+      "name": "GLADIUS TASK FORCE",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "4144455054204f462054484520434f444558",
+          "name": "Adept of the Codex",
+          "points": 20
+        },
+        {
+          "id": "4152544946494345522041524d4f5552",
+          "name": "Artificer Armour",
+          "points": 10
+        },
+        {
+          "id": "46495245204449534349504c494e45",
+          "name": "Fire Discipline",
+          "points": 25
+        },
+        {
+          "id": "54484520484f4e4f555220564548454d454e54",
+          "name": "The Honour Vehement",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "48414d4d4552204f4620415645524e4949",
+      "name": "HAMMER OF AVERNII",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "49524f4e204c415552454c",
+          "name": "Iron Laurel",
+          "points": 10
+        },
+        {
+          "id": "4d45445553414e20524f4152",
+          "name": "Medusan Roar",
+          "points": 30
+        },
+        {
+          "id": "53504952495455532046455252554d",
+          "name": "Spiritus Ferrum",
+          "points": 25
+        },
+        {
+          "id": "535445454c20464f4e54",
+          "name": "Steel Font",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "4845414448554e544552205441534b20464f524345",
+      "name": "HEADHUNTER TASK FORCE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "41535441525445532054414e4b20414345",
+          "name": "Astartes Tank Ace",
+          "points": 40
+        },
+        {
+          "id": "4649524553544f524d20434f4f5244494e41544f5253",
+          "name": "Firestorm Coordinators",
+          "points": 20
+        },
+        {
+          "id": "47554e4e45525920484f4e4f555253",
+          "name": "Gunnery Honours",
+          "points": 20
+        },
+        {
+          "id": "5245444f55425441424c45204d414348494e4520535049524954",
+          "name": "Redoubtable Machine Spirit",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "49524f4e53544f524d20535045415248454144",
+      "name": "IRONSTORM SPEARHEAD",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4144455054204f4620544845204f4d4e495353494148",
+          "name": "Adept of the Omnissiah",
+          "points": 35
+        },
+        {
+          "id": "4d4153544552204f46204d414348494e4520574152",
+          "name": "Master of Machine War",
+          "points": 20
+        },
+        {
+          "id": "5441524745542041554755525920574542",
+          "name": "Target Augury Web",
+          "points": 30
+        },
+        {
+          "id": "54484520464c455348204953205745414b",
+          "name": "The Flesh Is Weak",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "4c494252415249555320434f4e434c415645",
+      "name": "LIBRARIUS CONCLAVE",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "43454c4552495459",
+          "name": "Celerity",
+          "points": 35
+        },
+        {
+          "id": "465553494c4c414445",
+          "name": "Fusillade",
+          "points": 20
+        },
+        {
+          "id": "4f42465553434154494f4e",
+          "name": "Obfuscation",
+          "points": 25
+        },
+        {
+          "id": "505245534349454e4345",
+          "name": "Prescience",
+          "points": 20
+        },
+        {
+          "id": "54454d504f52414c20434f525249444f52",
+          "name": "Temporal Corridor",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "4f52424954414c2041535341554c5420464f524345",
+      "name": "ORBITAL ASSAULT FORCE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4445444943415445442047554e53484950",
+          "name": "Dedicated Gunship",
+          "points": 15
+        },
+        {
+          "id": "4c415552454c53204f46205448554e444552",
+          "name": "Laurels of Thunder",
+          "points": 15
+        },
+        {
+          "id": "4f52424954414c2055504c494e4b2052454c495155415259",
+          "name": "Orbital Uplink Reliquary",
+          "points": 25
+        },
+        {
+          "id": "5645544552414e204f46205448452056414e4755415244",
+          "name": "Veteran of the Vanguard",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "5245434c414d4154494f4e20464f524345",
+      "name": "RECLAMATION FORCE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4156454e47494e4720415641544152",
+          "name": "Avenging Avatar",
+          "points": 10
+        },
+        {
+          "id": "4c494245524154554d",
+          "name": "Liberatum",
+          "points": 25
+        },
+        {
+          "id": "5343524f4c4c204f462050524f434c414d4154494f4e",
+          "name": "Scroll of Proclamation",
+          "points": 15
+        },
+        {
+          "id": "5345414c53204f46205245434f4e5155455354",
+          "name": "Seals of Reconquest",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "534841444f574d41524b2054414c4f4e",
+      "name": "SHADOWMARK TALON",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "424c41434b57494e47205348524f5544",
+          "name": "Blackwing Shroud",
+          "points": 25
+        },
+        {
+          "id": "434f524f4e414c20535553555252414e54",
+          "name": "Coronal Susurrant",
+          "points": 30
+        },
+        {
+          "id": "48554e544552e280995320494e5354494e435453",
+          "name": "Hunter’s Instincts",
+          "points": 25
+        },
+        {
+          "id": "554d4252414c20524150544f52",
+          "name": "Umbral Raptor",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "5350454152504f494e54205441534b20464f524345",
+      "name": "SPEARPOINT TASK FORCE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "43484f474f5249414e2048554e544d4153544552",
+          "name": "Chogorian Huntmaster",
+          "points": 25
+        },
+        {
+          "id": "48554e544552e280995320455945",
+          "name": "Hunter’s Eye",
+          "points": 20
+        },
+        {
+          "id": "5350454152504f494e542050415241474f4e",
+          "name": "Spearpoint Paragon",
+          "points": 25
+        },
+        {
+          "id": "53544f524d53454552532720574953444f4d",
+          "name": "Stormseers' Wisdom",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "53544f524d4c414e4345205441534b20464f524345",
+      "name": "STORMLANCE TASK FORCE",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "4645494e54494e47205749544844524157414c",
+          "name": "Feinting Withdrawal",
+          "points": 10
+        },
+        {
+          "id": "46555259204f46205448452053544f524d",
+          "name": "Fury of the Storm",
+          "points": 25
+        },
+        {
+          "id": "48554e544552e280995320494e5354494e435453",
+          "name": "Hunter’s Instincts",
+          "points": 25
+        },
+        {
+          "id": "504f5254454e5453204f4620574953444f4d",
+          "name": "Portents of Wisdom",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "53554256455253494f4e20415353455453",
+      "name": "SUBVERSION ASSETS",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "444541544820494e20544845204441524b20285550475241444529",
+          "name": "Death in the Dark (Upgrade)",
+          "points": 15
+        },
+        {
+          "id": "5348524f5544204649454c44",
+          "name": "Shroud Field",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "56414e475541524420535045415248454144",
+      "name": "VANGUARD SPEARHEAD",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4558454355544520414e442052454445504c4f59",
+          "name": "Execute and Redeploy",
+          "points": 20
+        },
+        {
+          "id": "47484f5354574541564520434c4f414b",
+          "name": "Ghostweave Cloak",
+          "points": 15
+        },
+        {
+          "id": "534841444f5720574152205645544552414e",
+          "name": "Shadow War Veteran",
+          "points": 30
+        },
+        {
+          "id": "54484520424c4144452044524956454e2044454550",
+          "name": "The Blade Driven Deep",
+          "points": 25
+        }
+      ]
+    }
+  ]
+}

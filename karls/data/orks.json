@@ -1,0 +1,1098 @@
+{
+  "slug": "orks",
+  "name": "Orks",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "42414e4e45524e4f42",
+          "name": "BANNERNOB",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        },
+        {
+          "id": "424154544c455741474f4e",
+          "name": "BATTLEWAGON",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "4245415354424f5353",
+          "name": "BEASTBOSS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "4245415354424f5353204f4e2053515549474f53415552",
+          "name": "BEASTBOSS ON SQUIGOSAUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "id": "424541535420534e4147474120424f595a",
+          "name": "BEAST SNAGGA BOYZ",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 90
+            },
+            {
+              "models": 20,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "424947424f5353",
+          "name": "BIGBOSS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        },
+        {
+          "id": "424947e28099454420424f535342554e4b41",
+          "name": "BIG’ED BOSSBUNKA",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "id": "424947204d454b",
+          "name": "BIG MEK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "424947204d454b2044414b4b41524947",
+          "name": "BIG MEK DAKKARIG",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "424947204d454b20494e204d4547412041524d4f5552",
+          "name": "BIG MEK IN MEGA ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "424947204d454b20574954482053484f4b4b2041545441434b2047554e",
+          "name": "BIG MEK WITH SHOKK ATTACK GUN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "424c49545a412d424f4d4d4552",
+          "name": "BLITZA-BOMMER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        },
+        {
+          "id": "424f4f4d44414b4b4120534e415a5a5741474f4e",
+          "name": "BOOMDAKKA SNAZZWAGON",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "424f535320534e494b524f54",
+          "name": "BOSS SNIKROT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "424f595a",
+          "name": "BOYZ",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 75
+            },
+            {
+              "models": 20,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "425245414b4120424f595a",
+          "name": "BREAKA BOYZ",
+          "tiers": [
+            {
+              "models": 6,
+              "points": 125
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 6,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "id": "4255524e412d424f4d4d4552",
+          "name": "BURNA-BOMMER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "id": "4255524e4120424f595a",
+          "name": "BURNA BOYZ",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 60
+            },
+            {
+              "models": 10,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "44414b4b414a4554",
+          "name": "DAKKAJET",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "id": "44454646204452454144",
+          "name": "DEFF DREAD",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "444546464b494c4c41205741525452494b45",
+          "name": "DEFFKILLA WARTRIKE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "444546464b4f50544153",
+          "name": "DEFFKOPTAS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 75
+            },
+            {
+              "models": 6,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "464c415348204749545a",
+          "name": "FLASH GITZ",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "47415247414e5455414e205351554947474f5448",
+          "name": "GARGANTUAN SQUIGGOTH",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 440
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 490
+            }
+          ]
+        },
+        {
+          "id": "4748415a47484b554c4c20544852414b41",
+          "name": "GHAZGHKULL THRAKA",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 235
+            }
+          ]
+        },
+        {
+          "id": "474f524b414e415554",
+          "name": "GORKANAUT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 255
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 275
+            }
+          ]
+        },
+        {
+          "id": "475245544348494e",
+          "name": "GRETCHIN",
+          "tiers": [
+            {
+              "models": 11,
+              "points": 45
+            },
+            {
+              "models": 22,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "48554e544120524947",
+          "name": "HUNTA RIG",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "id": "4b494c4c41204b414e53",
+          "name": "KILLA KANS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 120
+            },
+            {
+              "models": 6,
+              "points": 240
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 130
+            },
+            {
+              "models": 6,
+              "points": 250
+            }
+          ]
+        },
+        {
+          "id": "4b494c4c20524947",
+          "name": "KILL RIG",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "4b4f4d4d414e444f53",
+          "name": "KOMMANDOS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "4b5553544f4d20424f4f5354412d424c41535441",
+          "name": "KUSTOM BOOSTA-BLASTA",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "4c4f4f544153",
+          "name": "LOOTAS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 50
+            },
+            {
+              "models": 10,
+              "points": 100
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 60
+            },
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "4d4547414e4f425a",
+          "name": "MEGANOBZ",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 60
+            },
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 5,
+              "points": 150
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 2,
+              "points": 80
+            },
+            {
+              "models": 3,
+              "points": 110
+            },
+            {
+              "models": 5,
+              "points": 170
+            },
+            {
+              "models": 6,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "id": "4d4547415452414b4b2053435241504a4554",
+          "name": "MEGATRAKK SCRAPJET",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "4d454b",
+          "name": "MEK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        },
+        {
+          "id": "4d454b2047554e5a",
+          "name": "MEK GUNZ",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 45
+            },
+            {
+              "models": 2,
+              "points": 90
+            },
+            {
+              "models": 3,
+              "points": 135
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 55
+            },
+            {
+              "models": 2,
+              "points": 100
+            },
+            {
+              "models": 3,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "4d4f524b414e415554",
+          "name": "MORKANAUT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 290
+            }
+          ]
+        },
+        {
+          "id": "4d4f5a524f4720534b524147424144",
+          "name": "MOZROG SKRAGBAD",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "id": "4e4f425a",
+          "name": "NOBZ",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 105
+            },
+            {
+              "models": 10,
+              "points": 210
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 115
+            },
+            {
+              "models": 10,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "id": "5041494e424f5353",
+          "name": "PAINBOSS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "5041494e424f59",
+          "name": "PAINBOY",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "52554b4b415452554b4b2053515549474255474759",
+          "name": "RUKKATRUKK SQUIGBUGGY",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "53484f4b4b4a554d502044524147535441",
+          "name": "SHOKKJUMP DRAGSTA",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "5351554947484f4720424f595a",
+          "name": "SQUIGHOG BOYZ",
+          "tiers": [
+            {
+              "models": 4,
+              "points": 140
+            },
+            {
+              "models": 8,
+              "points": 270
+            }
+          ]
+        },
+        {
+          "id": "53544f4d5041",
+          "name": "STOMPA",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 600
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 700
+            }
+          ]
+        },
+        {
+          "id": "53544f524d424f595a",
+          "name": "STORMBOYZ",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 65
+            },
+            {
+              "models": 10,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "54414e4b425553544153",
+          "name": "TANKBUSTAS",
+          "tiers": [
+            {
+              "models": 6,
+              "points": 125
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 6,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "id": "5452554b4b",
+          "name": "TRUKK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        },
+        {
+          "id": "57415242494b455253",
+          "name": "WARBIKERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 60
+            },
+            {
+              "models": 6,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "574152424f5353",
+          "name": "WARBOSS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "574152424f535320494e204d4547412041524d4f5552",
+          "name": "WARBOSS IN MEGA ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "5741525452414b4b",
+          "name": "WARTRAKK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "57415a424f4d20424c415354414a4554",
+          "name": "WAZBOM BLASTAJET",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 165
+            }
+          ]
+        },
+        {
+          "id": "57415a44414b4b4120475554534d454b",
+          "name": "WAZDAKKA GUTSMEK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "5745495244424f59",
+          "name": "WEIRDBOY",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        },
+        {
+          "id": "57555252424f59",
+          "name": "WURRBOY",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "5a4f4447524f4420574f5254534e41474741",
+          "name": "ZODGROD WORTSNAGGA",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "id": "424c49545a2042524947414445",
+      "name": "BLITZ BRIGADE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "424c49545a4b415054494e",
+          "name": "Blitzkaptin",
+          "points": 25
+        },
+        {
+          "id": "52554e4e494ee2809920424f4f5453",
+          "name": "Runnin’ Boots",
+          "points": 10
+        },
+        {
+          "id": "535550455243484152474544205351554947204f494c",
+          "name": "Supercharged Squig Oil",
+          "points": 10
+        },
+        {
+          "id": "5455464620474954",
+          "name": "Tuff Git",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": "42554c4c5920424f595a",
+      "name": "BULLY BOYZ",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "42494720474f42",
+          "name": "Big Gob",
+          "points": 20
+        },
+        {
+          "id": "4441204249474745535420424f5353",
+          "name": "Da Biggest Boss",
+          "points": 15
+        },
+        {
+          "id": "e2809945414453544f4d5041",
+          "name": "’Eadstompa",
+          "points": 10
+        },
+        {
+          "id": "54454c4c59504f525441",
+          "name": "Tellyporta",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "4441204249472048554e54",
+      "name": "DA BIG HUNT",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "474c4f525920484f47",
+          "name": "Glory Hog",
+          "points": 30
+        },
+        {
+          "id": "50524f504552204b494c4c59",
+          "name": "Proper Killy",
+          "points": 15
+        },
+        {
+          "id": "534b52414720455645525920535441534821",
+          "name": "Skrag Every Stash!",
+          "points": 25
+        },
+        {
+          "id": "5355524c592041532041205351554947474f5448",
+          "name": "Surly as a Squiggoth",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "4452454144204d4f42",
+      "name": "DREAD MOB",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "47495446494e44455220474f47474c455a",
+          "name": "Gitfinder Gogglez",
+          "points": 10
+        },
+        {
+          "id": "505245535320495420464153544121",
+          "name": "Press It Fasta!",
+          "points": 35
+        },
+        {
+          "id": "534d4f4b592047554242494e5a",
+          "name": "Smoky Gubbinz",
+          "points": 15
+        },
+        {
+          "id": "535550412d474c4f57592046494e47",
+          "name": "Supa-glowy Fing",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "46524545424f4f544552204b524557",
+      "name": "FREEBOOTER KREW",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "42494f4e494b20574f524b53484f50",
+          "name": "Bionik Workshop",
+          "points": 15
+        },
+        {
+          "id": "4441204b415054494e",
+          "name": "Da Kaptin",
+          "points": 10
+        },
+        {
+          "id": "4749542d53504f54544552205351554947",
+          "name": "Git-Spotter Squig",
+          "points": 20
+        },
+        {
+          "id": "52415a474954e2809953204d4147494b204d4150",
+          "name": "Razgit’s Magik Map",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "475245454e2054494445",
+      "name": "GREEN TIDE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "424c4f4f44544849525354592042454c4c49474552454e4345",
+          "name": "Bloodthirsty Belligerence",
+          "points": 15
+        },
+        {
+          "id": "42525554414c20425554204b554e4e494ee28099",
+          "name": "Brutal But Kunnin’",
+          "points": 25
+        },
+        {
+          "id": "4645524f43494f55532053484f57204f4646",
+          "name": "Ferocious Show Off",
+          "points": 10
+        },
+        {
+          "id": "524155434f55532057415243414c4c4552",
+          "name": "Raucous Warcaller",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "4b554c54204f46205350454544",
+      "name": "KULT OF SPEED",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4641535441205448414e20594f4f5a",
+          "name": "Fasta Than Yooz",
+          "points": 35
+        },
+        {
+          "id": "5350454544204d414b4553205249474854",
+          "name": "Speed Makes Right",
+          "points": 25
+        },
+        {
+          "id": "53515549472d48494445205459524553",
+          "name": "Squig-hide Tyres",
+          "points": 15
+        },
+        {
+          "id": "57415a424c41535441",
+          "name": "Wazblasta",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "4d4f52452044414b4b4121",
+      "name": "MORE DAKKA!",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "444120474f4253484f54205448554e44455242555353",
+          "name": "Da Gobshot Thunderbuss",
+          "points": 15
+        },
+        {
+          "id": "44454144205348494e592053484f4f54415320285550475241444529",
+          "name": "Dead Shiny Shootas (Upgrade)",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "524f4c4c494e272044454646",
+      "name": "ROLLIN' DEFF",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "424f415244494e472052414d505320285550475241444529",
+          "name": "Boarding Ramps (Upgrade)",
+          "points": 10
+        },
+        {
+          "id": "544152474554494ee280992047495a4d4f5320285550475241444529",
+          "name": "Targetin’ Gizmos (Upgrade)",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "535045454457414141474821",
+      "name": "SPEEDWAAAGH!",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "44414b4b414d454b",
+          "name": "Dakkamek",
+          "points": 25
+        },
+        {
+          "id": "4b5553544f4d2053484f4b4b20424f58",
+          "name": "Kustom Shokk Box",
+          "points": 10
+        },
+        {
+          "id": "4d4153544552204d454b4e4f4c4f47495354",
+          "name": "Master Meknologist",
+          "points": 20
+        },
+        {
+          "id": "535550412d4255524e59204655454c",
+          "name": "Supa-Burny Fuel",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "54414b54494b414c2042524947414445",
+      "name": "TAKTIKAL BRIGADE",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "4d4f524be2809953204b554e4e494ee28099",
+          "name": "Mork’s Kunnin’",
+          "points": 20
+        },
+        {
+          "id": "534c49505045525920474954",
+          "name": "Slippery Git",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "57415220484f524445",
+      "name": "WAR HORDE",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "464f4c4c4f57204d45204c41445a",
+          "name": "Follow Me Ladz",
+          "points": 25
+        },
+        {
+          "id": "48454144574f505041e2809953204b494c4c43484f505041",
+          "name": "Headwoppa’s Killchoppa",
+          "points": 20
+        },
+        {
+          "id": "4b554e4e494ee28099204255542042525554414c",
+          "name": "Kunnin’ But Brutal",
+          "points": 15
+        },
+        {
+          "id": "535550412d4359424f524b20424f4459",
+          "name": "Supa-Cybork Body",
+          "points": 15
+        }
+      ]
+    }
+  ]
+}

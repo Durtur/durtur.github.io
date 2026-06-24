@@ -1,0 +1,846 @@
+{
+  "slug": "chaos-daemons",
+  "name": "Chaos Daemons",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "424541535453204f46204e5552474c45",
+          "name": "BEASTS OF NURGLE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            },
+            {
+              "models": 2,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "4245e280994c414b4f52",
+          "name": "BE’LAKOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 390
+            }
+          ]
+        },
+        {
+          "id": "424c4f4f444352555348455253",
+          "name": "BLOODCRUSHERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 95
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 105
+            },
+            {
+              "models": 6,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "424c4f4f444c455454455253",
+          "name": "BLOODLETTERS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "424c4f4f444d4153544552",
+          "name": "BLOODMASTER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        },
+        {
+          "id": "424c4f4f445448495253544552",
+          "name": "BLOODTHIRSTER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 320
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 335
+            }
+          ]
+        },
+        {
+          "id": "424c554520484f52524f5253",
+          "name": "BLUE HORRORS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "id": "4255524e494e472043484152494f54",
+          "name": "BURNING CHARIOT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "id": "4348414e4745434153544552",
+          "name": "CHANGECASTER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "434f4e544f5254454420455049544f4d45",
+          "name": "CONTORTED EPITOME",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "4441454d4f4e4554544553",
+          "name": "DAEMONETTES",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "4441454d4f4e205052494e4345204f46204348414f53",
+          "name": "DAEMON PRINCE OF CHAOS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 165
+            }
+          ]
+        },
+        {
+          "id": "4441454d4f4e205052494e4345204f46204348414f5320574954482057494e4753",
+          "name": "DAEMON PRINCE OF CHAOS WITH WINGS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "45504944454d495553",
+          "name": "EPIDEMIUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "4558414c54454420464c414d4552",
+          "name": "EXALTED FLAMER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        },
+        {
+          "id": "46415445534b494d4d4552",
+          "name": "FATESKIMMER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "id": "464543554c454e5420474e41524c4d4157",
+          "name": "FECULENT GNARLMAW",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "4649454e4453",
+          "name": "FIENDS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "id": "464c414d455253",
+          "name": "FLAMERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 65
+            },
+            {
+              "models": 6,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "464c45534820484f554e4453",
+          "name": "FLESH HOUNDS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "464c55584d4153544552",
+          "name": "FLUXMASTER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "475245415420554e434c45414e204f4e45",
+          "name": "GREAT UNCLEAN ONE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 265
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 280
+            }
+          ]
+        },
+        {
+          "id": "48454c4c464c4159455253",
+          "name": "HELLFLAYERS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            },
+            {
+              "models": 2,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "484f52544943554c4f555320534c494d5558",
+          "name": "HORTICULOUS SLIMUX",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "494e4645524e414c20454e524150545552455353",
+          "name": "INFERNAL ENRAPTURESS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "4b4149524f532046415445574541564552",
+          "name": "KAIROS FATEWEAVER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 295
+            }
+          ]
+        },
+        {
+          "id": "4b4152414e414b",
+          "name": "KARANAK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "4b4545504552204f462053454352455453",
+          "name": "KEEPER OF SECRETS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 255
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ]
+        },
+        {
+          "id": "4c4f5244204f46204348414e4745",
+          "name": "LORD OF CHANGE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 300
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 315
+            }
+          ]
+        },
+        {
+          "id": "4e5552474c494e4753",
+          "name": "NURGLINGS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 45
+            },
+            {
+              "models": 6,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "50494e4b20484f52524f5253",
+          "name": "PINK HORRORS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "504c4147554542454152455253",
+          "name": "PLAGUEBEARERS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "id": "504c414755452044524f4e4553",
+          "name": "PLAGUE DRONES",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 110
+            },
+            {
+              "models": 6,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "id": "504f584252494e474552",
+          "name": "POXBRINGER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        },
+        {
+          "id": "52454e444d4153544552204f4e20424c4f4f44205448524f4e45",
+          "name": "RENDMASTER ON BLOOD THRONE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "524f5449475553",
+          "name": "ROTIGUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 280
+            }
+          ]
+        },
+        {
+          "id": "53435245414d455253",
+          "name": "SCREAMERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "5345454b455253",
+          "name": "SEEKERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 155
+            }
+          ]
+        },
+        {
+          "id": "5348414c4158492048454c42414e45",
+          "name": "SHALAXI HELBANE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 340
+            }
+          ]
+        },
+        {
+          "id": "534b41524252414e44",
+          "name": "SKARBRAND",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 315
+            }
+          ]
+        },
+        {
+          "id": "534b554c4c20414c544152",
+          "name": "SKULL ALTAR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        },
+        {
+          "id": "534b554c4c2043414e4e4f4e",
+          "name": "SKULL CANNON",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "534b554c4c4d4153544552",
+          "name": "SKULLMASTER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "534b554c4c54414b4552",
+          "name": "SKULLTAKER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "534c4f50504954592042494c455049504552",
+          "name": "SLOPPITY BILEPIPER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        },
+        {
+          "id": "534f554c204752494e444552",
+          "name": "SOUL GRINDER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ]
+        },
+        {
+          "id": "53504f494c504f58205343524956454e4552",
+          "name": "SPOILPOX SCRIVENER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "53594c4ce280994553534b45",
+          "name": "SYLL’ESSKE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "54484520424c55452053435249424553",
+          "name": "THE BLUE SCRIBES",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "544845204348414e47454c494e47",
+          "name": "THE CHANGELING",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        },
+        {
+          "id": "544845204d4153515545204f4620534c41414e455348",
+          "name": "THE MASQUE OF SLAANESH",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "id": "544f524d454e544252494e474552",
+          "name": "TORMENTBRINGER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "id": "5452414e4345574541564552",
+          "name": "TRANCEWEAVER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "id": "424c4f4f44204c4547494f4e",
+      "name": "BLOOD LEGION",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4252415a454e4d4157",
+          "name": "Brazenmaw",
+          "points": 15
+        },
+        {
+          "id": "46555259e28099532043414745",
+          "name": "Fury’s Cage",
+          "points": 20
+        },
+        {
+          "id": "4741544557415920554e544f2044414d4e4154494f4e",
+          "name": "Gateway Unto Damnation",
+          "points": 10
+        },
+        {
+          "id": "534c41554748544552544849525354",
+          "name": "Slaughterthirst",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "434156414c43414445204f46204348414f53",
+      "name": "CAVALCADE OF CHAOS",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "41504f43414c59505449432053544545445320285550475241444529",
+          "name": "Apocalyptic Steeds (Upgrade)",
+          "points": 10
+        },
+        {
+          "id": "534f554c2d53484154544552494e472043484152474520285550475241444529",
+          "name": "Soul-shattering Charge (Upgrade)",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "4441454d4f4e494320494e43555253494f4e",
+      "name": "DAEMONIC INCURSION",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "41e2809952474154482c20544845204b494e47204f4620424c41444553",
+          "name": "A’rgath, The King of Blades",
+          "points": 20
+        },
+        {
+          "id": "534f554c535445414c4552",
+          "name": "Soulstealer",
+          "points": 15
+        },
+        {
+          "id": "54484520454e444c4553532047494654",
+          "name": "The Endless Gift",
+          "points": 30
+        },
+        {
+          "id": "54484520455645525354415645",
+          "name": "The Everstave",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "4c4547494f4e204f4620455843455353",
+      "name": "LEGION OF EXCESS",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "415641544152204f462050455246454354494f4e",
+          "name": "Avatar of Perfection",
+          "points": 15
+        },
+        {
+          "id": "445245414d494e472043524f574e",
+          "name": "Dreaming Crown",
+          "points": 30
+        },
+        {
+          "id": "46414c5345204d414a45535459",
+          "name": "False Majesty",
+          "points": 30
+        },
+        {
+          "id": "534f554c20474c5554544f4e",
+          "name": "Soul Glutton",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "4c4f524453204f46205448452057415250",
+      "name": "LORDS OF THE WARP",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "53574f4c4c454e205749544820504f57455220285550475241444529",
+          "name": "Swollen with Power (Upgrade)",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "504c41475545204c4547494f4e",
+      "name": "PLAGUE LEGION",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "43414e4b4552424c49474854",
+          "name": "Cankerblight",
+          "points": 15
+        },
+        {
+          "id": "44524f4e494e47205348524f5544",
+          "name": "Droning Shroud",
+          "points": 35
+        },
+        {
+          "id": "464f4e54204f462053504f524553",
+          "name": "Font of Spores",
+          "points": 20
+        },
+        {
+          "id": "4d4147474f54204d415753",
+          "name": "Maggot Maws",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "5343494e54494c4c4154494e47204c4547494f4e",
+      "name": "SCINTILLATING LEGION",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "494d50524f4241424c4520534849454c44",
+          "name": "Improbable Shield",
+          "points": 30
+        },
+        {
+          "id": "494e455343415041424c4520455945",
+          "name": "Inescapable Eye",
+          "points": 10
+        },
+        {
+          "id": "494e4645524e414c20505550504554454552",
+          "name": "Infernal Puppeteer",
+          "points": 25
+        },
+        {
+          "id": "4e45564552424c414445",
+          "name": "Neverblade",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "534841444f57204c4547494f4e",
+      "name": "SHADOW LEGION",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4641444520544f204441524b4e455353",
+          "name": "Fade to Darkness",
+          "points": 30
+        },
+        {
+          "id": "4c454150494e4720534841444f5753",
+          "name": "Leaping Shadows",
+          "points": 25
+        },
+        {
+          "id": "4d414c494345204d414445204d414e4946455354",
+          "name": "Malice Made Manifest",
+          "points": 25
+        },
+        {
+          "id": "4d414e544c45204f4620474c4f4f4d",
+          "name": "Mantle of Gloom",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "5741525054494445",
+      "name": "WARPTIDE",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "42414e452d464f5247454420574541504f4e5320285550475241444529",
+          "name": "Bane-forged Weapons (Upgrade)",
+          "points": 15
+        },
+        {
+          "id": "534f554c2d48554e47525920534c4155474854455245525320285550475241444529",
+          "name": "Soul-hungry Slaughterers (Upgrade)",
+          "points": 10
+        }
+      ]
+    }
+  ]
+}

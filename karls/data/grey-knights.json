@@ -1,0 +1,662 @@
+{
+  "slug": "grey-knights",
+  "name": "Grey Knights",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "42524f544845522d4341505441494e",
+          "name": "BROTHER-CAPTAIN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "id": "42524f54484552484f4f44204348414d50494f4e",
+          "name": "BROTHERHOOD CHAMPION",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "42524f54484552484f4f4420434841504c41494e",
+          "name": "BROTHERHOOD CHAPLAIN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        },
+        {
+          "id": "42524f54484552484f4f44204c494252415249414e",
+          "name": "BROTHERHOOD LIBRARIAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "42524f54484552484f4f4420544543484d4152494e45",
+          "name": "BROTHERHOOD TECHMARINE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "42524f54484552484f4f44205445524d494e41544f52205351554144",
+          "name": "BROTHERHOOD TERMINATOR SQUAD",
+          "tiers": [
+            {
+              "models": 4,
+              "points": 140
+            },
+            {
+              "models": 5,
+              "points": 175
+            },
+            {
+              "models": 8,
+              "points": 300
+            },
+            {
+              "models": 10,
+              "points": 375
+            }
+          ],
+          "repeatFromCopy": 4,
+          "repeatTiers": [
+            {
+              "models": 4,
+              "points": 150
+            },
+            {
+              "models": 5,
+              "points": 185
+            },
+            {
+              "models": 8,
+              "points": 310
+            },
+            {
+              "models": 10,
+              "points": 385
+            }
+          ]
+        },
+        {
+          "id": "43415354454c4c414e2043524f5745",
+          "name": "CASTELLAN CROWE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "4752414e44204d4153544552",
+          "name": "GRAND MASTER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "id": "4752414e44204d415354455220494e204e454d455349532044524541444b4e49474854",
+          "name": "GRAND MASTER IN NEMESIS DREADKNIGHT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 200
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 215
+            }
+          ]
+        },
+        {
+          "id": "4752414e44204d415354455220564f4c445553",
+          "name": "GRAND MASTER VOLDUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "47524559204b4e4947485453205448554e4445524841574b2047554e53484950",
+          "name": "GREY KNIGHTS THUNDERHAWK GUNSHIP",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 805
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 855
+            }
+          ]
+        },
+        {
+          "id": "494e544552434550544f52205351554144",
+          "name": "INTERCEPTOR SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 125
+            },
+            {
+              "models": 10,
+              "points": 250
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 135
+            },
+            {
+              "models": 10,
+              "points": 260
+            }
+          ]
+        },
+        {
+          "id": "4c414e4420524149444552",
+          "name": "LAND RAIDER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "id": "4c414e4420524149444552204352555341444552",
+          "name": "LAND RAIDER CRUSADER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "id": "4c414e44205241494445522052454445454d4552",
+          "name": "LAND RAIDER REDEEMER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ]
+        },
+        {
+          "id": "4e454d455349532044524541444b4e49474854",
+          "name": "NEMESIS DREADKNIGHT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 210
+            }
+          ]
+        },
+        {
+          "id": "50414c4144494e205351554144",
+          "name": "PALADIN SQUAD",
+          "tiers": [
+            {
+              "models": 4,
+              "points": 170
+            },
+            {
+              "models": 5,
+              "points": 215
+            },
+            {
+              "models": 8,
+              "points": 360
+            },
+            {
+              "models": 10,
+              "points": 450
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 4,
+              "points": 185
+            },
+            {
+              "models": 5,
+              "points": 230
+            },
+            {
+              "models": 8,
+              "points": 375
+            },
+            {
+              "models": 10,
+              "points": 465
+            }
+          ]
+        },
+        {
+          "id": "505552474154494f4e205351554144",
+          "name": "PURGATION SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 220
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 230
+            }
+          ]
+        },
+        {
+          "id": "5055524946494552205351554144",
+          "name": "PURIFIER SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 130
+            },
+            {
+              "models": 10,
+              "points": 260
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 140
+            },
+            {
+              "models": 10,
+              "points": 270
+            }
+          ]
+        },
+        {
+          "id": "52415a4f524241434b",
+          "name": "RAZORBACK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "5248494e4f",
+          "name": "RHINO",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "53544f524d4841574b20494e544552434550544f52",
+          "name": "STORMHAWK INTERCEPTOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "53544f524d524156454e2047554e53484950",
+          "name": "STORMRAVEN GUNSHIP",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 280
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 300
+            }
+          ]
+        },
+        {
+          "id": "53544f524d54414c4f4e2047554e53484950",
+          "name": "STORMTALON GUNSHIP",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "535452494b45205351554144",
+          "name": "STRIKE SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "id": "56454e455241424c452044524541444e4f55474854",
+          "name": "VENERABLE DREADNOUGHT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "id": "415247454e542041535341554c54",
+      "name": "ARGENT ASSAULT",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "505359434849432043454c4552495459",
+          "name": "Psychic Celerity",
+          "points": 15
+        },
+        {
+          "id": "564947494c414e4345204f4620544954414e",
+          "name": "Vigilance of Titan",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "415547555249554d205441534b20464f524345",
+      "name": "AUGURIUM TASK FORCE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "444f4f4d53454552e280995320414d554c4554",
+          "name": "Doomseer’s Amulet",
+          "points": 25
+        },
+        {
+          "id": "4752494d4f495245204f4620434f4e4a554e4354494f4e53",
+          "name": "Grimoire of Conjunctions",
+          "points": 10
+        },
+        {
+          "id": "4f4e4520464f4f5420494e2054484520465554555245",
+          "name": "One Foot in the Future",
+          "points": 15
+        },
+        {
+          "id": "534849454c44204f462050524f5048454359",
+          "name": "Shield of Prophecy",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "42414e495348455253",
+      "name": "BANISHERS",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "455048454d4552414c20544f4d45",
+          "name": "Ephemeral Tome",
+          "points": 15
+        },
+        {
+          "id": "50595245534f554c",
+          "name": "Pyresoul",
+          "points": 20
+        },
+        {
+          "id": "534947494c204f46205448452048554e54",
+          "name": "Sigil of the Hunt",
+          "points": 10
+        },
+        {
+          "id": "53495854592d5349585448205345414c",
+          "name": "Sixty-sixth Seal",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "42524f54484552484f4f4420535452494b45",
+      "name": "BROTHERHOOD STRIKE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "42414e495348494e472057415645",
+          "name": "Banishing Wave",
+          "points": 20
+        },
+        {
+          "id": "424c494e44494e472041555241",
+          "name": "Blinding Aura",
+          "points": 10
+        },
+        {
+          "id": "505552495459204f4620505552504f5345",
+          "name": "Purity of Purpose",
+          "points": 15
+        },
+        {
+          "id": "544f4d45204f4620464f5242494444454e2057415953",
+          "name": "Tome of Forbidden Ways",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "4649524553204f4620505552474154494f4e",
+      "name": "FIRES OF PURGATION",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "424f4f4e53204f46204445494d4f5320285550475241444529",
+          "name": "Boons of Deimos (Upgrade)",
+          "points": 20
+        },
+        {
+          "id": "505245434f474e494349454e5420564f4c4c45595320285550475241444529",
+          "name": "Precognicient Volleys (Upgrade)",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "48414c4c4f57454420434f4e434c415645",
+      "name": "HALLOWED CONCLAVE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "455945204f462054484520415547555249554d",
+          "name": "Eye of the Augurium",
+          "points": 25
+        },
+        {
+          "id": "494e455343415041424c45204a554447454d454e54",
+          "name": "Inescapable Judgement",
+          "points": 20
+        },
+        {
+          "id": "4e454d4553495320524f554e4453",
+          "name": "Nemesis Rounds",
+          "points": 10
+        },
+        {
+          "id": "53414e4354494320524541504552",
+          "name": "Sanctic Reaper",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "494d4d4154455249414c20494e54455244494354494f4e",
+      "name": "IMMATERIAL INTERDICTION",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "41535452414c204f5645524c415020285550475241444529",
+          "name": "Astral Overlap (Upgrade)",
+          "points": 10
+        },
+        {
+          "id": "50524544455354494e454420434f4f5244494e4154455320285550475241444529",
+          "name": "Predestined Coordinates (Upgrade)",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "53414e4354494320535045415248454144",
+      "name": "SANCTIC SPEARHEAD",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "44524956454e2042592044555459",
+          "name": "Driven by Duty",
+          "points": 10
+        },
+        {
+          "id": "515549434b454e494e4720464f4349",
+          "name": "Quickening Foci",
+          "points": 15
+        },
+        {
+          "id": "534947494c204f462045584947454e4345",
+          "name": "Sigil of Exigence",
+          "points": 30
+        },
+        {
+          "id": "5350495249545553204d414348494e41",
+          "name": "Spiritus Machina",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "5741525042414e45205441534b20464f524345",
+      "name": "WARPBANE TASK FORCE",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "4d414e44554c49414e2052454c495155415259",
+          "name": "Mandulian Reliquary",
+          "points": 20
+        },
+        {
+          "id": "50415241474f4e204f462053414e4354495459",
+          "name": "Paragon of Sanctity",
+          "points": 10
+        },
+        {
+          "id": "504849414c204f4620544845204142595353",
+          "name": "Phial of the Abyss",
+          "points": 15
+        },
+        {
+          "id": "52414449414e54204348414d50494f4e",
+          "name": "Radiant Champion",
+          "points": 15
+        }
+      ]
+    }
+  ]
+}

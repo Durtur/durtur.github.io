@@ -1,0 +1,54 @@
+{
+  "slug": "titan-legions",
+  "name": "Titan Legions",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "52454156455220544954414e",
+          "name": "REAVER TITAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "5741524252494e474552204e454d4553495320544954414e",
+          "name": "WARBRINGER NEMESIS TITAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "574152484f554e4420544954414e",
+          "name": "WARHOUND TITAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 1
+            }
+          ]
+        },
+        {
+          "id": "5741524c4f524420544954414e",
+          "name": "WARLORD TITAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": []
+}

@@ -1,0 +1,1057 @@
+{
+  "slug": "necrons",
+  "name": "Necrons",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "414e4e4948494c4154494f4e204241524745",
+          "name": "ANNIHILATION BARGE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "id": "43414e4f5054454b20444f4f4d5354414c4b4552",
+          "name": "CANOPTEK DOOMSTALKER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "43414e4f5054454b204d4143524f4359544553",
+          "name": "CANOPTEK MACROCYTES",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "43414e4f5054454b205245414e494d41544f52",
+          "name": "CANOPTEK REANIMATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "43414e4f5054454b2053434152414220535741524d53",
+          "name": "CANOPTEK SCARAB SWARMS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 40
+            },
+            {
+              "models": 6,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "43414e4f5054454b2053505944455253",
+          "name": "CANOPTEK SPYDERS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 65
+            },
+            {
+              "models": 2,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "43414e4f5054454b20544f4d4220435241574c455253",
+          "name": "CANOPTEK TOMB CRAWLERS",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 50
+            }
+          ]
+        },
+        {
+          "id": "43414e4f5054454b2057524149544853",
+          "name": "CANOPTEK WRAITHS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 95
+            },
+            {
+              "models": 6,
+              "points": 220
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 115
+            },
+            {
+              "models": 6,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "id": "43415441434f4d4220434f4d4d414e44204241524745",
+          "name": "CATACOMB COMMAND BARGE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "4348524f4e4f4d414e434552",
+          "name": "CHRONOMANCER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "434f4e56455247454e4345204f4620444f4d494e494f4e",
+          "name": "CONVERGENCE OF DOMINION",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            },
+            {
+              "models": 2,
+              "points": 120
+            },
+            {
+              "models": 3,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "id": "43525950544f544852414c4c53",
+          "name": "CRYPTOTHRALLS",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "43e2809954414e205348415244204f4620544845204445434549564552",
+          "name": "C’TAN SHARD OF THE DECEIVER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 330
+            }
+          ]
+        },
+        {
+          "id": "43e2809954414e205348415244204f4620544845204e494748544252494e474552",
+          "name": "C’TAN SHARD OF THE NIGHTBRINGER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 360
+            }
+          ]
+        },
+        {
+          "id": "43e2809954414e205348415244204f462054484520564f494420445241474f4e",
+          "name": "C’TAN SHARD OF THE VOID DRAGON",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 345
+            }
+          ]
+        },
+        {
+          "id": "44454154484d41524b53",
+          "name": "DEATHMARKS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 60
+            },
+            {
+              "models": 10,
+              "points": 120
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 70
+            },
+            {
+              "models": 10,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "444f4f4d20534359544845",
+          "name": "DOOM SCYTHE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "id": "444f4f4d534441592041524b",
+          "name": "DOOMSDAY ARK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 200
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "id": "464c41594544204f4e4553",
+          "name": "FLAYED ONES",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 55
+            },
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "47454f4d414e434552",
+          "name": "GEOMANCER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "47484f53542041524b",
+          "name": "GHOST ARK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "4845584d41524b2044455354524f594552",
+          "name": "HEXMARK DESTROYER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "494c4c554d494e4f5220535a45524153",
+          "name": "ILLUMINOR SZERAS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "494d4d4f5254414c53",
+          "name": "IMMORTALS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 70
+            },
+            {
+              "models": 10,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "494d4f54454b48205448452053544f524d4c4f5244",
+          "name": "IMOTEKH THE STORMLORD",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "4c4f4b485553542044455354524f59455253",
+          "name": "LOKHUST DESTROYERS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 40
+            },
+            {
+              "models": 2,
+              "points": 55
+            },
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 50
+            },
+            {
+              "models": 2,
+              "points": 65
+            },
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "4c4f4b485553542048454156592044455354524f59455253",
+          "name": "LOKHUST HEAVY DESTROYERS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 50
+            },
+            {
+              "models": 2,
+              "points": 100
+            },
+            {
+              "models": 3,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 60
+            },
+            {
+              "models": 2,
+              "points": 110
+            },
+            {
+              "models": 3,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "4c4f4b48555354204c4f5244",
+          "name": "LOKHUST LORD",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "4c5943484755415244",
+          "name": "LYCHGUARD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "4d4f4e4f4c495448",
+          "name": "MONOLITH",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 420
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 440
+            }
+          ]
+        },
+        {
+          "id": "4e4543524f4e2057415252494f5253",
+          "name": "NECRON WARRIORS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 80
+            },
+            {
+              "models": 20,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "4e454b524f534f5220414d4d454e544152",
+          "name": "NEKROSOR AMMENTAR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "4e4947485420534359544845",
+          "name": "NIGHT SCYTHE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "id": "4f42454c49534b",
+          "name": "OBELISK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 280
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 310
+            }
+          ]
+        },
+        {
+          "id": "4f5048594449414e2044455354524f59455253",
+          "name": "OPHYDIAN DESTROYERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 145
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 155
+            }
+          ]
+        },
+        {
+          "id": "4f52494b414e2054484520444956494e4552",
+          "name": "ORIKAN THE DIVINER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "4f5645524c4f5244",
+          "name": "OVERLORD",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "4f5645524c4f52442057495448205452414e534c4f434154494f4e205348524f5544",
+          "name": "OVERLORD WITH TRANSLOCATION SHROUD",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "504c41534d414e434552",
+          "name": "PLASMANCER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        },
+        {
+          "id": "50535943484f4d414e434552",
+          "name": "PSYCHOMANCER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        },
+        {
+          "id": "524f59414c2057415244454e",
+          "name": "ROYAL WARDEN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        },
+        {
+          "id": "534552415054454b20484541565920434f4e535452554354",
+          "name": "SERAPTEK HEAVY CONSTRUCT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 540
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 570
+            }
+          ]
+        },
+        {
+          "id": "534b4f5250454b482044455354524f59455253",
+          "name": "SKORPEKH DESTROYERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 85
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 95
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "id": "534b4f5250454b48204c4f5244",
+          "name": "SKORPEKH LORD",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "544543484e4f4d414e434552",
+          "name": "TECHNOMANCER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "544553534552414354205641554c54",
+          "name": "TESSERACT VAULT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 445
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 465
+            }
+          ]
+        },
+        {
+          "id": "5448452053494c454e54204b494e47",
+          "name": "THE SILENT KING",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 400
+            }
+          ]
+        },
+        {
+          "id": "544f4d4220424c41444553",
+          "name": "TOMB BLADES",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 70
+            },
+            {
+              "models": 6,
+              "points": 140
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "5452414e5343454e44454e542043e2809954414e",
+          "name": "TRANSCENDENT C’TAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 340
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 360
+            }
+          ]
+        },
+        {
+          "id": "5452415a594e2054484520494e46494e495445",
+          "name": "TRAZYN THE INFINITE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        },
+        {
+          "id": "545249415243482050524145544f5249414e53",
+          "name": "TRIARCH PRAETORIANS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "54524941524348205354414c4b4552",
+          "name": "TRIARCH STALKER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "id": "414e4e4948494c4154494f4e204c4547494f4e",
+      "name": "ANNIHILATION LEGION",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "454c445249544348204e494748544d415245",
+          "name": "Eldritch Nightmare",
+          "points": 10
+        },
+        {
+          "id": "455445524e414c204d41444e455353",
+          "name": "Eternal Madness",
+          "points": 20
+        },
+        {
+          "id": "494e475241494e4544205355504552494f52495459",
+          "name": "Ingrained Superiority",
+          "points": 5
+        },
+        {
+          "id": "534f554c4c45535320524541504552",
+          "name": "Soulless Reaper",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "4157414b454e45442044594e41535459",
+      "name": "AWAKENED DYNASTY",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "454e4145474943204445524d414c20424f4e44",
+          "name": "Enaegic Dermal Bond",
+          "points": 30
+        },
+        {
+          "id": "4e45544845522d5245414c4d204341534b4554",
+          "name": "Nether-realm Casket",
+          "points": 20
+        },
+        {
+          "id": "50484153414c205355424a554741544f52",
+          "name": "Phasal Subjugator",
+          "points": 35
+        },
+        {
+          "id": "5645494c204f46204441524b4e455353",
+          "name": "Veil of Darkness",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "43414e4f5054454b20434f555254",
+      "name": "CANOPTEK COURT",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "4155544f444956494e41544f52",
+          "name": "Autodivinator",
+          "points": 15
+        },
+        {
+          "id": "44494d454e53494f4e414c2053414e4354554d",
+          "name": "Dimensional Sanctum",
+          "points": 20
+        },
+        {
+          "id": "48595045525048415349432046554c4352554d",
+          "name": "Hyperphasic Fulcrum",
+          "points": 15
+        },
+        {
+          "id": "4d4554414c4f4445524d414c205445534c41205745415645",
+          "name": "Metalodermal Tesla Weave",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "4352595054454b20434f4e434c415645",
+      "name": "CRYPTEK CONCLAVE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "41544f4d494320444953494e5445475241544f5253",
+          "name": "Atomic Disintegrators",
+          "points": 10
+        },
+        {
+          "id": "4741554e544c4554204f4620434f4d5052455353494f4e",
+          "name": "Gauntlet of Compression",
+          "points": 20
+        },
+        {
+          "id": "475241564954494320424f4c4153",
+          "name": "Gravitic Bolas",
+          "points": 15
+        },
+        {
+          "id": "5155414e54554d20414241435553",
+          "name": "Quantum Abacus",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "435552534544204c4547494f4e",
+      "name": "CURSED LEGION",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "43555253454420434952434c4554",
+          "name": "Cursed Circlet",
+          "points": 25
+        },
+        {
+          "id": "44455354524f59455220414e4b48",
+          "name": "Destroyer Ankh",
+          "points": 20
+        },
+        {
+          "id": "4d41524b204f4620544845204e454b524f534f52",
+          "name": "Mark of the Nekrosor",
+          "points": 20
+        },
+        {
+          "id": "4d55524445524d494e44",
+          "name": "Murdermind",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "48414e44204f46205448452044594e41535459",
+      "name": "HAND OF THE DYNASTY",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "454e4c4956454e45442053454e54494e454c5320285550475241444529",
+          "name": "Enlivened Sentinels (Upgrade)",
+          "points": 20
+        },
+        {
+          "id": "544f4f4c53204f4620444f4d494e494f4e20285550475241444529",
+          "name": "Tools of Dominion (Upgrade)",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "48595045524352595054204c4547494f4e",
+      "name": "HYPERCRYPT LEGION",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "41524953454e20545952414e54",
+          "name": "Arisen Tyrant",
+          "points": 25
+        },
+        {
+          "id": "44494d454e53494f4e414c204f56455253454552",
+          "name": "Dimensional Overseer",
+          "points": 25
+        },
+        {
+          "id": "48595045525350415449414c205452414e53464552204e4f4445",
+          "name": "Hyperspatial Transfer Node",
+          "points": 15
+        },
+        {
+          "id": "4f5354454f434c4156452046554c4352554d",
+          "name": "Osteoclave Fulcrum",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "4f42454953414e4345205048414c414e58",
+      "name": "OBEISANCE PHALANX",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "455445524e414c20434f4e515545524f52",
+          "name": "Eternal Conqueror",
+          "points": 25
+        },
+        {
+          "id": "484f4e4f555241424c4520434f4d424154414e54",
+          "name": "Honourable Combatant",
+          "points": 10
+        },
+        {
+          "id": "554e464c494e4348494e472057494c4c",
+          "name": "Unflinching Will",
+          "points": 20
+        },
+        {
+          "id": "57415252494f52204e4f424c45",
+          "name": "Warrior Noble",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "50414e5448454f4e204f4620574f45",
+      "name": "PANTHEON OF WOE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "414e494d55532044414d504552",
+          "name": "Animus Damper",
+          "points": 35
+        },
+        {
+          "id": "5155414e54554d20474f4144",
+          "name": "Quantum Goad",
+          "points": 45
+        },
+        {
+          "id": "52454c45544156495354494320544554484552",
+          "name": "Reletavistic Tether",
+          "points": 40
+        },
+        {
+          "id": "53494e47554c4152495459204d4154524958",
+          "name": "Singularity Matrix",
+          "points": 45
+        }
+      ]
+    },
+    {
+      "id": "534b595348524f554420535045415248454144",
+      "name": "SKYSHROUD SPEARHEAD",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "44454550454e494e47204d41444e45535320285550475241444529",
+          "name": "Deepening Madness (Upgrade)",
+          "points": 20
+        },
+        {
+          "id": "524543555253495645205245414e494d4154494f4e20285550475241444529",
+          "name": "Recursive Reanimation (Upgrade)",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": "535441525348415454455220415253454e414c",
+      "name": "STARSHATTER ARSENAL",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "4348524f4e4f2d494d504544414e4345204649454c4453",
+          "name": "Chrono-impedance Fields",
+          "points": 25
+        },
+        {
+          "id": "44454d414e44494e47204c4541444552",
+          "name": "Demanding Leader",
+          "points": 10
+        },
+        {
+          "id": "4452454144204d414a45535459",
+          "name": "Dread Majesty",
+          "points": 30
+        },
+        {
+          "id": "4d494e494154555249534544204e4542554c4f53434f5045",
+          "name": "Miniaturised Nebuloscope",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "5448452050484145524f4e27532041524d4f555259",
+      "name": "THE PHAERON'S ARMOURY",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "4d4f5254414c495459205348524f55442028415552412920285550475241444529",
+          "name": "Mortality Shroud (Aura) (Upgrade)",
+          "points": 10
+        },
+        {
+          "id": "5052454c4f434154494f4e414c204f5054494d49534552",
+          "name": "Prelocational Optimiser",
+          "points": 25
+        }
+      ]
+    }
+  ]
+}

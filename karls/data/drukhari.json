@@ -1,0 +1,566 @@
+{
+  "slug": "drukhari",
+  "name": "Drukhari",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "415243484f4e",
+          "name": "ARCHON",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "43524f4e4f53",
+          "name": "CRONOS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 55
+            },
+            {
+              "models": 2,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "4452415a484152",
+          "name": "DRAZHAR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "4841454d4f4e43554c5553",
+          "name": "HAEMONCULUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        },
+        {
+          "id": "48414e44204f462054484520415243484f4e",
+          "name": "HAND OF THE ARCHON",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "id": "48454c4c494f4e53",
+          "name": "HELLIONS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 180
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "494e43554249",
+          "name": "INCUBI",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 180
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "4b4142414c4954452057415252494f5253",
+          "name": "KABALITE WARRIORS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "4c414459204d414c5953",
+          "name": "LADY MALYS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "4c454c495448204845535045524158",
+          "name": "LELITH HESPERAX",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "4d414e4452414b4553",
+          "name": "MANDRAKES",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "524149444552",
+          "name": "RAIDER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "52415641474552",
+          "name": "RAVAGER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "52415a4f5257494e47204a455446494748544552",
+          "name": "RAZORWING JETFIGHTER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "52454156455253",
+          "name": "REAVERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 75
+            },
+            {
+              "models": 6,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 85
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "53434f5552474553205749544820484541565920574541504f4e53",
+          "name": "SCOURGES WITH HEAVY WEAPONS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 110
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "53434f5552474553205749544820534841524443415242494e4553",
+          "name": "SCOURGES WITH SHARDCARBINES",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 75
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "5355434355425553",
+          "name": "SUCCUBUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        },
+        {
+          "id": "54414c4f53",
+          "name": "TALOS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            },
+            {
+              "models": 2,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 85
+            },
+            {
+              "models": 2,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "56454e4f4d",
+          "name": "VENOM",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "564f4944524156454e20424f4d424552",
+          "name": "VOIDRAVEN BOMBER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 245
+            }
+          ]
+        },
+        {
+          "id": "575241434b53",
+          "name": "WRACKS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 60
+            },
+            {
+              "models": 8,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "575943484553",
+          "name": "WYCHES",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "id": "434f56454e49544520434f5445524945",
+      "name": "COVENITE COTERIE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4d4153544552204152544953414e",
+          "name": "Master Artisan",
+          "points": 20
+        },
+        {
+          "id": "4d4153544552204e454d4553494e45",
+          "name": "Master Nemesine",
+          "points": 5
+        },
+        {
+          "id": "4d415354455220524547454e4553495354",
+          "name": "Master Regenesist",
+          "points": 25
+        },
+        {
+          "id": "4d41535445522052455055474e4f4d414e434552",
+          "name": "Master Repugnomancer",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "45584849424954494f4e204f4620534c41554748544552",
+      "name": "EXHIBITION OF SLAUGHTER",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "48595045525354494d4d20545241464649434b4552",
+          "name": "Hyperstimm Trafficker",
+          "points": 20
+        },
+        {
+          "id": "50455249415054204f4620544f524d454e5453",
+          "name": "Periapt of Torments",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "4b4142414c4954452041474f4e59535453",
+      "name": "KABALITE AGONYSTS",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "434f4e54454d505420464f5220524956414c53",
+          "name": "Contempt for Rivals",
+          "points": 20
+        },
+        {
+          "id": "544f574552494e47204152524f47414e4345",
+          "name": "Towering Arrogance",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "4b4142414c4954452043415254454c",
+      "name": "KABALITE CARTEL",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "494e464f524d414e54204e4554574f524b",
+          "name": "Informant Network",
+          "points": 30
+        },
+        {
+          "id": "4c454543484249544520504c415445",
+          "name": "Leechbite Plate",
+          "points": 5
+        },
+        {
+          "id": "544f574552494e47204152524f47414e4345",
+          "name": "Towering Arrogance",
+          "points": 20
+        },
+        {
+          "id": "5745425741592041574c",
+          "name": "Webway Awl",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "5245414c53504143452052414944455253",
+      "name": "REALSPACE RAIDERS",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4352554349424c45204f46204d414c4544494354494f4e",
+          "name": "Crucible of Malediction",
+          "points": 15
+        },
+        {
+          "id": "4441524b20564954414c495459",
+          "name": "Dark Vitality",
+          "points": 20
+        },
+        {
+          "id": "455945204f46205350495445",
+          "name": "Eye of Spite",
+          "points": 15
+        },
+        {
+          "id": "4c41425952494e5448494e452043554e4e494e47",
+          "name": "Labyrinthine Cunning",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "524541504552e2809953205741474552",
+      "name": "REAPER’S WAGER",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "41524348524149444552",
+          "name": "Archraider",
+          "points": 15
+        },
+        {
+          "id": "434f4e445543544f52204f4620544f524d454e54",
+          "name": "Conductor of Torment",
+          "points": 20
+        },
+        {
+          "id": "524541504552e280995320434f574c",
+          "name": "Reaper’s Cowl",
+          "points": 25
+        },
+        {
+          "id": "5745425741592057414c4b4552",
+          "name": "Webway Walker",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "534b5953504c494e5445522041535341554c54",
+      "name": "SKYSPLINTER ASSAULT",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4e494748544d415245205348524f5544",
+          "name": "Nightmare Shroud",
+          "points": 20
+        },
+        {
+          "id": "5048414e5441534d414c20534d4f4b45",
+          "name": "Phantasmal Smoke",
+          "points": 15
+        },
+        {
+          "id": "53414449535449432046554c4352554d",
+          "name": "Sadistic Fulcrum",
+          "points": 15
+        },
+        {
+          "id": "535049544546554c20524149444552",
+          "name": "Spiteful Raider",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "535045435441434c45204f46205350495445",
+      "name": "SPECTACLE OF SPITE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4348524f4e4f5348415244",
+          "name": "Chronoshard",
+          "points": 15
+        },
+        {
+          "id": "4d4f524748454e4e41e2809953204355525345",
+          "name": "Morghenna’s Curse",
+          "points": 20
+        },
+        {
+          "id": "50455249415054204f4620544f524d454e5453",
+          "name": "Periapt of Torments",
+          "points": 25
+        },
+        {
+          "id": "504841524d41434f50484558",
+          "name": "Pharmacophex",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "544f4f4c53204f4620544f524d454e54",
+      "name": "TOOLS OF TORMENT",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "454c49584952204f462054484520434f5250534520434f5552545320285550475241444529",
+          "name": "Elixir of the Corpse Courts (Upgrade)",
+          "points": 15
+        },
+        {
+          "id": "474e41524c534b494e204558504552494d454e544f52",
+          "name": "Gnarlskin Experimentor",
+          "points": 20
+        }
+      ]
+    }
+  ]
+}

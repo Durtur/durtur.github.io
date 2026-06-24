@@ -1,0 +1,1039 @@
+{
+  "slug": "thousand-sons",
+  "name": "Thousand Sons",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "414852494d414e",
+          "name": "AHRIMAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "4348414f53204c414e4420524149444552",
+          "name": "CHAOS LAND RAIDER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "id": "4348414f53205052454441544f5220414e4e4948494c41544f52",
+          "name": "CHAOS PREDATOR ANNIHILATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "4348414f53205052454441544f522044455354525543544f52",
+          "name": "CHAOS PREDATOR DESTRUCTOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "4348414f53205248494e4f",
+          "name": "CHAOS RHINO",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "4348414f5320535041574e",
+          "name": "CHAOS SPAWN",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 65
+            }
+          ]
+        },
+        {
+          "id": "4348414f532056494e44494341544f52",
+          "name": "CHAOS VINDICATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ]
+        },
+        {
+          "id": "4441454d4f4e205052494e4345204f4620545a45454e544348",
+          "name": "DAEMON PRINCE OF TZEENTCH",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "4441454d4f4e205052494e4345204f4620545a45454e54434820574954482057494e4753",
+          "name": "DAEMON PRINCE OF TZEENTCH WITH WINGS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "id": "444546494c4552",
+          "name": "DEFILER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 290
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 320
+            }
+          ]
+        },
+        {
+          "id": "4558414c54454420534f524345524552",
+          "name": "EXALTED SORCERER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "4558414c54454420534f524345524552204f4e2044495343204f4620545a45454e544348",
+          "name": "EXALTED SORCERER ON DISC OF TZEENTCH",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "464f5247454649454e44",
+          "name": "FORGEFIEND",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "48454c4252555445",
+          "name": "HELBRUTE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "48454c4452414b45",
+          "name": "HELDRAKE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "494e4645524e414c204d4153544552",
+          "name": "INFERNAL MASTER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "id": "4d41474e55532054484520524544",
+          "name": "MAGNUS THE RED",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 455
+            }
+          ]
+        },
+        {
+          "id": "4d41554c45524649454e44",
+          "name": "MAULERFIEND",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "4d5554414c49544820564f52544558204245415354",
+          "name": "MUTALITH VORTEX BEAST",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "525542524943204d4152494e4553",
+          "name": "RUBRIC MARINES",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ],
+          "repeatFromCopy": 4,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "id": "534341524142204f4343554c54205445524d494e41544f5253",
+          "name": "SCARAB OCCULT TERMINATORS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 180
+            },
+            {
+              "models": 10,
+              "points": 370
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 195
+            },
+            {
+              "models": 10,
+              "points": 385
+            }
+          ]
+        },
+        {
+          "id": "53454b484554415220524f424f5453",
+          "name": "SEKHETAR ROBOTS",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 80
+            },
+            {
+              "models": 4,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "534f524345524552",
+          "name": "SORCERER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "534f52434552455220494e205445524d494e41544f522041524d4f5552",
+          "name": "SORCERER IN TERMINATOR ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        },
+        {
+          "id": "545a41414e474f5220454e4c49474854454e4544",
+          "name": "TZAANGOR ENLIGHTENED",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 45
+            },
+            {
+              "models": 6,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "545a41414e474f5220454e4c49474854454e454420574954482046415445434153544552204752454154424f5753",
+          "name": "TZAANGOR ENLIGHTENED WITH FATECASTER GREATBOWS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 55
+            },
+            {
+              "models": 6,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "545a41414e474f5253",
+          "name": "TZAANGORS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 75
+            },
+            {
+              "models": 20,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "545a41414e474f52205348414d414e",
+          "name": "TZAANGOR SHAMAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "SCINTILLATING LEGIONS",
+      "units": [
+        {
+          "id": "424c554520484f52524f5253",
+          "name": "BLUE HORRORS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "464c414d455253",
+          "name": "FLAMERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 65
+            },
+            {
+              "models": 6,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "4b4149524f532046415445574541564552",
+          "name": "KAIROS FATEWEAVER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 295
+            }
+          ]
+        },
+        {
+          "id": "4c4f5244204f46204348414e4745",
+          "name": "LORD OF CHANGE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 300
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 315
+            }
+          ]
+        },
+        {
+          "id": "50494e4b20484f52524f5253",
+          "name": "PINK HORRORS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "id": "53435245414d455253",
+          "name": "SCREAMERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "4348414f53205248494e4f",
+          "name": "CHAOS RHINO",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "4348414f5320535041574e",
+          "name": "CHAOS SPAWN",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 65
+            }
+          ]
+        },
+        {
+          "id": "4348414f532056494e44494341544f52",
+          "name": "CHAOS VINDICATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ]
+        },
+        {
+          "id": "4441454d4f4e205052494e4345204f4620545a45454e544348",
+          "name": "DAEMON PRINCE OF TZEENTCH",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "4441454d4f4e205052494e4345204f4620545a45454e54434820574954482057494e4753",
+          "name": "DAEMON PRINCE OF TZEENTCH WITH WINGS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "id": "444546494c4552",
+          "name": "DEFILER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 290
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 320
+            }
+          ]
+        },
+        {
+          "id": "4558414c54454420534f524345524552",
+          "name": "EXALTED SORCERER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "4558414c54454420534f524345524552204f4e2044495343204f4620545a45454e544348",
+          "name": "EXALTED SORCERER ON DISC OF TZEENTCH",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "464f5247454649454e44",
+          "name": "FORGEFIEND",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "48454c4252555445",
+          "name": "HELBRUTE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "48454c4452414b45",
+          "name": "HELDRAKE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "494e4645524e414c204d4153544552",
+          "name": "INFERNAL MASTER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "id": "4d41474e55532054484520524544",
+          "name": "MAGNUS THE RED",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 455
+            }
+          ]
+        },
+        {
+          "id": "4d41554c45524649454e44",
+          "name": "MAULERFIEND",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "4d5554414c49544820564f52544558204245415354",
+          "name": "MUTALITH VORTEX BEAST",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "525542524943204d4152494e4553",
+          "name": "RUBRIC MARINES",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ],
+          "repeatFromCopy": 4,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "id": "534341524142204f4343554c54205445524d494e41544f5253",
+          "name": "SCARAB OCCULT TERMINATORS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 180
+            },
+            {
+              "models": 10,
+              "points": 370
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 195
+            },
+            {
+              "models": 10,
+              "points": 385
+            }
+          ]
+        },
+        {
+          "id": "53454b484554415220524f424f5453",
+          "name": "SEKHETAR ROBOTS",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 80
+            },
+            {
+              "models": 4,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "534f524345524552",
+          "name": "SORCERER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "534f52434552455220494e205445524d494e41544f522041524d4f5552",
+          "name": "SORCERER IN TERMINATOR ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        },
+        {
+          "id": "545a41414e474f5220454e4c49474854454e4544",
+          "name": "TZAANGOR ENLIGHTENED",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 45
+            },
+            {
+              "models": 6,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "545a41414e474f5220454e4c49474854454e454420574954482046415445434153544552204752454154424f5753",
+          "name": "TZAANGOR ENLIGHTENED WITH FATECASTER GREATBOWS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 55
+            },
+            {
+              "models": 6,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "545a41414e474f5253",
+          "name": "TZAANGORS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 75
+            },
+            {
+              "models": 20,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "545a41414e474f52205348414d414e",
+          "name": "TZAANGOR SHAMAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "id": "4348414e4745484f5354204f4620444543454954",
+      "name": "CHANGEHOST OF DECEIT",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "444941424f4c494320534156414e54",
+          "name": "Diabolic Savant",
+          "points": 20
+        },
+        {
+          "id": "4455504c494349544f5553204d414c4544494354494f4e",
+          "name": "Duplicitous Malediction",
+          "points": 15
+        },
+        {
+          "id": "4e455448455253485249454b204d494e442d4541544552",
+          "name": "Nethershriek Mind-Eater",
+          "points": 10
+        },
+        {
+          "id": "544f4d45204f462054525545204e414d4553",
+          "name": "Tome of True Names",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "4752414e4420434f56454e",
+      "name": "GRAND COVEN",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "454c44524954434820564f52544558204f462045e2809954415048",
+          "name": "Eldritch Vortex of E’Taph",
+          "points": 35
+        },
+        {
+          "id": "494e43414e444145554d",
+          "name": "Incandaeum",
+          "points": 15
+        },
+        {
+          "id": "4c4f5244204f4620464f5242494444454e204c4f5245",
+          "name": "Lord of Forbidden Lore",
+          "points": 20
+        },
+        {
+          "id": "554d4252414c45464943204352595354414c",
+          "name": "Umbralefic Crystal",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "4845585741525020544852414c4c42414e44",
+      "name": "HEXWARP THRALLBAND",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "415243414e45204d49474854",
+          "name": "Arcane Might",
+          "points": 20
+        },
+        {
+          "id": "454d504f5745524544204d414e49464553544154494f4e",
+          "name": "Empowered Manifestation",
+          "points": 20
+        },
+        {
+          "id": "454d5059524943204f4e534c4155474854",
+          "name": "Empyric Onslaught",
+          "points": 25
+        },
+        {
+          "id": "4e4f4354494c495448204d414e544c45",
+          "name": "Noctilith Mantle",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "52495455414c204f4620524547454e45524154494f4e",
+      "name": "RITUAL OF REGENERATION",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "4355525345204f46204c494645",
+          "name": "Curse of Life",
+          "points": 20
+        },
+        {
+          "id": "4552555054494f4e204f4620564954414c495459",
+          "name": "Eruption of Vitality",
+          "points": 35
+        }
+      ]
+    },
+    {
+      "id": "5255425249434145205048414c414e58",
+      "name": "RUBRICAE PHALANX",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "415243414e4520544852414c4c53",
+          "name": "Arcane Thralls",
+          "points": 5
+        },
+        {
+          "id": "4c4f5244204f4620544845205255425249434145",
+          "name": "Lord of the Rubricae",
+          "points": 15
+        },
+        {
+          "id": "524953454e205255425249434145",
+          "name": "Risen Rubricae",
+          "points": 30
+        },
+        {
+          "id": "53544156452041424f4d494e5553",
+          "name": "Stave Abominus",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "53454b484554415220434f484f5254",
+      "name": "SEKHETAR COHORT",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "4f4343554c555320494e4645524e554d",
+          "name": "Occulus Infernum",
+          "points": 20
+        },
+        {
+          "id": "57414c4b494e472052414d50415254",
+          "name": "Walking Rampart",
+          "points": 30
+        }
+      ]
+    },
+    {
+      "id": "53455256414e5453204f46204348414e4745",
+      "name": "SERVANTS OF CHANGE",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "544849434b4554204f4620424c4144454420424f4e4520285550475241444529",
+          "name": "Thicket of Bladed Bone (Upgrade)",
+          "points": 10
+        },
+        {
+          "id": "554e524156454c4c4544204641544553",
+          "name": "Unravelled Fates",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "57415250464f5247454420434142414c",
+      "name": "WARPFORGED CABAL",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "42494f4d454348414e4943414c204d55544154494f4e",
+          "name": "Biomechanical Mutation",
+          "points": 15
+        },
+        {
+          "id": "504552504c4558494e4720434c4f414b",
+          "name": "Perplexing Cloak",
+          "points": 20
+        },
+        {
+          "id": "574152502d4355525345442052554e454d4153544552",
+          "name": "Warp-Cursed Runemaster",
+          "points": 10
+        },
+        {
+          "id": "5741525020535950484f4e",
+          "name": "Warp Syphon",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": "574152504d454c442050414354",
+      "name": "WARPMELD PACT",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "42524159204c4f5244",
+          "name": "Bray Lord",
+          "points": 15
+        },
+        {
+          "id": "4449414d4f4e44204f4620444953544f5254494f4e",
+          "name": "Diamond of Distortion",
+          "points": 20
+        },
+        {
+          "id": "464c4f57494e4720464c455348",
+          "name": "Flowing Flesh",
+          "points": 10
+        },
+        {
+          "id": "574152504d454c4420444147474552",
+          "name": "Warpmeld Dagger",
+          "points": 10
+        }
+      ]
+    }
+  ]
+}

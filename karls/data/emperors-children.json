@@ -1,0 +1,743 @@
+{
+  "slug": "emperors-children",
+  "name": "Emperor’s Children",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "4348414f53204c414e4420524149444552",
+          "name": "CHAOS LAND RAIDER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "id": "4348414f53205248494e4f",
+          "name": "CHAOS RHINO",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "4348414f5320535041574e",
+          "name": "CHAOS SPAWN",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "4348414f53205445524d494e41544f5253",
+          "name": "CHAOS TERMINATORS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "4441454d4f4e205052494e4345204f4620534c41414e455348",
+          "name": "DAEMON PRINCE OF SLAANESH",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        },
+        {
+          "id": "4441454d4f4e205052494e4345204f4620534c41414e45534820574954482057494e4753",
+          "name": "DAEMON PRINCE OF SLAANESH WITH WINGS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 205
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 235
+            }
+          ]
+        },
+        {
+          "id": "444546494c4552",
+          "name": "DEFILER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 290
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 320
+            }
+          ]
+        },
+        {
+          "id": "464c41574c45535320424c41444553",
+          "name": "FLAWLESS BLADES",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 95
+            },
+            {
+              "models": 6,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "46554c4752494d",
+          "name": "FULGRIM",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 350
+            }
+          ]
+        },
+        {
+          "id": "48454c4452414b45",
+          "name": "HELDRAKE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "494e46524143544f5253",
+          "name": "INFRACTORS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "4c4f5244204558554c54414e54",
+          "name": "LORD EXULTANT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "4c4f5244204b414b4f50484f4e495354",
+          "name": "LORD KAKOPHONIST",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "4c55434955532054484520455445524e414c",
+          "name": "LUCIUS THE ETERNAL",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "4d41554c45524649454e44",
+          "name": "MAULERFIEND",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "4e4f495345204d4152494e4553",
+          "name": "NOISE MARINES",
+          "tiers": [
+            {
+              "models": 6,
+              "points": 145
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "534f524345524552",
+          "name": "SORCERER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "544f524d454e544f5253",
+          "name": "TORMENTORS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "LEGIONS OF EXCESS",
+      "units": [
+        {
+          "id": "4441454d4f4e4554544553",
+          "name": "DAEMONETTES",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "4649454e4453",
+          "name": "FIENDS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "id": "4b4545504552204f462053454352455453",
+          "name": "KEEPER OF SECRETS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 255
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ]
+        },
+        {
+          "id": "5345454b455253",
+          "name": "SEEKERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 155
+            }
+          ]
+        },
+        {
+          "id": "5348414c4158492048454c42414e45",
+          "name": "SHALAXI HELBANE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 340
+            }
+          ]
+        },
+        {
+          "id": "4441454d4f4e205052494e4345204f4620534c41414e45534820574954482057494e4753",
+          "name": "DAEMON PRINCE OF SLAANESH WITH WINGS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 205
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 235
+            }
+          ]
+        },
+        {
+          "id": "444546494c4552",
+          "name": "DEFILER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 290
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 320
+            }
+          ]
+        },
+        {
+          "id": "464c41574c45535320424c41444553",
+          "name": "FLAWLESS BLADES",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 95
+            },
+            {
+              "models": 6,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "46554c4752494d",
+          "name": "FULGRIM",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 350
+            }
+          ]
+        },
+        {
+          "id": "48454c4452414b45",
+          "name": "HELDRAKE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "494e46524143544f5253",
+          "name": "INFRACTORS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "4c4f5244204558554c54414e54",
+          "name": "LORD EXULTANT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "4c4f5244204b414b4f50484f4e495354",
+          "name": "LORD KAKOPHONIST",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "4c55434955532054484520455445524e414c",
+          "name": "LUCIUS THE ETERNAL",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "4d41554c45524649454e44",
+          "name": "MAULERFIEND",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "4e4f495345204d4152494e4553",
+          "name": "NOISE MARINES",
+          "tiers": [
+            {
+              "models": 6,
+              "points": 145
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "534f524345524552",
+          "name": "SORCERER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "544f524d454e544f5253",
+          "name": "TORMENTORS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "id": "4341524e4956414c204f4620455843455353",
+      "name": "CARNIVAL OF EXCESS",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4441524b20424c455353494e4753",
+          "name": "Dark Blessings",
+          "points": 10
+        },
+        {
+          "id": "454d505952494320535546465553494f4e",
+          "name": "Empyric Suffusion",
+          "points": 15
+        },
+        {
+          "id": "504f5353455353454420424c414445",
+          "name": "Possessed Blade",
+          "points": 25
+        },
+        {
+          "id": "574152502057414c4b4552",
+          "name": "Warp Walker",
+          "points": 30
+        }
+      ]
+    },
+    {
+      "id": "434f5445524945204f462054484520434f4e434549544544",
+      "name": "COTERIE OF THE CONCEITED",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "504c45444745204f46204441524b20474c4f5259",
+          "name": "Pledge of Dark Glory",
+          "points": 25
+        },
+        {
+          "id": "504c45444745204f4620455445524e414c20534552564954554445",
+          "name": "Pledge of Eternal Servitude",
+          "points": 25
+        },
+        {
+          "id": "504c45444745204f46204d4f5254414c205041494e",
+          "name": "Pledge of Mortal Pain",
+          "points": 15
+        },
+        {
+          "id": "504c45444745204f4620554e484f4c5920464f5254554e45",
+          "name": "Pledge of Unholy Fortune",
+          "points": 30
+        }
+      ]
+    },
+    {
+      "id": "434f555254204f46205448452050484f454e494349414e",
+      "name": "COURT OF THE PHOENICIAN",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4558414c54454420504154524f4e",
+          "name": "Exalted Patron",
+          "points": 15
+        },
+        {
+          "id": "534f554c535441494e204d414445204d414e4946455354",
+          "name": "Soulstain Made Manifest",
+          "points": 15
+        },
+        {
+          "id": "535049524954534c49564552",
+          "name": "Spiritsliver",
+          "points": 20
+        },
+        {
+          "id": "5445415253204f46205448452050484f454e4958",
+          "name": "Tears of the Phoenix",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "454c4547414e5420425255544553",
+      "name": "ELEGANT BRUTES",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "4341434f50484f4e4943204143434f4d50414e494d454e54",
+          "name": "Cacophonic Accompaniment",
+          "points": 20
+        },
+        {
+          "id": "4652454e5a494544204645524f4349545920285550475241444529",
+          "name": "Frenzied Ferocity (Upgrade)",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "4652454e5a49454420484f5354",
+      "name": "FRENZIED HOST",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "455550484f5249432043524f574e",
+          "name": "Euphoric Crown",
+          "points": 20
+        },
+        {
+          "id": "484f574c494e4720504c415445",
+          "name": "Howling Plate",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "4d455243555249414c20484f5354",
+      "name": "MERCURIAL HOST",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "494e544f5849434154494e47204d55534b",
+          "name": "Intoxicating Musk",
+          "points": 20
+        },
+        {
+          "id": "4c4f415448534f4d4520444558544552495459",
+          "name": "Loathsome Dexterity",
+          "points": 10
+        },
+        {
+          "id": "5354454550454420494e20535546464552494e47",
+          "name": "Steeped in Suffering",
+          "points": 20
+        },
+        {
+          "id": "544143544943414c2050455246454354494f4e",
+          "name": "Tactical Perfection",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "504545524c45535320424c414445534d454e",
+      "name": "PEERLESS BLADESMEN",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "424c494e44494e47205350454544",
+          "name": "Blinding Speed",
+          "points": 25
+        },
+        {
+          "id": "444953544f5254494f4e",
+          "name": "Distortion",
+          "points": 25
+        },
+        {
+          "id": "4641554c544c455353204f50504f5254554e495354",
+          "name": "Faultless Opportunist",
+          "points": 15
+        },
+        {
+          "id": "5249534520544f20544845204348414c4c454e4745",
+          "name": "Rise to the Challenge",
+          "points": 30
+        }
+      ]
+    },
+    {
+      "id": "524150494420455649534345524154494f4e",
+      "name": "RAPID EVISCERATION",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4143434f4d504c49534845442054414354494349414e",
+          "name": "Accomplished Tactician",
+          "points": 35
+        },
+        {
+          "id": "4845524554454b204144455054",
+          "name": "Heretek Adept",
+          "points": 35
+        },
+        {
+          "id": "53504541524845414420535452494b4552",
+          "name": "Spearhead Striker",
+          "points": 20
+        },
+        {
+          "id": "5355424c494d4520505245534349454e4345",
+          "name": "Sublime Prescience",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "534c41414e455348e28099532043484f53454e",
+      "name": "SLAANESH’S CHOSEN",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "454147455220544f2050524f5645",
+          "name": "Eager to Prove",
+          "points": 15
+        },
+        {
+          "id": "50524f554420414e44205641494e474c4f52494f5553",
+          "name": "Proud and Vainglorious",
+          "points": 20
+        },
+        {
+          "id": "524550554c534544204259205745414b4e455353",
+          "name": "Repulsed by Weakness",
+          "points": 25
+        },
+        {
+          "id": "534c41594552204f46204348414d50494f4e53",
+          "name": "Slayer of Champions",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "535045435441434c45204f4620534c41554748544552",
+      "name": "SPECTACLE OF SLAUGHTER",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "42454755494c494e472047524f54455351554552494520285550475241444529",
+          "name": "Beguiling Grotesquerie (Upgrade)",
+          "points": 15
+        },
+        {
+          "id": "454147455220504154524f4e5320285550475241444529",
+          "name": "Eager Patrons (Upgrade)",
+          "points": 20
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,925 @@
+{
+  "slug": "world-eaters",
+  "name": "World Eaters",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "414e47524f4e",
+          "name": "ANGRON",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 350
+            }
+          ]
+        },
+        {
+          "id": "4348414f53204c414e4420524149444552",
+          "name": "CHAOS LAND RAIDER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "id": "4348414f53205052454441544f5220414e4e4948494c41544f52",
+          "name": "CHAOS PREDATOR ANNIHILATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "4348414f53205052454441544f522044455354525543544f52",
+          "name": "CHAOS PREDATOR DESTRUCTOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "4348414f53205248494e4f",
+          "name": "CHAOS RHINO",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "4348414f5320535041574e",
+          "name": "CHAOS SPAWN",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "id": "4348414f53205445524d494e41544f5253",
+          "name": "CHAOS TERMINATORS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 175
+            },
+            {
+              "models": 10,
+              "points": 350
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 185
+            },
+            {
+              "models": 10,
+              "points": 360
+            }
+          ]
+        },
+        {
+          "id": "4441454d4f4e205052494e4345204f46204b484f524e45",
+          "name": "DAEMON PRINCE OF KHORNE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "id": "4441454d4f4e205052494e4345204f46204b484f524e4520574954482057494e4753",
+          "name": "DAEMON PRINCE OF KHORNE WITH WINGS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "444546494c4552",
+          "name": "DEFILER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 300
+            }
+          ]
+        },
+        {
+          "id": "4549474854424f554e44",
+          "name": "EIGHTBOUND",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 135
+            },
+            {
+              "models": 6,
+              "points": 270
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 145
+            },
+            {
+              "models": 6,
+              "points": 280
+            }
+          ]
+        },
+        {
+          "id": "4558414c544544204549474854424f554e44",
+          "name": "EXALTED EIGHTBOUND",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 140
+            },
+            {
+              "models": 6,
+              "points": 280
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 150
+            },
+            {
+              "models": 6,
+              "points": 290
+            }
+          ]
+        },
+        {
+          "id": "464f5247454649454e44",
+          "name": "FORGEFIEND",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "474f52454d4f4e47455253",
+          "name": "GOREMONGERS",
+          "tiers": [
+            {
+              "models": 8,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "48454c4252555445",
+          "name": "HELBRUTE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "48454c4452414b45",
+          "name": "HELDRAKE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "4a414b48414c53",
+          "name": "JAKHALS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 65
+            },
+            {
+              "models": 20,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "4b48c382524e20544845204245545241594552",
+          "name": "KHÂRN THE BETRAYER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "id": "4b484f524e45204245525a45524b455253",
+          "name": "KHORNE BERZERKERS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 180
+            },
+            {
+              "models": 20,
+              "points": 345
+            }
+          ]
+        },
+        {
+          "id": "4b484f524e45204c4f5244204f4620534b554c4c53",
+          "name": "KHORNE LORD OF SKULLS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 505
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 535
+            }
+          ]
+        },
+        {
+          "id": "4c4f524420494e564f4341545553",
+          "name": "LORD INVOCATUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "4c4f5244204f4e204a55474745524e415554",
+          "name": "LORD ON JUGGERNAUT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        },
+        {
+          "id": "4d4153544552204f4620455845435554494f4e53",
+          "name": "MASTER OF EXECUTIONS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "4d41554c45524649454e44",
+          "name": "MAULERFIEND",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 155
+            }
+          ]
+        },
+        {
+          "id": "534c41554748544552424f554e44",
+          "name": "SLAUGHTERBOUND",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "BLOOD LEGIONS",
+      "units": [
+        {
+          "id": "424c4f4f444352555348455253",
+          "name": "BLOODCRUSHERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 95
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 105
+            },
+            {
+              "models": 6,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "424c4f4f444c455454455253",
+          "name": "BLOODLETTERS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "424c4f4f445448495253544552",
+          "name": "BLOODTHIRSTER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 320
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 335
+            }
+          ]
+        },
+        {
+          "id": "464c45534820484f554e4453",
+          "name": "FLESH HOUNDS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "534b41524252414e44",
+          "name": "SKARBRAND",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 315
+            }
+          ]
+        },
+        {
+          "id": "4348414f53205248494e4f",
+          "name": "CHAOS RHINO",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "4348414f5320535041574e",
+          "name": "CHAOS SPAWN",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "id": "4348414f53205445524d494e41544f5253",
+          "name": "CHAOS TERMINATORS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 175
+            },
+            {
+              "models": 10,
+              "points": 350
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 185
+            },
+            {
+              "models": 10,
+              "points": 360
+            }
+          ]
+        },
+        {
+          "id": "4441454d4f4e205052494e4345204f46204b484f524e45",
+          "name": "DAEMON PRINCE OF KHORNE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "id": "4441454d4f4e205052494e4345204f46204b484f524e4520574954482057494e4753",
+          "name": "DAEMON PRINCE OF KHORNE WITH WINGS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "444546494c4552",
+          "name": "DEFILER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 300
+            }
+          ]
+        },
+        {
+          "id": "4549474854424f554e44",
+          "name": "EIGHTBOUND",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 135
+            },
+            {
+              "models": 6,
+              "points": 270
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 145
+            },
+            {
+              "models": 6,
+              "points": 280
+            }
+          ]
+        },
+        {
+          "id": "4558414c544544204549474854424f554e44",
+          "name": "EXALTED EIGHTBOUND",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 140
+            },
+            {
+              "models": 6,
+              "points": 280
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 150
+            },
+            {
+              "models": 6,
+              "points": 290
+            }
+          ]
+        },
+        {
+          "id": "464f5247454649454e44",
+          "name": "FORGEFIEND",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "474f52454d4f4e47455253",
+          "name": "GOREMONGERS",
+          "tiers": [
+            {
+              "models": 8,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "48454c4252555445",
+          "name": "HELBRUTE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "48454c4452414b45",
+          "name": "HELDRAKE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "4a414b48414c53",
+          "name": "JAKHALS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 65
+            },
+            {
+              "models": 20,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "4b48c382524e20544845204245545241594552",
+          "name": "KHÂRN THE BETRAYER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "id": "4b484f524e45204245525a45524b455253",
+          "name": "KHORNE BERZERKERS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 180
+            },
+            {
+              "models": 20,
+              "points": 345
+            }
+          ]
+        },
+        {
+          "id": "4b484f524e45204c4f5244204f4620534b554c4c53",
+          "name": "KHORNE LORD OF SKULLS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 505
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 535
+            }
+          ]
+        },
+        {
+          "id": "4c4f524420494e564f4341545553",
+          "name": "LORD INVOCATUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "4c4f5244204f4e204a55474745524e415554",
+          "name": "LORD ON JUGGERNAUT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        },
+        {
+          "id": "4d4153544552204f4620455845435554494f4e53",
+          "name": "MASTER OF EXECUTIONS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "4d41554c45524649454e44",
+          "name": "MAULERFIEND",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 155
+            }
+          ]
+        },
+        {
+          "id": "534c41554748544552424f554e44",
+          "name": "SLAUGHTERBOUND",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "id": "4245525a45524b45522057415242414e44",
+      "name": "BERZERKER WARBAND",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "424154544c452d4c555354",
+          "name": "Battle-lust",
+          "points": 20
+        },
+        {
+          "id": "4245525a45524b455220474c41495645",
+          "name": "Berzerker Glaive",
+          "points": 35
+        },
+        {
+          "id": "4641564f55524544204f46204b484f524e45",
+          "name": "Favoured of Khorne",
+          "points": 20
+        },
+        {
+          "id": "48454c4d204f46204252415a454e20495245",
+          "name": "Helm of Brazen Ire",
+          "points": 30
+        }
+      ]
+    },
+    {
+      "id": "4252415a454e20454e47494e4553",
+      "name": "BRAZEN ENGINES",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "4d55524445522d464f5247454420454e5449545920285550475241444529",
+          "name": "Murder-forged Entity (Upgrade)",
+          "points": 15
+        },
+        {
+          "id": "54414c4f4e53204f4620425554434845525920285550475241444529",
+          "name": "Talons of Butchery (Upgrade)",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "4255544348455253204f46204b484f524e45",
+      "name": "BUTCHERS OF KHORNE",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "474f52452d535441494e4544205645544552414e5320285550475241444529",
+          "name": "Gore-stained Veterans (Upgrade)",
+          "points": 25
+        },
+        {
+          "id": "53414e4354494649454420494e20534c4155474854455220285550475241444529",
+          "name": "Sanctified in Slaughter (Upgrade)",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "43554c54204f4620424c4f4f44",
+      "name": "CULT OF BLOOD",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4252415a454e20464f524d",
+          "name": "Brazen Form",
+          "points": 25
+        },
+        {
+          "id": "42555443484552204c4f5244",
+          "name": "Butcher Lord",
+          "points": 10
+        },
+        {
+          "id": "43484f53454e204f462054484520424c4f4f4420474f44",
+          "name": "Chosen of the Blood God",
+          "points": 15
+        },
+        {
+          "id": "53545241544547494320534c41554748544552",
+          "name": "Strategic Slaughter",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "474f5245545241434b204f4e534c4155474854",
+      "name": "GORETRACK ONSLAUGHT",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "41474752455353495645204445504c4f594d454e54",
+          "name": "Aggressive Deployment",
+          "points": 20
+        },
+        {
+          "id": "494e4645524e414c20494e465553494f4e",
+          "name": "Infernal Infusion",
+          "points": 25
+        },
+        {
+          "id": "4d55524445524f5553204f4e534c4155474854",
+          "name": "Murderous Onslaught",
+          "points": 5
+        },
+        {
+          "id": "554e4c454153482048454c4c",
+          "name": "Unleash Hell",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "4b484f524e45204441454d4f4e4b494e",
+      "name": "KHORNE DAEMONKIN",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "424c414445204f4620454e444c45535320424c4f4f4453484544",
+          "name": "Blade of Endless Bloodshed",
+          "points": 30
+        },
+        {
+          "id": "424c4f4f442d464f524745442041524d4f5552",
+          "name": "Blood-Forged Armour",
+          "points": 20
+        },
+        {
+          "id": "4449534349504c45204f46204b484f524e45",
+          "name": "Disciple of Khorne",
+          "points": 15
+        },
+        {
+          "id": "49434f4e204f4620574152",
+          "name": "Icon of War",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "504f5353455353454420534c4155474854455242414e44",
+      "name": "POSSESSED SLAUGHTERBAND",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4652454e5a49454420464f435553",
+          "name": "Frenzied Focus",
+          "points": 20
+        },
+        {
+          "id": "4b494c4c494e4720434c4152495459",
+          "name": "Killing Clarity",
+          "points": 15
+        },
+        {
+          "id": "4d414c4943494f5553205649474f5552",
+          "name": "Malicious Vigour",
+          "points": 30
+        },
+        {
+          "id": "56494f4c454e542044454d495345",
+          "name": "Violent Demise",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "56455353454c53204f46205752415448",
+      "name": "VESSELS OF WRATH",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "41524348534c415547485445524552",
+          "name": "Archslaughterer",
+          "points": 40
+        },
+        {
+          "id": "474154455741595320544f20474c4f5259",
+          "name": "Gateways to Glory",
+          "points": 10
+        }
+      ]
+    }
+  ]
+}

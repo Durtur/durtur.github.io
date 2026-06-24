@@ -1,0 +1,1185 @@
+{
+  "slug": "chaos-space-marines",
+  "name": "Chaos Space Marines",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "41424144444f4e2054484520444553504f494c4552",
+          "name": "ABADDON THE DESPOILER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 285
+            }
+          ]
+        },
+        {
+          "id": "41434355525345442043554c5449535453",
+          "name": "ACCURSED CULTISTS",
+          "tiers": [
+            {
+              "models": 8,
+              "points": 90
+            },
+            {
+              "models": 16,
+              "points": 195
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 8,
+              "points": 110
+            },
+            {
+              "models": 16,
+              "points": 215
+            }
+          ]
+        },
+        {
+          "id": "4348414f532042494b455253",
+          "name": "CHAOS BIKERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 70
+            },
+            {
+              "models": 6,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "4348414f53204c414e4420524149444552",
+          "name": "CHAOS LAND RAIDER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "id": "4348414f53204c4f5244",
+          "name": "CHAOS LORD",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "4348414f53204c4f524420494e205445524d494e41544f522041524d4f5552",
+          "name": "CHAOS LORD IN TERMINATOR ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "4348414f53204c4f52442057495448204a554d50205041434b",
+          "name": "CHAOS LORD WITH JUMP PACK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "4348414f53205052454441544f5220414e4e4948494c41544f52",
+          "name": "CHAOS PREDATOR ANNIHILATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "4348414f53205052454441544f522044455354525543544f52",
+          "name": "CHAOS PREDATOR DESTRUCTOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "4348414f53205248494e4f",
+          "name": "CHAOS RHINO",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "4348414f5320535041574e",
+          "name": "CHAOS SPAWN",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "4348414f53205445524d494e41544f52205351554144",
+          "name": "CHAOS TERMINATOR SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 180
+            },
+            {
+              "models": 10,
+              "points": 360
+            }
+          ]
+        },
+        {
+          "id": "4348414f532056494e44494341544f52",
+          "name": "CHAOS VINDICATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ]
+        },
+        {
+          "id": "43484f53454e",
+          "name": "CHOSEN",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 125
+            },
+            {
+              "models": 10,
+              "points": 250
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 135
+            },
+            {
+              "models": 10,
+              "points": 260
+            }
+          ]
+        },
+        {
+          "id": "43554c5449535420464952454252414e44",
+          "name": "CULTIST FIREBRAND",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        },
+        {
+          "id": "43554c54495354204d4f42",
+          "name": "CULTIST MOB",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 50
+            },
+            {
+              "models": 20,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "435950484552",
+          "name": "CYPHER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "4441524b2041504f53544c45",
+          "name": "DARK APOSTLE",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 65
+            }
+          ]
+        },
+        {
+          "id": "4441524b20434f4d4d554e45",
+          "name": "DARK COMMUNE",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 90
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "444546494c4552",
+          "name": "DEFILER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 300
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 330
+            }
+          ]
+        },
+        {
+          "id": "4641424955532042494c45",
+          "name": "FABIUS BILE",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "46454c4c474f522042454153544d454e",
+          "name": "FELLGOR BEASTMEN",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "464f5247454649454e44",
+          "name": "FORGEFIEND",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "484141524b454e20574f524c44434c41494d4552",
+          "name": "HAARKEN WORLDCLAIMER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "4841564f4353",
+          "name": "HAVOCS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 125
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "id": "48454c4252555445",
+          "name": "HELBRUTE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "48454c4452414b45",
+          "name": "HELDRAKE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "48455245544943204153544152544553204441454d4f4e205052494e4345",
+          "name": "HERETIC ASTARTES DAEMON PRINCE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 165
+            }
+          ]
+        },
+        {
+          "id": "48455245544943204153544152544553204441454d4f4e205052494e434520574954482057494e4753",
+          "name": "HERETIC ASTARTES DAEMON PRINCE WITH WINGS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "id": "4855524f4e20424c41434b4845415254",
+          "name": "HURON BLACKHEART",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "4b484f524e45204c4f5244204f4620534b554c4c53",
+          "name": "KHORNE LORD OF SKULLS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 450
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 475
+            }
+          ]
+        },
+        {
+          "id": "4b524156454b204d4f524e45",
+          "name": "KRAVEK MORNE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "4c4547494f4e4152494553",
+          "name": "LEGIONARIES",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "4c4f524420444953434f5244414e54204f4e2048454c5354414c4b4552",
+          "name": "LORD DISCORDANT ON HELSTALKER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "4d4153544552204f4620455845435554494f4e53",
+          "name": "MASTER OF EXECUTIONS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "4d4153544552204f4620504f5353455353494f4e",
+          "name": "MASTER OF POSSESSION",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "4d415354455253204f4620544845204d41454c5354524f4d",
+          "name": "MASTERS OF THE MAELSTROM",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "id": "4d41554c45524649454e44",
+          "name": "MAULERFIEND",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "4d5554494c41544f5253",
+          "name": "MUTILATORS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 180
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "4e454d4553495320434c4157",
+          "name": "NEMESIS CLAW",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "id": "4e4f4354494c4954482043524f574e",
+          "name": "NOCTILITH CROWN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "id": "4f424c4954455241544f5253",
+          "name": "OBLITERATORS",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 2,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "504f53534553534544",
+          "name": "POSSESSED",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 250
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 130
+            },
+            {
+              "models": 10,
+              "points": 260
+            }
+          ]
+        },
+        {
+          "id": "524150544f5253",
+          "name": "RAPTORS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 210
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "id": "52454420434f5253414952532052414944455253",
+          "name": "RED CORSAIRS RAIDERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 210
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "id": "52454420434f5253414952532052454156452d4341505441494e",
+          "name": "RED CORSAIRS REAVE-CAPTAIN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "534f524345524552",
+          "name": "SORCERER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "534f52434552455220494e205445524d494e41544f522041524d4f5552",
+          "name": "SORCERER IN TERMINATOR ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "54524149544f5220454e464f52434552",
+          "name": "TRAITOR ENFORCER",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "54524149544f52204755415244534d454e205351554144",
+          "name": "TRAITOR GUARDSMEN SQUAD",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "id": "56415348544f5252205448452041524b4946414e45",
+          "name": "VASHTORR THE ARKIFANE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 205
+            }
+          ]
+        },
+        {
+          "id": "56454e4f4d435241574c4552",
+          "name": "VENOMCRAWLER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "57415250534d495448",
+          "name": "WARPSMITH",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "574152502054414c4f4e53",
+          "name": "WARP TALONS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 125
+            },
+            {
+              "models": 10,
+              "points": 280
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 135
+            },
+            {
+              "models": 10,
+              "points": 290
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "id": "434142414c204f46204348414f53",
+      "name": "CABAL OF CHAOS",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "434f4e44554954204f46204348414f53",
+          "name": "Conduit of Chaos",
+          "points": 20
+        },
+        {
+          "id": "544f5543484544204259205448452057415250",
+          "name": "Touched by the Warp",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "4348414f532043554c54",
+      "name": "CHAOS CULT",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "414d554c4554204f46205441494e544544205649474f5552",
+          "name": "Amulet of Tainted Vigour",
+          "points": 20
+        },
+        {
+          "id": "43554c54495354e2809953204252414e44",
+          "name": "Cultist’s Brand",
+          "points": 30
+        },
+        {
+          "id": "494e43454e444941525920474f4144",
+          "name": "Incendiary Goad",
+          "points": 25
+        },
+        {
+          "id": "57415250454420464f52455349474854",
+          "name": "Warped Foresight",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "4352454154494f4e53204f462042494c45",
+      "name": "CREATIONS OF BILE",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "48454c4d204f4620414c4c2d534545494e47",
+          "name": "Helm of All-Seeing",
+          "points": 25
+        },
+        {
+          "id": "4c4956494e47204341524150414345",
+          "name": "Living Carapace",
+          "points": 15
+        },
+        {
+          "id": "5052494d452054455354205355424a454354",
+          "name": "Prime Test Subject",
+          "points": 35
+        },
+        {
+          "id": "535552474943414c20505245434953494f4e",
+          "name": "Surgical Precision",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "43554c54204f46205448452041524b4946414e45",
+      "name": "CULT OF THE ARKIFANE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "43524f574e204f4620574f524d53",
+          "name": "Crown of Worms",
+          "points": 15
+        },
+        {
+          "id": "435942494e4645524e414c20464f4e54",
+          "name": "Cybinfernal Font",
+          "points": 20
+        },
+        {
+          "id": "4d41524b204f462054484520534f554c20464f52474553",
+          "name": "Mark of the Soul Forges",
+          "points": 20
+        },
+        {
+          "id": "57595245444a494e4e",
+          "name": "Wyredjinn",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "4445434550544f5253",
+      "name": "DECEPTORS",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4355525345442046414e47",
+          "name": "Cursed Fang",
+          "points": 10
+        },
+        {
+          "id": "46414c5345484f4f44",
+          "name": "Falsehood",
+          "points": 10
+        },
+        {
+          "id": "5348524f5544204f46204f42465553434154494f4e",
+          "name": "Shroud of Obfuscation",
+          "points": 15
+        },
+        {
+          "id": "534f554c204c494e4b",
+          "name": "Soul Link",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": "4445564f54454553204f46204445535452554354494f4e",
+      "name": "DEVOTEES OF DESTRUCTION",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "455945204f46204f424c4956494f4e",
+          "name": "Eye of Oblivion",
+          "points": 20
+        },
+        {
+          "id": "50414354204f46204445535452554354494f4e",
+          "name": "Pact of Destruction",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "44524541442054414c4f4e53",
+      "name": "DREAD TALONS",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4541544552204f46204452454144",
+          "name": "Eater of Dread",
+          "points": 15
+        },
+        {
+          "id": "4e49474854e2809953205348524f5544",
+          "name": "Night’s Shroud",
+          "points": 10
+        },
+        {
+          "id": "574152502d4655454c4c454420544852555354455253",
+          "name": "Warp-Fuelled Thrusters",
+          "points": 20
+        },
+        {
+          "id": "57494c4c425245414b4552",
+          "name": "Willbreaker",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "46454c4c48414d4d45522053494547452d484f5354",
+      "name": "FELLHAMMER SIEGE-HOST",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "42415354494f4e20504c415445",
+          "name": "Bastion Plate",
+          "points": 10
+        },
+        {
+          "id": "49524f4e204152544946494345",
+          "name": "Iron Artifice",
+          "points": 10
+        },
+        {
+          "id": "49524f4e424f554e4420454e4d495459",
+          "name": "Ironbound Enmity",
+          "points": 15
+        },
+        {
+          "id": "5741525020545241434552",
+          "name": "Warp Tracer",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "4855524f4ee2809953204d4152415544455253",
+      "name": "HURON’S MARAUDERS",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "44524541442052455055544154494f4e",
+          "name": "Dread Reputation",
+          "points": 25
+        },
+        {
+          "id": "454147455220464f5220424c4f4f4453484544",
+          "name": "Eager for Bloodshed",
+          "points": 30
+        },
+        {
+          "id": "52414944204c4541444552",
+          "name": "Raid Leader",
+          "points": 20
+        },
+        {
+          "id": "564f494345204f462054484520545952414e54",
+          "name": "Voice of the Tyrant",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "4d555244455254414c4f4e2052414944455253",
+      "name": "MURDERTALON RAIDERS",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "50414354204f46204355525345442050494e494f4e53",
+          "name": "Pact of Cursed Pinions",
+          "points": 20
+        },
+        {
+          "id": "534841444f57434f574c2054414c49534d414e",
+          "name": "Shadowcowl Talisman",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "4e494748544d4152452048554e54",
+      "name": "NIGHTMARE HUNT",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "475245595645494c20484558",
+          "name": "Greyveil Hex",
+          "points": 25
+        },
+        {
+          "id": "534f52524f575343454e542056554c54555245",
+          "name": "Sorrowscent Vulture",
+          "points": 35
+        },
+        {
+          "id": "544552524f52474c5554205041524153495445",
+          "name": "Terrorglut Parasite",
+          "points": 20
+        },
+        {
+          "id": "574152502d4655454c4c454420544852555354455253",
+          "name": "Warp-Fuelled Thrusters",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "50414354424f554e44205a45414c4f5453",
+      "name": "PACTBOUND ZEALOTS",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "455945204f4620545a45454e544348",
+          "name": "Eye of Tzeentch",
+          "points": 15
+        },
+        {
+          "id": "494e544f5849434154494e4720454c49584952",
+          "name": "Intoxicating Elixir",
+          "points": 15
+        },
+        {
+          "id": "4f524253204f4620554e4c494645",
+          "name": "Orbs of Unlife",
+          "points": 15
+        },
+        {
+          "id": "54414c49534d414e204f46204255524e494e4720424c4f4f44",
+          "name": "Talisman of Burning Blood",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "52454e45474144452052414944455253",
+      "name": "RENEGADE RAIDERS",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "444553504f54e280995320434c41494d",
+          "name": "Despot’s Claim",
+          "points": 15
+        },
+        {
+          "id": "445245414420524541564552",
+          "name": "Dread Reaver",
+          "points": 15
+        },
+        {
+          "id": "4d41524b204f462054484520484f554e44",
+          "name": "Mark of the Hound",
+          "points": 25
+        },
+        {
+          "id": "545952414e54e2809953204c415348",
+          "name": "Tyrant’s Lash",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "52454e45474144452057415242414e44",
+      "name": "RENEGADE WARBAND",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "454d50595249432053594d42494f5445",
+          "name": "Empyric Symbiote",
+          "points": 15
+        },
+        {
+          "id": "45594553204f46205448452048554e544552",
+          "name": "Eyes of the Hunter",
+          "points": 15
+        },
+        {
+          "id": "465241545249434944414c2054524f5048494553",
+          "name": "Fratricidal Trophies",
+          "points": 5
+        },
+        {
+          "id": "574541504f4e4953454420484154524544",
+          "name": "Weaponised Hatred",
+          "points": 35
+        }
+      ]
+    },
+    {
+      "id": "534f554c464f52474544205741525041434b",
+      "name": "SOULFORGED WARPACK",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "464f524745e280995320424c455353494e47",
+          "name": "Forge’s Blessing",
+          "points": 20
+        },
+        {
+          "id": "494e5649474f5241544544204d4543484154454e4452494c53",
+          "name": "Invigorated Mechatendrils",
+          "points": 15
+        },
+        {
+          "id": "534f554c20484152564553544552",
+          "name": "Soul Harvester",
+          "points": 15
+        },
+        {
+          "id": "54454d5054494e4720414444454e44554d",
+          "name": "Tempting Addendum",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "5645544552414e53204f4620544845204c4f4e4720574152",
+      "name": "VETERANS OF THE LONG WAR",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "454147455220464f522056454e4745414e4345",
+          "name": "Eager for Vengeance",
+          "points": 20
+        },
+        {
+          "id": "455945204f462041424144444f4e",
+          "name": "Eye of Abaddon",
+          "points": 15
+        },
+        {
+          "id": "4d41524b204f46204c4547454e44",
+          "name": "Mark of Legend",
+          "points": 10
+        },
+        {
+          "id": "5741524d4153544552e28099532047494654",
+          "name": "Warmaster’s Gift",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "57415250535452494b45204348414d50494f4e53",
+      "name": "WARPSTRIKE CHAMPIONS",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "414b53485552e28099532042494e44494e472052554e4553",
+          "name": "Akshur’s Binding Runes",
+          "points": 20
+        },
+        {
+          "id": "455945204f46205448452057415250",
+          "name": "Eye of the Warp",
+          "points": 15
+        },
+        {
+          "id": "494e4645524e414c2046554c475552495445",
+          "name": "Infernal Fulgurite",
+          "points": 20
+        },
+        {
+          "id": "545a4147554c4c41",
+          "name": "Tzagulla",
+          "points": 25
+        }
+      ]
+    }
+  ]
+}

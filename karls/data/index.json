@@ -1,0 +1,185 @@
+{
+  "generatedAt": "2026-06-23T13:04:04.123Z",
+  "armies": [
+    {
+      "slug": "adepta-sororitas",
+      "name": "Adepta Sororitas",
+      "unitCount": 33,
+      "detachmentCount": 8
+    },
+    {
+      "slug": "adeptus-custodes",
+      "name": "Adeptus Custodes",
+      "unitCount": 31,
+      "detachmentCount": 9
+    },
+    {
+      "slug": "adeptus-mechanicus",
+      "name": "Adeptus Mechanicus",
+      "unitCount": 34,
+      "detachmentCount": 10
+    },
+    {
+      "slug": "aeldari",
+      "name": "Aeldari",
+      "unitCount": 124,
+      "detachmentCount": 15
+    },
+    {
+      "slug": "astra-militarum",
+      "name": "Astra Militarum",
+      "unitCount": 72,
+      "detachmentCount": 11
+    },
+    {
+      "slug": "black-templars",
+      "name": "Black Templars",
+      "unitCount": 104,
+      "detachmentCount": 19
+    },
+    {
+      "slug": "blood-angels",
+      "name": "Blood Angels",
+      "unitCount": 110,
+      "detachmentCount": 23
+    },
+    {
+      "slug": "chaos-daemons",
+      "name": "Chaos Daemons",
+      "unitCount": 53,
+      "detachmentCount": 9
+    },
+    {
+      "slug": "chaos-knights",
+      "name": "Chaos Knights",
+      "unitCount": 20,
+      "detachmentCount": 8
+    },
+    {
+      "slug": "chaos-space-marines",
+      "name": "Chaos Space Marines",
+      "unitCount": 54,
+      "detachmentCount": 17
+    },
+    {
+      "slug": "chaos-titan-legions",
+      "name": "Chaos Titan Legions",
+      "unitCount": 4,
+      "detachmentCount": 0
+    },
+    {
+      "slug": "dark-angels",
+      "name": "Dark Angels",
+      "unitCount": 112,
+      "detachmentCount": 23
+    },
+    {
+      "slug": "death-guard",
+      "name": "Death Guard",
+      "unitCount": 62,
+      "detachmentCount": 9
+    },
+    {
+      "slug": "deathwatch",
+      "name": "Deathwatch",
+      "unitCount": 94,
+      "detachmentCount": 16
+    },
+    {
+      "slug": "drukhari",
+      "name": "Drukhari",
+      "unitCount": 23,
+      "detachmentCount": 9
+    },
+    {
+      "slug": "emperors-children",
+      "name": "Emperor’s Children",
+      "unitCount": 36,
+      "detachmentCount": 10
+    },
+    {
+      "slug": "genestealer-cults",
+      "name": "Genestealer Cults",
+      "unitCount": 24,
+      "detachmentCount": 9
+    },
+    {
+      "slug": "grey-knights",
+      "name": "Grey Knights",
+      "unitCount": 26,
+      "detachmentCount": 9
+    },
+    {
+      "slug": "imperial-agents",
+      "name": "Imperial Agents",
+      "unitCount": 58,
+      "detachmentCount": 5
+    },
+    {
+      "slug": "imperial-knights",
+      "name": "Imperial Knights",
+      "unitCount": 22,
+      "detachmentCount": 8
+    },
+    {
+      "slug": "leagues-of-votann",
+      "name": "Leagues of Votann",
+      "unitCount": 22,
+      "detachmentCount": 10
+    },
+    {
+      "slug": "necrons",
+      "name": "Necrons",
+      "unitCount": 52,
+      "detachmentCount": 12
+    },
+    {
+      "slug": "orks",
+      "name": "Orks",
+      "unitCount": 58,
+      "detachmentCount": 12
+    },
+    {
+      "slug": "space-marines",
+      "name": "Space Marines",
+      "unitCount": 188,
+      "detachmentCount": 22
+    },
+    {
+      "slug": "space-wolves",
+      "name": "Space Wolves",
+      "unitCount": 118,
+      "detachmentCount": 22
+    },
+    {
+      "slug": "tau-empire",
+      "name": "T’au Empire",
+      "unitCount": 43,
+      "detachmentCount": 7
+    },
+    {
+      "slug": "thousand-sons",
+      "name": "Thousand Sons",
+      "unitCount": 58,
+      "detachmentCount": 9
+    },
+    {
+      "slug": "titan-legions",
+      "name": "Titan Legions",
+      "unitCount": 4,
+      "detachmentCount": 0
+    },
+    {
+      "slug": "tyranids",
+      "name": "Tyranids",
+      "unitCount": 52,
+      "detachmentCount": 10
+    },
+    {
+      "slug": "world-eaters",
+      "name": "World Eaters",
+      "unitCount": 51,
+      "detachmentCount": 8
+    }
+  ]
+}

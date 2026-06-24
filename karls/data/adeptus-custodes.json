@@ -1,0 +1,709 @@
+{
+  "slug": "adeptus-custodes",
+  "name": "Adeptus Custodes",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "4147414d4154555320435553544f4449414e53",
+          "name": "AGAMATUS CUSTODIANS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 225
+            },
+            {
+              "models": 6,
+              "points": 450
+            }
+          ]
+        },
+        {
+          "id": "414c455941",
+          "name": "ALEYA",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        },
+        {
+          "id": "414c4c4152555320435553544f4449414e53",
+          "name": "ALLARUS CUSTODIANS",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 110
+            },
+            {
+              "models": 3,
+              "points": 165
+            },
+            {
+              "models": 5,
+              "points": 275
+            },
+            {
+              "models": 6,
+              "points": 330
+            }
+          ]
+        },
+        {
+          "id": "414e415448454d41205053594b414e41205248494e4f",
+          "name": "ANATHEMA PSYKANA RHINO",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "id": "415155494c4f4e20435553544f4449414e53",
+          "name": "AQUILON CUSTODIANS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 195
+            },
+            {
+              "models": 6,
+              "points": 390
+            }
+          ]
+        },
+        {
+          "id": "415245532047554e53484950",
+          "name": "ARES GUNSHIP",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 580
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 610
+            }
+          ]
+        },
+        {
+          "id": "424c414445204348414d50494f4e",
+          "name": "BLADE CHAMPION",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "id": "43414c414449555320475241562d54414e4b",
+          "name": "CALADIUS GRAV-TANK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 210
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 225
+            }
+          ]
+        },
+        {
+          "id": "434f4e54454d50544f522d414348494c4c55532044524541444e4f55474854",
+          "name": "CONTEMPTOR-ACHILLUS DREADNOUGHT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 155
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "434f4e54454d50544f522d47414c415455532044524541444e4f55474854",
+          "name": "CONTEMPTOR-GALATUS DREADNOUGHT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 165
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "id": "434f524f4e555320475241562d43415252494552",
+          "name": "CORONUS GRAV-CARRIER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "id": "435553544f4449414e204755415244",
+          "name": "CUSTODIAN GUARD",
+          "tiers": [
+            {
+              "models": 4,
+              "points": 170
+            },
+            {
+              "models": 5,
+              "points": 215
+            }
+          ],
+          "repeatFromCopy": 4,
+          "repeatTiers": [
+            {
+              "models": 4,
+              "points": 180
+            },
+            {
+              "models": 5,
+              "points": 225
+            }
+          ]
+        },
+        {
+          "id": "435553544f4449414e204755415244205749544820414452415349544520414e442050595249544849544520535045415253",
+          "name": "CUSTODIAN GUARD WITH ADRASITE AND PYRITHITE SPEARS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 250
+            }
+          ],
+          "repeatFromCopy": 4,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 260
+            }
+          ]
+        },
+        {
+          "id": "435553544f4449414e2057415244454e53",
+          "name": "CUSTODIAN WARDENS",
+          "tiers": [
+            {
+              "models": 4,
+              "points": 210
+            },
+            {
+              "models": 5,
+              "points": 260
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 4,
+              "points": 230
+            },
+            {
+              "models": 5,
+              "points": 280
+            }
+          ]
+        },
+        {
+          "id": "4b4e494748542d43454e54555241",
+          "name": "KNIGHT-CENTURA",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        },
+        {
+          "id": "4f52494f4e2041535341554c542044524f5053484950",
+          "name": "ORION ASSAULT DROPSHIP",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 690
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 740
+            }
+          ]
+        },
+        {
+          "id": "50414c4c415320475241562d41545441434b",
+          "name": "PALLAS GRAV-ATTACK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "50524f53454355544f5253",
+          "name": "PROSECUTORS",
+          "tiers": [
+            {
+              "models": 4,
+              "points": 45
+            },
+            {
+              "models": 5,
+              "points": 50
+            },
+            {
+              "models": 9,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "5341474954544152554d20435553544f4449414e53",
+          "name": "SAGITTARUM CUSTODIANS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 225
+            }
+          ]
+        },
+        {
+          "id": "534849454c442d4341505441494e",
+          "name": "SHIELD-CAPTAIN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "534849454c442d4341505441494e20494e20414c4c41525553205445524d494e41544f522041524d4f5552",
+          "name": "SHIELD-CAPTAIN IN ALLARUS TERMINATOR ARMOUR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "534849454c442d4341505441494e204f4e204441574e4541474c45204a455442494b45",
+          "name": "SHIELD-CAPTAIN ON DAWNEAGLE JETBIKE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "54454c454d4f4e2048454156592044524541444e4f55474854",
+          "name": "TELEMON HEAVY DREADNOUGHT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 225
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 245
+            }
+          ]
+        },
+        {
+          "id": "5452414a414e4e2056414c4f524953",
+          "name": "TRAJANN VALORIS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "id": "56414c455249414e",
+          "name": "VALERIAN",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "56454e415441524920435553544f4449414e53",
+          "name": "VENATARI CUSTODIANS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 160
+            },
+            {
+              "models": 6,
+              "points": 320
+            }
+          ]
+        },
+        {
+          "id": "56454e455241424c4520434f4e54454d50544f522044524541444e4f55474854",
+          "name": "VENERABLE CONTEMPTOR DREADNOUGHT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        },
+        {
+          "id": "56454e455241424c45204c414e4420524149444552",
+          "name": "VENERABLE LAND RAIDER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "id": "5645525455532050524145544f5253",
+          "name": "VERTUS PRAETORS",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 145
+            },
+            {
+              "models": 3,
+              "points": 215
+            }
+          ]
+        },
+        {
+          "id": "564947494c41544f5253",
+          "name": "VIGILATORS",
+          "tiers": [
+            {
+              "models": 4,
+              "points": 50
+            },
+            {
+              "models": 5,
+              "points": 55
+            },
+            {
+              "models": 9,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "id": "57495443485345454b455253",
+          "name": "WITCHSEEKERS",
+          "tiers": [
+            {
+              "models": 4,
+              "points": 50
+            },
+            {
+              "models": 5,
+              "points": 55
+            },
+            {
+              "models": 9,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "id": "4155524943204348414d50494f4e53",
+      "name": "AURIC CHAMPIONS",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "424c41444520494d50455241544f52",
+          "name": "Blade Imperator",
+          "points": 25
+        },
+        {
+          "id": "494e535049524154494f4e414c204558454d504c4152",
+          "name": "Inspirational Exemplar",
+          "points": 10
+        },
+        {
+          "id": "4d41525449414c205048494c4f534f50484552",
+          "name": "Martial Philosopher",
+          "points": 30
+        },
+        {
+          "id": "5645494c454420424c414445",
+          "name": "Veiled Blade",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "4c494f4e53204f462054484520454d5045524f52",
+      "name": "LIONS OF THE EMPEROR",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "41444d4f4e494d4f52544953",
+          "name": "Admonimortis",
+          "points": 20
+        },
+        {
+          "id": "46494552434520434f4e515545524f52",
+          "name": "Fierce Conqueror",
+          "points": 15
+        },
+        {
+          "id": "50524145534944495553",
+          "name": "Praesidius",
+          "points": 25
+        },
+        {
+          "id": "5355504552494f52204352454154494f4e",
+          "name": "Superior Creation",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "4d49474854204f4620544845204d4f5249544f49",
+      "name": "MIGHT OF THE MORITOI",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "415552414d49544520534152434f50484147555320285550475241444529",
+          "name": "Auramite Sarcophagus (Upgrade)",
+          "points": 15
+        },
+        {
+          "id": "494e5445525245442045585045525449534520285550475241444529",
+          "name": "Interred Expertise (Upgrade)",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "4e554c4c204d414944454e20564947494c",
+      "name": "NULL MAIDEN VIGIL",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "454e48414e43454420564f4944534845454e20434c4f414b",
+          "name": "Enhanced Voidsheen Cloak",
+          "points": 10
+        },
+        {
+          "id": "48554e5452455353e2809920455945",
+          "name": "Huntress’ Eye",
+          "points": 15
+        },
+        {
+          "id": "4f424c4956494f4e204b4e49474854",
+          "name": "Oblivion Knight",
+          "points": 25
+        },
+        {
+          "id": "524150544f5220424c414445",
+          "name": "Raptor Blade",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": "534849454c4420484f5354",
+      "name": "SHIELD HOST",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4155524943204d414e544c45",
+          "name": "Auric Mantle",
+          "points": 15
+        },
+        {
+          "id": "43415354454c4c414ee2809953204d41524b",
+          "name": "Castellan’s Mark",
+          "points": 20
+        },
+        {
+          "id": "46524f4d205448452048414c4c204f462041524d4f5552494553",
+          "name": "From the Hall of Armouries",
+          "points": 25
+        },
+        {
+          "id": "50414e4f50544953504558",
+          "name": "Panoptispex",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "id": "53494c454e542048554e54455253",
+      "name": "SILENT HUNTERS",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "454e434952434c494e472048554e544552",
+          "name": "Encircling Hunter",
+          "points": 15
+        },
+        {
+          "id": "5053594b2d4f5554204752454e4144455320285550475241444529",
+          "name": "Psyk-out Grenades (Upgrade)",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "534f4c415220535045415248454144",
+      "name": "SOLAR SPEARHEAD",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4144414d414e54494e452054414c49534d414e",
+          "name": "Adamantine Talisman",
+          "points": 25
+        },
+        {
+          "id": "4155475552592055504c494e4b",
+          "name": "Augury Uplink",
+          "points": 35
+        },
+        {
+          "id": "484f4e4f555245442046414c4c454e",
+          "name": "Honoured Fallen",
+          "points": 15
+        },
+        {
+          "id": "5645544552414e204f4620544845204b415441504852414b544f49",
+          "name": "Veteran of the Kataphraktoi",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "54414c4f4e53204f462054484520454d5045524f52",
+      "name": "TALONS OF THE EMPEROR",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "41454749532050524f4a4543544f52",
+          "name": "Aegis Projector",
+          "points": 20
+        },
+        {
+          "id": "4348414d50494f4e204f462054484520494d50455249554d",
+          "name": "Champion of the Imperium",
+          "points": 25
+        },
+        {
+          "id": "47494654204f462054455252414e204152544946494345",
+          "name": "Gift of Terran Artifice",
+          "points": 15
+        },
+        {
+          "id": "52414449414e54204d414e544c45",
+          "name": "Radiant Mantle",
+          "points": 30
+        }
+      ]
+    },
+    {
+      "id": "54484152414e41544f492048414d4d4552424c4f57",
+      "name": "THARANATOI HAMMERBLOW",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "454646494349454e542041474752455353494f4e",
+          "name": "Efficient Aggression",
+          "points": 25
+        },
+        {
+          "id": "4d4e454d4f2d4c4f434b454420534852494e4520434950484552",
+          "name": "Mnemo-locked Shrine Cipher",
+          "points": 25
+        }
+      ]
+    }
+  ]
+}

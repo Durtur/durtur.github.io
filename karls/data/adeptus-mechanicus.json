@@ -1,0 +1,747 @@
+{
+  "slug": "adeptus-mechanicus",
+  "name": "Adeptus Mechanicus",
+  "version": "v1.0",
+  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "unitSections": [
+    {
+      "title": "UNITS",
+      "units": [
+        {
+          "id": "4152434841454f5054455220465553494c415645",
+          "name": "ARCHAEOPTER FUSILAVE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "4152434841454f505445522053545241544f524150544f52",
+          "name": "ARCHAEOPTER STRATORAPTOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        },
+        {
+          "id": "4152434841454f50544552205452414e53564543544f52",
+          "name": "ARCHAEOPTER TRANSVECTOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "id": "42454c49534152495553204341574c",
+          "name": "BELISARIUS CAWL",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "id": "434f52505553434152494920454c454354524f2d50524945535453",
+          "name": "CORPUSCARII ELECTRO-PRIESTS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 65
+            },
+            {
+              "models": 10,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "43594245524e45544943412044415441534d495448",
+          "name": "CYBERNETICA DATASMITH",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 25
+            }
+          ]
+        },
+        {
+          "id": "46554c47555249544520454c454354524f2d50524945535453",
+          "name": "FULGURITE ELECTRO-PRIESTS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 70
+            },
+            {
+              "models": 10,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "id": "48415354415249492045585445524d494e41544f5253",
+          "name": "HASTARII EXTERMINATORS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 115
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "484153544152494920465553494c49455253",
+          "name": "HASTARII FUSILIERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 115
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "49524f4e535452494445522042414c4c49535441524949",
+          "name": "IRONSTRIDER BALLISTARII",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 80
+            },
+            {
+              "models": 2,
+              "points": 160
+            },
+            {
+              "models": 3,
+              "points": 240
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 95
+            },
+            {
+              "models": 2,
+              "points": 175
+            },
+            {
+              "models": 3,
+              "points": 255
+            }
+          ]
+        },
+        {
+          "id": "4b415354454c414e20524f424f5453",
+          "name": "KASTELAN ROBOTS",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 160
+            },
+            {
+              "models": 4,
+              "points": 320
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 2,
+              "points": 180
+            },
+            {
+              "models": 4,
+              "points": 340
+            }
+          ]
+        },
+        {
+          "id": "4b4154415048524f4e20425245414348455253",
+          "name": "KATAPHRON BREACHERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 150
+            },
+            {
+              "models": 6,
+              "points": 320
+            }
+          ]
+        },
+        {
+          "id": "4b4154415048524f4e2044455354524f59455253",
+          "name": "KATAPHRON DESTROYERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 100
+            },
+            {
+              "models": 6,
+              "points": 210
+            }
+          ]
+        },
+        {
+          "id": "4f4e414745522044554e45435241574c4552",
+          "name": "ONAGER DUNECRAWLER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 155
+            }
+          ]
+        },
+        {
+          "id": "505445524158494920534b595354414c4b455253",
+          "name": "PTERAXII SKYSTALKERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "50544552415849492053544552594c495a4f5253",
+          "name": "PTERAXII STERYLIZORS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "53455242455259532052414944455253",
+          "name": "SERBERYS RAIDERS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 60
+            },
+            {
+              "models": 6,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "id": "53455242455259532053554c50485552484f554e4453",
+          "name": "SERBERYS SULPHURHOUNDS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 55
+            },
+            {
+              "models": 6,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "id": "5345525649544f5220424154544c45434c414445",
+          "name": "SERVITOR BATTLECLADE",
+          "tiers": [
+            {
+              "models": 9,
+              "points": 65
+            }
+          ]
+        },
+        {
+          "id": "534943415249414e20494e46494c545241544f5253",
+          "name": "SICARIAN INFILTRATORS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 155
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 165
+            }
+          ]
+        },
+        {
+          "id": "534943415249414e20525553545354414c4b455253",
+          "name": "SICARIAN RUSTSTALKERS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "534b495441524949204d41525348414c",
+          "name": "SKITARII MARSHAL",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 35
+            }
+          ]
+        },
+        {
+          "id": "534b4954415249492052414e47455253",
+          "name": "SKITARII RANGERS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "534b4954415249492056414e4755415244",
+          "name": "SKITARII VANGUARD",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "534b4f525049555320444953494e5445475241544f52",
+          "name": "SKORPIUS DISINTEGRATOR",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "534b4f52504955532044554e455249444552",
+          "name": "SKORPIUS DUNERIDER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "id": "5359444f4e49414e20445241474f4f4e5320574954482052414449554d204a455a5a41494c53",
+          "name": "SYDONIAN DRAGOONS WITH RADIUM JEZZAILS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 55
+            },
+            {
+              "models": 2,
+              "points": 100
+            },
+            {
+              "models": 3,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "id": "5359444f4e49414e20445241474f4f4e532057495448205441534552204c414e434553",
+          "name": "SYDONIAN DRAGOONS WITH TASER LANCES",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            },
+            {
+              "models": 2,
+              "points": 120
+            },
+            {
+              "models": 3,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "5359444f4e49414e20534b4154524f53",
+          "name": "SYDONIAN SKATROS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        },
+        {
+          "id": "544543484e4f41524348454f4c4f47495354",
+          "name": "TECHNOARCHEOLOGIST",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        },
+        {
+          "id": "544543482d50524945535420444f4d494e5553",
+          "name": "TECH-PRIEST DOMINUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        },
+        {
+          "id": "544543482d50524945535420454e47494e53454552",
+          "name": "TECH-PRIEST ENGINSEER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        },
+        {
+          "id": "544543482d505249455354204d414e4950554c5553",
+          "name": "TECH-PRIEST MANIPULUS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        },
+        {
+          "id": "5448554c4941204748554c44",
+          "name": "THULIA GHULD",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "detachments": [
+    {
+      "id": "434f484f52542041435155495349545553",
+      "name": "COHORT ACQUISITUS",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "4558504c4f5241544f522044495350454e534154494f4e",
+          "name": "Explorator Dispensation",
+          "points": 20
+        },
+        {
+          "id": "535445414c54482d53435245454e454420435942455243414e49445320285550475241444529",
+          "name": "Stealth-screened Cybercanids (Upgrade)",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "434f484f52542043594245524e4554494341",
+      "name": "COHORT CYBERNETICA",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "415243482d4e454741544f52",
+          "name": "Arch-negator",
+          "points": 5
+        },
+        {
+          "id": "454d4f54494f4e4c45535320434c4152495459",
+          "name": "Emotionless Clarity",
+          "points": 10
+        },
+        {
+          "id": "4c4f5244204f46204d414348494e4553",
+          "name": "Lord of Machines",
+          "points": 15
+        },
+        {
+          "id": "4e4543524f4d454348414e4943",
+          "name": "Necromechanic",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "444154412d5053414c4d20434f4e434c415645",
+      "name": "DATA-PSALM CONCLAVE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "444154412d424c4553534544204155544f5345524d4f4e",
+          "name": "Data-blessed Autosermon",
+          "points": 15
+        },
+        {
+          "id": "4d414e544c45204f462054484520474e4f5354494341524348",
+          "name": "Mantle of the Gnosticarch",
+          "points": 10
+        },
+        {
+          "id": "4d454348414e49435553204c4f43554d",
+          "name": "Mechanicus Locum",
+          "points": 5
+        },
+        {
+          "id": "54454d504f52434f504941",
+          "name": "Temporcopia",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "id": "4552414449434154494f4e20434f484f5254",
+      "name": "ERADICATION COHORT",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "42454c49434f53412d434c41535320434150414349544f522056414e4553",
+          "name": "Belicosa-class Capacitor Vanes",
+          "points": 25
+        },
+        {
+          "id": "4d41525449414c205349474e4154554d20414d504c4946494341544f52",
+          "name": "Martial Signatum Amplificator",
+          "points": 15
+        },
+        {
+          "id": "4f4d4e49434f47495441544f52",
+          "name": "Omnicogitator",
+          "points": 25
+        },
+        {
+          "id": "4f4d4e495353494148e28099532046555259",
+          "name": "Omnissiah’s Fury",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "4558504c4f5241544f52204d414e49504c45",
+      "name": "EXPLORATOR MANIPLE",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4152544953414e",
+          "name": "Artisan",
+          "points": 10
+        },
+        {
+          "id": "47454e45544f52",
+          "name": "Genetor",
+          "points": 20
+        },
+        {
+          "id": "4c4f474953",
+          "name": "Logis",
+          "points": 15
+        },
+        {
+          "id": "4d41474f53",
+          "name": "Magos",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": "48414c4f53435245454420424154544c4520434c414445",
+      "name": "HALOSCREED BATTLE CLADE",
+      "dp": 3,
+      "enhancements": [
+        {
+          "id": "434f474e4954495645205245494e464f5243454d454e54",
+          "name": "Cognitive Reinforcement",
+          "points": 30
+        },
+        {
+          "id": "494e4c4f41444544204c455448414c495459",
+          "name": "Inloaded Lethality",
+          "points": 15
+        },
+        {
+          "id": "53414e43544946494544204f52444e414e4345",
+          "name": "Sanctified Ordnance",
+          "points": 10
+        },
+        {
+          "id": "5452414e534f524143554c4152204459414420574146455253",
+          "name": "Transoracular Dyad Wafers",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "4c4f524453204f462054484520464f524745",
+      "name": "LORDS OF THE FORGE",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "544c2d34c39839",
+          "name": "TL-4ø9",
+          "points": 30
+        },
+        {
+          "id": "56494e4748e280995320574146455253204f462044594e414d49534d",
+          "name": "Vingh’s Wafers of Dynamism",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "4c554d494e454e204155544f2d43484f4952",
+      "name": "LUMINEN AUTO-CHOIR",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "454c454354524f4d4941534d4943204252415a494552",
+          "name": "Electromiasmic Brazier",
+          "points": 10
+        },
+        {
+          "id": "564f4c54414748454953542052454c495155415259",
+          "name": "Voltagheist Reliquary",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": "5241442d5a4f4e4520434f525053",
+      "name": "RAD-ZONE CORPS",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "4155544f434c415649432044454e554e43494154494f4e",
+          "name": "Autoclavic Denunciation",
+          "points": 15
+        },
+        {
+          "id": "4d414c50484f4e4943205355535552525553",
+          "name": "Malphonic Susurrus",
+          "points": 20
+        },
+        {
+          "id": "504545524c4553532045524144494341544f52",
+          "name": "Peerless Eradicator",
+          "points": 20
+        },
+        {
+          "id": "52414449414c20535546465553494f4e",
+          "name": "Radial Suffusion",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "534b4954415249492048554e54455220434f484f5254",
+      "name": "SKITARII HUNTER COHORT",
+      "dp": 2,
+      "enhancements": [
+        {
+          "id": "424154544c452d5350484552452055504c494e4b",
+          "name": "Battle-sphere Uplink",
+          "points": 25
+        },
+        {
+          "id": "43414e54494320544852414c4c4e4554",
+          "name": "Cantic Thrallnet",
+          "points": 25
+        },
+        {
+          "id": "434c414e44455354494e4520494e46494c545241544f52",
+          "name": "Clandestine Infiltrator",
+          "points": 15
+        },
+        {
+          "id": "5645494c45442048554e544552",
+          "name": "Veiled Hunter",
+          "points": 10
+        }
+      ]
+    }
+  ]
+}
