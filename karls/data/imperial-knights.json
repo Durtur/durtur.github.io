@@ -406,6 +406,68 @@
           "name": "Sanctuary",
           "points": 20
         }
+      ],
+      "stratagems": [
+        {
+          "name": "Strength From Exile",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase.",
+          "target": "One Imperial Knights unit from your army that has not been selected to shoot or fight this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack, if there are no other friendly units within 9\" of your unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+        },
+        {
+          "name": "Survivor Of Strife",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One Imperial Knights unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
+        },
+        {
+          "name": "Noble Sacrifice",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase.",
+          "target": "One Imperial Knights unit from your army that was just destroyed. You can target that unit with this Stratagem even though it was just destroyed.",
+          "effect": "Your unit’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 4+, adding 1 to the result if it is an Armiger unit, instead of only a 6."
+        },
+        {
+          "name": "Flanking Manoeuvres",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Fight phase",
+          "when": "End of your opponent’s Fight phase.",
+          "target": "One Armiger unit from your army that is within 9\" of one or more battlefield edges and not within Engagement Range of one or more enemy units.",
+          "effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
+        },
+        {
+          "name": "Point‑blank Barrage",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One Imperial Knights unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, when making ranged attacks with Blast weapons, models in your unit can target enemy units within Engagement Range of your unit (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, until the end of the phase, your unit does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units, but each time a model in your unit makes an attack with a Blast weapon that targets a unit within Engagement Range of your unit, on an unmodified Hit roll of 1, your unit suffers 1 mortal wound after all of its attacks have been resolved."
+        },
+        {
+          "name": "Full Tilt",
+          "cp": 1,
+          "category": "Wargear",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase.",
+          "target": "One Imperial Knights unit from your army.",
+          "effect": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit, or 9\" instead if your unit is an Armiger or Destrier unit."
+        }
       ]
     },
     {
@@ -433,6 +495,68 @@
           "name": "Vengeful Tread",
           "points": 15
         }
+      ],
+      "stratagems": [
+        {
+          "name": "Steadfast Superiority",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase.",
+          "target": "One Imperial Knights unit from your army that is within Engagement Range of one or more enemy units, that is on your defensive line and that has not already been selected to fight this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll."
+        },
+        {
+          "name": "Drive Them Out!",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase or the Fight phase.",
+          "target": "One Imperial Knights unit from your army that has not been selected to shoot or fight this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit on your defensive line, an unmodified Hit roll of 5+ scores a Critical Hit."
+        },
+        {
+          "name": "Marshal The Defence",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase.",
+          "target": "Up to two Imperial Knights units from your army that have not been selected to move this phase.",
+          "effect": "Until the end of the phase, add 3\" to the Move characteristic of models in your units."
+        },
+        {
+          "name": "Titanic Bombardment",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One Imperial Knights Titanic unit from your army that Remained Stationary this turn, that is on your defensive line and that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 2] ability."
+        },
+        {
+          "name": "Fortress Of Intimidation",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Opponent’s turn",
+          "phase": "Charge phase",
+          "when": "Start of your opponent’s Charge phase.",
+          "target": "One Imperial Knights Titanic unit from your army that is on your defensive line.",
+          "effect": "Until the end of the phase, each time an enemy unit selects your unit as a target of a charge, that unit must take a Battle-shock test, subtracting 1 from the result."
+        },
+        {
+          "name": "Lancebreaker",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One Imperial Knights unit from your army that was selected as the target of one or more of the attacking unit’s attacks and is on your defensive line.",
+          "effect": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greaterthan the Toughness characteristic of your unit, subtract 1 from the Wound roll"
+        }
       ]
     },
     {
@@ -449,6 +573,69 @@
           "id": "4d41474f532051554553544f524953",
           "name": "Magos Questoris",
           "points": 20
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Bonded Imperative",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Your Command phase, just before an Imperial Knights Character unit from your army uses a Bondsman ability.",
+          "target": "That IMPERIAL KNIGHTS CHARACTER unit.",
+          "effect": "When selecting targets for that use of that Bondsman ability, you can select one friendly Adeptus Mechanicus unit within 12\" of your unit in addition, or instead of selecting one Armiger model. Until the start of your next Command phase, every model in that ADEPTUS MECHANICUS unit is affected by that Bondsman ability.",
+          "restrictions": "You cannot target a Knight Preceptor with this Stratagem."
+        },
+        {
+          "name": "Vengeance Of The Machine Cult",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase.",
+          "target": "One Imperial Knights unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+          "effect": "Until the end of the battle, the enemy unit that destroyed your unit is Marked. Each time an Adeptus Mechanicus model from your army makes an attack that targets a Marked unit, that attack has the [LETHAL HITS] ability."
+        },
+        {
+          "name": "Aggression Begets Aggression",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One Imperial Knights unit from your army or one Imperial Knights Character unit from your army and one friendly Adeptus Mechanicus unit that is within 6\" of that unit.",
+          "effect": "Until the end of the phase, ranged weapons equipped by models in your units have the [ASSAULT] ability."
+        },
+        {
+          "name": "Omnissiah’s Grace",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, just after a mortal wound is allocated to an Imperial Knights or Adeptus Mechanicus unit from your army.",
+          "target": "That IMPERIAL KNIGHTS or ADEPTUS MECHANICUS unit.",
+          "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds."
+        },
+        {
+          "name": "Machine Focus",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Your Command phase.",
+          "target": "One Imperial Knights unit from your army.",
+          "effect": "Until the start of your next turn, your unit\ncan ignore any or all modifiers to the following: the Weapon Skill or Ballistic Skill characteristics of weapons equipped by its models; any Hit roll or Wound roll made for it."
+        },
+        {
+          "name": "Thronegheist Fury",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, just after an enemy unit is set up or ends a Normal, Advance, or Fall Back move.",
+          "target": "One Imperial Knights Titanic unit from your army that is within 24\" of and visible to that enemy unit.",
+          "effect": "Select one ranged weapon equipped by a model in your unit. That model can shoot at that enemy unit (and only if it is an eligible target). When doing so, that model can only make attacks with that weapon and each time it makes a ranged attack, an unmodified Hit roll of 6 is required to score a hit, irrespective of the attacking weapon’s Ballistic Skill or any modifiers."
         }
       ]
     },
@@ -477,6 +664,68 @@
           "name": "Wyrmslayer Divination",
           "points": 10
         }
+      ],
+      "stratagems": [
+        {
+          "name": "Courageous Stand",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One Imperial Knights Titanic unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "Driven By The Past",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Your turn",
+          "phase": "Charge phase",
+          "when": "Your Charge phase.",
+          "target": "One Imperial Knights Titanic unit from your army.",
+          "effect": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced."
+        },
+        {
+          "name": "Unstoppable Warrior",
+          "cp": 2,
+          "category": "Epic Deed",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, just after an Imperial Knights Titanic unit from your army Falls Back.",
+          "target": "That IMPERIAL KNIGHTS TITANIC unit.",
+          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        },
+        {
+          "name": "Moment Of Glory",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, just before an Imperial Knights Titanic unit from your army Consolidates.",
+          "target": "That IMPERIAL KNIGHTS TITANIC unit.",
+          "effect": "Until the end of the phase, each time your unit Consolidates, models in it can move an additional 3\" provided your unit can end that move within Engagement Range of one or more enemy units."
+        },
+        {
+          "name": "Hero’s Tread",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "End of your Command phase.",
+          "target": "One Imperial Knights Titanic model from your army that is within range of an objective marker you control.",
+          "effect": "Your Level of Control over that objective marker is 5 (unless it would otherwise be higher), until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+        },
+        {
+          "name": "Titanic Duel",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase.",
+          "target": "One Imperial Knights Titanic model from your army that has not been selected to shoot or fight this phase.",
+          "effect": "Until the end of the phase, each time your model makes an attack that targets a MONSTER, TITANIC or WALKER unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        }
       ]
     },
     {
@@ -503,6 +752,68 @@
           "id": "54414c4553204f46204845524f49534d",
           "name": "Tales of Heroism",
           "points": 10
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Thin Their Ranks",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Start of your Shooting phase.",
+          "target": "One Armiger model from your army, or one Imperial Knights Titanic model from your army, and one or more friendly ARMIGER models affected by that model’s Bondsman ability.",
+          "effect": "Until the end of the phase, ranged weapons equipped by your ARMIGER models have the [RAPID FIRE 1] ability."
+        },
+        {
+          "name": "Exemplar’s Wisdom",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, just after an Imperial Knights Titanic model from your army has shot.",
+          "target": "That IMPERIAL KNIGHTS TITANIC model, and one or more friendly Armiger models affected by that model’s Bondsman ability.",
+          "effect": "Select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time one of your ARMIGER models makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1."
+        },
+        {
+          "name": "Virtue Of Courage",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Start of the Fight phase.",
+          "target": "One Armiger model from your army, or one Imperial Knights Titanic model from your army, and one or more friendly ARMIGER models affected by that model’s Bondsman ability.",
+          "effect": "Select one enemy unit. Until the end of the phase, each time one of your ARMIGER models makes an attack that targets that enemy unit, add 1 to the Hit roll."
+        },
+        {
+          "name": "Let Duty Be Your Shield",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One Armiger unit from your army that was selected as the target of one or more of the attacking units attacks.",
+          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
+        },
+        {
+          "name": "Mantle Of The Mentor",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Start of your Shooting phase.",
+          "target": "One Armiger model from your army, or one Imperial Knights Titanic model from your army, and one or more friendly ARMIGER models affected by that model’s Bondsman ability.",
+          "effect": "Until the end of the phase, your ARMIGER models are eligible to shoot in a turn in which they Fell Back."
+        },
+        {
+          "name": "Squires Ofthe Hunt",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Fight phase",
+          "when": "End of your opponent’s Fight phase.",
+          "target": "One Armiger model from your army, or one Imperial Knights Titanic model from your army, and one or more friendly ARMIGER models affected by that model’s Bondsman ability.",
+          "effect": "For each of your ARMIGER models that is within 9\" of one or more battlefield edges and not within Engagement Range of one or more enemy units, remove that ARMIGER model from the battlefield and place it into Strategic Reserves."
         }
       ]
     },
@@ -547,6 +858,68 @@
           "id": "424541524552204f4620544845204c414e434552e280995320534947494c",
           "name": "Bearer of the Lancer’s Sigil",
           "points": 25
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Full Tilt",
+          "cp": 2,
+          "category": "Battle Tactic",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase.",
+          "target": "One Imperial Knights unit from your army that has not been selected to move this phase.",
+          "effect": "Until the end of the phase, add 2\" to the Move characteristic of your models and add 2 to Advance rolls made for those model’s units."
+        },
+        {
+          "name": "Thunderstomp",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase.",
+          "target": "One Imperial Knights model from your army that has not been selected to fight this phase.",
+          "effect": "Until the end of the phase, the Attacks characteristic of any armoured Feet melee weapons equipped by your model is 8, the Attacks characteristic of any titanic Feet melee weapons equipped by your model is 12, and improve the Armour Penetration characteristic of those weapons by 1."
+        },
+        {
+          "name": "Vow Of Retribution",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One Imperial Knights unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, ranged weapons equipped by your models have the [LETHAL HITS] ability."
+        },
+        {
+          "name": "Tactical Foil",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+          "target": "One Imperial Knights model from your army that is within 9\" of that unit.",
+          "effect": "Your model can make a Normal move of up to D6\"."
+        },
+        {
+          "name": "Run Them Through!",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase.",
+          "target": "One Imperial Knights unit from your army that has not been selected to fight this phase.",
+          "effect": "Until the end of the phase, melee weapons equipped by your models have the [LANCE] ability."
+        },
+        {
+          "name": "Rotate Ion Shields",
+          "cp": 1,
+          "category": "Wargear",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One Imperial Knights unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save."
         }
       ]
     }
