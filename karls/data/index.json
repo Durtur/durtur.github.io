@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T13:04:04.123Z",
+  "generatedAt": "2026-07-28T18:07:39.222Z",
   "armies": [
     {
       "slug": "adepta-sororitas",
@@ -22,7 +22,7 @@
     {
       "slug": "aeldari",
       "name": "Aeldari",
-      "unitCount": 124,
+      "unitCount": 123,
       "detachmentCount": 15
     },
     {
@@ -35,13 +35,13 @@
       "slug": "black-templars",
       "name": "Black Templars",
       "unitCount": 104,
-      "detachmentCount": 19
+      "detachmentCount": 20
     },
     {
       "slug": "blood-angels",
       "name": "Blood Angels",
-      "unitCount": 110,
-      "detachmentCount": 23
+      "unitCount": 109,
+      "detachmentCount": 24
     },
     {
       "slug": "chaos-daemons",
@@ -71,7 +71,7 @@
       "slug": "dark-angels",
       "name": "Dark Angels",
       "unitCount": 112,
-      "detachmentCount": 23
+      "detachmentCount": 24
     },
     {
       "slug": "death-guard",
@@ -83,7 +83,7 @@
       "slug": "deathwatch",
       "name": "Deathwatch",
       "unitCount": 94,
-      "detachmentCount": 16
+      "detachmentCount": 17
     },
     {
       "slug": "drukhari",
@@ -137,19 +137,19 @@
       "slug": "orks",
       "name": "Orks",
       "unitCount": 58,
-      "detachmentCount": 12
+      "detachmentCount": 13
     },
     {
       "slug": "space-marines",
       "name": "Space Marines",
-      "unitCount": 188,
-      "detachmentCount": 22
+      "unitCount": 187,
+      "detachmentCount": 23
     },
     {
       "slug": "space-wolves",
       "name": "Space Wolves",
-      "unitCount": 118,
-      "detachmentCount": 22
+      "unitCount": 117,
+      "detachmentCount": 23
     },
     {
       "slug": "tau-empire",
@@ -178,7 +178,7 @@
     {
       "slug": "world-eaters",
       "name": "World Eaters",
-      "unitCount": 51,
+      "unitCount": 50,
       "detachmentCount": 8
     }
   ]

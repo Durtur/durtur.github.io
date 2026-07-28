@@ -1,8 +1,8 @@
 {
   "slug": "chaos-titan-legions",
   "name": "Chaos Titan Legions",
-  "version": "v1.0",
-  "fetchedAt": "2026-06-23T13:04:04.123Z",
+  "version": "v1.1",
+  "fetchedAt": "2026-07-28T18:07:39.222Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -13,7 +13,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 2
+              "points": 2200
             }
           ]
         },
@@ -23,7 +23,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 2
+              "points": 2600
             }
           ]
         },
@@ -33,7 +33,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 1
+              "points": 1100
             }
           ]
         },
@@ -43,7 +43,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 3
+              "points": 3500
             }
           ]
         }
