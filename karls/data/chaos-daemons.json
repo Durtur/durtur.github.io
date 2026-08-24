@@ -1,8 +1,8 @@
 {
   "slug": "chaos-daemons",
   "name": "Chaos Daemons",
-  "version": "v1.1",
-  "fetchedAt": "2026-07-28T21:20:00.475Z",
+  "version": "v1.2",
+  "fetchedAt": "2026-08-24T09:51:55.026Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -672,16 +672,6 @@
           "effect": "Until the end of the phase, models in your unit have a Save characteristic of 3+."
         },
         {
-          "name": "Fools’ Flight",
-          "cp": 2,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, just after an enemy unit Falls Back.",
-          "target": "One Legiones Daemonica Khorne unit from your army that is within 6\" of that enemy unit and would be eligible to declare a charge against that enemy unit.",
-          "effect": "Your unit now declares a charge that targets only that enemy unit, and you resolve that charge. Note that even if that charge is successful, your unit does not receive any Charge bonus this turn."
-        },
-        {
           "name": "Wrath Undeniable",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -690,6 +680,16 @@
           "when": "Fight phase, just after an enemy unit has selected its targets.",
           "target": "One Legiones Daemonica Khorne unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, each time a model in your unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6: on a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        },
+        {
+          "name": "Fools’ Flight",
+          "cp": 2,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, when an enemy unit ends a fall-back move.",
+          "target": "One friendly unengaged LEGIONES DAEMONICA KHORNE unit that is within 6\" of that enemy unit.",
+          "effect": "Declare a charge with your unit. When selecting charge targets, you can only select enemy units that made a fall-back move this phase and are within the maximum distance."
         },
         {
           "name": "Gore‑hungry Onslaught",
@@ -738,6 +738,38 @@
           "name": "Soul-shattering Charge (Upgrade)",
           "points": 10
         }
+      ],
+      "stratagems": [
+        {
+          "name": "Warp-Riders",
+          "cp": 1,
+          "category": "Cavalcade of Chaos",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, when a friendly LEGIONES DAEMONICA MOUNTED unit is selected to move.",
+          "target": "That LEGIONES DAEMONICA MOUNTED unit.",
+          "effect": "Your unit has MOBILE."
+        },
+        {
+          "name": "Inescapable Manifestations",
+          "cp": 1,
+          "category": "Cavalcade of Chaos",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, when a unit is selected to make a fall-back move, if that unit is engaged with a friendly LEGIONES DAEMONICA MOUNTED unit.",
+          "target": "That LEGIONES DAEMONICA MOUNTED unit.",
+          "effect": "When an enemy unit engaged with your unit is selected to make a fall-back move, that enemy unit must use the desperate escape mode. If that enemy unit is battle-shocked, -1 from those hazard rolls."
+        },
+        {
+          "name": "From Beyond The Veil",
+          "cp": 1,
+          "category": "Cavalcade of Chaos",
+          "turn": "Either player’s turn",
+          "phase": "Movement phase",
+          "when": "End of the Movement phase, from the start of the battle.",
+          "target": "One friendly LEGIONES DAEMONICA MOUNTED unit in strategic reserves.",
+          "effect": "Your unit can make an ingress move."
+        }
       ]
     },
     {
@@ -778,16 +810,6 @@
           "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
         },
         {
-          "name": "Parting Blows",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One LEGIONES DAEMONIcA unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
-          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. That destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
-        },
-        {
           "name": "Unreal Speed",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -807,6 +829,26 @@
           "target": "One LEGIONES DAEMONICA unit from your army that has not been selected to move this phase.",
           "effect": "The next time your unit is selected to move this phase, models in that unit can move through Walls and closed Hatchways as if they were not there, but when doing so, no model can move more than 6\".",
           "restrictions": "You can only use this Stratagem once."
+        },
+        {
+          "name": "Parting Blows",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One LEGIONES DAEMONIcA unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. That destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        },
+        {
+          "name": "The Realm Of Chaos",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Opponent’s turn",
+          "phase": "Any phase",
+          "when": "End of your opponent’s turn.",
+          "target": "Up to two LEGIONES DAEMONICA units from your army that are within your army’s Shadow of Chaos, or one other LEGIONES DAEMONICA unit from your army.",
+          "effect": "Place your unit in strategic reserves.Your unit must make an ingress move in your next Movement phase (including in your first turn).\nRESTRICTION: You cannot target units that are within Engagement Range of one or more enemy units with this Stratagem."
         },
         {
           "name": "Draught Of Terror",
@@ -829,15 +871,14 @@
           "effect": "Until the end of the phase, each time an invulnerable saving throw is made for a model in your unit, re-roll a saving throw of 1."
         },
         {
-          "name": "The Realm Of Chaos",
+          "name": "Corrupt Realspace",
           "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Opponent’s turn",
-          "phase": "Any phase",
-          "when": "End of your opponent’s turn.",
-          "target": "Up to two LEGIONES DAEMONICA units from your army that are within your army’s Shadow of Chaos, or one other LEGIONES DAEMONICA unit from your army.",
-          "effect": "Remove the targeted units from the battlefield and place them into Strategic Reserves. They will arrive back on the battlefield in the Reinforcements step of your next Movement phase using the Deep Strike ability.",
-          "restrictions": "You cannot target units that are within Engagement Range of one or more enemy units with this Stratagem."
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Command phase",
+          "when": "Start of any Command phase.",
+          "target": "One LEGIONES DAEMONICA unit from your army that is within range of an objective marker you control.",
+          "effect": "That objective marker is said to be Corrupted and remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn. In addition, while an objective marker is Corrupted and under your control, the area of the battlefield within 6\" of that objective marker is considered to be within your army’s Shadow of Chaos."
         },
         {
           "name": "Warp Surge",
@@ -848,16 +889,6 @@
           "when": "Your Charge phase.",
           "target": "One LEGIONES DAEMONICA unit from your army that is within your army’s Shadow of Chaos.",
           "effect": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced."
-        },
-        {
-          "name": "Corrupt Realspace",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Command phase",
-          "when": "Start of any Command phase.",
-          "target": "One LEGIONES DAEMONICA unit from your army that is within range of an objective marker you control.",
-          "effect": "That objective marker is said to be Corrupted and remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn. In addition, while an objective marker is Corrupted and under your control, the area of the battlefield within 6\" of that objective marker is considered to be within your army’s Shadow of Chaos."
         },
         {
           "name": "Denizens Of The Warp",
@@ -909,16 +940,6 @@
           "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
         },
         {
-          "name": "Archagonists",
-          "cp": 2,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One Legiones Daemonica Slaanesh Monster unit or up to two Legiones Daemonica Slaanesh units (excluding Monsters) from your army that have not been selected to fight this phase.",
-          "effect": "Until the end of the phase, each time a model in one of those units makes an attack, add 1 to the Wound roll."
-        },
-        {
           "name": "Cavalcade Of Blades",
           "cp": 1,
           "category": "Battle Tactic",
@@ -929,14 +950,24 @@
           "effect": "Select one enemy unit within Engagement Range of your unit, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit, or roll six D6 instead if your unit is a MONSTER unit: for each 4+, that enemy unit suffers 1 mortal wound."
         },
         {
-          "name": "Thieves Of Pain",
+          "name": "Archagonists",
+          "cp": 2,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase.",
+          "target": "One Legiones Daemonica Slaanesh Monster unit or up to two Legiones Daemonica Slaanesh units (excluding Monsters) from your army that have not been selected to fight this phase.",
+          "effect": "Until the end of the phase, each time a model in one of those units makes an attack, add 1 to the Wound roll."
+        },
+        {
+          "name": "Phantasmal Longing",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, just after an attack or mortal wound is allocated to a model in a Legiones Daemonica Slaanesh unit from your army (excluding Monsters and Vehicles).",
-          "target": "That LEGIONES DAEMONICA SLAANESH unit.",
-          "effect": "Select one other friendly LEGIONES DAEMONICA SLAANESH unit that is within 9\" of and visible to your unit. Until the end of the phase, while the selected unit is on the battlefield, each time a model in your unit would lose a wound, inflict 1 mortal wound on the selected unit instead."
+          "turn": "Your turn",
+          "phase": "Movement or Charge phase",
+          "when": "Your Movement phase or your Charge phase.",
+          "target": "One Legiones Daemonica Slaanesh unit from your army.",
+          "effect": "Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features."
         },
         {
           "name": "Sensory Excruciation",
@@ -949,14 +980,14 @@
           "effect": "Each unit on the battlefield that is within your army’s Shadow of Chaos must take a Battle-shock test, subtracting 1 from that test if they are Below Half-strength.\n\nDesigner’s Note: This Stratagem forces all friendly and enemy units alike within your army’s Shadow of Chaos to take a Battle-shock test. This can allow a Chaos Daemons player to heal units from their army through the Daemonic Terror army rule, at the risk of causing some of their own units to become Battle-shocked."
         },
         {
-          "name": "Phantasmal Longing",
+          "name": "Thieves Of Pain",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement or Charge phase",
-          "when": "Your Movement phase or your Charge phase.",
-          "target": "One Legiones Daemonica Slaanesh unit from your army.",
-          "effect": "Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features."
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, when an enemy unit targets a friendly LEGIONES DAEMONICA SLAANESH unit (excluding MONSTER/VEHICLE units), or when a friendly LEGIONES DAEMONICA SLAANESH unit (excluding MONSTER/VEHICLE units) suffers a mortal wound.",
+          "target": "That LEGIONES DAEMONICA SLAANESH unit.",
+          "effect": "Select one other friendly LEGIONES DAEMONICA SLAANESH unit that is within 9\" of and visible to your unit. Until the end of the phase, while the selected unit is on the battlefield, each time a model in your unit would lose a wound, inflict 1 mortal wound on the selected unit instead."
         }
       ]
     },
@@ -969,6 +1000,48 @@
           "id": "53574f4c4c454e205749544820504f57455220285550475241444529",
           "name": "Swollen with Power (Upgrade)",
           "points": 10
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Carnival Of Excess",
+          "cp": 1,
+          "category": "Lords of the Warp",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when an enemy unit has fought.",
+          "target": "One friendly LEGIONES DAEMONICA CHARACTER SLAANESH unit (excluding MONSTER units) that has not been selected to fight this phase.",
+          "effect": "Your unit has Fights First and must be the next unit you select to fight."
+        },
+        {
+          "name": "Call To Murder",
+          "cp": 1,
+          "category": "Lords of the Warp",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when a friendly LEGIONES DAEMONICA KHORNE CHARACTER unit (excluding MONSTER units) that made a charge move this turn is selected to fight.",
+          "target": "That LEGIONES DAEMONICA CHARACTER KHORNE unit.",
+          "effect": "Your unit’s melee attacks have +1 A."
+        },
+        {
+          "name": "Bilious Blessing",
+          "cp": 1,
+          "category": "Lords of the Warp",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Start of your Shooting phase.",
+          "target": "One friendly LEGIONES DAEMONICA CHARACTER NURGLE unit (excluding MONSTER units).",
+          "effect": "Select one visible enemy unit within 8\" of your unit and roll seven D6:\nFor each 4+, that enemy unit suffers 1 mortal wound"
+        },
+        {
+          "name": "Skirling Magicks",
+          "cp": 1,
+          "category": "Lords of the Warp",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly LEGIONES DAEMONICA CHARACTER TZEENTCH unit (excluding MONSTER units) is selected to shoot.",
+          "target": "That LEGIONES DAEMONICA CHARACTER TZEENTCH unit.",
+          "effect": "Your unit’s ranged attacks have [LETHAL HITS]."
         }
       ]
     },
@@ -1030,14 +1103,14 @@
           "effect": "Until the end of the phase, each time a model in that unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit."
         },
         {
-          "name": "Foetid Resurgence",
-          "cp": 2,
+          "name": "Plague Of Woes",
+          "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Your turn",
+          "turn": "Opponent’s turn",
           "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "One Legiones Daemonica Nurgle unit from your army that is on the battlefield.",
-          "effect": "Return up to 1 destroyed model to your unit, or up to D3 destroyed models instead if your unit is a Battleline unit, with their full wounds remaining. If it is a Monster unit, one model in your unit regains up to D3+1 lost wounds instead."
+          "when": "Your opponent’s Command phase, before selecting any targets for the Melancholic Miasma Detachment rule.",
+          "target": "One Legiones Daemonica Nurgle unit from your army.",
+          "effect": "Until the end of the phase, after an enemy unit takes a Battle-shock test as a result of the Melancholic Miasma Detachment rule, select one other enemy unit within 9\" of your unit; that enemy unit must take a Battle-shock test."
         },
         {
           "name": "Rot And Renewal",
@@ -1050,14 +1123,14 @@
           "effect": "Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features."
         },
         {
-          "name": "Plague Of Woes",
-          "cp": 1,
+          "name": "Foetid Resurgence",
+          "cp": 2,
           "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
+          "turn": "Your turn",
           "phase": "Command phase",
-          "when": "Your opponent’s Command phase, before selecting any targets for the Melancholic Miasma Detachment rule.",
-          "target": "One Legiones Daemonica Nurgle unit from your army.",
-          "effect": "Until the end of the phase, after an enemy unit takes a Battle-shock test as a result of the Melancholic Miasma Detachment rule, select one other enemy unit within 9\" of your unit; that enemy unit must take a Battle-shock test."
+          "when": "Your Command phase.",
+          "target": "One LEGIONES DAEMONICA NURGLE unit from your army that is on the battlefield.",
+          "effect": "Return up to 1 destroyed model to your unit (excluding CHARACTER models) or up to D3 destroyed models instead (excluding CHARACTER models) if your unit is a BATTLELINE unit, with their full wounds remaining. If your unit is a MONSTER unit, one model in your unit regains up to D3+1 lost wounds instead."
         }
       ]
     },
@@ -1109,16 +1182,6 @@
           "effect": "Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features."
         },
         {
-          "name": "Flickering Reality",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Charge phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Legiones Daemonica Tzeentch unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Roll one D6, then you can spend one Flux token to re-roll the result: until the end of the phase, each time an attack targets your unit, on an unmodified Hit roll (after any re-roll) of that result, the attack sequence ends, even if the original Hit roll would have been a Critical Hit.\n\nExample: If you roll a 2 and choose to spend one Flux token to re-roll the result, and the re-roll is a 6, then until the end of the phase, each time an attack targets your unit, on an unmodified Hit roll of 6 the attack sequence ends, that attack fails to hit and no Critical Hit effects (e.g. Lethal Hits) are resolved."
-        },
-        {
           "name": "Impossible Eclipse",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1129,16 +1192,6 @@
           "effect": "Select No Man’s Land or your opponent’s deployment zone, or spend one Flux token and select both. Until the end of the phase, the selected areas of the battlefield are within your army’s Shadow of Chaos."
         },
         {
-          "name": "Ficklefire",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Legiones Daemonica Tzeentch unit from your army that is within Engagement Range of one or more enemy units.",
-          "effect": "Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets for, and resolving attacks with, ranged weapons. Until the end of the phase, each time an enemy model is destroyed while its unit is within Engagement Range of your unit, roll one D6: on a 5+, your unit suffers 1 mortal wound after the attacking unit has finished making its attacks."
-        },
-        {
           "name": "Delirium Unmade",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1147,6 +1200,26 @@
           "when": "End of your opponent’s Fight phase.",
           "target": "One Legiones Daemonica Tzeentch unit from your army that is not within Engagement Range of one or more enemy units. Alternatively, you can spend one Flux token when you use this Stratagem and target up to two LEGIONES DAEMONICA TZEENTCH units from your army instead (including those within Engagement Range of one or more enemy units).",
           "effect": "Remove your units from the battlefield and place them into Strategic Reserves."
+        },
+        {
+          "name": "Flickering Reality",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Charge phase",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One Legiones Daemonica Tzeentch unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Roll one D6, then you can spend one Flux token to re-roll the result: until the end of the phase, each time an attack targets your unit, on an unmodified Hit roll (after any re-roll) of that result, the attack sequence ends, even if the original Hit roll would have been a Critical Hit.\n\nExample: If you roll a 2 and choose to spend one Flux token to re-roll the result, and the re-roll is a 6, then until the end of the phase, each time an attack targets your unit, on an unmodified Hit roll of 6 the attack sequence ends, that attack fails to hit and no Critical Hit effects (e.g. Lethal Hits) are resolved."
+        },
+        {
+          "name": "Ficklefire",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One Legiones Daemonica Tzeentch unit from your army that is within Engagement Range of one or more enemy units.",
+          "effect": "Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets for, and resolving attacks with, ranged weapons. Until the end of the phase, each time an enemy model is destroyed while its unit is within Engagement Range of your unit, roll one D6: on a 5+, your unit suffers 1 mortal wound after the attacking unit has finished making its attacks."
         }
       ]
     },
@@ -1178,6 +1251,16 @@
       ],
       "stratagems": [
         {
+          "name": "Shade Path",
+          "cp": 2,
+          "category": "Battle Tactic",
+          "turn": "Opponent’s turn",
+          "phase": "Charge phase",
+          "when": "Start of your opponent's Charge phase.",
+          "target": "One friendly SHADOW LEGION unit.",
+          "effect": "Select one visible enemy unit within 12\" of your unit. When that enemy unit declares a charge, that enemy unit has -1 to charge rolls. If your unit has Nurgle, that enemy unit must make a battle-shock roll."
+        },
+        {
           "name": "Encroaching Darkness",
           "cp": 1,
           "category": "Battle Tactic",
@@ -1186,16 +1269,6 @@
           "when": "Your Shooting phase.",
           "target": "Up to one Shadow Legion Heretic Astartes unit from your army and up to one Shadow Legion Legiones Daemonica unit from your army. You can only select units that arrived from Reserves this turn.",
           "effect": "Until the end of the phase, weapons equipped by models in your selected units have the [IGNORES COVER] ability."
-        },
-        {
-          "name": "Shade Path",
-          "cp": 2,
-          "category": "Battle Tactic",
-          "turn": "Opponent’s turn",
-          "phase": "Charge phase",
-          "when": "Your opponent’s Charge phase, just after an enemy unit declares a charge.",
-          "target": "One Shadow Legion unit from your army that was selected as a target of that charge.",
-          "effect": "Until the end of the phase, subtract 2 from Charge rolls made for that enemy unit. In addition, if your unit has the Nurgle keyword, that enemy unit must take a Battle-shock test."
         },
         {
           "name": "Death Denied",
@@ -1208,14 +1281,14 @@
           "effect": "One model in your unit regains up to 3 lost wounds. In addition, If your unit has the Tzeentch keyword, return up to one destroyed model (excluding Character models) to your unit with its full wounds remaining."
         },
         {
-          "name": "Channelled Wrath",
+          "name": "Binding Shadow",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
+          "turn": "Opponent’s turn",
           "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One Shadow Legion unit from your army that has not been selected to fight this phase.",
-          "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LANCE] ability. If your unit has the Khorne keyword, until the end of the phase, improve the Armour Penetration characteristic of those weapons by 1 as well."
+          "when": "End of your opponent’s Fight phase.",
+          "target": "Up to one Shadow Legion Heretic Astartes unit from your army and up to one Shadow Legion Legiones Daemonica unit from your army. You can only select units that are not within Engagement Range of one or more enemy units.",
+          "effect": "Remove those selected units from the battlefield and place them into Strategic Reserves."
         },
         {
           "name": "Spiteful Demise",
@@ -1228,14 +1301,14 @@
           "effect": "Roll one D6 for each enemy unit that is within Engagement Range of the last model in your unit, adding 2 to the result if your unit has the Slaanesh keyword: on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6+, that enemy unit suffers 3 mortal wounds."
         },
         {
-          "name": "Binding Shadow",
+          "name": "Channelled Wrath",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
+          "turn": "Either player’s turn",
           "phase": "Fight phase",
-          "when": "End of your opponent’s Fight phase.",
-          "target": "Up to one Shadow Legion Heretic Astartes unit from your army and up to one Shadow Legion Legiones Daemonica unit from your army. You can only select units that are not within Engagement Range of one or more enemy units.",
-          "effect": "Remove those selected units from the battlefield and place them into Strategic Reserves."
+          "when": "Fight phase.",
+          "target": "One Shadow Legion unit from your army that has not been selected to fight this phase.",
+          "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LANCE] ability. If your unit has the Khorne keyword, until the end of the phase, improve the Armour Penetration characteristic of those weapons by 1 as well."
         }
       ]
     },
@@ -1253,6 +1326,38 @@
           "id": "534f554c2d48554e47525920534c4155474854455245525320285550475241444529",
           "name": "Soul-hungry Slaughterers (Upgrade)",
           "points": 10
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Daemonic Infestation",
+          "cp": 1,
+          "category": "Warptide",
+          "turn": "Your turn",
+          "phase": "Fight phase",
+          "when": "Your Command phase.",
+          "target": "One friendly LEGIONES DAEMONICA BATTLELINE unit (excluding PINK HORRORS units).",
+          "effect": "Your unit heals 3 wounds."
+        },
+        {
+          "name": "Soulseeing",
+          "cp": 1,
+          "category": "Warptide",
+          "turn": "Your turn",
+          "phase": "Fight phase",
+          "when": "Start of your Shooting phase.",
+          "target": "One friendly LEGIONES DAEMONICA BATTLELINE unit.",
+          "effect": "Select one visible enemy unit within 12\" of your unit. That enemy unit has +6\" detection range."
+        },
+        {
+          "name": "Incorporeal Entities",
+          "cp": 1,
+          "category": "Warptide",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly LEGIONES DAEMONICA BATTLELINE unit.",
+          "target": "That LEGIONES DAEMONICA BATTLELINE unit.",
+          "effect": "Ranged attacks that target your unit with a S greater than your unit’s T have -1 to wound rolls."
         }
       ]
     }

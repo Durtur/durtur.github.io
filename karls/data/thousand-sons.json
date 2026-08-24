@@ -1,8 +1,8 @@
 {
   "slug": "thousand-sons",
   "name": "Thousand Sons",
-  "version": "v1.1",
-  "fetchedAt": "2026-07-28T21:20:00.475Z",
+  "version": "v1.2",
+  "fetchedAt": "2026-08-24T09:51:55.026Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -910,26 +910,6 @@
           "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
         },
         {
-          "name": "Ethereal Phantasm",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
-          "target": "One Scintillating Legions unit from your army that is within 9\" of that enemy unit and not within Engagement Range of one or more enemy units.",
-          "effect": "Your unit can make a Normal move of up to D6\", or a Normal move of up to 6\" instead if it is wholly within 6\" of one or more friendly Thousand Sons units."
-        },
-        {
-          "name": "Deceptive Glamour",
-          "cp": 2,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Start of the Fight phase.",
-          "target": "One Thousand Sons unit from your army.",
-          "effect": "Until the end of the phase, each time an enemy model within Engagement Range of your unit selects targets for its attacks, it can only target your unit if there are no eligible Scintillating Legions targets for those attacks."
-        },
-        {
           "name": "Glimmershift Portal",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -945,9 +925,9 @@
           "category": "Strategic Ploy",
           "turn": "Opponent’s turn",
           "phase": "Charge phase",
-          "when": "Your opponent’s Charge phase, just after an enemy unit has declared a charge.",
-          "target": "One Thousand Sons Psyker or Scintillating Legions unit from your army that was selected as a target of that charge.",
-          "effect": "Until the end of the phase, subtract 2 from Charge rolls made for that enemy unit (this is not cumulative with any other negative modifiers to that Charge roll)."
+          "when": "Start of your opponent’s Charge phase.",
+          "target": "One friendly unengaged THOUSAND SONS PSYKER/SCINTILLATING LEGIONS unit.",
+          "effect": "Select one visible enemy unit within 12\" of your unit. When that enemy unit declares a charge, that enemy unit has -1 to charge rolls."
         },
         {
           "name": "Fractal Disjunction",
@@ -958,6 +938,26 @@
           "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
           "target": "One Scintillating Legions unit from your army (excluding Monsters) that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+        },
+        {
+          "name": "Deceptive Glamour",
+          "cp": 2,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Start of the Fight phase.",
+          "target": "One Thousand Sons unit from your army.",
+          "effect": "Until the end of the phase, each time an enemy model within Engagement Range of your unit selects targets for its attacks, it can only target your unit if there are no eligible Scintillating Legions targets for those attacks."
+        },
+        {
+          "name": "Ethereal Phantasm",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+          "target": "One Scintillating Legions unit from your army that is within 8\" of that enemy unit and not within Engagement Range of one or more enemy units.",
+          "effect": "Your unit can make a Normal move of up to D6\", or a Normal move of up to 6\" instead if it is wholly within 6\" of one or more friendly Thousand Sons units."
         }
       ]
     },
@@ -1009,16 +1009,6 @@
           "effect": "Until the end of the phase, Psychic weapons equipped by models in the attacking unit have the [hazardous] ability, and models in your unit have the Feel No Pain 4+ ability against Psychic Attacks."
         },
         {
-          "name": "Desecration Of Worlds",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "One Thousand Sons Psyker unit from your army within range of an objective marker you control.",
-          "effect": "That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
-        },
-        {
           "name": "Destined By Fate",
           "cp": 1,
           "category": "Epic Deed",
@@ -1027,6 +1017,16 @@
           "when": "Any phase, just after a saving throw is failed for a Thousand Sons Psyker model from your army. If you are using fast dice rolling, this Stratagem can still be used after rolling multiple saving throws at once.",
           "target": "That PSYKER model.",
           "effect": "Change the Damage characteristic of that attack to 0. If you are using fast dice rolling, select one of those attacks you failed a saving throw for."
+        },
+        {
+          "name": "Desecration Of Worlds",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Your Command phase.",
+          "target": "One Thousand Sons Psyker unit from your army within range of an objective marker you control.",
+          "effect": "That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
         },
         {
           "name": "Arcane Focus",
@@ -1084,8 +1084,18 @@
           "turn": "Opponent’s turn",
           "phase": "Shooting phase",
           "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One Thousand Sons Psyker unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, your unit has the Stealth ability, and, if your unit is wholly within your army’s Flow of Magic, each time an attack targets your unit, it has the Benefit of Cover against that attack."
+          "target": "One THOUSAND SONS PSYKER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Your unit has Stealth.If your unit is wholly within your army’s Flow of Magic, your unit has ‐3 detection range."
+        },
+        {
+          "name": "Warding Hex",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Either player’s turn",
+          "phase": "Command phase",
+          "when": "Command phase.",
+          "target": "One Thousand Sons Psyker unit from your army within range of an objective marker you control, if that objective marker is wholly within your army’s Flow of Magic.",
+          "effect": "That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
         },
         {
           "name": "Through The Veil",
@@ -1097,16 +1107,6 @@
           "target": "One Rubric Marines or Scarab Occult Terminators unit from your army that is in Strategic Reserves.",
           "effect": "If it is a RUBRIC MARINES unit, until the end of the phase, it has the Deep Strike ability. When your unit is set up on the battlefield using the Deep Strike ability, if it is a SCARAB OCCULT TERMINATOR unit it can be set up anywhere on the battlefield that is wholly within your army’s Flow of Magic and more than 6\" horizontally away from all enemy models.",
           "restrictions": "If a SCARAB OCCULT TERMINATORS unit is targeted with this Stratagem, it is not eligible to declare a charge in the same turn."
-        },
-        {
-          "name": "Warding Hex",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Either player’s turn",
-          "phase": "Command phase",
-          "when": "Command phase.",
-          "target": "One Thousand Sons Psyker unit from your army within range of an objective marker you control, if that objective marker is wholly within your army’s Flow of Magic.",
-          "effect": "That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
         },
         {
           "name": "Scouring Warpflame",
@@ -1154,6 +1154,38 @@
           "id": "4552555054494f4e204f4620564954414c495459",
           "name": "Eruption of Vitality",
           "points": 35
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Multitudinous Limbs",
+          "cp": 1,
+          "category": "Ritual of Regeneration",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Movement phase, when a friendly INFANTRY/MOUNTED THOUSAND SONS PSYKER unit is selected to make an advance/fall back move.",
+          "target": "That INFANTRY/MOUNTED THOUSAND SONS PSYKER unit.",
+          "effect": "That move does not prevent your unit from being eligible to start an action."
+        },
+        {
+          "name": "Mutagenic Magicks",
+          "cp": 1,
+          "category": "Ritual of Regeneration",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Start of the Fight phase.",
+          "target": "One friendly engaged THOUSAND SONS PSYKER unit.",
+          "effect": "Select one enemy unit engaged with your unit. Roll six D6:\nFor each 4+, that enemy unit suffers 1 mortal wound."
+        },
+        {
+          "name": "Relentless Rebirth",
+          "cp": 1,
+          "category": "Ritual of Regeneration",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, when a friendly INFANTRY/MOUNTED THOUSAND SONS PSYKER unit suffers a mortal wound.",
+          "target": "That INFANTRY/MOUNTED THOUSAND SONS PSYKER unit.",
+          "effect": "Your unit has Feel No Pain 5+ against mortal wounds."
         }
       ]
     },
@@ -1261,6 +1293,38 @@
           "name": "Walking Rampart",
           "points": 30
         }
+      ],
+      "stratagems": [
+        {
+          "name": "Ectoplasmic Extrusion",
+          "cp": 1,
+          "category": "Sekhetar Cohort",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly SEKHETAR ROBOTS unit within 12\" of a friendly THOUSAND SONS PSYKER unit starts an action.",
+          "target": "That SEKHETAR ROBOTS unit.",
+          "effect": "That action does not prevent your unit from being eligible to shoot."
+        },
+        {
+          "name": "Arcane Venting",
+          "cp": 1,
+          "category": "Sekhetar Cohort",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "End of your Movement phase.",
+          "target": "One friendly SEKHETAR ROBOTS unit.",
+          "effect": "Select one objective your unit is controlling. That objective is secured."
+        },
+        {
+          "name": "Warp Fields",
+          "cp": 1,
+          "category": "Sekhetar Cohort",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly SEKHETAR ROBOTS unit within 12\" of a friendly THOUSAND SONS PSYKER unit.",
+          "target": "That SEKHETAR ROBOTS unit.",
+          "effect": "Ranged attacks that target your unit with a S greater than your unit’s T have -1 to wound rolls."
+        }
       ]
     },
     {
@@ -1277,6 +1341,38 @@
           "id": "554e524156454c4c4544204641544553",
           "name": "Unravelled Fates",
           "points": 15
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "The Land Writhes",
+          "cp": 1,
+          "category": "Servants of Change",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, when a friendly MONSTER MUTANT unit is selected to move.",
+          "target": "That MONSTER MUTANT unit.",
+          "effect": "Your unit has MOBILE."
+        },
+        {
+          "name": "Temporal Instability",
+          "cp": 1,
+          "category": "Servants of Change",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Movement phase, when a friendly INFANTRY/MOUNTED MUTANT unit is selected to make an advance/fall back move.",
+          "target": "That INFANTRY/MOUNTED MUTANT unit.",
+          "effect": "In a turn your unit made an advance/fall-back move, that move does not prevent your unit from being eligible to start an action."
+        },
+        {
+          "name": "Prismatic Displacement",
+          "cp": 1,
+          "category": "Servants of Change",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Movement phase, when a friendly INFANTRY/MOUNTED MUTANT unit is selected to make an advance/fall back move.",
+          "target": "That INFANTRY/MOUNTED MUTANT unit.",
+          "effect": "Your unit’s ranged attacks have [ASSAULT] until the end of the turn.That move does not prevent your unit from being eligible to shoot/declare a charge."
         }
       ]
     },
@@ -1319,7 +1415,7 @@
         },
         {
           "name": "Ensorcelled Infusion",
-          "cp": 1,
+          "cp": 2,
           "category": "Battle Tactic",
           "turn": "Your turn",
           "phase": "Shooting phase",
@@ -1408,16 +1504,6 @@
           "restrictions": "You can only use this Stratagem once per battle round."
         },
         {
-          "name": "Touched By Tzeentch",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Start of your Movement phase.",
-          "target": "One Tzeentch Mutant unit from your army.",
-          "effect": "Until the end of the turn, your unit is eligible to shoot or declare a charge in a turn in which it Advanced."
-        },
-        {
           "name": "Blessed Transmutations",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1438,14 +1524,14 @@
           "effect": "Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\", and when determining which models in it are eligible to fight, any models in it that are within 3\" of one or more enemy models are eligible to fight. When resolving those attacks, such models can target one of those enemy units that is within 3\" of them and within Engagement Range of their unit."
         },
         {
-          "name": "Warped Vicissitude",
+          "name": "Touched By Tzeentch",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Tzaangors unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save."
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Start of your Movement phase.",
+          "target": "One Tzeentch Mutant unit from your army.",
+          "effect": "Until the end of the turn, your unit is eligible to shoot or declare a charge in a turn in which it Advanced."
         },
         {
           "name": "Twisted Mirage",
@@ -1455,7 +1541,17 @@
           "phase": "Movement phase",
           "when": "Reinforcements step of your Movement phase.",
           "target": "One Tzeentch Mutant unit from your army that is arriving from Strategic Reserves this phase.",
-          "effect": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, or anywhere on the battlefield that is more than 9\" horizontally away from all enemy units if it is a Monster unit. In either case, until the end of the turn, it is not eligible to declare a charge."
+          "effect": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, or anywhere on the battlefield that is more than 8\" horizontally away from all enemy units if it is a Monster unit. In either case, until the end of the turn, it is not eligible to declare a charge."
+        },
+        {
+          "name": "Warped Vicissitude",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One Tzaangors unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save."
         }
       ]
     }

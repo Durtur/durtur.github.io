@@ -1,8 +1,8 @@
 {
   "slug": "adepta-sororitas",
   "name": "Adepta Sororitas",
-  "version": "v1.1",
-  "fetchedAt": "2026-07-28T21:20:00.475Z",
+  "version": "v1.2",
+  "fetchedAt": "2026-08-24T09:51:55.026Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -486,26 +486,6 @@
       ],
       "stratagems": [
         {
-          "name": "Shield Of Faith",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, just after an ADEPTA SORORITAS unit from your army suffers a mortal wound.",
-          "target": "That ADEPTA SORORITAS unit, or one friendly ADEPTA SORORITAS JUMP PACK unit within 3\" of it.",
-          "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds. If you targeted an ADEPTA SORORITAS JUMP PACK unit from your army with this Stratagem, then until the end of the phase, while a friendly ADEPTA SORORITAS unit is unit is within 3\" of your unit, models in that unit have the Feel No Pain 5+ ability against mortal wounds."
-        },
-        {
-          "name": "Faith And Fury",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One ADEPTA SORORITAS unit from your army that has not been selected to fight this phase.",
-          "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LANCE] ability. If one or more enemy models are destroyed as the result of your unit's attacks this phase, you gain 1 Miracle dice."
-        },
-        {
           "name": "Divine Guidance",
           "cp": 1,
           "category": "Battle Tactic",
@@ -516,14 +496,34 @@
           "effect": "Until the end of the phase, each time a model in your unit makes an attack, improve the Armour Penetration characteristic of that attack by 1. If one or more enemy models are destroyed as the result of any of those attacks, you gain 1 Miracle dice."
         },
         {
-          "name": "Light Of The Emperor",
+          "name": "Shield Of Faith",
           "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, just after an ADEPTA SORORITAS unit from your army suffers a mortal wound.",
+          "target": "That ADEPTA SORORITAS unit, or one friendly ADEPTA SORORITAS JUMP PACK unit within 3\" of it.",
+          "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds. If you targeted an ADEPTA SORORITAS JUMP PACK unit from your army with this Stratagem, then until the end of the phase, while a friendly ADEPTA SORORITAS unit is unit is within 3\" of your unit, models in that unit have the Feel No Pain 5+ ability against mortal wounds."
+        },
+        {
+          "name": "Light Of The Emperor",
+          "cp": 2,
           "category": "Battle Tactic",
           "turn": "Either player’s turn",
           "phase": "Command phase",
           "when": "Command phase.",
           "target": "One ADEPTA SORORITAS unit from your army.",
           "effect": "Until the end of the turn, your unit is blessed. While a unit is blessed, it can ignore any or all modifiers to the following: the profile characteristics of its models; the Weapon Skill or Ballistic Skill characteristics of weapons equipped by its models; any roll or test made for it (excluding modifiers to saving throws). If your unit has the JUMP PACK keyword, until the end of the turn, while a friendly ADEPTA SORORITAS unit is within 3\" of your unit, that friendly unit is also blessed."
+        },
+        {
+          "name": "Faith And Fury",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase.",
+          "target": "One ADEPTA SORORITAS unit from your army that has not been selected to fight this phase.",
+          "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LANCE] ability. If one or more enemy models are destroyed as the result of your unit's attacks this phase, you gain 1 Miracle dice."
         },
         {
           "name": "Angelic Descent",
@@ -542,9 +542,9 @@
           "category": "Strategic Ploy",
           "turn": "Either player’s turn",
           "phase": "Shooting or Fight phase",
-          "when": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One ADEPTA SORORITAS unit from your army that was selected as the target of one or more of the attacking unit's attacks, or one friendly ADEPTA SORORITAS JUMP PACK unit within 3\" of such a unit.",
-          "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll. If you targeted an ADEPTA SORORITAS JUMP PACK unit from your army with this Stratagem, then until the end of the phase, while a friendly ADEPTA SORORITAS unit is unit is within 3\" of your unit, each time an attack targets that unit, subtract 1 from the Hit roll."
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One ADEPTA SORORITAS INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks, or one friendly ADEPTA SORORITAS JUMP PACK unit within 3\" of such a unit.",
+          "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll. If you targeted an ADEPTA SORORITAS JUMP PACK unit from your army with this Stratagem, then until the end of the phase, while a friendly ADEPTA SORORITAS INFANTRY unit is unit is within 3\" of your unit, each time an attack targets that unit, subtract 1 from the Hit roll."
         }
       ]
     },
@@ -576,24 +576,14 @@
       ],
       "stratagems": [
         {
-          "name": "Blazing Ire",
-          "cp": 2,
-          "category": "Battle Tactic",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
-          "target": "One ADEPTA SORORITAS TRANSPORT unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
-          "effect": "One unit embarked within your TRANSPORT can disembark as if it were your Movement phase, and can then shoot as if it were your Shooting phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
-        },
-        {
-          "name": "Rites Of Fire",
+          "name": "Shield Of Aversion",
           "cp": 1,
           "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One ADEPTA SORORITAS unit from your army that disembarked from a TRANSPORT this turn and has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within 6\" that is also within range of an objective marker, add 1 to the Wound roll. If one or more enemy models are destroyed as the result of those attacks, select one of those destroyed models; that destroyed model’s unit must take a Battle-shock test."
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One ADEPTA SORORITAS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
         },
         {
           "name": "Cleansing Flames",
@@ -606,6 +596,26 @@
           "effect": "Until the end of the phase, Torrent weapons equipped by models in your unit have the [DEVASTATING WOUNDS] ability"
         },
         {
+          "name": "Rites Of Fire",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One ADEPTA SORORITAS unit from your army that disembarked from a TRANSPORT this turn and has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within 6\" that is also within range of an objective marker, add 1 to the Wound roll. If one or more enemy models are destroyed as the result of those attacks, select one of those destroyed models; that destroyed model’s unit must take a Battle-shock test."
+        },
+        {
+          "name": "Blazing Ire",
+          "cp": 2,
+          "category": "Battle Tactic",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
+          "target": "One ADEPTA SORORITAS TRANSPORT unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+          "effect": "One unit embarked within your TRANSPORT can disembark as if it were your Movement phase, and can then shoot as if it were your Shooting phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
+        },
+        {
           "name": "Righteous Blows",
           "cp": 1,
           "category": "Battle Tactic",
@@ -614,16 +624,6 @@
           "when": "Fight phase.",
           "target": "One ADEPTA SORORITAS unit from your army that has not been selected to fight this phase.",
           "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability. If one or more enemy models are destroyed as the result of attacks made by those weapons this phase, select one of those destroyed models; that destroyed model’s unit must take a Battle-shock test."
-        },
-        {
-          "name": "Shield Of Aversion",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One ADEPTA SORORITAS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
         },
         {
           "name": "Carry Forth The Faithful",
@@ -665,14 +665,14 @@
       ],
       "stratagems": [
         {
-          "name": "To The Heart Of Heresy",
+          "name": "Bastion Of Faith",
           "cp": 1,
           "category": "Battle Tactic",
           "turn": "Either player’s turn",
           "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One ADEPTA SORORITAS unit from your army that has not been selected to fight this phase.",
-          "effect": "Until the end of the turn, improve the Strength characteristic of melee weapons equipped by models in your unit by 1. If your unit is Righteous, until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1 as well."
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One Celestian Sacresants unit that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll. In addition, if your unit is Righteous, you can select one other CELESTIAN SACRESANTS unit from your army that is not Battle-shocked and is within 6\" of your unit. Until the end of the phase, each time an attack targets that CELESTIAN SACRESANTS unit, subtract 1 from the Hit roll as well."
         },
         {
           "name": "Path Of The Righteous",
@@ -685,16 +685,6 @@
           "effect": "Until the end of the turn, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\". When doing so, if your unit is Righteous, it does not need to end that move closer to the closest enemy model, provided it ends that move as close as possible to the closest enemy unit."
         },
         {
-          "name": "Bastion Of Faith",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Celestian Sacresants unit that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll. In addition, if your unit is Righteous, you can select one other CELESTIAN SACRESANTS unit from your army that is not Battle-shocked and is within 6\" of your unit. Until the end of the phase, each time an attack targets that CELESTIAN SACRESANTS unit, subtract 1 from the Hit roll as well."
-        },
-        {
           "name": "Shield Of Denial",
           "cp": 1,
           "category": "Battle Tactic",
@@ -703,6 +693,16 @@
           "when": "Any phase, just after a mortal wound is allocated to an ADEPTA SORORITAS unit from your army.",
           "target": "That ADEPTA SORORITAS unit.",
           "effect": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability against mortal wounds. If your unit is Righteous, until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds instead."
+        },
+        {
+          "name": "To The Heart Of Heresy",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase.",
+          "target": "One ADEPTA SORORITAS unit from your army that has not been selected to fight this phase.",
+          "effect": "Until the end of the turn, improve the Strength characteristic of melee weapons equipped by models in your unit by 1. If your unit is Righteous, until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1 as well."
         },
         {
           "name": "Suffer Not The Unfaithful",
@@ -740,6 +740,38 @@
           "id": "53594d50484f4e4943205041594c4f414420285550475241444529",
           "name": "Symphonic Payload (Upgrade)",
           "points": 10
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Harmonised Exorcism",
+          "cp": 1,
+          "category": "Chorus of Condemnation",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly EXORCIST unit is selected to shoot.",
+          "target": "That EXORCIST unit.",
+          "effect": "Select one unit visible to and within 9\" of a friendly ADEPTA SORORITAS INFANTRY FLY unit. Your unit’s ranged attacks that target that unit have +1 to hit rolls."
+        },
+        {
+          "name": "Inspirational Battle Canticles",
+          "cp": 1,
+          "category": "Chorus of Condemnation",
+          "turn": "Either player’s turn",
+          "phase": "Command phase",
+          "when": "Start of the Command phase.",
+          "target": "One friendly ADEPTA SORORITAS INFANTRY FLY unit or one friendly EXORCIST unit.",
+          "effect": "Select one friendly battle-shocked ADEPTA SORORITAS unit within 6\" of your unit. That unit is no longer battle-shocked."
+        },
+        {
+          "name": "Devastating Reprise",
+          "cp": 1,
+          "category": "Chorus of Condemnation",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly EXORCIST unit has shot.",
+          "target": "One friendly ADEPTA SORORITAS INFANTRY FLY unit.",
+          "effect": "Select one enemy unit (excluding MONSTER/VEHICLE units) hit by those ranged attacks. Your unit’s ranged attacks that target that unit have [DEVASTATING WOUNDS]."
         }
       ]
     },
@@ -787,19 +819,8 @@
           "turn": "Either player’s turn",
           "phase": "Any phase",
           "when": "Any phase.",
-          "target": "One Adepta Sororitas Character unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
-          "effect": "You can discard 1-3 Miracle dice. At the end of the phase, set the last destroyed model from your unit back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy models. Roll one D3, adding 1 to the result for each Miracle dice you discarded. That model is set back up with that number of wounds remaining (up to its starting number of wounds).",
-          "restrictions": "You cannot select Saint Celestine as the target of this Stratagem. You cannot select the same CHARACTER as the target of this Stratagem more than once per battle."
-        },
-        {
-          "name": "Suffering And Sacrifice",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Start of the Fight phase.",
-          "target": "One Adepta Sororitas Infantry or Adepta Sororitas Walker unit from your army.",
-          "effect": "Until the end of the phase, each time an enemy model within Engagement Range of your unit selects its targets, it must select your unit as the target of its attacks."
+          "target": "One ADEPTA SORORITAS CHARACTER unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+          "effect": "You can discard 1-3 Miracle dice. At the end of the phase, set up one destroyed CHARACTER model from your unit on the battlefield, unengaged and as close as possible to where it was destroyed. That model is not part of an attached unit and its unit has a starting strength of 1. Roll one D3, adding 1 to the result for each Miracle dice you discarded. That model has that number of wounds remaining (up to its starting number of wounds).\n\nRESTRICTION: You cannot select SAINT CELESTINE as the target of this Stratagem. You cannot select the same CHARACTER as the target of this Stratagem more than once per battle."
         },
         {
           "name": "Sanctified Immolation",
@@ -812,14 +833,14 @@
           "effect": "Do not roll one D6 to determine whether mortal wounds are inflicted by your model's Deadly Demise ability. Instead, mortal wounds are automatically inflicted."
         },
         {
-          "name": "Spirit Of The Martyr",
-          "cp": 2,
+          "name": "Suffering And Sacrifice",
+          "cp": 1,
           "category": "Strategic Ploy",
           "turn": "Either player’s turn",
           "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One ADEPTA SORORITAS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+          "when": "Start of the Fight phase.",
+          "target": "One Adepta Sororitas Infantry or Adepta Sororitas Walker unit from your army.",
+          "effect": "Until the end of the phase, each time an enemy model within Engagement Range of your unit selects its targets, it must select your unit as the target of its attacks."
         },
         {
           "name": "Praise The Fallen",
@@ -830,6 +851,16 @@
           "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
           "target": "One ADEPTA SORORITAS unit from your army that had one or more of its models destroyed as a result of the attacking unit’s attacks.",
           "effect": "Your unit can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
+        },
+        {
+          "name": "Spirit Of The Martyr",
+          "cp": 2,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One ADEPTA SORORITAS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
         }
       ]
     },
@@ -861,14 +892,14 @@
       ],
       "stratagems": [
         {
-          "name": "Purity Of Suffering",
+          "name": "Passion Of The Penitent",
           "cp": 1,
           "category": "Battle Tactic",
           "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One PENITENT unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
-          "effect": "Until the end of the phase, PENITENT models in your unit have the Feel No Pain 4+ ability."
+          "phase": "Fight phase",
+          "when": "Fight phase.",
+          "target": "One PENITENT unit from your army that has not been selected to fight this phase.",
+          "effect": "Until the end of the phase, each time a PENITENT model in your unit makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit."
         },
         {
           "name": "Lash Of Guilt",
@@ -881,14 +912,14 @@
           "effect": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced. If your unit has the PENITENT ENGINES keyword, do not make an Advance roll for it; instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit."
         },
         {
-          "name": "Passion Of The Penitent",
+          "name": "Purity Of Suffering",
           "cp": 1,
           "category": "Battle Tactic",
           "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One PENITENT unit from your army that has not been selected to fight this phase.",
-          "effect": "Until the end of the phase, each time a PENITENT model in your unit makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit."
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One PENITENT unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+          "effect": "Until the end of the phase, PENITENT models in your unit have the Feel No Pain 4+ ability."
         },
         {
           "name": "Final Redemption",
@@ -901,16 +932,6 @@
           "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
         },
         {
-          "name": "Devout Fanaticism",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
-          "target": "One PENITENT unit from your army that was selected as the target as one or more of the attacking unit’s attacks.",
-          "effect": "Roll one D6: your unit can be moved a distance in inches up to the result, but it must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, models in your unit can be moved within Engagement Range of enemy units."
-        },
-        {
           "name": "Boundless Zeal",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -919,6 +940,16 @@
           "when": "Your Movement phase, just after an ADEPTA SORORITAS unit from your army Falls Back.",
           "target": "That ADEPTA SORORITAS unit.",
           "effect": "Until the end of the turn, your unit is eligible to shoot or declare a charge in a turn in which it Fell Back. If your unit has the PENITENT keyword, it is eligible to shoot and declare a charge in a turn in which it Fell Back instead."
+        },
+        {
+          "name": "Devout Fanaticism",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
+          "target": "One PENITENT unit from your army that was selected as the target as one or more of the attacking unit’s attacks.",
+          "effect": "Your unit can make a surge move of up to D6\"\"."
         }
       ]
     },
@@ -936,6 +967,38 @@
           "id": "57524954204f4620434f4d50554e4354494f4e20285550475241444529",
           "name": "Writ of Compunction (Upgrade)",
           "points": 20
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Unflinching Determination",
+          "cp": 1,
+          "category": "Sacred Champions",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, when a friendly CELESTIAN SACRESANTS unit is selected to make an advance/fall-back move.",
+          "target": "That CELESTIAN SACRESANTS unit.",
+          "effect": "Your unit’s ranged attacks have [ASSAULT] until the end of the turn.That move does not prevent your unit from being eligible to shoot/declare a charge."
+        },
+        {
+          "name": "Sanctified Blows",
+          "cp": 1,
+          "category": "Sacred Champions",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when a friendly CELESTIAN SACRESANTS unit is selected to fight.",
+          "target": "That CELESTIAN SACRESANTS unit.",
+          "effect": "Your unit’s melee attacks have +1 A and S."
+        },
+        {
+          "name": "Faithful Fortitude",
+          "cp": 1,
+          "category": "Sacred Champions",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, when a friendly CELESTIAN SACRESANTS unit suffers a mortal wound.",
+          "target": "That CELESTIAN SACRESANTS unit.",
+          "effect": "Your unit has Feel No Pain 5+ against mortal wounds until the end of the phase."
         }
       ]
     },

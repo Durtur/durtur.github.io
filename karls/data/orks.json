@@ -1,8 +1,8 @@
 {
   "slug": "orks",
   "name": "Orks",
-  "version": "v1.1",
-  "fetchedAt": "2026-07-28T21:20:00.475Z",
+  "version": "v1.2",
+  "fetchedAt": "2026-08-24T09:51:55.026Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -861,24 +861,14 @@
           "effect": "Until the end of the phase, each time your unit makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll and add 1 to the Wound roll."
         },
         {
-          "name": "Mekanised Brutality",
+          "name": "Mount Up, Ladz",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase.",
-          "target": "One Battlewagon, Kill Rig or Hunta Rig unit from your army that has not been selected to move this phase.",
-          "effect": "Until the end of the turn, each time a unit disembarks from your unit after your unit makes a Normal move, that disembarked unit is still eligible to declare a charge this turn."
-        },
-        {
-          "name": "Run ’em Down",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase.",
-          "target": "One Battlewagon, Kill Rig or Hunta Rig unit from your army that has not been selected to move this phase.",
-          "effect": "Select up to two other friendly Orks Vehicle or Orks Monster units within 6\" of your unit. Until the end of the turn, your unit and each unit you selected are eligible to declare a charge in a turn in which they Advanced."
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "End of the Fight phase.",
+          "target": "One Orks Infantry unit from your army that is not within Engagement Range of one or more enemy units, and one friendly Transport it is able to embark within.",
+          "effect": "If your ORKS INFANTRY unit is wholly within 6\" of that TRANSPORT, it can embark within it."
         },
         {
           "name": "Yooz In Trouble Now",
@@ -887,8 +877,18 @@
           "turn": "Opponent’s turn",
           "phase": "Shooting phase",
           "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
-          "target": "One Battlewagon, Hunta Rig or Kill Rig model from your army that was hit by one or more of the attacking unit’s attacks.",
-          "effect": "One Orks Infantry unit embarked within your model can disembark and make a Surge move. To do so, roll one D6: models in that unit move a number of inches up to this result, but that unit must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit."
+          "target": "One BATTLEWAGON, HUNTA RIG or KILL RIG model from your army that was hit by one or more of the attacking unit’s attacks.",
+          "effect": "One ORKS INFANTRY unit embarked within your model makes a disembark move, then makes a surge move of up to D6”."
+        },
+        {
+          "name": "Mekanised Brutality",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase.",
+          "target": "One Battlewagon, Kill Rig or Hunta Rig unit from your army that has not been selected to move this phase.",
+          "effect": "Until the end of the turn, each time a unit disembarks from your unit after your unit makes a Normal move, that disembarked unit is still eligible to declare a charge this turn."
         },
         {
           "name": "Impervious",
@@ -901,14 +901,14 @@
           "effect": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
         },
         {
-          "name": "Mount Up, Ladz",
+          "name": "Run ’em Down",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "End of the Fight phase.",
-          "target": "One Orks Infantry unit from your army that is not within Engagement Range of one or more enemy units, and one friendly Transport it is able to embark within.",
-          "effect": "If your ORKS INFANTRY unit is wholly within 6\" of that TRANSPORT, it can embark within it."
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase.",
+          "target": "One Battlewagon, Kill Rig or Hunta Rig unit from your army that has not been selected to move this phase.",
+          "effect": "Select up to two other friendly Orks Vehicle or Orks Monster units within 6\" of your unit. Until the end of the turn, your unit and each unit you selected are eligible to declare a charge in a turn in which they Advanced."
         }
       ]
     },
@@ -940,16 +940,6 @@
       ],
       "stratagems": [
         {
-          "name": "Hulking Brutes",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One Nobz or Meganobz unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
-        },
-        {
           "name": "Armed To Dateef",
           "cp": 1,
           "category": "Battle Tactic",
@@ -958,6 +948,16 @@
           "when": "Your Shooting phase or the Fight phase.",
           "target": "One Nobz or Meganobz unit from your army that has not been selected to shoot or fight this phase.",
           "effect": "Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1. If a Waaagh! is active for your unit, you can re-roll the Hit roll instead."
+        },
+        {
+          "name": "Hulking Brutes",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One Nobz or Meganobz unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
         },
         {
           "name": "Cut’em Down",
@@ -970,7 +970,7 @@
           "effect": "When that enemy unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if a Waaagh! is active for your unit, subtract 1 from each of those tests."
         },
         {
-          "name": "Crushing Impact",
+          "name": "Krushin' Impact",
           "cp": 1,
           "category": "Epic Deed",
           "turn": "Your turn",
@@ -1029,16 +1029,6 @@
       ],
       "stratagems": [
         {
-          "name": "Stalkin’ Taktiks",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One Beast Snagga Infantry or Beast Snagga Mounted unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time a ranged attack targets your unit, models in your unit have the Benefit of Cover against that attack. In addition, if your unit has the INFANTRY keyword, until the end of the phase, models in your unit have the Stealth ability."
-        },
-        {
           "name": "Drag It Down",
           "cp": 1,
           "category": "Battle Tactic",
@@ -1049,24 +1039,34 @@
           "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability. In addition, each time a model in your unit makes a melee attack that targets your Prey, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6."
         },
         {
+          "name": "Stalkin’ Taktiks",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One Beast Snagga Infantry or Beast Snagga Mounted unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time a ranged attack targets your unit, models in your unit have the Benefit of Cover against that attack. In addition, if your unit has the INFANTRY keyword, until the end of the phase, models in your unit have the Stealth ability."
+        },
+        {
           "name": "Dat One’s Even Bigga!",
           "cp": 1,
           "category": "Strategic Ploy",
           "turn": "Your turn",
           "phase": "Charge phase",
           "when": "Your Charge phase.",
-          "target": "One Beast Snagga unit from your army.",
-          "effect": "Until the end of the phase, your unit is eligible to charge in a turn in which it Advanced or Fell Back. In addition, you can re-roll Charge rolls made for your unit, provided one of the targets of that charge is your Prey."
+          "target": "One BEAST SNAGGA unit from your army.",
+          "effect": "Until the end of the phase, your unit is eligible to charge in a turn in which it Advanced or Fell Back. In addition, you can re-roll charge rolls made for your unit. If you do, your unit must end that charge move engaged with your Prey."
         },
         {
-          "name": "Instinctive Hunters",
+          "name": "Unstoppable Momentum",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Fight phase",
-          "when": "End of your opponent’s Fight phase.",
-          "target": "One Beast Snagga unit from your army that is not within Engagement Range of one or more enemy unit.",
-          "effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
+          "turn": "Your turn",
+          "phase": "Charge phase",
+          "when": "Your Charge phase, just after a Beast Snagga Mounted unit from your army ends a Charge move.",
+          "target": "That Beast Snagga unit.",
+          "effect": "Select one enemy unit within Engagement Range of your unit and roll one D6 for each model in your unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds). If that enemy unit is your Prey, roll three additional D6."
         },
         {
           "name": "Where D’ya Fink You’re Going?",
@@ -1079,14 +1079,14 @@
           "effect": "If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
         },
         {
-          "name": "Unstoppable Momentum",
+          "name": "Instinctive Hunters",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Charge phase",
-          "when": "Your Charge phase, just after a Beast Snagga Mounted unit from your army ends a Charge move.",
-          "target": "That Beast Snagga unit.",
-          "effect": "Select one enemy unit within Engagement Range of your unit and roll one D6 for each model in your unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds). If that enemy unit is your Prey, roll three additional D6."
+          "turn": "Opponent’s turn",
+          "phase": "Fight phase",
+          "when": "End of your opponent’s Fight phase.",
+          "target": "One Beast Snagga unit from your army that is not within Engagement Range of one or more enemy unit.",
+          "effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
         }
       ]
     },
@@ -1128,16 +1128,6 @@
           "effect": "Each time you use this Stratagem, you can choose to push it. Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1. If you chose to push it, you can re-roll the Hit roll instead and, until the end of the phase, ranged weapons equipped by models in your unit have the [HAZARDOUS] ability as well."
         },
         {
-          "name": "Bigger Shells For Bigger Gitz",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Mek, Orks Walker or Grots Vehicle unit from your army that has not been selected to shoot this phase.",
-          "effect": "Each time you use this Stratagem, you can choose to push it. Until the end of the phase, each time a model in your unit makes an attack that targets a MONSTER or VEHICLE, add 1 to the Wound roll. If you chose to push it, add 1 to the Damage characteristic of that attack and, until the end of the phase, ranged weapons equipped by models in your unit have the [HAZARDOUS] ability as well."
-        },
-        {
           "name": "Extra Gubbinz",
           "cp": 1,
           "category": "Battle Tactic",
@@ -1158,14 +1148,14 @@
           "effect": "Each time you use this Stratagem, you can choose to push it. Until the end of the phase, add 2 to the Strength characteristic of melee weapons equipped by models in your unit and, if you chose to push it, until the end of the phase, add 1 to the Damage characteristic of those weapons and they have the [HAZARDOUS] ability as well."
         },
         {
-          "name": "Conniving Runts",
+          "name": "Bigger Shells For Bigger Gitz",
           "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
-          "target": "One Gretchin unit from your army that is within 9\" of that enemy unit and not within Engagement Range of any enemy units.",
-          "effect": "Roll one D6: on a 4+, that enemy unit suffers D3+1 mortal wounds. Your unit can then make a Normal move."
+          "category": "Battle Tactic",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One Mek, Orks Walker or Grots Vehicle unit from your army that has not been selected to shoot this phase.",
+          "effect": "Each time you use this Stratagem, you can choose to push it. Until the end of the phase, each time a model in your unit makes an attack that targets a MONSTER or VEHICLE, add 1 to the Wound roll. If you chose to push it, add 1 to the Damage characteristic of that attack and, until the end of the phase, ranged weapons equipped by models in your unit have the [HAZARDOUS] ability as well."
         },
         {
           "name": "Superfuelled Boiler",
@@ -1176,6 +1166,16 @@
           "when": "Your Movement phase, just after an Orks Walker unit from your army has been selected to Advance.",
           "target": "That Orks Walker unit.",
           "effect": "Until the end of the turn, you can re-roll Advance rolls made for your unit and ranged weapons equipped by models in your unit have the [ASSAULT] ability."
+        },
+        {
+          "name": "Conniving Runts",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+          "target": "One Gretchin unit from your army that is within 8\" of that enemy unit and not within Engagement Range of any enemy units.",
+          "effect": "Roll one D6: on a 4+, that enemy unit suffers D3+1 mortal wounds. Your unit can then make a Normal move."
         }
       ]
     },
@@ -1193,6 +1193,38 @@
           "id": "554e4b494c4c41424c452053434f55524745",
           "name": "Unkillable Scourge",
           "points": 25
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Concealed Krumpin’",
+          "cp": 1,
+          "category": "Equatorial Hordes",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase, when a friendly hidden MOB unit is selected to attack.",
+          "target": "That MOB unit.",
+          "effect": "Your unit’s attacks have [LETHAL HITS]."
+        },
+        {
+          "name": "Stragglerz",
+          "cp": 1,
+          "category": "Equatorial Hordes",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Your Command phase.",
+          "target": "One friendly MOB/KOMMANDOS unit.",
+          "effect": "Your unit heals 2D3 wounds."
+        },
+        {
+          "name": "Dey’re Over ‘ere",
+          "cp": 1,
+          "category": "Equatorial Hordes",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Start of your Shooting phase.",
+          "target": "One friendly MOB/KOMMANDOS unit.",
+          "effect": "While a visible enemy unit is within 6\" of your unit, that unit has +3\" detection range."
         }
       ]
     },
@@ -1244,16 +1276,6 @@
           "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit within range of the loot objective, you can re-roll the Wound roll."
         },
         {
-          "name": "Rolling Loot-Heap",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Flash Gitz unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [ANTI-VEHICLE 4+] ability."
-        },
-        {
           "name": "Grab And Bash",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1264,16 +1286,6 @@
           "effect": "Until the start of your next Command phase, the Waaagh! is active for your unit, even if you have already called a Waaagh! this battle.\n\nDesigner’s Note: This means that any abilities that are in effect while the Waaagh! is active for your army will be in effect for your unit."
         },
         {
-          "name": "Deck Fraggers",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One ORKS unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit targets an INFANTRY unit with a ranged weapon, that weapon has the [BLAST] ability."
-        },
-        {
           "name": "Krump And Run",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1282,6 +1294,26 @@
           "when": "Your opponent’s Movement phase, just after an enemy unit falls back.",
           "target": "One ORKS unit from your army that was within engagement range of that enemy unit at the start of the phase and is not within range of one or more enemy units.",
           "effect": "Your unit can make a Normal move of up to 6\"."
+        },
+        {
+          "name": "Rolling Loot-Heap",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One Flash Gitz unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [ANTI-VEHICLE 4+] ability."
+        },
+        {
+          "name": "Deck Fraggers",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One ORKS unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit targets an INFANTRY unit with a ranged weapon, that weapon has the [BLAST] ability."
         }
       ]
     },
@@ -1343,16 +1375,6 @@
           "effect": "Until the end of the phase, each time your unit declares a charge, add 1 to the Charge roll and, if your unit contains 10 or more models, you can re-roll the Charge roll.’"
         },
         {
-          "name": "Come On Ladz!",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "One Boyz unit from your army.",
-          "effect": "Return up to D3+2 destroyed models to your unit (excluding Character models)."
-        },
-        {
           "name": "Braggin’ Rights",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1363,14 +1385,24 @@
           "effect": "Until the start of your next Command phase, while those two units are within 6\" of each other, they both count as containing 10 or more models for the purposes of your Detachment rule, any Enhancements models from your army have and any Stratagems you use."
         },
         {
+          "name": "Come On Ladz!",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Your Command phase.",
+          "target": "One Boyz unit from your army.",
+          "effect": "Return up to D3+2 destroyed models to your unit (excluding Character models)."
+        },
+        {
           "name": "Go Get ’em!",
           "cp": 1,
           "category": "Strategic Ploy",
           "turn": "Opponent’s turn",
           "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One Boyz unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "After the attacking unit has shot, your unit can make a Go Get ’Em! move. To do so, roll one D6: each model in your unit can move a distance in inches up to the result, but your unit must end that move as close as possible to the closest enemy unit. When doing so, those models can be moved within Engagement Range of that enemy unit. If your unit contains 10 or more models, you can re-roll the D6 to determine how far your unit can move."
+          "when": "Your opponent’s Shooting phase, when an enemy unit that targeted a friendly unengaged BOYZ unit this phase has shot.",
+          "target": "That BOYZ unit.",
+          "effect": "Your unit can make a surge move of up to D6\"."
         }
       ]
     },
@@ -1402,17 +1434,6 @@
       ],
       "stratagems": [
         {
-          "name": "Dakkastorm",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Speed Freeks unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability. While targeting a unit within 9\", they have the [SUSTAINED HITS 2] ability instead.",
-          "restrictions": "A unit cannot be targeted by this and the Blitza Fire Stratagem in the same phase."
-        },
-        {
           "name": "Blitza Fire",
           "cp": 1,
           "category": "Battle Tactic",
@@ -1434,13 +1455,34 @@
           "effect": "Until the end of the turn, each time a model in your unit makes a melee attack, add 1 to the Wound roll."
         },
         {
+          "name": "Dakkastorm",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One Speed Freeks unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability. While targeting a unit within 9\", they have the [SUSTAINED HITS 2] ability instead.",
+          "restrictions": "A unit cannot be targeted by this and the Blitza Fire Stratagem in the same phase."
+        },
+        {
+          "name": "Squig Flingin’",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, just after a SPEED FREEKS or TRUKK unit from your army ends a Normal, Advance or Fall Back move.",
+          "target": "That Speed Freeks or Trukk unit.",
+          "effect": "Select one enemy unit within 9\" of your unit. That enemy unit must take a Battle-shock test and, when doing so, subtract 1 from the result."
+        },
+        {
           "name": "More Gitz Over ’ere!",
           "cp": 1,
           "category": "Strategic Ploy",
           "turn": "Opponent’s turn",
           "phase": "Movement phase",
           "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
-          "target": "One Speed Freeks unit from your army that is within 9\" of that enemy unit and is not within Engagement Range of one or more enemy units.",
+          "target": "One Speed Freeks unit from your army that is within 8\" of that enemy unit and is not within Engagement Range of one or more enemy units.",
           "effect": "Your unit can make a Normal move of up to 6\"."
         },
         {
@@ -1452,16 +1494,6 @@
           "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
           "target": "One Speed Freeks or Trukk unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, models in your unit have a 5+ invulnerable save. If your unit is a VEHICLE unit with an unmodified Toughness characteristic of 8 or less, until the end of the phase, models in your unit have a 4+ invulnerable save instead."
-        },
-        {
-          "name": "Squig Flingin’",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase, just after a SPEED FREEKS or TRUKK unit from your army ends a Normal, Advance or Fall Back move.",
-          "target": "That Speed Freeks or Trukk unit.",
-          "effect": "Select one enemy unit within 9\" of your unit. That enemy unit must take a Battle-shock test and, when doing so, subtract 1 from the result."
         }
       ]
     },
@@ -1483,64 +1515,34 @@
       ],
       "stratagems": [
         {
-          "name": "Long, Uncontrolled Bursts",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One ORKS unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability."
-        },
-        {
-          "name": "Orks Is Still Orks",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One ORKS unit from your army that has not been selected to fight this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead."
-        },
-        {
-          "name": "Get Stuck In, Ladz!",
-          "cp": 2,
-          "category": "Epic Deed",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "One ORKS unit from your army (excluding Gretchin units).",
-          "effect": "Until the start of your next Command phase, the Waaagh! is active for your unit, even if you have already called a Waaagh! this battle.\n\nDesigner’s Note: This means that any abilities that are in effect while the Waaagh! is active for your army will be in effect for your unit."
-        },
-        {
-          "name": "Huge Show-Offs",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "One Orks Walker unit (excluding Killa Kans) from your army.",
-          "effect": "Until the start of your next Command phase, improve your unit’s Move, Leadership and Objective Control characteristics by 1, and each time a model in your unit makes an attack, add 1 to the Hit roll."
-        },
-        {
           "name": "Call Dat Dakka?",
           "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "More Dakka!",
           "turn": "Opponent’s turn",
           "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
-          "target": "One ORKS unit from your army that had one or more of its models destroyed as a result of the attacking unit’s attacks.",
-          "effect": "Your unit can shoot as if it were your Shooting phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
+          "when": "Your opponent’s Shooting phase, when an enemy unit that targeted a friendly ORKS INFANTRY unit has shot.",
+          "target": "That ORKS INFANTRY unit.",
+          "effect": "Your unit shoots using snap shooting, but while doing so your unit can only target that enemy unit."
         },
         {
           "name": "Speshul Shells",
           "cp": 1,
-          "category": "Wargear",
+          "category": "More Dakka!",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One ORKS unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets the closest eligible target within 18\", improve the Armour Penetration characteristic of ranged weapons equipped by models in your unit by 1."
+          "when": "Your Shooting phase, when a friendly ORKS INFANTRY unit is selected to shoot.",
+          "target": "That ORKS INFANTRY unit.",
+          "effect": "Your unit’s ranged attacks that target a unit within 9\" have +1 AP."
+        },
+        {
+          "name": "Long, Uncontrolled Bursts",
+          "cp": 1,
+          "category": "More Dakka!",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly ORKS INFANTRY unit is selected to shoot.",
+          "target": "That ORKS INFANTRY unit.",
+          "effect": "Your unit’s ranged attacks have [IGNORES COVER]."
         }
       ]
     },
@@ -1558,6 +1560,38 @@
           "id": "544152474554494ee280992047495a4d4f5320285550475241444529",
           "name": "Targetin’ Gizmos (Upgrade)",
           "points": 15
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Impending Crunch",
+          "cp": 1,
+          "category": "Rollin’ Deff",
+          "turn": "Your turn",
+          "phase": "Charge phase",
+          "when": "Your Charge phase, when a friendly WAGON unit ends a charge move.",
+          "target": "That WAGON unit.",
+          "effect": "Each enemy unit engaged with your unit makes a battle-shock roll, with -1 to that battle-shock roll."
+        },
+        {
+          "name": "Devastating Drift",
+          "cp": 1,
+          "category": "Rollin’ Deff",
+          "turn": "Your turn",
+          "phase": "Fight phase",
+          "when": "Your Fight phase, when a friendly WAGON unit that made a charge move this turn is selected to fight.",
+          "target": "That WAGON unit.",
+          "effect": "Your unit’s melee attacks have [CLEAVE 1]."
+        },
+        {
+          "name": "Brutal Broadside",
+          "cp": 1,
+          "category": "Rollin’ Deff",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly BATTLEWAGON unit is selected to shoot.",
+          "target": "That BATTLEWAGON unit.",
+          "effect": "Your unit’s ranged attacks (excluding attacks made by weapons selected with Firing Deck) have [RAPID FIRE X], where X is that attack’s A."
         }
       ]
     },
@@ -1589,16 +1623,6 @@
       ],
       "stratagems": [
         {
-          "name": "On Da Move",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase.",
-          "target": "One ORKS unit from your army that has not been selected to move this phase.",
-          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back or Advanced (unless it used its turbo this turn)."
-        },
-        {
           "name": "Evasive Manoova",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1609,14 +1633,24 @@
           "effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
         },
         {
-          "name": "Dust Trails",
+          "name": "On Da Move",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase.",
+          "target": "One ORKS unit from your army that has not been selected to move this phase.",
+          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back or Advanced (unless it used its turbo this turn)."
+        },
+        {
+          "name": "Mobile Dakkastorm",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
           "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One ORKS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, your unit has the Benefit of Cover."
+          "when": "Your Shooting phase, just after a Speed Freeks or Trukk unit from your army has shot.",
+          "target": "That SPEED FREEKS or TRUKK unit.",
+          "effect": "Select one enemy unit hit by one or more of those attacks (excluding attacks made with Indirect Fire weapons). Until the end of the phase, each time a model in a SPEED FREEKS or TRUKK unit from your army makes an attack that targets that unit, improve the Strength characteristic of that attack by 2."
         },
         {
           "name": "Ded Killy Construction",
@@ -1629,14 +1663,14 @@
           "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LANCE] ability and, if your unit made a Charge move this turn, until the end of the phase, add 1 to the Damage characteristic of those weapons."
         },
         {
-          "name": "Mobile Dakkastorm",
+          "name": "Dust Trails",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Your turn",
+          "turn": "Opponent’s turn",
           "phase": "Shooting phase",
-          "when": "Your Shooting phase, just after a Speed Freeks or Trukk unit from your army has shot.",
-          "target": "That SPEED FREEKS or TRUKK unit.",
-          "effect": "Select one enemy unit hit by one or more of those attacks (excluding attacks made with Indirect Fire weapons). Until the end of the phase, each time a model in a SPEED FREEKS or TRUKK unit from your army makes an attack that targets that unit, improve the Strength characteristic of that attack by 2."
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One ORKS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, your unit has the Benefit of Cover."
         },
         {
           "name": "Speshul Ammo",
@@ -1668,64 +1702,34 @@
       ],
       "stratagems": [
         {
-          "name": "Krunchin’ Descent",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Charge phase",
-          "when": "Your Charge phase, just after a STORMBOYZ unit from your army ends a Charge move.",
-          "target": "That Stormboyz unit.",
-          "effect": "Select one enemy unit within Engagement Range of your unit, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
-        },
-        {
-          "name": "Fight Proppa",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One Orks Infantry or Orks Mounted unit from your army that has not been selected to fight this phase.",
-          "effect": "Select the [SUSTAINED HITS 1] or [LETHAL HITS] ability. Until the end of the phase, melee weapons equipped by models in your unit have the selected ability."
-        },
-        {
           "name": "Ded Sneaky",
           "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Taktikal Brigade",
           "turn": "Opponent’s turn",
           "phase": "Fight phase",
           "when": "End of your opponent’s Fight phase.",
-          "target": "One Kommandos or Stormboyz unit from your army that is not within Engagement Range of one or more enemy units.",
-          "effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
+          "target": "One friendly unengaged KOMMANDOS/STORMBOYZ unit.",
+          "effect": "Place your unit in strategic reserves"
         },
         {
           "name": "On To Da Next",
           "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Taktikal Brigade",
           "turn": "Opponent’s turn",
           "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, just after an enemy unit Falls Back.",
-          "target": "One ORKS unit from your army that was within Engagement Range of that enemy unit at the start of the phase.",
-          "effect": "Your unit can make a Normal move of up to 6\"."
+          "when": "End of your opponent’s Movement phase.",
+          "target": "One friendly unengaged BOYZ/KOMMANDOS/STORMBOYZ unit that was engaged at the start of the phase.",
+          "effect": "Your unit can make a normal move of up to 6\"."
         },
         {
           "name": "Taktikal Retreat",
           "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Taktikal Brigade",
           "turn": "Your turn",
           "phase": "Movement phase",
-          "when": "Your Movement phase, just after an ORKS unit from your army Falls Back.",
-          "target": "That ORKS unit.",
-          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
-        },
-        {
-          "name": "Dat’s Ours",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Command phase",
-          "when": "Command phase.",
-          "target": "One ORKS unit from your army that is within Engagement Range of one or more enemy units.",
-          "effect": "Until the start of the next Command phase, add 1 to the Objective Control characteristic of models in your unit."
+          "when": "Your Movement phase, when a friendly KOMMANDOS/ STORMBOYZ unit is selected to make a fall-back move.",
+          "target": "That KOMMANDOS/STORMBOYZ unit.",
+          "effect": "That move does not prevent your unit from being eligible to declare a charge"
         }
       ]
     },
@@ -1757,6 +1761,16 @@
       ],
       "stratagems": [
         {
+          "name": "Unbridled Carnage",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase.",
+          "target": "One ORKS unit from your army that has not been selected to fight this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes a melee attack, an unmodified hit roll of 5+ scores a Critical Hit."
+        },
+        {
           "name": "Ere We Go",
           "cp": 1,
           "category": "Battle Tactic",
@@ -1787,14 +1801,14 @@
           "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll."
         },
         {
-          "name": "Unbridled Carnage",
+          "name": "Careen!",
           "cp": 1,
-          "category": "Battle Tactic",
+          "category": "Epic Deed",
           "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One ORKS unit from your army that has not been selected to fight this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes a melee attack, an unmodified hit roll of 5+ scores a Critical Hit."
+          "phase": "Any phase",
+          "when": "Any phase, just after an Orks Vehicle unit from your army with the Deadly Demise ability is destroyed.",
+          "target": "That destroyed ORKS VEHICLE unit, if you roll a 6 for its Deadly Demise ability. You can use this Stratagem on that unit even though it was just destroyed.",
+          "effect": "Your unit can make a Normal or Fall Back move before its Deadly Demise ability is resolved, and before any embarked units perform an Emergency Disembarkation. When making this move, your unit can move over enemy units (excluding MONSTERS and VEHICLES) as if they were not there."
         },
         {
           "name": "Orks Is Never Beaten",
@@ -1805,16 +1819,6 @@
           "when": "Fight phase, just after an enemy unit has selected its targets.",
           "target": "One ORKS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making attacks, and is then removed from play."
-        },
-        {
-          "name": "Careen!",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, just after an Orks Vehicle unit from your army with the Deadly Demise ability is destroyed.",
-          "target": "That destroyed ORKS VEHICLE unit, if you roll a 6 for its Deadly Demise ability. You can use this Stratagem on that unit even though it was just destroyed.",
-          "effect": "Your unit can make a Normal or Fall Back move before its Deadly Demise ability is resolved, and before any embarked units perform an Emergency Disembarkation. When making this move, your unit can move over enemy units (excluding MONSTERS and VEHICLES) as if they were not there."
         }
       ]
     }

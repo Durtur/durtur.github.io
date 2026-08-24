@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T21:20:00.475Z",
+  "generatedAt": "2026-08-24T09:51:55.026Z",
   "armies": [
     {
       "slug": "adepta-sororitas",
@@ -22,7 +22,7 @@
     {
       "slug": "aeldari",
       "name": "Aeldari",
-      "unitCount": 123,
+      "unitCount": 131,
       "detachmentCount": 15
     },
     {

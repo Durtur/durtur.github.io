@@ -1,8 +1,8 @@
 {
   "slug": "drukhari",
   "name": "Drukhari",
-  "version": "v1.1",
-  "fetchedAt": "2026-07-28T21:20:00.475Z",
+  "version": "v1.2",
+  "fetchedAt": "2026-08-24T09:51:55.026Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -394,17 +394,6 @@
           "effect": "Spend 1 Pain token. Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1. At the end of the phase, if your unit is still on the battlefield and it is a Haemonculus Covens unit, you gain 1 Pain token."
         },
         {
-          "name": "Postmortality",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase.",
-          "target": "One Haemonculus model from your army that was just destroyed. You can use this Stratagem on that model even though it was just destroyed.",
-          "effect": "Spend 1-3 Pain tokens. At the end of the phase, set the destroyed model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with a number of wounds remaining equal to the number of Pain tokens you just spent.",
-          "restrictions": "You cannot use this Stratagem if you have 0 Pain tokens, and you cannot target the same HAEMONCULUS model with this Stratagem more than once per battle."
-        },
-        {
           "name": "Poisoner’s Art",
           "cp": 1,
           "category": "Epic Deed",
@@ -413,6 +402,16 @@
           "when": "Fight phase, just after a Haemonculus Covens unit from your army has fought.",
           "target": "That HAEMONCULUS COVENS unit.",
           "effect": "Select one enemy unit (excluding VEHICLES) hit by one or more of your unit’s attacks this phase. Until the end of the battle, that enemy unit is poisoned. At the start of each Command phase, roll one D6 for each poisoned unit on the battlefield: on a 4+, that unit suffers D3 mortal wounds."
+        },
+        {
+          "name": "Postmortality",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase.",
+          "target": "One HAEMONCULUS model from your army that was just destroyed. You can use this Stratagem on that model even though it was just destroyed.",
+          "effect": "Spend 1-3 Pain tokens. At the end of the phase, set up the destroyed model on the battlefield, unengaged and as close as possible to where it was destroyed. That model is not part of an attached unit and its unit has a starting strength of 1. That model has a number of wounds remaining equal to the number of Pain tokens you just spent.\n\nRESTRICTION: You cannot use this Stratagem if you have 0 Pain tokens, and you cannot target the same HAEMONCULUS model with this Stratagem more than once per battle."
         },
         {
           "name": "Symphony Of Suffering",
@@ -425,16 +424,6 @@
           "effect": "Each enemy unit within 9\" of and visible to your unit must take a Battle-shock test, subtracting 1 from that test if your unit is a Haemonculus Covens unit."
         },
         {
-          "name": "Enfolding Nightmare",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
-          "target": "One Haemonculus Covens unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Roll one D6: your unit can be moved a number of inches up to the result, but it must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit."
-        },
-        {
           "name": "Distillers Of Fear",
           "cp": 2,
           "category": "Strategic Ploy",
@@ -443,6 +432,16 @@
           "when": "Fight phase.",
           "target": "One Haemonculus Covens unit from your army that has not been selected to fight this phase.",
           "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit that is Battle-shocked, that attack has the [DEVASTATING WOUNDS] ability."
+        },
+        {
+          "name": "Enfolding Nightmare",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
+          "target": "One HAEMONCULUS COVENS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Your unit can make a surge move of up to D6\"."
         }
       ]
     },
@@ -461,6 +460,38 @@
           "name": "Periapt of Torments",
           "points": 20
         }
+      ],
+      "stratagems": [
+        {
+          "name": "Acrobatic Display",
+          "cp": 1,
+          "category": "Exhibition of Slaughter",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly WYCH CULT unit.",
+          "target": "That WYCH CULT unit.",
+          "effect": "Your unit has 5+ InSv."
+        },
+        {
+          "name": "Sculpting The Stage",
+          "cp": 1,
+          "category": "Exhibition of Slaughter",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, when a friendly WYCH CULT unit is selected to make an advance/fall-back move.",
+          "target": "That WYCH CULT unit.",
+          "effect": "That move does not prevent your unit from being eligible to start an action."
+        },
+        {
+          "name": "Planned Strikes",
+          "cp": 1,
+          "category": "Exhibition of Slaughter",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when a friendly WYCH CULT unit is selected to fight.",
+          "target": "That WYCH CULT unit.",
+          "effect": "Your unit’s melee attacks have [LETHAL HITS]."
+        }
       ]
     },
     {
@@ -477,6 +508,38 @@
           "id": "544f574552494e47204152524f47414e4345",
           "name": "Towering Arrogance",
           "points": 15
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Killers From The Dark Spires",
+          "cp": 1,
+          "category": "Kabalite Agonysts",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly KABALITE WARRIORS unit is selected to shoot.",
+          "target": "That KABALITE WARRIORS unit.",
+          "effect": "Your unit’s ranged attacks have [IGNORES COVER]."
+        },
+        {
+          "name": "Prioritised Victim",
+          "cp": 1,
+          "category": "Kabalite Agonysts",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase, when a friendly BLADES FOR HIRE/KABAL unit targets a CHARACTER unit.",
+          "target": "That BLADES FOR HIRE/KABAL unit.",
+          "effect": "Your unit’s attacks that target a CHARACTER unit can:\nRe-roll hit rolls of 1.Re-roll wound rolls of 1."
+        },
+        {
+          "name": "Shadows’ Reach",
+          "cp": 1,
+          "category": "Kabalite Agonysts",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly BLADES FOR HIRE/KABAL unit has shot.",
+          "target": "That BLADES FOR HIRE/KABAL unit.",
+          "effect": "Those attacks do not prevent your unit from being hidden."
         }
       ]
     },
@@ -597,16 +660,6 @@
       ],
       "stratagems": [
         {
-          "name": "Insensible To Pain",
-          "cp": 2,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Haemonculus Covens unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack."
-        },
-        {
           "name": "Eager For The Kill",
           "cp": 1,
           "category": "Battle Tactic",
@@ -635,6 +688,16 @@
           "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
           "target": "One Drukhari unit from your army (excluding Haemonculus Covens units) that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Insensible To Pain",
+          "cp": 2,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One Haemonculus Covens unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack."
         },
         {
           "name": "Dark Harvest",
@@ -687,16 +750,6 @@
       ],
       "stratagems": [
         {
-          "name": "Malicious Frenzy",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase.",
-          "target": "One Drukhari or Harlequins unit from your army that has not been selected to shoot or fight this phase.",
-          "effect": "Select [LETHAL HITS] or [SUSTAINED HITS 1]. Until the end of the phase, weapons equipped by models in your unit have the selected ability."
-        },
-        {
           "name": "Murderer’s Circus",
           "cp": 1,
           "category": "Battle Tactic",
@@ -707,14 +760,14 @@
           "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
         },
         {
-          "name": "Dance Macabre",
-          "cp": 2,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
-          "target": "One Drukhari Infantry or Harlequins Infantry unit from your army that is within 9\" of that enemy unit.",
-          "effect": "Your unit can make a Normal move of up to D6\". If your unit is currently losing the wager, it can make a Normal move of up to 6\" instead."
+          "name": "Malicious Frenzy",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase.",
+          "target": "One Drukhari or Harlequins unit from your army that has not been selected to shoot or fight this phase.",
+          "effect": "Select [LETHAL HITS] or [SUSTAINED HITS 1]. Until the end of the phase, weapons equipped by models in your unit have the selected ability."
         },
         {
           "name": "Shorten The Odds",
@@ -727,16 +780,6 @@
           "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced."
         },
         {
-          "name": "Fateful Role",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Drukhari or Harlequins unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if that unit is losing the wager: on a 4+, do not remove it from play. That destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
-        },
-        {
           "name": "Scintillating Tempo",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -745,6 +788,26 @@
           "when": "Your Movement phase or your Charge phase, just after a Drukhari or Harlequins unit from your army is selected to make a Normal, Advance or Fall Back move, is set up on the battlefield, or declares a charge.",
           "target": "That unit.",
           "effect": "Until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at your unit."
+        },
+        {
+          "name": "Dance Macabre",
+          "cp": 2,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+          "target": "One Drukhari Infantry or Harlequins Infantry unit from your army that is within 8\" of that enemy unit.",
+          "effect": "Your unit can make a Normal move of up to D6\". If your unit is currently losing the wager, it can make a Normal move of up to 6\" instead."
+        },
+        {
+          "name": "Fateful Role",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One Drukhari or Harlequins unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if that unit is losing the wager: on a 4+, do not remove it from play. That destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
         }
       ]
     },
@@ -786,23 +849,13 @@
           "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability, or the [SUSTAINED HITS 2] ability if your unit is a Kabalite Warriors or Hand of the Archon unit."
         },
         {
-          "name": "Vicious Blades",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after a Drukhari Transport from your army has selected its targets.",
-          "target": "That TRANSPORT.",
-          "effect": "After your TRANSPORT has fought, select one enemy unit that was the target of one or more of those attacks and roll one D6 for each model embarked within your TRANSPORT, adding 1 to the result if that embarked model is a Wracks model: for each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
-        },
-        {
           "name": "Swooping Mockery",
           "cp": 1,
           "category": "Strategic Ploy",
           "turn": "Opponent’s turn",
           "phase": "Movement phase",
           "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
-          "target": "One Drukhari Transport from your army that is within 9\" of that enemy unit.",
+          "target": "One Drukhari Transport from your army that is within 8\" of that enemy unit.",
           "effect": "Your TRANSPORT can make a Normal move of up to 6\"."
         },
         {
@@ -822,8 +875,18 @@
           "turn": "Either player’s turn",
           "phase": "Fight phase",
           "when": "End of the Fight phase.",
-          "target": "One Drukhari Infantry unit from your army that fought this phase.",
-          "effect": "Your unit can make a Normal or Fall Back move, but unless it is a Wyches unit, it must end that move wholly within 3\" horizontally and 5\" vertically of a friendly Drukhari Transport and must embark within that TRANSPORT at the end of that move (otherwise, it cannot make that move)."
+          "target": "One DRUKHARI INFANTRY unit from your army that fought this phase.",
+          "effect": "Your unit can make a Normal or Fall Back move, but unless it is a WYCHES unit, it must end that move wholly within 3\" horizontally and 5\" vertically of a friendly DRUKHARI TRANSPORT and must embark within that TRANSPORT at the end of that move (otherwise, it cannot make that move). Your unit can embark within that TRANSPORT in a turn it disembarked from that TRANSPORT."
+        },
+        {
+          "name": "Vicious Blades",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, just after a Drukhari Transport from your army has selected its targets.",
+          "target": "That TRANSPORT.",
+          "effect": "After your TRANSPORT has fought, select one enemy unit that was the target of one or more of those attacks and roll one D6 for each model embarked within your TRANSPORT, adding 1 to the result if that embarked model is a Wracks model: for each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
         },
         {
           "name": "Night Shield",
@@ -865,25 +928,14 @@
       ],
       "stratagems": [
         {
-          "name": "Acrobatic Display",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One Wych Cult unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, models in your unit have a 5+ invulnerable save."
-        },
-        {
           "name": "A Challenge Met",
           "cp": 2,
           "category": "Battle Tactic",
           "turn": "Opponent’s turn",
           "phase": "Movement phase",
-          "when": "End of your opponent’s Movement phase.",
-          "target": "One WYCH CULT unit from your army that would be able to declare a charge if it were your Charge phase.",
-          "effect": "Select one enemy unit within 9\" of your unit that was set up on the battlefield this phase or that ended a Normal or Advance move this phase. Your unit now declares a charge that targets only that enemy unit, and you resolve that charge.",
-          "restrictions": "Even if that charge is successful, your unit does not receive any Charge bonus this turn."
+          "when": "Your opponent’s Movement phase, when an enemy unit ends a fall-back move.",
+          "target": "One friendly unengaged WYCH CULT unit that is within 6\" of that enemy unit.",
+          "effect": "Declare a charge with your unit. When selecting charge targets, you can only select enemy units that made a fall-back move this phase and are within the maximum distance."
         },
         {
           "name": "Deadly Debut",
@@ -894,6 +946,26 @@
           "when": "Fight phase.",
           "target": "One DRUKHARI unit from your army that made a Charge move this turn and has not been selected to fight this phase.",
           "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability. If your unit is a Wyches unit, until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1 as well."
+        },
+        {
+          "name": "Acrobatic Display",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One Wych Cult unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, models in your unit have a 5+ invulnerable save."
+        },
+        {
+          "name": "Feigned Weakness",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, just after a Drukhari unit from your army Falls Back.",
+          "target": "That DRUKHARI unit.",
+          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in turn in which it Fell Back."
         },
         {
           "name": "Preternatural Agility",
@@ -914,16 +986,6 @@
           "when": "Fight phase, just after an enemy unit has selected its targets.",
           "target": "One Wych Cult unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
-        },
-        {
-          "name": "Feigned Weakness",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase, just after a Drukhari unit from your army Falls Back.",
-          "target": "That DRUKHARI unit.",
-          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in turn in which it Fell Back."
         }
       ]
     },
@@ -941,6 +1003,38 @@
           "id": "474e41524c534b494e204558504552494d454e544f52",
           "name": "Gnarlskin Experimentor",
           "points": 20
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Salting The Wound",
+          "cp": 1,
+          "category": "Tools of Torment",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when a friendly CRONOS/TALOS unit is selected to fight.",
+          "target": "That CRONOS/TALOS unit.",
+          "effect": "Your unit’s attacks that target a battle-shocked unit have [DEVASTATING WOUNDS]."
+        },
+        {
+          "name": "Dividends Of Agony",
+          "cp": 1,
+          "category": "Tools of Torment",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when a friendly HAEMONCULUS COVENS unit destroys an enemy unit.",
+          "target": "That HAEMONCULUS COVENS unit.",
+          "effect": "Select one visible enemy unit within 12\" of your unit. That enemy unit makes a battle-shock roll, with -1 to that battle-shock roll."
+        },
+        {
+          "name": "Urgent Metamorphosis",
+          "cp": 1,
+          "category": "Tools of Torment",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, when a friendly HAEMONCULUS COVENS unit is selected to make a fall-back move.",
+          "target": "That HAEMONCULUS COVENS unit.",
+          "effect": "That move does not prevent your unit from being eligible to declare a charge."
         }
       ]
     }

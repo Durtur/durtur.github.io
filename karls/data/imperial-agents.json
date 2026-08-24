@@ -1,8 +1,8 @@
 {
   "slug": "imperial-agents",
   "name": "Imperial Agents",
-  "version": "v1.1",
-  "fetchedAt": "2026-07-28T21:20:00.475Z",
+  "version": "v1.2",
+  "fetchedAt": "2026-08-24T09:51:55.026Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -720,16 +720,6 @@
           "effect": "Until the end of the phase, each time an attack with the [PRECISION] ability is allocated to a CHARACTER model in your unit, if there are one or more Bodyguard models in your unit, roll one D6: on a 2+, that attack is allocated to a Bodyguard model of your choice in your unit instead."
         },
         {
-          "name": "Emperor’s Will",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase.",
-          "target": "One AGENTS OF THE IMpERIUM unit from your army.",
-          "effect": "Until the end of the phase, your unit is eligible to shoot in a turn in which it Advanced or Fell Back."
-        },
-        {
           "name": "Violent Acquisition",
           "cp": 2,
           "category": "Strategic Ploy",
@@ -738,6 +728,16 @@
           "when": "Your Shooting phase or the Fight phase.",
           "target": "One AGENTS OF THE IMpERIUM unit from your army.",
           "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit within range of an objective marker, that attack has the [SUSTAINED HITS 1], [LANCE] and [IGNORES COVER] abilities."
+        },
+        {
+          "name": "Emperor’s Will",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase.",
+          "target": "One AGENTS OF THE IMpERIUM unit from your army.",
+          "effect": "Until the end of the phase, your unit is eligible to shoot in a turn in which it Advanced or Fell Back."
         },
         {
           "name": "Displacer Field",
@@ -799,16 +799,6 @@
           "effect": "Select one enemy CHARACTER unit on the battlefield. Until the start of your next Command phase, each time a model in your unit targets that CHARACTER unit, its weapons have the [PRECISION] ability."
         },
         {
-          "name": "Inviolate Jurisdiction",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One ADEpTUS ARbITES, INQUISITORIAl AGENTS or ORDO HERETICUS INFANTRy unit from your army within range of an objective marker and that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability."
-        },
-        {
           "name": "Exact Punishment",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -817,6 +807,16 @@
           "when": "Your opponent’s Shooting phase, just after an AGENTS OF THE IMpERIUM unit from your army is destroyed as the result of an enemy unit's attacks.",
           "target": "One ADEpTUS ARbITES, INQUISITORIAl AGENTS or ORDO HERETICUS unit from your army that was within 6\" of the destroyed unit (you cannot target the destroyed unit with the Stratagem).",
           "effect": "After the attacking unit has shot, your unit can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target)."
+        },
+        {
+          "name": "Inviolate Jurisdiction",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One ADEpTUS ARbITES, INQUISITORIAl AGENTS or ORDO HERETICUS INFANTRy unit from your army within range of an objective marker and that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability."
         },
         {
           "name": "Line Of Fire",
@@ -868,16 +868,6 @@
       ],
       "stratagems": [
         {
-          "name": "Steel Heart",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase, just after a GREy KNIGHTS TERMINATOR SQUAD unit from your army Falls Back.",
-          "target": "That GREY KNIGHTS TERMINATOR SQUAD unit.",
-          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
-        },
-        {
           "name": "Rites Of Exorcism",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -888,6 +878,16 @@
           "effect": "Select one enemy DAEMON unit within 12\" and visible to your unit. That unit must take a Battle-shock test. If that test is failed, then until the end of the phase, each time a friendly AGENTS OF THE IMpERIUM unit makes an attack that targets that DAEMON unit, that attack has the [DEVASTATING WOUNDS] ability."
         },
         {
+          "name": "Steel Heart",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, just after a GREy KNIGHTS TERMINATOR SQUAD unit from your army Falls Back.",
+          "target": "That GREY KNIGHTS TERMINATOR SQUAD unit.",
+          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        },
+        {
           "name": "Ritual Of Warding",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -896,6 +896,16 @@
           "when": "Start of any Command phase.",
           "target": "One INQUISITOR, INQUISITORIAl AGENTS or ORDO MAllEUS unit from your army that is within range of an objective marker you control.",
           "effect": "That objective marker is said to be Warded and remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn. While an objective marker is Warded and under your control, enemy DAEMON units cannot be set up on the battlefield within 6\" of it."
+        },
+        {
+          "name": "Truesilver Armour",
+          "cp": 1,
+          "category": "Wargear",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase orthe Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One GREy KNIGHTS TERMINATOR SQUAD unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
         },
         {
           "name": "Hexagrammic Wards",
@@ -916,16 +926,6 @@
           "when": "Your Shooting phase.",
           "target": "One GREy KNIGHTS TERMINATOR SQUAD unit from your army that has not been selected to shoot this phase.",
           "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] and [PSYCHIC] abilities."
-        },
-        {
-          "name": "Truesilver Armour",
-          "cp": 1,
-          "category": "Wargear",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase orthe Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One GREy KNIGHTS TERMINATOR SQUAD unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
         }
       ]
     },
@@ -984,19 +984,19 @@
           "phase": "Fight phase",
           "when": "End of your opponent’s Fight phase.",
           "target": "One INQUISITOR or DEATHwATCH INFANTRy unit from your army.",
-          "effect": "Remove your unit from the battlefield. In the Reinforcements step of your next Movement phase, set your unit up anywhere on the battlefield that is more than 9” horizontally away from all enemy models.",
+          "effect": "Remove your unit from the battlefield. In the Reinforcements step of your next Movement phase, set your unit up anywhere on the battlefield that is more than 8\" horizontally away from all enemy models.",
           "restrictions": "You cannot select a unit that is within Engagement Range of one or more enemy units."
         },
         {
-          "name": "Hellfire Rounds",
+          "name": "Kraken Rounds",
           "cp": 1,
           "category": "Wargear",
           "turn": "Your turn",
           "phase": "Shooting phase",
           "when": "Your Shooting phase.",
           "target": "One DEATHwATCH INFANTRy unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, ranged weapons (excluding Devastating Wounds weapons) equipped by models in your unit have the [ANTI-INFANTRY 2+] and [ANTI-MONSTER 5+] abilities.",
-          "restrictions": "You cannot select any units that have already been targeted with either the Kraken Rounds or Dragonfire Rounds Stratagems this phase."
+          "effect": "Until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in your unit by 1 and improve the Range characteristic of those weapons by 6\".",
+          "restrictions": "You cannot select any units that have already been targeted with either the Dragonfire Rounds or Hellfire Rounds Stratagems this phase."
         },
         {
           "name": "Dragonfire Rounds",
@@ -1010,15 +1010,15 @@
           "restrictions": "You cannot select any units that have already been targeted with either the Kraken Rounds or Hellfire Rounds Stratagems this phase."
         },
         {
-          "name": "Kraken Rounds",
+          "name": "Hellfire Rounds",
           "cp": 1,
           "category": "Wargear",
           "turn": "Your turn",
           "phase": "Shooting phase",
           "when": "Your Shooting phase.",
           "target": "One DEATHwATCH INFANTRy unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in your unit by 1 and improve the Range characteristic of those weapons by 6\".",
-          "restrictions": "You cannot select any units that have already been targeted with either the Dragonfire Rounds or Hellfire Rounds Stratagems this phase."
+          "effect": "Until the end of the phase, ranged weapons (excluding Devastating Wounds weapons) equipped by models in your unit have the [ANTI-INFANTRY 2+] and [ANTI-MONSTER 5+] abilities.",
+          "restrictions": "You cannot select any units that have already been targeted with either the Kraken Rounds or Dragonfire Rounds Stratagems this phase."
         }
       ]
     },
@@ -1080,16 +1080,6 @@
           "effect": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\", or, if your unit has the Lone Operative ability, if the attacking model is within 6\"."
         },
         {
-          "name": "Will‑sapping Salvo",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Agents of the Imperium Infantry unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability. In addition, if it is a Culexus Assassin unit, until the end of the phase, change the Damage characteristic of ranged weapons equipped by models in your unit to 3."
-        },
-        {
           "name": "Blind Grenades",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1108,6 +1098,16 @@
           "when": "End of your opponent’s Charge phase.",
           "target": "One Agents of the Imperium Infantry unit from your army that is within 6\" of one or more enemy units and would be eligible to declare a charge against one or more of those enemy units.",
           "effect": "Your unit can declare a charge. When doing so, you must select one or more of those enemy units as the targets of that charge, and your unit does not receive a Charge bonus this turn. In addition, if it is a Callidus Assassin unit and it makes a Charge move as a result of this Stratagem, until the end of the turn, each time a model in your unit makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "name": "Will‑sapping Salvo",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One Agents of the Imperium Infantry unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability. In addition, if it is a Culexus Assassin unit, until the end of the phase, change the Damage characteristic of ranged weapons equipped by models in your unit to 3."
         }
       ]
     }
