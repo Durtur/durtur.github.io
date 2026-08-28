@@ -1,8 +1,8 @@
 {
   "slug": "tyranids",
   "name": "Tyranids",
-  "version": "v1.2",
-  "fetchedAt": "2026-08-24T09:51:55.026Z",
+  "version": "v1.3",
+  "fetchedAt": "2026-08-28T15:30:44.695Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -79,14 +79,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 140
+              "points": 135
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 150
+              "points": 145
             }
           ]
         },
@@ -282,14 +282,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 190
+              "points": 180
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 200
+              "points": 190
             }
           ]
         },
@@ -428,30 +428,30 @@
           "tiers": [
             {
               "models": 1,
-              "points": 45
+              "points": 40
             },
             {
               "models": 2,
-              "points": 65
+              "points": 70
             },
             {
               "models": 3,
-              "points": 95
+              "points": 100
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 55
+              "points": 50
             },
             {
               "models": 2,
-              "points": 75
+              "points": 80
             },
             {
               "models": 3,
-              "points": 105
+              "points": 110
             }
           ]
         },
@@ -656,14 +656,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 180
+              "points": 170
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 190
+              "points": 180
             }
           ]
         },
@@ -677,7 +677,7 @@
             },
             {
               "models": 6,
-              "points": 160
+              "points": 170
             }
           ]
         },
@@ -739,7 +739,7 @@
             },
             {
               "models": 6,
-              "points": 200
+              "points": 190
             }
           ]
         }
@@ -1255,7 +1255,7 @@
         {
           "id": "53594e4150544f505245534349454e434520285550475241444529",
           "name": "Synaptoprescience (Upgrade)",
-          "points": 25
+          "points": 30
         }
       ],
       "stratagems": [

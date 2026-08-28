@@ -1,8 +1,8 @@
 {
   "slug": "adeptus-mechanicus",
   "name": "Adeptus Mechanicus",
-  "version": "v1.2",
-  "fetchedAt": "2026-08-24T09:51:55.026Z",
+  "version": "v1.3",
+  "fetchedAt": "2026-08-28T15:30:44.695Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -158,11 +158,11 @@
           "tiers": [
             {
               "models": 2,
-              "points": 160
+              "points": 150
             },
             {
               "models": 4,
-              "points": 320
+              "points": 300
             }
           ],
           "repeatFromCopy": 2,
@@ -173,7 +173,7 @@
             },
             {
               "models": 4,
-              "points": 340
+              "points": 330
             }
           ]
         },
@@ -221,7 +221,7 @@
           "tiers": [
             {
               "models": 5,
-              "points": 80
+              "points": 75
             },
             {
               "models": 10,
@@ -232,7 +232,7 @@
           "repeatTiers": [
             {
               "models": 5,
-              "points": 90
+              "points": 85
             },
             {
               "models": 10,
@@ -246,22 +246,22 @@
           "tiers": [
             {
               "models": 5,
-              "points": 80
+              "points": 75
             },
             {
               "models": 10,
-              "points": 160
+              "points": 150
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 5,
-              "points": 90
+              "points": 85
             },
             {
               "models": 10,
-              "points": 170
+              "points": 160
             }
           ]
         },
@@ -300,6 +300,13 @@
             {
               "models": 9,
               "points": 65
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 9,
+              "points": 75
             }
           ]
         },
@@ -472,7 +479,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 65
+              "points": 60
             }
           ]
         },

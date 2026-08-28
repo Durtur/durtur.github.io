@@ -1,8 +1,8 @@
 {
   "slug": "world-eaters",
   "name": "World Eaters",
-  "version": "v1.2",
-  "fetchedAt": "2026-08-24T09:51:55.026Z",
+  "version": "v1.3",
+  "fetchedAt": "2026-08-28T15:30:44.695Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -284,11 +284,11 @@
           "tiers": [
             {
               "models": 10,
-              "points": 170
+              "points": 160
             },
             {
               "models": 20,
-              "points": 330
+              "points": 320
             }
           ]
         },
@@ -646,11 +646,11 @@
           "tiers": [
             {
               "models": 10,
-              "points": 170
+              "points": 160
             },
             {
               "models": 20,
-              "points": 330
+              "points": 320
             }
           ]
         },

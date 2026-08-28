@@ -1,8 +1,8 @@
 {
   "slug": "adeptus-custodes",
   "name": "Adeptus Custodes",
-  "version": "v1.2",
-  "fetchedAt": "2026-08-24T09:51:55.026Z",
+  "version": "v1.3",
+  "fetchedAt": "2026-08-28T15:30:44.695Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -45,11 +45,30 @@
             },
             {
               "models": 5,
-              "points": 275
+              "points": 280
             },
             {
               "models": 6,
-              "points": 330
+              "points": 340
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 2,
+              "points": 140
+            },
+            {
+              "models": 3,
+              "points": 195
+            },
+            {
+              "models": 5,
+              "points": 310
+            },
+            {
+              "models": 6,
+              "points": 370
             }
           ]
         },
@@ -460,6 +479,17 @@
               "models": 3,
               "points": 215
             }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 2,
+              "points": 170
+            },
+            {
+              "models": 3,
+              "points": 240
+            }
           ]
         },
         {
@@ -603,7 +633,7 @@
     {
       "id": "4c494f4e53204f462054484520454d5045524f52",
       "name": "LIONS OF THE EMPEROR",
-      "dp": 2,
+      "dp": 3,
       "enhancements": [
         {
           "id": "41444d4f4e494d4f52544953",

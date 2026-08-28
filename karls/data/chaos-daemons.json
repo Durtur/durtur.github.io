@@ -1,8 +1,8 @@
 {
   "slug": "chaos-daemons",
   "name": "Chaos Daemons",
-  "version": "v1.2",
-  "fetchedAt": "2026-08-24T09:51:55.026Z",
+  "version": "v1.3",
+  "fetchedAt": "2026-08-28T15:30:44.695Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -13,11 +13,11 @@
           "tiers": [
             {
               "models": 1,
-              "points": 75
+              "points": 80
             },
             {
               "models": 2,
-              "points": 140
+              "points": 150
             }
           ]
         },
@@ -41,18 +41,18 @@
             },
             {
               "models": 6,
-              "points": 190
+              "points": 200
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 3,
-              "points": 115
+              "points": 135
             },
             {
               "models": 6,
-              "points": 210
+              "points": 240
             }
           ]
         },
@@ -129,7 +129,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 100
+              "points": 115
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 125
             }
           ]
         },
@@ -139,7 +146,7 @@
           "tiers": [
             {
               "models": 10,
-              "points": 90
+              "points": 100
             }
           ]
         },
@@ -213,7 +220,18 @@
             },
             {
               "models": 6,
-              "points": 180
+              "points": 190
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 105
+            },
+            {
+              "models": 6,
+              "points": 205
             }
           ]
         },
@@ -332,14 +350,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 255
+              "points": 265
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 270
+              "points": 280
             }
           ]
         },
@@ -414,7 +432,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 55
+              "points": 60
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 70
             }
           ]
         },
@@ -424,14 +449,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 150
+              "points": 160
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 170
+              "points": 180
             }
           ]
         },
@@ -465,7 +490,7 @@
           "tiers": [
             {
               "models": 5,
-              "points": 80
+              "points": 85
             },
             {
               "models": 10,
@@ -509,7 +534,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 90
+              "points": 100
             }
           ]
         },

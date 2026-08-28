@@ -1,8 +1,8 @@
 {
   "slug": "thousand-sons",
   "name": "Thousand Sons",
-  "version": "v1.2",
-  "fetchedAt": "2026-08-24T09:51:55.026Z",
+  "version": "v1.3",
+  "fetchedAt": "2026-08-28T15:30:44.695Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -152,7 +152,7 @@
           "repeatTiers": [
             {
               "models": 1,
-              "points": 340
+              "points": 350
             }
           ]
         },
@@ -162,7 +162,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 90
+              "points": 95
             }
           ]
         },
@@ -219,7 +219,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 95
+              "points": 100
             }
           ]
         },
@@ -348,14 +348,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 85
+              "points": 95
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 95
+              "points": 105
             }
           ]
         },
@@ -365,14 +365,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 95
+              "points": 100
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 105
+              "points": 110
             }
           ]
         },
@@ -592,7 +592,7 @@
           "repeatTiers": [
             {
               "models": 1,
-              "points": 340
+              "points": 350
             }
           ]
         },
@@ -602,7 +602,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 90
+              "points": 95
             }
           ]
         },
@@ -659,7 +659,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 95
+              "points": 100
             }
           ]
         },
@@ -788,14 +788,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 85
+              "points": 95
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 95
+              "points": 105
             }
           ]
         },
@@ -805,14 +805,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 95
+              "points": 100
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 105
+              "points": 110
             }
           ]
         },
@@ -984,7 +984,7 @@
         {
           "id": "554d4252414c45464943204352595354414c",
           "name": "Umbralefic Crystal",
-          "points": 20
+          "points": 30
         }
       ],
       "stratagems": [

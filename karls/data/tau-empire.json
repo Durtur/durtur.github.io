@@ -1,8 +1,8 @@
 {
   "slug": "tau-empire",
   "name": "T’au Empire",
-  "version": "v1.2",
-  "fetchedAt": "2026-08-24T09:51:55.026Z",
+  "version": "v1.3",
+  "fetchedAt": "2026-08-28T15:30:44.695Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -140,14 +140,14 @@
           "tiers": [
             {
               "models": 3,
-              "points": 90
+              "points": 100
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 3,
-              "points": 100
+              "points": 110
             }
           ]
         },
@@ -551,7 +551,7 @@
           "tiers": [
             {
               "models": 2,
-              "points": 220
+              "points": 230
             }
           ]
         },
@@ -595,14 +595,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 375
+              "points": 395
             }
           ],
           "repeatFromCopy": 2,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 425
+              "points": 445
             }
           ]
         },
@@ -962,7 +962,7 @@
         {
           "id": "535452494b452053574946544c59",
           "name": "Strike Swiftly",
-          "points": 35
+          "points": 45
         }
       ],
       "stratagems": [

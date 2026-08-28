@@ -1,8 +1,8 @@
 {
   "slug": "black-templars",
   "name": "Black Templars",
-  "version": "v1.2",
-  "fetchedAt": "2026-08-24T09:51:55.026Z",
+  "version": "v1.3",
+  "fetchedAt": "2026-08-28T15:30:44.695Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -237,19 +237,19 @@
           "tiers": [
             {
               "models": 4,
-              "points": 105
+              "points": 100
             },
             {
               "models": 5,
-              "points": 130
+              "points": 125
             },
             {
               "models": 9,
-              "points": 235
+              "points": 225
             },
             {
               "models": 10,
-              "points": 260
+              "points": 250
             }
           ],
           "repeatFromCopy": 3,
@@ -264,11 +264,11 @@
             },
             {
               "models": 9,
-              "points": 250
+              "points": 245
             },
             {
               "models": 10,
-              "points": 275
+              "points": 270
             }
           ]
         },
@@ -920,14 +920,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 250
+              "points": 260
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 270
+              "points": 280
             }
           ]
         },
@@ -1510,19 +1510,19 @@
           "tiers": [
             {
               "models": 4,
-              "points": 105
+              "points": 100
             },
             {
               "models": 5,
-              "points": 130
+              "points": 125
             },
             {
               "models": 9,
-              "points": 235
+              "points": 225
             },
             {
               "models": 10,
-              "points": 260
+              "points": 250
             }
           ],
           "repeatFromCopy": 3,
@@ -1537,11 +1537,11 @@
             },
             {
               "models": 9,
-              "points": 250
+              "points": 245
             },
             {
               "models": 10,
-              "points": 275
+              "points": 270
             }
           ]
         },

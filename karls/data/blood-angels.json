@@ -1,8 +1,8 @@
 {
   "slug": "blood-angels",
   "name": "Blood Angels",
-  "version": "v1.2",
-  "fetchedAt": "2026-08-24T09:51:55.026Z",
+  "version": "v1.3",
+  "fetchedAt": "2026-08-28T15:30:44.695Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -157,7 +157,7 @@
           "tiers": [
             {
               "models": 5,
-              "points": 120
+              "points": 115
             },
             {
               "models": 10,
@@ -168,7 +168,7 @@
           "repeatTiers": [
             {
               "models": 5,
-              "points": 135
+              "points": 130
             },
             {
               "models": 10,
@@ -192,7 +192,7 @@
           "tiers": [
             {
               "models": 3,
-              "points": 125
+              "points": 120
             },
             {
               "models": 6,
@@ -203,7 +203,7 @@
           "repeatTiers": [
             {
               "models": 3,
-              "points": 145
+              "points": 140
             },
             {
               "models": 6,
@@ -234,7 +234,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 130
+              "points": 120
             }
           ]
         }
@@ -957,14 +957,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 250
+              "points": 260
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 270
+              "points": 280
             }
           ]
         },
@@ -1011,7 +1011,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 75
+              "points": 85
             }
           ]
         },
@@ -1553,7 +1553,7 @@
           "tiers": [
             {
               "models": 5,
-              "points": 120
+              "points": 115
             },
             {
               "models": 10,
@@ -1564,7 +1564,7 @@
           "repeatTiers": [
             {
               "models": 5,
-              "points": 135
+              "points": 130
             },
             {
               "models": 10,
@@ -1588,7 +1588,7 @@
           "tiers": [
             {
               "models": 3,
-              "points": 125
+              "points": 120
             },
             {
               "models": 6,
@@ -1599,7 +1599,7 @@
           "repeatTiers": [
             {
               "models": 3,
-              "points": 145
+              "points": 140
             },
             {
               "models": 6,
@@ -1630,7 +1630,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 130
+              "points": 120
             }
           ]
         }

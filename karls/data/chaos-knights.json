@@ -1,8 +1,8 @@
 {
   "slug": "chaos-knights",
   "name": "Chaos Knights",
-  "version": "v1.2",
-  "fetchedAt": "2026-08-24T09:51:55.026Z",
+  "version": "v1.3",
+  "fetchedAt": "2026-08-28T15:30:44.695Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -64,7 +64,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 395
+              "points": 385
             }
           ],
           "repeatFromCopy": 2,
@@ -98,7 +98,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 395
+              "points": 385
             }
           ],
           "repeatFromCopy": 2,
@@ -183,14 +183,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 380
+              "points": 360
             }
           ],
           "repeatFromCopy": 2,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 400
+              "points": 390
             }
           ]
         },
@@ -200,14 +200,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 365
+              "points": 355
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 380
+              "points": 370
             }
           ]
         },
@@ -251,7 +251,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 140
+              "points": 135
             }
           ]
         },
@@ -281,7 +281,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 155
+              "points": 145
             }
           ]
         },

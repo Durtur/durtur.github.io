@@ -1,8 +1,8 @@
 {
   "slug": "astra-militarum",
   "name": "Astra Militarum",
-  "version": "v1.2",
-  "fetchedAt": "2026-08-24T09:51:55.026Z",
+  "version": "v1.3",
+  "fetchedAt": "2026-08-28T15:30:44.695Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -215,7 +215,7 @@
           "tiers": [
             {
               "models": 10,
-              "points": 75
+              "points": 70
             },
             {
               "models": 20,
@@ -239,7 +239,7 @@
           "tiers": [
             {
               "models": 3,
-              "points": 65
+              "points": 70
             }
           ]
         },
@@ -249,11 +249,11 @@
           "tiers": [
             {
               "models": 10,
-              "points": 75
+              "points": 70
             },
             {
               "models": 20,
-              "points": 145
+              "points": 135
             }
           ]
         },
@@ -354,11 +354,11 @@
           "tiers": [
             {
               "models": 10,
-              "points": 75
+              "points": 70
             },
             {
               "models": 20,
-              "points": 145
+              "points": 135
             }
           ]
         },
@@ -546,7 +546,7 @@
           "tiers": [
             {
               "models": 4,
-              "points": 60
+              "points": 70
             }
           ]
         },
@@ -556,14 +556,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 185
+              "points": 160
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 195
+              "points": 175
             }
           ]
         },
@@ -573,14 +573,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 215
+              "points": 195
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 230
+              "points": 210
             }
           ]
         },
@@ -590,14 +590,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 180
+              "points": 160
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 190
+              "points": 175
             }
           ]
         },
@@ -607,14 +607,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 170
+              "points": 145
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 180
+              "points": 160
             }
           ]
         },
@@ -624,14 +624,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 170
+              "points": 145
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 180
+              "points": 160
             }
           ]
         },
@@ -641,14 +641,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 180
+              "points": 160
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 190
+              "points": 175
             }
           ]
         },
@@ -658,14 +658,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 150
+              "points": 130
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 160
+              "points": 145
             }
           ]
         },
@@ -675,14 +675,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 150
+              "points": 130
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 160
+              "points": 145
             }
           ]
         },
@@ -1640,7 +1640,7 @@
     {
       "id": "5245434f4e20454c454d454e54",
       "name": "RECON ELEMENT",
-      "dp": 3,
+      "dp": 2,
       "enhancements": [
         {
           "id": "4755455252494c4c4120484f4e4f555253",

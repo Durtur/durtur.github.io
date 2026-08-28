@@ -1,8 +1,8 @@
 {
   "slug": "emperors-children",
   "name": "Emperor’s Children",
-  "version": "v1.2",
-  "fetchedAt": "2026-08-24T09:51:55.026Z",
+  "version": "v1.3",
+  "fetchedAt": "2026-08-28T15:30:44.695Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -108,7 +108,7 @@
           "repeatTiers": [
             {
               "models": 1,
-              "points": 340
+              "points": 350
             }
           ]
         },
@@ -166,14 +166,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 80
+              "points": 90
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 90
+              "points": 100
             }
           ]
         },
@@ -266,7 +266,7 @@
           "tiers": [
             {
               "models": 10,
-              "points": 90
+              "points": 100
             }
           ]
         },
@@ -280,7 +280,7 @@
             },
             {
               "models": 6,
-              "points": 180
+              "points": 190
             }
           ]
         },
@@ -290,14 +290,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 255
+              "points": 265
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 270
+              "points": 280
             }
           ]
         },
@@ -307,7 +307,7 @@
           "tiers": [
             {
               "models": 5,
-              "points": 80
+              "points": 85
             },
             {
               "models": 10,
@@ -355,7 +355,7 @@
           "repeatTiers": [
             {
               "models": 1,
-              "points": 340
+              "points": 350
             }
           ]
         },
@@ -413,14 +413,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 80
+              "points": 90
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 90
+              "points": 100
             }
           ]
         },
@@ -524,12 +524,12 @@
         {
           "id": "504f5353455353454420424c414445",
           "name": "Possessed Blade",
-          "points": 25
+          "points": 35
         },
         {
           "id": "574152502057414c4b4552",
           "name": "Warp Walker",
-          "points": 30
+          "points": 35
         }
       ],
       "stratagems": [

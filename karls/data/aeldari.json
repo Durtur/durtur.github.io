@@ -1,8 +1,8 @@
 {
   "slug": "aeldari",
   "name": "Aeldari",
-  "version": "v1.2",
-  "fetchedAt": "2026-08-24T09:51:55.026Z",
+  "version": "v1.3",
+  "fetchedAt": "2026-08-28T15:30:44.695Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -125,11 +125,11 @@
           "tiers": [
             {
               "models": 5,
-              "points": 100
+              "points": 95
             },
             {
               "models": 10,
-              "points": 210
+              "points": 200
             }
           ]
         },
@@ -156,11 +156,11 @@
           "tiers": [
             {
               "models": 5,
-              "points": 75
+              "points": 70
             },
             {
               "models": 10,
-              "points": 150
+              "points": 140
             }
           ]
         },
@@ -184,7 +184,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 130
+              "points": 120
             }
           ]
         },
@@ -452,7 +452,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 55
+              "points": 50
             }
           ]
         },
@@ -486,7 +486,7 @@
           "tiers": [
             {
               "models": 11,
-              "points": 110
+              "points": 100
             }
           ]
         },
@@ -559,7 +559,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 45
+              "points": 40
             }
           ]
         },
@@ -583,7 +583,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 55
+              "points": 45
             },
             {
               "models": 2,
@@ -622,7 +622,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 85
+              "points": 80
             },
             {
               "models": 2,
@@ -844,7 +844,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 90
+              "points": 80
             }
           ]
         },
@@ -1049,11 +1049,11 @@
           "tiers": [
             {
               "models": 5,
-              "points": 100
+              "points": 95
             },
             {
               "models": 10,
-              "points": 210
+              "points": 200
             }
           ]
         },
@@ -1080,11 +1080,11 @@
           "tiers": [
             {
               "models": 5,
-              "points": 75
+              "points": 70
             },
             {
               "models": 10,
-              "points": 150
+              "points": 140
             }
           ]
         },
@@ -1108,7 +1108,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 130
+              "points": 120
             }
           ]
         },
@@ -1376,7 +1376,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 55
+              "points": 50
             }
           ]
         },
@@ -1410,7 +1410,7 @@
           "tiers": [
             {
               "models": 11,
-              "points": 110
+              "points": 100
             }
           ]
         },
@@ -1483,7 +1483,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 45
+              "points": 40
             }
           ]
         },
@@ -1507,7 +1507,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 55
+              "points": 45
             },
             {
               "models": 2,
@@ -1546,7 +1546,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 85
+              "points": 80
             },
             {
               "models": 2,

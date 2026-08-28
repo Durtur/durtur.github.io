@@ -1,8 +1,8 @@
 {
   "slug": "necrons",
   "name": "Necrons",
-  "version": "v1.2",
-  "fetchedAt": "2026-08-24T09:51:55.026Z",
+  "version": "v1.3",
+  "fetchedAt": "2026-08-28T15:30:44.695Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -343,26 +343,26 @@
             },
             {
               "models": 6,
-              "points": 170
+              "points": 175
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 50
+              "points": 70
             },
             {
               "models": 2,
-              "points": 65
+              "points": 85
             },
             {
               "models": 3,
-              "points": 90
+              "points": 110
             },
             {
               "models": 6,
-              "points": 180
+              "points": 205
             }
           ]
         },
@@ -380,7 +380,7 @@
             },
             {
               "models": 3,
-              "points": 160
+              "points": 165
             }
           ],
           "repeatFromCopy": 3,
@@ -395,7 +395,7 @@
             },
             {
               "models": 3,
-              "points": 170
+              "points": 175
             }
           ]
         },
@@ -405,7 +405,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 70
+              "points": 80
             }
           ]
         },
@@ -446,7 +446,7 @@
           "tiers": [
             {
               "models": 10,
-              "points": 80
+              "points": 85
             },
             {
               "models": 20,
@@ -501,7 +501,7 @@
             },
             {
               "models": 6,
-              "points": 145
+              "points": 150
             }
           ],
           "repeatFromCopy": 3,
@@ -512,7 +512,7 @@
             },
             {
               "models": 6,
-              "points": 155
+              "points": 160
             }
           ]
         },
@@ -552,7 +552,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 55
+              "points": 60
             }
           ]
         },
@@ -624,14 +624,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 90
+              "points": 95
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 100
+              "points": 105
             }
           ]
         },

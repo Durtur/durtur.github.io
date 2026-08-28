@@ -1,8 +1,8 @@
 {
   "slug": "chaos-space-marines",
   "name": "Chaos Space Marines",
-  "version": "v1.2",
-  "fetchedAt": "2026-08-24T09:51:55.026Z",
+  "version": "v1.3",
+  "fetchedAt": "2026-08-28T15:30:44.695Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -301,7 +301,7 @@
           "repeatTiers": [
             {
               "models": 1,
-              "points": 340
+              "points": 350
             }
           ]
         },
