@@ -2,7 +2,7 @@
   "slug": "chaos-space-marines",
   "name": "Chaos Space Marines",
   "version": "v1.3",
-  "fetchedAt": "2026-08-28T15:30:44.695Z",
+  "fetchedAt": "2026-09-01T22:43:02.563Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -777,14 +777,14 @@
       ],
       "stratagems": [
         {
-          "name": "Fleshy Curse",
+          "name": "Wreathed In Warpflame",
           "cp": 1,
           "category": "Cabal of Chaos",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "when": "Start of your Shooting phase.",
-          "target": "One friendly HERETIC ASTARTES PSYKER unit.",
-          "effect": "Select one visible enemy unit within 12\" of your unit. Roll one D6:\nOn a 1, that enemy unit suffers 1 mortal wound.On a 2-4, that enemy unit suffers D3 mortal wounds.On a 5-6, that enemy unit suffers 2D3 mortal wounds.These mortal wounds are inflicted by a psychic attack."
+          "when": "Your Shooting phase, when a friendly HERETIC ASTARTES PSYKER unit is selected to shoot.",
+          "target": "That HERETIC ASTARTES PSYKER unit.",
+          "effect": "Your unit’s ranged attacks have [IGNORES COVER]."
         },
         {
           "name": "Infernal Vigour",
@@ -797,14 +797,14 @@
           "effect": "Your unit heals D3+1 wounds."
         },
         {
-          "name": "Wreathed In Warpflame",
+          "name": "Fleshy Curse",
           "cp": 1,
           "category": "Cabal of Chaos",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "when": "Your Shooting phase, when a friendly HERETIC ASTARTES PSYKER unit is selected to shoot.",
-          "target": "That HERETIC ASTARTES PSYKER unit.",
-          "effect": "Your unit’s ranged attacks have [IGNORES COVER]."
+          "when": "Start of your Shooting phase.",
+          "target": "One friendly HERETIC ASTARTES PSYKER unit.",
+          "effect": "Select one visible enemy unit within 12\" of your unit. Roll one D6:\nOn a 1, that enemy unit suffers 1 mortal wound.On a 2-4, that enemy unit suffers D3 mortal wounds.On a 5-6, that enemy unit suffers 2D3 mortal wounds.These mortal wounds are inflicted by a psychic attack."
         }
       ]
     },
@@ -836,14 +836,14 @@
       ],
       "stratagems": [
         {
-          "name": "Infernal Sacrifice",
+          "name": "Chosen For Glory",
           "cp": 1,
           "category": "Battle Tactic",
           "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One DAMNED unit from your army that has not been selected to fight this phase.",
-          "effect": "Your unit can make a Desperate Pact. If it does, your unit suffers D3 mortal wounds (in addition to any suffered for failing the resulting Leadership test), and until the end of the phase, add 1 to the Attacks characteristic of the melee weapons equipped by models in your unit, and if your unit did not fail the resulting Leadership test when making that Desperate Pact, until the end of the phase, improve the Strength characteristic of those weapons by 1 as well."
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase.",
+          "target": "One DAMNED unit from your army that has not been selected to shoot or fight this phase.",
+          "effect": "Your unit can make a Desperate Pact. If it does, until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll, and if your unit did not fail the resulting Leadership test when making that Desperate Pact, you can re-roll the Wound roll as well."
         },
         {
           "name": "Crazed Focus",
@@ -856,14 +856,24 @@
           "effect": "Your unit can make a Desperate Pact. If it does, until the end of the phase, each time a model in your unit makes an attack, improve the Armour Penetration characteristic of that attack by 1, and if your unit did not fail the resulting Leadership test when making that Desperate Pact, improve the Strength characteristic of that attack by 1 as well."
         },
         {
-          "name": "Chosen For Glory",
+          "name": "Infernal Sacrifice",
           "cp": 1,
           "category": "Battle Tactic",
           "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase.",
-          "target": "One DAMNED unit from your army that has not been selected to shoot or fight this phase.",
-          "effect": "Your unit can make a Desperate Pact. If it does, until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll, and if your unit did not fail the resulting Leadership test when making that Desperate Pact, you can re-roll the Wound roll as well."
+          "phase": "Fight phase",
+          "when": "Fight phase.",
+          "target": "One DAMNED unit from your army that has not been selected to fight this phase.",
+          "effect": "Your unit can make a Desperate Pact. If it does, your unit suffers D3 mortal wounds (in addition to any suffered for failing the resulting Leadership test), and until the end of the phase, add 1 to the Attacks characteristic of the melee weapons equipped by models in your unit, and if your unit did not fail the resulting Leadership test when making that Desperate Pact, until the end of the phase, improve the Strength characteristic of those weapons by 1 as well."
+        },
+        {
+          "name": "Selfless Demise",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One DAMNED unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the attacking unit has resolved all of its attacks, each time a model in your unit is destroyed, roll one D6 on a 6, the attacking unit suffers 1 mortal wound after all of its attacks have been resolved."
         },
         {
           "name": "Reckless Haste",
@@ -884,16 +894,6 @@
           "when": "Your opponent’s Shooting phase, just after an enemy unit has selected ts targets.",
           "target": "One HERETIC ASTARTES unit from your army that was selected as the target of one or more of the attacking units attacks, and one friendly DAMNED unit within 3\" of your unit and visible to both your unit and the attacking unit.",
           "effect": "Until the end of the phase, while your DAMNED unit is on the battlefield, each time your opponent would make a Wound roll for an attack that targets your HERETIC ASTARTES unit, if your DAMNED unit is visible to the attacking model and is an eligible target for that attack, no roll is made; instead, your DAMNED unit suffers a number of mortal wounds equal to the Damage characteristic of that attack."
-        },
-        {
-          "name": "Selfless Demise",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One DAMNED unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the attacking unit has resolved all of its attacks, each time a model in your unit is destroyed, roll one D6 on a 6, the attacking unit suffers 1 mortal wound after all of its attacks have been resolved."
         }
       ]
     },
@@ -925,24 +925,14 @@
       ],
       "stratagems": [
         {
-          "name": "Masters Are Watching",
-          "cp": 1,
+          "name": "Delayed Mutations",
+          "cp": 2,
           "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Heretic Astartes Infantry unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, subtracting 1 from the result if it is a Damned unit: on a 4+, do not remove it from play. That destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
-        },
-        {
-          "name": "Monstrous Visages",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Heretic Astartes Infantry unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Your Command phase.",
+          "target": "One Heretic Astartes Infantry unit (excluding Damned units) from your army.",
+          "effect": "Your unit suffers D3 mortal wounds. Then select one augmentation (see Experimental Augmentations). Until the start of your next Command phase, models in your unit have the selected augmentation in addition to any other augmentations they have."
         },
         {
           "name": "Diabolic Regeneration",
@@ -965,14 +955,14 @@
           "effect": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced."
         },
         {
-          "name": "Delayed Mutations",
-          "cp": 2,
+          "name": "Monstrous Visages",
+          "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "One Heretic Astartes Infantry unit (excluding Damned units) from your army.",
-          "effect": "Your unit suffers D3 mortal wounds. Then select one augmentation (see Experimental Augmentations). Until the start of your next Command phase, models in your unit have the selected augmentation in addition to any other augmentations they have."
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One Heretic Astartes Infantry unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
         },
         {
           "name": "Specimens For The Spider",
@@ -983,6 +973,16 @@
           "when": "Fight phase.",
           "target": "One Heretic Astartes Infantry unit from your army that has not been selected to fight this phase.",
           "effect": "Until the end of the phase, each time a model in your unit makes a melee attack that targets a CHARACTER unit, you can re-roll the Wound roll. After your unit has fought, if one or more enemy CHARACTER models were destroyed as a result of those attacks, select one enemy unit within 6\" of your unit. That enemy unit must take a Battle-shock test. If the enemy WARLORD was destroyed as a result of those attacks, each enemy unit within 6\" of your unit must take a Battle-shock test instead."
+        },
+        {
+          "name": "Masters Are Watching",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One Heretic Astartes Infantry unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, subtracting 1 from the result if it is a Damned unit: on a 4+, do not remove it from play. That destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
         }
       ]
     },
@@ -1014,16 +1014,6 @@
       ],
       "stratagems": [
         {
-          "name": "Soul-Tally Offering",
-          "cp": 2,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase.",
-          "target": "One Soul Forge unit from your army that has not been selected to shoot or fight this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a CHARACTER, MONSTER or VEHICLE unit, you can re-roll the Wound roll."
-        },
-        {
           "name": "Touch Of The Arkifane",
           "cp": 1,
           "category": "Battle Tactic",
@@ -1042,6 +1032,16 @@
           "when": "Your Shooting phase or the Fight phase.",
           "target": "One Soul Forge unit from your army that has not been selected to shoot or fight this phase.",
           "effect": "Until the end of the phase, each time a model in your unit makes an attack, improve the Armour Penetration characteristic of that attack by 1."
+        },
+        {
+          "name": "Soul-Tally Offering",
+          "cp": 2,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase.",
+          "target": "One Soul Forge unit from your army that has not been selected to shoot or fight this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a CHARACTER, MONSTER or VEHICLE unit, you can re-roll the Wound roll."
         },
         {
           "name": "Biomechanoid Regeneration",
@@ -1103,16 +1103,6 @@
       ],
       "stratagems": [
         {
-          "name": "From All Sides",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Charge phase",
-          "when": "Start of your Charge phase.",
-          "target": "One HERETIC ASTARTES unit from your army.",
-          "effect": "Until the end of the phase, add 1 to Charge rolls made for your unit for each other HERETIC ASTARTES unit from your army that made a Charge move this phase (to a maximum of +3)"
-        },
-        {
           "name": "Pick Them Off",
           "cp": 1,
           "category": "Battle Tactic",
@@ -1121,6 +1111,16 @@
           "when": "Your Shooting phase.",
           "target": "One HERETIC ASTARTES unit from your army that has not been selected to shoot this phase.",
           "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll. If the target is Below Half-strength, you can re-roll the Wound roll as well."
+        },
+        {
+          "name": "From All Sides",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Your turn",
+          "phase": "Charge phase",
+          "when": "Start of your Charge phase.",
+          "target": "One HERETIC ASTARTES unit from your army.",
+          "effect": "Until the end of the phase, add 1 to Charge rolls made for your unit for each other HERETIC ASTARTES unit from your army that made a Charge move this phase (to a maximum of +3)"
         },
         {
           "name": "Relentless Pursuit",
@@ -1133,16 +1133,6 @@
           "effect": "Your unit can make a Normal move of up to 6\"."
         },
         {
-          "name": "Scrambled Coordinates",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "when": "Start of the Reinforcements step of your opponent’s Movement phase.",
-          "target": "One HERETIC ASTARTES unit from your army.",
-          "effect": "Until the end of the phase, enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" horizontally of your unit."
-        },
-        {
           "name": "Coils Of Deception",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1151,6 +1141,16 @@
           "when": "Your Movement phase, just after a HERETIC ASTARTES unit from your army Falls Back.",
           "target": "That HERETIC ASTARTES unit.",
           "effect": "Until the end of the turn, your unit is eligible to shoot in a turn in which it Fell Back"
+        },
+        {
+          "name": "Scrambled Coordinates",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Start of the Reinforcements step of your opponent’s Movement phase.",
+          "target": "One HERETIC ASTARTES unit from your army.",
+          "effect": "Until the end of the phase, enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" horizontally of your unit."
         },
         {
           "name": "Detonator",
@@ -1330,14 +1330,14 @@
       ],
       "stratagems": [
         {
-          "name": "Pitiless Cannonade",
+          "name": "Persistent Assailants",
           "cp": 1,
           "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One HERETIC ASTARTES unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is Below Half-strength, a successful unmodified Hit roll of 5+ scores a Critical Hit"
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase.",
+          "target": "One HERETIC ASTARTES unit from your army that was selected as the target of one or more attacks this phase and has not been selected to fight this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll, and if your unit is Below Half-strength you can re-roll the Wound roll as well."
         },
         {
           "name": "Point-Blank Destruction",
@@ -1350,14 +1350,14 @@
           "effect": "Until the end of the phase, your unit’s ranged weapons (excluding Blast weapons) have the [PISTOL] ability."
         },
         {
-          "name": "Persistent Assailants",
+          "name": "Pitiless Cannonade",
           "cp": 1,
           "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One HERETIC ASTARTES unit from your army that was selected as the target of one or more attacks this phase and has not been selected to fight this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll, and if your unit is Below Half-strength you can re-roll the Wound roll as well."
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One HERETIC ASTARTES unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is Below Half-strength, a successful unmodified Hit roll of 5+ scores a Critical Hit"
         },
         {
           "name": "Brutal Attrition",
@@ -1370,16 +1370,6 @@
           "effect": "Until the end of the phase, each time a melee attack is allocated to your unit, after the attacking unit has finished making its attacks, roll one D6 (to maximum of six D6 per attacking unit): for each 4+, the attacking unit suffers 1 mortal wound."
         },
         {
-          "name": "Siegecraft",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Charge phase",
-          "when": "Start of your opponents Charge phase.",
-          "target": "One HERETIC ASTARTES unit from your army.",
-          "effect": "Until the end of the phase, each time an enemy unit selects your unit as a target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other negative modifiers to that Charge roll)."
-        },
-        {
           "name": "Steadfast Determination",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1388,6 +1378,16 @@
           "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
           "target": "One HERETIC ASTARTES unit from your army (excluding DAMNED units) that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability."
+        },
+        {
+          "name": "Siegecraft",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Charge phase",
+          "when": "Start of your opponents Charge phase.",
+          "target": "One HERETIC ASTARTES unit from your army.",
+          "effect": "Until the end of the phase, each time an enemy unit selects your unit as a target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other negative modifiers to that Charge roll)."
         }
       ]
     },
@@ -1419,14 +1419,14 @@
       ],
       "stratagems": [
         {
-          "name": "Hardened Killers",
+          "name": "Reavers’ Flurry",
           "cp": 1,
           "category": "Battle Tactic",
           "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "One Damned unit from your army.",
-          "effect": "Select one of the following effects:\nImprove the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.Improve the Attacks characteristic of Rapid Fire weapons equipped by models in this unit by 1.Improve the Save characteristic of models in this unit by 1.Until the start of your next turn, your unit has the benefit of that effect."
+          "phase": "Fight phase",
+          "when": "Your Fight phase.",
+          "target": "One HERETIC ASTARTES unit from your army that made a Charge move this turn.",
+          "effect": "Until the end of the phase, add 1 to the Attacks characteristics of melee weapons equipped by models in your unit."
         },
         {
           "name": "Seize The Prize",
@@ -1439,14 +1439,14 @@
           "effect": "Do not make an Advance roll for your unit. Instead, until the end of the phase add 6\" to the Move characteristic of models in your unit."
         },
         {
-          "name": "Reavers’ Flurry",
+          "name": "Hardened Killers",
           "cp": 1,
           "category": "Battle Tactic",
           "turn": "Your turn",
-          "phase": "Fight phase",
-          "when": "Your Fight phase.",
-          "target": "One HERETIC ASTARTES unit from your army that made a Charge move this turn.",
-          "effect": "Until the end of the phase, add 1 to the Attacks characteristics of melee weapons equipped by models in your unit."
+          "phase": "Command phase",
+          "when": "Your Command phase.",
+          "target": "One Damned unit from your army.",
+          "effect": "Select one of the following effects:\nImprove the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.Improve the Attacks characteristic of Rapid Fire weapons equipped by models in this unit by 1.Improve the Save characteristic of models in this unit by 1.Until the start of your next turn, your unit has the benefit of that effect."
         },
         {
           "name": "Encircling Surge",
@@ -1459,16 +1459,6 @@
           "effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
         },
         {
-          "name": "At The Tyrant’s Command",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase.",
-          "target": "One HERETIC ASTARTES unit (excluding Monsters and Vehicles) from your army.",
-          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced."
-        },
-        {
           "name": "To The Favoured The Spoils",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1477,6 +1467,16 @@
           "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
           "target": "One HERETIC ASTARTES unit from your army that lost one or more wounds as a result of those attacks.",
           "effect": "Your unit can make a surge move of up to D6\"."
+        },
+        {
+          "name": "At The Tyrant’s Command",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase.",
+          "target": "One HERETIC ASTARTES unit (excluding Monsters and Vehicles) from your army.",
+          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced."
         }
       ]
     },
@@ -1498,16 +1498,6 @@
       ],
       "stratagems": [
         {
-          "name": "Raking Pass",
-          "cp": 1,
-          "category": "Murdertalon Raiders",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase, when a friendly HERETIC ASTARTES INFANTRY FLY unit is selected to make a fall-back move.",
-          "target": "That HERETIC ASTARTES INFANTRY FLY unit.",
-          "effect": "That move does not prevent your unit from being eligible to declare a charge."
-        },
-        {
           "name": "Warp-Twisted Terrors",
           "cp": 1,
           "category": "Murdertalon Raiders",
@@ -1526,6 +1516,16 @@
           "when": "Fight phase, when a friendly HERETIC ASTARTES INFANTRY FLY unit that made a charge move this turn is selected to fight.",
           "target": "That HERETIC ASTARTES INFANTRY FLY unit.",
           "effect": "Your unit’s melee attacks have [LANCE]."
+        },
+        {
+          "name": "Raking Pass",
+          "cp": 1,
+          "category": "Murdertalon Raiders",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, when a friendly HERETIC ASTARTES INFANTRY FLY unit is selected to make a fall-back move.",
+          "target": "That HERETIC ASTARTES INFANTRY FLY unit.",
+          "effect": "That move does not prevent your unit from being eligible to declare a charge."
         }
       ]
     },
@@ -1557,14 +1557,14 @@
       ],
       "stratagems": [
         {
-          "name": "Malicious Surge",
+          "name": "Relentless Terror",
           "cp": 1,
           "category": "Nightmare Hunt",
           "turn": "Your turn",
-          "phase": "Charge phase",
-          "when": "Your Charge phase.",
-          "target": "One Heretic Astartes Infantry unit from your army.",
-          "effect": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced."
+          "phase": "Movement phase",
+          "when": "Your Movement phase, just after a Heretic Astartes Infantry unit from your army Falls Back.",
+          "target": "That HERETIC ASTARTES unit.",
+          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
         },
         {
           "name": "Sadistic Display",
@@ -1577,14 +1577,14 @@
           "effect": "Each enemy unit within 6\" of and visible to your unit (excluding MONSTER and VEHICLE units) must take a Battle-shock test."
         },
         {
-          "name": "Prey On The Weak",
+          "name": "Horrific Incursion",
           "cp": 1,
           "category": "Nightmare Hunt",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase.",
-          "target": "One Heretic Astartes Infantry unit from your army that has not been selected to shoot or fight this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is Battle-shocked and/or Below Half-strength, you can re-roll the Hit roll."
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase.",
+          "target": "One HERETIC ASTARTES unit from your army that arrived from Reserves this turn.",
+          "effect": "Select one enemy unit (excluding MONSTER and VEHICLE units) within 12\" of and visible to your unit: that unit must take a Battle-shock test, subtracting 1 from the result."
         },
         {
           "name": "Talons Sunk Deep",
@@ -1597,24 +1597,24 @@
           "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is Battle-shocked and/or Below Half-strength, improve the Armour Penetration characteristic of that attack by 1."
         },
         {
-          "name": "Relentless Terror",
+          "name": "Prey On The Weak",
           "cp": 1,
           "category": "Nightmare Hunt",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase, just after a Heretic Astartes Infantry unit from your army Falls Back.",
-          "target": "That HERETIC ASTARTES unit.",
-          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase.",
+          "target": "One Heretic Astartes Infantry unit from your army that has not been selected to shoot or fight this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is Battle-shocked and/or Below Half-strength, you can re-roll the Hit roll."
         },
         {
-          "name": "Horrific Incursion",
+          "name": "Malicious Surge",
           "cp": 1,
           "category": "Nightmare Hunt",
           "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase.",
-          "target": "One HERETIC ASTARTES unit from your army that arrived from Reserves this turn.",
-          "effect": "Select one enemy unit (excluding MONSTER and VEHICLE units) within 12\" of and visible to your unit: that unit must take a Battle-shock test, subtracting 1 from the result."
+          "phase": "Charge phase",
+          "when": "Your Charge phase.",
+          "target": "One Heretic Astartes Infantry unit from your army.",
+          "effect": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced."
         }
       ]
     },
@@ -1676,14 +1676,14 @@
           "effect": "Until the end of the battle, add 1 to the Move, Toughness and Wounds characteristics of that CHARACTER model, and add 1 to the Attacks. Strength and Damage characteristics of that CHARACTER model’s melee weapons."
         },
         {
-          "name": "Eternal Hate",
+          "name": "Torpefying Refrain",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One HERETIC ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if it is a Khorne unit: on a 4+, do not remove it from play. That destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase.",
+          "target": "One HERETIC ASTARTES unit from your army.",
+          "effect": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Fell Back. If your unit is a Slaanesh unit, until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
         },
         {
           "name": "Festering Miasma",
@@ -1696,14 +1696,14 @@
           "effect": "Until the end of the phase, your unit has the Stealth ability. In addition, if your unit is a Nurgle unit, it can only be selected as the target of a ranged attack if the attacking model is within 18\"."
         },
         {
-          "name": "Torpefying Refrain",
+          "name": "Eternal Hate",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase.",
-          "target": "One HERETIC ASTARTES unit from your army.",
-          "effect": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Fell Back. If your unit is a Slaanesh unit, until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One HERETIC ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if it is a Khorne unit: on a 4+, do not remove it from play. That destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
         }
       ]
     },
@@ -1735,6 +1735,16 @@
       ],
       "stratagems": [
         {
+          "name": "Unfailingly Obdurate",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One HERETIC ASTARTES unit from your army (excluding DAMNED units) that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
+        },
+        {
           "name": "Scour And Seize",
           "cp": 1,
           "category": "Battle Tactic",
@@ -1753,16 +1763,6 @@
           "when": "Your Shooting phase or your Fight phase",
           "target": "One HERETIC ASTARTES unit from your army that disembarked from a TRANSPORT this turn and has not been selected to shoot or fight this phase.",
           "effect": "Until the end of the phase, each time a model in your unit makes an attack, if the target of that attack is within range of an objective marker, you can re-roll the Hit roll and you can re-roll the Wound roll."
-        },
-        {
-          "name": "Unfailingly Obdurate",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One HERETIC ASTARTES unit from your army (excluding DAMNED units) that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
         },
         {
           "name": "Opportunistic Raiders",
@@ -1824,16 +1824,6 @@
       ],
       "stratagems": [
         {
-          "name": "Vengeful Destruction",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase.",
-          "target": "One Heretic Astartes Infantry (excluding Damned units) or Heretic Astartes Mounted unit from your army that has not been selected to shoot or fight this phase.",
-          "effect": "Until the end of the phase, each time your unit makes an attack that targets your Vendetta target, add 1 to the Wound roll."
-        },
-        {
           "name": "Corrupted Munitions",
           "cp": 1,
           "category": "Battle Tactic",
@@ -1842,6 +1832,16 @@
           "when": "Your Shooting phase.",
           "target": "One HERETIC ASTARTES unit in your army that has just been selected to shoot.",
           "effect": "Until the end of the phase, each time a model in this unit makes a ranged attack, improve the Armour Penetration of that attack by 1."
+        },
+        {
+          "name": "Vengeful Destruction",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase.",
+          "target": "One Heretic Astartes Infantry (excluding Damned units) or Heretic Astartes Mounted unit from your army that has not been selected to shoot or fight this phase.",
+          "effect": "Until the end of the phase, each time your unit makes an attack that targets your Vendetta target, add 1 to the Wound roll."
         },
         {
           "name": "Never Outgunned",
@@ -1854,16 +1854,6 @@
           "effect": "Select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until the end of the phase, weapons equipped by models in your unit have the selected ability."
         },
         {
-          "name": "Renegade Claim",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase",
-          "target": "One HERETIC ASTARTES unit from your army within range of an objective marker you control.",
-          "effect": "That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
-        },
-        {
           "name": "Reavers’ Reaction",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1872,6 +1862,16 @@
           "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
           "target": "One HERETIC ASTARTES unit (excluding Monsters and Vehicles) from your army that was hit by one or more of those attacks.",
           "effect": "Your unit can make a Normal move of up to D6\"."
+        },
+        {
+          "name": "Renegade Claim",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase",
+          "target": "One HERETIC ASTARTES unit from your army within range of an objective marker you control.",
+          "effect": "That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
         },
         {
           "name": "Undying Hatred",
@@ -1933,16 +1933,6 @@
           "effect": "Until the end of the battle, your unit has the DAEMON keyword."
         },
         {
-          "name": "Feeding Frenzy",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, when an enemy unit (excluding MONSTER and VEHICLES) is selected to Fall Back.",
-          "target": "One HERETIC ASTARTES DAEMON VEHICLE or Vashtorr the Arkifane unit from your army that is within Engagement Range of that enemy unit.",
-          "effect": "Until the end of the phase, each time an enemy unit (excluding MONSTERS and VEHICLES) that is within Engagement Range of your units Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, of that enemy unit is Battle-shocked, substract 1 from each of those tests."
-        },
-        {
           "name": "Glut Of Souls",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1953,16 +1943,6 @@
           "effect": "Until the end of the phase, if your unit invokes its contract, each time it makes an attack that destroys an enemy model, roll one D6: on 5+, your unit regains 1 lost wound after all of its attacks have been resolved (to a maximum of 6 wound)."
         },
         {
-          "name": "Unstoppable Rampage",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement or Charge phase",
-          "when": "Your Movement phase or Charge phase.",
-          "target": "One Heretic Astartes Vehicle or Vashtorr the Arkifane unit from your army that has not been selected to move or charge this phase.",
-          "effect": "Until the end of the phase, each time your unit makes Normal, Advance or charge move, it can move horizontally through terrain features as if they were not there."
-        },
-        {
           "name": "Predatory Pursuit",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1971,6 +1951,26 @@
           "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall back move.",
           "target": "One HERETIC ASTARTES VEHICLE or Vashtorr the Arkifane unit from your army that is within 8\" of that enemy unit and not within Engagement Range of one or more enemy units.",
           "effect": "Your unit can make a Normal move of up to 6\", but must end that move as close as possible to that enemy unit."
+        },
+        {
+          "name": "Feeding Frenzy",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, when an enemy unit (excluding MONSTER and VEHICLES) is selected to Fall Back.",
+          "target": "One HERETIC ASTARTES DAEMON VEHICLE or Vashtorr the Arkifane unit from your army that is within Engagement Range of that enemy unit.",
+          "effect": "Until the end of the phase, each time an enemy unit (excluding MONSTERS and VEHICLES) that is within Engagement Range of your units Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, of that enemy unit is Battle-shocked, substract 1 from each of those tests."
+        },
+        {
+          "name": "Unstoppable Rampage",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Movement or Charge phase",
+          "when": "Your Movement phase or Charge phase.",
+          "target": "One Heretic Astartes Vehicle or Vashtorr the Arkifane unit from your army that has not been selected to move or charge this phase.",
+          "effect": "Until the end of the phase, each time your unit makes Normal, Advance or charge move, it can move horizontally through terrain features as if they were not there."
         }
       ]
     },
@@ -2112,17 +2112,6 @@
           "restrictions": "You cannot target the same unit with the Empyric Dislocation and Armour of Corruption Stratagems in the same phase."
         },
         {
-          "name": "Armour Of Corruption",
-          "cp": 2,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Heretic Astartes Terminator, Obliterators or Mutilators unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the turn, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
-          "restrictions": "You cannot target the same unit with the Armour of Corruption and Empyric Dislocation Stratagems in the same phase."
-        },
-        {
           "name": "Warp Flicker",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -2151,6 +2140,17 @@
           "when": "Your Shooting phase.",
           "target": "Up to two HERETIC ASTARTES units from your army that were set up using the Deep Strike ability this turn and have not been selected to shoot this phase.",
           "effect": "Until the end of the phase, ranged weapons equipped by models in your units have the [IGNORES COVER] ability."
+        },
+        {
+          "name": "Armour Of Corruption",
+          "cp": 2,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One Heretic Astartes Terminator, Obliterators or Mutilators unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the turn, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
+          "restrictions": "You cannot target the same unit with the Armour of Corruption and Empyric Dislocation Stratagems in the same phase."
         }
       ]
     }

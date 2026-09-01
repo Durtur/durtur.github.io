@@ -2,7 +2,7 @@
   "slug": "tyranids",
   "name": "Tyranids",
   "version": "v1.3",
-  "fetchedAt": "2026-08-28T15:30:44.695Z",
+  "fetchedAt": "2026-09-01T22:43:02.563Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -765,14 +765,14 @@
       ],
       "stratagems": [
         {
-          "name": "Counterpredation",
+          "name": "Scanner Gheist",
           "cp": 1,
           "category": "Ambush Predators",
-          "turn": "Either player’s turn",
+          "turn": "Opponent’s turn",
           "phase": "Fight phase",
-          "when": "Fight phase, when a friendly DEATHLEAPER/LICTOR/ NEUROLICTOR/VON RYAN’S LEAPERS unit is selected to fight.",
-          "target": "That DEATHLEAPER/LICTOR/NEUROLICTOR/VON RYAN’S LEAPERS unit.",
-          "effect": "Your unit’s attacks that target a hidden unit have +1 S and AP."
+          "when": "End of your opponent’s Fight phase.",
+          "target": "One friendly unengaged DEATHLEAPER/LICTOR/ NEUROLICTOR unit.",
+          "effect": "Place your unit in strategic reserves."
         },
         {
           "name": "Hypersensory Adaptations",
@@ -785,14 +785,14 @@
           "effect": "Select one visible enemy unit within 12\" of your unit. That enemy unit has +6\" detection range."
         },
         {
-          "name": "Scanner Gheist",
+          "name": "Counterpredation",
           "cp": 1,
           "category": "Ambush Predators",
-          "turn": "Opponent’s turn",
+          "turn": "Either player’s turn",
           "phase": "Fight phase",
-          "when": "End of your opponent’s Fight phase.",
-          "target": "One friendly unengaged DEATHLEAPER/LICTOR/ NEUROLICTOR unit.",
-          "effect": "Place your unit in strategic reserves."
+          "when": "Fight phase, when a friendly DEATHLEAPER/LICTOR/ NEUROLICTOR/VON RYAN’S LEAPERS unit is selected to fight.",
+          "target": "That DEATHLEAPER/LICTOR/NEUROLICTOR/VON RYAN’S LEAPERS unit.",
+          "effect": "Your unit’s attacks that target a hidden unit have +1 S and AP."
         }
       ]
     },
@@ -834,16 +834,6 @@
           "effect": "Your unit immediately Regenerates (See Feed the Swarm). When doing so, if your unit is a Harvester unit and you choose for one model to regain up to D3 lost wounds, that model regains up to 3 lost wounds instead."
         },
         {
-          "name": "Broodguard Impulse",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase.",
-          "target": "One Harvester unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
-          "effect": "Until the end of the battle, each time a friendly TYRANIDS model makes an attack that targets the enemy unit that just destroyed your HARVESTER unit, add 1 to the Wound roll."
-        },
-        {
           "name": "Ablative Carapace",
           "cp": 2,
           "category": "Epic Deed",
@@ -854,14 +844,24 @@
           "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability. If your unit is within range of an objective marker you control, until the end of the phase models in your unit have the Feel No Pain 4+ ability instead."
         },
         {
-          "name": "Tyrannoformed",
+          "name": "Broodguard Impulse",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase.",
+          "target": "One Harvester unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+          "effect": "Until the end of the battle, each time a friendly TYRANIDS model makes an attack that targets the enemy unit that just destroyed your HARVESTER unit, add 1 to the Wound roll."
+        },
+        {
+          "name": "Reclaim Biomass",
           "cp": 1,
           "category": "Strategic Ploy",
           "turn": "Either player’s turn",
-          "phase": "Command phase",
-          "when": "Command phase.",
-          "target": "One Harvester unit from your army that is within range of an objective marker you control.",
-          "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+          "phase": "Any phase",
+          "when": "Any phase, when a TYRANIDS unit from your army is destroyed, before the last model in it is removed from play.",
+          "target": "One Harvester unit from your army that is within 6\" of that destroyed unit.",
+          "effect": "Regenerate one friendly TYRANIDS unit within 6\" of your HARVESTER unit (See Feed the Swarm)."
         },
         {
           "name": "Secure Biomass",
@@ -874,14 +874,14 @@
           "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability. If your unit is a Harvester unit, each time a model in that unit makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit as well."
         },
         {
-          "name": "Reclaim Biomass",
+          "name": "Tyrannoformed",
           "cp": 1,
           "category": "Strategic Ploy",
           "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, when a TYRANIDS unit from your army is destroyed, before the last model in it is removed from play.",
-          "target": "One Harvester unit from your army that is within 6\" of that destroyed unit.",
-          "effect": "Regenerate one friendly TYRANIDS unit within 6\" of your HARVESTER unit (See Feed the Swarm)."
+          "phase": "Command phase",
+          "when": "Command phase.",
+          "target": "One Harvester unit from your army that is within range of an objective marker you control.",
+          "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
         }
       ]
     },
@@ -923,16 +923,6 @@
           "effect": "That enemy unit must take a Battle-shock test and, until the end of the phase, each time a model in that enemy unit makes an attack that targets your unit, subtract 1 from the Hit roll. If that Battle-shock test was failed, subtract 1 from the Wound roll as well."
         },
         {
-          "name": "Rampaging Monstrosities",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One Tyranids Monster unit from your army that has not been selected to fight this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll."
-        },
-        {
           "name": "Swarm-Guided Salvoes",
           "cp": 1,
           "category": "Battle Tactic",
@@ -941,6 +931,16 @@
           "when": "Your Shooting phase.",
           "target": "One Tyranids Monster unit from your army that has not been selected to shoot this phase.",
           "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability, and until the end of the phase each time a model in your unit makes an attack, you can ignore any or all modifiers to that model’s Ballistic Skill characteristic and any or all modifiers to the Hit roll."
+        },
+        {
+          "name": "Rampaging Monstrosities",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase.",
+          "target": "One Tyranids Monster unit from your army that has not been selected to fight this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll."
         },
         {
           "name": "Massive Impact",
@@ -1002,16 +1002,6 @@
       ],
       "stratagems": [
         {
-          "name": "Rapid Regeneration",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability. If your unit is within Synapse Range of your army, models in your unit have the Feel No Pain 5+ ability instead."
-        },
-        {
           "name": "Adrenal Surge",
           "cp": 2,
           "category": "Battle Tactic",
@@ -1022,15 +1012,14 @@
           "effect": "Until the end of the phase, each time a model in any of those selected units makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit."
         },
         {
-          "name": "Predatory Imperative",
+          "name": "Rapid Regeneration",
           "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "Up to two TYRANIDS units from your army that are within Synapse Range of your army, or one other TYRANIDS unit from your army.",
-          "effect": "Select one Hyper-adaptation. Until the start of your next Command phase, that Hyper-adaptation is active for those selected units in addition to any other that may be active for your army.",
-          "restrictions": "You cannot select the same Hyper-adaptation you selected at the start of the first battle round."
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability. If your unit is within Synapse Range of your army, models in your unit have the Feel No Pain 5+ ability instead."
         },
         {
           "name": "Overrun",
@@ -1061,6 +1050,17 @@
           "when": "Your Command phase.",
           "target": "Up to two Endless Multitude units from your army that are within Synapse Range of your army, or one other ENDLESS MULTITUDE unit from your army.",
           "effect": "You can return up to D3+3 destroyed models to each of the selected units."
+        },
+        {
+          "name": "Predatory Imperative",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Your Command phase.",
+          "target": "Up to two TYRANIDS units from your army that are within Synapse Range of your army, or one other TYRANIDS unit from your army.",
+          "effect": "Select one Hyper-adaptation. Until the start of your next Command phase, that Hyper-adaptation is active for those selected units in addition to any other that may be active for your army.",
+          "restrictions": "You cannot select the same Hyper-adaptation you selected at the start of the first battle round."
         }
       ]
     },
@@ -1092,14 +1092,14 @@
       ],
       "stratagems": [
         {
-          "name": "Enfilading Emergence",
+          "name": "Retreat Below",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "End of your Movement phase.",
-          "target": "One Tyranids unit from your army that was set up as Reinforcements this turn.",
-          "effect": "Until the end of your next Fight phase, weapons equipped by models in your unit have the [SUSTAINED HITS 1] and [IGNORES COVER] abilities."
+          "turn": "Opponent’s turn",
+          "phase": "Fight phase",
+          "when": "End of your opponent’s Fight phase.",
+          "target": "One Tyranids unit or up to two Burrower units from your army that are not within Engagement Range of one or more enemy units.",
+          "effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
         },
         {
           "name": "Tunnel Network",
@@ -1112,6 +1112,16 @@
           "effect": "Remove your unit from the battlefield and set it up again, wholly within 9\" of another Tunnel Marker you placed, and more than 6\" horizontally away from all enemy units."
         },
         {
+          "name": "Enfilading Emergence",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "End of your Movement phase.",
+          "target": "One Tyranids unit from your army that was set up as Reinforcements this turn.",
+          "effect": "Until the end of your next Fight phase, weapons equipped by models in your unit have the [SUSTAINED HITS 1] and [IGNORES COVER] abilities."
+        },
+        {
           "name": "Swarming Assault",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1120,16 +1130,6 @@
           "when": "Your Charge phase.",
           "target": "One Tyranids Monster unit from your army that was set up as Reinforcements this turn.",
           "effect": "Until the end of the phase, friendly Tyranids units within 6\" of your unit can re-roll Charge rolls."
-        },
-        {
-          "name": "Retreat Below",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Fight phase",
-          "when": "End of your opponent’s Fight phase.",
-          "target": "One Tyranids unit or up to two Burrower units from your army that are not within Engagement Range of one or more enemy units.",
-          "effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
         },
         {
           "name": "Replenishing Swarms",
@@ -1191,16 +1191,6 @@
           "effect": "Until the end of the phase, each time a friendly TYRANIDS model makes an attack that targets that enemy unit, if the attacking model’s unit is within 6\" of your SYNAPSE unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
         },
         {
-          "name": "Reinforced Hive Node",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Synapse unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
-        },
-        {
           "name": "Synaptic Channelling",
           "cp": 1,
           "category": "Battle Tactic",
@@ -1211,14 +1201,24 @@
           "effect": "Until the end of the turn, while a friendly TYRANIDS unit is within 9\" of the selected unit, that unit is within Synapse Range of your army."
         },
         {
-          "name": "Imperative Dominance",
+          "name": "Reinforced Hive Node",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One Synapse unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
+        },
+        {
+          "name": "The Smothering Shadow",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "One TYRANIDS unit from your army that is within Synapse Range of your army.",
-          "effect": "Select one Synaptic Imperative, even if you have already selected that imperative this battle. Until the start of your next Command phase, that Synaptic Imperative is active for your unit instead of any other Synaptic Imperative that is active for your army."
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, just after an enemy unit fails a Battle-shock test.",
+          "target": "One Synapse unit from your army within 12\" of that enemy unit.",
+          "effect": "Roll six D6: for each 3+, that enemy unit suffers 1 mortal wound."
         },
         {
           "name": "Override Instincts",
@@ -1231,14 +1231,14 @@
           "effect": "Your unit is eligible to shoot and declare a charge this turn."
         },
         {
-          "name": "The Smothering Shadow",
+          "name": "Imperative Dominance",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, just after an enemy unit fails a Battle-shock test.",
-          "target": "One Synapse unit from your army within 12\" of that enemy unit.",
-          "effect": "Roll six D6: for each 3+, that enemy unit suffers 1 mortal wound."
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Your Command phase.",
+          "target": "One TYRANIDS unit from your army that is within Synapse Range of your army.",
+          "effect": "Select one Synaptic Imperative, even if you have already selected that imperative this battle. Until the start of your next Command phase, that Synaptic Imperative is active for your unit instead of any other Synaptic Imperative that is active for your army."
         }
       ]
     },
@@ -1260,14 +1260,14 @@
       ],
       "stratagems": [
         {
-          "name": "Lesser Prey",
+          "name": "Catalytic Biofortification",
           "cp": 1,
           "category": "Talons of the Norn Queen",
           "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, when a friendly NORN ASSIMILATOR/NORN EMISSARY unit is selected to fight.",
-          "target": "That NORN ASSIMILATOR/NORN EMISSARY unit.",
-          "effect": "Your unit’s melee attacks have +2 S."
+          "phase": "Any phase",
+          "when": "Any phase, when a friendly NORN ASSIMILATOR unit suffers a mortal wound.",
+          "target": "That NORN ASSIMILATOR unit.",
+          "effect": "Your unit has Feel No Pain 4+ against mortal wounds."
         },
         {
           "name": "Tanglestrike Rounds",
@@ -1280,14 +1280,14 @@
           "effect": "Select one enemy unit hit by those attacks. That enemy unit is tethered until the start of your next Command phase:\nWhile a unit is tethered, that unit has -2\" M."
         },
         {
-          "name": "Catalytic Biofortification",
+          "name": "Lesser Prey",
           "cp": 1,
           "category": "Talons of the Norn Queen",
           "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, when a friendly NORN ASSIMILATOR unit suffers a mortal wound.",
-          "target": "That NORN ASSIMILATOR unit.",
-          "effect": "Your unit has Feel No Pain 4+ against mortal wounds."
+          "phase": "Fight phase",
+          "when": "Fight phase, when a friendly NORN ASSIMILATOR/NORN EMISSARY unit is selected to fight.",
+          "target": "That NORN ASSIMILATOR/NORN EMISSARY unit.",
+          "effect": "Your unit’s melee attacks have +2 S."
         }
       ]
     },
@@ -1319,14 +1319,14 @@
       ],
       "stratagems": [
         {
-          "name": "Bounding Advance",
+          "name": "Teeming Masses",
           "cp": 1,
           "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase.",
-          "target": "One Endless Multitude unit from your army.",
-          "effect": "Until the end of the phase, each time your unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit."
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One Endless Multitude unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
         },
         {
           "name": "Swarming Masses",
@@ -1339,24 +1339,24 @@
           "effect": "Until the end of the phase, weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability, and If your unit contains 15 or more models, each time a model in your unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit."
         },
         {
-          "name": "Teeming Masses",
+          "name": "Bounding Advance",
           "cp": 1,
           "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Endless Multitude unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase.",
+          "target": "One Endless Multitude unit from your army.",
+          "effect": "Until the end of the phase, each time your unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit."
         },
         {
-          "name": "Preservation Imperative",
+          "name": "Synaptic Goading",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One Endless Multitude unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, your unit is treated as containing fewer than five models for the purpose of the [BLAST] ability."
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, just before an Endless Multitude unit from your army that is within Synapse Range of your army makes a surge move.",
+          "target": "That ENDLESS MULTITUDE unit.",
+          "effect": "When making that surge move, you can re-roll the D6 to determine how far your unit moves, and your unit can end that move as close as possible to the closest objective marker (instead of as close as possible to the closest enemy unit]. All other rules for making surge moves still apply."
         },
         {
           "name": "Unending Waves",
@@ -1370,14 +1370,14 @@
           "restrictions": "Any destroyed Character units that were attached to your unit are not returned. You can only use this Stratagem once per battle."
         },
         {
-          "name": "Synaptic Goading",
+          "name": "Preservation Imperative",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, just before an Endless Multitude unit from your army that is within Synapse Range of your army makes a Surge move.",
-          "target": "That ENDLESS MULTITUDE unit.",
-          "effect": "When making that Surge move, you can re-roll the D6 to determine how far your unit moves, and your unit can end that move as close as possible to the closest objective marker (instead of as close as possible to the closest enemy unit]. All other rules for making Surge moves still apply."
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One Endless Multitude unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, your unit is treated as containing fewer than five models for the purpose of the [BLAST] ability."
         }
       ]
     },
@@ -1409,16 +1409,6 @@
       ],
       "stratagems": [
         {
-          "name": "Surprise Assault",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase, just after a Vanguard Invader unit from your army has selected its targets.",
-          "target": "That VANGUARD INVADER unit.",
-          "effect": "Select one enemy unit that was selected as the target of one or more of your unit’s attacks. That enemy unit must take a Battle-shock test. Until the end of the phase, each time a model in your unit makes an attack that targets that enemy unit, add 1 to the Hit roll. If the Battle-shock test was failed, add 1 to the Wound roll as well."
-        },
-        {
           "name": "Assassin Beasts",
           "cp": 1,
           "category": "Battle Tactic",
@@ -1429,6 +1419,16 @@
           "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [PRECISION] ability."
         },
         {
+          "name": "Surprise Assault",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase, just after a Vanguard Invader unit from your army has selected its targets.",
+          "target": "That VANGUARD INVADER unit.",
+          "effect": "Select one enemy unit that was selected as the target of one or more of your unit’s attacks. That enemy unit must take a Battle-shock test. Until the end of the phase, each time a model in your unit makes an attack that targets that enemy unit, add 1 to the Hit roll. If the Battle-shock test was failed, add 1 to the Wound roll as well."
+        },
+        {
           "name": "Seeded Broods",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1437,16 +1437,6 @@
           "when": "Your Movement phase.",
           "target": "One TYRANIDS unit from your army that is in Reserves, or up to two Vanguard Invader units from your army that are in Reserves.",
           "effect": "Until the end of the phase, for the purposes of setting up those selected units on the battlefield, treat the current battle round number as being one higher than it actually is."
-        },
-        {
-          "name": "Unseen Lurkers",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One Vanguard Invader unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\" or, if your unit has the Lone Operative ability, if the attacking model is within 6\". Your opponent can select new targets for the attacking unit’s attacks."
         },
         {
           "name": "Invisible Hunter",
@@ -1469,6 +1459,16 @@
           "target": "Up to two Vanguard Invader units from your army that are within 8\" of that enemy unit, or one other Tyranids Infantry unit from your army that is within 8\" of that enemy unit.",
           "effect": "Those selected units can each make a Normal move of up to 6\".",
           "restrictions": "You cannot target units that are within Engagement Range of one or more enemy units."
+        },
+        {
+          "name": "Unseen Lurkers",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One Vanguard Invader unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\" or, if your unit has the Lone Operative ability, if the attacking model is within 6\". Your opponent can select new targets for the attacking unit’s attacks."
         }
       ]
     },
@@ -1500,16 +1500,6 @@
           "effect": "Attacks that target your unit with a S greater than your unit’s T have -1 to wound rolls."
         },
         {
-          "name": "Synaptic Micronodes",
-          "cp": 1,
-          "category": "Warrior Bioform Onslaught",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "End of your Movement phase.",
-          "target": "One friendly TYRANID WARRIORS unit.",
-          "effect": "Select one objective your unit is controlling. That objective is secured."
-        },
-        {
           "name": "Parasitic Payload",
           "cp": 1,
           "category": "Warrior Bioform Onslaught",
@@ -1518,6 +1508,16 @@
           "when": "Your Shooting phase, when a friendly TYRANID WARRIORS unit is selected to shoot.",
           "target": "That TYRANID WARRIORS unit.",
           "effect": "Your unit’s ranged attacks have [IGNORE COVER]."
+        },
+        {
+          "name": "Synaptic Micronodes",
+          "cp": 1,
+          "category": "Warrior Bioform Onslaught",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "End of your Movement phase.",
+          "target": "One friendly TYRANID WARRIORS unit.",
+          "effect": "Select one objective your unit is controlling. That objective is secured."
         }
       ]
     }

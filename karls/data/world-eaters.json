@@ -2,7 +2,7 @@
   "slug": "world-eaters",
   "name": "World Eaters",
   "version": "v1.3",
-  "fetchedAt": "2026-08-28T15:30:44.695Z",
+  "fetchedAt": "2026-09-01T22:43:02.563Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -760,16 +760,6 @@
       ],
       "stratagems": [
         {
-          "name": "Frenzied Resilience",
-          "cp": 2,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One World Eaters unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack."
-        },
-        {
           "name": "Hack And Slash",
           "cp": 1,
           "category": "Battle Tactic",
@@ -778,6 +768,16 @@
           "when": "Fight phase.",
           "target": "One World Eaters unit from your army that has not been selected to fight this phase and that made a charge move this turn.",
           "effect": "Until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1."
+        },
+        {
+          "name": "Frenzied Resilience",
+          "cp": 2,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One World Eaters unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack."
         },
         {
           "name": "Blood Offering",
@@ -790,16 +790,6 @@
           "effect": "Select one of those objective markers. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
         },
         {
-          "name": "Skulls For The Skull Throne!",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after a WORLD EATERS unit from your army destroys a CHARACTER or MONSTER model.",
-          "target": "That World Eaters unit.",
-          "effect": "Make a Blessings of Khorne roll and use the results to activate one Blessing of Khorne. Until the end of the battle round, that Blessing of Khorne is active in addition to any other Blessings of Khorne that are currently active."
-        },
-        {
           "name": "Berzerker’s Wrath",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -808,6 +798,16 @@
           "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
           "target": "One KHORNE BERZERKERS unit from your army that can make a surge move as a result of those attacks.",
           "effect": "Do not roll a D6 to determine how far models in your unit can move when they make a surge move. Instead, when making a surge move, those models can move up to 8\"."
+        },
+        {
+          "name": "Skulls For The Skull Throne!",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, just after a WORLD EATERS unit from your army destroys a CHARACTER or MONSTER model.",
+          "target": "That World Eaters unit.",
+          "effect": "Make a Blessings of Khorne roll and use the results to activate one Blessing of Khorne. Until the end of the battle round, that Blessing of Khorne is active in addition to any other Blessings of Khorne that are currently active."
         },
         {
           "name": "Apoplectic Frenzy",
@@ -849,16 +849,6 @@
           "effect": "Your unit has MOBILE."
         },
         {
-          "name": "Apoplectic Clarity",
-          "cp": 1,
-          "category": "Brazen Engines",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase, when a friendly DAEMON VEHICLE unit is selected to attack.",
-          "target": "That DAEMON VEHICLE unit.",
-          "effect": "Your unit’s attacks can ignore modifiers to:\nBS.WS.Hit rolls and wound rolls."
-        },
-        {
           "name": "Goaded To Fury",
           "cp": 1,
           "category": "Brazen Engines",
@@ -867,6 +857,16 @@
           "when": "Your opponent’s Shooting phase, when an enemy unit that targeted a friendly unengaged DAEMON VEHICLE unit (excluding TITANIC units) has shot.",
           "target": "That DAEMON VEHICLE unit.",
           "effect": "Your unit can make a surge move of up to D6\"."
+        },
+        {
+          "name": "Apoplectic Clarity",
+          "cp": 1,
+          "category": "Brazen Engines",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase, when a friendly DAEMON VEHICLE unit is selected to attack.",
+          "target": "That DAEMON VEHICLE unit.",
+          "effect": "Your unit’s attacks can ignore modifiers to:\nBS.WS.Hit rolls and wound rolls."
         }
       ]
     },
@@ -888,16 +888,6 @@
       ],
       "stratagems": [
         {
-          "name": "Wrath Beyond Reason",
-          "cp": 2,
-          "category": "Butchers of Khorne",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting Phase, when an enemy unit targets a friendly TERMINATOR SQUAD unit.",
-          "target": "That TERMINATOR SQUAD unit.",
-          "effect": "Ranged attacks that target your unit have -1 D until that enemy unit has attacked."
-        },
-        {
           "name": "A Trophy For The Throne",
           "cp": 1,
           "category": "Butchers of Khorne",
@@ -916,6 +906,16 @@
           "when": "Fight phase, when a friendly TERMINATOR SQUAD unit is selected to fight.",
           "target": "That TERMINATOR SQUAD unit.",
           "effect": "Your unit’s melee attacks have +1 A."
+        },
+        {
+          "name": "Wrath Beyond Reason",
+          "cp": 2,
+          "category": "Butchers of Khorne",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting Phase, when an enemy unit targets a friendly TERMINATOR SQUAD unit.",
+          "target": "That TERMINATOR SQUAD unit.",
+          "effect": "Ranged attacks that target your unit have -1 D until that enemy unit has attacked."
         }
       ]
     },
@@ -978,6 +978,16 @@
           "effect": "Until the end of the battle, each time a model in a Jakhals or Goremongers unit from your army makes an attack that targets the enemy unit that just destroyed your unit, you can re-roll the Hit roll."
         },
         {
+          "name": "Fail Not The Blood God",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase.",
+          "target": "One Jakhals or Goremongers unit from your army.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1. If that model’s unit is within 6\" of one or more friendly World Eaters Monster units, or within 9\" of one or more friendly World Eaters Titanic units, you can re-roll the Hit roll instead."
+        },
+        {
           "name": "In The Shadow Of Brass Idols",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -997,16 +1007,6 @@
           "target": "One Jakhals unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
           "effect": "Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength.",
           "restrictions": "This Stratagem cannot be used to return destroyed Character units to Attached units. You can only use this Stratagem once per battle."
-        },
-        {
-          "name": "Fail Not The Blood God",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One Jakhals or Goremongers unit from your army.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1. If that model’s unit is within 6\" of one or more friendly World Eaters Monster units, or within 9\" of one or more friendly World Eaters Titanic units, you can re-roll the Hit roll instead."
         }
       ]
     },
@@ -1038,6 +1038,36 @@
       ],
       "stratagems": [
         {
+          "name": "Fury Unleashed",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
+          "target": "One WORLD EATERS RHINO model from your army that has one or more wounds remaining and was hit by one or more of the attacking unit’s attacks.",
+          "effect": "One KHORNE BERZERKERS unit embarked within your model can make a disembark move and then make a surge move of up to D6+2\".\n\nRESTRICTION: A unit cannot be targeted by this Stratagem and the Unrelenting Advance Stratagem in the same phase."
+        },
+        {
+          "name": "Aggressive Disembarkation",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase.",
+          "target": "One World Eaters Rhino model from your army that has not been selected to move this phase.",
+          "effect": "One WORLD EATERS unit embarked within your RHINO can disembark. When doing so, models in that unit can be set up anywhere on the battlefield wholly within 6\" of your RHINO and can be set up within Engagement Range of one or more enemy units."
+        },
+        {
+          "name": "Full-Throttle Assault",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase.",
+          "target": "One World Eaters Rhino model from your army that has not been selected to move this phase.",
+          "effect": "Until the end of the phase, each time a WORLD EATERS unit disembarks from that model after it has made a Normal move, that unit makes an assault disembark move (Core Rules, 18.06) for that disembarkation."
+        },
+        {
           "name": "Unrelenting Advance",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1059,16 +1089,6 @@
           "effect": "If your WORLD EATERS INFANTRY unit is wholly within 6\" of that TRANSPORT, it can embark within it."
         },
         {
-          "name": "Fury Unleashed",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
-          "target": "One WORLD EATERS RHINO model from your army that has one or more wounds remaining and was hit by one or more of the attacking unit’s attacks.",
-          "effect": "One KHORNE BERZERKERS unit embarked within your model can make a disembark move and then make a surge move of up to D6+2\".\n\nRESTRICTION: A unit cannot be targeted by this Stratagem and the Unrelenting Advance Stratagem in the same phase."
-        },
-        {
           "name": "Smash Through",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1077,26 +1097,6 @@
           "when": "Your Movement phase.",
           "target": "One World Eaters Vehicle model from your army that has not been selected to move this phase.",
           "effect": "Until the end of the phase, each time your unit makes a Normal or Advance move, it can move horizontally through terrain features."
-        },
-        {
-          "name": "Aggressive Disembarkation",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase.",
-          "target": "One World Eaters Rhino model from your army that has not been selected to move this phase.",
-          "effect": "One WORLD EATERS unit embarked within your RHINO can disembark. When doing so, models in that unit can be set up anywhere on the battlefield wholly within 6\" of your RHINO and can be set up within Engagement Range of one or more enemy units."
-        },
-        {
-          "name": "Full-Throttle Assault",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase.",
-          "target": "One World Eaters Rhino model from your army that has not been selected to move this phase.",
-          "effect": "Until the end of the phase, each time a WORLD EATERS unit disembarks from that model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
         }
       ]
     },
@@ -1158,17 +1158,6 @@
           "effect": "You gain D3BTP and you can then spend one or more BTP you have to activate one of the Blood Tithe abilities."
         },
         {
-          "name": "Summoned By Slaughter",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, when the last model in a unit is destroyed, before removing it from play. (If that unit is a Transport, any units embarked within that TRANSPORT model must disembark first.)",
-          "target": "One Bloodletters unit from your army that is in Reserves.",
-          "effect": "Set your unit up anywhere on the battlefield wholly within 9\" of that destroyed model and more than 6\" horizontally away from all enemy units, then remove the destroyed model from play.",
-          "restrictions": "You cannot use this Stratagem more than once per battle round."
-        },
-        {
           "name": "Daemontide",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1178,6 +1167,17 @@
           "target": "One World Eaters unit from your army.",
           "effect": "Select one friendly Blood Legions unit within 6\" of your unit. One destroyed Mounted model, up to D3 destroyed Beast models, or up to D6 destroyed Infantry models are returned to that BLOOD LEGIONS unit with their full wounds remaining.",
           "restrictions": "This Stratagem cannot be used to return destroyed Character models to Attached units."
+        },
+        {
+          "name": "Summoned By Slaughter",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, when the last model in a unit is destroyed, before removing it from play. (If that unit is a Transport, any units embarked within that TRANSPORT model must disembark first.)",
+          "target": "One Bloodletters unit from your army that is in Reserves.",
+          "effect": "Set your unit up anywhere on the battlefield wholly within 9\" of that destroyed model and more than 6\" horizontally away from all enemy units, then remove the destroyed model from play.",
+          "restrictions": "You cannot use this Stratagem more than once per battle round."
         },
         {
           "name": "Murder-Call",

@@ -2,7 +2,7 @@
   "slug": "grey-knights",
   "name": "Grey Knights",
   "version": "v1.3",
-  "fetchedAt": "2026-08-28T15:30:44.695Z",
+  "fetchedAt": "2026-09-01T22:43:02.563Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -537,16 +537,6 @@
           "effect": "Your unit’s attacks can re-roll hit rolls."
         },
         {
-          "name": "Redirected Strike",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "End of your Command phase.",
-          "target": "One Grey Knights Psyker unit from your army that is not within Engagement Range of one or more enemy units.",
-          "effect": "If your unit has the Deep Strike ability, it can be placed into Strategic Reserves.\n\nDesigner’s Note: This Stratagem lets players utilise abilities that retain control of objective markers and react to their missions and objectives with this unit."
-        },
-        {
           "name": "Necessary End",
           "cp": 1,
           "category": "Epic Deed",
@@ -565,6 +555,16 @@
           "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
           "target": "One Grey Knights Walker unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Redirected Strike",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "End of your Command phase.",
+          "target": "One Grey Knights Psyker unit from your army that is not within Engagement Range of one or more enemy units.",
+          "effect": "If your unit has the Deep Strike ability, it can be placed into Strategic Reserves.\n\nDesigner’s Note: This Stratagem lets players utilise abilities that retain control of objective markers and react to their missions and objectives with this unit."
         },
         {
           "name": "Mirage Of Echoes",
@@ -606,14 +606,34 @@
       ],
       "stratagems": [
         {
-          "name": "Circle Of Sanctuary",
+          "name": "Chaos Bane",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One Grey Knights Psyker unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [ANTI-CHAOS 4+] ability."
+        },
+        {
+          "name": "Celerity",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Your turn",
+          "phase": "Charge phase",
+          "when": "Your Charge phase.",
+          "target": "One Grey Knights Psyker Infantry unit from your army.",
+          "effect": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced."
+        },
+        {
+          "name": "Shadow Of Anarch",
           "cp": 1,
           "category": "Epic Deed",
           "turn": "Opponent’s turn",
           "phase": "Movement phase",
-          "when": "Start of your opponent’s Movement phase.",
-          "target": "One Grey Knights Character model from your army.",
-          "effect": "Until the end of the phase, enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" horizontally of your model."
+          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+          "target": "One Grey Knights Psyker unit from your army that is within 8\" of that enemy unit and is not within Engagement Range of one or more enemy units.",
+          "effect": "Your unit can make a Normal move of up to 6\" or, if it has the Deep Strike ability, it can be placed into Strategic Reserves."
         },
         {
           "name": "Hexwrought Reprisal",
@@ -636,34 +656,14 @@
           "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against attacks with an unmodified Damage characteristic of 1."
         },
         {
-          "name": "Chaos Bane",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Grey Knights Psyker unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [ANTI-CHAOS 4+] ability."
-        },
-        {
-          "name": "Shadow Of Anarch",
+          "name": "Circle Of Sanctuary",
           "cp": 1,
           "category": "Epic Deed",
           "turn": "Opponent’s turn",
           "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
-          "target": "One Grey Knights Psyker unit from your army that is within 8\" of that enemy unit and is not within Engagement Range of one or more enemy units.",
-          "effect": "Your unit can make a Normal move of up to 6\" or, if it has the Deep Strike ability, it can be placed into Strategic Reserves."
-        },
-        {
-          "name": "Celerity",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Your turn",
-          "phase": "Charge phase",
-          "when": "Your Charge phase.",
-          "target": "One Grey Knights Psyker Infantry unit from your army.",
-          "effect": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced."
+          "when": "Start of your opponent’s Movement phase.",
+          "target": "One Grey Knights Character model from your army.",
+          "effect": "Until the end of the phase, enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" horizontally of your model."
         }
       ]
     },
@@ -735,16 +735,6 @@
           "effect": "If your unit has the Deep Strike ability, it can be placed into Strategic Reserves."
         },
         {
-          "name": "Expeditious Exit",
-          "cp": 2,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Fight phase",
-          "when": "End of your opponent’s Fight phase.",
-          "target": "One Grey Knights Psyker Infantry unit from your army.",
-          "effect": "If every model in your unit has the Deep Strike ability, remove your unit from the battlefield and place it into Strategic Reserves.\n\nDesigner’s Note: This Stratagem allows you to remove a unit in addition to those removed using the Gate of Infinity rule, and it allows you to remove a unit within Engagement Range of one or more enemy units."
-        },
-        {
           "name": "Truesilver Channelling",
           "cp": 2,
           "category": "Strategic Ploy",
@@ -753,6 +743,16 @@
           "when": "Fight phase.",
           "target": "One Grey Knights Infantry unit from your army that has not been selected to fight this phase.",
           "effect": "Until the end of the phase, Psychic weapons equipped by models in your unit have the [DEVASTATING WOUNDS] ability."
+        },
+        {
+          "name": "Expeditious Exit",
+          "cp": 2,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Fight phase",
+          "when": "End of your opponent’s Fight phase.",
+          "target": "One Grey Knights Psyker Infantry unit from your army.",
+          "effect": "If every model in your unit has the Deep Strike ability, remove your unit from the battlefield and place it into Strategic Reserves.\n\nDesigner’s Note: This Stratagem allows you to remove a unit in addition to those removed using the Gate of Infinity rule, and it allows you to remove a unit within Engagement Range of one or more enemy units."
         }
       ]
     },
@@ -774,6 +774,16 @@
       ],
       "stratagems": [
         {
+          "name": "Spiritsear",
+          "cp": 1,
+          "category": "Fires of Purgation",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly PURGATION SQUAD unit has shot.",
+          "target": "That PURGATION SQUAD unit.",
+          "effect": "Select one battle-shocked enemy unit hit by those attacks. That enemy unit suffers D3+1 mortal wounds."
+        },
+        {
           "name": "Focused Immolation",
           "cp": 1,
           "category": "Fires of Purgation",
@@ -792,16 +802,6 @@
           "when": "Your Movement phase, when a friendly PURGATION SQUAD unit is selected to make a fall-back move.",
           "target": "That PURGATION SQUAD unit.",
           "effect": "That move does not prevent your unit from being eligible to shoot."
-        },
-        {
-          "name": "Spiritsear",
-          "cp": 1,
-          "category": "Fires of Purgation",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase, when a friendly PURGATION SQUAD unit has shot.",
-          "target": "That PURGATION SQUAD unit.",
-          "effect": "Select one battle-shocked enemy unit hit by those attacks. That enemy unit suffers D3+1 mortal wounds."
         }
       ]
     },
@@ -843,6 +843,16 @@
           "effect": "Until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in your unit."
         },
         {
+          "name": "Shining Resolve",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One Grey Knights Infantry unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
+        },
+        {
           "name": "Precognitive Strategies",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -863,16 +873,6 @@
           "effect": "Select one enemy unit within Engagement Range of your unit, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
         },
         {
-          "name": "Unending Fidelity",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Grey Knights Infantry unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not shot or fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can shoot or fight after the attacking unit has finished making its attacks, and is then removed from play."
-        },
-        {
           "name": "Point-Blank Purgation",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -883,14 +883,14 @@
           "effect": "Until the end of the phase, storm bolter weapons equipped by models in your unit have the [PISTOL] and [TWIN-LINKED] abilities."
         },
         {
-          "name": "Shining Resolve",
+          "name": "Unending Fidelity",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
           "target": "One Grey Knights Infantry unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
+          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not shot or fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can shoot or fight after the attacking unit has finished making its attacks, and is then removed from play."
         }
       ]
     },
@@ -912,16 +912,6 @@
       ],
       "stratagems": [
         {
-          "name": "Responsive Displacement",
-          "cp": 1,
-          "category": "Immaterial Interdiction",
-          "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, when an enemy unit that was engaged with a friendly INTERCEPTOR SQUAD unit ends a fall-back move, if that INTERCEPTOR SQUAD unit is unengaged.",
-          "target": "That INTERCEPTOR SQUAD unit.",
-          "effect": "Your unit can make a normal move of up to D3+3\"."
-        },
-        {
           "name": "Blades From The Beyond",
           "cp": 1,
           "category": "Immaterial Interdiction",
@@ -930,6 +920,16 @@
           "when": "Fight phase, when a friendly INTERCEPTOR SQUAD unit that made a charge move this turn is selected to fight.",
           "target": "That INTERCEPTOR SQUAD unit.",
           "effect": "Your unit’s melee attacks have [LANCE]."
+        },
+        {
+          "name": "Responsive Displacement",
+          "cp": 1,
+          "category": "Immaterial Interdiction",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, when an enemy unit that was engaged with a friendly INTERCEPTOR SQUAD unit ends a fall-back move, if that INTERCEPTOR SQUAD unit is unengaged.",
+          "target": "That INTERCEPTOR SQUAD unit.",
+          "effect": "Your unit can make a normal move of up to D3+3\"."
         },
         {
           "name": "By Thought Alone",
@@ -1060,16 +1060,6 @@
       ],
       "stratagems": [
         {
-          "name": "Repelling Sphere",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Opponent’s turn",
-          "phase": "Charge phase",
-          "when": "Start of your opponent’s Charge phase.",
-          "target": "One Grey Knights Infantry unit from your army.",
-          "effect": "Until the end of the phase, each time an enemy unit declares a charge and your unit is one of the targets of that charge, subtract 1 from the Charge roll, or subtract 2 instead if your unit is wholly within your army’s Hallowed Ground."
-        },
-        {
           "name": "Aegis Eternal",
           "cp": 1,
           "category": "Battle Tactic",
@@ -1078,6 +1068,26 @@
           "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
           "target": "One Grey Knights Infantry unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, models in your unit that are wholly within your Hallowed Ground have a 4+ invulnerable save."
+        },
+        {
+          "name": "Hallowed Beacon",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Reinforcements step of your Movement phase.",
+          "target": "One Grey Knights Infantry unit (excluding Terminator units) that is arriving using the Deep Strike ability this phase.",
+          "effect": "Set up your unit wholly within your army’s Hallowed Ground and more than 6\" horizontally away from all enemy units."
+        },
+        {
+          "name": "Repelling Sphere",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Opponent’s turn",
+          "phase": "Charge phase",
+          "when": "Start of your opponent’s Charge phase.",
+          "target": "One Grey Knights Infantry unit from your army.",
+          "effect": "Until the end of the phase, each time an enemy unit declares a charge and your unit is one of the targets of that charge, subtract 1 from the Charge roll, or subtract 2 instead if your unit is wholly within your army’s Hallowed Ground."
         },
         {
           "name": "Sanctified Kill Zone",
@@ -1098,16 +1108,6 @@
           "when": "Start of your opponent’s Movement phase.",
           "target": "One Grey Knights Infantry unit from your army.",
           "effect": "Until the end of the phase, each time an enemy unit is set up or ends a Normal, Advance or Fall Back move within 6\" of your unit, roll one D6, adding 2 to the result if your unit is wholly within your army’s Hallowed Ground: on a 4+, that enemy unit suffers D3 mortal wounds."
-        },
-        {
-          "name": "Hallowed Beacon",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Reinforcements step of your Movement phase.",
-          "target": "One Grey Knights Infantry unit (excluding Terminator units) that is arriving using the Deep Strike ability this phase.",
-          "effect": "Set up your unit wholly within your army’s Hallowed Ground and more than 6\" horizontally away from all enemy units."
         },
         {
           "name": "Flames Of Sanctity",
