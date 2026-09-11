@@ -1,8 +1,8 @@
 {
   "slug": "emperors-children",
   "name": "Emperor’s Children",
-  "version": "v1.3",
-  "fetchedAt": "2026-09-01T22:43:02.563Z",
+  "version": "v1.4",
+  "fetchedAt": "2026-09-11T22:58:23.779Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -534,6 +534,16 @@
       ],
       "stratagems": [
         {
+          "name": "Sustained By Agony",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, just after an Emperor’s Children unit from your army destroys an enemy unit.",
+          "target": "That EMPEROR’S CHILDREN unit.",
+          "effect": "Select one friendly Legions of Excess unit within 6\" of your unit. One model in that LEGIONS OF EXCESS unit recovers up to 3 lost wounds or, if it is a Daemonettes unit, return upto D3+3 destroyed models to it instead."
+        },
+        {
           "name": "Sycophantic Surge",
           "cp": 1,
           "category": "Battle Tactic",
@@ -554,24 +564,14 @@
           "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
         },
         {
-          "name": "Sustained By Agony",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after an Emperor’s Children unit from your army destroys an enemy unit.",
-          "target": "That EMPEROR’S CHILDREN unit.",
-          "effect": "Select one friendly Legions of Excess unit within 6\" of your unit. One model in that LEGIONS OF EXCESS unit recovers up to 3 lost wounds or, if it is a Daemonettes unit, return upto D3+3 destroyed models to it instead."
-        },
-        {
-          "name": "Dark Apparitions",
+          "name": "Violent Crescendo",
           "cp": 2,
           "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
+          "turn": "Either player’s turn",
           "phase": "Fight phase",
-          "when": "End of your opponent’s Fight phase.",
-          "target": "One Daemonettes unit from your army that is not within Engagement Range of one or more enemy units.",
-          "effect": "Remove your unit from the battlefield and place it into Strategic Reserves. If it arrives back on the battlefield in the Reinforcements step of your next Movement phase using the Deep Strike ability, it can be set up anywhere that is more than 6\" horizontally away from all enemy units (instead of more than 8\"), provided it is also set up wholly within 8\" of one or more friendly Emperor’s Children units."
+          "when": "Fight phase.",
+          "target": "One Slaanesh Beasts, Slaanesh Infantry or SLAANESH Mounted unit from your army that has not been selected to fight this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\". When doing so, it does not need to end that move closer to the closest enemy model, provided it ends that move as close as possible to the closest enemy unit."
         },
         {
           "name": "Ecstatic Slaughter",
@@ -584,14 +584,14 @@
           "effect": "Your EMPEROR’S CHILDREN unit can declare a charge. If it does so and it has already been selected to fight this phase, it cannot fight again this phase."
         },
         {
-          "name": "Violent Crescendo",
+          "name": "Dark Apparitions",
           "cp": 2,
           "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
+          "turn": "Opponent’s turn",
           "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One Slaanesh Beasts, Slaanesh Infantry or SLAANESH Mounted unit from your army that has not been selected to fight this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\". When doing so, it does not need to end that move closer to the closest enemy model, provided it ends that move as close as possible to the closest enemy unit."
+          "when": "End of your opponent’s Fight phase.",
+          "target": "One Daemonettes unit from your army that is not within Engagement Range of one or more enemy units.",
+          "effect": "Remove your unit from the battlefield and place it into Strategic Reserves. If it arrives back on the battlefield in the Reinforcements step of your next Movement phase using the Deep Strike ability, it can be set up anywhere that is more than 6\" horizontally away from all enemy units (instead of more than 8\"), provided it is also set up wholly within 8\" of one or more friendly Emperor’s Children units."
         }
       ]
     },
@@ -633,6 +633,16 @@
           "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll."
         },
         {
+          "name": "Unshakeable Opponents",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Either player’s turn",
+          "phase": "Command phase",
+          "when": "Command phase.",
+          "target": "One Emperor’s Children unit from your army.",
+          "effect": "Until the end of the turn, each time a model in your unit makes an attack, you can ignore any or all modifiers to the following: that attack’s Ballistic Skill or Weapon Skill characteristic; the Hit roll; the Wound roll."
+        },
+        {
           "name": "Unbound Arrogance",
           "cp": 1,
           "category": "Epic Deed",
@@ -644,14 +654,14 @@
           "restrictions": "You can only use this Stratagem once per battle round."
         },
         {
-          "name": "Unshakeable Opponents",
+          "name": "Protection Of The Dark Prince",
           "cp": 1,
-          "category": "Epic Deed",
+          "category": "Strategic Ploy",
           "turn": "Either player’s turn",
-          "phase": "Command phase",
-          "when": "Command phase.",
-          "target": "One Emperor’s Children unit from your army.",
-          "effect": "Until the end of the turn, each time a model in your unit makes an attack, you can ignore any or all modifiers to the following: that attack’s Ballistic Skill or Weapon Skill characteristic; the Hit roll; the Wound roll."
+          "phase": "Any phase",
+          "when": "Any phase, just after a mortal wound or attack is allocated to a model in an Emperor’s Children unit from your army.",
+          "target": "That EMPEROR’S CHILDREN unit.",
+          "effect": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability, and the Feel No Pain 4+ ability against mortal wounds."
         },
         {
           "name": "Embrace The Pain",
@@ -662,16 +672,6 @@
           "when": "Start of the Fight phase.",
           "target": "One Emperor’s Children Infantry unit from your army.",
           "effect": "Until the end of the phase, each time an enemy model within Engagement Range of your unit selects targets, it must select your unit as the target of its attacks."
-        },
-        {
-          "name": "Protection Of The Dark Prince",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, just after a mortal wound or attack is allocated to a model in an Emperor’s Children unit from your army.",
-          "target": "That EMPEROR’S CHILDREN unit.",
-          "effect": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability, and the Feel No Pain 4+ ability against mortal wounds."
         },
         {
           "name": "Armour Of Abhorrence",
@@ -713,14 +713,14 @@
       ],
       "stratagems": [
         {
-          "name": "Close-Quarters Excruciation",
+          "name": "Contemptuous Disregard",
           "cp": 1,
           "category": "Court of the Phoenician",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Emperor’s Children unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, each time an EMPEROR’S CHILDREN model in your unit makes an attack that targets an eligible unit within 12\", improve the Strength and Armour Penetration characteristics of that attack by 1."
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase.",
+          "target": "One Emperor’s Children unit from your army.",
+          "effect": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
         },
         {
           "name": "Prideful Superiority",
@@ -733,24 +733,14 @@
           "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a CHARACTER unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
         },
         {
-          "name": "Contemptuous Disregard",
-          "cp": 1,
-          "category": "Court of the Phoenician",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase.",
-          "target": "One Emperor’s Children unit from your army.",
-          "effect": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
-        },
-        {
-          "name": "Sinuous Breach",
+          "name": "Close-Quarters Excruciation",
           "cp": 1,
           "category": "Court of the Phoenician",
           "turn": "Your turn",
-          "phase": "Movement or Charge phase",
-          "when": "Your Movement phase or your Charge phase.",
-          "target": "One Emperor’s Children Daemon unit from your army that has not been selected to move or charge this phase.",
-          "effect": "Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features."
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One Emperor’s Children unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, each time an EMPEROR’S CHILDREN model in your unit makes an attack that targets an eligible unit within 12\", improve the Strength and Armour Penetration characteristics of that attack by 1."
         },
         {
           "name": "Euphoric Inspiration",
@@ -761,6 +751,16 @@
           "when": "Your Charge phase.",
           "target": "One Emperor’s Children Daemon unit from your army.",
           "effect": "Until the end of the phase, you can re-roll Charge rolls for friendly Emperor’s Children units within 6\" of your unit."
+        },
+        {
+          "name": "Sinuous Breach",
+          "cp": 1,
+          "category": "Court of the Phoenician",
+          "turn": "Your turn",
+          "phase": "Movement or Charge phase",
+          "when": "Your Movement phase or your Charge phase.",
+          "target": "One Emperor’s Children Daemon unit from your army that has not been selected to move or charge this phase.",
+          "effect": "Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features."
         },
         {
           "name": "Catalytic Stimulus",
@@ -900,16 +900,6 @@
       ],
       "stratagems": [
         {
-          "name": "Capricious Reactions",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One Emperor’s Children unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
-        },
-        {
           "name": "Honour The Prince",
           "cp": 1,
           "category": "Battle Tactic",
@@ -920,14 +910,14 @@
           "effect": "Until the end of the phase, if your unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit."
         },
         {
-          "name": "Violent Excess",
+          "name": "Capricious Reactions",
           "cp": 1,
           "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One Emperor’s Children unit from your army that has not been selected to fight this phase.",
-          "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability."
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One Emperor’s Children unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
         },
         {
           "name": "Combat Stimms",
@@ -940,14 +930,14 @@
           "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll."
         },
         {
-          "name": "Cruel Raiders",
+          "name": "Violent Excess",
           "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
           "phase": "Fight phase",
-          "when": "End of your opponent’s Fight phase.",
-          "target": "One Emperor’s Children unit from your army that is wholly within 9\" of one or more battlefield edges and not within 3\" horizontally of one or more enemy units.",
-          "effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
+          "when": "Fight phase.",
+          "target": "One Emperor’s Children unit from your army that has not been selected to fight this phase.",
+          "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability."
         },
         {
           "name": "Dark Vigour",
@@ -958,6 +948,16 @@
           "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
           "target": "One Emperor’s Children unit from your army (excluding Beasts and Vehicles) that is within 8\" of the enemy unit that just ended that move.",
           "effect": "Your unit can make a Normal move of up to 6\"."
+        },
+        {
+          "name": "Cruel Raiders",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Fight phase",
+          "when": "End of your opponent’s Fight phase.",
+          "target": "One Emperor’s Children unit from your army that is wholly within 9\" of one or more battlefield edges and not within 3\" horizontally of one or more enemy units.",
+          "effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
         }
       ]
     },
@@ -989,16 +989,6 @@
       ],
       "stratagems": [
         {
-          "name": "Deft Parry",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Emperor’s Children unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
-        },
-        {
           "name": "Incessant Violence",
           "cp": 1,
           "category": "Battle Tactic",
@@ -1019,6 +1009,26 @@
           "effect": "Until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1."
         },
         {
+          "name": "Deft Parry",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One Emperor’s Children unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Terrifying Spectacle",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Command phase",
+          "when": "Your opponent’s Command phase.",
+          "target": "One Emperor’s Children unit from your army that made a Charge move in the previous turn and destroyed one or more enemy units in the previous Fight phase.",
+          "effect": "Each enemy unit within 6\" of your unit must take a Battle-shock test, subtracting 1 from that test if they are Below Half-strength. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase."
+        },
+        {
           "name": "Cut Down The Weak",
           "cp": 2,
           "category": "Strategic Ploy",
@@ -1037,16 +1047,6 @@
           "when": "Fight phase, just after an enemy unit has selected its targets.",
           "target": "One Emperor’s Children unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
-        },
-        {
-          "name": "Terrifying Spectacle",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Command phase",
-          "when": "Your opponent’s Command phase.",
-          "target": "One Emperor’s Children unit from your army that made a Charge move in the previous turn and destroyed one or more enemy units in the previous Fight phase.",
-          "effect": "Each enemy unit within 6\" of your unit must take a Battle-shock test, subtracting 1 from that test if they are Below Half-strength. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase."
         }
       ]
     },
@@ -1088,14 +1088,14 @@
           "effect": "Until the end of the phase, each time a model in your unit makes a move, it can move through enemy models (excluding MONSTERS and VEHICLES). When doing so, it can move within Engagement Range of such models but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
         },
         {
-          "name": "Onto The Next",
+          "name": "Outflanking Strike",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
+          "turn": "Opponent’s turn",
           "phase": "Fight phase",
-          "when": "End of the Fight phase.",
-          "target": "One EMPEROR’S CHILDREN unit from your army that destroyed an enemy unit this phase, and one friendly TRANSPORT it is able to embark within.",
-          "effect": "If your EMPEROR’S CHILDREN unit is wholly within 6\" of that TRANSPORT, it can embark within it. Your unit can embark within that TRANSPORT in a turn it disembarked from a TRANSPORT."
+          "when": "End of your opponent’s Fight phase.",
+          "target": "One Emperor’s Children Transport from your army, or up to two Emperor’s Children Dedicated Transports from your army.",
+          "effect": "For each of those TRANSPORTS wholly within 9\" of one or more battlefield edges, remove it from the battlefield and place it into Strategic Reserves."
         },
         {
           "name": "Advance And Claim",
@@ -1106,6 +1106,16 @@
           "when": "Your Command phase.",
           "target": "One Emperor’s Children Transport from your army that has one or more Tormentors units embarked within it (excluding Battle-shocked units).",
           "effect": "Select one objective marker you control that your TRANSPORT is within range of. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+        },
+        {
+          "name": "Onto The Next",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "End of the Fight phase.",
+          "target": "One EMPEROR’S CHILDREN unit from your army that destroyed an enemy unit this phase, and one friendly TRANSPORT it is able to embark within.",
+          "effect": "If your EMPEROR’S CHILDREN unit is wholly within 6\" of that TRANSPORT, it can embark within it. Your unit can embark within that TRANSPORT in a turn it disembarked from a TRANSPORT."
         },
         {
           "name": "Ceaseless Onslaught",
@@ -1126,16 +1136,6 @@
           "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
           "target": "One Emperor’s Children Transport from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "One Emperor’s Children unit embarked within your TRANSPORT can disembark. When doing so, models in that unit can be set up anywhere on the battlefield wholly within 6\" of that TRANSPORT and not within Engagement Range of one or more enemy units."
-        },
-        {
-          "name": "Outflanking Strike",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Fight phase",
-          "when": "End of your opponent’s Fight phase.",
-          "target": "One Emperor’s Children Transport from your army, or up to two Emperor’s Children Dedicated Transports from your army.",
-          "effect": "For each of those TRANSPORTS wholly within 9\" of one or more battlefield edges, remove it from the battlefield and place it into Strategic Reserves."
         }
       ]
     },
@@ -1167,14 +1167,14 @@
       ],
       "stratagems": [
         {
-          "name": "Refusal To Be Outdone",
+          "name": "Devoted Duellists",
           "cp": 1,
           "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Charge phase",
-          "when": "Your Charge phase, when a friendly EMPEROR’S CHILDREN CHARACTER unit within 12\" of an engaged enemy unit declares a charge.",
-          "target": "That EMPEROR’S CHILDREN CHARACTER unit.",
-          "effect": "Your unit can re-roll charge rolls. Your unit must end that charge move engaged with one or more of those enemy units."
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase.",
+          "target": "One or more Emperor’s Children Character units from your army that have not been selected to fight this phase.",
+          "effect": "Select one enemy unit. Until the end of the phase, melee weapons equipped by models in those CHARACTER units have the [SUSTAINED HITS 1] ability while targeting that enemy unit."
         },
         {
           "name": "Heightened Jealousy",
@@ -1187,14 +1187,14 @@
           "effect": "Until the end of the phase, each time a model in an EMPEROR’S CHILDREN CHARACTER unit from your army that is not your army’s Favoured Champions makes an attack, add 1 to the Strength characteristic of that attack."
         },
         {
-          "name": "Devoted Duellists",
+          "name": "Refusal To Be Outdone",
           "cp": 1,
           "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One or more Emperor’s Children Character units from your army that have not been selected to fight this phase.",
-          "effect": "Select one enemy unit. Until the end of the phase, melee weapons equipped by models in those CHARACTER units have the [SUSTAINED HITS 1] ability while targeting that enemy unit."
+          "turn": "Your turn",
+          "phase": "Charge phase",
+          "when": "Your Charge phase, when a friendly EMPEROR’S CHILDREN CHARACTER unit within 12\" of an engaged enemy unit declares a charge.",
+          "target": "That EMPEROR’S CHILDREN CHARACTER unit.",
+          "effect": "Your unit can re-roll charge rolls. Your unit must end that charge move engaged with one or more of those enemy units."
         },
         {
           "name": "Diabolic Majesty",
@@ -1247,16 +1247,6 @@
       ],
       "stratagems": [
         {
-          "name": "Honour Is For Fools",
-          "cp": 1,
-          "category": "Spectacle of Slaughter",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, when a friendly FLAWLESS BLADES unit is selected to fight.",
-          "target": "That FLAWLESS BLADES unit.",
-          "effect": "Your unit’s melee attacks have [PRECISION]."
-        },
-        {
           "name": "Single-Minded Strike",
           "cp": 1,
           "category": "Spectacle of Slaughter",
@@ -1275,6 +1265,16 @@
           "when": "Your opponent’s Movement phase, when an enemy unit that was engaged with a friendly FLAWLESS BLADES unit ends a fall-back move, if that FLAWLESS BLADES unit is unengaged.",
           "target": "That FLAWLESS BLADES unit.",
           "effect": "Your unit can make a normal move of up to D3+3\"."
+        },
+        {
+          "name": "Honour Is For Fools",
+          "cp": 1,
+          "category": "Spectacle of Slaughter",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when a friendly FLAWLESS BLADES unit is selected to fight.",
+          "target": "That FLAWLESS BLADES unit.",
+          "effect": "Your unit’s melee attacks have [PRECISION]."
         }
       ]
     }

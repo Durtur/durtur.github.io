@@ -1,8 +1,8 @@
 {
   "slug": "death-guard",
   "name": "Death Guard",
-  "version": "v1.3",
-  "fetchedAt": "2026-09-01T22:43:02.563Z",
+  "version": "v1.4",
+  "fetchedAt": "2026-09-11T22:58:23.779Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -851,6 +851,16 @@
       ],
       "stratagems": [
         {
+          "name": "Blessings Of Filth",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase.",
+          "target": "One Death Guard Attached unit from your army that has not been selected to shoot or fight this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit."
+        },
+        {
           "name": "Grotesque Fortitude",
           "cp": 1,
           "category": "Battle Tactic",
@@ -871,14 +881,14 @@
           "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll and you can re-roll the Wound roll."
         },
         {
-          "name": "Blessings Of Filth",
+          "name": "Rabid Infusion",
           "cp": 1,
-          "category": "Battle Tactic",
+          "category": "Strategic Ploy",
           "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase.",
-          "target": "One Death Guard Attached unit from your army that has not been selected to shoot or fight this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit."
+          "phase": "Fight phase",
+          "when": "Start of the Fight phase.",
+          "target": "One Death Guard unit from your army that includes two Character models.",
+          "effect": "Until the end of the phase, your unit has the Fights First ability."
         },
         {
           "name": "Mobile Vector",
@@ -889,16 +899,6 @@
           "when": "Your Movement phase, before the Reinforcements step.",
           "target": "One Death Guard Character unit from your army that is not leading a unit.",
           "effect": "Select one other friendly Death Guard unit (excluding Battle-shocked units and Attached units that already have two Leader units or one of your CHARACTER units leading it] within 2\" horizontally and 5\" vertically of your unit that your unit can lead (as described in the Leader section of its datasheet]. Your unit attaches to that unit as a Leader. Change that unit’s Starting Strength accordingly."
-        },
-        {
-          "name": "Rabid Infusion",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Start of the Fight phase.",
-          "target": "One Death Guard unit from your army that includes two Character models.",
-          "effect": "Until the end of the phase, your unit has the Fights First ability."
         },
         {
           "name": "Death’s Heads",
@@ -930,6 +930,16 @@
       ],
       "stratagems": [
         {
+          "name": "Soulrot Flux",
+          "cp": 1,
+          "category": "Contagion Engines",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, when an enemy unit is selected to make a fall-back move, if that enemy unit is engaged with a friendly CONTAGION ENGINE unit.",
+          "target": "That CONTAGION ENGINE unit.",
+          "effect": "When an enemy unit engaged with your unit is selected to make a fall-back move, roll one D6:\n\nOn a 1, that enemy unit suffers 1 mortal wound.\nOn a 2-5, that enemy unit suffers D3 mortal wounds.\nOn a 6, that enemy unit suffers 3 mortal wounds."
+        },
+        {
           "name": "Bloodrust Deluge",
           "cp": 1,
           "category": "Contagion Engines",
@@ -948,16 +958,6 @@
           "when": "Your Shooting phase or the Fight phase, when a friendly CONTAGION ENGINE unit is selected to attack.",
           "target": "That CONTAGION ENGINE unit.",
           "effect": "Your unit’s attacks can re-roll wound rolls of 1."
-        },
-        {
-          "name": "Soulrot Flux",
-          "cp": 1,
-          "category": "Contagion Engines",
-          "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, when an enemy unit is selected to make a fall-back move, if that enemy unit is engaged with a friendly CONTAGION ENGINE unit.",
-          "target": "That CONTAGION ENGINE unit.",
-          "effect": "When an enemy unit engaged with your unit is selected to make a fall-back move, roll one D6:\nOn a 1, that enemy unit suffers 1 mortal wound.On a 2-5, that enemy unit suffers D3 mortal wounds.On a 6, that enemy unit suffers 3 mortal wounds."
         }
       ]
     },
@@ -999,16 +999,6 @@
           "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit (excluding MONSTERS and VEHICLES) you can re-roll the Hit roll."
         },
         {
-          "name": "Blooming Pestilence",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Start of any phase.",
-          "target": "One Terminator unit from your army.",
-          "effect": "Until the end of the phase, add 3\" to the Contagion Range of models in your unit."
-        },
-        {
           "name": "Signal Pox",
           "cp": 1,
           "category": "Epic Deed",
@@ -1017,6 +1007,16 @@
           "when": "Your Command phase.",
           "target": "One Lord of Virulence model from your army.",
           "effect": "Select one objective marker within 30\" of and visible to your model. Until the start of your next turn, while an enemy unit is within range of that objective marker, that unit is Afflicted."
+        },
+        {
+          "name": "Blooming Pestilence",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Start of any phase.",
+          "target": "One Terminator unit from your army.",
+          "effect": "Until the end of the phase, add 3\" to the Contagion Range of models in your unit."
         },
         {
           "name": "Mortarion's Teachings",
@@ -1029,16 +1029,6 @@
           "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [ASSAULT] and [HEAVY] abilities."
         },
         {
-          "name": "Undying Spite",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Terminator unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
-        },
-        {
           "name": "Sickening Impact",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1047,6 +1037,16 @@
           "when": "Your Charge phase, just after a Terminator unit from your army ends a Charge move.",
           "target": "That TERMINATOR unit.",
           "effect": "Select one enemy unit within Engagement Range of your unit, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit: for each 2+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+        },
+        {
+          "name": "Undying Spite",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One Terminator unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
         }
       ]
     },
@@ -1068,16 +1068,6 @@
       ],
       "stratagems": [
         {
-          "name": "Nauseating Paroxysms",
-          "cp": 1,
-          "category": "Flyblown Host",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Start of the Fight phase",
-          "target": "One friendly engaged PLAGUE MARINES unit.",
-          "effect": "Select one enemy unit engaged with your unit. That enemy unit makes a battle-shock roll, with -1 to that battle-shock roll."
-        },
-        {
           "name": "Eye Of The Swarm",
           "cp": 1,
           "category": "Flyblown Host",
@@ -1095,7 +1085,17 @@
           "phase": "Shooting phase",
           "when": "Your Shooting phase, when a friendly PLAGUE MARINES unit is selected to shoot.",
           "target": "That PLAGUE MARINES unit.",
-          "effect": "Your unit’s ranged attacks:\nCan re-roll hit rolls of 1.That target a unit within half range, can re-roll wound rolls of 1."
+          "effect": "Your unit’s ranged attacks:\n\nCan re-roll hit rolls of 1.\nThat target a unit within half range, can re-roll wound rolls of 1."
+        },
+        {
+          "name": "Nauseating Paroxysms",
+          "cp": 1,
+          "category": "Flyblown Host",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Start of the Fight phase",
+          "target": "One friendly engaged PLAGUE MARINES unit.",
+          "effect": "Select one enemy unit engaged with your unit. That enemy unit makes a battle-shock roll, with -1 to that battle-shock roll."
         }
       ]
     },
@@ -1137,16 +1137,6 @@
           "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a visible enemy unit (excluding AIRCRAFT) within your opponent’s deployment zone, you can re-roll the Hit roll."
         },
         {
-          "name": "Relentless Grind",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement or Charge phase",
-          "when": "Your Movement phase or your Charge phase.",
-          "target": "One Death Guard Vehicle unit from your army that has not been selected to move or charge this phase.",
-          "effect": "Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features."
-        },
-        {
           "name": "Stinking Mire",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1157,16 +1147,6 @@
           "effect": "Select one visible enemy unit within 12\" of your unit. When that enemy unit declares a charge, that enemy unit has -1 to charge rolls."
         },
         {
-          "name": "Eyestinger Storm",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Command phase",
-          "when": "Your opponent’s Command phase.",
-          "target": "One Death Guard Vehicle unit from your army.",
-          "effect": "Select one objective marker visible to one or more models in your unit. Each Afflicted enemy unit within range of that objective marker must take a Battle-shock test. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase."
-        },
-        {
           "name": "Blighted Land",
           "cp": 2,
           "category": "Strategic Ploy",
@@ -1175,6 +1155,26 @@
           "when": "End of your Movement phase.",
           "target": "One Death Guard Vehicle unit from your army.",
           "effect": "Select one terrain feature within 24\" of and visible to your unit. Until the start of your next turn, enemy units are Afflicted while they are within 3\" of that terrain feature."
+        },
+        {
+          "name": "Relentless Grind",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Movement or Charge phase",
+          "when": "Your Movement phase or your Charge phase.",
+          "target": "One Death Guard Vehicle unit from your army that has not been selected to move or charge this phase.",
+          "effect": "Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features."
+        },
+        {
+          "name": "Eyestinger Storm",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Command phase",
+          "when": "Your opponent’s Command phase.",
+          "target": "One Death Guard Vehicle unit from your army.",
+          "effect": "Select one objective marker visible to one or more models in your unit. Each Afflicted enemy unit within range of that objective marker must take a Battle-shock test. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase."
         },
         {
           "name": "Font Of Filth",
@@ -1275,16 +1275,6 @@
           "effect": "Until the end of the turn, add 1 to the Move characteristic of models in your unit, and add 1 to the Attacks and Strength characteristics of melee weapons equipped by models in your unit."
         },
         {
-          "name": "Hidden Amongst The Dead",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "The Reinforcements step of your Movement phase.",
-          "target": "One Poxwalkers unit from your army that is in Strategic Reserves and that is not an Attached unit.",
-          "effect": "Until the end of the phase, models in that unit have the Deep Strike ability."
-        },
-        {
           "name": "Shock And Horror",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1295,14 +1285,14 @@
           "effect": "Each enemy unit within Engagement Range of your unit must take a Battle-shock test, subtracting 1 from that test."
         },
         {
-          "name": "Shambling Wall",
+          "name": "Hidden Amongst The Dead",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One Death Guard unit from your army that was selected as the target of one or more of the attacking unit’s attacks, and one friendly Poxwalkers unit within 3\" of your unit and visible to both your unit and the attacking unit.",
-          "effect": "Until the end of the phase, each time you would allocate an attack to a model in your DEATH GUARD unit, if your POXWALKERS unit is visible to the attacking model and is an eligible target for that attack, no saving throw is made for that attack; instead a number of POXWALKERS from your POXWALKERS unit equal to the Damage characteristic of that attack are destroyed."
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "The Reinforcements step of your Movement phase.",
+          "target": "One Poxwalkers unit from your army that is in Strategic Reserves and that is not an Attached unit.",
+          "effect": "Until the end of the phase, models in that unit have the Deep Strike ability."
         },
         {
           "name": "Smeared With Filth",
@@ -1313,6 +1303,16 @@
           "when": "Fight phase.",
           "target": "One Poxwalkers unit from your army that was just destroyed. You can target that unit with this Stratagem even though it was just destroyed.",
           "effect": "Select one enemy unit that made one or more attacks that targeted your unit this phase. Until the end of the battle, that enemy unit is Afflicted."
+        },
+        {
+          "name": "Shambling Wall",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One Death Guard unit from your army that was selected as the target of one or more of the attacking unit’s attacks, and one friendly Poxwalkers unit within 3\" of your unit and visible to both your unit and the attacking unit.",
+          "effect": "Until the end of the phase, each time you would allocate an attack to a model in your DEATH GUARD unit, if your POXWALKERS unit is visible to the attacking model and is an eligible target for that attack, no saving throw is made for that attack; instead a number of POXWALKERS from your POXWALKERS unit equal to the Damage characteristic of that attack are destroyed."
         },
         {
           "name": "Grip Of The Walking Pox",
@@ -1364,14 +1364,14 @@
           "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit that is within Engagement Range of one or more Plague Legions units from your army, you can re-roll the Hit roll."
         },
         {
-          "name": "Mireslick",
+          "name": "All Is Rot",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, when an enemy unit (excluding MONSTERS and VEHICLES) is selected to Fall Back.",
-          "target": "One Plague Legions unit from your army that is within Engagement Range of that enemy unit.",
-          "effect": "Until the end of the phase, while an enemy unit is within Engagement Range of your unit, each time that unit is selected to Fall Back, it must take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead."
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One Plague Legions unit from your army that is within Engagement Range of one or more enemy units.",
+          "effect": "Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets of ranged weapons. Until the end of the phase, each time an enemy model loses a wound, while that model’s unit is within Engagement Range of your unit, roll one D6: on a 5+, your unit suffers 1 mortal wound after the attacking unit has finished making its attacks."
         },
         {
           "name": "Avatars Of Decay",
@@ -1405,14 +1405,14 @@
           "restrictions": "You can only use this Stratagem once per battle."
         },
         {
-          "name": "All Is Rot",
+          "name": "Mireslick",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Plague Legions unit from your army that is within Engagement Range of one or more enemy units.",
-          "effect": "Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets of ranged weapons. Until the end of the phase, each time an enemy model loses a wound, while that model’s unit is within Engagement Range of your unit, roll one D6: on a 5+, your unit suffers 1 mortal wound after the attacking unit has finished making its attacks."
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, when an enemy unit (excluding MONSTERS and VEHICLES) is selected to Fall Back.",
+          "target": "One Plague Legions unit from your army that is within Engagement Range of that enemy unit.",
+          "effect": "Until the end of the phase, while an enemy unit is within Engagement Range of your unit, each time that unit is selected to Fall Back, it must take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead."
         }
       ]
     },
@@ -1454,16 +1454,6 @@
           "effect": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack."
         },
         {
-          "name": "Plaguesurge",
-          "cp": 2,
-          "category": "Epic Deed",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "Your Death Guard WARLORD that is on the battlefield.",
-          "effect": "Until the start of your next Command phase, add 3\" to the Contagion Range of models from your army."
-        },
-        {
           "name": "Leechspore Eruption",
           "cp": 1,
           "category": "Epic Deed",
@@ -1472,6 +1462,16 @@
           "when": "Your Command phase.",
           "target": "One Death Guard model your army that has lost one or more wounds.",
           "effect": "Select one enemy unit within 3\" of your model. Roll a number of D6 equal to the number of wounds your model has lost: for each 5+, that enemy unit suffers one mortal wound (to a maximum of 6 mortal wounds) and your model regains 1 lost wound (to a maximum of 6 lost wounds)."
+        },
+        {
+          "name": "Plaguesurge",
+          "cp": 2,
+          "category": "Epic Deed",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Your Command phase.",
+          "target": "Your Death Guard WARLORD that is on the battlefield.",
+          "effect": "Until the start of your next Command phase, add 3\" to the Contagion Range of models from your army."
         },
         {
           "name": "Putrid Detonation",

@@ -1,8 +1,8 @@
 {
   "slug": "tau-empire",
   "name": "T’au Empire",
-  "version": "v1.3",
-  "fetchedAt": "2026-09-01T22:43:02.563Z",
+  "version": "v1.4",
+  "fetchedAt": "2026-09-11T22:58:23.779Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -691,16 +691,6 @@
       ],
       "stratagems": [
         {
-          "name": "Experimental Modifications",
-          "cp": 1,
-          "category": "Auxiliary Cadre",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase, when a friendly KROOT/VESPID STINGWINGS unit is selected to attack.",
-          "target": "That KROOT/VESPID STINGWINGS unit.",
-          "effect": "Your unit’s attacks have +1 AP."
-        },
-        {
           "name": "Alien Expertise",
           "cp": 1,
           "category": "Auxiliary Cadre",
@@ -719,6 +709,16 @@
           "when": "Your Shooting phase, when a friendly T’AU EMPIRE unit (excluding KROOT/VESPID STINGWINGS units) is selected to shoot.",
           "target": "That T’AU EMPIRE unit.",
           "effect": "Your unit’s ranged attacks that target a unit within 9\" of a friendly KROOT/VESPID STINGWINGS unit have [LETHAL HITS]."
+        },
+        {
+          "name": "Experimental Modifications",
+          "cp": 1,
+          "category": "Auxiliary Cadre",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase, when a friendly KROOT/VESPID STINGWINGS unit is selected to attack.",
+          "target": "That KROOT/VESPID STINGWINGS unit.",
+          "effect": "Your unit’s attacks have +1 AP."
         }
       ]
     },
@@ -752,7 +752,7 @@
           "phase": "Shooting phase",
           "when": "Your Shooting phase, when a friendly BATTLESUIT CHARACTER unit is selected to shoot.",
           "target": "That BATTLESUIT CHARACTER unit.",
-          "effect": "Your unit’s ranged attacks have:\n+1 S.OR: +1 S, AP and [HAZARDOUS]."
+          "effect": "Your unit’s ranged attacks have:\n\n+1 S.\nOR: +1 S, AP and [HAZARDOUS]."
         }
       ]
     },
@@ -784,6 +784,27 @@
       ],
       "stratagems": [
         {
+          "name": "Coordinate To Engage",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One T’AU EMPIRE unit from your army that has just been selected as an Observer unit (see For the Greater Good).",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets their Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if your unit has the Markerlight keyword, that attack has the [IGNORES COVER] ability."
+        },
+        {
+          "name": "Point-Blank Ambush",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One T’AU EMPIRE unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within 9\", improve the Armour Penetration characteristic of that attack by 1.",
+          "restrictions": "You cannot use this Stratagem during the first or second battle rounds."
+        },
+        {
           "name": "A Tempting Trap",
           "cp": 1,
           "category": "Battle Tactic",
@@ -804,27 +825,6 @@
           "target": "One Stealth, Ghostkeel or Commander Shadowsun unit from your army.",
           "effect": "Remove your unit from the battlefield and place it into Strategic Reserves.",
           "restrictions": "You cannot target a unit that is within Engagement Range of one or more enemy units."
-        },
-        {
-          "name": "Point-Blank Ambush",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One T’AU EMPIRE unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within 9\", improve the Armour Penetration characteristic of that attack by 1.",
-          "restrictions": "You cannot use this Stratagem during the first or second battle rounds."
-        },
-        {
-          "name": "Coordinate To Engage",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One T’AU EMPIRE unit from your army that has just been selected as an Observer unit (see For the Greater Good).",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets their Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if your unit has the Markerlight keyword, that attack has the [IGNORES COVER] ability."
         },
         {
           "name": "Photon Grenades",
@@ -877,16 +877,6 @@
       ],
       "stratagems": [
         {
-          "name": "A Trap Well Laid",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase.",
-          "target": "One Kroot unit from your army that has not been selected to shoot or fight this phase.",
-          "effect": "After your unit has resolved its attacks this phase, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, each time a KROOT model from your army makes an attack that targets that enemy unit, unless the attacking unit is Battle-shocked, improve the Armour Penetration characteristic of that attack by 1."
-        },
-        {
           "name": "Join The Hunt",
           "cp": 2,
           "category": "Battle Tactic",
@@ -898,14 +888,14 @@
           "restrictions": "This Stratagem cannot be used to return destroyed Character units to Attached units. You can only use this Stratagem once per battle."
         },
         {
-          "name": "Guerrilla Warriors",
+          "name": "A Trap Well Laid",
           "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase, just after a Kroot unit from your army Falls Back.",
-          "target": "That KROOT unit.",
-          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge."
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase.",
+          "target": "One Kroot unit from your army that has not been selected to shoot or fight this phase.",
+          "effect": "After your unit has resolved its attacks this phase, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, each time a KROOT model from your army makes an attack that targets that enemy unit, unless the attacking unit is Battle-shocked, improve the Armour Penetration characteristic of that attack by 1."
         },
         {
           "name": "The Grisly Feast",
@@ -916,6 +906,16 @@
           "when": "Fight phase.",
           "target": "One Kroot unit from your army that destroyed one or more enemy units this phase.",
           "effect": "In your opponent’s next Command phase, each enemy unit within 6\" of your unit must take a Battle-shock test. If the unit taking that test is Below Half-strength, subtract 1 from that test. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase."
+        },
+        {
+          "name": "Guerrilla Warriors",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, just after a Kroot unit from your army Falls Back.",
+          "target": "That KROOT unit.",
+          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge."
         },
         {
           "name": "Hidden Hunters",
@@ -967,14 +967,14 @@
       ],
       "stratagems": [
         {
-          "name": "Aggressive Mobility",
+          "name": "Combat Debarkation",
           "cp": 1,
           "category": "Battle Tactic",
           "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase.",
-          "target": "One T’AU EMPIRE unit from your army that has not been selected to move this phase.",
-          "effect": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit."
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One T’au Empire Infantry unit from your army that disembarked from a TRANSPORT this turn.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets the closest enemy unit, you can re-roll the Wound roll."
         },
         {
           "name": "Focused Fire",
@@ -988,6 +988,16 @@
           "restrictions": "You cannot use this Stratagem during the fourth or fifth battle rounds."
         },
         {
+          "name": "Aggressive Mobility",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase.",
+          "target": "One T’AU EMPIRE unit from your army that has not been selected to move this phase.",
+          "effect": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit."
+        },
+        {
           "name": "Pinpoint Counter-Offensive",
           "cp": 1,
           "category": "Battle Tactic",
@@ -996,16 +1006,6 @@
           "when": "Any phase.",
           "target": "One T’AU EMPIRE unit (excluding Kroot units) from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
           "effect": "Until the end of the battle, each time a T’AU EMPIRE unit (excluding KROOT units) from your army makes an attack that targets the enemy unit that just destroyed your unit, you can re-roll the Hit roll."
-        },
-        {
-          "name": "Combat Debarkation",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One T’au Empire Infantry unit from your army that disembarked from a TRANSPORT this turn.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets the closest enemy unit, you can re-roll the Wound roll."
         },
         {
           "name": "Pulse Onslaught",

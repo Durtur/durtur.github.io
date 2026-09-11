@@ -1,8 +1,8 @@
 {
   "slug": "orks",
   "name": "Orks",
-  "version": "v1.3",
-  "fetchedAt": "2026-09-01T22:43:02.563Z",
+  "version": "v1.4",
+  "fetchedAt": "2026-09-11T22:58:23.779Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -13,7 +13,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 50
+              "points": 35
             }
           ]
         },
@@ -23,7 +23,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 145
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 160
             }
           ]
         },
@@ -33,7 +40,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 80
+              "points": 85
             }
           ]
         },
@@ -43,7 +50,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 95
+              "points": 140
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 155
             }
           ]
         },
@@ -53,11 +67,22 @@
           "tiers": [
             {
               "models": 10,
-              "points": 90
+              "points": 85
             },
             {
               "models": 20,
               "points": 170
+            }
+          ],
+          "repeatFromCopy": 4,
+          "repeatTiers": [
+            {
+              "models": 10,
+              "points": 95
+            },
+            {
+              "models": 20,
+              "points": 180
             }
           ]
         },
@@ -67,7 +92,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 55
+              "points": 50
             }
           ]
         },
@@ -87,7 +112,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 70
+              "points": 85
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 95
             }
           ]
         },
@@ -97,7 +129,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 115
+              "points": 135
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 145
             }
           ]
         },
@@ -107,7 +146,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 80
+              "points": 90
             }
           ]
         },
@@ -117,14 +156,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 70
+              "points": 95
             }
           ],
           "repeatFromCopy": 2,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 80
+              "points": 105
             }
           ]
         },
@@ -134,17 +173,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 105
-            }
-          ]
-        },
-        {
-          "id": "424f4f4d44414b4b4120534e415a5a5741474f4e",
-          "name": "BOOMDAKKA SNAZZWAGON",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 70
+              "points": 115
             }
           ]
         },
@@ -154,7 +183,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 75
+              "points": 80
             }
           ]
         },
@@ -164,22 +193,22 @@
           "tiers": [
             {
               "models": 10,
-              "points": 75
+              "points": 90
             },
             {
               "models": 20,
-              "points": 160
+              "points": 180
             }
           ],
           "repeatFromCopy": 4,
           "repeatTiers": [
             {
               "models": 10,
-              "points": 85
+              "points": 100
             },
             {
               "models": 20,
-              "points": 170
+              "points": 190
             }
           ]
         },
@@ -189,14 +218,14 @@
           "tiers": [
             {
               "models": 6,
-              "points": 125
+              "points": 135
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 6,
-              "points": 135
+              "points": 145
             }
           ]
         },
@@ -206,21 +235,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 115
-            }
-          ]
-        },
-        {
-          "id": "4255524e4120424f595a",
-          "name": "BURNA BOYZ",
-          "tiers": [
-            {
-              "models": 5,
-              "points": 60
-            },
-            {
-              "models": 10,
-              "points": 120
+              "points": 125
             }
           ]
         },
@@ -240,14 +255,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 110
+              "points": 130
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 120
+              "points": 140
             }
           ]
         },
@@ -257,7 +272,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 70
+              "points": 80
             }
           ]
         },
@@ -267,323 +282,28 @@
           "tiers": [
             {
               "models": 3,
-              "points": 75
+              "points": 80
             },
             {
               "models": 6,
-              "points": 140
+              "points": 160
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 170
             }
           ]
         },
         {
           "id": "464c415348204749545a",
           "name": "FLASH GITZ",
-          "tiers": [
-            {
-              "models": 5,
-              "points": 75
-            },
-            {
-              "models": 10,
-              "points": 150
-            }
-          ],
-          "repeatFromCopy": 3,
-          "repeatTiers": [
-            {
-              "models": 5,
-              "points": 85
-            },
-            {
-              "models": 10,
-              "points": 160
-            }
-          ]
-        },
-        {
-          "id": "47415247414e5455414e205351554947474f5448",
-          "name": "GARGANTUAN SQUIGGOTH",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 440
-            }
-          ],
-          "repeatFromCopy": 2,
-          "repeatTiers": [
-            {
-              "models": 1,
-              "points": 490
-            }
-          ]
-        },
-        {
-          "id": "4748415a47484b554c4c20544852414b41",
-          "name": "GHAZGHKULL THRAKA",
-          "tiers": [
-            {
-              "models": 2,
-              "points": 235
-            }
-          ]
-        },
-        {
-          "id": "474f524b414e415554",
-          "name": "GORKANAUT",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 255
-            }
-          ],
-          "repeatFromCopy": 3,
-          "repeatTiers": [
-            {
-              "models": 1,
-              "points": 275
-            }
-          ]
-        },
-        {
-          "id": "475245544348494e",
-          "name": "GRETCHIN",
-          "tiers": [
-            {
-              "models": 10,
-              "points": 45
-            },
-            {
-              "models": 1,
-              "points": 45
-            },
-            {
-              "models": 20,
-              "points": 80
-            },
-            {
-              "models": 1,
-              "points": 85
-            },
-            {
-              "models": 2,
-              "points": 90
-            }
-          ]
-        },
-        {
-          "id": "48554e544120524947",
-          "name": "HUNTA RIG",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 125
-            }
-          ]
-        },
-        {
-          "id": "4b494c4c41204b414e53",
-          "name": "KILLA KANS",
-          "tiers": [
-            {
-              "models": 3,
-              "points": 120
-            },
-            {
-              "models": 6,
-              "points": 240
-            }
-          ],
-          "repeatFromCopy": 3,
-          "repeatTiers": [
-            {
-              "models": 3,
-              "points": 130
-            },
-            {
-              "models": 6,
-              "points": 250
-            }
-          ]
-        },
-        {
-          "id": "4b494c4c20524947",
-          "name": "KILL RIG",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 145
-            }
-          ]
-        },
-        {
-          "id": "4b4f4d4d414e444f53",
-          "name": "KOMMANDOS",
-          "tiers": [
-            {
-              "models": 10,
-              "points": 120
-            }
-          ]
-        },
-        {
-          "id": "4b5553544f4d20424f4f5354412d424c41535441",
-          "name": "KUSTOM BOOSTA-BLASTA",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 70
-            }
-          ]
-        },
-        {
-          "id": "4c4f4f544153",
-          "name": "LOOTAS",
-          "tiers": [
-            {
-              "models": 5,
-              "points": 50
-            },
-            {
-              "models": 10,
-              "points": 100
-            }
-          ],
-          "repeatFromCopy": 3,
-          "repeatTiers": [
-            {
-              "models": 5,
-              "points": 60
-            },
-            {
-              "models": 10,
-              "points": 110
-            }
-          ]
-        },
-        {
-          "id": "4d4547414e4f425a",
-          "name": "MEGANOBZ",
-          "tiers": [
-            {
-              "models": 2,
-              "points": 60
-            },
-            {
-              "models": 3,
-              "points": 90
-            },
-            {
-              "models": 5,
-              "points": 150
-            },
-            {
-              "models": 6,
-              "points": 180
-            }
-          ],
-          "repeatFromCopy": 3,
-          "repeatTiers": [
-            {
-              "models": 2,
-              "points": 80
-            },
-            {
-              "models": 3,
-              "points": 110
-            },
-            {
-              "models": 5,
-              "points": 170
-            },
-            {
-              "models": 6,
-              "points": 200
-            }
-          ]
-        },
-        {
-          "id": "4d4547415452414b4b2053435241504a4554",
-          "name": "MEGATRAKK SCRAPJET",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 75
-            }
-          ]
-        },
-        {
-          "id": "4d454b",
-          "name": "MEK",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 55
-            }
-          ]
-        },
-        {
-          "id": "4d454b2047554e5a",
-          "name": "MEK GUNZ",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 45
-            },
-            {
-              "models": 2,
-              "points": 90
-            },
-            {
-              "models": 3,
-              "points": 135
-            }
-          ],
-          "repeatFromCopy": 3,
-          "repeatTiers": [
-            {
-              "models": 1,
-              "points": 55
-            },
-            {
-              "models": 2,
-              "points": 100
-            },
-            {
-              "models": 3,
-              "points": 145
-            }
-          ]
-        },
-        {
-          "id": "4d4f524b414e415554",
-          "name": "MORKANAUT",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 270
-            }
-          ],
-          "repeatFromCopy": 3,
-          "repeatTiers": [
-            {
-              "models": 1,
-              "points": 290
-            }
-          ]
-        },
-        {
-          "id": "4d4f5a524f4720534b524147424144",
-          "name": "MOZROG SKRAGBAD",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 125
-            }
-          ]
-        },
-        {
-          "id": "4e4f425a",
-          "name": "NOBZ",
           "tiers": [
             {
               "models": 5,
@@ -598,11 +318,301 @@
           "repeatTiers": [
             {
               "models": 5,
-              "points": 115
+              "points": 135
             },
             {
               "models": 10,
-              "points": 220
+              "points": 240
+            }
+          ]
+        },
+        {
+          "id": "47415247414e5455414e205351554947474f5448",
+          "name": "GARGANTUAN SQUIGGOTH",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 500
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 550
+            }
+          ]
+        },
+        {
+          "id": "4748415a47484b554c4c20544852414b41",
+          "name": "GHAZGHKULL THRAKA",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 300
+            }
+          ]
+        },
+        {
+          "id": "474f524b414e415554",
+          "name": "GORKANAUT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 325
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 355
+            }
+          ]
+        },
+        {
+          "id": "475245544348494e",
+          "name": "GRETCHIN",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 45
+            },
+            {
+              "models": 20,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "id": "47554e5741474f4e",
+          "name": "GUNWAGON",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "id": "48554e544120524947",
+          "name": "HUNTA RIG",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 165
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "4b494c4c41204b414e53",
+          "name": "KILLA KANS",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 130
+            },
+            {
+              "models": 6,
+              "points": 260
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 150
+            },
+            {
+              "models": 6,
+              "points": 280
+            }
+          ]
+        },
+        {
+          "id": "4b494c4c20524947",
+          "name": "KILL RIG",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        },
+        {
+          "id": "4b4f4d4d414e444f53",
+          "name": "KOMMANDOS",
+          "tiers": [
+            {
+              "models": 10,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "id": "4d4547414e4f425a",
+          "name": "MEGANOBZ",
+          "tiers": [
+            {
+              "models": 2,
+              "points": 75
+            },
+            {
+              "models": 3,
+              "points": 110
+            },
+            {
+              "models": 5,
+              "points": 185
+            },
+            {
+              "models": 6,
+              "points": 225
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 2,
+              "points": 115
+            },
+            {
+              "models": 3,
+              "points": 150
+            },
+            {
+              "models": 5,
+              "points": 225
+            },
+            {
+              "models": 6,
+              "points": 265
+            }
+          ]
+        },
+        {
+          "id": "4d454b",
+          "name": "MEK",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        },
+        {
+          "id": "4d454b2047554e5a",
+          "name": "MEK GUNZ",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 55
+            },
+            {
+              "models": 2,
+              "points": 110
+            },
+            {
+              "models": 3,
+              "points": 165
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 65
+            },
+            {
+              "models": 2,
+              "points": 120
+            },
+            {
+              "models": 3,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "4d4f524b414e415554",
+          "name": "MORKANAUT",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 345
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 375
+            }
+          ]
+        },
+        {
+          "id": "4d4f5a524f4720534b524147424144",
+          "name": "MOZROG SKRAGBAD",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "id": "4e415a44524547",
+          "name": "NAZDREG",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "id": "4e4f425a",
+          "name": "NOBZ",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 125
+            },
+            {
+              "models": 10,
+              "points": 250
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 155
+            },
+            {
+              "models": 10,
+              "points": 280
             }
           ]
         },
@@ -610,6 +620,13 @@
           "id": "5041494e424f5353",
           "name": "PAINBOSS",
           "tiers": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
             {
               "models": 1,
               "points": 70
@@ -622,27 +639,31 @@
           "tiers": [
             {
               "models": 1,
-              "points": 90
+              "points": 45
             }
           ]
         },
         {
-          "id": "52554b4b415452554b4b2053515549474255474759",
-          "name": "RUKKATRUKK SQUIGBUGGY",
+          "id": "52554b4b415452554b4b20535155494742554747494553",
+          "name": "RUKKATRUKK SQUIGBUGGIES",
           "tiers": [
             {
               "models": 1,
               "points": 85
+            },
+            {
+              "models": 2,
+              "points": 160
             }
           ]
         },
         {
-          "id": "53484f4b4b4a554d502044524147535441",
-          "name": "SHOKKJUMP DRAGSTA",
+          "id": "52554e5448455244",
+          "name": "RUNTHERD",
           "tiers": [
             {
               "models": 1,
-              "points": 70
+              "points": 10
             }
           ]
         },
@@ -656,7 +677,18 @@
             },
             {
               "models": 8,
-              "points": 270
+              "points": 280
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 4,
+              "points": 160
+            },
+            {
+              "models": 8,
+              "points": 300
             }
           ]
         },
@@ -666,14 +698,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 600
+              "points": 700
             }
           ],
           "repeatFromCopy": 2,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 700
+              "points": 800
             }
           ]
         },
@@ -683,11 +715,11 @@
           "tiers": [
             {
               "models": 5,
-              "points": 65
+              "points": 70
             },
             {
               "models": 10,
-              "points": 130
+              "points": 140
             }
           ]
         },
@@ -697,14 +729,14 @@
           "tiers": [
             {
               "models": 6,
-              "points": 125
+              "points": 145
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 6,
-              "points": 135
+              "points": 155
             }
           ]
         },
@@ -714,14 +746,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 55
+              "points": 60
             }
           ],
           "repeatFromCopy": 4,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 65
+              "points": 70
             }
           ]
         },
@@ -731,11 +763,11 @@
           "tiers": [
             {
               "models": 3,
-              "points": 60
+              "points": 75
             },
             {
               "models": 6,
-              "points": 120
+              "points": 140
             }
           ]
         },
@@ -745,7 +777,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 85
+              "points": 100
             }
           ]
         },
@@ -755,17 +787,42 @@
           "tiers": [
             {
               "models": 1,
-              "points": 80
+              "points": 125
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 140
             }
           ]
         },
         {
-          "id": "5741525452414b4b",
-          "name": "WARTRAKK",
+          "id": "57415242554747494553",
+          "name": "WARBUGGIES",
           "tiers": [
             {
               "models": 1,
-              "points": 60
+              "points": 70
+            },
+            {
+              "models": 2,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "id": "5741525452414b4b53",
+          "name": "WARTRAKKS",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 70
+            },
+            {
+              "models": 2,
+              "points": 130
             }
           ]
         },
@@ -775,7 +832,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 165
+              "points": 215
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 235
             }
           ]
         },
@@ -785,7 +849,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 175
+              "points": 200
             }
           ]
         },
@@ -800,22 +864,12 @@
           ]
         },
         {
-          "id": "57555252424f59",
-          "name": "WURRBOY",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 60
-            }
-          ]
-        },
-        {
           "id": "5a4f4447524f4420574f5254534e41474741",
           "name": "ZODGROD WORTSNAGGA",
           "tiers": [
             {
               "models": 1,
-              "points": 80
+              "points": 50
             }
           ]
         }
@@ -826,190 +880,76 @@
     {
       "id": "424c49545a2042524947414445",
       "name": "BLITZ BRIGADE",
-      "dp": 2,
+      "dp": 1,
       "enhancements": [
         {
-          "id": "424c49545a4b415054494e",
-          "name": "Blitzkaptin",
-          "points": 25
-        },
-        {
-          "id": "52554e4e494ee2809920424f4f5453",
-          "name": "Runnin’ Boots",
+          "id": "424f535320424f4f4d455220285550475241444529",
+          "name": "Boss Boomer (Upgrade)",
           "points": 10
         },
         {
-          "id": "535550455243484152474544205351554947204f494c",
-          "name": "Supercharged Squig Oil",
+          "id": "544152474554494ee280992047495a4d4f5320285550475241444529",
+          "name": "Targetin’ Gizmos (Upgrade)",
           "points": 10
-        },
-        {
-          "id": "5455464620474954",
-          "name": "Tuff Git",
-          "points": 5
         }
       ],
       "stratagems": [
         {
-          "name": "Armoured Duellists",
+          "name": "Readied Brawlers",
           "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Orks Vehicle unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, each time your unit makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll and add 1 to the Wound roll."
-        },
-        {
-          "name": "Impervious",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One Battlewagon, Kill Rig or Hunta Rig unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
-        },
-        {
-          "name": "Mekanised Brutality",
-          "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Blitz Brigade",
           "turn": "Your turn",
           "phase": "Movement phase",
-          "when": "Your Movement phase.",
-          "target": "One Battlewagon, Kill Rig or Hunta Rig unit from your army that has not been selected to move this phase.",
-          "effect": "When this unit ends a normal move, units embarked within this unit can make an assault disembark move (Core Rules, 18.06)."
+          "when": "Your Movement phase, when a friendly Wagon unit ends a normal move.",
+          "target": "That WAGON unit.",
+          "effect": "Units embarked within your unit can make an assault disembark move."
         },
         {
-          "name": "Mount Up, Ladz",
+          "name": "Impending Krunch",
           "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Blitz Brigade",
+          "turn": "Your turn",
+          "phase": "Charge phase",
+          "when": "Your Charge phase, when a friendly Wagon unit ends a charge move.",
+          "target": "That WAGON unit.",
+          "effect": "Each enemy unit engaged with your unit makes a battle-shock roll, with -1 to that battle-shock roll."
+        },
+        {
+          "name": "Keep It Runnin'",
+          "cp": 1,
+          "category": "Blitz Brigade",
           "turn": "Either player’s turn",
           "phase": "Fight phase",
           "when": "End of the Fight phase.",
-          "target": "One Orks Infantry unit from your army that is not within Engagement Range of one or more enemy units, and one friendly Transport it is able to embark within.",
-          "effect": "If your ORKS INFANTRY unit is wholly within 6\" of that TRANSPORT, it can embark within it."
-        },
-        {
-          "name": "Yooz In Trouble Now",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
-          "target": "One BATTLEWAGON, HUNTA RIG or KILL RIG model from your army that was hit by one or more of the attacking unit’s attacks.",
-          "effect": "One ORKS INFANTRY unit embarked within your model makes a disembark move, then makes a surge move of up to D6”."
-        },
-        {
-          "name": "Run ’em Down",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase.",
-          "target": "One Battlewagon, Kill Rig or Hunta Rig unit from your army that has not been selected to move this phase.",
-          "effect": "Select up to two other friendly Orks Vehicle or Orks Monster units within 6\" of your unit. Until the end of the turn, your unit and each unit you selected are eligible to declare a charge in a turn in which they Advanced."
+          "target": "One friendly unengaged Orks Infantry unit that was eligible to fight this phase and is wholly within 6\" of a friendly Transport unit that INFANTRY unit is able to embark within.",
+          "effect": "Your INFANTRY unit embarks within that TRANSPORT unit."
         }
       ]
     },
     {
-      "id": "42554c4c5920424f595a",
-      "name": "BULLY BOYZ",
-      "dp": 2,
+      "id": "425255544520424f53534553",
+      "name": "BRUTE BOSSES",
+      "dp": 1,
       "enhancements": [
         {
-          "id": "42494720474f42",
-          "name": "Big Gob",
+          "id": "424c49545a424f5353",
+          "name": "Blitzboss",
           "points": 20
         },
         {
-          "id": "4441204249474745535420424f5353",
-          "name": "Da Biggest Boss",
-          "points": 15
-        },
-        {
-          "id": "e2809945414453544f4d5041",
-          "name": "’Eadstompa",
-          "points": 10
-        },
-        {
-          "id": "54454c4c59504f525441",
-          "name": "Tellyporta",
-          "points": 25
-        }
-      ],
-      "stratagems": [
-        {
-          "name": "Cut’em Down",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, just after an enemy unit is selected to Fall Back.",
-          "target": "One Nobz or Meganobz unit from your army within Engagement Range of that enemy unit.",
-          "effect": "When that enemy unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if a Waaagh! is active for your unit, subtract 1 from each of those tests."
-        },
-        {
-          "name": "Hulking Brutes",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One Nobz or Meganobz unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
-        },
-        {
-          "name": "Armed To Dateef",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase.",
-          "target": "One Nobz or Meganobz unit from your army that has not been selected to shoot or fight this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1. If a Waaagh! is active for your unit, you can re-roll the Hit roll instead."
-        },
-        {
-          "name": "Krushin' Impact",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Your turn",
-          "phase": "Charge phase",
-          "when": "Your Charge phase, just after a Nobz or Meganobz unit from your army ends a Charge move.",
-          "target": "That NOBZ or MEGANOBZ unit.",
-          "effect": "Select one enemy unit within Engagement Range of your unit, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit: for each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds). If a Waaagh! is active for your unit, that enemy unit suffers 1 mortal wound for each 4+ instead."
-        },
-        {
-          "name": "Too Arrogant To Die",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Nobz or Meganobz unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not shot or fought this phase, roll one D6, adding 2 to the result if a Waaagh! is active for your unit. On a 5+, do not remove the destroyed model from play; it can shoot or fight after the attacking unit has finished making its attacks, and is then removed from play."
-        },
-        {
-          "name": "Always Lookin’ Fer A Fight",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit is destroyed.",
-          "target": "One Nobz or Meganobz unit from your army that destroyed that enemy unit.",
-          "effect": "Until the end of the phase, each time your unit makes a Consolidation move, it can move up to D3+3\" instead of up to 3\". If a Waaagh! is active for your unit, it can move up to 6\" instead."
-        }
-      ]
-    },
-    {
-      "id": "4441204249472048554e54",
-      "name": "DA BIG HUNT",
-      "dp": 2,
-      "enhancements": [
-        {
-          "id": "474c4f525920484f47",
-          "name": "Glory Hog",
+          "id": "42525554414c20425554204b554e4e494ee28099",
+          "name": "Brutal But Kunnin’",
           "points": 30
+        },
+        {
+          "id": "444120474f4253484f54205448554e44455242555353",
+          "name": "Da Gobshot Thunderbuss",
+          "points": 20
+        },
+        {
+          "id": "4d4f52474f47e28099532046494e4b494ee2809920434150",
+          "name": "Morgog’s Finkin’ Cap",
+          "points": 50
         },
         {
           "id": "50524f504552204b494c4c59",
@@ -1017,670 +957,435 @@
           "points": 15
         },
         {
-          "id": "534b52414720455645525920535441534821",
-          "name": "Skrag Every Stash!",
+          "id": "5355524c592041532041205351554947474f5448",
+          "name": "Surly as a Squiggoth",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "id": "42554c4c5920424f595a",
+      "name": "BULLY BOYZ",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "54454c4c59504f52544120424f5353",
+          "name": "Tellyporta Boss",
+          "points": 20
+        },
+        {
+          "id": "57494d502d4b49434b415a20285550475241444529",
+          "name": "Wimp-kickaz (Upgrade)",
+          "points": 15
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Hulking Brutes",
+          "cp": 1,
+          "category": "Bully Boyz",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly Meganobz/Nobz unit.",
+          "target": "That MEGANOBZ/NOBZ unit.",
+          "effect": "Ranged attacks that target your unit with a S greater than your unit’s T have -1 to wound rolls.\n+1CPOr: Ranged attacks that target your unit have -1 to wound rolls."
+        },
+        {
+          "name": "Too Arrogant To Die",
+          "cp": 1,
+          "category": "Bully Boyz",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when an enemy unit targets a friendly Meganobz/Nobz unit.",
+          "target": "That MEGANOBZ/NOBZ unit.",
+          "effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6, with +1 to that roll if your unit is riled up:\n\nOn a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
+        },
+        {
+          "name": "Armed To Da Teef",
+          "cp": 1,
+          "category": "Bully Boyz",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase, when a friendly Meganobz/Nobz unit is selected to attack.",
+          "target": "That MEGANOBZ/NOBZ unit.",
+          "effect": "Your unit’s attacks can:\n\nRe-roll hit rolls of 1.\nIf your unit is riled up, re-roll hit rolls."
+        }
+      ]
+    },
+    {
+      "id": "4441204249472048554e54",
+      "name": "DA BIG HUNT",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "474c4f525920484f47",
+          "name": "Glory Hog",
           "points": 25
         },
         {
-          "id": "5355524c592041532041205351554947474f5448",
-          "name": "Surly as a Squiggoth",
+          "id": "49542043414d452046524f4d2044412044524f5053",
+          "name": "It Came from da Drops",
           "points": 20
         }
       ],
       "stratagems": [
         {
-          "name": "Stalkin’ Taktiks",
+          "name": "Goaded Into Action",
           "cp": 1,
-          "category": "Battle Tactic",
+          "category": "Da Big Hunt",
           "turn": "Opponent’s turn",
           "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One Beast Snagga Infantry or Beast Snagga Mounted unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time a ranged attack targets your unit, models in your unit have the Benefit of Cover against that attack. In addition, if your unit has the INFANTRY keyword, until the end of the phase, models in your unit have the Stealth ability."
-        },
-        {
-          "name": "Drag It Down",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One Beast Snagga unit from your army that has not been selected to fight this phase.",
-          "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability. In addition, each time a model in your unit makes a melee attack that targets your Prey, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6."
+          "when": "Your opponent’s Shooting phase, when an enemy unit has shot.",
+          "target": "One friendly unengaged Beast Snagga unit that lost a wound as a result of those attacks.",
+          "effect": "Your unit can make a surge move of up to D6\". If your unit is riled up, it can re-roll that D6."
         },
         {
           "name": "Instinctive Hunters",
           "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Da Big Hunt",
           "turn": "Opponent’s turn",
           "phase": "Fight phase",
           "when": "End of your opponent’s Fight phase.",
-          "target": "One Beast Snagga unit from your army that is not within Engagement Range of one or more enemy unit.",
-          "effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
+          "target": "One friendly unengaged Beast Snagga unit within 6\" of a battlefield edge.",
+          "effect": "Place your unit in strategic reserves."
         },
         {
-          "name": "Unstoppable Momentum",
+          "name": "Where D'ya Fink You're Going?",
           "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Charge phase",
-          "when": "Your Charge phase, just after a Beast Snagga Mounted unit from your army ends a Charge move.",
-          "target": "That Beast Snagga unit.",
-          "effect": "Select one enemy unit within Engagement Range of your unit and roll one D6 for each model in your unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds). If that enemy unit is your Prey, roll three additional D6."
-        },
-        {
-          "name": "Dat One’s Even Bigga!",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Charge phase",
-          "when": "Your Charge phase.",
-          "target": "One BEAST SNAGGA unit from your army.",
-          "effect": "Until the end of the phase, your unit is eligible to charge in a turn in which it Advanced or Fell Back. In addition, you can re-roll charge rolls made for your unit. If you do, your unit must end that charge move engaged with your Prey."
-        },
-        {
-          "name": "Where D’ya Fink You’re Going?",
-          "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Da Big Hunt",
           "turn": "Opponent’s turn",
           "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Fall Back move.",
-          "target": "One Beast Snagga Infantry or Beast Snagga Mounted unit from your army that was within Engagement Range of that enemy unit at the start of the phase.",
-          "effect": "If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+          "when": "Your opponent’s Movement phase, when an enemy unit is selected to make a fall-back move, if that enemy unit is engaged with a friendly Beast Snagga unit.",
+          "target": "That BEAST SNAGGA unit.",
+          "effect": "When an enemy unit engaged with your unit is selected to make a fall-back move, that enemy unit must use the desperate escape mode. If that enemy unit is a MONSTER/VEHICLE unit, that enemy unit makes three additional hazard rolls for each BEAST SNAGGA unit it is engaged with, with -1 from those hazard rolls if that enemy unit is battle-shocked."
         }
       ]
     },
     {
       "id": "4452454144204d4f42",
       "name": "DREAD MOB",
-      "dp": 2,
-      "enhancements": [
-        {
-          "id": "47495446494e44455220474f47474c455a",
-          "name": "Gitfinder Gogglez",
-          "points": 10
-        },
-        {
-          "id": "505245535320495420464153544121",
-          "name": "Press It Fasta!",
-          "points": 35
-        },
-        {
-          "id": "534d4f4b592047554242494e5a",
-          "name": "Smoky Gubbinz",
-          "points": 15
-        },
-        {
-          "id": "535550412d474c4f57592046494e47",
-          "name": "Supa-glowy Fing",
-          "points": 20
-        }
-      ],
-      "stratagems": [
-        {
-          "name": "Bigger Shells For Bigger Gitz",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Mek, Orks Walker or Grots Vehicle unit from your army that has not been selected to shoot this phase.",
-          "effect": "Each time you use this Stratagem, you can choose to push it. Until the end of the phase, each time a model in your unit makes an attack that targets a MONSTER or VEHICLE, add 1 to the Wound roll. If you chose to push it, add 1 to the Damage characteristic of that attack and, until the end of the phase, ranged weapons equipped by models in your unit have the [HAZARDOUS] ability as well."
-        },
-        {
-          "name": "Dakka! Dakka! Dakka!",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Orks Walker or Grots Vehicle unit from your army that has not been selected to shoot this phase.",
-          "effect": "Each time you use this Stratagem, you can choose to push it. Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1. If you chose to push it, you can re-roll the Hit roll instead and, until the end of the phase, ranged weapons equipped by models in your unit have the [HAZARDOUS] ability as well."
-        },
-        {
-          "name": "Extra Gubbinz",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One Orks Walker or Grots Vehicle unit from your army (excluding TITANIC units) that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack."
-        },
-        {
-          "name": "Klankin’ Klaws",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One Orks Walker unit from your army that has not been selected to fight this phase.",
-          "effect": "Each time you use this Stratagem, you can choose to push it. Until the end of the phase, add 2 to the Strength characteristic of melee weapons equipped by models in your unit and, if you chose to push it, until the end of the phase, add 1 to the Damage characteristic of those weapons and they have the [HAZARDOUS] ability as well."
-        },
-        {
-          "name": "Conniving Runts",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
-          "target": "One Gretchin unit from your army that is within 8\" of that enemy unit and not within Engagement Range of any enemy units.",
-          "effect": "Roll one D6: on a 4+, that enemy unit suffers D3+1 mortal wounds. Your unit can then make a Normal move."
-        },
-        {
-          "name": "Superfuelled Boiler",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase, just after an Orks Walker unit from your army has been selected to Advance.",
-          "target": "That Orks Walker unit.",
-          "effect": "Until the end of the turn, you can re-roll Advance rolls made for your unit and ranged weapons equipped by models in your unit have the [ASSAULT] ability."
-        }
-      ]
-    },
-    {
-      "id": "45515541544f5249414c20484f52444553",
-      "name": "EQUATORIAL HORDES",
       "dp": 1,
       "enhancements": [
         {
-          "id": "4b554e4e494ee280992048554e5441",
-          "name": "Kunnin’ Hunta",
-          "points": 25
+          "id": "4359424f524b20424f4f535441",
+          "name": "Cybork Boosta",
+          "points": 10
         },
         {
-          "id": "554e4b494c4c41424c452053434f55524745",
-          "name": "Unkillable Scourge",
-          "points": 25
+          "id": "4452454144484552444552",
+          "name": "Dreadherder",
+          "points": 20
         }
       ],
       "stratagems": [
         {
-          "name": "Stragglerz",
+          "name": "Crazed Rampage",
           "cp": 1,
-          "category": "Equatorial Hordes",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "One friendly MOB/KOMMANDOS unit.",
-          "effect": "Your unit heals 2D3 wounds."
-        },
-        {
-          "name": "Dey’re Over ‘ere",
-          "cp": 1,
-          "category": "Equatorial Hordes",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Start of your Shooting phase.",
-          "target": "One friendly MOB/KOMMANDOS unit.",
-          "effect": "While a visible enemy unit is within 6\" of your unit, that unit has +3\" detection range."
-        },
-        {
-          "name": "Concealed Krumpin’",
-          "cp": 1,
-          "category": "Equatorial Hordes",
+          "category": "Dread Mob",
           "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase, when a friendly hidden MOB unit is selected to attack.",
-          "target": "That MOB unit.",
-          "effect": "Your unit’s attacks have [LETHAL HITS]."
+          "phase": "Fight phase",
+          "when": "Fight phase, when an enemy unit targets a friendly Orks Walker unit (excluding Titanic units).",
+          "target": "That ORKS WALKER unit.",
+          "effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6, with +3 to the result if your unit has Deff Dread:\n\nOn a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
+        },
+        {
+          "name": "Stomping Juggernaut",
+          "cp": 1,
+          "category": "Dread Mob",
+          "turn": "Your turn",
+          "phase": "Movement or Charge phase",
+          "when": "Your Movement/Charge phase, when a friendly Orks Walker unit is selected to move or declares a charge.",
+          "target": "That ORKS WALKER unit.",
+          "effect": "Your unit has MOBILE."
+        },
+        {
+          "name": "Dread Power",
+          "cp": 1,
+          "category": "Dread Mob",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase.",
+          "target": "One friendly Orks Walker unit.",
+          "effect": "Your unit is riled up until the start of your next turn."
         }
       ]
     },
     {
-      "id": "46524545424f4f544552204b524557",
-      "name": "FREEBOOTER KREW",
-      "dp": 2,
+      "id": "464c59424f595a",
+      "name": "FLYBOYZ",
+      "dp": 1,
       "enhancements": [
         {
-          "id": "42494f4e494b20574f524b53484f50",
-          "name": "Bionik Workshop",
-          "points": 15
-        },
-        {
-          "id": "4441204b415054494e",
-          "name": "Da Kaptin",
-          "points": 10
-        },
-        {
-          "id": "4749542d53504f54544552205351554947",
-          "name": "Git-Spotter Squig",
+          "id": "464c59424f535320285550475241444529",
+          "name": "Flyboss (Upgrade)",
           "points": 20
         },
         {
-          "id": "52415a474954e2809953204d4147494b204d4150",
-          "name": "Razgit’s Magik Map",
-          "points": 25
+          "id": "494d50554c53495645205245434f4e20285550475241444529",
+          "name": "Impulsive Recon (Upgrade)",
+          "points": 15
         }
       ],
       "stratagems": [
         {
-          "name": "Bash And Grab",
+          "name": "Whirligig Evasion",
           "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "The Fight phase.",
-          "target": "One ORKS unit from your army that has not been selected to fight this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit within range of the loot objective, you can re-roll the Wound roll."
-        },
-        {
-          "name": "Boardin’ Rush",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase.",
-          "target": "One ORKS unit from your army that has not been selected to move this phase.",
-          "effect": "Until the end of the phase, each time your unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit."
-        },
-        {
-          "name": "Krump And Run",
-          "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Flyboyz",
           "turn": "Opponent’s turn",
           "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, just after an enemy unit falls back.",
-          "target": "One ORKS unit from your army that was within engagement range of that enemy unit at the start of the phase and is not within range of one or more enemy units.",
-          "effect": "Your unit can make a Normal move of up to 6\"."
+          "when": "Your opponent’s Movement phase, when an enemy unit ends a move.",
+          "target": "One friendly unengaged Deffkoptas unit within 8\" of that enemy unit.",
+          "effect": "Your unit can make a normal move of:\n\nUp to D6\".\nOr: If your unit is riled up, up to 6\"."
         },
         {
-          "name": "Deck Fraggers",
+          "name": "Flyin' Headbutt",
           "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Flyboyz",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, when a friendly Orks Aircraft unit is destroyed, before rolling for any Deadly Demise.",
+          "target": "That ORKS unit.",
+          "effect": "Your unit does not have the Deadly Demise ability. Select one enemy unit within 12\" of your unit and roll eight D6:\n\nFor each 4+, that enemy unit suffers 1 mortal wound.Then remove your unit from the battlefield."
+        },
+        {
+          "name": "Long, Uncontrolled Bursts",
+          "cp": 1,
+          "category": "Flyboyz",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One ORKS unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit targets an INFANTRY unit with a ranged weapon, that weapon has the [BLAST] ability."
-        },
-        {
-          "name": "Grab And Bash",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "One ORKS unit from your army (excluding Gretchin units) that is within range of the loot objective.",
-          "effect": "Until the start of your next Command phase, the Waaagh! is active for your unit, even if you have already called a Waaagh! this battle.\n\nDesigner’s Note: This means that any abilities that are in effect while the Waaagh! is active for your army will be in effect for your unit."
-        },
-        {
-          "name": "Rolling Loot-Heap",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Flash Gitz unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [ANTI-VEHICLE 4+] ability."
+          "when": "Your Shooting phase, when a friendly Orks Aircraft/Deffkoptas unit is selected to shoot.",
+          "target": "That ORKS AIRCRAFT/DEFFKOPTAS unit.",
+          "effect": "When your unit’s ranged attacks target a FLY unit, those attacks can re-roll hit rolls."
         }
       ]
     },
     {
       "id": "475245454e2054494445",
       "name": "GREEN TIDE",
-      "dp": 3,
+      "dp": 1,
       "enhancements": [
         {
-          "id": "424c4f4f44544849525354592042454c4c49474552454e4345",
-          "name": "Bloodthirsty Belligerence",
-          "points": 15
-        },
-        {
-          "id": "42525554414c20425554204b554e4e494ee28099",
-          "name": "Brutal But Kunnin’",
+          "id": "27415244424f595a20285550475241444529",
+          "name": "'Ardboyz (Upgrade)",
           "points": 25
         },
         {
           "id": "4645524f43494f55532053484f57204f4646",
           "name": "Ferocious Show Off",
-          "points": 10
-        },
-        {
-          "id": "524155434f55532057415243414c4c4552",
-          "name": "Raucous Warcaller",
-          "points": 20
+          "points": 15
         }
       ],
       "stratagems": [
         {
-          "name": "Bulldozer Brutality",
+          "name": "Unbridled Carnage",
           "cp": 1,
-          "category": "Battle Tactic",
+          "category": "Green Tide",
           "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One Boyz unit from your army that has not been selected to fight this phase and is within Engagement Range of one or more enemy units.",
-          "effect": "Until the end of the phase, each time your unit is selected to fight, when determining which models in your unit are eligible to fight, any models in your unit that are within 3\" of one or more enemy models are eligible to fight. When resolving those attacks, such models can target one of those enemy units that is within 3\" of them and within Engagement Range of their unit."
-        },
-        {
-          "name": "Competitive Streak",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One Boyz unit from your army that has not been selected to fight this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack, re-roll a Wound roll of 1. If your unit contains 10 or more models, re-roll the Wound roll instead."
-        },
-        {
-          "name": "Tide Of Muscle",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Your turn",
-          "phase": "Charge phase",
-          "when": "Your Charge phase.",
-          "target": "One Boyz unit from your army that has not declared a charge this phase.",
-          "effect": "Until the end of the phase, each time your unit declares a charge, add 1 to the Charge roll and, if your unit contains 10 or more models, you can re-roll the Charge roll.’"
-        },
-        {
-          "name": "Braggin’ Rights",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "Two Boyz units from your army that are within 6\" of each other.",
-          "effect": "Until the start of your next Command phase, while those two units are within 6\" of each other, they both count as containing 10 or more models for the purposes of your Detachment rule, any Enhancements models from your army have and any Stratagems you use."
-        },
-        {
-          "name": "Come On Ladz!",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "One Boyz unit from your army.",
-          "effect": "Return up to D3+2 destroyed models to your unit (excluding Character models)."
-        },
-        {
-          "name": "Go Get ’em!",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, when an enemy unit that targeted a friendly unengaged BOYZ unit this phase has shot.",
+          "phase": "Charge or Fight phase",
+          "when": "Fight phase, when a friendly Boyz unit that made a charge move this turn is selected to fight.",
           "target": "That BOYZ unit.",
-          "effect": "Your unit can make a surge move of up to D6\"."
+          "effect": "Your unit’s melee attacks have +1 A."
+        },
+        {
+          "name": "'ere We Go",
+          "cp": 1,
+          "category": "Green Tide",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, when a friendly Beast Snagga Boyz/Boyz unit is selected to move.",
+          "target": "That BEAST SNAGGA BOYZ/BOYZ unit.",
+          "effect": "Your unit has +2 to advance rolls."
+        },
+        {
+          "name": "Mob Mentality",
+          "cp": 1,
+          "category": "Green Tide",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Start of the Battle-shock step of your Command phase.",
+          "target": "One friendly Orks Infantry unit of 13+ models.",
+          "effect": "Select one visible friendly ORKS unit within 12\" of your unit. That unit’s battle-shock rolls are automatically successful."
         }
       ]
     },
     {
       "id": "4b554c54204f46205350454544",
       "name": "KULT OF SPEED",
-      "dp": 2,
+      "dp": 1,
       "enhancements": [
         {
-          "id": "4641535441205448414e20594f4f5a",
-          "name": "Fasta Than Yooz",
-          "points": 35
-        },
-        {
-          "id": "5350454544204d414b4553205249474854",
-          "name": "Speed Makes Right",
-          "points": 25
-        },
-        {
-          "id": "53515549472d48494445205459524553",
-          "name": "Squig-hide Tyres",
+          "id": "434f4d50455449544956452053545245414b",
+          "name": "Competitive Streak",
           "points": 15
         },
         {
-          "id": "57415a424c41535441",
-          "name": "Wazblasta",
+          "id": "534d4f4b592047554242494e5a20285550475241444529",
+          "name": "Smoky Gubbinz (Upgrade)",
           "points": 10
         }
       ],
       "stratagems": [
         {
-          "name": "Blitza Fire",
+          "name": "Delicious Eating Squigs",
           "cp": 1,
-          "category": "Battle Tactic",
+          "category": "Kult of Speed",
           "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Speed Freeks unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] ability and, each time a model in your unit makes an attack that targets a unit within 9\", a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6.",
-          "restrictions": "A unit cannot be targeted by this and the Dakkastorm Stratagem in the same phase."
-        },
-        {
-          "name": "Full Throttle!",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Charge phase",
-          "when": "Your Charge phase, just after a SPEED FREEKS unit from your army ends a Charge move.",
-          "target": "That Speed Freeks unit.",
-          "effect": "Until the end of the turn, each time a model in your unit makes a melee attack, add 1 to the Wound roll."
+          "phase": "Movement phase",
+          "when": "Your Movement phase.",
+          "target": "One friendly Rukkatrukk Squigbuggies unit.",
+          "effect": "Select any number of friendly Orks Infantry units within 3\" of your unit. Each selected unit heals 3 wounds."
         },
         {
           "name": "Dakkastorm",
           "cp": 1,
-          "category": "Battle Tactic",
+          "category": "Kult of Speed",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Speed Freeks unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability. While targeting a unit within 9\", they have the [SUSTAINED HITS 2] ability instead.",
-          "restrictions": "A unit cannot be targeted by this and the Blitza Fire Stratagem in the same phase."
+          "when": "Your Shooting phase, when a friendly Speed Freeks unit is selected to shoot.",
+          "target": "That SPEED FREEKS unit.",
+          "effect": "Your unit’s ranged attacks have [Sustained Hits 1]."
         },
         {
           "name": "Speediest Freeks",
           "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Speed Freeks or Trukk unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, models in your unit have a 5+ invulnerable save. If your unit is a VEHICLE unit with an unmodified Toughness characteristic of 8 or less, until the end of the phase, models in your unit have a 4+ invulnerable save instead."
-        },
-        {
-          "name": "Squig Flingin’",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase, just after a SPEED FREEKS or TRUKK unit from your army ends a Normal, Advance or Fall Back move.",
-          "target": "That Speed Freeks or Trukk unit.",
-          "effect": "Select one enemy unit within 9\" of your unit. That enemy unit must take a Battle-shock test and, when doing so, subtract 1 from the result."
-        },
-        {
-          "name": "More Gitz Over ’ere!",
-          "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Kult of Speed",
           "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
-          "target": "One Speed Freeks unit from your army that is within 8\" of that enemy unit and is not within Engagement Range of one or more enemy units.",
-          "effect": "Your unit can make a Normal move of up to 6\"."
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly Speed Freeks unit.",
+          "target": "That SPEED FREEKS unit.",
+          "effect": "Ranged attacks that target your unit fail on an unmodified hit roll of 1-3."
         }
       ]
     },
     {
-      "id": "4d4f52452044414b4b4121",
-      "name": "MORE DAKKA!",
+      "id": "4d4144434150204d454b53",
+      "name": "MADCAP MEKS",
       "dp": 1,
       "enhancements": [
         {
-          "id": "444120474f4253484f54205448554e44455242555353",
-          "name": "Da Gobshot Thunderbuss",
-          "points": 15
+          "id": "454e48414e4345442052554e542d4d415720285550475241444529",
+          "name": "Enhanced Runt-maw (Upgrade)",
+          "points": 10
         },
         {
-          "id": "44454144205348494e592053484f4f54415320285550475241444529",
-          "name": "Dead Shiny Shootas (Upgrade)",
-          "points": 15
+          "id": "4d454b57414141474821204d41535445524d494e44",
+          "name": "Mekwaaagh! Mastermind",
+          "points": 30
+        },
+        {
+          "id": "54454d504552414d454e54414c2053484f4b4b4120285550475241444529",
+          "name": "Temperamental Shokka (Upgrade)",
+          "points": 20
         }
       ],
       "stratagems": [
         {
-          "name": "Long, Uncontrolled Bursts",
+          "name": "Vindictive Artillerists",
           "cp": 1,
-          "category": "More Dakka!",
+          "category": "Madcap Meks",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "when": "Your Shooting phase, when a friendly ORKS INFANTRY unit is selected to shoot.",
-          "target": "That ORKS INFANTRY unit.",
-          "effect": "Your unit’s ranged attacks have [IGNORES COVER]."
+          "when": "Your Shooting phase, when a friendly Mek Gunz unit is selected to shoot.",
+          "target": "That MEK GUNZ unit.",
+          "effect": "Your unit’s ranged attacks have:\n\n[Lethal Hits].\nOr: [Sustained Hits 1].\nOr: [Hazardous], [Lethal Hits], [Sustained Hits 1]."
+        }
+      ]
+    },
+    {
+      "id": "52554e5420535741524d",
+      "name": "RUNT SWARM",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "455854524120534e45414b5920285550475241444529",
+          "name": "Extra Sneaky (Upgrade)",
+          "points": 10
         },
         {
-          "name": "Speshul Shells",
+          "id": "4d494e454649454c442044455441494c20285550475241444529",
+          "name": "Minefield Detail (Upgrade)",
+          "points": 10
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Scarper!",
           "cp": 1,
-          "category": "More Dakka!",
+          "category": "Runt Swarm",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Gretchin unit.",
+          "target": "That GRETCHIN unit.",
+          "effect": "Your unit can make a normal move of:\n\nUp to D6\".\nOr: Up to 6\" instead if your unit is an attached unit."
+        },
+        {
+          "name": "Infested War Zone",
+          "cp": 2,
+          "category": "Runt Swarm",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, when an enemy unit has attacked.",
+          "target": "One friendly Gretchin unit that was just destroyed. You can target that unit with this stratagem even though that unit was just destroyed.",
+          "effect": "Add a new GRETCHIN unit to your army identical to your destroyed unit, in strategic reserves, at its starting strength, with its full wounds remaining."
+        },
+        {
+          "name": "Grot Shields",
+          "cp": 1,
+          "category": "Runt Swarm",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly Orks Infantry unit (excluding Gretchin units).",
+          "target": "One friendly Gretchin unit within 3\" of that ORKS INFANTRY unit.",
+          "effect": "When a hit roll for that enemy unit’s ranged attacks that target that ORKS unit results in a hit, if a model in your GRETCHIN unit is on the battlefield, end the attack sequence for that attack and your GRETCHIN unit suffers 1 mortal wound."
+        }
+      ]
+    },
+    {
+      "id": "53484f4f544120424f595a",
+      "name": "SHOOTA BOYZ",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "535550412d474c4f57592046494e47",
+          "name": "Supa-glowy Fing",
+          "points": 25
+        },
+        {
+          "id": "544152474554494e2720535155494753",
+          "name": "Targetin' Squigs",
+          "points": 20
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Glowin' Dakka",
+          "cp": 1,
+          "category": "Shoota Boyz",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "when": "Your Shooting phase, when a friendly ORKS INFANTRY unit is selected to shoot.",
+          "when": "Your Shooting phase, when a friendly Orks Infantry unit is selected to shoot.",
           "target": "That ORKS INFANTRY unit.",
           "effect": "Your unit’s ranged attacks that target a unit within 9\" have +1 AP."
         },
         {
-          "name": "Call Dat Dakka?",
+          "name": "Never Enough Dakka",
           "cp": 1,
-          "category": "More Dakka!",
-          "turn": "Opponent’s turn",
+          "category": "Shoota Boyz",
+          "turn": "Your turn",
           "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, when an enemy unit that targeted a friendly ORKS INFANTRY unit has shot.",
+          "when": "Your Shooting phase, when a friendly Orks Infantry unit is selected to shoot.",
           "target": "That ORKS INFANTRY unit.",
-          "effect": "Your unit shoots using snap shooting, but while doing so your unit can only target that enemy unit."
-        }
-      ]
-    },
-    {
-      "id": "524f4c4c494e272044454646",
-      "name": "ROLLIN' DEFF",
-      "dp": 1,
-      "enhancements": [
-        {
-          "id": "424f415244494e472052414d505320285550475241444529",
-          "name": "Boarding Ramps (Upgrade)",
-          "points": 10
+          "effect": "Your unit’s ranged attacks have [Sustained Hits 1]."
         },
         {
-          "id": "544152474554494ee280992047495a4d4f5320285550475241444529",
-          "name": "Targetin’ Gizmos (Upgrade)",
-          "points": 15
-        }
-      ],
-      "stratagems": [
-        {
-          "name": "Brutal Broadside",
+          "name": "Kustom Dakka",
           "cp": 1,
-          "category": "Rollin’ Deff",
+          "category": "Shoota Boyz",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "when": "Your Shooting phase, when a friendly BATTLEWAGON unit is selected to shoot.",
-          "target": "That BATTLEWAGON unit.",
-          "effect": "Your unit’s ranged attacks (excluding attacks made by weapons selected with Firing Deck) have [RAPID FIRE X], where X is that attack’s A."
-        },
-        {
-          "name": "Devastating Drift",
-          "cp": 1,
-          "category": "Rollin’ Deff",
-          "turn": "Your turn",
-          "phase": "Fight phase",
-          "when": "Your Fight phase, when a friendly WAGON unit that made a charge move this turn is selected to fight.",
-          "target": "That WAGON unit.",
-          "effect": "Your unit’s melee attacks have [CLEAVE 1]."
-        },
-        {
-          "name": "Impending Crunch",
-          "cp": 1,
-          "category": "Rollin’ Deff",
-          "turn": "Your turn",
-          "phase": "Charge phase",
-          "when": "Your Charge phase, when a friendly WAGON unit ends a charge move.",
-          "target": "That WAGON unit.",
-          "effect": "Each enemy unit engaged with your unit makes a battle-shock roll, with -1 to that battle-shock roll."
-        }
-      ]
-    },
-    {
-      "id": "535045454457414141474821",
-      "name": "SPEEDWAAAGH!",
-      "dp": 2,
-      "enhancements": [
-        {
-          "id": "44414b4b414d454b",
-          "name": "Dakkamek",
-          "points": 25
-        },
-        {
-          "id": "4b5553544f4d2053484f4b4b20424f58",
-          "name": "Kustom Shokk Box",
-          "points": 10
-        },
-        {
-          "id": "4d4153544552204d454b4e4f4c4f47495354",
-          "name": "Master Meknologist",
-          "points": 20
-        },
-        {
-          "id": "535550412d4255524e59204655454c",
-          "name": "Supa-Burny Fuel",
-          "points": 15
-        }
-      ],
-      "stratagems": [
-        {
-          "name": "On Da Move",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase.",
-          "target": "One ORKS unit from your army that has not been selected to move this phase.",
-          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back or Advanced (unless it used its turbo this turn)."
-        },
-        {
-          "name": "Mobile Dakkastorm",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase, just after a Speed Freeks or Trukk unit from your army has shot.",
-          "target": "That SPEED FREEKS or TRUKK unit.",
-          "effect": "Select one enemy unit hit by one or more of those attacks (excluding attacks made with Indirect Fire weapons). Until the end of the phase, each time a model in a SPEED FREEKS or TRUKK unit from your army makes an attack that targets that unit, improve the Strength characteristic of that attack by 2."
-        },
-        {
-          "name": "Ded Killy Construction",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Fight phase",
-          "when": "Your Fight phase.",
-          "target": "One Speed Freeks or Trukk unit from your army that has not been selected to fight this phase.",
-          "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LANCE] ability and, if your unit made a Charge move this turn, until the end of the phase, add 1 to the Damage characteristic of those weapons."
-        },
-        {
-          "name": "Dust Trails",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One ORKS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, your unit has the Benefit of Cover."
-        },
-        {
-          "name": "Evasive Manoova",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Fight phase",
-          "when": "End of your opponent’s Fight phase.",
-          "target": "One Speed Freeks or Trukk unit from your army that is not within Engagement Range of one or more enemy units.",
-          "effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
-        },
-        {
-          "name": "Speshul Ammo",
-          "cp": 1,
-          "category": "Wargear",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One ORKS unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit (excluding Torrent weapons) have the [ANTI-MONSTER 4+] and [ANTI-VEHICLE 4+] abilities."
+          "when": "Your Shooting phase, when a friendly Orks Infantry unit is selected to shoot.",
+          "target": "That ORKS INFANTRY unit.",
+          "effect": "Your unit’s ranged attacks that target a unit (excluding MONSTER/VEHICLE units) have +1 to wound rolls."
         }
       ]
     },
@@ -1690,46 +1395,46 @@
       "dp": 1,
       "enhancements": [
         {
-          "id": "4d4f524be2809953204b554e4e494ee28099",
-          "name": "Mork’s Kunnin’",
+          "id": "4b494c4c204b4f4d4d414e4441",
+          "name": "Kill Kommanda",
           "points": 20
         },
         {
-          "id": "534c49505045525920474954",
-          "name": "Slippery Git",
+          "id": "5448524f41542d534c495454415320285550475241444529",
+          "name": "Throat-slittas (Upgrade)",
           "points": 15
         }
       ],
       "stratagems": [
         {
-          "name": "Ded Sneaky",
-          "cp": 1,
-          "category": "Taktikal Brigade",
-          "turn": "Opponent’s turn",
-          "phase": "Fight phase",
-          "when": "End of your opponent’s Fight phase.",
-          "target": "One friendly unengaged KOMMANDOS/STORMBOYZ unit.",
-          "effect": "Place your unit in strategic reserves"
-        },
-        {
-          "name": "On To Da Next",
+          "name": "While Their Backs Are Turned",
           "cp": 1,
           "category": "Taktikal Brigade",
           "turn": "Opponent’s turn",
           "phase": "Movement phase",
           "when": "End of your opponent’s Movement phase.",
-          "target": "One friendly unengaged BOYZ/KOMMANDOS/STORMBOYZ unit that was engaged at the start of the phase.",
+          "target": "One friendly unengaged Boyz/Kommandos/Stormboyz unit that was engaged at the start of the phase.",
           "effect": "Your unit can make a normal move of up to 6\"."
         },
         {
-          "name": "Taktikal Retreat",
+          "name": "Mind Mostly On The Mission",
           "cp": 1,
           "category": "Taktikal Brigade",
           "turn": "Your turn",
           "phase": "Movement phase",
-          "when": "Your Movement phase, when a friendly KOMMANDOS/ STORMBOYZ unit is selected to make a fall-back move.",
-          "target": "That KOMMANDOS/STORMBOYZ unit.",
-          "effect": "That move does not prevent your unit from being eligible to declare a charge"
+          "when": "Your Movement phase, when a friendly Boyz/Kommandos/Stormboyz unit is selected to make an advance/fall-back move.",
+          "target": "That BOYZ/KOMMANDOS/STORMBOYZ unit.",
+          "effect": "That move does not prevent your unit from being eligible to start an action."
+        },
+        {
+          "name": "Dubious Restraint",
+          "cp": 1,
+          "category": "Taktikal Brigade",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Start/end of your Movement phase.",
+          "target": "One friendly Boyz/Kommandos/Stormboyz unit.",
+          "effect": "Select one objective your unit is controlling. That objective is secured."
         }
       ]
     },
@@ -1739,86 +1444,157 @@
       "dp": 3,
       "enhancements": [
         {
+          "id": "444120424f5353204953205741544348494e27",
+          "name": "Da Boss is Watchin'",
+          "points": 25
+        },
+        {
           "id": "464f4c4c4f57204d45204c41445a",
           "name": "Follow Me Ladz",
-          "points": 25
+          "points": 20
         },
         {
           "id": "48454144574f505041e2809953204b494c4c43484f505041",
           "name": "Headwoppa’s Killchoppa",
-          "points": 20
+          "points": 15
         },
         {
           "id": "4b554e4e494ee28099204255542042525554414c",
           "name": "Kunnin’ But Brutal",
-          "points": 15
-        },
-        {
-          "id": "535550412d4359424f524b20424f4459",
-          "name": "Supa-Cybork Body",
-          "points": 15
+          "points": 20
         }
       ],
       "stratagems": [
         {
-          "name": "Ere We Go",
+          "name": "Mow 'em Down",
           "cp": 1,
-          "category": "Battle Tactic",
+          "category": "War Horde",
+          "turn": "Either player’s turn",
+          "phase": "Charge or Fight phase",
+          "when": "Fight phase, when a friendly Orks Vehicle unit (excluding Walker units) that made a charge move this turn is selected to fight.",
+          "target": "That ORKS VEHICLE unit.",
+          "effect": "Your unit’s melee attacks have:\n\n[Cleave 1].\nOr: If that attack already has [CLEAVE], +1 to the value of that [CLEAVE] (e.g. [CLEAVE 1] becomes [CLEAVE 2])."
+        },
+        {
+          "name": "Fungus-Fuel Injection",
+          "cp": 1,
+          "category": "War Horde",
           "turn": "Your turn",
           "phase": "Movement phase",
-          "when": "Start of your Movement phase.",
-          "target": "One Orks Infantry unit from your army.",
-          "effect": "Until the end of the turn, add 2 to Advance and Charge rolls made for your unit."
+          "when": "Your Movement phase, when a friendly Orks mounted/vehicle unit is selected to move.",
+          "target": "That ORKS MOUNTED/VEHICLE unit.",
+          "effect": "Your unit has +2\" M."
         },
         {
-          "name": "’ard As Nails",
+          "name": "Close-Range Dakka",
           "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One ORKS unit from your army (excluding Grots, Monster and Vehicle units) that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll."
-        },
-        {
-          "name": "Mob Rule",
-          "cp": 1,
-          "category": "Battle Tactic",
+          "category": "War Horde",
           "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "End of your Command phase.",
-          "target": "One Mob unit from your army that contains 10 or more models and is not Below Half-strength.",
-          "effect": "Select one friendly Battle-shocked Orks Infantry unit within 6\" of that MOB unit. That ORKS INFANTRY unit is no longer Battle-shocked."
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly ORKS unit is selected to shoot.",
+          "target": "That ORKS unit.",
+          "effect": "Your unit’s ranged attacks have:\n\n[Rapid Fire 1].\nOr: If that attack already has [RAPID FIRE], +1 to the value of that [RAPID FIRE] (e.g. [RAPID FIRE 1] becomes [RAPID FIRE 2])."
         },
         {
-          "name": "Unbridled Carnage",
+          "name": "Hit 'em Harder",
           "cp": 1,
-          "category": "Battle Tactic",
+          "category": "War Horde",
           "turn": "Either player’s turn",
           "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One ORKS unit from your army that has not been selected to fight this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes a melee attack, an unmodified hit roll of 5+ scores a Critical Hit."
-        },
-        {
-          "name": "Careen!",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, just after an Orks Vehicle unit from your army with the Deadly Demise ability is destroyed.",
-          "target": "That destroyed ORKS VEHICLE unit, if you roll a 6 for its Deadly Demise ability. You can use this Stratagem on that unit even though it was just destroyed.",
-          "effect": "Your unit can make a Normal or Fall Back move before its Deadly Demise ability is resolved, and before any embarked units perform an emergency disembark move. When making this move, your unit can move over enemy units (excluding MONSTERS and VEHICLES) as if they were not there."
+          "when": "Fight phase, when a friendly ORKS unit is selected to fight.",
+          "target": "That ORKS unit.",
+          "effect": "Your unit’s melee attacks have [Lethal Hits]."
         },
         {
           "name": "Orks Is Never Beaten",
-          "cp": 2,
-          "category": "Epic Deed",
+          "cp": 1,
+          "category": "War Horde",
           "turn": "Either player’s turn",
           "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One ORKS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making attacks, and is then removed from play."
+          "when": "Fight phase, when an enemy unit targets a friendly ORKS unit (excluding Titanic units).",
+          "target": "That ORKS unit.",
+          "effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6, with +1 to that roll if your unit is riled up:\n\nOn a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
+        },
+        {
+          "name": "Breakin' Heads",
+          "cp": 1,
+          "category": "War Horde",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, when a friendly attached Orks Infantry unit becomes battle-shocked.",
+          "target": "That ORKS INFANTRY unit. You can target that unit with this stratagem even though it is battle-shocked.",
+          "effect": "Roll one D3:\n\nYour unit suffers a number of mortal wounds equal to the result.\nYour unit is no longer battle-shocked."
+        }
+      ]
+    },
+    {
+      "id": "575245434b4153",
+      "name": "WRECKAS",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "4b415054494e275320484154",
+          "name": "Kaptin's Hat",
+          "points": 25
+        },
+        {
+          "id": "535550412d534e415a5a2044414b4b4120285550475241444529",
+          "name": "Supa-snazz Dakka (Upgrade)",
+          "points": 20
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Drive-By Bustin'",
+          "cp": 1,
+          "category": "Wreckas",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly Orks Transport unit is selected to shoot.",
+          "target": "That ORKS TRANSPORT unit.",
+          "effect": "Your unit’s ranged attacks with weapons selected for the Firing Deck ability have +1 to hit rolls."
+        },
+        {
+          "name": "Grab It",
+          "cp": 1,
+          "category": "Wreckas",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly unengaged Breaka Boyz/Flash Gitz/Tankbustas unit has shot.",
+          "target": "That BREAKA BOYZ/FLASH GITZ/TANKBUSTAS unit.",
+          "effect": "Your unit can make a normal move of up to 6\", and must end that move within range of an objective.\nYour unit is not eligible to declare a charge until the end of the turn."
+        },
+        {
+          "name": "Gun-Crazy Show-Offs",
+          "cp": 1,
+          "category": "Wreckas",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, when an enemy unit has shot.",
+          "target": "One friendly Flash Gitz/Tankbustas unit hit by those attacks.",
+          "effect": "Your unit shoots using normal shooting, but while doing so your unit can only target that enemy unit."
+        }
+      ]
+    },
+    {
+      "id": "5755525242414e44",
+      "name": "WURRBAND",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "4441204b52554e4348",
+          "name": "Da Krunch",
+          "points": 10
+        },
+        {
+          "id": "2745414442414e474552",
+          "name": "'Eadbanger",
+          "points": 15
+        },
+        {
+          "id": "5741525048454144",
+          "name": "Warphead",
+          "points": 25
         }
       ]
     }

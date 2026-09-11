@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T22:43:02.563Z",
+  "generatedAt": "2026-09-11T22:58:23.779Z",
   "armies": [
     {
       "slug": "adepta-sororitas",
@@ -136,8 +136,8 @@
     {
       "slug": "orks",
       "name": "Orks",
-      "unitCount": 58,
-      "detachmentCount": 13
+      "unitCount": 55,
+      "detachmentCount": 15
     },
     {
       "slug": "space-marines",
