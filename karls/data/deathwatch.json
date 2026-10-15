@@ -1,8 +1,8 @@
 {
   "slug": "deathwatch",
   "name": "Deathwatch",
-  "version": "v1.4",
-  "fetchedAt": "2026-09-21T08:54:19.971Z",
+  "version": "v1.5",
+  "fetchedAt": "2026-10-13T23:11:47.125Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -23,11 +23,22 @@
           "tiers": [
             {
               "models": 5,
-              "points": 180
+              "points": 190
             },
             {
               "models": 10,
-              "points": 330
+              "points": 380
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 230
+            },
+            {
+              "models": 10,
+              "points": 420
             }
           ]
         },
@@ -37,11 +48,11 @@
           "tiers": [
             {
               "models": 5,
-              "points": 100
+              "points": 115
             },
             {
               "models": 10,
-              "points": 190
+              "points": 220
             }
           ]
         },
@@ -51,11 +62,11 @@
           "tiers": [
             {
               "models": 5,
-              "points": 100
+              "points": 110
             },
             {
               "models": 10,
-              "points": 190
+              "points": 210
             }
           ]
         },
@@ -65,14 +76,14 @@
           "tiers": [
             {
               "models": 10,
-              "points": 195
+              "points": 210
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 10,
-              "points": 210
+              "points": 225
             }
           ]
         },
@@ -82,14 +93,14 @@
           "tiers": [
             {
               "models": 10,
-              "points": 275
+              "points": 280
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 10,
-              "points": 290
+              "points": 300
             }
           ]
         },
@@ -99,14 +110,14 @@
           "tiers": [
             {
               "models": 10,
-              "points": 170
+              "points": 185
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 10,
-              "points": 180
+              "points": 195
             }
           ]
         },
@@ -116,14 +127,14 @@
           "tiers": [
             {
               "models": 10,
-              "points": 265
+              "points": 280
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 10,
-              "points": 280
+              "points": 300
             }
           ]
         },
@@ -133,7 +144,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 65
+              "points": 75
             }
           ]
         },
@@ -143,7 +154,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 95
+              "points": 105
             }
           ]
         }
@@ -158,22 +169,11 @@
           "tiers": [
             {
               "models": 3,
-              "points": 80
-            },
-            {
-              "models": 6,
-              "points": 165
-            }
-          ],
-          "repeatFromCopy": 3,
-          "repeatTiers": [
-            {
-              "models": 3,
               "points": 90
             },
             {
               "models": 6,
-              "points": 175
+              "points": 180
             }
           ]
         },
@@ -193,7 +193,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 65
+              "points": 75
             }
           ]
         },
@@ -203,7 +203,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 40
+              "points": 45
             }
           ]
         },
@@ -213,7 +213,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 70
+              "points": 60
             }
           ]
         },
@@ -223,11 +223,11 @@
           "tiers": [
             {
               "models": 5,
-              "points": 75
+              "points": 85
             },
             {
               "models": 10,
-              "points": 150
+              "points": 170
             }
           ]
         },
@@ -237,22 +237,22 @@
           "tiers": [
             {
               "models": 5,
-              "points": 85
+              "points": 95
             },
             {
               "models": 10,
-              "points": 160
+              "points": 190
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 5,
-              "points": 95
+              "points": 105
             },
             {
               "models": 10,
-              "points": 170
+              "points": 200
             }
           ]
         },
@@ -262,14 +262,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 525
+              "points": 550
             }
           ],
           "repeatFromCopy": 2,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 575
+              "points": 650
             }
           ]
         },
@@ -286,7 +286,7 @@
           "repeatTiers": [
             {
               "models": 1,
-              "points": 160
+              "points": 170
             }
           ]
         },
@@ -296,7 +296,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 40
+              "points": 70
             }
           ]
         },
@@ -306,22 +306,22 @@
           "tiers": [
             {
               "models": 3,
-              "points": 80
+              "points": 90
             },
             {
               "models": 6,
-              "points": 160
+              "points": 180
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 3,
-              "points": 90
+              "points": 110
             },
             {
               "models": 6,
-              "points": 170
+              "points": 200
             }
           ]
         },
@@ -331,14 +331,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 150
+              "points": 160
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 160
+              "points": 180
             }
           ]
         },
@@ -348,7 +348,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 80
+              "points": 90
             }
           ]
         },
@@ -358,7 +358,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 80
+              "points": 90
             }
           ]
         },
@@ -368,7 +368,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 70
+              "points": 75
             }
           ]
         },
@@ -378,7 +378,17 @@
           "tiers": [
             {
               "models": 1,
-              "points": 85
+              "points": 90
+            }
+          ]
+        },
+        {
+          "id": "4341505441494e204f4e2042494b45",
+          "name": "CAPTAIN ON BIKE",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 110
             }
           ]
         },
@@ -388,35 +398,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 75
-            }
-          ]
-        },
-        {
-          "id": "43454e545552494f4e2041535341554c54205351554144",
-          "name": "CENTURION ASSAULT SQUAD",
-          "tiers": [
-            {
-              "models": 3,
-              "points": 150
-            },
-            {
-              "models": 6,
-              "points": 300
-            }
-          ]
-        },
-        {
-          "id": "43454e545552494f4e2044455641535441544f52205351554144",
-          "name": "CENTURION DEVASTATOR SQUAD",
-          "tiers": [
-            {
-              "models": 3,
-              "points": 175
-            },
-            {
-              "models": 6,
-              "points": 365
+              "points": 90
             }
           ]
         },
@@ -446,7 +428,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 70
+              "points": 75
             }
           ]
         },
@@ -466,7 +448,14 @@
           "tiers": [
             {
               "models": 4,
-              "points": 105
+              "points": 125
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 4,
+              "points": 145
             }
           ]
         },
@@ -476,24 +465,14 @@
           "tiers": [
             {
               "models": 5,
-              "points": 180
+              "points": 140
             }
           ],
-          "repeatFromCopy": 2,
+          "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 5,
-              "points": 210
-            }
-          ]
-        },
-        {
-          "id": "44524541444e4f55474854",
-          "name": "DREADNOUGHT",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 135
+              "points": 150
             }
           ]
         },
@@ -520,32 +499,7 @@
           "tiers": [
             {
               "models": 3,
-              "points": 75
-            }
-          ]
-        },
-        {
-          "id": "45524144494341544f52205351554144",
-          "name": "ERADICATOR SQUAD",
-          "tiers": [
-            {
-              "models": 3,
-              "points": 90
-            },
-            {
-              "models": 6,
-              "points": 180
-            }
-          ],
-          "repeatFromCopy": 3,
-          "repeatTiers": [
-            {
-              "models": 3,
-              "points": 100
-            },
-            {
-              "models": 6,
-              "points": 190
+              "points": 85
             }
           ]
         },
@@ -555,7 +509,47 @@
           "tiers": [
             {
               "models": 3,
-              "points": 80
+              "points": 100
+            },
+            {
+              "models": 6,
+              "points": 215
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 130
+            },
+            {
+              "models": 6,
+              "points": 245
+            }
+          ]
+        },
+        {
+          "id": "45524144494341544f522053515541442057495448204d454c5441205249464c4553",
+          "name": "ERADICATOR SQUAD WITH MELTA RIFLES",
+          "tiers": [
+            {
+              "models": 3,
+              "points": 100
+            },
+            {
+              "models": 6,
+              "points": 200
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 120
+            },
+            {
+              "models": 6,
+              "points": 220
             }
           ]
         },
@@ -565,11 +559,11 @@
           "tiers": [
             {
               "models": 1,
-              "points": 75
+              "points": 80
             },
             {
               "models": 2,
-              "points": 150
+              "points": 160
             }
           ]
         },
@@ -586,7 +580,7 @@
           "repeatTiers": [
             {
               "models": 1,
-              "points": 170
+              "points": 180
             }
           ]
         },
@@ -596,14 +590,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 160
+              "points": 165
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 170
+              "points": 185
             }
           ]
         },
@@ -613,24 +607,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 150
+              "points": 165
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 160
-            }
-          ]
-        },
-        {
-          "id": "48414d4d455246414c4c2042554e4b4552",
-          "name": "HAMMERFALL BUNKER",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 175
+              "points": 185
             }
           ]
         },
@@ -640,11 +624,11 @@
           "tiers": [
             {
               "models": 5,
-              "points": 100
+              "points": 115
             },
             {
               "models": 10,
-              "points": 200
+              "points": 230
             }
           ]
         },
@@ -654,11 +638,22 @@
           "tiers": [
             {
               "models": 5,
-              "points": 110
+              "points": 115
             },
             {
               "models": 10,
-              "points": 220
+              "points": 230
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 130
+            },
+            {
+              "models": 10,
+              "points": 245
             }
           ]
         },
@@ -685,22 +680,22 @@
           "tiers": [
             {
               "models": 3,
-              "points": 125
+              "points": 130
             },
             {
               "models": 6,
-              "points": 250
+              "points": 260
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 3,
-              "points": 140
+              "points": 150
             },
             {
               "models": 6,
-              "points": 265
+              "points": 280
             }
           ]
         },
@@ -710,22 +705,22 @@
           "tiers": [
             {
               "models": 5,
-              "points": 85
+              "points": 90
             },
             {
               "models": 10,
-              "points": 150
+              "points": 170
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 5,
-              "points": 95
+              "points": 100
             },
             {
               "models": 10,
-              "points": 160
+              "points": 180
             }
           ]
         },
@@ -735,11 +730,22 @@
           "tiers": [
             {
               "models": 5,
-              "points": 85
+              "points": 95
             },
             {
               "models": 10,
-              "points": 180
+              "points": 190
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 105
+            },
+            {
+              "models": 10,
+              "points": 200
             }
           ]
         },
@@ -749,22 +755,11 @@
           "tiers": [
             {
               "models": 5,
-              "points": 110
+              "points": 85
             },
             {
               "models": 10,
-              "points": 180
-            }
-          ],
-          "repeatFromCopy": 3,
-          "repeatTiers": [
-            {
-              "models": 5,
-              "points": 120
-            },
-            {
-              "models": 10,
-              "points": 190
+              "points": 150
             }
           ]
         },
@@ -774,21 +769,36 @@
           "tiers": [
             {
               "models": 5,
-              "points": 80
+              "points": 85
             },
             {
               "models": 10,
-              "points": 150
+              "points": 170
             }
           ]
         },
         {
-          "id": "494e564144455220415456",
-          "name": "INVADER ATV",
+          "id": "494e56414445522041545653",
+          "name": "INVADER ATVS",
           "tiers": [
             {
               "models": 1,
-              "points": 60
+              "points": 65
+            },
+            {
+              "models": 2,
+              "points": 130
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 75
+            },
+            {
+              "models": 2,
+              "points": 140
             }
           ]
         },
@@ -798,7 +808,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 125
+              "points": 135
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 150
             }
           ]
         },
@@ -808,7 +825,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 55
+              "points": 50
             }
           ]
         },
@@ -818,14 +835,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 220
+              "points": 245
             }
           ],
-          "repeatFromCopy": 3,
+          "repeatFromCopy": 2,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 240
+              "points": 265
             }
           ]
         },
@@ -835,14 +852,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 220
+              "points": 230
             }
           ],
-          "repeatFromCopy": 3,
+          "repeatFromCopy": 2,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 240
+              "points": 250
             }
           ]
         },
@@ -852,14 +869,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 260
+              "points": 245
             }
           ],
-          "repeatFromCopy": 3,
+          "repeatFromCopy": 2,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 280
+              "points": 265
             }
           ]
         },
@@ -879,14 +896,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 70
-            }
-          ],
-          "repeatFromCopy": 3,
-          "repeatTiers": [
-            {
-              "models": 1,
-              "points": 80
+              "points": 75
             }
           ]
         },
@@ -896,7 +906,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 70
+              "points": 75
             }
           ]
         },
@@ -906,7 +916,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 85
+              "points": 80
             }
           ]
         },
@@ -916,7 +926,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 45
+              "points": 50
             }
           ]
         },
@@ -926,17 +936,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 45
-            }
-          ]
-        },
-        {
-          "id": "4c49455554454e414e5420494e205245495645522041524d4f5552",
-          "name": "LIEUTENANT IN REIVER ARMOUR",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 45
+              "points": 40
             }
           ]
         },
@@ -946,7 +946,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 95
+              "points": 85
             }
           ]
         },
@@ -956,103 +956,17 @@
           "tiers": [
             {
               "models": 3,
-              "points": 70
+              "points": 80
             },
             {
               "models": 6,
-              "points": 140
-            },
-            {
-              "models": 1,
-              "points": 60
-            }
-          ]
-        },
-        {
-          "id": "5052454441544f5220414e4e4948494c41544f52",
-          "name": "PREDATOR ANNIHILATOR",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 135
-            }
-          ],
-          "repeatFromCopy": 3,
-          "repeatTiers": [
-            {
-              "models": 1,
-              "points": 145
-            }
-          ]
-        },
-        {
-          "id": "5052454441544f522044455354525543544f52",
-          "name": "PREDATOR DESTRUCTOR",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 140
-            }
-          ],
-          "repeatFromCopy": 3,
-          "repeatTiers": [
-            {
-              "models": 1,
-              "points": 150
-            }
-          ]
-        },
-        {
-          "id": "52415a4f524241434b",
-          "name": "RAZORBACK",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 85
-            }
-          ],
-          "repeatFromCopy": 4,
-          "repeatTiers": [
-            {
-              "models": 1,
-              "points": 95
+              "points": 160
             }
           ]
         },
         {
           "id": "524544454d50544f522044524541444e4f55474854",
           "name": "REDEMPTOR DREADNOUGHT",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 195
-            }
-          ],
-          "repeatFromCopy": 3,
-          "repeatTiers": [
-            {
-              "models": 1,
-              "points": 210
-            }
-          ]
-        },
-        {
-          "id": "524549564552205351554144",
-          "name": "REIVER SQUAD",
-          "tiers": [
-            {
-              "models": 5,
-              "points": 75
-            },
-            {
-              "models": 10,
-              "points": 150
-            }
-          ]
-        },
-        {
-          "id": "524550554c534f52",
-          "name": "REPULSOR",
           "tiers": [
             {
               "models": 1,
@@ -1068,19 +982,50 @@
           ]
         },
         {
-          "id": "524550554c534f5220455845435554494f4e4552",
-          "name": "REPULSOR EXECUTIONER",
+          "id": "524549564552205351554144",
+          "name": "REIVER SQUAD",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 165
+            }
+          ]
+        },
+        {
+          "id": "524550554c534f52",
+          "name": "REPULSOR",
           "tiers": [
             {
               "models": 1,
-              "points": 230
+              "points": 190
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 250
+              "points": 210
+            }
+          ]
+        },
+        {
+          "id": "524550554c534f5220455845435554494f4e4552",
+          "name": "REPULSOR EXECUTIONER",
+          "tiers": [
+            {
+              "models": 1,
+              "points": 260
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 280
             }
           ]
         },
@@ -1090,14 +1035,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 65
+              "points": 70
             }
           ],
           "repeatFromCopy": 4,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 75
+              "points": 80
             }
           ]
         },
@@ -1107,38 +1052,22 @@
           "tiers": [
             {
               "models": 5,
-              "points": 100
+              "points": 105
             },
             {
               "models": 10,
-              "points": 200
-            }
-          ]
-        },
-        {
-          "id": "53544f524d4841574b20494e544552434550544f52",
-          "name": "STORMHAWK INTERCEPTOR",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 155
-            }
-          ]
-        },
-        {
-          "id": "53544f524d524156454e2047554e53484950",
-          "name": "STORMRAVEN GUNSHIP",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 280
+              "points": 210
             }
           ],
-          "repeatFromCopy": 2,
+          "repeatFromCopy": 3,
           "repeatTiers": [
             {
-              "models": 1,
-              "points": 300
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 225
             }
           ]
         },
@@ -1148,14 +1077,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 105
+              "points": 110
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 115
+              "points": 120
             }
           ]
         },
@@ -1182,34 +1111,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 135
+              "points": 140
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 145
-            }
-          ]
-        },
-        {
-          "id": "53544f524d54414c4f4e2047554e53484950",
-          "name": "STORMTALON GUNSHIP",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 165
-            }
-          ]
-        },
-        {
-          "id": "53555050524553534f52205351554144",
-          "name": "SUPPRESSOR SQUAD",
-          "tiers": [
-            {
-              "models": 3,
-              "points": 85
+              "points": 150
             }
           ]
         },
@@ -1229,7 +1138,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 840
+              "points": 850
+            }
+          ],
+          "repeatFromCopy": 2,
+          "repeatTiers": [
+            {
+              "models": 1,
+              "points": 950
             }
           ]
         },
@@ -1239,8 +1155,29 @@
           "tiers": [
             {
               "models": 5,
-              "points": 105
+              "points": 110
             },
+            {
+              "models": 10,
+              "points": 220
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 130
+            },
+            {
+              "models": 10,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "id": "464f52544953204b494c4c205445414d",
+          "name": "FORTIS KILL TEAM",
+          "tiers": [
             {
               "models": 10,
               "points": 210
@@ -1249,46 +1186,8 @@
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
-              "models": 5,
-              "points": 115
-            },
-            {
               "models": 10,
-              "points": 220
-            }
-          ]
-        },
-        {
-          "id": "56494e44494341544f52",
-          "name": "VINDICATOR",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 185
-            }
-          ],
-          "repeatFromCopy": 3,
-          "repeatTiers": [
-            {
-              "models": 1,
-              "points": 200
-            }
-          ]
-        },
-        {
-          "id": "574849524c57494e44",
-          "name": "WHIRLWIND",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 175
-            }
-          ],
-          "repeatFromCopy": 2,
-          "repeatTiers": [
-            {
-              "models": 1,
-              "points": 195
+              "points": 225
             }
           ]
         },
@@ -1298,14 +1197,14 @@
           "tiers": [
             {
               "models": 10,
-              "points": 275
+              "points": 280
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 10,
-              "points": 290
+              "points": 300
             }
           ]
         },
@@ -1315,14 +1214,14 @@
           "tiers": [
             {
               "models": 10,
-              "points": 170
+              "points": 185
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 10,
-              "points": 180
+              "points": 195
             }
           ]
         },
@@ -1332,14 +1231,14 @@
           "tiers": [
             {
               "models": 10,
-              "points": 265
+              "points": 280
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 10,
-              "points": 280
+              "points": 300
             }
           ]
         },
@@ -1349,7 +1248,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 65
+              "points": 75
             }
           ]
         },
@@ -1359,7 +1258,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 95
+              "points": 105
             }
           ]
         }
@@ -1368,350 +1267,51 @@
   ],
   "detachments": [
     {
-      "id": "31535420434f4d50414e59205441534b20464f524345",
-      "name": "1ST COMPANY TASK FORCE",
-      "dp": 2,
+      "id": "41535341554c5420425245544852454e",
+      "name": "ASSAULT BRETHREN",
+      "dp": 1,
       "enhancements": [
         {
-          "id": "46454152204d414445204d414e4946455354",
-          "name": "Fear Made Manifest",
-          "points": 30
-        },
-        {
-          "id": "49524f4e205245534f4c5645",
-          "name": "Iron Resolve",
-          "points": 15
-        },
-        {
-          "id": "5249544553204f4620574152",
-          "name": "Rites of War",
+          "id": "465552494f55532041535341554c5420285550475241444529",
+          "name": "Furious Assault (Upgrade)",
           "points": 10
         },
         {
-          "id": "54484520494d50455249554de28099532053574f5244",
-          "name": "The Imperium’s Sword",
-          "points": 25
-        }
-      ],
-      "stratagems": [
-        {
-          "name": "Legendary Fortitude",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Opponent’s turn",
-          "phase": "Charge phase",
-          "when": "Your opponent’s Charge phase, just after an enemy unit ends a Charge move.",
-          "target": "One ADEPTUS ASTARTES TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army within Engagement Range of that enemy unit.",
-          "effect": "Until the end of the turn, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack."
-        },
-        {
-          "name": "Armour Of Contempt",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
-        },
-        {
-          "name": "Heroes Of The Chapter",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase.",
-          "target": "One ADEPTUS ASTARTES TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army that has not been selected to shoot or fight this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Hit roll. If your unit is Below Half-strength, add 1 to the Wound roll as well."
-        },
-        {
-          "name": "Orbital Teleportarium",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Fight phase",
-          "when": "End of your opponent’s Fight phase.",
-          "target": "One ADEPTUS ASTARTES TERMINATOR unit from your army.",
-          "effect": "Remove your unit from the battlefield and place it into Strategic Reserves. It will arrive back on the battlefield in the Reinforcements step of your next Movement phase using the Deep Strike ability.",
-          "restrictions": "You cannot select a unit that is within Engagement Range of one or more enemy units."
-        },
-        {
-          "name": "Duty And Honour",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Movement phase.",
-          "target": "One ADEPTUS ASTARTES TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army within range of an objective marker you control.",
-          "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
-        },
-        {
-          "name": "Terrifying Proficiency",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Fight phase",
-          "when": "Your Fight phase.",
-          "target": "One ADEPTUS ASTARTES TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army that made a Charge move this turn and destroyed one or more enemy units this phase.",
-          "effect": "In your opponent’s next Command phase, each enemy unit within 6\" of your unit must take a Battle-shock test. If the unit taking that test is Below Half-strength, subtract 1 from that test. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase."
-        }
-      ]
-    },
-    {
-      "id": "414e56494c20534945474520464f524345",
-      "name": "ANVIL SIEGE FORCE",
-      "dp": 2,
-      "enhancements": [
-        {
-          "id": "415243484954454354204f4620574152",
-          "name": "Architect of War",
-          "points": 25
-        },
-        {
-          "id": "464c45455420434f4d4d414e444552",
-          "name": "Fleet Commander",
-          "points": 15
-        },
-        {
-          "id": "494e444f4d495441424c452046555259",
-          "name": "Indomitable Fury",
-          "points": 20
-        },
-        {
-          "id": "53544f494320444546454e444552",
-          "name": "Stoic Defender",
-          "points": 15
-        }
-      ],
-      "stratagems": [
-        {
-          "name": "No Threat Too Great",
-          "cp": 2,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets a MONSTER or VEHICLE unit, you can re-roll the Wound roll."
-        },
-        {
-          "name": "Armour Of Contempt",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
-        },
-        {
-          "name": "Battle Drill Recall",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability. If your unit Remained Stationary this turn, then until the end of the phase, each time a model in your unit makes a ranged attack, a successful unmodified Hit roll of 5+ scores a Critical Hit."
-        },
-        {
-          "name": "Hail Of Vengeance",
-          "cp": 2,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has resolved its attacks.",
-          "target": "One ADEPTUS ASTARTES unit from your army that had one or more of its models destroyed as a result of the attacking unit’s attacks.",
-          "effect": "Your unit can shoot as if it were your Shooting phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
-        },
-        {
-          "name": "Not One Backwards Step",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "One ADEPTUS ASTARTES INFANTRY unit from your army within range of an objective marker.",
-          "effect": "Until the end of the turn, double the Objective Control characteristic of models in your unit, but it must Remain Stationary this turn."
-        },
-        {
-          "name": "Rigid Discipline",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "End of the Fight phase.",
-          "target": "One ADEPTUS ASTARTES unit from your army that is within Engagement Range of one or more enemy units.",
-          "effect": "Your unit can immediately make a Fall Back move of up to 6\".",
-          "restrictions": "When making that move, your unit must end that move either wholly within your deployment zone or within range of an objective marker."
-        }
-      ]
-    },
-    {
-      "id": "41524d4f55524544205350454152544950",
-      "name": "ARMOURED SPEARTIP",
-      "dp": 3,
-      "enhancements": [
-        {
-          "id": "41524d4f5552454420434f4d4d414e444552",
-          "name": "Armoured Commander",
-          "points": 25
-        },
-        {
-          "id": "4c4942455241544f52",
-          "name": "Liberator",
-          "points": 15
-        },
-        {
-          "id": "53484f434b204445504c4f594d454e54",
-          "name": "Shock Deployment",
-          "points": 20
-        },
-        {
-          "id": "544950204f4620544845205350454152",
-          "name": "Tip of the Spear",
-          "points": 40
-        }
-      ],
-      "stratagems": [
-        {
-          "name": "Purgation Doctrine",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Hit roll (if your unit disembarked from a Heavy Transport this turn, add 1 to the Wound roll as well)."
-        },
-        {
-          "name": "Machine Wrath",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, just after a Heavy Transport unit from your army with the Deadly Demise ability is destroyed.",
-          "target": "That HEAVY TRANSPORT unit, if you rolled a 6 for its Deadly Demise ability. You can use this Stratagem on that unit even though it was just destroyed.",
-          "effect": "Your unit can make a Normal or Fall Back move before its Deadly Demise ability is resolved, and before any embarked units perform an Emergency Disembarkation. When making this move, your unit can move through enemy models (excluding MONSTERS and VEHICLES) and can move within Engagement Range of such models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
-        },
-        {
-          "name": "Advanced Deployment",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase.",
-          "target": "One Adeptus Astartes Transport unit from your army that has not been selected to move this phase.",
-          "effect": "Until the end of the phase, units can disembark from your TRANSPORT after it has Advanced. Units that do so make a shock disembark move (Core Rules, 18.07) for that disembarkation."
-        },
-        {
-          "name": "Armour Of Contempt",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
-        },
-        {
-          "name": "Ceramite Sledgehammer",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase.",
-          "target": "One Adeptus Astartes Transport unit from your army that has not been selected to move this phase.",
-          "effect": "Until the end of the phase, each time your unit makes a Normal or Advance move, it can move horizontally through terrain features. In addition, if your unit is a Heavy Transport, when making this move, your unit can move through enemy models (excluding MONSTERS and VEHICLES) and can move within Engagement Range of such models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
-        },
-        {
-          "name": "Rapid Embarkation",
-          "cp": 1,
-          "category": "Wargear",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "End of the Fight phase.",
-          "target": "One Adeptus Astartes Infantry unit from your army that is not within Engagement Range of one or more enemy units, and one friendly Heavy Transport it is able to embark within.",
-          "effect": "If your ADEPTUS ASTARTES INFANTRY unit is wholly within 6\" of that HEAVY TRANSPORT, it can embark within it. Your unit can embark within that TRANSPORT in a turn it disembarked from a TRANSPORT."
-        }
-      ]
-    },
-    {
-      "id": "42415354494f4e205441534b20464f524345",
-      "name": "BASTION TASK FORCE",
-      "dp": 2,
-      "enhancements": [
-        {
-          "id": "424c41444553204f462056414c4f5552",
-          "name": "Blades of Valour",
-          "points": 15
-        },
-        {
-          "id": "424f4d42415354204f4d4e49564f58",
-          "name": "Bombast Omnivox",
-          "points": 15
-        },
-        {
-          "id": "455945204f4620544845205052494d41524348",
-          "name": "Eye of the Primarch",
-          "points": 10
-        },
-        {
-          "id": "4845524f204f46205448452043484150544552",
-          "name": "Hero of the Chapter",
+          "id": "494d50455249554de28099532053574f5244",
+          "name": "Imperium’s Sword",
           "points": 20
         }
       ],
       "stratagems": [
         {
-          "name": "Light Of Vengeance",
+          "name": "Duty In Death",
           "cp": 1,
-          "category": "Battle Tactic",
+          "category": "Assault Brethren",
           "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase.",
-          "target": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot or fight this phase.",
-          "effect": "Select the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until the end of the phase, weapons equipped by models in your unit have that ability while targeting an auspex scanned unit or if the bearer has the Battleline keyword."
+          "phase": "Fight phase",
+          "when": "Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6, with +1 to that roll if the assault doctrine is active for your unit:\n\nOn a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
         },
         {
-          "name": "Codex Discipline",
+          "name": "Gene-Wrought Might",
           "cp": 1,
-          "category": "Battle Tactic",
+          "category": "Assault Brethren",
           "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase.",
-          "target": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot or fight this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit, re-roll a Hit roll of 1. If that target is auspex scanned, re-roll a Wound roll of 1 as well."
+          "phase": "Fight phase",
+          "when": "Fight phase, when a friendly ADEPTUS ASTARTES unit is selected to fight.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Your unit’s melee attacks have:\n\n[Lance].\nOr: If the assault doctrine is active for your unit, [Lance] and +1 AP."
         },
         {
-          "name": "Heresy Undone",
+          "name": "Armour Of Contempt",
           "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Shooting or Charge phase",
-          "when": "Your Shooting phase or your Charge phase.",
-          "target": "One ADEPTUS ASTARTES unit (excluding Battleline units) from your army.",
-          "effect": "Until the end of the phase, your unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back. If it does, every target of that charge and every target of those attacks must be an auspex scanned unit."
-        },
-        {
-          "name": "Shock Bombardment",
-          "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Assault Brethren",
           "turn": "Either player’s turn",
           "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase, just after an Adeptus Astartes Battleline unit from your army finished making its attacks.",
-          "target": "That ADEPTUS ASTARTES BATTLELINE unit.",
-          "effect": "When an enemy unit is auspex scanned as a result of those attacks this turn, until the start of your next turn, it is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
-        },
-        {
-          "name": "Guided Disruption",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase, just after an Adeptus Astartes Battleline unit from your army has finished making its attacks.",
-          "target": "That ADEPTUS ASTARTES BATTLELINE unit.",
-          "effect": "When an enemy unit is auspex scanned as a result of those attacks this turn, if that enemy unit does not have the MONSTER or VEHICLE keywords, until the start of your next turn, it is pinned. While a unit is pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Charge rolls made for that unit."
+          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
         }
       ]
     },
@@ -1726,312 +1326,179 @@
           "points": 25
         },
         {
-          "id": "4f5353455553204b4559",
-          "name": "Osseus Key",
-          "points": 15
+          "id": "4f5353455553204b455920284155524129",
+          "name": "Osseus Key (Aura)",
+          "points": 20
+        },
+        {
+          "id": "544845205448494546204f462053454352455453",
+          "name": "The Thief of Secrets",
+          "points": 10
         },
         {
           "id": "54484520544f4d45204f46204543544f434c41444553",
           "name": "The Tome of Ectoclades",
-          "points": 30
-        },
-        {
-          "id": "5448494546204f462053454352455453",
-          "name": "Thief of Secrets",
-          "points": 25
+          "points": 15
         }
       ],
       "stratagems": [
         {
           "name": "Armour Of Contempt",
           "cp": 1,
-          "category": "Battle Tactic",
+          "category": "Black Spear Task Force",
           "turn": "Either player’s turn",
           "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
-        },
-        {
-          "name": "Adaptive Tactics",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "Up to two Kill Team units from your army, or one other ADEPTUS ASTARTES unit from your army.",
-          "effect": "For each unit targeted, select Furor Tactics, Malleus Tactics or Purgatus Tactics. Until the start of your next Command phase, that Mission Tactic is active for that unit instead of any Mission Tactic that is active for your army."
+          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
         },
         {
           "name": "Site-To-Site Teleportation",
           "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Black Spear Task Force",
           "turn": "Opponent’s turn",
           "phase": "Fight phase",
           "when": "End of your opponent’s Fight phase.",
-          "target": "Up to two Kill Team units from your army, or one other Adeptus Astartes Infantry unit from your army, if those units are not within Engagement Range of one or more enemy units.",
-          "effect": "Remove those units from the battlefield and place them into Strategic Reserves. Until the end of your next Movement phase, models in those units that do not have the Deep Strike ability have the Deep Strike ability."
+          "target": "One friendly unengaged ADEPTUS ASTARTES INFANTRY unit.",
+          "effect": "Place your unit in strategic reserves.\nIf your unit has Kill Team, your unit has Deep Strike until the end of your next Movement phase."
+        },
+        {
+          "name": "Adaptive Tactics",
+          "cp": 1,
+          "category": "Black Spear Task Force",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Your Command phase.",
+          "target": "One friendly ADEPTUS ASTARTES unit.",
+          "effect": "Select one combat doctrine. That combat doctrine is active for your unit until the start of your next Command phase."
         },
         {
           "name": "Dragonfire Rounds",
           "cp": 1,
-          "category": "Wargear",
+          "category": "Black Spear Task Force",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Kill Team unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [ASSAULT] and [IGNORES COVER] abilities.",
-          "restrictions": "You cannot select any units that have already been targeted with either the Kraken Rounds or Hellfire Rounds Stratagems this phase."
-        },
-        {
-          "name": "Kraken Rounds",
-          "cp": 1,
-          "category": "Wargear",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Kill Team unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in your unit by 1 and improve the Range characteristic of those weapons by 6\".",
-          "restrictions": "You cannot select any units that have already been targeted with either the Dragonfire Rounds or Hellfire Rounds Stratagems this phase."
+          "when": "Your Shooting phase when a KILL TEAM unit is selected to shoot.",
+          "target": "That KILL TEAM unit.",
+          "effect": "Your unit’s ranged attacks:\n\nCan re-roll wound rolls of 1.\nHave [IGNORES COVER]."
         },
         {
           "name": "Hellfire Rounds",
           "cp": 1,
-          "category": "Wargear",
+          "category": "Black Spear Task Force",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Kill Team unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, ranged weapons (excluding Devastating Wounds weapons) equipped by models in your unit have the [ANTI-INFANTRY 2+] and [ANTI-MONSTER 5+] abilities.",
-          "restrictions": "You cannot select any units that have already been targeted with either the Kraken Rounds or Dragonfire Rounds Stratagems this phase."
+          "when": "Your Shooting phase when a KILL TEAM unit is selected to shoot.",
+          "target": "That KILL TEAM unit.",
+          "effect": "Your unit’s ranged attacks (excluding [DEVASTATING WOUNDS] attacks) have [ANTI-non-VEHICLE 4+]."
+        },
+        {
+          "name": "Kraken Rounds",
+          "cp": 1,
+          "category": "Black Spear Task Force",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase when a KILL TEAM unit is selected to shoot.",
+          "target": "That KILL TEAM unit.",
+          "effect": "Your unit’s ranged attacks:\n\nHave +6\" R.\nHave +1 S."
         }
       ]
     },
     {
-      "id": "434552414d4954452053454e54494e454c53",
-      "name": "CERAMITE SENTINELS",
-      "dp": 3,
-      "enhancements": [
-        {
-          "id": "43415354454c4c554d204f4d4e49564f58",
-          "name": "Castellum Omnivox",
-          "points": 20
-        },
-        {
-          "id": "444546454e53495645204d415354455259",
-          "name": "Defensive Mastery",
-          "points": 25
-        },
-        {
-          "id": "484f4e4f555220494e4445464154494741424c45",
-          "name": "Honour Indefatigable",
-          "points": 25
-        },
-        {
-          "id": "5350592d534b554c4c2044415441204c494e4b",
-          "name": "Spy-skull Data Link",
-          "points": 15
-        }
-      ],
-      "stratagems": [
-        {
-          "name": "Unyielding Might",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Command phase",
-          "when": "Command phase.",
-          "target": "One ADEPTUS ASTARTES unit from your army that is within Engagement Range of one or more enemy units.",
-          "effect": "Until the start of your next Command phase, add 1 to the Objective Control characteristics of models in your unit."
-        },
-        {
-          "name": "Priority Strike",
-          "cp": 2,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase.",
-          "target": "One Adeptus Astartes Infantry or Adeptus Astartes Mounted unit from your army that has not been selected to shoot or fight this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a CHARACTER, MONSTER or VEHICLE unit, you can re-roll the Wound roll."
-        },
-        {
-          "name": "Armour Of Contempt",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
-        },
-        {
-          "name": "Augmented Targeting",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.",
-          "effect": "Select either the [SUSTAINED HITS 1] or [LETHAL HITS] abilities. Until the end of the phase, ranged weapons equipped by models in your unit have the selected ability. If your unit is ENTRENCHED, until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 1] and [LETHAL HITS] abilities instead."
-        },
-        {
-          "name": "Stand To The End",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if it is an ENTRENCHED unit: on a 4+, do not remove it from play. That destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
-        },
-        {
-          "name": "Evasive Repositioning",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
-          "target": "One Adeptus Astartes Infantry or Adeptus Astartes Mounted unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Your unit can make a Normal move of up to D6\". If your unit is ENTRENCHED, you can re-roll the D6 to determine how far your unit can move."
-        }
-      ]
-    },
-    {
-      "id": "4649524553544f524d2041535341554c5420464f524345",
-      "name": "FIRESTORM ASSAULT FORCE",
-      "dp": 2,
-      "enhancements": [
-        {
-          "id": "4144414d414e54494e45204d414e544c45",
-          "name": "Adamantine Mantle",
-          "points": 20
-        },
-        {
-          "id": "4348414d50494f4e204f462048554d414e495459",
-          "name": "Champion of Humanity",
-          "points": 10
-        },
-        {
-          "id": "464f5247454420494e20424154544c45",
-          "name": "Forged in Battle",
-          "points": 15
-        },
-        {
-          "id": "5741522d54454d5045524544204152544946494345",
-          "name": "War-tempered Artifice",
-          "points": 25
-        }
-      ],
-      "stratagems": [
-        {
-          "name": "Burning Vengeance",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has resolved its attacks.",
-          "target": "One ADEPTUS ASTARTES TRANSPORT unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "One unit embarked within that TRANSPORT can disembark as if it were your Movement phase, and can then shoot as if it were your Shooting phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
-        },
-        {
-          "name": "Immolation Protocols",
-          "cp": 2,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, Torrent weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
-        },
-        {
-          "name": "Armour Of Contempt",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
-        },
-        {
-          "name": "Onslaught Of Fire",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One ADEPTUS ASTARTES unit from your army that disembarked from a TRANSPORT this turn and has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets the closest eligible target within 12\", add 1 to the Hit roll. If one or more enemy models are destroyed as the result of any of those attacks, select one of those destroyed models; that destroyed model’s unit must take a Battle-shock test."
-        },
-        {
-          "name": "Crucible Of Battle",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase.",
-          "target": "One ADEPTUS ASTARTES INFANTRY unit from your army that has not been selected to shoot or fight this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets the closest eligible target within 6\", add 1 to the Wound roll."
-        },
-        {
-          "name": "Rapid Embarkation",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "End of the Fight phase.",
-          "target": "One ADEPTUS ASTARTES TRANSPORT unit from your army that has no models embarked within it, and one ADEPTUS ASTARTES INFANTRY unit from your army wholly within 6\" of that TRANSPORT.",
-          "effect": "Your INFANTRY unit can embark within that TRANSPORT.",
-          "restrictions": "You cannot target an INFANTRY unit that is within Engagement Range of one or more enemy units, that cannot normally embark within that TRANSPORT, or that disembarked from a TRANSPORT this turn."
-        }
-      ]
-    },
-    {
-      "id": "46554c4755524953205441534b20464f524345",
-      "name": "FULGURIS TASK FORCE",
+      "id": "44455641535441544f5220425245544852454e",
+      "name": "DEVASTATOR BRETHREN",
       "dp": 1,
       "enhancements": [
         {
-          "id": "42454c4c49434f534520574541504f4e205350495249545320285550475241444529",
-          "name": "Bellicose Weapon Spirits (Upgrade)",
-          "points": 15
+          "id": "484f4e4f5552204f4620564947494c414e4345",
+          "name": "Honour of Vigilance",
+          "points": 20
         },
         {
-          "id": "524150544f5249414c20434f47495441544f5220434f524520285550475241444529",
-          "name": "Raptorial Cogitator Core (Upgrade)",
+          "id": "4d41535445522d464f52474544204649524541524d53",
+          "name": "Master-forged Firearms",
           "points": 15
         }
       ],
       "stratagems": [
         {
-          "name": "Data-Link Augury",
+          "name": "Hail Of Vengeance",
+          "cp": 2,
+          "category": "Devastator Brethren",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, when an enemy unit has shot, if those attacks destroyed a model in a friendly ADEPTUS ASTARTES unit.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Your unit shoots using normal shooting, but while doing so your unit can only target that enemy unit."
+        },
+        {
+          "name": "Storm Of Fire",
           "cp": 1,
-          "category": "Fulguris Task Force",
+          "category": "Devastator Brethren",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "when": "Your Shooting phase, when a friendly SPEEDER unit is selected to shoot.",
-          "target": "That SPEEDER unit.",
-          "effect": "Select one enemy unit within 24\" of your unit. That enemy unit has +6\" detection range until your unit has shot."
+          "when": "Your Shooting phase, when a friendly ADEPTUS ASTARTES unit is selected to shoot.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Your unit’s ranged attacks have:\n\n[Ignores Cover].\nOr: If the devastator doctrine is active for your unit, [Ignores Cover] and +1 AP."
         },
         {
-          "name": "Anti-Grav Surge",
+          "name": "Armour Of Contempt",
           "cp": 1,
-          "category": "Fulguris Task Force",
-          "turn": "Opponent’s turn",
-          "phase": "Fight phase",
-          "when": "End of your opponent’s Fight phase.",
-          "target": "One friendly unengaged SPEEDER unit.",
-          "effect": "Place your unit in strategic reserves."
+          "category": "Devastator Brethren",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
+        }
+      ]
+    },
+    {
+      "id": "4741554e544c4554205441534b20464f524345",
+      "name": "GAUNTLET TASK FORCE",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "44414d4f434c45532d434c4153532055504c494e4b",
+          "name": "Damocles-class Uplink",
+          "points": 15
         },
         {
-          "name": "Reactive Evasion",
+          "id": "4c494e45425245414b4552204f4e534c4155474854",
+          "name": "Linebreaker Onslaught",
+          "points": 20
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Storm And Secure",
           "cp": 1,
-          "category": "Fulguris Task Force",
-          "turn": "Opponent’s turn",
+          "category": "Gauntlet Task Force",
+          "turn": "Your turn",
           "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged SPEEDER unit.",
-          "target": "That SPEEDER unit.",
-          "effect": "Your unit can make a normal move of up to D3+3\"."
+          "when": "End of your Movement phase.",
+          "target": "One friendly Adeptus Astartes Transport unit that has an Adeptus Astartes Battleline unit embarked within it.",
+          "effect": "Select one objective your unit is controlling. That objective is secured."
+        },
+        {
+          "name": "Duty Is Never Done",
+          "cp": 1,
+          "category": "Gauntlet Task Force",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "End of the Fight phase.",
+          "target": "One friendly unengaged Adeptus Astartes Infantry unit that was eligible to fight this phase, is wholly within 6\" of a friendly Transport unit, and is eligible to embark within that TRANSPORT unit.",
+          "effect": "Your unit embarks within that TRANSPORT unit."
+        },
+        {
+          "name": "Aggressive Disembarkation",
+          "cp": 1,
+          "category": "Gauntlet Task Force",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, when a friendly ADEPTUS ASTARTES unit embarked within a Transport is selected to move.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "While making that move, each model in your unit can be set up within the set-up distance of that TRANSPORT.\n\nThis allows you to set up your unit within the set-up distance of your TRANSPORT, instead of wholly within that distance."
         }
       ]
     },
@@ -2048,660 +1515,618 @@
         {
           "id": "4152544946494345522041524d4f5552",
           "name": "Artificer Armour",
+          "points": 15
+        },
+        {
+          "id": "4c415552454c53204f4620545249554d5048",
+          "name": "Laurels of Triumph",
           "points": 20
         },
         {
-          "id": "46495245204449534349504c494e45",
-          "name": "Fire Discipline",
+          "id": "5354414e44415244204f462054484520454d5045524f5220415343454e44414e54",
+          "name": "Standard of the Emperor Ascendant",
           "points": 25
-        },
-        {
-          "id": "54484520484f4e4f555220564548454d454e54",
-          "name": "The Honour Vehement",
-          "points": 15
         }
       ],
       "stratagems": [
         {
           "name": "Armour Of Contempt",
           "cp": 1,
-          "category": "Battle Tactic",
+          "category": "Gladius Task Force",
           "turn": "Either player’s turn",
           "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
+          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
         },
         {
-          "name": "Honour The Chapter",
+          "name": "A Worthy Death",
           "cp": 1,
-          "category": "Battle Tactic",
+          "category": "Gladius Task Force",
           "turn": "Either player’s turn",
           "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One ADEPTUS ASTARTES unit from your army.",
-          "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LANCE] ability. If your unit is under the effects of the Assault Doctrine, until the end of the phase, improve the Armour Penetration characteristic of such weapons by 1 as well."
+          "when": "Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6:\n\nOn a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
         },
         {
-          "name": "Storm Of Fire",
+          "name": "Responsive Tactics",
           "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability. If your unit is under the effects of the Devastator Doctrine, until the end of the phase, improve the Armour Penetration characteristic of such weapons by 1 as well."
-        },
-        {
-          "name": "Only In Death Does Duty End",
-          "cp": 2,
-          "category": "Epic Deed",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
-        },
-        {
-          "name": "Squad Tactics",
-          "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Gladius Task Force",
           "turn": "Opponent’s turn",
           "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
-          "target": "One Adeptus Astartes Infantry or Adeptus Astartes Mounted unit from your army that is within 8\" of the enemy unit that just ended that move.",
-          "effect": "Your unit can make a Normal move of up to D6\", or a Normal move of up to 6\" instead if it is under the effects of the Tactical Doctrine.",
-          "restrictions": "You cannot select a unit that is within Engagement Range of one or more enemy units."
+          "when": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Adeptus Astartes Infantry/Mounted unit.",
+          "target": "That ADEPTUS ASTARTES INFANTRY/MOUNTED unit.",
+          "effect": "Your unit can make a normal move of up to D6\"."
+        },
+        {
+          "name": "Storm Of Devastation",
+          "cp": 1,
+          "category": "Gladius Task Force",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly ADEPTUS ASTARTES unit is selected to shoot.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Your unit’s ranged attacks have [IGNORES COVER]."
         },
         {
           "name": "Adaptive Strategy",
           "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Gladius Task Force",
           "turn": "Your turn",
           "phase": "Command phase",
           "when": "Your Command phase.",
-          "target": "One ADEPTUS ASTARTES unit from your army.",
-          "effect": "Select the Devastator Doctrine, Tactical Doctrine or Assault Doctrine. Until the start of your next Command phase, that Combat Doctrine is active for that unit instead of any other Combat Doctrine that is active for your army, even if you have already selected that doctrine this battle."
+          "target": "One friendly ADEPTUS ASTARTES unit.",
+          "effect": "Select one combat doctrine. That combat doctrine is active for your unit until the start of your next Command phase."
+        },
+        {
+          "name": "Might Of Angels",
+          "cp": 1,
+          "category": "Gladius Task Force",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when a friendly ADEPTUS ASTARTES unit is selected to fight.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Your unit’s melee attacks have [Lance]."
         }
       ]
     },
     {
-      "id": "4845414448554e544552205441534b20464f524345",
-      "name": "HEADHUNTER TASK FORCE",
-      "dp": 2,
+      "id": "475241564953204c494e45425245414b455220464f524345",
+      "name": "GRAVIS LINEBREAKER FORCE",
+      "dp": 1,
       "enhancements": [
         {
-          "id": "41535441525445532054414e4b20414345",
-          "name": "Astartes Tank Ace",
-          "points": 40
-        },
-        {
-          "id": "4649524553544f524d20434f4f5244494e41544f5253",
-          "name": "Firestorm Coordinators",
+          "id": "494e4445464154494741424c4520464f52544954554445",
+          "name": "Indefatigable Fortitude",
           "points": 20
         },
         {
-          "id": "47554e4e45525920484f4e4f555253",
-          "name": "Gunnery Honours",
+          "id": "52454c454e544c45535320414456414e4345",
+          "name": "Relentless Advance",
           "points": 20
-        },
-        {
-          "id": "5245444f55425441424c45204d414348494e4520535049524954",
-          "name": "Redoubtable Machine Spirit",
-          "points": 25
         }
       ],
       "stratagems": [
         {
-          "name": "Target Weak Point",
+          "name": "Annihilating Force",
           "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Tank Ace unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets a MONSTER or VEHICLE unit, improve the Armour Penetration characteristic of that attack by 1.",
-          "restrictions": "A unit cannot be targeted with this and the Kill Shot Stratagem in the same phase."
-        },
-        {
-          "name": "Kill Shot",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Tank Ace unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a MONSTER or VEHICLE unit, re-roll a Wound roll of 1. If the target unit is below its Starting Strength, you can re-roll the Wound roll instead.",
-          "restrictions": "A unit cannot be targeted with this and the Target Weak Point Stratagem in the same phase."
-        },
-        {
-          "name": "Machine Vengeance",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
-          "target": "One Tank Ace unit from your army (excluding units containing one or more models with a Wounds characteristic of 16+) that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Your unit can shoot as if it were your Shooting phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is visible and an eligible target."
-        },
-        {
-          "name": "Armour Of Contempt",
-          "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Gravis Linebreaker Force",
           "turn": "Either player’s turn",
           "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
+          "when": "Your Shooting phase or the Fight phase, when a friendly Gravis unit is selected to attack.",
+          "target": "That GRAVIS unit.",
+          "effect": "Your unit’s attacks have [Lethal Hits]."
         },
         {
-          "name": "Rapid Gunnery",
+          "name": "Purgation Push",
           "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Gravis Linebreaker Force",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, your unit is eligible to shoot in a turn in which it Fell Back."
+          "when": "Your Shooting phase, when a friendly Gravis unit has shot.",
+          "target": "That GRAVIS unit.",
+          "effect": "If your unit is unengaged, your unit can make a normal move of up to 5\", and must end that move within range of an objective.\nYour unit is not eligible to declare a charge or embark within a Transport until the end of the turn."
         },
         {
-          "name": "Reactive Repositioning",
+          "name": "Armoured Impact",
           "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
+          "category": "Gravis Linebreaker Force",
+          "turn": "Your turn",
+          "phase": "Charge phase",
+          "when": "Your Charge phase, when a friendly Gravis unit ends a charge move.",
+          "target": "That GRAVIS unit.",
+          "effect": "When your unit ends a charge move, you can select one enemy unit engaged with your unit. If you do, roll one D6 for each model in your unit engaged with that enemy unit:\n\nFor each 3+, that enemy unit suffers 1 mortal wound."
+        }
+      ]
+    },
+    {
+      "id": "47524156495320534945474520464f524345",
+      "name": "GRAVIS SIEGE FORCE",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "494d4d4f5641424c4520434f4e515545524f525320285550475241444529",
+          "name": "Immovable Conquerors (Upgrade)",
+          "points": 15
+        },
+        {
+          "id": "4e4152544845434953204741554e544c4554",
+          "name": "Narthecis Gauntlet",
+          "points": 20
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Suppression Volleys",
+          "cp": 1,
+          "category": "Gravis Siege Force",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly Gravis unit has shot.",
+          "target": "That GRAVIS unit.",
+          "effect": "Select one enemy unit hit by those attacks. That enemy unit makes a battle-shock roll, with -1 to that battle-shock roll."
+        },
+        {
+          "name": "Annihilating Force",
+          "cp": 1,
+          "category": "Gravis Siege Force",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase, when a friendly Gravis unit is selected to attack.",
+          "target": "That GRAVIS unit.",
+          "effect": "Your unit’s attacks have [Lethal Hits]."
+        },
+        {
+          "name": "Stand Unyielding",
+          "cp": 1,
+          "category": "Gravis Siege Force",
+          "turn": "Your turn",
           "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
-          "target": "One Tank Ace unit from your army (excluding units containing one or more models with a Wounds characteristic of 16+) that is within 8\" of that enemy unit.",
-          "effect": "Your unit can make a Normal move of up to D6\"."
+          "when": "End of your Movement phase.",
+          "target": "One friendly Gravis unit.",
+          "effect": "Select one objective your unit is controlling. That objective is secured."
+        }
+      ]
+    },
+    {
+      "id": "49524f4e434c4144204348414d50494f4e53",
+      "name": "IRONCLAD CHAMPIONS",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "41525449464943455220534152434f50484147555320285550475241444529",
+          "name": "Artificer Sarcophagus (Upgrade)",
+          "points": 40
+        },
+        {
+          "id": "56454e455241424c45204348414d50494f4e2028415552412920285550475241444529",
+          "name": "Venerable Champion (Aura) (Upgrade)",
+          "points": 30
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Upstoppable Advance",
+          "cp": 1,
+          "category": "Ironclad Champions",
+          "turn": "Your turn",
+          "phase": "Movement or Charge phase",
+          "when": "Your Movement/Charge phase, when a friendly Dreadnought unit is selected to move or declares a charge.",
+          "target": "That DREADNOUGHT unit.",
+          "effect": "Your unit has Mobile."
+        },
+        {
+          "name": "Mercy Is Weakness",
+          "cp": 1,
+          "category": "Ironclad Champions",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase, when a friendly Dreadnought unit is selected to attack.",
+          "target": "That DREADNOUGHT unit.",
+          "effect": "Your unit’s attacks have:\n\n[lethal hits].\nOr: [Sustained Hits 1]."
+        },
+        {
+          "name": "Adamantine Terror",
+          "cp": 1,
+          "category": "Ironclad Champions",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Start of the Fight phase.",
+          "target": "One friendly Dreadnought unit.",
+          "effect": "Each enemy unit engaged with your unit makes a battle-shock roll, with -1 to that battle-shock roll."
         }
       ]
     },
     {
       "id": "49524f4e53544f524d20535045415248454144",
       "name": "IRONSTORM SPEARHEAD",
-      "dp": 2,
-      "enhancements": [
-        {
-          "id": "4144455054204f4620544845204f4d4e495353494148",
-          "name": "Adept of the Omnissiah",
-          "points": 35
-        },
-        {
-          "id": "4d4153544552204f46204d414348494e4520574152",
-          "name": "Master of Machine War",
-          "points": 20
-        },
-        {
-          "id": "5441524745542041554755525920574542",
-          "name": "Target Augury Web",
-          "points": 30
-        },
-        {
-          "id": "54484520464c455348204953205745414b",
-          "name": "The Flesh Is Weak",
-          "points": 20
-        }
-      ],
-      "stratagems": [
-        {
-          "name": "Mercy Is Weakness",
-          "cp": 2,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase.",
-          "target": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot or fight this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is below its Starting Strength, that attack has the [SUSTAINED HITS 1] ability, and when making such an attack, if the attacking model is a VEHICLE, a successful unmodified Hit roll of 5+ scores a Critical Hit."
-        },
-        {
-          "name": "Armour Of Contempt",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
-        },
-        {
-          "name": "Unbowed Conviction",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Command phase",
-          "when": "Command phase.",
-          "target": "One ADEPTUS ASTARTES unit from your army that is below its Starting Strength.",
-          "effect": "Until the end of the turn, your unit can ignore any or all modifiers to its characteristics and/or to any roll or test made for it (excluding modifiers to saving throws)."
-        },
-        {
-          "name": "Power Of The Machine Spirit",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has resolved its attacks.",
-          "target": "One ADEPTUS ASTARTES VEHICLE unit from your army that was reduced to Below Half-strength as a result of the attacking unit’s attacks.",
-          "effect": "Your unit can shoot as if it were your Shooting phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
-        },
-        {
-          "name": "Ancient Fury",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "One ADEPTUS ASTARTES WALKER model from your army.",
-          "effect": "Until the start of your next Command phase, improve your model’s Move, Toughness, Leadership and Objective Control characteristics by 1 and each time your model makes an attack, add 1 to the Hit roll."
-        },
-        {
-          "name": "Vengeful Animus",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, just after an ADEPTUS ASTARTES VEHICLE model from your army with the Deadly Demise ability is destroyed.",
-          "target": "That ADEPTUS ASTARTES VEHICLE model. You can use this Stratagem on that model even though it was just destroyed.",
-          "effect": "Do not roll one D6 to determine whether mortal wounds are inflicted by your model’s Deadly Demise ability. Instead, mortal wounds are automatically inflicted."
-        }
-      ]
-    },
-    {
-      "id": "4c494252415249555320434f4e434c415645",
-      "name": "LIBRARIUS CONCLAVE",
       "dp": 1,
       "enhancements": [
         {
-          "id": "43454c4552495459",
-          "name": "Celerity",
-          "points": 35
-        },
-        {
-          "id": "465553494c4c414445",
-          "name": "Fusillade",
-          "points": 25
-        },
-        {
-          "id": "4f42465553434154494f4e",
-          "name": "Obfuscation",
-          "points": 25
-        },
-        {
-          "id": "505245534349454e4345",
-          "name": "Prescience",
-          "points": 20
-        },
-        {
-          "id": "54454d504f52414c20434f525249444f52",
-          "name": "Temporal Corridor",
-          "points": 25
-        }
-      ]
-    },
-    {
-      "id": "4f52424954414c2041535341554c5420464f524345",
-      "name": "ORBITAL ASSAULT FORCE",
-      "dp": 2,
-      "enhancements": [
-        {
-          "id": "4445444943415445442047554e53484950",
-          "name": "Dedicated Gunship",
+          "id": "47554e4e45525920484f4e4f55525320285550475241444529",
+          "name": "Gunnery Honours (Upgrade)",
           "points": 15
         },
         {
-          "id": "4c415552454c53204f46205448554e444552",
-          "name": "Laurels of Thunder",
-          "points": 15
-        },
-        {
-          "id": "4f52424954414c2055504c494e4b2052454c495155415259",
-          "name": "Orbital Uplink Reliquary",
+          "id": "5245444f55425441424c45204d414348494e452053504952495420285550475241444529",
+          "name": "Redoubtable Machine Spirit (Upgrade)",
           "points": 25
-        },
-        {
-          "id": "5645544552414e204f46205448452056414e4755415244",
-          "name": "Veteran of the Vanguard",
-          "points": 20
         }
       ],
       "stratagems": [
         {
-          "name": "Auto‑sense Coordination",
+          "name": "Layered Ceramite",
           "cp": 1,
-          "category": "Battle Tactic",
+          "category": "Ironstorm Spearhead",
           "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase.",
-          "target": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot or fight this phase.",
-          "effect": "Select the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until the end of the phase, weapons equipped by models in your unit have this ability in a turn in which they disembarked from a Drop Pod or while targeting an enemy unit within 12\"."
+          "phase": "Any phase",
+          "when": "Any phase, when a friendly Adeptus Astartes Vehicle unit suffers a mortal wound.",
+          "target": "That ADEPTUS ASTARTES VEHICLE unit.",
+          "effect": "Your unit has Feel No Pain 5+ against mortal wounds."
         },
         {
-          "name": "Tactical Decapitation",
+          "name": "Might Of The Machine Spirit",
           "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase.",
-          "target": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot or fight this phase.",
-          "effect": "Until the end of the phase, weapons equipped by models in your unit have the [PRECISION] ability and each time a model in your unit makes an attack that targets a CHARACTER unit, add 1 to the Hit roll."
-        },
-        {
-          "name": "Shock Onslaught",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One ADEPTUS ASTARTES unit from your army that has not been selected to fight this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\"."
-        },
-        {
-          "name": "Suppression Strafing",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
+          "category": "Ironstorm Spearhead",
+          "turn": "Your turn",
           "phase": "Command phase",
-          "when": "Command phase.",
-          "target": "One ADEPTUS ASTARTES unit from your army.",
-          "effect": "Select one enemy unit visible to and within 18\" of your unit. That enemy unit takes a Battle-shock test. When doing so, subtract 1 from that test and, if that test is failed, until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
-          "restrictions": "You cannot use this Stratagem more than once per battle round."
+          "when": "Your Command phase.",
+          "target": "One friendly Adeptus Astartes Vehicle unit (excluding Dedicated Transport/Fly/Walker units).",
+          "effect": "Until the start of your next Command phase, your unit can ignore modifiers to your unit’s:\n\nM.\nBS.\nHit rolls and wound rolls."
         },
         {
-          "name": "Blind Screen",
+          "name": "Headhunter Doctrine",
           "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
+          "category": "Ironstorm Spearhead",
+          "turn": "Your turn",
           "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One ADEPTUS ASTARTES unit (excluding Titanic units) from your army that was selected as the target of one or more of the attacking unit’s attacks and one friendly Adeptus Astartes Smoke Vehicle or Drop Pod unit within 9\" of it.",
-          "effect": "Until the end of the phase, models in your units have the Stealth ability and each time a ranged attack targets one of your units, models in that unit have the Benefit of Cover against that attack."
+          "when": "Your Shooting phase, when a friendly Adeptus Astartes Vehicle unit (excluding Dedicated Transport/Fly/Walker units) is selected to shoot.",
+          "target": "That ADEPTUS ASTARTES VEHICLE unit.",
+          "effect": "Your unit’s ranged attacks have [Lethal Hits: Monster/Vehicle]."
+        }
+      ]
+    },
+    {
+      "id": "50484f424f5320534841444f5720464f524345",
+      "name": "PHOBOS SHADOW FORCE",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "4558454355544520414e442052454445504c4f59",
+          "name": "Execute and Redeploy",
+          "points": 25
         },
         {
-          "name": "Onward For The Emperor",
+          "id": "56454e41544f52204f4d4e492d415553504558",
+          "name": "Venator Omni-auspex",
+          "points": 15
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Mortis Snares",
           "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Phobos Shadow Force",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "End of your Movement phase.",
+          "target": "One friendly unengaged Phobos/Scout Squad unit.",
+          "effect": "If your unit is controlling an objective, that objective is snared. While an objective is snared, when an enemy unit ends a move within range of that objective, roll one D6:\n\nOn a 2+, that enemy unit suffers D6 mortal wounds.\nThat objective is no longer snared."
+        },
+        {
+          "name": "Strike From The Shadows",
+          "cp": 1,
+          "category": "Phobos Shadow Force",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase, when a friendly hidden Phobos unit is selected to attack.",
+          "target": "That PHOBOS unit.",
+          "effect": "Your unit’s attacks have:\n\n+1 S.\n[Lethal Hits]."
+        },
+        {
+          "name": "Tactical Withdrawal",
+          "cp": 1,
+          "category": "Phobos Shadow Force",
           "turn": "Opponent’s turn",
           "phase": "Fight phase",
           "when": "End of your opponent’s Fight phase.",
-          "target": "One Adeptus Astartes Infantry unit from your army that was not set up on the battlefield this turn and one friendly Transport it is able to embark within.",
-          "effect": "If your ADEPTUS ASTARTES unit is wholly within 6\" of that TRANSPORT, it can embark within it."
+          "target": "One friendly unengaged Phobos/Scout SQUAD unit.",
+          "effect": "Place your unit in strategic reserves."
+        }
+      ]
+    },
+    {
+      "id": "50484f424f532053484f434b20464f524345",
+      "name": "PHOBOS SHOCK FORCE",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "5345414c204f46205348524f5544494e47",
+          "name": "Seal of Shrouding",
+          "points": 15
+        },
+        {
+          "id": "56454e41544f52204f4d4e492d415553504558",
+          "name": "Venator Omni-auspex",
+          "points": 15
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Strike From The Shadows",
+          "cp": 1,
+          "category": "Phobos Shock Force",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase, when a friendly hidden Phobos unit is selected to attack.",
+          "target": "That PHOBOS unit.",
+          "effect": "Your unit’s attacks have:\n\n+1 S.\n[Lethal Hits]."
+        },
+        {
+          "name": "Umbral Evasion",
+          "cp": 1,
+          "category": "Phobos Shock Force",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly Phobos unit.",
+          "target": "That PHOBOS unit.",
+          "effect": "Ranged attacks that target your unit have -1 to hit rolls."
+        },
+        {
+          "name": "Transhuman Reactions",
+          "cp": 1,
+          "category": "Phobos Shock Force",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Phobos unit.",
+          "target": "That PHOBOS unit.",
+          "effect": "Your unit can make a normal move of:\n\nUp to D6\".\nOr: If the tactical doctrine is active for your unit, up to 6\"."
         }
       ]
     },
     {
       "id": "53544f524d4c414e4345205441534b20464f524345",
       "name": "STORMLANCE TASK FORCE",
-      "dp": 2,
+      "dp": 1,
       "enhancements": [
         {
-          "id": "4645494e54494e47205749544844524157414c",
-          "name": "Feinting Withdrawal",
+          "id": "41555350455820545249414e47554c4154494f4e20534852494e455320285550475241444529",
+          "name": "Auspex Triangulation Shrines (Upgrade)",
           "points": 10
         },
         {
-          "id": "46555259204f46205448452053544f524d",
-          "name": "Fury of the Storm",
-          "points": 25
-        },
-        {
-          "id": "48554e544552e280995320494e5354494e435453",
-          "name": "Hunter’s Instincts",
-          "points": 25
-        },
-        {
-          "id": "504f5254454e5453204f4620574953444f4d",
-          "name": "Portents of Wisdom",
-          "points": 15
+          "id": "53555045524348415247454420454e47494e455320285550475241444529",
+          "name": "Supercharged Engines (Upgrade)",
+          "points": 10
         }
       ],
       "stratagems": [
         {
-          "name": "Armour Of Contempt",
+          "name": "Sudden Onslaught",
           "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
-        },
-        {
-          "name": "Ride Hard, Ride Fast",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One ADEPTUS ASTARTES MOUNTED or ADEPTUS ASTARTES FLY VEHICLE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll."
-        },
-        {
-          "name": "Shock Assault",
-          "cp": 1,
-          "category": "Battle Tactic",
+          "category": "Stormlance Task Force",
           "turn": "Your turn",
-          "phase": "Charge phase",
-          "when": "Fight phase, when a friendly ADEPTUS ASTARTES unit is selected to fight.",
-          "target": "That ADEPTUS ASTARTES unit.",
-          "effect": "Your unit’s melee attacks have [LANCE]."
-        },
-        {
-          "name": "Blitzing Fusillade",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [ASSAULT] ability. If such a weapon already has this ability, until the end of the phase, that weapon has the [SUSTAINED HITS 1] ability as well."
+          "phase": "Movement phase",
+          "when": "Your Movement phase, when a friendly Adeptus Astartes Mounted/Speeder unit is selected to make an advance move.",
+          "target": "That ADEPTUS ASTARTES MOUNTED/SPEEDER unit.",
+          "effect": "Your unit can change its advance rolls to a 6."
         },
         {
           "name": "Wind-Swift Evasion",
           "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
-          "target": "One Adeptus Astartes Infantry or Adeptus Astartes Mounted unit from your army that is within 8\" of that enemy unit.",
-          "effect": "Your unit can make a Normal move of up to 6\".",
-          "restrictions": "You cannot select a unit that is within Engagement Range of one or more enemy units."
+          "category": "Stormlance Task Force",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "End of the Fight phase.",
+          "target": "One friendly Adeptus Astartes Mounted unit that was eligible to fight this phase.",
+          "effect": "If your unit is unengaged, your unit can make a normal move.\nOr: If your unit is engaged, your unit can make a fall-back move."
         },
         {
-          "name": "Full Throttle",
-          "cp": 2,
-          "category": "Wargear",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase.",
-          "target": "One ADEPTUS ASTARTES MOUNTED or ADEPTUS ASTARTES VEHICLE unit (excluding WALKERS) from your army.",
-          "effect": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit, or 9\" instead if your unit is MOUNTED."
+          "name": "Hurtling Targets",
+          "cp": 1,
+          "category": "Stormlance Task Force",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly Adeptus Astartes Mounted/Speeder unit.",
+          "target": "That ADEPTUS ASTARTES MOUNTED/SPEEDER unit.",
+          "effect": "Ranged attacks that target your unit have -1 to hit rolls."
         }
       ]
     },
     {
-      "id": "53554256455253494f4e20415353455453",
-      "name": "SUBVERSION ASSETS",
+      "id": "544143544943414c20425245544852454e",
+      "name": "TACTICAL BRETHREN",
       "dp": 1,
       "enhancements": [
         {
-          "id": "444541544820494e20544845204441524b20285550475241444529",
-          "name": "Death in the Dark (Upgrade)",
-          "points": 15
+          "id": "4c415552454c53204f4620564947494c414e4345",
+          "name": "Laurels of Vigilance",
+          "points": 10
         },
         {
-          "id": "5348524f5544204649454c44",
-          "name": "Shroud Field",
-          "points": 20
+          "id": "544143544943414c20494e5349474854",
+          "name": "Tactical Insight",
+          "points": 15
         }
       ],
       "stratagems": [
         {
-          "name": "Adaptive Operations",
+          "name": "Masterful Tactics",
           "cp": 1,
-          "category": "Subversion Assets",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase, when a friendly PHOBOS/SCOUT SQUAD unit starts an action.",
-          "target": "That PHOBOS/SCOUT SQUAD unit.",
-          "effect": "That action does not prevent your unit from being eligible to shoot."
-        },
-        {
-          "name": "Strike From The Shadows",
-          "cp": 1,
-          "category": "Subversion Assets",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase, when a friendly PHOBOS/SCOUT SQUAD unit has shot.",
-          "target": "That PHOBOS/SCOUT SQUAD unit.",
-          "effect": "Those ranged attacks do not prevent your unit from being hidden."
-        },
-        {
-          "name": "Cloaked Position",
-          "cp": 1,
-          "category": "Subversion Assets",
+          "category": "Tactical Brethren",
           "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Adeptus Astartes Infantry/Mounted unit.",
+          "target": "That ADEPTUS ASTARTES INFANTRY/MOUNTED unit.",
+          "effect": "Your unit can make a normal move of:\n\nUp to D6\".\nOr: If the tactical doctrine is active for your unit, up to 6\"."
+        },
+        {
+          "name": "Domination Fire",
+          "cp": 1,
+          "category": "Tactical Brethren",
+          "turn": "Your turn",
           "phase": "Shooting phase",
-          "when": "Start of your opponent’s Movement phase.",
-          "target": "One friendly unengaged PHOBOS/SCOUT SQUAD unit.",
-          "effect": "Your unit has -3\" detection range until the end of the turn."
+          "when": "Your Shooting phase, when a friendly ADEPTUS ASTARTES unit has shot.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Select one enemy unit hit by those attacks. That enemy unit is suppressed until the start of your next turn:\n\nWhile a unit is suppressed, that unit’s attacks have -1 to hit rolls."
+        },
+        {
+          "name": "Armour Of Contempt",
+          "cp": 1,
+          "category": "Tactical Brethren",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
         }
       ]
     },
     {
-      "id": "56414e475541524420535045415248454144",
-      "name": "VANGUARD SPEARHEAD",
-      "dp": 2,
+      "id": "54414354494355532041545441434b20464f524345",
+      "name": "TACTICUS ATTACK FORCE",
+      "dp": 1,
       "enhancements": [
         {
-          "id": "4558454355544520414e442052454445504c4f59",
-          "name": "Execute and Redeploy",
-          "points": 20
+          "id": "4d41525449414c2050415241474f4e",
+          "name": "Martial Paragon",
+          "points": 10
         },
         {
-          "id": "47484f5354574541564520434c4f414b",
-          "name": "Ghostweave Cloak",
+          "id": "5350454152504f494e5420574152204c4541444552",
+          "name": "Spearpoint War Leader",
+          "points": 15
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Transhuman Swiftness",
+          "cp": 1,
+          "category": "Tacticus Attack Force",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when an enemy unit has fought.",
+          "target": "One friendly Tacticus unit that is within range of an objective and is eligible to fight.",
+          "effect": "Your unit has Fights First and must be the next unit you select to fight."
+        },
+        {
+          "name": "Tactical Focus",
+          "cp": 1,
+          "category": "Tacticus Attack Force",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when a friendly Tacticus unit is selected to make a consolidation move.",
+          "target": "That TACTICUS unit.",
+          "effect": "When making that consolidation move, your unit can move up to D3+3\"."
+        },
+        {
+          "name": "Relentless Assault",
+          "cp": 1,
+          "category": "Tacticus Attack Force",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase, when a friendly Tacticus unit is selected to attack.",
+          "target": "That TACTICUS unit.",
+          "effect": "Your unit’s attacks have:\n\n[Sustained Hits 1: non-Monster/Vehicle].\nOr: [Lethal Hits: Monster/Vehicle]."
+        }
+      ]
+    },
+    {
+      "id": "5441435449435553204649524553544f524d20464f524345",
+      "name": "TACTICUS FIRESTORM FORCE",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "43594245522d46414d494c494152",
+          "name": "Cyber-familiar",
           "points": 15
         },
         {
-          "id": "534841444f5720574152205645544552414e",
-          "name": "Shadow War Veteran",
-          "points": 30
+          "id": "54454d504552454420494e20424154544c4520284155524129",
+          "name": "Tempered in Battle (Aura)",
+          "points": 10
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "For The Emperor!",
+          "cp": 1,
+          "category": "Tacticus Firestorm Force",
+          "turn": "Either player’s turn",
+          "phase": "Command phase",
+          "when": "Command phase.",
+          "target": "One friendly Tacticus unit that is within range of an objective.",
+          "effect": "Your unit has +1 OC until the end of the turn."
         },
         {
-          "id": "54484520424c4144452044524956454e2044454550",
-          "name": "The Blade Driven Deep",
+          "name": "Point-Blank Brutality",
+          "cp": 1,
+          "category": "Tacticus Firestorm Force",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly engaged Tacticus unit is selected to shoot.",
+          "target": "That TACTICUS unit.",
+          "effect": "Your unit’s ranged attacks (excluding [Blast] attacks) have:\n\n[Close-Quarters].\n[Ignores Cover]."
+        },
+        {
+          "name": "Relentless Assault",
+          "cp": 1,
+          "category": "Tacticus Firestorm Force",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase, when a friendly Tacticus unit is selected to attack.",
+          "target": "That TACTICUS unit.",
+          "effect": "Your unit’s attacks have:\n\n[Sustained Hits 1: non-Monster/Vehicle].\nOr: [Lethal Hits: Monster/Vehicle]."
+        }
+      ]
+    },
+    {
+      "id": "5445524d494e41544f522053544f524d20464f524345",
+      "name": "TERMINATOR STORM FORCE",
+      "dp": 1,
+      "enhancements": [
+        {
+          "id": "4348414d50494f4e204f462054484520464952535420434f4d50414e59",
+          "name": "Champion of the First Company",
+          "points": 20
+        },
+        {
+          "id": "434f52504f5245554d2052454c495155415259",
+          "name": "Corporeum Reliquary",
           "points": 25
         }
       ],
       "stratagems": [
         {
-          "name": "Armour Of Contempt",
+          "name": "Gunship Extraction",
           "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
-        },
-        {
-          "name": "Surgical Strikes",
-          "cp": 2,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One ADEPTUS ASTARTES INFANTRY unit from your army that has not been selected to fight this phase.",
-          "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [PRECISION] ability."
-        },
-        {
-          "name": "Strike From The Shadows",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One ADEPTUS ASTARTES INFANTRY unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit that is more than 12\" away, improve the Ballistic Skill and Armour Penetration characteristics of that attack by 1. If one or more enemy models are destroyed as a result of those attacks, select one of those destroyed models; that destroyed model’s unit must take a Battle-shock test."
-        },
-        {
-          "name": "Guerrilla Tactics",
-          "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Terminator Storm Force",
           "turn": "Opponent’s turn",
           "phase": "Fight phase",
           "when": "End of your opponent’s Fight phase.",
-          "target": "Up to two PHOBOS and/or SCOUT SQUAD units from your army, or one other ADEPTUS ASTARTES INFANTRY unit from your army.",
-          "effect": "Remove those units from the battlefield and place them into Strategic Reserves.",
-          "restrictions": "Each unit selected for this Stratagem must be more than 3\" away from all enemy models."
+          "target": "One friendly unengaged adeptus astartes terminator unit.",
+          "effect": "Place your unit in strategic reserves."
         },
         {
-          "name": "Calculated Feint",
+          "name": "Merciless Veterans",
           "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Charge phase",
-          "when": "Your opponent’s Charge phase, just after an enemy unit declares a charge.",
-          "target": "One friendly ADEPTUS ASTARTES INFANTRY unit within 12\" of that enemy unit.",
-          "effect": "Your unit can make a Normal move of up to D6\", or up to 6\" instead if it is a PHOBOS or SCOUT SQUAD unit.\n\nRESTRICTION: You cannot select a unit that is within Engagement Range of one or more enemy units."
-        },
-        {
-          "name": "A Deadly Prize",
-          "cp": 1,
-          "category": "Wargear",
-          "turn": "Either player’s turn",
-          "phase": "Command phase",
-          "when": "Start of the Command phase.",
-          "target": "One ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES MOUNTED unit from your army within range of an objective marker you control.",
-          "effect": "That objective marker is said to be Sabotaged, and remains under your control even if you have no models within range of it, until your opponent controls it at the start or end of any turn. While an objective marker is Sabotaged and under your control, each time an enemy unit ends a Normal, Advance, Fall Back or Charge move within range of that objective marker, roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
-        }
-      ]
-    },
-    {
-      "id": "56454e474546554c20484f535453",
-      "name": "VENGEFUL HOSTS",
-      "dp": 1,
-      "enhancements": [
-        {
-          "id": "4156454e47494e4720414e47454c",
-          "name": "Avenging Angel",
-          "points": 20
-        },
-        {
-          "id": "4f524b5342414e45",
-          "name": "Orksbane",
-          "points": 20
-        }
-      ],
-      "stratagems": [
-        {
-          "name": "Meteoric Onslaught",
-          "cp": 1,
-          "category": "Vengeful Hosts",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, when a friendly ADEPTUS ASTARTES FLY INFANTRY unit that made a charge move this turn is selected to attack.",
-          "target": "That friendly ADEPTUS ASTARTES FLY INFANTRY unit.",
-          "effect": "Your unit’s melee attacks have +1 S."
-        },
-        {
-          "name": "Purge By Sectors",
-          "cp": 1,
-          "category": "Vengeful Hosts",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "End of the Fight phase.",
-          "target": "One friendly unengaged ADEPTUS ASTARTES FLY INFANTRY unit that was eligible to fight this phase.",
-          "effect": "Your unit can make a normal move of up to D3+3\"."
-        },
-        {
-          "name": "Know No Fear",
-          "cp": 1,
-          "category": "Vengeful Hosts",
+          "category": "Terminator Storm Force",
           "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "One friendly battle-shocked ADEPTUS ASTARTES unit. You can target that unit with this stratagem even though it is battle-shocked.",
-          "effect": "Your unit is no longer battle-shocked."
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly adeptus astartes Terminator unit is selected to shoot.",
+          "target": "That ADEPTUS ASTARTES TERMINATOR unit.",
+          "effect": "Your unit’s ranged attacks have:\n\n[Lethal Hits].\n[Sustained Hits 1]."
+        },
+        {
+          "name": "Tactical Dreadnought Fortitude",
+          "cp": 2,
+          "category": "Terminator Storm Force",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly adeptus astartes Terminator unit.",
+          "target": "That ADEPTUS ASTARTES TERMINATOR unit.",
+          "effect": "Attacks that target your unit have -1 D until that enemy unit has attacked."
         }
       ]
     }

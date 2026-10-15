@@ -1,8 +1,8 @@
 {
   "slug": "orks",
   "name": "Orks",
-  "version": "v1.4",
-  "fetchedAt": "2026-09-21T08:54:19.971Z",
+  "version": "v1.5",
+  "fetchedAt": "2026-10-13T23:11:47.125Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -13,7 +13,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 35
+              "points": 30
             }
           ]
         },
@@ -23,14 +23,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 150
+              "points": 160
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 160
+              "points": 180
             }
           ]
         },
@@ -67,22 +67,22 @@
           "tiers": [
             {
               "models": 10,
-              "points": 85
+              "points": 80
             },
             {
               "models": 20,
-              "points": 170
+              "points": 160
             }
           ],
           "repeatFromCopy": 4,
           "repeatTiers": [
             {
               "models": 10,
-              "points": 95
+              "points": 90
             },
             {
               "models": 20,
-              "points": 180
+              "points": 170
             }
           ]
         },
@@ -112,14 +112,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 85
+              "points": 100
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 95
+              "points": 115
             }
           ]
         },
@@ -129,14 +129,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 135
+              "points": 160
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 145
+              "points": 180
             }
           ]
         },
@@ -156,14 +156,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 95
+              "points": 110
             }
           ],
           "repeatFromCopy": 2,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 105
+              "points": 125
             }
           ]
         },
@@ -193,22 +193,22 @@
           "tiers": [
             {
               "models": 10,
-              "points": 90
+              "points": 85
             },
             {
               "models": 20,
-              "points": 180
+              "points": 170
             }
           ],
           "repeatFromCopy": 4,
           "repeatTiers": [
             {
               "models": 10,
-              "points": 100
+              "points": 95
             },
             {
               "models": 20,
-              "points": 190
+              "points": 180
             }
           ]
         },
@@ -218,14 +218,14 @@
           "tiers": [
             {
               "models": 6,
-              "points": 135
+              "points": 120
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 6,
-              "points": 145
+              "points": 130
             }
           ]
         },
@@ -282,22 +282,22 @@
           "tiers": [
             {
               "models": 3,
-              "points": 80
+              "points": 85
             },
             {
               "models": 6,
-              "points": 160
+              "points": 170
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 3,
-              "points": 90
+              "points": 95
             },
             {
               "models": 6,
-              "points": 170
+              "points": 180
             }
           ]
         },
@@ -307,22 +307,22 @@
           "tiers": [
             {
               "models": 5,
-              "points": 105
+              "points": 110
             },
             {
               "models": 10,
-              "points": 210
+              "points": 220
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 5,
-              "points": 135
+              "points": 150
             },
             {
               "models": 10,
-              "points": 240
+              "points": 260
             }
           ]
         },
@@ -339,7 +339,7 @@
           "repeatTiers": [
             {
               "models": 1,
-              "points": 550
+              "points": 600
             }
           ]
         },
@@ -349,7 +349,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 300
+              "points": 290
             }
           ]
         },
@@ -414,7 +414,7 @@
           "repeatTiers": [
             {
               "models": 1,
-              "points": 175
+              "points": 185
             }
           ]
         },
@@ -428,18 +428,18 @@
             },
             {
               "models": 6,
-              "points": 260
+              "points": 275
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 3,
-              "points": 150
+              "points": 170
             },
             {
               "models": 6,
-              "points": 280
+              "points": 315
             }
           ]
         },
@@ -456,7 +456,7 @@
           "repeatTiers": [
             {
               "models": 1,
-              "points": 185
+              "points": 195
             }
           ]
         },
@@ -476,38 +476,38 @@
           "tiers": [
             {
               "models": 2,
-              "points": 75
+              "points": 70
             },
             {
               "models": 3,
-              "points": 110
+              "points": 105
             },
             {
               "models": 5,
-              "points": 185
+              "points": 175
             },
             {
               "models": 6,
-              "points": 225
+              "points": 210
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 2,
-              "points": 115
+              "points": 110
             },
             {
               "models": 3,
-              "points": 150
+              "points": 145
             },
             {
               "models": 5,
-              "points": 225
+              "points": 215
             },
             {
               "models": 6,
-              "points": 265
+              "points": 250
             }
           ]
         },
@@ -517,7 +517,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 45
+              "points": 55
             }
           ]
         },
@@ -587,7 +587,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 175
+              "points": 165
             }
           ]
         },
@@ -597,22 +597,22 @@
           "tiers": [
             {
               "models": 5,
-              "points": 125
+              "points": 115
             },
             {
               "models": 10,
-              "points": 250
+              "points": 230
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 5,
-              "points": 155
+              "points": 145
             },
             {
               "models": 10,
-              "points": 280
+              "points": 260
             }
           ]
         },
@@ -673,11 +673,11 @@
           "tiers": [
             {
               "models": 4,
-              "points": 140
+              "points": 130
             },
             {
               "models": 8,
-              "points": 280
+              "points": 260
             }
           ],
           "repeatFromCopy": 3,
@@ -688,7 +688,7 @@
             },
             {
               "models": 8,
-              "points": 300
+              "points": 290
             }
           ]
         },
@@ -729,14 +729,14 @@
           "tiers": [
             {
               "models": 6,
-              "points": 145
+              "points": 160
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 6,
-              "points": 155
+              "points": 170
             }
           ]
         },
@@ -787,14 +787,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 125
+              "points": 115
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 140
+              "points": 130
             }
           ]
         },
@@ -859,7 +859,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 65
+              "points": 60
             }
           ]
         },
@@ -890,19 +890,19 @@
         {
           "id": "544152474554494ee280992047495a4d4f5320285550475241444529",
           "name": "Targetin’ Gizmos (Upgrade)",
-          "points": 10
+          "points": 25
         }
       ],
       "stratagems": [
         {
-          "name": "Readied Brawlers",
+          "name": "Keep It Runnin'",
           "cp": 1,
           "category": "Blitz Brigade",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase, when a friendly Wagon unit ends a normal move.",
-          "target": "That WAGON unit.",
-          "effect": "Units embarked within your unit can make an assault disembark move."
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "End of the Fight phase.",
+          "target": "One friendly unengaged Orks Infantry unit that was eligible to fight this phase and is wholly within 6\" of a friendly Transport unit that INFANTRY unit is able to embark within.",
+          "effect": "Your INFANTRY unit embarks within that TRANSPORT unit."
         },
         {
           "name": "Impending Krunch",
@@ -915,14 +915,14 @@
           "effect": "Each enemy unit engaged with your unit makes a battle-shock roll, with -1 to that battle-shock roll."
         },
         {
-          "name": "Keep It Runnin'",
+          "name": "Readied Brawlers",
           "cp": 1,
           "category": "Blitz Brigade",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "End of the Fight phase.",
-          "target": "One friendly unengaged Orks Infantry unit that was eligible to fight this phase and is wholly within 6\" of a friendly Transport unit that INFANTRY unit is able to embark within.",
-          "effect": "Your INFANTRY unit embarks within that TRANSPORT unit."
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, when a friendly Wagon unit ends a normal move.",
+          "target": "That WAGON unit.",
+          "effect": "Units embarked within your unit can make an assault disembark move."
         }
       ]
     },
@@ -981,16 +981,6 @@
       ],
       "stratagems": [
         {
-          "name": "Hulking Brutes",
-          "cp": 1,
-          "category": "Bully Boyz",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly Meganobz/Nobz unit.",
-          "target": "That MEGANOBZ/NOBZ unit.",
-          "effect": "Ranged attacks that target your unit with a S greater than your unit’s T have -1 to wound rolls.\n+1CPOr: Ranged attacks that target your unit have -1 to wound rolls."
-        },
-        {
           "name": "Too Arrogant To Die",
           "cp": 1,
           "category": "Bully Boyz",
@@ -1009,6 +999,16 @@
           "when": "Your Shooting phase or the Fight phase, when a friendly Meganobz/Nobz unit is selected to attack.",
           "target": "That MEGANOBZ/NOBZ unit.",
           "effect": "Your unit’s attacks can:\n\nRe-roll hit rolls of 1.\nIf your unit is riled up, re-roll hit rolls."
+        },
+        {
+          "name": "Hulking Brutes",
+          "cp": 1,
+          "category": "Bully Boyz",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly Meganobz/Nobz unit.",
+          "target": "That MEGANOBZ/NOBZ unit.",
+          "effect": "Ranged attacks that target your unit with a S greater than your unit’s T have -1 to wound rolls.\n+1CPOr: Ranged attacks that target your unit have -1 to wound rolls."
         }
       ]
     },
@@ -1030,16 +1030,6 @@
       ],
       "stratagems": [
         {
-          "name": "Goaded Into Action",
-          "cp": 1,
-          "category": "Da Big Hunt",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, when an enemy unit has shot.",
-          "target": "One friendly unengaged Beast Snagga unit that lost a wound as a result of those attacks.",
-          "effect": "Your unit can make a surge move of up to D6\". If your unit is riled up, it can re-roll that D6."
-        },
-        {
           "name": "Instinctive Hunters",
           "cp": 1,
           "category": "Da Big Hunt",
@@ -1048,6 +1038,16 @@
           "when": "End of your opponent’s Fight phase.",
           "target": "One friendly unengaged Beast Snagga unit within 6\" of a battlefield edge.",
           "effect": "Place your unit in strategic reserves."
+        },
+        {
+          "name": "Goaded Into Action",
+          "cp": 1,
+          "category": "Da Big Hunt",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, when an enemy unit has shot.",
+          "target": "One friendly unengaged Beast Snagga unit that lost a wound as a result of those attacks.",
+          "effect": "Your unit can make a surge move of up to D6\". If your unit is riled up, it can re-roll that D6."
         },
         {
           "name": "Where D'ya Fink You're Going?",
@@ -1074,20 +1074,10 @@
         {
           "id": "4452454144484552444552",
           "name": "Dreadherder",
-          "points": 20
+          "points": 30
         }
       ],
       "stratagems": [
-        {
-          "name": "Crazed Rampage",
-          "cp": 1,
-          "category": "Dread Mob",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, when an enemy unit targets a friendly Orks Walker unit (excluding Titanic units).",
-          "target": "That ORKS WALKER unit.",
-          "effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6, with +3 to the result if your unit has Deff Dread:\n\nOn a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
-        },
         {
           "name": "Stomping Juggernaut",
           "cp": 1,
@@ -1107,6 +1097,16 @@
           "when": "Your Movement phase.",
           "target": "One friendly Orks Walker unit.",
           "effect": "Your unit is riled up until the start of your next turn."
+        },
+        {
+          "name": "Crazed Rampage",
+          "cp": 1,
+          "category": "Dread Mob",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when an enemy unit targets a friendly Orks Walker unit (excluding Titanic units).",
+          "target": "That ORKS WALKER unit.",
+          "effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6, with +3 to the result if your unit has Deff Dread:\n\nOn a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
         }
       ]
     },
@@ -1177,16 +1177,6 @@
       ],
       "stratagems": [
         {
-          "name": "Unbridled Carnage",
-          "cp": 1,
-          "category": "Green Tide",
-          "turn": "Either player’s turn",
-          "phase": "Charge or Fight phase",
-          "when": "Fight phase, when a friendly Boyz unit that made a charge move this turn is selected to fight.",
-          "target": "That BOYZ unit.",
-          "effect": "Your unit’s melee attacks have +1 A."
-        },
-        {
           "name": "'ere We Go",
           "cp": 1,
           "category": "Green Tide",
@@ -1205,6 +1195,16 @@
           "when": "Start of the Battle-shock step of your Command phase.",
           "target": "One friendly Orks Infantry unit of 13+ models.",
           "effect": "Select one visible friendly ORKS unit within 12\" of your unit. That unit’s battle-shock rolls are automatically successful."
+        },
+        {
+          "name": "Unbridled Carnage",
+          "cp": 1,
+          "category": "Green Tide",
+          "turn": "Either player’s turn",
+          "phase": "Charge or Fight phase",
+          "when": "Fight phase, when a friendly Boyz unit that made a charge move this turn is selected to fight.",
+          "target": "That BOYZ unit.",
+          "effect": "Your unit’s melee attacks have +1 A."
         }
       ]
     },
@@ -1319,16 +1319,6 @@
           "effect": "Your unit can make a normal move of:\n\nUp to D6\".\nOr: Up to 6\" instead if your unit is an attached unit."
         },
         {
-          "name": "Infested War Zone",
-          "cp": 2,
-          "category": "Runt Swarm",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, when an enemy unit has attacked.",
-          "target": "One friendly Gretchin unit that was just destroyed. You can target that unit with this stratagem even though that unit was just destroyed.",
-          "effect": "Add a new GRETCHIN unit to your army identical to your destroyed unit, in strategic reserves, at its starting strength, with its full wounds remaining."
-        },
-        {
           "name": "Grot Shields",
           "cp": 1,
           "category": "Runt Swarm",
@@ -1337,6 +1327,16 @@
           "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly Orks Infantry unit (excluding Gretchin units).",
           "target": "One friendly Gretchin unit within 3\" of that ORKS INFANTRY unit.",
           "effect": "When a hit roll for that enemy unit’s ranged attacks that target that ORKS unit results in a hit, if a model in your GRETCHIN unit is on the battlefield, end the attack sequence for that attack and your GRETCHIN unit suffers 1 mortal wound."
+        },
+        {
+          "name": "Infested War Zone",
+          "cp": 2,
+          "category": "Runt Swarm",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, when an enemy unit has attacked.",
+          "target": "One friendly Gretchin unit that was just destroyed. You can target that unit with this stratagem even though that unit was just destroyed.",
+          "effect": "Add a new GRETCHIN unit to your army identical to your destroyed unit, in strategic reserves, at its starting strength, with its full wounds remaining."
         }
       ]
     },
@@ -1358,16 +1358,6 @@
       ],
       "stratagems": [
         {
-          "name": "Glowin' Dakka",
-          "cp": 1,
-          "category": "Shoota Boyz",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase, when a friendly Orks Infantry unit is selected to shoot.",
-          "target": "That ORKS INFANTRY unit.",
-          "effect": "Your unit’s ranged attacks that target a unit within 9\" have +1 AP."
-        },
-        {
           "name": "Never Enough Dakka",
           "cp": 1,
           "category": "Shoota Boyz",
@@ -1376,6 +1366,16 @@
           "when": "Your Shooting phase, when a friendly Orks Infantry unit is selected to shoot.",
           "target": "That ORKS INFANTRY unit.",
           "effect": "Your unit’s ranged attacks have [Sustained Hits 1]."
+        },
+        {
+          "name": "Glowin' Dakka",
+          "cp": 1,
+          "category": "Shoota Boyz",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly Orks Infantry unit is selected to shoot.",
+          "target": "That ORKS INFANTRY unit.",
+          "effect": "Your unit’s ranged attacks that target a unit within 9\" have +1 AP."
         },
         {
           "name": "Kustom Dakka",
@@ -1407,14 +1407,14 @@
       ],
       "stratagems": [
         {
-          "name": "While Their Backs Are Turned",
+          "name": "Dubious Restraint",
           "cp": 1,
           "category": "Taktikal Brigade",
-          "turn": "Opponent’s turn",
+          "turn": "Your turn",
           "phase": "Movement phase",
-          "when": "End of your opponent’s Movement phase.",
-          "target": "One friendly unengaged Boyz/Kommandos/Stormboyz unit that was engaged at the start of the phase.",
-          "effect": "Your unit can make a normal move of up to 6\"."
+          "when": "Start/end of your Movement phase.",
+          "target": "One friendly Boyz/Kommandos/Stormboyz unit.",
+          "effect": "Select one objective your unit is controlling. That objective is secured."
         },
         {
           "name": "Mind Mostly On The Mission",
@@ -1427,14 +1427,14 @@
           "effect": "That move does not prevent your unit from being eligible to start an action."
         },
         {
-          "name": "Dubious Restraint",
+          "name": "While Their Backs Are Turned",
           "cp": 1,
           "category": "Taktikal Brigade",
-          "turn": "Your turn",
+          "turn": "Opponent’s turn",
           "phase": "Movement phase",
-          "when": "Start/end of your Movement phase.",
-          "target": "One friendly Boyz/Kommandos/Stormboyz unit.",
-          "effect": "Select one objective your unit is controlling. That objective is secured."
+          "when": "End of your opponent’s Movement phase.",
+          "target": "One friendly unengaged Boyz/Kommandos/Stormboyz unit that was engaged at the start of the phase.",
+          "effect": "Your unit can make a normal move of up to 6\"."
         }
       ]
     },
@@ -1466,34 +1466,14 @@
       ],
       "stratagems": [
         {
-          "name": "Mow 'em Down",
+          "name": "Orks Is Never Beaten",
           "cp": 1,
           "category": "War Horde",
           "turn": "Either player’s turn",
-          "phase": "Charge or Fight phase",
-          "when": "Fight phase, when a friendly Orks Vehicle unit (excluding Walker units) that made a charge move this turn is selected to fight.",
-          "target": "That ORKS VEHICLE unit.",
-          "effect": "Your unit’s melee attacks have:\n\n[Cleave 1].\nOr: If that attack already has [CLEAVE], +1 to the value of that [CLEAVE] (e.g. [CLEAVE 1] becomes [CLEAVE 2])."
-        },
-        {
-          "name": "Fungus-Fuel Injection",
-          "cp": 1,
-          "category": "War Horde",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase, when a friendly Orks mounted/vehicle unit is selected to move.",
-          "target": "That ORKS MOUNTED/VEHICLE unit.",
-          "effect": "Your unit has +2\" M."
-        },
-        {
-          "name": "Close-Range Dakka",
-          "cp": 1,
-          "category": "War Horde",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase, when a friendly ORKS unit is selected to shoot.",
+          "phase": "Fight phase",
+          "when": "Fight phase, when an enemy unit targets a friendly ORKS unit (excluding Titanic units).",
           "target": "That ORKS unit.",
-          "effect": "Your unit’s ranged attacks have:\n\n[Rapid Fire 1].\nOr: If that attack already has [RAPID FIRE], +1 to the value of that [RAPID FIRE] (e.g. [RAPID FIRE 1] becomes [RAPID FIRE 2])."
+          "effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6, with +1 to that roll if your unit is riled up:\n\nOn a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
         },
         {
           "name": "Hit 'em Harder",
@@ -1506,14 +1486,34 @@
           "effect": "Your unit’s melee attacks have [Lethal Hits]."
         },
         {
-          "name": "Orks Is Never Beaten",
+          "name": "Mow 'em Down",
           "cp": 1,
           "category": "War Horde",
           "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, when an enemy unit targets a friendly ORKS unit (excluding Titanic units).",
+          "phase": "Charge or Fight phase",
+          "when": "Fight phase, when a friendly Orks Vehicle unit (excluding Walker units) that made a charge move this turn is selected to fight.",
+          "target": "That ORKS VEHICLE unit.",
+          "effect": "Your unit’s melee attacks have:\n\n[Cleave 1].\nOr: If that attack already has [CLEAVE], +1 to the value of that [CLEAVE] (e.g. [CLEAVE 1] becomes [CLEAVE 2])."
+        },
+        {
+          "name": "Close-Range Dakka",
+          "cp": 1,
+          "category": "War Horde",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly ORKS unit is selected to shoot.",
           "target": "That ORKS unit.",
-          "effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6, with +1 to that roll if your unit is riled up:\n\nOn a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
+          "effect": "Your unit’s ranged attacks have:\n\n[Rapid Fire 1].\nOr: If that attack already has [RAPID FIRE], +1 to the value of that [RAPID FIRE] (e.g. [RAPID FIRE 1] becomes [RAPID FIRE 2])."
+        },
+        {
+          "name": "Fungus-Fuel Injection",
+          "cp": 1,
+          "category": "War Horde",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, when a friendly Orks mounted/vehicle unit is selected to move.",
+          "target": "That ORKS MOUNTED/VEHICLE unit.",
+          "effect": "Your unit has +2\" M."
         },
         {
           "name": "Breakin' Heads",
@@ -1540,7 +1540,7 @@
         {
           "id": "535550412d534e415a5a2044414b4b4120285550475241444529",
           "name": "Supa-snazz Dakka (Upgrade)",
-          "points": 20
+          "points": 25
         }
       ],
       "stratagems": [

@@ -1,8 +1,8 @@
 {
   "slug": "chaos-knights",
   "name": "Chaos Knights",
-  "version": "v1.4",
-  "fetchedAt": "2026-09-21T08:54:19.971Z",
+  "version": "v1.5",
+  "fetchedAt": "2026-10-13T23:11:47.125Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -149,7 +149,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 355
+              "points": 350
             }
           ],
           "repeatFromCopy": 3,
@@ -166,7 +166,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 355
+              "points": 350
             }
           ],
           "repeatFromCopy": 3,
@@ -200,7 +200,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 355
+              "points": 350
             }
           ],
           "repeatFromCopy": 3,
@@ -217,14 +217,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 340
+              "points": 325
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 355
+              "points": 345
             }
           ]
         },
@@ -234,14 +234,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 400
+              "points": 390
             }
           ],
           "repeatFromCopy": 2,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 420
+              "points": 410
             }
           ]
         },
@@ -334,16 +334,6 @@
       ],
       "stratagems": [
         {
-          "name": "Intimidating Reminder",
-          "cp": 1,
-          "category": "Bastions of Tyranny",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase, when a friendly KNIGHT TYRANT unit has shot.",
-          "target": "That KNIGHT TYRANT unit.",
-          "effect": "Select one enemy unit hit by those attacks. That enemy unit is suppressed until the start of your next Command phase:\n\nWhile a unit is suppressed, that unit’s attacks have -1 to hit rolls."
-        },
-        {
           "name": "Rune-Cursed Stronghold",
           "cp": 1,
           "category": "Bastions of Tyranny",
@@ -362,6 +352,16 @@
           "when": "Your Movement phase, when a friendly KNIGHT TYRANT unit is selected to make a fall-back move.",
           "target": "That KNIGHT TYRANT unit.",
           "effect": "That move does not prevent your unit from being eligible to shoot."
+        },
+        {
+          "name": "Intimidating Reminder",
+          "cp": 1,
+          "category": "Bastions of Tyranny",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly KNIGHT TYRANT unit has shot.",
+          "target": "That KNIGHT TYRANT unit.",
+          "effect": "Select one enemy unit hit by those attacks. That enemy unit is suppressed until the start of your next Command phase:\n\nWhile a unit is suppressed, that unit’s attacks have -1 to hit rolls."
         }
       ]
     },
@@ -393,14 +393,14 @@
       ],
       "stratagems": [
         {
-          "name": "Beasthide Manifestation",
+          "name": "Merciless Fusillade",
           "cp": 1,
           "category": "Battle Tactic",
           "turn": "Either player’s turn",
           "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
+          "when": "Start of your Shooting phase or the start of the Fight phase.",
+          "target": "One Titanic Chaos Knights unit from your army, and up to two friendly War Dog units, that have not been selected to shoot or fight this phase.",
+          "effect": "Select one enemy unit that is an eligible target for each of those CHAOS KNIGHTS units. Until the end of the phase, each time one of those Chaos Knights units is selected to shoot or fight, if that enemy unit is an eligible target, you can only select that enemy unit as the target for all of those attacks and those attacks have the [SUSTAINED HITS 1] ability."
         },
         {
           "name": "Flush The Quarry",
@@ -413,24 +413,24 @@
           "effect": "Until the end of the phase, each time one of those War Dog units makes a Normal, Advance or Fall Back move, its models can move through models and terrain features. When doing so, they can move within Engagement Range of such models but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
         },
         {
-          "name": "Merciless Fusillade",
+          "name": "Beasthide Manifestation",
           "cp": 1,
           "category": "Battle Tactic",
           "turn": "Either player’s turn",
           "phase": "Shooting or Fight phase",
-          "when": "Start of your Shooting phase or the start of the Fight phase.",
-          "target": "One Titanic Chaos Knights unit from your army, and up to two friendly War Dog units, that have not been selected to shoot or fight this phase.",
-          "effect": "Select one enemy unit that is an eligible target for each of those CHAOS KNIGHTS units. Until the end of the phase, each time one of those Chaos Knights units is selected to shoot or fight, if that enemy unit is an eligible target, you can only select that enemy unit as the target for all of those attacks and those attacks have the [SUSTAINED HITS 1] ability."
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
         },
         {
-          "name": "Goaded Beast",
+          "name": "Feral Arrogance",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
-          "target": "One CHAOS KNIGHTS unit from your army that lost one or more wounds as a result of those attacks.",
-          "effect": "Your unit can make a surge move of up to D6\""
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, just after a mortal wound is allocated to a Chaos Knights unit from your army.",
+          "target": "That CHAOS KNIGHTS unit.",
+          "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds."
         },
         {
           "name": "Contemptuous Volleys",
@@ -443,14 +443,14 @@
           "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
         },
         {
-          "name": "Feral Arrogance",
+          "name": "Goaded Beast",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, just after a mortal wound is allocated to a Chaos Knights unit from your army.",
-          "target": "That CHAOS KNIGHTS unit.",
-          "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds."
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
+          "target": "One CHAOS KNIGHTS unit from your army that lost one or more wounds as a result of those attacks.",
+          "effect": "Your unit can make a surge move of up to D6\""
         }
       ]
     },
@@ -513,16 +513,6 @@
           "effect": "Select one enemy unit within Engagement Range of those WAR DOG units. Until the end of the phase, models in those WAR DOG units can only target that enemy unit, but each time a model in one of those WAR DOG units makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit."
         },
         {
-          "name": "Harrying Hounds",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
-          "target": "One War Dog unit from your army that is within 8\" of that enemy unit.",
-          "effect": "Your unit can make a Normal move of up to 6\"."
-        },
-        {
           "name": "Encircling Pack",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -531,6 +521,16 @@
           "when": "End of your opponent’s Fight phase.",
           "target": "One War Dog unit from your army that is wholly within 12\" of one or more battlefield edges and not within Engagement Range of one or more enemy units.",
           "effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
+        },
+        {
+          "name": "Harrying Hounds",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+          "target": "One War Dog unit from your army that is within 8\" of that enemy unit.",
+          "effect": "Your unit can make a Normal move of up to 6\"."
         },
         {
           "name": "Cunning Hunter",
@@ -562,6 +562,16 @@
       ],
       "stratagems": [
         {
+          "name": "Insensate Bloodthirst",
+          "cp": 1,
+          "category": "Hunting Warpack",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Fight phase, when an enemy unit targets a friendly WAR DOG unit.",
+          "target": "That WAR DOG unit.",
+          "effect": "Your unit has Feel No Pain 5+"
+        },
+        {
           "name": "Leash Of The Masters",
           "cp": 1,
           "category": "Hunting Warpack",
@@ -580,16 +590,6 @@
           "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly WAR DOG unit within range of an objective.",
           "target": "That WAR DOG unit.",
           "effect": "Ranged attacks that target your unit have -1 AP until that enemy unit has attacked."
-        },
-        {
-          "name": "Insensate Bloodthirst",
-          "cp": 1,
-          "category": "Hunting Warpack",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Fight phase, when an enemy unit targets a friendly WAR DOG unit.",
-          "target": "That WAR DOG unit.",
-          "effect": "Your unit has Feel No Pain 5+"
         }
       ]
     },
@@ -611,6 +611,16 @@
       ],
       "stratagems": [
         {
+          "name": "Coursing Thralls",
+          "cp": 1,
+          "category": "Iconoclast Fiefdom",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Start of your Shooting phase.",
+          "target": "One friendly DAMNED unit.",
+          "effect": "Select one visible enemy unit within 12\" of your unit. That enemy unit is hunted:\n\nWhile a unit is hunted, that unit has +6\" detection range."
+        },
+        {
           "name": "Dark Sacrifice",
           "cp": 1,
           "category": "Iconoclast Fiefdom",
@@ -629,16 +639,6 @@
           "when": "Any phase, when a friendly CHAOS KNIGHTS unit is destroyed by an enemy unit.",
           "target": "That enemy unit.",
           "effect": "That enemy unit is marked until the end of the battle.\n\nFriendly DAMNED units’ attacks that target a marked unit have [LETHAL HITS]."
-        },
-        {
-          "name": "Coursing Thralls",
-          "cp": 1,
-          "category": "Iconoclast Fiefdom",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Start of your Shooting phase.",
-          "target": "One friendly DAMNED unit.",
-          "effect": "Select one visible enemy unit within 12\" of your unit. That enemy unit is hunted:\n\nWhile a unit is hunted, that unit has +6\" detection range."
         }
       ]
     },
@@ -670,6 +670,16 @@
       ],
       "stratagems": [
         {
+          "name": "Hellforged Construction",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One Chaos Knights unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
+        },
+        {
           "name": "Profane Symbiosis",
           "cp": 1,
           "category": "Battle Tactic",
@@ -679,16 +689,6 @@
           "target": "One Chaos Knights unit from your army that is not Empowered.",
           "effect": "Your unit makes a Malefic Surge.",
           "restrictions": "You cannot select the same unit as the target of this Stratagem more than once per battle round."
-        },
-        {
-          "name": "Hellforged Construction",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Chaos Knights unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
         },
         {
           "name": "Corrupting Taint",
@@ -770,6 +770,26 @@
       ],
       "stratagems": [
         {
+          "name": "Crushed Like Vermin",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, just after a Chaos Knights Character unit from your army ends a Normal move.",
+          "target": "That CHAOS KNIGHTS CHARACTER unit.",
+          "effect": "Select one enemy unit (excluding MONSTERS and VEHICLES) that your unit moved over during that move and roll six D6: for each 4+, that enemy unit suffers 1 mortal wound. If one or more models are destroyed as a result of this Stratagem, that enemy unit must take a Battle-shock test."
+        },
+        {
+          "name": "Trophy Hunter",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, just before a Chaos Knights Character unit from your army consolidates.",
+          "target": "That CHAOS KNIGHTS CHARACTER unit.",
+          "effect": "Until the end of the phase, each time your unit Consolidates, models in it can move an additional 3\" as long as your unit can end that move within Engagement Range of one or more enemy units."
+        },
+        {
           "name": "Titanic Duel",
           "cp": 1,
           "category": "Epic Deed",
@@ -790,16 +810,6 @@
           "effect": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack."
         },
         {
-          "name": "Trophy Hunter",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just before a Chaos Knights Character unit from your army consolidates.",
-          "target": "That CHAOS KNIGHTS CHARACTER unit.",
-          "effect": "Until the end of the phase, each time your unit Consolidates, models in it can move an additional 3\" as long as your unit can end that move within Engagement Range of one or more enemy units."
-        },
-        {
           "name": "Spiteful Demise",
           "cp": 1,
           "category": "Epic Deed",
@@ -818,16 +828,6 @@
           "when": "Start of your Command phase.",
           "target": "One Chaos Knights Character unit from your army that is within range of one or more objective markers you control.",
           "effect": "Select one of those objective markers. That objective marker remains under your control, with a Level of Control of 5 (unless it would otherwise be higher), until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
-        },
-        {
-          "name": "Crushed Like Vermin",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase, just after a Chaos Knights Character unit from your army ends a Normal move.",
-          "target": "That CHAOS KNIGHTS CHARACTER unit.",
-          "effect": "Select one enemy unit (excluding MONSTERS and VEHICLES) that your unit moved over during that move and roll six D6: for each 4+, that enemy unit suffers 1 mortal wound. If one or more models are destroyed as a result of this Stratagem, that enemy unit must take a Battle-shock test."
         }
       ]
     },
@@ -879,16 +879,6 @@
           "effect": "Until the end of the phase, each time a model in one of your units makes a Normal, Advance, Fall Back or Charge move, it can move through models and terrain features. When doing so, it can move within Engagement Range of such models but, unless it made a Charge move, cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed (the Super-heavy Walker ability does not apply while using this Stratagem)."
         },
         {
-          "name": "A Long Leash",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "One Abhorrent unit from your army and up to two friendly War Dog units.",
-          "effect": "Until the start of your next Command phase, those WAR DOG units are treated as being within range of any Aura abilities your ABHORRENT unit has."
-        },
-        {
           "name": "Disdain For The Weak",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -907,6 +897,16 @@
           "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
           "target": "One Chaos Knights unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Your unit has Stealth.\nMelee attacks that target your unit have -1 to hit rolls."
+        },
+        {
+          "name": "A Long Leash",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Your Command phase.",
+          "target": "One Abhorrent unit from your army and up to two friendly War Dog units.",
+          "effect": "Until the start of your next Command phase, those WAR DOG units are treated as being within range of any Aura abilities your ABHORRENT unit has."
         },
         {
           "name": "Pterrorshades",

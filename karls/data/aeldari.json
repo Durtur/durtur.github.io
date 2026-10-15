@@ -1,8 +1,8 @@
 {
   "slug": "aeldari",
   "name": "Aeldari",
-  "version": "v1.4",
-  "fetchedAt": "2026-09-21T08:54:19.971Z",
+  "version": "v1.5",
+  "fetchedAt": "2026-10-13T23:11:47.125Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -23,7 +23,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 75
+              "points": 70
             }
           ]
         },
@@ -142,11 +142,11 @@
               "points": 110
             }
           ],
-          "repeatFromCopy": 2,
+          "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 125
+              "points": 130
             }
           ]
         },
@@ -170,11 +170,22 @@
           "tiers": [
             {
               "models": 3,
-              "points": 90
+              "points": 85
             },
             {
               "models": 6,
               "points": 180
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 95
+            },
+            {
+              "models": 6,
+              "points": 190
             }
           ]
         },
@@ -204,7 +215,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 65
+              "points": 60
             }
           ]
         },
@@ -224,7 +235,7 @@
           "tiers": [
             {
               "models": 5,
-              "points": 120
+              "points": 110
             },
             {
               "models": 10,
@@ -235,7 +246,7 @@
           "repeatTiers": [
             {
               "models": 5,
-              "points": 130
+              "points": 120
             },
             {
               "models": 10,
@@ -313,7 +324,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 85
+              "points": 80
             }
           ]
         },
@@ -323,7 +334,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 80
+              "points": 75
             }
           ]
         },
@@ -353,14 +364,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 170
+              "points": 165
             }
           ],
-          "repeatFromCopy": 2,
+          "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 190
+              "points": 195
             }
           ]
         },
@@ -442,7 +453,7 @@
             },
             {
               "models": 6,
-              "points": 175
+              "points": 165
             }
           ]
         },
@@ -476,7 +487,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 60
+              "points": 55
             }
           ]
         },
@@ -573,7 +584,7 @@
             },
             {
               "models": 4,
-              "points": 120
+              "points": 110
             }
           ]
         },
@@ -736,7 +747,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 70
+              "points": 65
             }
           ]
         },
@@ -756,11 +767,11 @@
           "tiers": [
             {
               "models": 2,
-              "points": 95
+              "points": 90
             },
             {
               "models": 4,
-              "points": 190
+              "points": 180
             }
           ]
         },
@@ -770,7 +781,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 115
+              "points": 105
             }
           ]
         },
@@ -854,7 +865,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 245
+              "points": 230
             }
           ]
         },
@@ -977,7 +988,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 100
+              "points": 90
             }
           ]
         },
@@ -1066,11 +1077,11 @@
               "points": 110
             }
           ],
-          "repeatFromCopy": 2,
+          "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 125
+              "points": 130
             }
           ]
         },
@@ -1094,11 +1105,22 @@
           "tiers": [
             {
               "models": 3,
-              "points": 90
+              "points": 85
             },
             {
               "models": 6,
               "points": 180
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 3,
+              "points": 95
+            },
+            {
+              "models": 6,
+              "points": 190
             }
           ]
         },
@@ -1128,7 +1150,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 65
+              "points": 60
             }
           ]
         },
@@ -1148,7 +1170,7 @@
           "tiers": [
             {
               "models": 5,
-              "points": 120
+              "points": 110
             },
             {
               "models": 10,
@@ -1159,7 +1181,7 @@
           "repeatTiers": [
             {
               "models": 5,
-              "points": 130
+              "points": 120
             },
             {
               "models": 10,
@@ -1237,7 +1259,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 85
+              "points": 80
             }
           ]
         },
@@ -1247,7 +1269,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 80
+              "points": 75
             }
           ]
         },
@@ -1277,14 +1299,14 @@
           "tiers": [
             {
               "models": 1,
-              "points": 170
+              "points": 165
             }
           ],
-          "repeatFromCopy": 2,
+          "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 1,
-              "points": 190
+              "points": 195
             }
           ]
         },
@@ -1366,7 +1388,7 @@
             },
             {
               "models": 6,
-              "points": 175
+              "points": 165
             }
           ]
         },
@@ -1400,7 +1422,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 60
+              "points": 55
             }
           ]
         },
@@ -1497,7 +1519,7 @@
             },
             {
               "models": 4,
-              "points": 120
+              "points": 110
             }
           ]
         },
@@ -1713,16 +1735,6 @@
       ],
       "stratagems": [
         {
-          "name": "Soulsight",
-          "cp": 1,
-          "category": "Armoured Warhost",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase, when a friendly AELDARI VEHICLE unit is selected to shoot.",
-          "target": "That AELDARI VEHICLE unit.",
-          "effect": "Your unit’s attacks can re-roll:\n\nOne hit roll.\nOne wound roll.\nOne damage roll."
-        },
-        {
           "name": "Layered Wards",
           "cp": 1,
           "category": "Armoured Warhost",
@@ -1731,6 +1743,16 @@
           "when": "Any phase, when a friendly AELDARI VEHICLE unit suffers a mortal wound.",
           "target": "That AELDARI VEHICLE unit.",
           "effect": "Your unit has Feel No Pain 5+ against mortal wounds."
+        },
+        {
+          "name": "Soulsight",
+          "cp": 1,
+          "category": "Armoured Warhost",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly AELDARI VEHICLE unit is selected to shoot.",
+          "target": "That AELDARI VEHICLE unit.",
+          "effect": "Your unit’s attacks can re-roll:\n\nOne hit roll.\nOne wound roll.\nOne damage roll."
         },
         {
           "name": "Vectored Engines",
@@ -1772,16 +1794,6 @@
       ],
       "stratagems": [
         {
-          "name": "Warrior Focus",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase.",
-          "target": "One Aspect Warriors or Avatar of Khaine unit from your army that has not been selected to shoot or fight this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill, Weapon skill, Strength, Armour Penetration and Damage characteristics and/or any or all modifiers to the Hit roll."
-        },
-        {
           "name": "Preternatural Precision",
           "cp": 1,
           "category": "Battle Tactic",
@@ -1802,14 +1814,14 @@
           "effect": "Until the end of the phase, your model’s Wailing Doom ranged weapon has a Range characteristic of 18\" and a Damage characteristic of 8."
         },
         {
-          "name": "To Their Final Breath",
+          "name": "Warrior Focus",
           "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Battle Tactic",
           "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Aspect Warriors or Avatar of Khaine unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Each time you use this Stratagem, you can remove one Aspect Shrine token your unit has (see datasheets). Then, until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if you removed an Aspect Shrine token during this usage of this Stratagem. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase.",
+          "target": "One Aspect Warriors or Avatar of Khaine unit from your army that has not been selected to shoot or fight this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill, Weapon skill, Strength, Armour Penetration and Damage characteristics and/or any or all modifiers to the Hit roll."
         },
         {
           "name": "Khaine’s Vengeance",
@@ -1830,6 +1842,16 @@
           "when": "End of the Fight phase.",
           "target": "One unengaged ASURYANI unit from your army that was eligible to fight this phase and one friendly TRANSPORT it is able to embark within.",
           "effect": "If your ASURYANI unit is wholly within 6” of that TRANSPORT, it can embark within it."
+        },
+        {
+          "name": "To Their Final Breath",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One Aspect Warriors or Avatar of Khaine unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Each time you use this Stratagem, you can remove one Aspect Shrine token your unit has (see datasheets). Then, until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if you removed an Aspect Shrine token during this usage of this Stratagem. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
         }
       ]
     },
@@ -1871,14 +1893,14 @@
           "effect": "Until the end of the phase, each time a model in your unit makes an attack, re-roll a Wound roll of 1. If your unit has the Anhrathe keyword, then until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit within range of an objective marker, you can re-roll the Wound roll instead."
         },
         {
-          "name": "Cloak And Shadow",
+          "name": "Lethal Ruse",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One Aeldari Infantry unit from your army that is within range of an objective marker that you control and that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, models in your unit have the Stealth ability and your unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, just after an AELDARI unit from your army Falls Back.",
+          "target": "That AELDARI unit.",
+          "effect": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Fell Back. If it is an Anhrathe unit, also select one enemy unit your unit was within Engagement Range of at the start of the phase, and roll six D6: for each 4+, that enemy unit suffers 1 mortal wound."
         },
         {
           "name": "Vengeful Sorrow",
@@ -1889,6 +1911,16 @@
           "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
           "target": "One AELDARI INFANTRY unit from your army, if one or more models in that unit were destroyed as a result of those attacks, and if that AELDARI unit is neither Battle-shocked nor within Engagement Range of one or more enemy units.",
           "effect": "Your unit can make a surge move of up to D6+1\"."
+        },
+        {
+          "name": "Cloak And Shadow",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One Aeldari Infantry unit from your army that is within range of an objective marker that you control and that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, models in your unit have the Stealth ability and your unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
         },
         {
           "name": "Into The Breach",
@@ -1909,16 +1941,6 @@
           "when": "Your Shooting phase.",
           "target": "One Rangers or Shroud Runners unit from your army that has not been selected to shoot this phase.",
           "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] and [RAPID FIRE 1] abilities, and until the end of the phase, improve the Armour Penetration characteristic of those weapons by 1."
-        },
-        {
-          "name": "Lethal Ruse",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase, just after an AELDARI unit from your army Falls Back.",
-          "target": "That AELDARI unit.",
-          "effect": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Fell Back. If it is an Anhrathe unit, also select one enemy unit your unit was within Engagement Range of at the start of the phase, and roll six D6: for each 4+, that enemy unit suffers 1 mortal wound."
         }
       ]
     },
@@ -1950,6 +1972,16 @@
       ],
       "stratagems": [
         {
+          "name": "Soulsight",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One Ynnari unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] and [IGNORES COVER] abilities."
+        },
+        {
           "name": "Macabre Resilience",
           "cp": 1,
           "category": "Battle Tactic",
@@ -1970,24 +2002,14 @@
           "effect": "Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1. If your unit is below its Starting Strength, you can re-roll the Hit roll instead."
         },
         {
-          "name": "Soulsight",
+          "name": "Pall Of Dread",
           "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Ynnari unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] and [IGNORES COVER] abilities."
-        },
-        {
-          "name": "Parting The Veil",
-          "cp": 2,
           "category": "Strategic Ploy",
           "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Ynnari unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+          "phase": "Any phase",
+          "when": "Any phase.",
+          "target": "One Ynnari unit from your army that was just destroyed while it was within range of one or more objective markers you controlled at the end of the previous phase. You can use this Stratagem on that unit even though it was just destroyed.",
+          "effect": "Select one of those objective markers. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
         },
         {
           "name": "Death Answers Death",
@@ -2000,14 +2022,14 @@
           "effect": "Your unit can shoot as if it were your Shooting phase."
         },
         {
-          "name": "Pall Of Dread",
-          "cp": 1,
+          "name": "Parting The Veil",
+          "cp": 2,
           "category": "Strategic Ploy",
           "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase.",
-          "target": "One Ynnari unit from your army that was just destroyed while it was within range of one or more objective markers you controlled at the end of the previous phase. You can use this Stratagem on that unit even though it was just destroyed.",
-          "effect": "Select one of those objective markers. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+          "phase": "Fight phase",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One Ynnari unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
         }
       ]
     },
@@ -2059,6 +2081,16 @@
           "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability."
         },
         {
+          "name": "Withdraw And Reinforce",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Fight phase",
+          "when": "End of your opponent’s Fight phase.",
+          "target": "One Anhrathe unit from your army that is not within Engagement Range of one or more enemy units.",
+          "effect": "Remove your unit from the battlefield and place it into Strategic Reserves. If that unit is below Starting Strength, return all destroyed models (excluding CHARACTER models) to that unit."
+        },
+        {
           "name": "Ruthless Killers",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -2077,16 +2109,6 @@
           "when": "Command phase.",
           "target": "One Anhrathe unit from your army that is within Engagement Range of one or more enemy units.",
           "effect": "Until the start of the next Command phase, add 1 to the Objective Control characteristic of models in your unit."
-        },
-        {
-          "name": "Withdraw And Reinforce",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Fight phase",
-          "when": "End of your opponent’s Fight phase.",
-          "target": "One Anhrathe unit from your army that is not within Engagement Range of one or more enemy units.",
-          "effect": "Remove your unit from the battlefield and place it into Strategic Reserves. If that unit is below Starting Strength, return all destroyed models (excluding CHARACTER models) to that unit."
         },
         {
           "name": "Impeding Fire",
@@ -2177,25 +2199,34 @@
       ],
       "stratagems": [
         {
-          "name": "Staged Death",
+          "name": "Heroes’ Fall",
           "cp": 1,
           "category": "Strategic Ploy",
           "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase.",
-          "target": "One Harlequins Character model from your army that was just destroyed. You can use this Stratagem on that model even though it was just destroyed.",
-          "effect": "At the end of the phase, set your model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with half of its starting number of wounds remaining.",
-          "restrictions": "Each model can only be targeted with this Stratagem once per battle."
+          "phase": "Fight phase",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One Harlequins unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
         },
         {
-          "name": "Exit The Stage",
+          "name": "Mocking Flight",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, just after a Harlequins unit from your army Falls Back.",
+          "target": "That HARLEQUINS unit.",
+          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        },
+        {
+          "name": "Tricksters’ Retort",
           "cp": 1,
           "category": "Strategic Ploy",
           "turn": "Opponent’s turn",
-          "phase": "Fight phase",
-          "when": "End of your opponent’s Fight phase.",
-          "target": "One Harlequins unit from your army that is not within Engagement Range of one or more enemy units.",
-          "effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+          "target": "One Troupe unit from your army that is within 8\" of that enemy unit.",
+          "effect": "Your unit can make a Normal move of up to 6\"."
         },
         {
           "name": "Bloody Dance",
@@ -2209,34 +2240,25 @@
           "restrictions": "Note that even if this charge is successful, your unit does not receive any Charge bonus this turn."
         },
         {
-          "name": "Tricksters’ Retort",
+          "name": "Exit The Stage",
           "cp": 1,
           "category": "Strategic Ploy",
           "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
-          "target": "One Troupe unit from your army that is within 8\" of that enemy unit.",
-          "effect": "Your unit can make a Normal move of up to 6\"."
+          "phase": "Fight phase",
+          "when": "End of your opponent’s Fight phase.",
+          "target": "One Harlequins unit from your army that is not within Engagement Range of one or more enemy units.",
+          "effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
         },
         {
-          "name": "Mocking Flight",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase, just after a Harlequins unit from your army Falls Back.",
-          "target": "That HARLEQUINS unit.",
-          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
-        },
-        {
-          "name": "Heroes’ Fall",
+          "name": "Staged Death",
           "cp": 1,
           "category": "Strategic Ploy",
           "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Harlequins unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
+          "phase": "Any phase",
+          "when": "Any phase.",
+          "target": "One Harlequins Character model from your army that was just destroyed. You can use this Stratagem on that model even though it was just destroyed.",
+          "effect": "At the end of the phase, set your model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with half of its starting number of wounds remaining.",
+          "restrictions": "Each model can only be targeted with this Stratagem once per battle."
         }
       ]
     },
@@ -2278,16 +2300,6 @@
           "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit within range of one or more objective markers, you can re-roll the Wound roll."
         },
         {
-          "name": "Shield Nodes",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Dire Avengers or Guardians unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "If your unit is within range of one or more objective markers, until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll."
-        },
-        {
           "name": "Blades Of Asuryan",
           "cp": 1,
           "category": "Battle Tactic",
@@ -2307,6 +2319,16 @@
           "target": "One War Walkers unit from your army.",
           "effect": "After that enemy unit has finished making its attacks, your unit can shoot as if it were your Shooting phase, but when resolving those attacks, it can only target that enemy unit (and only if it is an eligible target).",
           "restrictions": "You can only use this Stratagem once per battle round."
+        },
+        {
+          "name": "Shield Nodes",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One Dire Avengers or Guardians unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "If your unit is within range of one or more objective markers, until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll."
         },
         {
           "name": "Time To Strike",
@@ -2427,27 +2449,6 @@
           "effect": "Roll six D6: for each 3+, that enemy unit suffers 1 mortal wound."
         },
         {
-          "name": "Unshrouded Truth",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase.",
-          "target": "One Asuryani Infantry unit from your army (excluding Wraith Construct units) that has not been selected to move this phase, was not set up on the battlefield this phase, and is within 9\" of one or more friendly Asuryani Psyker models.",
-          "effect": "Place your unit in strategic reserves.\nYour unit has Deep Strike.\nYour unit must make an ingress move this phase.",
-          "restrictions": "Until the end of the phase, your unit is not eligible to be selected to move."
-        },
-        {
-          "name": "Presentiment Of Dread",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Command phase",
-          "when": "Command phase.",
-          "target": "One Asuryani Psyker model from your army.",
-          "effect": "Select one enemy unit within 18\" of and visible to your model. That enemy unit must take a Battle-shock test, subtracting 1 from that test."
-        },
-        {
           "name": "Psychic Shield",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -2466,6 +2467,27 @@
           "when": "Fight phase, just after an enemy unit has selected its targets.",
           "target": "One Asuryani Infantry unit from your army (excluding Wraith Construct units) that was selected as the target of one or more of the attacking unit’s attacks and is within 9\" of one or more friendly Asuryani Psyker models.",
           "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll and subtract 1 from the Wound roll."
+        },
+        {
+          "name": "Presentiment Of Dread",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Command phase",
+          "when": "Command phase.",
+          "target": "One Asuryani Psyker model from your army.",
+          "effect": "Select one enemy unit within 18\" of and visible to your model. That enemy unit must take a Battle-shock test, subtracting 1 from that test."
+        },
+        {
+          "name": "Unshrouded Truth",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase.",
+          "target": "One Asuryani Infantry unit from your army (excluding Wraith Construct units) that has not been selected to move this phase, was not set up on the battlefield this phase, and is within 9\" of one or more friendly Asuryani Psyker models.",
+          "effect": "Place your unit in strategic reserves.\nYour unit has Deep Strike.\nYour unit must make an ingress move this phase.",
+          "restrictions": "Until the end of the phase, your unit is not eligible to be selected to move."
         }
       ]
     },
@@ -2497,6 +2519,26 @@
       ],
       "stratagems": [
         {
+          "name": "Striking Stride",
+          "cp": 1,
+          "category": "Serpent’s Brood",
+          "turn": "Your turn",
+          "phase": "Charge phase",
+          "when": "Your Charge phase.",
+          "target": "One Harlequins unit from your army.",
+          "effect": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced."
+        },
+        {
+          "name": "Weavers’ Coils",
+          "cp": 1,
+          "category": "Serpent’s Brood",
+          "turn": "Your turn",
+          "phase": "Fight phase",
+          "when": "End of your Fight phase.",
+          "target": "One Harlequins Mounted unit from your army that was eligible to fight this phase.",
+          "effect": "If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move. Otherwise, your unit can make a Fall Back move of up to 6\"."
+        },
+        {
           "name": "Venomous Wrath",
           "cp": 1,
           "category": "Serpent’s Brood",
@@ -2517,26 +2559,6 @@
           "effect": "Until the end of the phase, when using your unit’s Dance of Death ability, you can select three of the abilities for your unit to gain, instead of one."
         },
         {
-          "name": "Weaving Stride",
-          "cp": 1,
-          "category": "Serpent’s Brood",
-          "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
-          "target": "One Harlequins Infantry unit from your army that is within 8\" of that enemy unit.",
-          "effect": "Your unit can make a Normal move of up to 6\"."
-        },
-        {
-          "name": "Weavers’ Coils",
-          "cp": 1,
-          "category": "Serpent’s Brood",
-          "turn": "Your turn",
-          "phase": "Fight phase",
-          "when": "End of your Fight phase.",
-          "target": "One Harlequins Mounted unit from your army that was eligible to fight this phase.",
-          "effect": "If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move. Otherwise, your unit can make a Fall Back move of up to 6\"."
-        },
-        {
           "name": "Skyward Lunge",
           "cp": 1,
           "category": "Serpent’s Brood",
@@ -2547,14 +2569,14 @@
           "effect": "If your unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves."
         },
         {
-          "name": "Striking Stride",
+          "name": "Weaving Stride",
           "cp": 1,
           "category": "Serpent’s Brood",
-          "turn": "Your turn",
-          "phase": "Charge phase",
-          "when": "Your Charge phase.",
-          "target": "One Harlequins unit from your army.",
-          "effect": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced."
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+          "target": "One Harlequins Infantry unit from your army that is within 8\" of that enemy unit.",
+          "effect": "Your unit can make a Normal move of up to 6\"."
         }
       ]
     },
@@ -2596,6 +2618,16 @@
           "effect": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack."
         },
         {
+          "name": "Blades From Beyond",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase.",
+          "target": "One Wraithblades, Wraithlord or Wraithknight unit from your army that has not been selected to fight this phase.",
+          "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [DEVASTATING WOUNDS] ability."
+        },
+        {
           "name": "Seer’s Eye",
           "cp": 1,
           "category": "Battle Tactic",
@@ -2614,16 +2646,6 @@
           "when": "Your Charge phase, just after a Wraithblades, Wraithlord or Wraithknight unit from your army ends a Charge move.",
           "target": "That WRAITHBLADES, WRAITHLORD or WRAITHKNIGHT unit.",
           "effect": "Select one enemy unit within Engagement Range of your unit and roll one D6 for each WRAITHBLADES model in your unit, or roll four D6 if your unit has the WRAITHLORD keyword, or roll six D6 if your unit has the WRAITHKNIGHT keyword: for each 3+, that enemy unit suffers 1 mortal wound."
-        },
-        {
-          "name": "Blades From Beyond",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One Wraithblades, Wraithlord or Wraithknight unit from your army that has not been selected to fight this phase.",
-          "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [DEVASTATING WOUNDS] ability."
         },
         {
           "name": "Spirit Token",
@@ -2665,16 +2687,6 @@
       ],
       "stratagems": [
         {
-          "name": "Phantasmal Mirage",
-          "cp": 1,
-          "category": "Twilight Flickers",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase, when a friendly HARLEQUINS VEHICLE unit has shot.",
-          "target": "That HARLEQUINS VEHICLE unit.",
-          "effect": "Your unit can make a normal move of up to D6\".\nYour unit is not eligible to declare a charge until the end of the turn."
-        },
-        {
           "name": "Captivating Performance",
           "cp": 1,
           "category": "Twilight Flickers",
@@ -2693,13 +2705,23 @@
           "when": "Fight phase, when a friendly TROUPE unit is selected to fight.",
           "target": "That TROUPE unit.",
           "effect": "Your unit’s melee attacks have [LANCE]."
+        },
+        {
+          "name": "Phantasmal Mirage",
+          "cp": 1,
+          "category": "Twilight Flickers",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly HARLEQUINS VEHICLE unit has shot.",
+          "target": "That HARLEQUINS VEHICLE unit.",
+          "effect": "Your unit can make a normal move of up to D6\".\nYour unit is not eligible to declare a charge until the end of the turn."
         }
       ]
     },
     {
       "id": "574152484f5354",
       "name": "WARHOST",
-      "dp": 3,
+      "dp": 2,
       "enhancements": [
         {
           "id": "47494654204f4620464f52455349474854",
@@ -2764,16 +2786,6 @@
           "effect": "If your ASURYANI unit is wholly within 6” of that TRANSPORT, it can embark within it."
         },
         {
-          "name": "Webway Tunnel",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Fight phase",
-          "when": "End of your opponent’s Fight phase.",
-          "target": "One Asuryani Infantry unit from your army that is wholly within 9\" of one or more battlefield edges.",
-          "effect": "If your unit is not within Engagement Range of one or more enemy units, remove it from the battlefield and place it into Strategic Reserves."
-        },
-        {
           "name": "Fire And Fade",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -2783,6 +2795,16 @@
           "target": "That ASURYANI unit.",
           "effect": "Your unit can make a Normal move of up to D6+1\".",
           "restrictions": "Until the end of the turn, your unit is not eligible to declare a charge or embark within a Transport."
+        },
+        {
+          "name": "Webway Tunnel",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Fight phase",
+          "when": "End of your opponent’s Fight phase.",
+          "target": "One Asuryani Infantry unit from your army that is wholly within 9\" of one or more battlefield edges.",
+          "effect": "If your unit is not within Engagement Range of one or more enemy units, remove it from the battlefield and place it into Strategic Reserves."
         }
       ]
     },
@@ -2814,16 +2836,6 @@
       ],
       "stratagems": [
         {
-          "name": "Spiralling Evasion",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One Asuryani Mounted or VYPER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save."
-        },
-        {
           "name": "Focused Firepower",
           "cp": 1,
           "category": "Battle Tactic",
@@ -2832,6 +2844,16 @@
           "when": "Your Shooting phase.",
           "target": "One Asuryani Mounted or VYPER unit from your army that has not been selected to shoot this phase.",
           "effect": "Until the end of the phase, each time a model in your unit makes an attack, improve the Armour Penetration characteristic of that attack by 1."
+        },
+        {
+          "name": "Spiralling Evasion",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One Asuryani Mounted or VYPER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save."
         },
         {
           "name": "Death From On High",
@@ -2844,16 +2866,6 @@
           "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Wound roll."
         },
         {
-          "name": "Daring Riders",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "The Reinforcements step of your Movement phase.",
-          "target": "One Asuryani Mounted or VYPER unit from your army in Reserves.",
-          "effect": "Until the end of the phase, when setting up your unit on the battlefield from Reserves, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units. When doing so, if your unit is set up within 8\" horizontally of one or more enemy units, until the end of the turn, it is not eligible to declare a charge."
-        },
-        {
           "name": "Wind Of Blades",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -2862,6 +2874,16 @@
           "when": "Your Movement phase.",
           "target": "One Asuryani Mounted or Vyper unit from your army that has not been selected to move this phase.",
           "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+        },
+        {
+          "name": "Daring Riders",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "The Reinforcements step of your Movement phase.",
+          "target": "One Asuryani Mounted or VYPER unit from your army in Reserves.",
+          "effect": "Until the end of the phase, when setting up your unit on the battlefield from Reserves, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units. When doing so, if your unit is set up within 8\" horizontally of one or more enemy units, until the end of the turn, it is not eligible to declare a charge."
         },
         {
           "name": "Overflight",

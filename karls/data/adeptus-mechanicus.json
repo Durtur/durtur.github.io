@@ -1,8 +1,8 @@
 {
   "slug": "adeptus-mechanicus",
   "name": "Adeptus Mechanicus",
-  "version": "v1.4",
-  "fetchedAt": "2026-09-21T08:54:19.971Z",
+  "version": "v1.5",
+  "fetchedAt": "2026-10-13T23:11:47.125Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -53,11 +53,11 @@
           "tiers": [
             {
               "models": 5,
-              "points": 65
+              "points": 60
             },
             {
               "models": 10,
-              "points": 130
+              "points": 120
             }
           ]
         },
@@ -67,7 +67,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 25
+              "points": 20
             }
           ]
         },
@@ -77,17 +77,34 @@
           "tiers": [
             {
               "models": 5,
-              "points": 70
+              "points": 65
             },
             {
               "models": 10,
-              "points": 140
+              "points": 130
             }
           ]
         },
         {
           "id": "48415354415249492045585445524d494e41544f5253",
           "name": "HASTARII EXTERMINATORS",
+          "tiers": [
+            {
+              "models": 5,
+              "points": 100
+            }
+          ],
+          "repeatFromCopy": 3,
+          "repeatTiers": [
+            {
+              "models": 5,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "id": "484153544152494920465553494c49455253",
+          "name": "HASTARII FUSILIERS",
           "tiers": [
             {
               "models": 5,
@@ -99,23 +116,6 @@
             {
               "models": 5,
               "points": 120
-            }
-          ]
-        },
-        {
-          "id": "484153544152494920465553494c49455253",
-          "name": "HASTARII FUSILIERS",
-          "tiers": [
-            {
-              "models": 5,
-              "points": 115
-            }
-          ],
-          "repeatFromCopy": 3,
-          "repeatTiers": [
-            {
-              "models": 5,
-              "points": 130
             }
           ]
         },
@@ -165,7 +165,7 @@
               "points": 300
             }
           ],
-          "repeatFromCopy": 2,
+          "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 2,
@@ -183,11 +183,11 @@
           "tiers": [
             {
               "models": 3,
-              "points": 150
+              "points": 140
             },
             {
               "models": 6,
-              "points": 310
+              "points": 290
             }
           ]
         },
@@ -211,7 +211,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 155
+              "points": 150
             }
           ]
         },
@@ -275,7 +275,7 @@
             },
             {
               "models": 6,
-              "points": 110
+              "points": 105
             }
           ]
         },
@@ -289,7 +289,7 @@
             },
             {
               "models": 6,
-              "points": 100
+              "points": 95
             }
           ]
         },
@@ -299,14 +299,14 @@
           "tiers": [
             {
               "models": 9,
-              "points": 65
+              "points": 75
             }
           ],
           "repeatFromCopy": 3,
           "repeatTiers": [
             {
               "models": 9,
-              "points": 75
+              "points": 85
             }
           ]
         },
@@ -427,11 +427,11 @@
             },
             {
               "models": 2,
-              "points": 100
+              "points": 95
             },
             {
               "models": 3,
-              "points": 150
+              "points": 140
             }
           ]
         },
@@ -459,7 +459,7 @@
           "tiers": [
             {
               "models": 1,
-              "points": 50
+              "points": 45
             }
           ]
         },
@@ -545,16 +545,6 @@
           "effect": "Select one visible enemy unit within 12\" of a friendly RECON AUGURY unit. Your unit’s ranged attacks that target that enemy unit have [IGNORES COVER]."
         },
         {
-          "name": "Clandestine Reposition",
-          "cp": 1,
-          "category": "Cohort Acquisitus",
-          "turn": "Opponent’s turn",
-          "phase": "Fight phase",
-          "when": "End of your opponent’s Fight phase.",
-          "target": "One friendly unengaged INFILTRATORS/PTERAXII unit.",
-          "effect": "Place your unit in strategic reserves."
-        },
-        {
           "name": "Repolarised Augurs",
           "cp": 1,
           "category": "Cohort Acquisitus",
@@ -563,13 +553,23 @@
           "when": "Start of your opponent’s Movement phase.",
           "target": "One friendly unengaged RECON AUGURY unit.",
           "effect": "Your unit has -3\" detection range until the end of the turn."
+        },
+        {
+          "name": "Clandestine Reposition",
+          "cp": 1,
+          "category": "Cohort Acquisitus",
+          "turn": "Opponent’s turn",
+          "phase": "Fight phase",
+          "when": "End of your opponent’s Fight phase.",
+          "target": "One friendly unengaged INFILTRATORS/PTERAXII unit.",
+          "effect": "Place your unit in strategic reserves."
         }
       ]
     },
     {
       "id": "434f484f52542043594245524e4554494341",
       "name": "COHORT CYBERNETICA",
-      "dp": 2,
+      "dp": 1,
       "enhancements": [
         {
           "id": "415243482d4e454741544f52",
@@ -693,16 +693,6 @@
           "effect": "Until the end of the phase, CULT MECHANICUS models in your unit have a 4+ invulnerable save."
         },
         {
-          "name": "Incantation Of The Iron Soul",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, just after you allocate a mortal wound to a CULT MECHANICUS model from your army.",
-          "target": "That CULT MECHANICUS model’s unit.",
-          "effect": "Until the end of the phase, CULT MECHANICUS models in your unit have the Feel No Pain 4+ ability against mortal wounds."
-        },
-        {
           "name": "Chant Of The Remorseless Fist",
           "cp": 1,
           "category": "Battle Tactic",
@@ -711,6 +701,16 @@
           "when": "Fight phase.",
           "target": "One CULT MECHANICUS unit from your army that has not been selected to fight this phase.",
           "effect": "Until the end of the phase, each time a CULT MECHANICUS model in your unit makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "name": "Incantation Of The Iron Soul",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, just after you allocate a mortal wound to a CULT MECHANICUS model from your army.",
+          "target": "That CULT MECHANICUS model’s unit.",
+          "effect": "Until the end of the phase, CULT MECHANICUS models in your unit have the Feel No Pain 4+ ability against mortal wounds."
         },
         {
           "name": "Tribute Of Emphatic Veneration",
@@ -723,16 +723,6 @@
           "effect": "That enemy unit must take a Battle-shock test. If that test is failed, until the start of your next Command phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll."
         },
         {
-          "name": "Verse Of Vengeance",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One CULT MECHANICUS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time a CULT MECHANICUS model in your unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
-        },
-        {
           "name": "Litany Of The Electromancer",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -741,13 +731,23 @@
           "when": "Your Shooting phase.",
           "target": "One CULT MECHANICUS unit from your army.",
           "effect": "Roll one D6 for each enemy unit within 6\" of one or more CULT MECHANICUS models in your unit, adding 1 to the result if that model is an ELECTRO-PRIEST. On a 5+, that enemy unit suffers D3 mortal wounds."
+        },
+        {
+          "name": "Verse Of Vengeance",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One CULT MECHANICUS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time a CULT MECHANICUS model in your unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
         }
       ]
     },
     {
       "id": "4552414449434154494f4e20434f484f5254",
       "name": "ERADICATION COHORT",
-      "dp": 3,
+      "dp": 2,
       "enhancements": [
         {
           "id": "42454c49434f53412d434c41535320434150414349544f522056414e4553",
@@ -782,6 +782,16 @@
           "effect": "Until the end of the phase, when your unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound."
         },
         {
+          "name": "Unrelenting Aggression",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, just after an ADEPTUS MECHANICUS unit from your army Falls Back.",
+          "target": "That ADEPTUS MECHANICUS unit.",
+          "effect": "Until the end of the turn, your unit is eligible to shoot in a turn in which it Fell Back. If your unit has the Skitarii keyword, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back instead."
+        },
+        {
           "name": "Analytic Reprisals",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -792,14 +802,14 @@
           "effect": "Your unit can shoot as if it were your Shooting phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
         },
         {
-          "name": "Unrelenting Aggression",
+          "name": "Servo‑driven Charge",
           "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase, just after an ADEPTUS MECHANICUS unit from your army Falls Back.",
-          "target": "That ADEPTUS MECHANICUS unit.",
-          "effect": "Until the end of the turn, your unit is eligible to shoot in a turn in which it Fell Back. If your unit has the Skitarii keyword, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back instead."
+          "category": "Wargear",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase.",
+          "target": "One ADEPTUS MECHANICUS unit from your army that has not been selected to fight this phase.",
+          "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LANCE] ability."
         },
         {
           "name": "Threat‑cogitation Targeters",
@@ -820,16 +830,6 @@
           "when": "Your Shooting phase.",
           "target": "One Skitarii unit from your army that has not been selected to shoot this phase.",
           "effect": "Select the [SUSTAINED HITS 1] or [LETHAL HITS] ability. Until the end of the phase, ranged weapons equipped by models in your unit have the selected ability. You can instead select the [SUSTAINED HITS 1], [LETHAL HITS] and [HAZARDOUS] abilities to apply to those weapons until the end of the phase."
-        },
-        {
-          "name": "Servo‑driven Charge",
-          "cp": 1,
-          "category": "Wargear",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One ADEPTUS MECHANICUS unit from your army that has not been selected to fight this phase.",
-          "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [LANCE] ability."
         }
       ]
     },
@@ -861,6 +861,16 @@
       ],
       "stratagems": [
         {
+          "name": "Auto-Oracular Retrieval",
+          "cp": 2,
+          "category": "Battle Tactic",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One ADEPTUS MECHANICUS unit from your army that disembarked from a TRANSPORT this turn.",
+          "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within range of your Acquisition objective marker, add 1 to the Wound roll."
+        },
+        {
           "name": "Priority Reclamation",
           "cp": 1,
           "category": "Battle Tactic",
@@ -870,16 +880,6 @@
           "target": "That ADEPTUS MECHANICUS unit.",
           "effect": "Until the end of the phase, each time a model in your unit makes a Consolidation move, it can move up to 6\" instead of up to 3\", provided your unit ends that Consolidation move within range of your Acquisition objective marker.",
           "restrictions": "You cannot target a unit with this Stratagem if it is within 3\" of one or more enemy units."
-        },
-        {
-          "name": "Auto-Oracular Retrieval",
-          "cp": 2,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One ADEPTUS MECHANICUS unit from your army that disembarked from a TRANSPORT this turn.",
-          "effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within range of your Acquisition objective marker, add 1 to the Wound roll."
         },
         {
           "name": "Cached Acquisition",
@@ -903,16 +903,6 @@
           "restrictions": "Every model in your unit must be within 3\" of that TRANSPORT and there must be sufficient transport capacity to embark the entire unit."
         },
         {
-          "name": "Infoslave Skull",
-          "cp": 1,
-          "category": "Wargear",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "One TECH-PRIEST model from your army and one objective marker within 24\" of that model (excluding your Acquisition objective marker].",
-          "effect": "Until the start of your next Command phase, that objective marker is also considered to be one of your Acquisition objective markers for all rules purposes."
-        },
-        {
           "name": "Incense Exhausts",
           "cp": 1,
           "category": "Wargear",
@@ -921,6 +911,16 @@
           "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
           "target": "One ADEPTUS MECHANICUS INFANTRY unit\nfrom your army that was selected as the target of one or more of the attacking unit’s attacks, and one friendly ADEPTUS MECHANICUS SMOKE unit within 6\" of it.",
           "effect": "Until the end of the phase, both of those units have the Stealth ability and the Benefit of Cover."
+        },
+        {
+          "name": "Infoslave Skull",
+          "cp": 1,
+          "category": "Wargear",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Your Command phase.",
+          "target": "One TECH-PRIEST model from your army and one objective marker within 24\" of that model (excluding your Acquisition objective marker].",
+          "effect": "Until the start of your next Command phase, that objective marker is also considered to be one of your Acquisition objective markers for all rules purposes."
         }
       ]
     },
@@ -972,16 +972,6 @@
           "effect": "Until the end of the phase, each time a model in your unit makes an attack, re-roll a Wound roll of 1, and, if it is a HALO OVERRIDE unit, re-roll a Hit roll of 1."
         },
         {
-          "name": "Analytical Divination",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
-          "target": "One Adeptus Mechanicus Infantry unit (excluding Kataphron units) from your army that is within 8\" of that enemy unit and not within Engagement Range of one or more enemy units.",
-          "effect": "Your unit can make a Normal move of up to D6\", or up to 6\" instead if it is a HALO OVERRIDE unit."
-        },
-        {
           "name": "Guided Retreat",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -990,6 +980,16 @@
           "when": "Your Movement phase, just after an ADEPTUS MECHANICUS unit from your army makes a Fall Back move.",
           "target": "That ADEPTUS MECHANICUS unit.",
           "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back, and, if it is a HALO OVERRIDE unit, you can re-roll Desperate Escape tests taken for it."
+        },
+        {
+          "name": "Analytical Divination",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+          "target": "One Adeptus Mechanicus Infantry unit (excluding Kataphron units) from your army that is within 8\" of that enemy unit and not within Engagement Range of one or more enemy units.",
+          "effect": "Your unit can make a Normal move of up to D6\", or up to 6\" instead if it is a HALO OVERRIDE unit."
         },
         {
           "name": "Aggressive Impulse",
@@ -1016,7 +1016,7 @@
     {
       "id": "4c4f524453204f462054484520464f524745",
       "name": "LORDS OF THE FORGE",
-      "dp": 1,
+      "dp": 2,
       "enhancements": [
         {
           "id": "544c2d34c39839",
@@ -1030,16 +1030,6 @@
         }
       ],
       "stratagems": [
-        {
-          "name": "Scriptural Prognosis",
-          "cp": 1,
-          "category": "Lords of the Forge",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "In your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly TECH-PRIEST unit that is within range of an objective.",
-          "target": "That TECH-PRIEST unit.",
-          "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
-        },
         {
           "name": "Holy Avarice",
           "cp": 1,
@@ -1059,6 +1049,16 @@
           "when": "Your Movement phase, when a friendly TECH-PRIEST unit is selected to make a fall-back move.",
           "target": "That TECH-PRIEST unit.",
           "effect": "That move does not prevent your unit from being eligible to shoot/declare a charge."
+        },
+        {
+          "name": "Scriptural Prognosis",
+          "cp": 1,
+          "category": "Lords of the Forge",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "In your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly TECH-PRIEST unit that is within range of an objective.",
+          "target": "That TECH-PRIEST unit.",
+          "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
         }
       ]
     },
@@ -1139,14 +1139,14 @@
       ],
       "stratagems": [
         {
-          "name": "Pre-Calibrated Purge Solution",
-          "cp": 1,
+          "name": "Baleful Halo",
+          "cp": 2,
           "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One ADEPTUS MECHANICUS unit from your army that has not been selected to shoot this phase. If that unit is BATTLELINE, you can also target one friendly SKITARII unit (excluding BATTLELINE units) within 6\" of it.",
-          "effect": "Until the end of the phase, each time a model in one of those units makes a ranged attack, if the target of that attack is within your opponent’s deployment zone, you can re-roll the Hit roll."
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One ADEPTUS MECHANICUS unit from your army (excluding Vehicle units) that was selected as the target of one or more of that enemy unit’s attacks. If that unit is BATTLELINE, you can also target one friendly SKITARII unit (excluding BATTLELINE units) within 6\" of it.",
+          "effect": "Until the end of the turn, each time an attack is made that targets your unit, subtract 1 from the Wound roll."
         },
         {
           "name": "Bulwark Imperative",
@@ -1169,14 +1169,14 @@
           "effect": "Until the end of the phase, each time one of those units Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit."
         },
         {
-          "name": "Baleful Halo",
-          "cp": 2,
+          "name": "Pre-Calibrated Purge Solution",
+          "cp": 1,
           "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One ADEPTUS MECHANICUS unit from your army (excluding Vehicle units) that was selected as the target of one or more of that enemy unit’s attacks. If that unit is BATTLELINE, you can also target one friendly SKITARII unit (excluding BATTLELINE units) within 6\" of it.",
-          "effect": "Until the end of the turn, each time an attack is made that targets your unit, subtract 1 from the Wound roll."
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One ADEPTUS MECHANICUS unit from your army that has not been selected to shoot this phase. If that unit is BATTLELINE, you can also target one friendly SKITARII unit (excluding BATTLELINE units) within 6\" of it.",
+          "effect": "Until the end of the phase, each time a model in one of those units makes a ranged attack, if the target of that attack is within your opponent’s deployment zone, you can re-roll the Hit roll."
         },
         {
           "name": "Extinction Order",
@@ -1228,14 +1228,14 @@
       ],
       "stratagems": [
         {
-          "name": "Expedited Purge Protocol",
+          "name": "Shroud Protocols",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Charge phase",
-          "when": "Your Charge phase.",
-          "target": "One SKITARII unit from your army.",
-          "effect": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced."
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One SKITARII INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
         },
         {
           "name": "Programmed Withdrawal",
@@ -1249,14 +1249,25 @@
           "restrictions": "Each unit targeted with this Stratagem must be more than 3\" away from all enemy units."
         },
         {
-          "name": "Shroud Protocols",
+          "name": "Binharic Offence",
+          "cp": 2,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "The start of your Shooting phase or the start of the Fight phase.",
+          "target": "Two SKITARII units from your army that have not been selected to shoot or fight this phase, and one enemy unit.",
+          "effect": "Until the end of the phase, improve the Armour Penetration characteristic of weapons equipped by models in both of your units by 1.",
+          "restrictions": "Until the end of the phase, each time a model in either of your units makes an attack, it can only target that enemy unit (and only if it is an eligible target]."
+        },
+        {
+          "name": "Expedited Purge Protocol",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One SKITARII INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+          "turn": "Your turn",
+          "phase": "Charge phase",
+          "when": "Your Charge phase.",
+          "target": "One SKITARII unit from your army.",
+          "effect": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced."
         },
         {
           "name": "Isolate And Destroy",
@@ -1267,17 +1278,6 @@
           "when": "Your Shooting phase.",
           "target": "One SICARIAN, PTERAXII, SYDONIAN,\nIRONSTRIDER BALLISTARII or SKITARII MOUNTED unit from your army that has not been selected to shoot this phase.",
           "effect": "Until the end of the phase, each time a model in your unit makes an attack, if there are no other enemy units within 6\" of the unit targeted by that attack, add 1 to the Wound roll."
-        },
-        {
-          "name": "Binharic Offence",
-          "cp": 2,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "The start of your Shooting phase or the start of the Fight phase.",
-          "target": "Two SKITARII units from your army that have not been selected to shoot or fight this phase, and one enemy unit.",
-          "effect": "Until the end of the phase, improve the Armour Penetration characteristic of weapons equipped by models in both of your units by 1.",
-          "restrictions": "Until the end of the phase, each time a model in either of your units makes an attack, it can only target that enemy unit (and only if it is an eligible target]."
         },
         {
           "name": "Bionic Endurance",
