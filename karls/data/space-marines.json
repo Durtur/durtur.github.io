@@ -1,8 +1,8 @@
 {
   "slug": "space-marines",
   "name": "Space Marines",
-  "version": "v1.5",
-  "fetchedAt": "2026-10-13T23:11:47.125Z",
+  "version": "v1.6",
+  "fetchedAt": "2026-10-15T22:26:04.240Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -1304,16 +1304,6 @@
             {
               "models": 1,
               "points": 105
-            }
-          ]
-        },
-        {
-          "id": "41504f54484543415259",
-          "name": "APOTHECARY",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 45
             }
           ]
         },

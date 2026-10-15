@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T23:11:47.125Z",
+  "generatedAt": "2026-10-15T22:26:04.240Z",
   "armies": [
     {
       "slug": "adepta-sororitas",
@@ -10,8 +10,8 @@
     {
       "slug": "adeptus-custodes",
       "name": "Adeptus Custodes",
-      "unitCount": 31,
-      "detachmentCount": 9
+      "unitCount": 49,
+      "detachmentCount": 13
     },
     {
       "slug": "adeptus-mechanicus",
@@ -40,7 +40,7 @@
     {
       "slug": "blood-angels",
       "name": "Blood Angels",
-      "unitCount": 93,
+      "unitCount": 92,
       "detachmentCount": 19
     },
     {
@@ -70,7 +70,7 @@
     {
       "slug": "dark-angels",
       "name": "Dark Angels",
-      "unitCount": 98,
+      "unitCount": 97,
       "detachmentCount": 19
     },
     {
@@ -142,13 +142,13 @@
     {
       "slug": "space-marines",
       "name": "Space Marines",
-      "unitCount": 158,
+      "unitCount": 157,
       "detachmentCount": 22
     },
     {
       "slug": "space-wolves",
       "name": "Space Wolves",
-      "unitCount": 105,
+      "unitCount": 104,
       "detachmentCount": 19
     },
     {

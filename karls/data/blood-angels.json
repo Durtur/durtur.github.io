@@ -1,8 +1,8 @@
 {
   "slug": "blood-angels",
   "name": "Blood Angels",
-  "version": "v1.5",
-  "fetchedAt": "2026-10-13T23:11:47.125Z",
+  "version": "v1.6",
+  "fetchedAt": "2026-10-15T22:26:04.240Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -1283,16 +1283,6 @@
             {
               "models": 10,
               "points": 240
-            }
-          ]
-        },
-        {
-          "id": "434f4d4d414e4445522044414e5445",
-          "name": "COMMANDER DANTE",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 140
             }
           ]
         },

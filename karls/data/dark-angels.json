@@ -1,8 +1,8 @@
 {
   "slug": "dark-angels",
   "name": "Dark Angels",
-  "version": "v1.5",
-  "fetchedAt": "2026-10-13T23:11:47.125Z",
+  "version": "v1.6",
+  "fetchedAt": "2026-10-15T22:26:04.240Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -1310,23 +1310,6 @@
             {
               "models": 10,
               "points": 240
-            }
-          ]
-        },
-        {
-          "id": "444541544857494e47204b4e4947485453",
-          "name": "DEATHWING KNIGHTS",
-          "tiers": [
-            {
-              "models": 5,
-              "points": 255
-            }
-          ],
-          "repeatFromCopy": 3,
-          "repeatTiers": [
-            {
-              "models": 5,
-              "points": 275
             }
           ]
         },
