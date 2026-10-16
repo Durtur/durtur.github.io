@@ -2,7 +2,7 @@
   "slug": "orks",
   "name": "Orks",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:26:04.240Z",
+  "fetchedAt": "2026-10-15T22:44:16.771Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -924,6 +924,12 @@
           "target": "That WAGON unit.",
           "effect": "Units embarked within your unit can make an assault disembark move."
         }
+      ],
+      "rules": [
+        {
+          "name": "Unstoppable Momentum",
+          "description": "■ Friendly Wagon units can re-roll charge rolls.\n\n■ When a friendly WAGON unit is selected to make an advance move, that unit can change advance rolls to a 6."
+        }
       ]
     },
     {
@@ -960,6 +966,12 @@
           "id": "5355524c592041532041205351554947474f5448",
           "name": "Surly as a Squiggoth",
           "points": 25
+        }
+      ],
+      "rules": [
+        {
+          "name": "’Ard as Nails",
+          "description": "When a friendly Warboss model is destroyed, if this unit has not been selected to fight this phase, roll one D6, with +1 to the roll if your unit is riled up:\n\n■ On a 3+, do not remove this WARBOSS model from the battlefield. When this unit has fought, or at the end of the phase (whichever comes first), this WARBOSS model is removed from the battlefield."
         }
       ]
     },
@@ -1010,6 +1022,12 @@
           "target": "That MEGANOBZ/NOBZ unit.",
           "effect": "Ranged attacks that target your unit with a S greater than your unit’s T have -1 to wound rolls.\n+1CPOr: Ranged attacks that target your unit have -1 to wound rolls."
         }
+      ],
+      "rules": [
+        {
+          "name": "Displays of Savagery",
+          "description": "Friendly Meganobz/Nobz units’ melee attacks have [Sustained Hits 1]."
+        }
       ]
     },
     {
@@ -1058,6 +1076,12 @@
           "when": "Your opponent’s Movement phase, when an enemy unit is selected to make a fall-back move, if that enemy unit is engaged with a friendly Beast Snagga unit.",
           "target": "That BEAST SNAGGA unit.",
           "effect": "When an enemy unit engaged with your unit is selected to make a fall-back move, that enemy unit must use the desperate escape mode. If that enemy unit is a MONSTER/VEHICLE unit, that enemy unit makes three additional hazard rolls for each BEAST SNAGGA unit it is engaged with, with -1 from those hazard rolls if that enemy unit is battle-shocked."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Da Hunt is On",
+          "description": "Friendly Beast Snagga units’ attacks that target a MONSTER/VEHICLE unit have +1 AP."
         }
       ]
     },
@@ -1108,6 +1132,12 @@
           "target": "That ORKS WALKER unit.",
           "effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6, with +3 to the result if your unit has Deff Dread:\n\nOn a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
         }
+      ],
+      "rules": [
+        {
+          "name": "Try Dat Button!",
+          "description": "In your Shooting phase or the Fight phase, when a friendly Orks Walker unit (excluding Titanic units) is selected to attack, you can use this ability. If you do, roll either one D6 or two D6 (keep re-rolling duplicate results). This unit’s attacks have the relevant rule(s):\n\nTRY DAT BUTTON!\n\nD6\n\nRESULT\n\n1-2\n\n+1 A\n\n3-4\n\n+2 S\n\n5-6\n\n+1 AP\n\nIf you rolled two D6, when this unit has attacked, this unit makes one hazard roll."
+        }
       ]
     },
     {
@@ -1156,6 +1186,12 @@
           "when": "Your Shooting phase, when a friendly Orks Aircraft/Deffkoptas unit is selected to shoot.",
           "target": "That ORKS AIRCRAFT/DEFFKOPTAS unit.",
           "effect": "When your unit’s ranged attacks target a FLY unit, those attacks can re-roll hit rolls."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Skyborne Loons",
+          "description": "■ Friendly Orks Aircraft units do not count towards the combined points value of your strategic reserves units.\n\n■ While a friendly Orks Aircraft/Deffkoptas unit is riled up, this unit’s ranged attacks have +1 to hit rolls."
         }
       ]
     },
@@ -1206,6 +1242,12 @@
           "target": "That BOYZ unit.",
           "effect": "Your unit’s melee attacks have +1 A."
         }
+      ],
+      "rules": [
+        {
+          "name": "Mob-handed Brutality",
+          "description": "■ Friendly Boyz units’ melee attacks have [Sustained Hits 1].\n\n■ If a friendly Orks Infantry unit made a charge move this turn, that unit’s melee attacks have [Lethal Hits: non-Monster/Vehicle]."
+        }
       ]
     },
     {
@@ -1255,6 +1297,12 @@
           "target": "That SPEED FREEKS unit.",
           "effect": "Ranged attacks that target your unit fail on an unmodified hit roll of 1-3."
         }
+      ],
+      "rules": [
+        {
+          "name": "Adrenaline Junkies",
+          "description": "■ Friendly Warbikers units have BATTLELINE.\n\n■ When a friendly Speed Freeks unit is selected to make an advance/fall-back move:\n\n■ That unit’s ranged attacks have [Assault] until the end of the turn.\n\n■ That move does not prevent that unit from being eligible to declare a charge."
+        }
       ]
     },
     {
@@ -1288,6 +1336,12 @@
           "when": "Your Shooting phase, when a friendly Mek Gunz unit is selected to shoot.",
           "target": "That MEK GUNZ unit.",
           "effect": "Your unit’s ranged attacks have:\n\n[Lethal Hits].\nOr: [Sustained Hits 1].\nOr: [Hazardous], [Lethal Hits], [Sustained Hits 1]."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Unpredictable Genius",
+          "description": "In your Shooting phase, when all of a friendly Big Mek/Mek Gunz/Morkanaut/Wazbom Blastajet unit’s ranged attacks target a single enemy unit, roll one D6:\n\nUNPREDICTABLE GENIUS\n\nD6\n\nRESULT\n\n1\n\nDat’s Weird: The target unit has 4+ InSv until your unit has shot.\n\n2-3\n\nHop Splat: Select one other enemy unit within 3\" of the target. That unit suffers D3 mortal wounds.\n\n4\n\nSeekerz: Those attacks have +1 to hit rolls.\n\n5\n\nLifted: The target unit has FLY, and cannot have the benefit of cover, until your unit has shot.\n\n6\n\nRuntified: The target unit has -1 T until your unit has shot."
         }
       ]
     },
@@ -1338,6 +1392,12 @@
           "target": "One friendly Gretchin unit that was just destroyed. You can target that unit with this stratagem even though that unit was just destroyed.",
           "effect": "Add a new GRETCHIN unit to your army identical to your destroyed unit, in strategic reserves, at its starting strength, with its full wounds remaining."
         }
+      ],
+      "rules": [
+        {
+          "name": "Sneaky Little Gitz",
+          "description": "■ Friendly Gretchin units have BATTLELINE.\n\n■ When a friendly GRETCHIN unit is selected to make an advance/fall-back move, that move does not prevent this unit from being eligible to start an action."
+        }
       ]
     },
     {
@@ -1387,6 +1447,12 @@
           "target": "That ORKS INFANTRY unit.",
           "effect": "Your unit’s ranged attacks that target a unit (excluding MONSTER/VEHICLE units) have +1 to wound rolls."
         }
+      ],
+      "rules": [
+        {
+          "name": "Dakka! Dakka! Dakka!",
+          "description": "Friendly Orks Infantry units’ ranged attacks have:\n\n■ [Assault].\n\n■ While this unit is riled up, +3\" R."
+        }
       ]
     },
     {
@@ -1435,6 +1501,12 @@
           "when": "End of your opponent’s Movement phase.",
           "target": "One friendly unengaged Boyz/Kommandos/Stormboyz unit that was engaged at the start of the phase.",
           "effect": "Your unit can make a normal move of up to 6\"."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Suspiciously Well Organised",
+          "description": "■ Friendly Stormboyz units have BATTLELINE.\n\n■ When a friendly Boyz/Kommandos/Stormboyz unit is selected to make a fall-back move, that fall-back move does not prevent that unit from being eligible to declare a charge."
         }
       ]
     },
@@ -1525,6 +1597,12 @@
           "target": "That ORKS INFANTRY unit. You can target that unit with this stratagem even though it is battle-shocked.",
           "effect": "Roll one D3:\n\nYour unit suffers a number of mortal wounds equal to the result.\nYour unit is no longer battle-shocked."
         }
+      ],
+      "rules": [
+        {
+          "name": "Get Stuck In",
+          "description": "Friendly ORKS units’ melee attacks have [Sustained Hits 1]."
+        }
       ]
     },
     {
@@ -1574,6 +1652,12 @@
           "target": "One friendly Flash Gitz/Tankbustas unit hit by those attacks.",
           "effect": "Your unit shoots using normal shooting, but while doing so your unit can only target that enemy unit."
         }
+      ],
+      "rules": [
+        {
+          "name": "Wreckin’ and Lootin’",
+          "description": "In your Shooting phase, when a friendly Breaka Boyz/Flash Gitz/Tankbustas unit is selected to shoot, if any of the following apply, that unit’s attacks can re-roll hit rolls of 1:\n\n■ That unit is within range of an objective.\n\n■ The target of that attack is within range of an objective."
+        }
       ]
     },
     {
@@ -1595,6 +1679,12 @@
           "id": "5741525048454144",
           "name": "Warphead",
           "points": 25
+        }
+      ],
+      "rules": [
+        {
+          "name": "Powers of da Waaagh!",
+          "description": "Friendly Orks Psyker models’ [Psychic] attacks have:\n\n■ +1 S.\n\n■ +1 S for every 5 models in this unit (or embarked within this model).\n\nFriendly ORKS PSYKER models have the following psychic abilities:\n\nRoar of Mork (psychic level 1): In your Movement phase, if this unit is not battle-shocked, you can make a psychic roll for this unit by rolling one D6. If you do:\n\n■ On a 1, this unit is battle-shocked.\n\n■ Select one enemy unit (excluding MONSTER/VEHICLE units) within 12\" of this unit. That enemy unit makes a battle-shock roll, with -1 from that battle-shock roll for every 10 models in this unit.\n\nVisions of Violence (psychic level 1): At the start of the Fight phase, if this unit is not battle-shocked, you can make a psychic roll for this unit by rolling one D6. If you do:\n\n■ On a 1, this unit is battle-shocked.\n\n■ This unit has Fights First."
         }
       ]
     }

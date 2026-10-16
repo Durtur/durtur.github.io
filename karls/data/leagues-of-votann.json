@@ -2,7 +2,7 @@
   "slug": "leagues-of-votann",
   "name": "Leagues of Votann",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:26:04.240Z",
+  "fetchedAt": "2026-10-15T22:44:16.771Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -393,6 +393,12 @@
           "target": "Up to two friendly SAGITAUR units.",
           "effect": "Select one enemy unit. Your units’ ranged attacks that target that enemy unit can:\n\nRe-roll hit rolls of 1.\nRe-roll wound rolls of 1."
         }
+      ],
+      "rules": [
+        {
+          "name": "Sagitaur Spearhead",
+          "description": "Friendly SAGITAUR units have Scouts 6\"."
+        }
       ]
     },
     {
@@ -481,6 +487,12 @@
           "when": "Your Shooting phase, just after a Leagues of Votann Vehicle unit from your army has shot.",
           "target": "That LEAGUES OF VOTANN VEHICLE unit.",
           "effect": "Select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a Leagues of Votann Infantry model from your army makes an attack that targets that enemy unit, re-roll a Hit roll of 1."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Mobile Sensor Relays",
+          "description": "Leagues of Votann Transport units from your army have the following ability:\n\nFirebase Control (Aura): While a friendly Leagues of Votann Infantry unit is wholly within 6\" of this TRANSPORT, ranged weapons equipped by models in that INFANTRY unit have the [sustained hits 1] ability."
         }
       ]
     },
@@ -571,6 +583,12 @@
           "target": "One Cthonian Beserks, Hearthkyn Warriors or Hernkyn Yaegirs unit from your army that is not within Engagement Range of one or more enemy units.",
           "effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
         }
+      ],
+      "rules": [
+        {
+          "name": "Fury From The Dêlve",
+          "description": "Cthonian Beserks units from your army have the Deep Strike ability.\n\nKEYWORDS\n\nCTHONIAN BESERKS units from your army gain the BATTLELINE keyword."
+        }
       ]
     },
     {
@@ -619,6 +637,12 @@
           "when": "Your Shooting phase, when a friendly HERNKYN unit is selected to shoot.",
           "target": "That HERNKYN unit.",
           "effect": "Your unit’s ranged attacks have [LETHAL HITS]."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Eye of the Hunt",
+          "description": "Friendly HERNKYN units’ ranged attacks that target a unit within 12\" have +1 to hit rolls."
         }
       ]
     },
@@ -710,6 +734,12 @@
           "effect": "Until the end of the phase, when your unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.",
           "restrictions": "Until the end of the turn, your unit is not eligible to declare a charge."
         }
+      ],
+      "rules": [
+        {
+          "name": "Methodical Annihilation",
+          "description": "Each time a Leagues of Votann model from your army makes an attack with a weapon that targets the closest eligible target or a target that is within Engagement Range of that model’s unit:\n\n■ Re-roll a Wound roll of 1.\n\n■ If your unit is a Kâhl, Einhyr Hearthguard or Ûthar the Destined unit, improve the Armour Penetration characteristic of that attack by 1."
+        }
       ]
     },
     {
@@ -799,6 +829,12 @@
           "target": "That BRÔKHYR, IRONKIN STEELJACKS or ARKANYST EVALUATOR unit.",
           "effect": "Select one enemy unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next Shooting phase, each time that enemy unit makes a Normal, Advance or Fall Back move, roll one D6 for each model in that unit: for each 1, that unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
         }
+      ],
+      "rules": [
+        {
+          "name": "Optimal Application",
+          "description": "At the end of your Command phase, you gain 1YP for each objective marker you control that is not within your deployment zone and has one or more Iron-master and/or Memnyr Strategist models from your army within range of it (to a maximum of 2YP gained from this Detachment rule per turn).\n\nIn your Shooting phase, each time a Brôkhyr, Ironkin Steeljacks or Arkanyst Evaluator unit from your army is selected to shoot, you can spend 1YP. If you do, until the end of the phase, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
+        }
       ]
     },
     {
@@ -847,6 +883,12 @@
           "when": "Your Movement phase, when a friendly EINHYR HEARTHGUARD unit with Deep Strike is selected to make an ingress move.",
           "target": "That EINHYR HEARTHGUARD unit.",
           "effect": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally from all enemy units, even if that is within your opponent’s deployment zone.\nYour unit is not eligible to declare a charge until the end of the turn."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Avatars of the Ancestors",
+          "description": "Friendly KÂHL/EINHYR CHAMPION/EINHYR HEARTHGUARD/ÛTHAR THE DESTINED units’ ranged attacks that target a unit within 9\" can re-roll wound rolls of 1.\n\nThis detachment has the HEARTHGUARD tag and cannot be taken with another HEARTHGUARD detachment."
         }
       ]
     },
@@ -937,6 +979,12 @@
           "target": "One Leagues of Votann Infantry unit from your army that has not been selected to shoot this phase.",
           "effect": "Each time you use this Stratagem, you can spend 3YP. Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1. If you spent YP during this usage of this Stratagem, you can re-roll the Hit roll and re-roll a Wound roll of 1 instead."
         }
+      ],
+      "rules": [
+        {
+          "name": "Ruthless Reinvestment",
+          "description": "Your Leagues of Votann units do not have the Hostile Acquisition or Fortify Takeover abilities except as described in this rule. At the start of the battle, your LEAGUES OF VOTANN units have the Hostile Acquisition ability. At the end of your Command phase, you can spend 3YP. If you do, LEAGUES OF VOTANN units from your army lose the Hostile Acquisition ability and gain the Fortify Takeover ability, or vice versa."
+        }
       ]
     },
     {
@@ -1025,6 +1073,12 @@
           "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets, if units from your army have Fortify Takeover.",
           "target": "One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Martial Leverage",
+          "description": "Each time an enemy unit is destroyed, you gain 1YP."
         }
       ]
     },
@@ -1115,6 +1169,12 @@
           "when": "Start of any phase, if units from your army have Fortify Takeover.",
           "target": "One Leagues of Votann Character unit from your army.",
           "effect": "Each time you use this Stratagem, you can spend any number of YP. Once you have done so, if you have 6 or fewer YP, until the start of your next turn, units from your army have Hostile Acquisition instead."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Assailed From Every Angle",
+          "description": "Leagues of Votann units from your army have the following ability:\n\nGuerrilla Adepts: In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only target that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements and Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         }
       ]
     }

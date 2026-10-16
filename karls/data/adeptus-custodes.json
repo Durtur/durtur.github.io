@@ -2,7 +2,7 @@
   "slug": "adeptus-custodes",
   "name": "Adeptus Custodes",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:26:04.240Z",
+  "fetchedAt": "2026-10-15T22:44:16.771Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -969,6 +969,12 @@
           "target": "One Adeptus Custodes Character model from your army that was just destroyed and has not fought this phase. You can use this Stratagem on that unit even though it was just destroyed.",
           "effect": "Do not remove your destroyed model from play. The destroyed model can fight after the attacking unit has finished making attacks, and is then removed from play."
         }
+      ],
+      "rules": [
+        {
+          "name": "Assemblage of Might",
+          "description": "At the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, each time a model in an Adeptus Custodes Character unit from your army makes an attack that targets that enemy unit, add 1 to the Wound roll."
+        }
       ]
     },
     {
@@ -1161,6 +1167,12 @@
           "target": "One ADEPTUS CUSTODES unit from your army (excluding VEHICLE units) that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Your unit can make a Normal move of up to D6\"."
         }
+      ],
+      "rules": [
+        {
+          "name": "Against All Odds",
+          "description": "Each time a model in an Adeptus Custodes unit from your army (excluding Vehicles) makes an attack, if there are no other friendly units within 6\" of that unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        }
       ]
     },
     {
@@ -1209,6 +1221,12 @@
           "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS CUSTODES WALKER unit.",
           "target": "That ADEPTUS CUSTODES WALKER unit.",
           "effect": "Attacks that target your unit with a S greater than your unit’s T have -1 to wound rolls."
+        }
+      ],
+      "rules": [
+        {
+          "name": "March of the Honoured Dead",
+          "description": "Friendly ADEPTUS CUSTODES WALKER units:\n\n■ Have +2\" M.\n\n■ Have +1 to advance rolls and charge rolls.\n\nThis detachment has the ARMOURY tag and cannot be taken with another ARMOURY detachment."
         }
       ]
     },
@@ -1288,6 +1306,12 @@
           "when": "Any phase, just after an enemy PSYKER unit has either finished using a Psychic ability that targets a unit, or finished making Psychic Attacks.",
           "target": "One Anathema Psykana unit from your army within 18\" of that enemy PSYKER unit.",
           "effect": "That enemy PSYKER unit must take a Leadership test If the test is passed, that PSYKER unit is Battle-shocked; if the test is failed that PSYKER unit suffers 3 mortal wounds and is Battle-shocked."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Creeping Dread (Aura)",
+          "description": "In the Battle-shock step of your opponent’s Command phase, if an enemy unit that is either a PSYKER unit or below its Starting Strength is within 12\" of one or more Anathema Psykana models from your army, that enemy unit must take a Battle-shock test. If that unit is Below Half-strength, it must subtract 1 from its Battle-shock test this phase instead.\n\nDesigner’s Note: This means that all enemy PSYKER units within range of this Aura ability and all enemy units within range of this Aura ability that have lost one or more models must take a Battle-shock test in your opponents Command phase, not just those that are Below Half-strength."
         }
       ]
     },

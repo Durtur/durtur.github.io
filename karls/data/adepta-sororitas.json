@@ -2,7 +2,7 @@
   "slug": "adepta-sororitas",
   "name": "Adepta Sororitas",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:26:04.240Z",
+  "fetchedAt": "2026-10-15T22:44:16.771Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -546,6 +546,12 @@
           "target": "One ADEPTA SORORITAS INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks, or one friendly ADEPTA SORORITAS JUMP PACK unit within 3\" of such a unit.",
           "effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll. If you targeted an ADEPTA SORORITAS JUMP PACK unit from your army with this Stratagem, then until the end of the phase, while a friendly ADEPTA SORORITAS INFANTRY unit is unit is within 3\" of your unit, each time an attack targets that unit, subtract 1 from the Hit roll."
         }
+      ],
+      "rules": [
+        {
+          "name": "Sacred Rites",
+          "description": "Each ADEPTA SORORITAS unit from your army can perform up to two Acts of Faith per phase, instead of just one."
+        }
       ]
     },
     {
@@ -634,6 +640,12 @@
           "when": "Your Movement phase, just before an ADEPTA SORORITAS TRANSPORT model from your army Advances.",
           "target": "That ADEPTA SORORITAS TRANSPORT model.",
           "effect": "Until the end of the turn, you can re-roll Advance rolls made for your TRANSPORT, and units can disembark from your TRANSPORT even though it Advanced. Units that do so make a shock disembark move (Core Rules, 18.07) for that disembarkation."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Fervent Purgation",
+          "description": "Ranged weapons equipped by ADEPTA SORORITAS models from your army have the [ASSAULT] ability, and each time an attack made with such a weapon targets a unit within 6\", add 1 to the Strength characteristic of that attack."
         }
       ]
     },
@@ -724,6 +736,12 @@
           "target": "That ADEPTA SORORITAS unit.",
           "effect": "Until the end of the turn, your unit is eligible to shoot in a turn in which it Fell Back. If your unit is Righteous, until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back instead."
         }
+      ],
+      "rules": [
+        {
+          "name": "Righteous Purpose",
+          "description": "In your Command phase, you can select up to 3 Adepta Sororitas units from your army (including units that are embarked within Transports), until the start of your next Command phase, those units are Righteous. While a unit is Righteous:\n\n■ Add 1\" to the Move characteristic of models in that unit.\n\n■ Improve the Leadership characteristic of models in that unit by 1.\n\n■ Improve the Weapon Skill and Ballistic Skill characteristics of weapons equipped by Battle Sisters Squad, CELESTIAN INSIDIANTS, Celestian Sacresants and Paragon Warsuits models in that unit by 1.\n\nKeywords\n\nWhile a CELESTIAN SACRESANTS unit from your army is not Battle-shocked, add 1 to the Objective Control characteristic of Celestian Sacresants models in that unit."
+        }
       ]
     },
     {
@@ -772,6 +790,12 @@
           "when": "Your Shooting phase, when a friendly EXORCIST unit is selected to shoot.",
           "target": "That EXORCIST unit.",
           "effect": "Select one unit visible to and within 9\" of a friendly ADEPTA SORORITAS INFANTRY FLY unit. Your unit’s ranged attacks that target that unit have +1 to hit rolls."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Angelic Judgement",
+          "description": "Friendly ADEPTA SORORITAS INFANTRY FLY units have the following ability:\n\nCondemnatory Psalms: In your Shooting phase, this unit can select one visible enemy unit within 12\". That enemy unit is condemned:\n\n■ While a unit is condemned, that unit has +3\" detection range."
         }
       ]
     },
@@ -862,6 +886,12 @@
           "target": "One ADEPTA SORORITAS unit from your army that had one or more of its models destroyed as a result of the attacking unit’s attacks.",
           "effect": "Your unit can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
         }
+      ],
+      "rules": [
+        {
+          "name": "The Blood of Martyrs",
+          "description": "Each time an ADEPTA SORORITAS model from your army makes an attack, add 1 to the Hit roll if that model’s unit is below its Starting Strength, and add 1 to the Wound roll as well if that model’s unit is Below Half-strength."
+        }
       ]
     },
     {
@@ -951,6 +981,12 @@
           "target": "That ADEPTA SORORITAS unit.",
           "effect": "Until the end of the turn, your unit is eligible to shoot or declare a charge in a turn in which it Fell Back. If your unit has the PENITENT keyword, it is eligible to shoot and declare a charge in a turn in which it Fell Back instead."
         }
+      ],
+      "rules": [
+        {
+          "name": "Desperate for Redemption",
+          "description": "At the start of the battle round, you can select one of the following Vows of Atonement to be active for your army until the start of the next battle round. You can only select each Vow of Atonement once per battle.\n\nThe Path of the Penitent\n\nAdd 3\" to the Move characteristic of PENITENT models from your army.\n\nAbsolution in Battle\n\nEach time a unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Attacks and Strength characteristics of melee weapons equipped by PENITENT models in that unit.\n\nDeath Before Disgrace\n\nEach time a PENITENT model from your army is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 2+, do not remove it from play; the destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        }
       ]
     },
     {
@@ -1000,6 +1036,12 @@
           "target": "That CELESTIAN SACRESANTS unit.",
           "effect": "Your unit has Feel No Pain 5+ against mortal wounds until the end of the phase."
         }
+      ],
+      "rules": [
+        {
+          "name": "Holy Quest",
+          "description": "Friendly CELESTIAN units’ attacks have +1 BS and WS.\n\nThis detachment has the REVEREND tag and cannot be taken with another REVEREND detachment."
+        }
       ]
     },
     {
@@ -1011,6 +1053,12 @@
           "id": "484147494f4d4e4946455820285550475241444529",
           "name": "Hagiomnifex (Upgrade)",
           "points": 25
+        }
+      ],
+      "rules": [
+        {
+          "name": "Hymns of Battle",
+          "description": "■ Enhancements selected from this detachment do not count towards the total number of enhancements in your army.\n\n■ Friendly ADEPTA SORORITAS CHARACTER units have +1 Ld."
         }
       ]
     }

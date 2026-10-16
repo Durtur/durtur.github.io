@@ -2,7 +2,7 @@
   "slug": "tau-empire",
   "name": "T’au Empire",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:26:04.240Z",
+  "fetchedAt": "2026-10-15T22:44:16.771Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -671,6 +671,12 @@
           "target": "That PATHFINDER TEAM/STEALTH BATTLESUITS unit.",
           "effect": "Your unit has +1 Sv."
         }
+      ],
+      "rules": [
+        {
+          "name": "Expert Fieldcraft",
+          "description": "In your Shooting phase, when a friendly PATHFINDER TEAM/STEALTH BATTLESUITS unit is selected to shoot, those ranged attacks do not prevent your unit from being hidden."
+        }
       ]
     },
     {
@@ -720,6 +726,12 @@
           "target": "That KROOT/VESPID STINGWINGS unit.",
           "effect": "Your unit’s attacks have +1 AP."
         }
+      ],
+      "rules": [
+        {
+          "name": "Integrated Command Structure",
+          "description": "Friendly KROOT/VESPID STINGWINGS units have the following ability:\n\nHarnessed Alien Instincts: In your Shooting phase, this unit can select one visible enemy unit within 12\". That enemy unit is prey-marked:\n\n■ While a unit is prey-marked, that unit has +3\" detection range\n\nFriendly GHOSTKEEL BATTLESUIT/STEALTH BATTLESUITS units have the following ability:\n\nLocalised Stealth Projectors (Aura): When a friendly KROOT/VESPID STINGWINGS unit within 6\" of this unit has shot, those attacks do not prevent that unit from being hidden.\n\nThis detachment has the AUXILIARIES tag and cannot be taken with another AUXILIARIES detachment."
+        }
       ]
     },
     {
@@ -753,6 +765,12 @@
           "when": "Your Shooting phase, when a friendly BATTLESUIT CHARACTER unit is selected to shoot.",
           "target": "That BATTLESUIT CHARACTER unit.",
           "effect": "Your unit’s ranged attacks have:\n\n+1 S.\nOR: +1 S, AP and [HAZARDOUS]."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Superior Craftsmanship",
+          "description": "Friendly BATTLESUIT CHARACTER units’ ranged attacks have +6\" R.\n\nThis detachment has the BATTLESUIT tag and cannot be taken with another BATTLESUIT detachment."
         }
       ]
     },
@@ -847,6 +865,12 @@
           "target": "One T’AU EMPIRE GRENADES unit from your army that was selected as one of the targets of that charge.",
           "effect": "That enemy unit must immediately take a Battle-shock test, and until the end of the phase, subtract 2 from Charge rolls made for that enemy unit.\n\nRESTRICTION: You cannot target a unit that is within Engagement Range of one or more enemy units."
         }
+      ],
+      "rules": [
+        {
+          "name": "Patient Hunter",
+          "description": "During the third, fourth and fifth battle rounds, ranged weapons equipped by T’au Empire models from your army have the [SUSTAINED HITS 1] ability. During the third, fourth and fifth battle rounds, while a unit is a Guided unit (see For the Greater Good), each time a ranged attack is made by a model in that unit that targets a Spotted unit, you can ignore any or all modifiers to that attack’s Ballistic skill characteristics and/or all modifiers to the Hit roll."
+        }
       ]
     },
     {
@@ -936,6 +960,20 @@
           "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy VEHICLE unit is selected to shoot or fight.",
           "target": "One Kroot Grenades unit from your army within 8\" of that enemy VEHICLE unit.",
           "effect": "Until the end of the phase, worsen the Weapon Skill and Ballistic Skill characteristics of that enemy VEHICLE unit’s weapons by 1."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Hunter’s Instincts",
+          "description": "Each time a Kroot model from your army makes an attack, add 1 to the Hit roll if the target of that attack is below its Starting Strength, and add 1 to the Wound roll as well if the target of that attack is Below Half-strength."
+        },
+        {
+          "name": "Skirmish Fighters",
+          "description": "Kroot models from your army have a 6+ invulnerable save against melee attacks and a 5+ invulnerable save against ranged attacks."
+        },
+        {
+          "name": "KEYWORDS",
+          "description": "If you select this Detachment, Kroot Carnivore units from your army have the Battleline keyword."
         }
       ]
     },
@@ -1027,6 +1065,12 @@
           "target": "One T’AU EMPIRE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, each time an attack is allocated to your unit, subtract 1 from the Damage characteristic of that attack."
         }
+      ],
+      "rules": [
+        {
+          "name": "Killing Blow",
+          "description": "During the first, second and third battle rounds, ranged weapons equipped by T’AU EMPIRE models from your army have the [ASSAULT] ability. During the first, second and third battle rounds, while a unit is a Guided unit, its ranged weapons have the [LETHAL HITS] ability."
+        }
       ]
     },
     {
@@ -1116,6 +1160,12 @@
           "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
           "target": "One T’au Empire Battlesuit unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Bonded Heroes",
+          "description": "Each time a T’au Empire Battlesuit model from your army makes a ranged attack that targets a unit within 12\", improve the Strength characteristic of that attack by 1. If that attack targets a unit within 8\", improve the Armour Penetration characteristic of that attack by 1 as well."
         }
       ]
     }

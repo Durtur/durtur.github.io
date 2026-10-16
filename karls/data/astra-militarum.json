@@ -2,7 +2,7 @@
   "slug": "astra-militarum",
   "name": "Astra Militarum",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:26:04.240Z",
+  "fetchedAt": "2026-10-15T22:44:16.771Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -1091,6 +1091,12 @@
           "target": "That BULLGRYN SQUAD/OGRYN SQUAD unit.",
           "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
         }
+      ],
+      "rules": [
+        {
+          "name": "Absolutist Principles",
+          "description": "■ Friendly BULLGRYN SQUAD/OGRYN SQUAD/RATLINGS units have ABHUMAN.\n\n■ Friendly COMMISSAR models can:\n\n■ Issue the Take Aim! Order.\n\n■ Issue 1 Order to a friendly ABHUMAN unit.\n\nThis detachment has the ABHUMAN tag and cannot be taken with another ABHUMAN detachment."
+        }
       ]
     },
     {
@@ -1180,6 +1186,12 @@
           "target": "One ASTRA MILITARUM unit from your army that did not Remain Stationary or arrive from Reserves this phase.",
           "effect": "Your unit can make a Normal move of up to D6\"."
         }
+      ],
+      "rules": [
+        {
+          "name": "Squadron Command",
+          "description": "Add Squadron to the list of units each Officer unit from your army can issue Orders to. Add the Order below to those listed in the Voice of Command ability.\n\nON MY SIGNAL\n\nThis Order can only be issued to Armoured Skirmisher units (see below). Each time an enemy unit ends a Normal or Advance move within 8\" of this unit, this unit can make a Normal move of up to D6\". Each unit can only move in this way once per turn.\n\nKEYWORDS\n\nAstra Militarum Squadron units from your army have the ARMOURED SKIRMISHER keyword (excluding Artillery units and units containing one or more models with a Wounds characteristic of 13 or higher)."
+        }
       ]
     },
     {
@@ -1228,6 +1240,12 @@
           "when": "Your Shooting phase, when a friendly MILITARUM TEMPESTUS unit has shot.",
           "target": "That MILITARUM TEMPESTUS unit.",
           "effect": "Select one enemy unit hit by those ranged attacks. Friendly MILITARUM TEMPESTUS units’ ranged attacks that target that enemy unit have [IGNORES COVER]."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Fire Zone Purge",
+          "description": "■ If a friendly MILITARUM TEMPESTUS OFFICER model is your WARLORD, friendly TEMPESTUS SCIONS units have:\n\n■ BATTLELINE.\n\n■ +1 OC.\n\n■ When a friendly MILITARUM TEMPESTUS unit is selected to shoot, if that unit was set up this turn, that unit’s ranged attacks have +1 to hit rolls."
         }
       ]
     },
@@ -1319,6 +1337,12 @@
           "target": "Any number of Astra Militarum Officer units from your army.",
           "effect": "Until the end of the phase, your Officers can issue Orders to Regiment units and Squadron units."
         }
+      ],
+      "rules": [
+        {
+          "name": "Born Soldiers",
+          "description": "Each time a model in a Regiment unit from your army makes a ranged attack that targets a visible unit (excluding MONSTERS and VEHICLES), that attack has the [LETHAL HITS] ability.\n\nEach time a model in a Squadron unit from your army makes a ranged attack that targets a visible MONSTER or VEHICLE unit, that attack has the [LETHAL HITS] ability."
+        }
       ]
     },
     {
@@ -1367,6 +1391,12 @@
           "when": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged ASTRA MILITARUM INFANTRY unit.",
           "target": "That ASTRA MILITARUM INFANTRY unit.",
           "effect": "Your unit can make a normal move of up to D3+3\""
+        }
+      ],
+      "rules": [
+        {
+          "name": "Designated Targets",
+          "description": "Friendly SCOUT SENTINEL/ASTRA MILITARUM INFANTRY SMOKE units have the following ability:\n\nSignal Flares: In your Shooting phase, this unit can select one visible enemy unit within 12\". That enemy unit is designated:\n\n■ While a unit is designated, that unit has +3\" detection range.\n\nThis detachment has the RECON tag and cannot be taken with another RECON detachment."
         }
       ]
     },
@@ -1457,6 +1487,12 @@
           "target": "One ASTRA MILITARUM unit from your army affected by an Order that has not been selected to shoot this phase.",
           "effect": "If your unit is within range of an objective marker, until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] ability."
         }
+      ],
+      "rules": [
+        {
+          "name": "Ruthless Discipline",
+          "description": "Add 1 to the number of Orders each Astra Militarum Officer model from your army can issue, as stated on their datasheet.\n\nWhile an ASTRA MILITARUM unit from your army is affected by an Order, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
+        }
       ]
     },
     {
@@ -1545,6 +1581,12 @@
           "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
           "target": "One Astra Militarum Vehicle unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, each time an attack is allocated to your unit, subtract 1 from the Damage characteristic of that attack."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Iron Tread",
+          "description": "Each time a Squadron unit from your army Advances, do not make an Advance roll for it; until the end of the phase, add 6\" to the Move characteristic of models in that unit, and when making that Advance move, that unit can move within Engagement Range of enemy models but cannot end that move within Engagement Range of enemy models."
         }
       ]
     },
@@ -1635,6 +1677,12 @@
           "target": "One Infantry Officer unit from your army embarked within a Transport. You can use this Stratagem on that unit even though it is embarked within a TRANSPORT.",
           "effect": "Until the end of the phase, your unit can issue Orders even though it is not on the battlefield, and it can issue Orders to Astra Militarum Transport units from your army [excluding TiTANic units) regardless of the distance to and from your unit’s TRANSPORT."
         }
+      ],
+      "rules": [
+        {
+          "name": "Armoured Fist",
+          "description": "Each time an ASTRA MILITARUM model from your army makes a ranged attack in a turn in which it disembarked from a Transport, add 1 to the Wound roll."
+        }
       ]
     },
     {
@@ -1723,6 +1771,12 @@
           "when": "Start of your opponent’s Charge phase.",
           "target": "One ASTRA MILITARUM GRENADES unit from your army.",
           "effect": "Select one visible enemy unit within 12\" of your unit. When that enemy unit declares a charge, that enemy unit has -1 to charge rolls."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Masters of Camouflage",
+          "description": "Friendly ASTRA MILITARUM units (excluding TITANIC units) have Stealth."
         }
       ]
     },
@@ -1813,6 +1867,12 @@
           "target": "One Astra Militarum Character unit from your army that has not been selected to shoot this phase.",
           "effect": "Until the end of the phase, each time your unit makes an attack that targets a visible enemy unit within 12\", you can re-roll the Hit roll."
         }
+      ],
+      "rules": [
+        {
+          "name": "Artillery Support",
+          "description": "At the start of the battle round, select one of the following types of artillery support.\n\n■ Creeping Barrage: Roll one D6 for each enemy unit that is more than 12\" from every model from your army that is on the battlefield: On a 5+, until the end of the battle round, that unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it. The maximum number of units that can be shaken by this rule in each battle round depends on the battle size, as shown below.\n\n■ Incendiary Bombardment: Select a number of enemy units more than 12\" from every model from your army that is on the battlefield. Until the end of the battle round, those enemy units are scattered. While a unit is scattered, it cannot have the Benefit of Cover. The maximum number of units you can select in this way depends on the battle size, as shown below.\n\n■ Smoke Shells: Select a number of units from your army. Until the end of the battle round, those units have the Stealth ability.\n\nBATTLE SIZE\n\nMAXIMUM NUMBER OF UNITS\n\nIncursion\n\n2\n\nStrike Force\n\n3\n\nOnslaught\n\n4"
+        }
       ]
     },
     {
@@ -1901,6 +1961,12 @@
           "when": "Your Shooting phase, just after an Astra Militarum Titanic unit from your army has shot.",
           "target": "That ASTRA MILITARUM TITANIC unit.",
           "effect": "Select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Ceaseless Cannonade",
+          "description": "Each time an Astra Militarum Titanic or Astra Militarum Squadron unit from your army is selected to shoot, models in that unit can target enemy units within Engagement Range of that unit (including with Blast weapons), provided no other friendly units are also within Engagement Range of that enemy unit. When doing so, such models do not suffer the penalty to their Hit rolls for being within Engagement Range of one or more enemy units (excluding attacks made with Indirect Fire weapons).\n\nKEYWORDS\n\nIn the Muster Armies step, you can select one or more ASTRA MILITARUM TITANIC units from your army to gain the CHARACTER keyword.\n\nDesigner’s Note: This means that the selected units can be given Enhancements, and one of them can be selected as your WARLORD."
         }
       ]
     }

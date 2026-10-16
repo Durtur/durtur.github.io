@@ -2,7 +2,7 @@
   "slug": "space-marines",
   "name": "Space Marines",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:26:04.240Z",
+  "fetchedAt": "2026-10-15T22:44:16.771Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -2454,6 +2454,12 @@
           "target": "That ADEPTUS ASTARTES unit.",
           "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
         }
+      ],
+      "rules": [
+        {
+          "name": "Assault Mastery",
+          "description": "You can select the assault doctrine one additional time per battle."
+        }
       ]
     },
     {
@@ -2542,6 +2548,12 @@
           "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
           "target": "That ADEPTUS ASTARTES unit.",
           "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Mastered Doctrines",
+          "description": "If your army includes a Marneus Calgar unit, you can select the assault doctrine/devastator doctrine/tactical doctrine each one additional time per battle."
         }
       ]
     },
@@ -2632,6 +2644,12 @@
           "target": "One friendly unengaged Adeptus Astartes Infantry/Mounted unit that lost a wound as a result of those attacks.",
           "effect": "Your unit can make a normal move of up to D6\".\nOr: If your unit is entrenched, your unit can make a normal move of up to D3+3\".Your unit is not able to embark within a TRANSPORT until the end of the turn."
         }
+      ],
+      "rules": [
+        {
+          "name": "Adaptive Defence",
+          "description": "■ While a friendly ADEPTUS ASTARTES unit is within a terrain area, that unit’s attacks can re-roll wound rolls of 1.\n\n■ Friendly ADEPTUS ASTARTES units are entrenched while all of the following apply:\n\n■ That unit is within a terrain area.\n\n■ That unit was not set up this turn.\n\n■ No model in that unit moved more than 3\" this turn.\n\n■ Friendly Darnath Lysander/Tor Garadon units have the following ability:\n\nDefensive Mastery: At the start of each phase, this unit is entrenched.\n\nDARNATH LYSANDER’s/TOR GARADON’s unit is always entrenched, regardless of the conditions listed above.\n\nRestrictions: Your army can include Imperial Fists units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter."
+        }
       ]
     },
     {
@@ -2686,6 +2704,12 @@
           "target": "That KILL TEAM unit.",
           "effect": "Your unit’s ranged attacks (excluding [DEVASTATING WOUNDS] attacks) have [ANTI-non-VEHICLE 4+]."
         }
+      ],
+      "rules": [
+        {
+          "name": "Mission Tactics",
+          "description": "Friendly KILL TEAM units with this ability have the following abilities:\n\nFuror Tactics\n\nIf the devastator doctrine is active for your unit, your unit’s attacks have [SUSTAINED HITS 1].\n\nMalleus Tactics\n\nIf the tactical doctrine is active for your unit, your unit’s attacks have [LETHAL HITS].\n\nPurgatus Tactics\n\nIf the assault doctrine is active for your unit, your unit’s attacks that target an enemy unit within 9\" of this unit have [PRECISION].\n\nDEATHWATCH ALLIES\n\nYou can include Deathwatch units in your army, even though they do not have the same Chapter faction keyword as other units in your army. The combined points value of such units cannot exceed 500 points.\n\nWhen mustering your army, unless otherwise stated, you cannot select a DEATHWATCH model to be your WARLORD. In addition KILL TEAM units can only contain enhancements taken from this detachment.\n\nThis an exception to the Space Marine Chapters Army Rules."
+        }
       ]
     },
     {
@@ -2734,6 +2758,12 @@
           "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
           "target": "That ADEPTUS ASTARTES unit.",
           "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Devastator Mastery",
+          "description": "You can select the devastator doctrine one additional time per battle."
         }
       ]
     },
@@ -2824,6 +2854,12 @@
           "target": "One friendly Adeptus Astartes Infantry unit.",
           "effect": "The assault doctrine or tactical doctrine is active for your unit, until the start of your next Command phase."
         }
+      ],
+      "rules": [
+        {
+          "name": "Vulkan's Quest",
+          "description": "■ You can select the devastator doctrine one additional time per battle.\n\n■ Friendly ADEPTUS ASTARTES units’ ranged attacks that target a unit within 12\", have +1 S.\n\nIf your army includes a Vulkan He’stan unit, friendly Infernus Squad units have the following:\n\n■ When this unit is selected to make an advance/fall-back move, that advance/fall-back move does not prevent this unit from being eligible to start an action.\n\n■ When this unit starts an action, that action does not prevent this unit from being eligible to shoot.\n\nRestrictions: Your army can include Salamanders units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter."
+        }
       ]
     },
     {
@@ -2872,6 +2908,12 @@
           "when": "Any phase, when a friendly ADEPTUS ASTARTES unit embarked within a Transport is selected to move.",
           "target": "That ADEPTUS ASTARTES unit.",
           "effect": "While making that move, each model in your unit can be set up within the set-up distance of that TRANSPORT.\n\nThis allows you to set up your unit within the set-up distance of your TRANSPORT, instead of wholly within that distance."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Combined Deployment",
+          "description": "In your Shooting phase, when a friendly Adeptus Astartes Transport unit has shot, you can select one enemy unit hit by those attacks. That enemy unit is assailed until the end of the turn:\n\n■ While a unit is assailed, when an ADEPTUS ASTARTES unit that disembarked this turn targets that unit, those attacks have [Sustained Hits 1]."
         }
       ]
     },
@@ -2962,6 +3004,12 @@
           "target": "That ADEPTUS ASTARTES unit.",
           "effect": "Your unit’s melee attacks have [Lance]."
         }
+      ],
+      "rules": [
+        {
+          "name": "Codex Discipline",
+          "description": "You can select one combat doctrine one additional time per battle."
+        }
       ]
     },
     {
@@ -3010,6 +3058,12 @@
           "when": "Your Charge phase, when a friendly Gravis unit ends a charge move.",
           "target": "That GRAVIS unit.",
           "effect": "When your unit ends a charge move, you can select one enemy unit engaged with your unit. If you do, roll one D6 for each model in your unit engaged with that enemy unit:\n\nFor each 3+, that enemy unit suffers 1 mortal wound."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Walking Fortress",
+          "description": "In a turn a friendly Gravis unit made a normal move, that unit’s ranged attacks:\n\n■ Do not have [Heavy].\n\n■ Have +1 to hit rolls."
         }
       ]
     },
@@ -3060,6 +3114,12 @@
           "target": "One friendly Gravis unit.",
           "effect": "Select one objective your unit is controlling. That objective is secured."
         }
+      ],
+      "rules": [
+        {
+          "name": "Indomitable Defence",
+          "description": "While a friendly Gravis unit is within range of an objective, attacks that target that unit with a S greater than that unit’s T have -1 to wound rolls."
+        }
       ]
     },
     {
@@ -3109,6 +3169,12 @@
           "target": "One friendly Dreadnought unit.",
           "effect": "Each enemy unit engaged with your unit makes a battle-shock roll, with -1 to that battle-shock roll."
         }
+      ],
+      "rules": [
+        {
+          "name": "Enduring Vengeance",
+          "description": "Friendly Adeptus Astartes Dreadnought units can re-roll hit rolls of 1."
+        }
       ]
     },
     {
@@ -3157,6 +3223,12 @@
           "when": "Your Shooting phase, when a friendly Adeptus Astartes Vehicle unit (excluding Dedicated Transport/Fly/Walker units) is selected to shoot.",
           "target": "That ADEPTUS ASTARTES VEHICLE unit.",
           "effect": "Your unit’s ranged attacks have [Lethal Hits: Monster/Vehicle]."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Ironstorm Auto-targeters",
+          "description": "Friendly Adeptus Astartes Vehicle units’ (excluding walker units) ranged attacks can:\n\n■ Re-roll one hit roll.\n\n■ Re-roll one wound roll."
         }
       ]
     },
@@ -3247,6 +3319,12 @@
           "target": "That friendly ADEPTUS ASTARTES VEHICLE unit.",
           "effect": "Change any deadly demise rolls made for this unit to an unmodified 6."
         }
+      ],
+      "rules": [
+        {
+          "name": "Armoured Wrath",
+          "description": "Each time a friendly ADEPTUS ASTARTES unit is selected to shoot or selected to fight apply one of the following when resolving those attacks:\n\n■ If that unit is within 6\" of a friendly Cannok Var/Iron Father Feirros unit you can:\n\n■ Re-roll one hit roll.\n\n■ Re-roll one wound roll.\n\n■ Re-roll one damage roll.\n\n■ Otherwise you can:\n\n■ Re-roll one hit roll.\n\n■ Or: Re-roll one wound roll.\n\n■ Or: Re-roll one damage roll."
+        }
       ]
     },
     {
@@ -3296,6 +3374,12 @@
           "target": "One friendly unengaged Phobos/Scout SQUAD unit.",
           "effect": "Place your unit in strategic reserves."
         }
+      ],
+      "rules": [
+        {
+          "name": "Shadow Masters",
+          "description": "When a friendly Phobos or Scout SQUAD unit has shot:\n\n■ Those attacks do not prevent that unit from being hidden.\n\n■ Or: That unit can make a normal move of up to D6\". That unit is not eligible to declare a charge until the end of the turn."
+        }
       ]
     },
     {
@@ -3344,6 +3428,12 @@
           "when": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Phobos unit.",
           "target": "That PHOBOS unit.",
           "effect": "Your unit can make a normal move of:\n\nUp to D6\".\nOr: If the tactical doctrine is active for your unit, up to 6\"."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Vanguard Ambushers",
+          "description": "At the end of your Movement phase, if a friendly Phobos unit is hidden, that unit’s attacks can re-roll wound rolls of 1 until the end of the turn."
         }
       ]
     },
@@ -3434,6 +3524,12 @@
           "target": "One unengaged Adeptus Astartes Infantry unit.",
           "effect": "Place your unit in strategic reserves."
         }
+      ],
+      "rules": [
+        {
+          "name": "Shadow Tactics",
+          "description": "Friendly ADEPTUS ASTARTES units have Stealth.\n\nFriendly Phobos/Scout Squad units have -3\" detection range.\n\nFriendly Aethon Shaan units have the following ability:\n\nUnparalleled Tactician: (Once per battle round, per army) When you use the Into Darkness stratagem, that use is -1CP."
+        }
       ]
     },
     {
@@ -3523,6 +3619,12 @@
           "target": "That ADEPTUS ASTARTES unit.",
           "effect": "That fall-back move does not prevent your unit from being eligible to shoot.\nYour unit’s ranged attacks have [ASSAULT]."
         }
+      ],
+      "rules": [
+        {
+          "name": "Storm-swift Onslaught",
+          "description": "■ You can select the assault doctrine or tactical doctrine one additional time per battle.\n\n■ Friendly Adeptus Astartes Mounted/Speeder units have +1 to advance rolls.\n\nFriendly Suboden Khan units have the following ability:\n\nWrath of the First Khan: At the end of the Fight phase, if this unit was eligible to fight this phase, you can use this ability. If you do:\n\n■ If this unit is unengaged, this unit can make a normal move.\n\n■ Or: If this unit is engaged, this unit can make a fall-back move.\n\nRestrictions: Your army can include White Scars units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter."
+        }
       ]
     },
     {
@@ -3571,6 +3673,12 @@
           "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly Adeptus Astartes Mounted/Speeder unit.",
           "target": "That ADEPTUS ASTARTES MOUNTED/SPEEDER unit.",
           "effect": "Ranged attacks that target your unit have -1 to hit rolls."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Lightning-fast Strike",
+          "description": "Friendly Adeptus Astartes Mounted/Speeder units have +2\" M."
         }
       ]
     },
@@ -3621,6 +3729,12 @@
           "target": "That ADEPTUS ASTARTES unit.",
           "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
         }
+      ],
+      "rules": [
+        {
+          "name": "Tactical Mastery",
+          "description": "You can select the tactical doctrine one additional time per battle."
+        }
       ]
     },
     {
@@ -3669,6 +3783,12 @@
           "when": "Your Shooting phase or the Fight phase, when a friendly Tacticus unit is selected to attack.",
           "target": "That TACTICUS unit.",
           "effect": "Your unit’s attacks have:\n\n[Sustained Hits 1: non-Monster/Vehicle].\nOr: [Lethal Hits: Monster/Vehicle]."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Wrath of the Chapter",
+          "description": "Friendly Tacticus units can re-roll advance rolls."
         }
       ]
     },
@@ -3719,6 +3839,12 @@
           "target": "That TACTICUS unit.",
           "effect": "Your unit’s attacks have:\n\n[Sustained Hits 1: non-Monster/Vehicle].\nOr: [Lethal Hits: Monster/Vehicle]."
         }
+      ],
+      "rules": [
+        {
+          "name": "Codex Fire-patterns",
+          "description": "Friendly Tacticus units’ [Rapid Fire] attacks benefit from [Rapid Fire] when targeting units up to that attack’s maximum range."
+        }
       ]
     },
     {
@@ -3767,6 +3893,12 @@
           "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly adeptus astartes Terminator unit.",
           "target": "That ADEPTUS ASTARTES TERMINATOR unit.",
           "effect": "Attacks that target your unit have -1 D until that enemy unit has attacked."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Death Blow",
+          "description": "Friendly Adeptus Astartes Terminator units have +1 to charge rolls."
         }
       ]
     }

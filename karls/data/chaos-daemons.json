@@ -2,7 +2,7 @@
   "slug": "chaos-daemons",
   "name": "Chaos Daemons",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:26:04.240Z",
+  "fetchedAt": "2026-10-15T22:44:16.771Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -746,6 +746,16 @@
           "target": "One Legiones Daemonica Khorne unit from your army.",
           "effect": "Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features."
         }
+      ],
+      "rules": [
+        {
+          "name": "Murdercall",
+          "description": "In your opponent's movement phase, each time an enemy unit (excluding AIRCRAFT) ends a move within 8\" of one or more LEGIONES DAEMONICA KHORNE units from your army, one of those LEGIONES DAEMONICA KHORNE units can make a surge move of up to D6\"."
+        },
+        {
+          "name": "Blood Tainted",
+          "description": "At the end of a phase in which a Legiones Daemonica Khorne unit from your army destroyed an enemy unit that was within range of an objective marker at the start of the phase, if your unit has a higher Level of Control over that objective marker, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+        }
       ]
     },
     {
@@ -794,6 +804,12 @@
           "when": "Your Movement phase, when a friendly LEGIONES DAEMONICA MOUNTED unit is selected to move.",
           "target": "That LEGIONES DAEMONICA MOUNTED unit.",
           "effect": "Your unit has MOBILE."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Unholy Avalanche",
+          "description": "If a friendly LEGIONES DAEMONICA MOUNTED unit made a fall-back move this turn, that move does not prevent that unit from being eligible to shoot/eligible to declare a charge."
         }
       ]
     },
@@ -925,6 +941,16 @@
           "target": "One LEGIONES DAEMONICA unit from your army that is within range of an objective marker you control.",
           "effect": "That objective marker is said to be Corrupted and remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn. In addition, while an objective marker is Corrupted and under your control, the area of the battlefield within 6\" of that objective marker is considered to be within your army’s Shadow of Chaos."
         }
+      ],
+      "rules": [
+        {
+          "name": "Warp Rifts",
+          "description": "Each time a LEGIONES DAEMONICA unit from your army is set up on the battlefield using the Deep Strike ability, if it is set up wholly within your army’s Shadow of Chaos, and/or if it is set up wholly within 6\" of one or more friendly Bloodthirster, Great Unclean One, Kairos Fateweaver, Keeper of Secrets, Lord of Change, Rotigus, Shalaxi Helbane or Skarbrand units with which it shares the KHORNE, TZEENTCH, NURGLE or SLAANESH keyword, it can be set up anywhere that is more than 6\" horizontally away from all enemy models, instead of more than 8\"."
+        },
+        {
+          "name": "Unnatural Energies",
+          "description": "LEGiONES DAEMONiCA units from your army can perform one of the following Tactical Manoeuvres in a turn in which they Advanced or Fell Back: Secure Site; Set To Defend; Set Overwatch."
+        }
       ]
     },
     {
@@ -1014,6 +1040,16 @@
           "target": "One Legiones Daemonica Slaanesh Monster unit from your army that is on the battlefield.",
           "effect": "Each unit on the battlefield that is within your army’s Shadow of Chaos must take a Battle-shock test, subtracting 1 from that test if they are Below Half-strength.\n\nDesigner’s Note: This Stratagem forces all friendly and enemy units alike within your army’s Shadow of Chaos to take a Battle-shock test. This can allow a Chaos Daemons player to heal units from their army through the Daemonic Manifestation army rule, at the risk of causing some of their own units to become Battle-shocked."
         }
+      ],
+      "rules": [
+        {
+          "name": "Beguiling Aura",
+          "description": "Legiones Daemonica Slaanesh units from your army are eligible to declare a charge in a turn in which they Fell Back."
+        },
+        {
+          "name": "Seductive Gambit",
+          "description": "Legiones Daemonica Slaanesh units from your army have the following ability:\n\nSeductive Gambit: Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re-roll the Hit roll and you can re-roll a Wound roll of 1."
+        }
       ]
     },
     {
@@ -1067,6 +1103,12 @@
           "when": "Your Shooting phase, when a friendly LEGIONES DAEMONICA CHARACTER TZEENTCH unit (excluding MONSTER units) is selected to shoot.",
           "target": "That LEGIONES DAEMONICA CHARACTER TZEENTCH unit.",
           "effect": "Your unit’s ranged attacks have [LETHAL HITS]."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Loci of Power",
+          "description": "Friendly LEGIONES DAEMONICA CHARACTER models (excluding MONSTER models) have +1 Ld and OC."
         }
       ]
     },
@@ -1157,6 +1199,12 @@
           "target": "One LEGIONES DAEMONICA NURGLE unit from your army that is on the battlefield.",
           "effect": "Return up to 1 destroyed model to your unit (excluding CHARACTER models) or up to D3 destroyed models instead (excluding CHARACTER models) if your unit is a BATTLELINE unit, with their full wounds remaining. If your unit is a MONSTER unit, one model in your unit regains up to D3+1 lost wounds instead."
         }
+      ],
+      "rules": [
+        {
+          "name": "Melancholic Miasma",
+          "description": "While an enemy unit is within 9\" of one or more Legiones Daemonica Nurgle units from your army, that enemy unit is within your army’s Shadow of Chaos. In each player’s Command phase, select one enemy unit within your army’s Shadow of Chaos. That unit must take a Battle-shock test."
+        }
       ]
     },
     {
@@ -1245,6 +1293,12 @@
           "when": "Any phase.",
           "target": "One Legiones Daemonica Tzeentch Monster unit from your army that is on the battlefield.",
           "effect": "Select No Man’s Land or your opponent’s deployment zone, or spend one Flux token and select both. Until the end of the phase, the selected areas of the battlefield are within your army’s Shadow of Chaos."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Fates in Flux",
+          "description": "You start the battle with three Flux tokens (we recommend using a dice to track how many Flux tokens you have). You can spend one Flux token just after an Advance roll, Hit roll, Wound roll, Damage roll, saving throw or Hazardous test is made for a Legiones Daemonica Tzeentch model or LEGIONES DAEMONICA TZEENTCH unit from your army to re-roll the result of that roll, throw or test. Flux tokens can also be spent to enhance the effect of some Stratagems. Each time you spend a Flux token, reduce the number of Flux tokens you have by one and your opponent gains one Flux token.\n\nWhenever your opponent has one or more Flux tokens, they can spend one Flux token after an Advance roll, Hit roll, Wound roll or saving throw is made for a model or unit from their army, to re-roll the result of that roll or throw. If they do, they reduce the number of Flux tokens they have by one and you gain one Flux token. This is ignored if your opponent has the Fates in Flux Detachment rule.\n\nIn your Command phase, if your opponent has one or more Flux tokens, you gain one Flux token.\n\nDesigner’s Note: When using fast dice rolling, this rule can be used to spend any number of Flux tokens (up to the amount you have), to re-roll a number of dice up to the amount spent, after rolling multiple rolls or saving throws at once."
         }
       ]
     },
@@ -1335,6 +1389,16 @@
           "target": "Up to one Shadow Legion Heretic Astartes unit from your army and up to one Shadow Legion Legiones Daemonica unit from your army. You can only select units that are not within Engagement Range of one or more enemy units.",
           "effect": "Remove those selected units from the battlefield and place them into Strategic Reserves."
         }
+      ],
+      "rules": [
+        {
+          "name": "Thralls of the First Prince",
+          "description": "When mustering your army, you cannot include any Daemon Prince, Daemon Prince with Wings or Epic Hero units (excluding Be’lakor), but you can include the following HERETIC ASTARTES units:\n\n■ Chaos Lord\n\n■ Chaos Lord in Terminator Armour\n\n■ Chaos Lord with Jump Pack\n\n■ Chaos Terminator Squad\n\n■ Chosen\n\n■ Damned units\n\n■ Dark Apostle\n\n■ Havocs\n\n■ Legionaries\n\n■ Master of Possession\n\n■ Possessed\n\n■ Raptors\n\n■ Sorcerer\n\n■ Sorcerer in Terminator Armour\n\n■ Warp Talons\n\nThe combined points value of such units depends on your battle size, as shown below.\n\n■ Incursion: Up to 500 pts\n\n■ Strike Force: Up to 1000 pts\n\n■ Onslaught: Up to 1500 pts\n\nKEYWORDS\n\nBe’lakor and Heretic Astartes units from your army gain the SHADOW LEGION and UNDIVIDED keywords.\n\nLegiones Daemonica units from your army gain the SHADOW LEGION keyword."
+        },
+        {
+          "name": "First Prince of Chaos",
+          "description": "Units from your army have the relevant abilities presented below.\n\nMURDERER’S COWL\n\nSHADOW LEGION KHORNE units only. This unit is eligible to shoot and declare a charge in a turn in which it Advanced.\n\nPENUMBRAL PUPPETRY\n\nSHADOW LEGION TZEENTCH units only. This unit has Stealth. Each time a melee attack targets this unit, subtract 1 from the Hit roll.\n\nGLOAM ROT\n\nSHADOW LEGION NURGLE units only. Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic, subtract 1 from the Wound roll.\n\nSHADOW’S CARESS\n\nSHADOW LEGION SLAANESH units only. Enemy units cannot target this unit with snap shooting attacks.\n\nDISCIPLES OF BE’LAKOR\n\nSHADOW LEGION UNDIVIDED units only.\n\n■ This unit has the Dark Pacts army rule, and can use it as described in Codex: Chaos Space Marines, even though your Army Faction is not HERETIC ASTARTES. If this unit is BE’LAKOR, it automatically passes the Leadership test required for Dark Pacts.\n\n■ SHADOW LEGION HERETIC ASTARTES models in this unit have the Deep Strike ability."
+        }
       ]
     },
     {
@@ -1383,6 +1447,12 @@
           "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly LEGIONES DAEMONICA BATTLELINE unit.",
           "target": "That LEGIONES DAEMONICA BATTLELINE unit.",
           "effect": "Ranged attacks that target your unit with a S greater than your unit’s T have -1 to wound rolls."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Shudderblink",
+          "description": "When a friendly LEGIONES DAEMONICA BATTLELINE unit is selected to make an advance move:\n\n■ That unit’s ranged attacks have [ASSAULT] until the end of the turn.\n\n■ That move does not prevent that unit from being eligible to declare a charge."
         }
       ]
     }

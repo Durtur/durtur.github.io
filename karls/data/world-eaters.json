@@ -2,7 +2,7 @@
   "slug": "world-eaters",
   "name": "World Eaters",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:26:04.240Z",
+  "fetchedAt": "2026-10-15T22:44:16.771Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -819,6 +819,12 @@
           "target": "That World Eaters unit.",
           "effect": "Make a Blessings of Khorne roll and use the results to activate one Blessing of Khorne. Until the end of the battle round, that Blessing of Khorne is active in addition to any other Blessings of Khorne that are currently active."
         }
+      ],
+      "rules": [
+        {
+          "name": "Relentless Rage",
+          "description": "Friendly WORLD EATERS units’ melee attacks have +1 A."
+        }
       ]
     },
     {
@@ -868,6 +874,12 @@
           "target": "That DAEMON VEHICLE unit.",
           "effect": "Your unit’s attacks can ignore modifiers to:\n\nBS.\nWS.\nHit rolls and wound rolls."
         }
+      ],
+      "rules": [
+        {
+          "name": "Rampaging Terrors",
+          "description": "Friendly DAEMON VEHICLE units have the following ability:\n\nTerror of Khorne: At the start of the Fight phase, you can select one enemy unit engaged with this unit. That enemy unit makes a battle-shock roll, with -1 to that battle-shock roll. You cannot select the same enemy unit for this effect more than once per phase.\n\nThis detachment has the ONSLAUGHT tag and cannot be taken with another ONSLAUGHT detachment."
+        }
       ]
     },
     {
@@ -916,6 +928,12 @@
           "when": "Fight phase, when a friendly TERMINATOR SQUAD unit is selected to fight.",
           "target": "That TERMINATOR SQUAD unit.",
           "effect": "Your unit’s attacks that target a MONSTER/VEHICLE unit have +1 to wound rolls."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Adamantine Avalanche",
+          "description": "At the start of the Fight phase, if a friendly TERMINATOR SQUAD unit is engaged, make a Blessings of Khorne roll and use the results to activate one Blessing of Khorne. Until the end of the phase, that Blessing of Khorne is active for friendly TERMINATOR SQUAD units in addition to any other Blessings of Khorne that are currently active."
         }
       ]
     },
@@ -1008,6 +1026,12 @@
           "effect": "Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength.",
           "restrictions": "This Stratagem cannot be used to return destroyed Character units to Attached units. You can only use this Stratagem once per battle."
         }
+      ],
+      "rules": [
+        {
+          "name": "Idols of Khorne",
+          "description": "At the start of your Command phase, you can select one of the Idols of Khorne abilities listed below. Until the start of your next Command phase, that ability is active and its effects apply to all World Eaters Titanic and World Eaters Monster units from your army. You can only select each Idols of Khorne ability once per battle.\n\nIdol of Infinite Rage (Aura)\n\nWhile a friendly Jakhals or Goremongers unit is within 6\" of this model (or within 9\" if this model is TITANIC), each time a model in that unit makes an attack, add 1 to the Hit roll and add 1 to the Wound roll.\n\nIdol of Burning Wrath (Aura)\n\nWhile a friendly JAKHALS or GOREMONGERS unit is within 6\" of this model (or within 9\" if this model is TITANIC), add 1\" to the Move characteristic of models in that unit and add 1 to Advance and Charge rolls made for that unit.\n\nIdol of Blessed Blood (Aura)\n\nWhile a friendly JAKHALS or GOREMONGERS unit is within 6\" of this model (or within 9\" if this model is TITANIC), models in that unit have a 4+ invulnerable save.\n\nKEYWORDS\n\nJAKHALS and GOREMONGERS units from your army have the BATTLELINE keyword."
+        }
       ]
     },
     {
@@ -1097,6 +1121,12 @@
           "when": "Your Movement phase.",
           "target": "One World Eaters Rhino model from your army that has not been selected to move this phase.",
           "effect": "Until the end of the phase, each time a WORLD EATERS unit disembarks from that model after it has made a Normal move, that unit makes an assault disembark move (Core Rules, 18.06) for that disembarkation."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Rush to the Fray",
+          "description": "Each time a World Eaters unit from your army disembarks from a Transport, until the end of the turn, add 1 to Charge rolls made for that unit and that unit’s melee weapons have the [lance] ability."
         }
       ]
     },
@@ -1189,6 +1219,12 @@
           "effect": "Select one friendly Blood Legions unit within 6\" of your unit. One destroyed Mounted model, up to D3 destroyed Beast models, or up to D6 destroyed Infantry models are returned to that BLOOD LEGIONS unit with their full wounds remaining.",
           "restrictions": "This Stratagem cannot be used to return destroyed Character models to Attached units."
         }
+      ],
+      "rules": [
+        {
+          "name": "Blood Tithe",
+          "description": "Each time a Blood Legions or World Eaters unit from your army destroys an enemy unit, roll one D6: on a 3+, you gain 1 Blood Tithe point (BTP). At the start of the Command phase, you can spend one or more of your BTP to activate one of the following abilities until the end of the battle:\n\n■ Enraged Abjuration [2BTP]\n\nBLOOD LEGIONS and WORLD EATERS models from your army have the Feel No Pain 5+ ability against Psychic Attacks and mortal wounds.\n\n■ Daemonic Rage [3BTP]\n\nMelee weapons equipped by BLOOD LEGIONS units from your army have the [lance] ability.\n\n■ Boon of Blood [4BTP]\n\nBLOOD LEGIONS units from your army have a 4+ invulnerable save.\n\n■ Might of Khorne [5BTP]\n\nBLOOD LEGIONS units from your army gain the Blessings of Khorne ability.\n\nRESTRICTIONS\n\nYou can include the Blood Legions units in your army. The combined points cost of such units you can include in your army is:\n\nIncursion: Up to 500 pts\n\nStrike Force: Up to 1000 pts\n\nOnslaught: Up to 1500 pts\n\nNo BLOOD LEGIONS model from your army can be your WARLORD."
+        }
       ]
     },
     {
@@ -1279,6 +1315,12 @@
           "target": "One World Eaters Possessed unit from your army.",
           "effect": "Each enemy unit within Engagement Range of your unit must take a Battle-shock test, subtracting 1 from that test."
         }
+      ],
+      "rules": [
+        {
+          "name": "Brazen Fury",
+          "description": "WORLD EATERS POSSESSED units from your army have the following ability:\n\nBrazen Fury: In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed as a result of those attacks, this unit can make a surge move of up to D6\". That surge move is a Brazen Fury move."
+        }
       ]
     },
     {
@@ -1327,6 +1369,12 @@
           "when": "Your opponent’s Movement phase, when a unit is selected to make a fall-back move, if that unit is engaged with a friendly WORLD EATERS CHARACTER unit.",
           "target": "That WORLD EATERS CHARACTER unit.",
           "effect": "When an enemy unit engaged with your unit is selected to make a fall-back move, that enemy unit must use the desperate escape mode. If that enemy unit is battle-shocked, -1 from those hazard rolls."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Wrath of Khorne",
+          "description": "When a friendly WORLD EATERS CHARACTER unit (excluding EPIC HERO units) is selected to fight, that unit’s CHARACTER models’ melee attacks can have:\n\n■ [CLEAVE 1].\n\n■ Or: +1 AP."
         }
       ]
     }

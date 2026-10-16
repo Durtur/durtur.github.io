@@ -2,7 +2,7 @@
   "slug": "necrons",
   "name": "Necrons",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:26:04.240Z",
+  "fetchedAt": "2026-10-15T22:44:16.771Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -853,6 +853,12 @@
           "target": "One DESTROYER CULT or FLAYED ONES unit from your army that has not been selected to fight this phase.",
           "effect": "Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\"."
         }
+      ],
+      "rules": [
+        {
+          "name": "Annihilation Protocol",
+          "description": "Each time a DESTROYER CULT or FLAYED ONES unit from your army declares a charge, you can re-roll the Charge roll. If one or more targets of that charge are Below Half-strength, add 1 to the Charge roll as well.\n\nEach time a DESTROYER CULT unit from your army makes a ranged attack that targets the closest eligible target, add 1 to the Armour Penetration characteristic of that attack."
+        }
       ]
     },
     {
@@ -941,6 +947,12 @@
           "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has resolved its attacks.",
           "target": "One NECRONS unit from your army that had one or more of its models destroyed as a result of the attacking unit’s attacks.",
           "effect": "Your unit activates its Reanimation Protocols and reanimates D3 wounds (or D3+1 wounds if a NECRONS CHARACTER is leading your unit]."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Command Protocols",
+          "description": "While a Necrons Character model is leading this unit, each time a model in this unit makes an attack, add 1 to the Hit roll."
         }
       ]
     },
@@ -1031,6 +1043,12 @@
           "target": "One CRYPTEK model from your army.",
           "effect": "Select one objective marker within 18\" of your CRYPTEK model. Until the end of the phase, weapons equipped by friendly NECRONS models have the [IGNORES COVER] ability while targeting units within range of that objective marker."
         }
+      ],
+      "rules": [
+        {
+          "name": "Power Matrix",
+          "description": "Certain areas of the battlefield are considered to be within your army’s Power Matrix, as follows:\n\n■ Your deployment zone is always within your army’s Power Matrix.\n\n■ At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Power Matrix.\n\n■ At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Power Matrix.\n\nEach time a model in a CRYPTEK or CANOPTEK unit from your army makes an attack, re-roll a Hit roll of 1. If such a unit is wholly within your army’s Power Matrix, you can re-roll the Hit roll instead."
+        }
       ]
     },
     {
@@ -1119,6 +1137,12 @@
           "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
           "target": "One Cryptek Infantry unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "If your unit has the Necron Warriors keyword, until the end of the phase, models in your unit have a 5+ invulnerable save. If your unit has the Immortals keyword, until the end of the phase, models in your unit have a 4+ invulnerable save."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Technosorcerous Augmentations",
+          "description": "■ Ranged weapons equipped by Cryptek models from your army have the [ASSAULT] ability.\n\n■ In your Shooting phase, each time a Cryptek unit from your army is selected to shoot, select one of the following abilities: [ANTI-INFANTRY 3+], [ANTI-MOUNTED 4+], [ASSAULT], [HEAVY], [IGNORES COVER]. Until the end of the phase, ranged weapons equipped by models in that unit have that ability."
         }
       ]
     },
@@ -1210,6 +1234,12 @@
           "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
           "restrictions": "You can only use this Stratagem once per turn."
         }
+      ],
+      "rules": [
+        {
+          "name": "Cold Fervour",
+          "description": "■ Add 2 to the Strength characteristic of weapons equipped by Destroyer Cult models from your army.\n\n■ The first time each turn that a DESTROYER CULT unit from your army makes attacks that destroy a unit or cause it to become Below Half-strength, after that unit has finished resolving its attacks, until the end of the turn, add 2 to the Strength characteristic of weapons equipped by friendly NECRONS models (excluding DESTROYER CULT, Monster and Titanic models)."
+        }
       ]
     },
     {
@@ -1258,6 +1288,12 @@
           "when": "Your opponent’s Shooting phase, when an enemy unit that targeted a friendly IMMORTALS/NECRON WARRIORS unit has shot.",
           "target": "That IMMORTALS/NECRON WARRIORS unit.",
           "effect": "Your unit shoots using snap shooting, but while doing so your unit can only target that enemy unit."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Hypermotility Protocols",
+          "description": "■ Friendly IMMORTALS/NECRON WARRIORS units’ ranged attacks have [ASSAULT].\n\n■ When a friendly IMMORTALS/NECRON WARRIORS unit is selected to make an advance move, that move does not prevent that unit from being eligible to start an action.\n\nThis detachment has the DYNASTY tag and cannot be taken with another DYNASTY detachment."
         }
       ]
     },
@@ -1349,6 +1385,12 @@
           "target": "One NECRONS VEHICLE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save."
         }
+      ],
+      "rules": [
+        {
+          "name": "Hyperphasing",
+          "description": "At the end of your opponent’s turn, you can select a number of NECRONS units from your army (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:\n\nBATTLE SIZE\n\nNUMBER OF UNITS\n\nIncursion\n\nUp to 1 units\n\nStrike Force\n\nUp to 2 units\n\nOnslaught\n\nUp to 3 units\n\nOnce you have made your selections, remove those units from the battlefield and place them into Strategic Reserves."
+        }
       ]
     },
     {
@@ -1437,6 +1479,12 @@
           "when": "Your Command phase.",
           "target": "One Lychguard or Triarch unit from your army.",
           "effect": "Until the start of your next Command phase, add 1 to the Objective Control characteristic of models in your unit. If your unit has the VEHICLE keyword, add 3 to the Objective Control characteristic instead."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Worthy Foes",
+          "description": "In your Command phase, select one enemy unit. Until the start of your next Command phase, each time a Noble, Lychguard or Triarch unit from your army makes an attack that targets that unit, add 1 to the Wound roll."
         }
       ]
     },
@@ -1529,6 +1577,12 @@
           "effect": "Select one unravelling enemy unit visible to your unit. That enemy unit must take a Battle-shock test. When doing so, subtract 1 from the result. If that test is failed, that enemy unit suffers D3+1 mortal wounds.",
           "restrictions": "You can only use this Stratagem once per battle round."
         }
+      ],
+      "rules": [
+        {
+          "name": "Cosmic Distortion",
+          "description": "Necrons Monster units from your army have the following ability:\n\nDistortion Fields (Aura): While an enemy unit is within 6\" of this unit, it is unravelling. While an enemy unit is unravelling, each time an attack targets that unit, improve the Armour Penetration characteristic of that attack by 1.\n\nAt the start of each phase, for each NECRONS MONSTER unit from your army, that unit can suffer 3 mortal wounds. If it does, until the end of the phase, the range of that unit’s Distortion Fields Aura ability is increased to 9\".\n\nDesigner’s Note: If your army contains more than one Transcendent C’tan unit, each of those units must take the Reletavistic Tether ability.\n\nRESTRICTIONS\n\nWhen mustering your army, each NECRONS MONSTER unit from your army has the relevant Necrodermal Binding ability shown below, and you must increase the points cost of each of those units by the amount shown in the Munitorum Field Manual. If this causes your army to exceed the points limit for the battle you are playing, you cannot include that unit in your army."
+        }
       ]
     },
     {
@@ -1577,6 +1631,12 @@
           "when": "Your Movement phase, when a friendly NECRONS MOUNTED unit is selected to make a fall-back move.",
           "target": "That NECRONS MOUNTED unit.",
           "effect": "That move does not prevent your unit from being eligible to shoot."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Transdimensional Deployment",
+          "description": "■ Friendly TOMB BLADES units have Deep Strike.\n\n■ When a friendly TOMB BLADES unit is selected to shoot, if that unit made an ingress move this turn, that unit’s ranged attacks have +1 to hit rolls."
         }
       ]
     },
@@ -1667,6 +1727,12 @@
           "target": "One Necrons Vehicle or Necrons Mounted unit (excluding Titanic units) from your army that has not been selected to move this phase.",
           "effect": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit."
         }
+      ],
+      "rules": [
+        {
+          "name": "Relentless Onslaught",
+          "description": "Each time a NECRONS model (excluding Monster models) from your army makes an attack that targets a unit within range of one or more objective markers, add 1 to the Hit roll. In addition, ranged weapons equipped by Necrons Vehicle and Necrons Mounted models (excluding Titanic models) from your army have the [ASSAULT] ability."
+        }
       ]
     },
     {
@@ -1715,6 +1781,12 @@
           "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly NECRONS TITANIC FLY unit.",
           "target": "That NECRONS TITANIC FLY unit.",
           "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Empowered Engines",
+          "description": "Friendly NECRONS TITANIC FLY units have +6\" M.\n\nThis detachment has the HYPERCRYPT tag and cannot be taken with another HYPERCRYPT detachment."
         }
       ]
     }
