@@ -324,12 +324,14 @@
         {
           "id": "484154452d46494c4c454420444f4d494e494f4e",
           "name": "Hate-filled Dominion",
-          "points": 20
+          "points": 20,
+          "description": "KNIGHT TYRANT model only. This unit can re-roll rolls to determine the A of a weapon."
         },
         {
           "id": "50544552524f52534841444520524f4f4b455259",
           "name": "Pterrorshade Rookery",
-          "points": 20
+          "points": 20,
+          "description": "KNIGHT TYRANT model only. When this unit is selected to shoot, select one enemy unit within 24\" of this unit. That enemy unit has +6\" detection range until this unit has shot."
         }
       ],
       "stratagems": [
@@ -379,35 +381,29 @@
         {
           "id": "415350454354204f4620544845204245415354",
           "name": "Aspect of the Beast",
-          "points": 30
+          "points": 30,
+          "description": "Chaos Knights model only. At the start of your Command phase, select one Dread ability to be active for the bearer until the start of your next Command phase, in addition to the Dread abilities active for your army"
         },
         {
           "id": "48554e544552e28099532048454c4d",
           "name": "Hunter’s Helm",
-          "points": 15
+          "points": 15,
+          "description": "Chaos Knights model only. You can re-roll Advance and Charge rolls made for the bearer’s unit."
         },
         {
           "id": "4f4354414752414d204f4620434f4e4a55524154494f4e",
           "name": "Octagram of Conjuration",
-          "points": 40
+          "points": 40,
+          "description": "Knight Abominant model only. The bearer has the following ability:\n\nOctagram of Conjuration (Aura): While a friendly War Dog model is within 9\" of this model, after that WAR DOG model has shot, you can select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test."
         },
         {
           "id": "5448524f4e4520545952414e4e49435553",
           "name": "Throne Tyrannicus",
-          "points": 25
+          "points": 25,
+          "description": "Titanic Chaos Knights model only. In your Command phase, select one other Chaos Knights Character model within 9\" of the bearer. If the bearer has one or more Aura abilities that affect friendly War Dog units, until the start of your next Command phase, the selected CHAOS KNIGHTS CHARACTER model is affected by those Aura abilities as well."
         }
       ],
       "stratagems": [
-        {
-          "name": "Merciless Fusillade",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Start of your Shooting phase or the start of the Fight phase.",
-          "target": "One Titanic Chaos Knights unit from your army, and up to two friendly War Dog units, that have not been selected to shoot or fight this phase.",
-          "effect": "Select one enemy unit that is an eligible target for each of those CHAOS KNIGHTS units. Until the end of the phase, each time one of those Chaos Knights units is selected to shoot or fight, if that enemy unit is an eligible target, you can only select that enemy unit as the target for all of those attacks and those attacks have the [SUSTAINED HITS 1] ability."
-        },
         {
           "name": "Flush The Quarry",
           "cp": 1,
@@ -417,6 +413,16 @@
           "when": "Start of your Movement phase.",
           "target": "One Titanic Chaos Knights unit from your army and up to three friendly War Dog units within 6\" of that Titanic Chaos Knights unit.",
           "effect": "Until the end of the phase, each time one of those War Dog units makes a Normal, Advance or Fall Back move, its models can move through models and terrain features. When doing so, they can move within Engagement Range of such models but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+        },
+        {
+          "name": "Merciless Fusillade",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Start of your Shooting phase or the start of the Fight phase.",
+          "target": "One Titanic Chaos Knights unit from your army, and up to two friendly War Dog units, that have not been selected to shoot or fight this phase.",
+          "effect": "Select one enemy unit that is an eligible target for each of those CHAOS KNIGHTS units. Until the end of the phase, each time one of those Chaos Knights units is selected to shoot or fight, if that enemy unit is an eligible target, you can only select that enemy unit as the target for all of those attacks and those attacks have the [SUSTAINED HITS 1] ability."
         },
         {
           "name": "Beasthide Manifestation",
@@ -429,16 +435,6 @@
           "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
         },
         {
-          "name": "Feral Arrogance",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, just after a mortal wound is allocated to a Chaos Knights unit from your army.",
-          "target": "That CHAOS KNIGHTS unit.",
-          "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds."
-        },
-        {
           "name": "Contemptuous Volleys",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -447,6 +443,16 @@
           "when": "Your Movement phase, just after a CHAOS KNIGHTS unit from your army Falls Back.",
           "target": "That Chaos Knights unit.",
           "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        },
+        {
+          "name": "Feral Arrogance",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, just after a mortal wound is allocated to a Chaos Knights unit from your army.",
+          "target": "That CHAOS KNIGHTS unit.",
+          "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds."
         },
         {
           "name": "Goaded Beast",
@@ -474,12 +480,14 @@
         {
           "id": "46494e414c20484f574c",
           "name": "Final Howl",
-          "points": 20
+          "points": 20,
+          "description": "War Dog model only. While a friendly War Dog model is within 6\" of the bearer, each time that model makes an attack, re-roll a Wound roll of 1."
         },
         {
           "id": "4c4f50494e47205052454441544f52",
           "name": "Loping Predator",
-          "points": 10
+          "points": 10,
+          "description": "War Dog model only. The bearer’s ranged weapons have the [assault] ability."
         },
         {
           "id": "50414e4f504c59204f462054484520435552534544204b4e4947485453",
@@ -489,10 +497,21 @@
         {
           "id": "50524559534c41594552e2809953204d414e544c45",
           "name": "Preyslayer’s Mantle",
-          "points": 15
+          "points": 15,
+          "description": "War Dog model only. The bearer has the Super-heavy Walker ability."
         }
       ],
       "stratagems": [
+        {
+          "name": "Hungry For Combat",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Start of the Fight phase.",
+          "target": "Two or more War Dog units from your army within Engagement Range of the same enemy unit.",
+          "effect": "Select one enemy unit within Engagement Range of those WAR DOG units. Until the end of the phase, models in those WAR DOG units can only target that enemy unit, but each time a model in one of those WAR DOG units makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit."
+        },
         {
           "name": "Vox-Howl",
           "cp": 2,
@@ -513,16 +532,6 @@
           "when": "Your opponent’s Shooting phase or the Fight phase, just after a WAR DOG unit from your army that has not been selected to attack this phase is destroyed.",
           "target": "That WAR DOG unit. You can use this Stratagem on that unit even though it was just destroyed.",
           "effect": "Before resolving your unit’s Deadly Demise ability, it can either shoot or fight. When doing so, it must target only the enemy unit that just destroyed it, and can only do so if that enemy unit is an eligible target. After it has done so and after any Consolidation moves have been made, resolve your unit’s Deadly Demise ability as normal."
-        },
-        {
-          "name": "Hungry For Combat",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Start of the Fight phase.",
-          "target": "Two or more War Dog units from your army within Engagement Range of the same enemy unit.",
-          "effect": "Select one enemy unit within Engagement Range of those WAR DOG units. Until the end of the phase, models in those WAR DOG units can only target that enemy unit, but each time a model in one of those WAR DOG units makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit."
         },
         {
           "name": "Encircling Pack",
@@ -570,12 +579,14 @@
         {
           "id": "534e41524c494e4720524956414c525920285550475241444529",
           "name": "Snarling Rivalry (Upgrade)",
-          "points": 10
+          "points": 10,
+          "description": "EXECUTIONER unit only. This unit’s ranged attacks have [IGNORES COVER]."
         },
         {
           "id": "534f554c2d53504f4f522041555350494341544f5220285550475241444529",
           "name": "Soul-spoor Auspicator (Upgrade)",
-          "points": 15
+          "points": 15,
+          "description": "HUNTSMAN unit only. This unit’s ranged attacks have +6\" R."
         }
       ],
       "stratagems": [
@@ -590,16 +601,6 @@
           "effect": "Your unit has Feel No Pain 5+"
         },
         {
-          "name": "Leash Of The Masters",
-          "cp": 1,
-          "category": "Hunting Warpack",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Shooting phase, when a friendly WAR DOG unit has shot.",
-          "target": "That WAR DOG unit.",
-          "effect": "Those attacks do not prevent your unit from being eligible to start an action."
-        },
-        {
           "name": "Stalking Focus",
           "cp": 1,
           "category": "Hunting Warpack",
@@ -608,6 +609,16 @@
           "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly WAR DOG unit within range of an objective.",
           "target": "That WAR DOG unit.",
           "effect": "Ranged attacks that target your unit have -1 AP until that enemy unit has attacked."
+        },
+        {
+          "name": "Leash Of The Masters",
+          "cp": 1,
+          "category": "Hunting Warpack",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Shooting phase, when a friendly WAR DOG unit has shot.",
+          "target": "That WAR DOG unit.",
+          "effect": "Those attacks do not prevent your unit from being eligible to start an action."
         }
       ],
       "rules": [
@@ -625,24 +636,26 @@
         {
           "id": "435255454c204c4153484d415354455220284155524129",
           "name": "Cruel Lashmaster (Aura)",
-          "points": 25
+          "points": 25,
+          "description": "CHAOS KNIGHTS model only. While a friendly DAMNED unit is within 6\" of this model, when that unit is selected to make a normal/advance/fall-back move that unit has +2\" M until the end of the phase."
         },
         {
           "id": "49434f4e4f434c4153542049444f4c20284155524129",
           "name": "Iconoclast Idol (Aura)",
-          "points": 20
+          "points": 20,
+          "description": "CHAOS KNIGHTS model only. While a friendly DAMNED unit is within 6\" of this model, when you target that unit with the Heroic Intervention stratagem, that use is -1 CP."
         }
       ],
       "stratagems": [
         {
-          "name": "Coursing Thralls",
+          "name": "Avenge The Masters!",
           "cp": 1,
           "category": "Iconoclast Fiefdom",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Start of your Shooting phase.",
-          "target": "One friendly DAMNED unit.",
-          "effect": "Select one visible enemy unit within 12\" of your unit. That enemy unit is hunted:\n\nWhile a unit is hunted, that unit has +6\" detection range."
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, when a friendly CHAOS KNIGHTS unit is destroyed by an enemy unit.",
+          "target": "That enemy unit.",
+          "effect": "That enemy unit is marked until the end of the battle.\n\nFriendly DAMNED units’ attacks that target a marked unit have [LETHAL HITS]."
         },
         {
           "name": "Dark Sacrifice",
@@ -655,14 +668,14 @@
           "effect": "Select one CHAOS KNIGHTS model within 9\" of your unit and roll D3+3:\n\nYour DAMNED unit suffers that number of mortal wounds.\nThat CHAOS KNIGHTS model heals that number of wounds."
         },
         {
-          "name": "Avenge The Masters!",
+          "name": "Coursing Thralls",
           "cp": 1,
           "category": "Iconoclast Fiefdom",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, when a friendly CHAOS KNIGHTS unit is destroyed by an enemy unit.",
-          "target": "That enemy unit.",
-          "effect": "That enemy unit is marked until the end of the battle.\n\nFriendly DAMNED units’ attacks that target a marked unit have [LETHAL HITS]."
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Start of your Shooting phase.",
+          "target": "One friendly DAMNED unit.",
+          "effect": "Select one visible enemy unit within 12\" of your unit. That enemy unit is hunted:\n\nWhile a unit is hunted, that unit has +6\" detection range."
         }
       ],
       "rules": [
@@ -680,22 +693,26 @@
         {
           "id": "4245535449414c20415350454354",
           "name": "Bestial Aspect",
-          "points": 30
+          "points": 30,
+          "description": "CHAOS KNIGHTS model only. The bearer’s ranged weapons have the [assault] ability. While the bearer is using the Unholy Hunger ability, it can ignore any or all modifiers to its Move characteristic and/or to Advance rolls made for its unit."
         },
         {
           "id": "424c41535048454d4f555320454e47494e45",
           "name": "Blasphemous Engine",
-          "points": 35
+          "points": 35,
+          "description": "CHAOS KNIGHTS model only. Add 2 to the bearer’s Wounds characteristic. Each time the bearer’s unit makes a Malefic Surge, you can re-roll the Leadership test taken to see if it suffers any mortal wounds."
         },
         {
           "id": "464c4553484d4554414c20465553494f4e",
           "name": "Fleshmetal Fusion",
-          "points": 35
+          "points": 35,
+          "description": "CHAOS KNIGHTS model only. Add 1 to the bearer’s Toughness characteristic. While the bearer is using the Unnatural Fortitude ability, each time an attack with a Damage characteristic of 1 is allocated to the bearer, add 1 to any armour saving throw made against that attack."
         },
         {
           "id": "4b4e4947485420444941424f4c5553",
           "name": "Knight Diabolus",
-          "points": 25
+          "points": 25,
+          "description": "CHAOS KNIGHTS model only. Improve the Weapon Skill characteristic of the bearer’s melee weapons by 1. While the bearer is using the Diabolic Power ability, its melee weapons have the [LANCE] ability."
         }
       ],
       "stratagems": [
@@ -731,14 +748,14 @@
           "effect": "Select one objective marker your unit is within range of that you control. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
         },
         {
-          "name": "Diabolic Bulwark",
+          "name": "Unleash Balefire",
           "cp": 1,
           "category": "Wargear",
-          "turn": "Opponent’s turn",
+          "turn": "Your turn",
           "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One Chaos Knights unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save."
+          "when": "Your Shooting phase.",
+          "target": "One Chaos Knights unit from your army that has not been selected to shoot this phase.",
+          "effect": "After your unit has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test; if the test is failed, until the end of your opponent’s next turn, it is aflame. While a unit is aflame, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         },
         {
           "name": "Warp Vision",
@@ -751,14 +768,14 @@
           "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability."
         },
         {
-          "name": "Unleash Balefire",
+          "name": "Diabolic Bulwark",
           "cp": 1,
           "category": "Wargear",
-          "turn": "Your turn",
+          "turn": "Opponent’s turn",
           "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Chaos Knights unit from your army that has not been selected to shoot this phase.",
-          "effect": "After your unit has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test; if the test is failed, until the end of your opponent’s next turn, it is aflame. While a unit is aflame, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One Chaos Knights unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save."
         }
       ],
       "rules": [
@@ -776,32 +793,38 @@
         {
           "id": "424c414445204f462043454c4552495459",
           "name": "Blade of Celerity",
-          "points": 35
+          "points": 35,
+          "description": "CHAOS KNIGHTS model only. The bearer’s ranged weapons have the [ASSAULT] ability. In addition, once per battle, in the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer’s unit have the Fights First ability."
         },
         {
           "id": "424c455353494e47204f4620544845204441524b204d4153544552",
           "name": "Blessing of the Dark Master",
-          "points": 20
+          "points": 20,
+          "description": "CHAOS KNIGHTS model only. The bearer has the Stealth ability. In addition, once per battle, after you make a saving throw for the bearer, you can change the Damage characteristic of that attack to 0."
         },
         {
           "id": "4d4952524f52204f46204641544553",
           "name": "Mirror of Fates",
-          "points": 30
+          "points": 30,
+          "description": "CHAOS KNIGHTS model only. Once per turn, when your opponent targets a unit from their army within 12\" of this model with a stratagem, you can use this ability. If you do, increase the CP cost of that use of that stratagem by 1CP."
         },
         {
           "id": "505554524944204341524150414345",
           "name": "Putrid Carapace",
-          "points": 30
+          "points": 30,
+          "description": "CHAOS KNIGHTS model only. The bearer has a Save characteristic of 2+. In addition, once per battle, at the start of either player’s Command phase, the bearer can use this Enhancement. If it does, the bearer regains up to D6 lost wounds."
         },
         {
           "id": "5448524f4e45204d454348414e4943554d204f4620534b554c4c53",
           "name": "Throne Mechanicum of Skulls",
-          "points": 25
+          "points": 25,
+          "description": "CHAOS KNIGHTS model only. You can re-roll Charge rolls made for the bearer’s unit. In addition, once per battle, in your Charge phase, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer’s unit is eligible to declare a charge in a turn in which it Advanced."
         },
         {
           "id": "574152502d424f524e45205354414c4b4552",
           "name": "Warp-borne Stalker",
-          "points": 25
+          "points": 25,
+          "description": "CHAOS KNIGHTS model only. The bearer has the Deep Strike ability. In addition, once per battle, at the end of your opponent’s turn, if the bearer is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves."
         }
       ],
       "stratagems": [
@@ -881,22 +904,26 @@
         {
           "id": "4d414c45564f4c454e5420484552414c445259",
           "name": "Malevolent Heraldry",
-          "points": 30
+          "points": 30,
+          "description": "CHAOS KNIGHTS model only. Each time you roll dice to randomly select which Dread abilities are active for your army, if the bearer is on the battlefield, you can re-roll one or both results rolled."
         },
         {
           "id": "4e494748544d415245e2809953204d4153544552",
           "name": "Nightmare’s Master",
-          "points": 20
+          "points": 20,
+          "description": "CHAOS KNIGHTS model only. At the start of the Fight phase, each enemy unit within Engagement Range of the bearer must take a Battle-shock test."
         },
         {
           "id": "545952414e54e280995320534841444f57",
           "name": "Tyrant’s Shadow",
-          "points": 25
+          "points": 25,
+          "description": "CHAOS KNIGHTS model only. At the end of your Command phase, select one objective marker the bearer is within range of and that you control. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase. In addition, until you lose control of that objective marker, it has the Deathly Terror ability as if it were a CHAOS KNIGHTS model from your army."
         },
         {
           "id": "5645494c204f46204d454452454e47415244",
           "name": "Veil of Medrengard",
-          "points": 35
+          "points": 35,
+          "description": "CHAOS KNIGHTS model only. The bearer has a 4+ invulnerable save against ranged attacks, and a 5+ invulnerable save against melee attacks."
         }
       ],
       "stratagems": [
@@ -921,6 +948,16 @@
           "effect": "Until the end of the phase, each time a model in one of your units makes a Normal, Advance, Fall Back or Charge move, it can move through models and terrain features. When doing so, it can move within Engagement Range of such models but, unless it made a Charge move, cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed (the Super-heavy Walker ability does not apply while using this Stratagem)."
         },
         {
+          "name": "A Long Leash",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Your Command phase.",
+          "target": "One Abhorrent unit from your army and up to two friendly War Dog units.",
+          "effect": "Until the start of your next Command phase, those WAR DOG units are treated as being within range of any Aura abilities your ABHORRENT unit has."
+        },
+        {
           "name": "Disdain For The Weak",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -939,16 +976,6 @@
           "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
           "target": "One Chaos Knights unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Your unit has Stealth.\nMelee attacks that target your unit have -1 to hit rolls."
-        },
-        {
-          "name": "A Long Leash",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "One Abhorrent unit from your army and up to two friendly War Dog units.",
-          "effect": "Until the start of your next Command phase, those WAR DOG units are treated as being within range of any Aura abilities your ABHORRENT unit has."
         },
         {
           "name": "Pterrorshades",

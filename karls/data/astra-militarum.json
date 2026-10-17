@@ -1052,7 +1052,8 @@
         {
           "id": "4558454d504c4152204f46204455545920285550475241444529",
           "name": "Exemplar of Duty (Upgrade)",
-          "points": 10
+          "points": 10,
+          "description": "COMMISSAR model only. This model has Feel No Pain 4+."
         },
         {
           "id": "5348415250204559455320285550475241444529",
@@ -1062,16 +1063,6 @@
       ],
       "stratagems": [
         {
-          "name": "Low Profile",
-          "cp": 1,
-          "category": "Abhuman Auxiliaries",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase, when a friendly RATLINGS unit has shot.",
-          "target": "That RATLINGS unit.",
-          "effect": "Those ranged attacks do not prevent your unit from being hidden."
-        },
-        {
           "name": "Stirred To Action",
           "cp": 1,
           "category": "Abhuman Auxiliaries",
@@ -1080,6 +1071,16 @@
           "when": "Your opponent’s Shooting phase, when an enemy unit that targeted a friendly unengaged BULLGRYN SQUAD/OGRYN SQUAD unit has shot.",
           "target": "That BULLGRYN SQUAD/OGRYN SQUAD unit.",
           "effect": "Your unit can make a surge move of up to D6\"."
+        },
+        {
+          "name": "Low Profile",
+          "cp": 1,
+          "category": "Abhuman Auxiliaries",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly RATLINGS unit has shot.",
+          "target": "That RATLINGS unit.",
+          "effect": "Those ranged attacks do not prevent your unit from being hidden."
         },
         {
           "name": "Thick-Skulled Obdurance",
@@ -1107,34 +1108,38 @@
         {
           "id": "4558454d504c415259204f464649434552",
           "name": "Exemplary Officer",
-          "points": 20
+          "points": 20,
+          "description": "Infantry Officer model only. Each time the bearer issues an Order to its own unit, you can select up to two other Platoon units within 3\" of the bearer’s unit. That Order is also issued to each of those units."
         },
         {
           "id": "4752414e442053545241544547495354",
           "name": "Grand Strategist",
-          "points": 25
+          "points": 25,
+          "description": "Officer model only. After both players have deployed their armies, if the bearer’s unit (or any Transport it is embarked within) is on the battlefield, select up to two units with the Regiment or Squadron keywords from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
         },
         {
           "id": "4d4153544552204d414e4f45555652495354",
           "name": "Master Manoeuvrist",
-          "points": 15
+          "points": 15,
+          "description": "Infantry Officer model only. At the end of your opponent’s Fight phase, if the bearer’s unit is not within Engagement Range of one or more enemy units and every model in that unit is within 3\" of an Astra Militarum Transport from your army, it can embark within that TRANSPORT."
         },
         {
           "id": "4f4d4e49535349414e20554e4755454e5453",
           "name": "Omnissian Unguents",
-          "points": 35
+          "points": 35,
+          "description": "Astra Militarum Tech-Priest Enginseer model only. While a friendly Armoured Skirmisher unit is within 3\" of the bearer, that unit has the Feel No Pain 5+ ability."
         }
       ],
       "stratagems": [
         {
-          "name": "Combined Fire",
+          "name": "Order The Advance",
           "cp": 1,
           "category": "Battle Tactic",
           "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase, just after an Armoured Skirmisher unit from your army has shot.",
-          "target": "That ARMOURED SKIRMISHER unit.",
-          "effect": "Select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover, and each time an ARMOURED SKIRMISHER unit from your army makes an attack that targets that unit, improve the Strength characteristic of that attack by 2."
+          "phase": "Movement phase",
+          "when": "Start of your Movement phase.",
+          "target": "One Astra Militarum Officer unit from your army.",
+          "effect": "Select one or more friendly ASTRA MILITARUM units within 6\" of your unit; until the end of the phase, you can re-roll Advance rolls made for those units."
         },
         {
           "name": "Opening Salvo",
@@ -1147,14 +1152,14 @@
           "effect": "Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Wound roll."
         },
         {
-          "name": "Order The Advance",
+          "name": "Combined Fire",
           "cp": 1,
           "category": "Battle Tactic",
           "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Start of your Movement phase.",
-          "target": "One Astra Militarum Officer unit from your army.",
-          "effect": "Select one or more friendly ASTRA MILITARUM units within 6\" of your unit; until the end of the phase, you can re-roll Advance rolls made for those units."
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, just after an Armoured Skirmisher unit from your army has shot.",
+          "target": "That ARMOURED SKIRMISHER unit.",
+          "effect": "Select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover, and each time an ARMOURED SKIRMISHER unit from your army makes an attack that targets that unit, improve the Strength characteristic of that attack by 2."
         },
         {
           "name": "Supporting Ordnance",
@@ -1202,15 +1207,27 @@
         {
           "id": "424f4d424153542d434c41535320564f582d4152524159",
           "name": "Bombast-class Vox-array",
-          "points": 15
+          "points": 15,
+          "description": "MILITARUM TEMPESTUS OFFICER model only. When this model issues an Order, if this unit has the Master Vox wargear ability, this model can issue that Order to up to three different REGIMENT units, instead of only one."
         },
         {
           "id": "5052494f524954592044524f5020424541434f4e",
           "name": "Priority Drop Beacon",
-          "points": 25
+          "points": 25,
+          "description": "MILITARUM TEMPESTUS OFFICER model only. In your first Movement phase, this unit can make an ingress move."
         }
       ],
       "stratagems": [
+        {
+          "name": "Servo‑designators",
+          "cp": 1,
+          "category": "Bridgehead Strike",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly MILITARUM TEMPESTUS unit has shot.",
+          "target": "That MILITARUM TEMPESTUS unit.",
+          "effect": "Select one enemy unit hit by those ranged attacks. Friendly MILITARUM TEMPESTUS units’ ranged attacks that target that enemy unit have [IGNORES COVER]."
+        },
         {
           "name": "Firing Hot",
           "cp": 2,
@@ -1230,16 +1247,6 @@
           "when": "End of your opponent’s Charge phase.",
           "target": "One friendly engaged REGIMENT unit.",
           "effect": "Roll one D6 for each enemy unit engaged with your unit:\n\nOn a 2+ that enemy unit suffers D6 mortal wounds.Then, your unit suffers 3D3 mortal wounds."
-        },
-        {
-          "name": "Servo‑designators",
-          "cp": 1,
-          "category": "Bridgehead Strike",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase, when a friendly MILITARUM TEMPESTUS unit has shot.",
-          "target": "That MILITARUM TEMPESTUS unit.",
-          "effect": "Select one enemy unit hit by those ranged attacks. Friendly MILITARUM TEMPESTUS units’ ranged attacks that target that enemy unit have [IGNORES COVER]."
         }
       ],
       "rules": [
@@ -1257,22 +1264,26 @@
         {
           "id": "4445415448204d41534b204f46204f4c4c414e495553",
           "name": "Death Mask of Ollanius",
-          "points": 10
+          "points": 10,
+          "description": "Officer model only. While the bearer’s unit is Battle-shocked, subtract 1 from the Objective Control characteristic of models in that unit, instead of changing it to 0."
         },
         {
           "id": "4452494c4c20434f4d4d414e444552",
           "name": "Drill Commander",
-          "points": 20
+          "points": 20,
+          "description": "Officer model only. While the bearer is leading a unit, each time a model in that unit makes a ranged attack, if that unit Remained Stationary this turn, a Critical Hit is scored on a successful unmodified Hit roll of 5+."
         },
         {
           "id": "4752414e442053545241544547495354",
           "name": "Grand Strategist",
-          "points": 15
+          "points": 15,
+          "description": "Officer model only. In your Command phase, the bearer can issue one additional Order."
         },
         {
           "id": "524541435449564520434f4d4d414e44",
           "name": "Reactive Command",
-          "points": 15
+          "points": 15,
+          "description": "Officer model only. Each time an enemy unit is set up within 8\" of the bearer’s unit, the bearer can issue one Order. This is not counted towards the number of Orders the bearer can issue in a battle round."
         }
       ],
       "stratagems": [
@@ -1287,16 +1298,6 @@
           "effect": "Until the end of the phase, each time a ranged attack is allocated to an INFANTRY model from your army, if that model is not fully visible to every model in the attacking unit because of your VEHICLE, that model has the Benefit of Cover against that attack."
         },
         {
-          "name": "Fields Of Fire",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Regiment unit and one Squadron unit from your army that have not been selected to shoot this phase.",
-          "effect": "Select one enemy unit. Until the end of the phase, each time your selected REGIMENT and SQUADRON units make an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1."
-        },
-        {
           "name": "Coordinated Action",
           "cp": 1,
           "category": "Battle Tactic",
@@ -1305,6 +1306,16 @@
           "when": "Start of any phase.",
           "target": "One Regiment unit from your army and one Squadron unit from your army within 6\" of and visible to that REGIMENT unit.",
           "effect": "Until the end of the phase, Orders affecting one of your units affect the other, and vice versa."
+        },
+        {
+          "name": "Fields Of Fire",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One Regiment unit and one Squadron unit from your army that have not been selected to shoot this phase.",
+          "effect": "Select one enemy unit. Until the end of the phase, each time your selected REGIMENT and SQUADRON units make an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1."
         },
         {
           "name": "Inspired Command",
@@ -1317,6 +1328,16 @@
           "effect": "Your OFFICER can issue one Order as if it were your Command phase."
         },
         {
+          "name": "Flexible Command",
+          "cp": 2,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Your Command phase.",
+          "target": "Any number of Astra Militarum Officer units from your army.",
+          "effect": "Until the end of the phase, your Officers can issue Orders to Regiment units and Squadron units."
+        },
+        {
           "name": "Reinforcements!",
           "cp": 2,
           "category": "Strategic Ploy",
@@ -1326,16 +1347,6 @@
           "target": "One Infantry Regiment unit from your army that was just destroyed. You can target that unit with this Stratagem even though it was just destroyed.",
           "effect": "Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength and with all of its wounds remaining.",
           "restrictions": "This Stratagem cannot be used to return destroyed CHARACTER units to Attached units. You can only use this Stratagem once per battle."
-        },
-        {
-          "name": "Flexible Command",
-          "cp": 2,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "Any number of Astra Militarum Officer units from your army.",
-          "effect": "Until the end of the phase, your Officers can issue Orders to Regiment units and Squadron units."
         }
       ],
       "rules": [
@@ -1353,15 +1364,27 @@
         {
           "id": "4c4f4e472d52414e47452053434f555420285550475241444529",
           "name": "Long-range Scout (Upgrade)",
-          "points": 10
+          "points": 10,
+          "description": "SCOUT SENTINEL unit only. This unit has Infiltrators"
         },
         {
           "id": "5245434f4e205354415220285550475241444529",
           "name": "Recon Star (Upgrade)",
-          "points": 10
+          "points": 10,
+          "description": "ASTRA MILITARUM INFANTRY PLATOON unit only. In your first Movement phase, this unit can make an ingress move."
         }
       ],
       "stratagems": [
+        {
+          "name": "Triggered Alerts",
+          "cp": 1,
+          "category": "Designation Force",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged ASTRA MILITARUM INFANTRY unit.",
+          "target": "That ASTRA MILITARUM INFANTRY unit.",
+          "effect": "Your unit can make a normal move of up to D3+3\""
+        },
         {
           "name": "Close-Range Detection",
           "cp": 1,
@@ -1381,16 +1404,6 @@
           "when": "Start of your opponent’s Shooting phase",
           "target": "One friendly ASTRA MILITARUM INFANTRY SMOKE unit.",
           "effect": "When an attack targets either your unit, or a unit that is not fully visible to the attacking model because of one or more models in your unit, the target has the benefit of cover against that attack."
-        },
-        {
-          "name": "Triggered Alerts",
-          "cp": 1,
-          "category": "Designation Force",
-          "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged ASTRA MILITARUM INFANTRY unit.",
-          "target": "That ASTRA MILITARUM INFANTRY unit.",
-          "effect": "Your unit can make a normal move of up to D3+3\""
         }
       ],
       "rules": [
@@ -1408,35 +1421,29 @@
         {
           "id": "414248554d414e2044455441494c",
           "name": "Abhuman Detail",
-          "points": 20
+          "points": 20,
+          "description": "Commissar model only. Add the Ogryn keyword to the list of units this model can issue Orders too (as stated on its datasheet).\n\nIn the Declare Battle Formations step, the bearer can be attached to an Ogryn Squad or Bullgryn squad unit."
         },
         {
           "id": "415155494c414e20455945",
           "name": "Aquilan Eye",
-          "points": 20
+          "points": 20,
+          "description": "Astra Militarum officer model only. Each time you select an Order for the bearer to issue, you can select the Order below:\n\nTarget Weak Spot (Order): Each time a model in this unit makes a ranged attack that targets an enemy unit within 12\", improve the Armour Penetration characteristic of that attack by 1."
         },
         {
           "id": "4c415544204841494c4552",
           "name": "Laud Hailer",
-          "points": 10
+          "points": 10,
+          "description": "Astra Militarum officer model only. Each time you select a unit for this OFFICER model to issue an Order to, that unit can be within 12\" instead of within 6\"."
         },
         {
           "id": "53504543204f5053205645544552414e",
           "name": "Spec Ops Veteran",
-          "points": 15
+          "points": 15,
+          "description": "Astra Militarum Infantry officer model only. Each time you select an Order for the bearer to issue, you can select the Order below:\n\nMove to the Shadows (Order): Each time a ranged attack targets this unit, until those attacks are resolved, models in this unit have the Stealth ability."
         }
       ],
       "stratagems": [
-        {
-          "name": "Mordian Minute",
-          "cp": 1,
-          "category": "Grizzled Company",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Astra Militarum Infantry unit from your army affected by the First Rank, Fire! Second Rank, Fire! Order.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack, improve the Strength characteristic of that attack by 1."
-        },
         {
           "name": "Additional Armour",
           "cp": 1,
@@ -1446,26 +1453,6 @@
           "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
           "target": "One ASTRA MILITARUM unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
-        },
-        {
-          "name": "Snap To It",
-          "cp": 1,
-          "category": "Grizzled Company",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Start of any phase.",
-          "target": "One Astra Militarum Officer unit from your army.",
-          "effect": "Your unit’s OFFICER model can issue 1 Order as if it were your Command phase."
-        },
-        {
-          "name": "No Retreat!",
-          "cp": 1,
-          "category": "Grizzled Company",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "One ASTRA MILITARUM unit from your army affected by the Duty and Honour! Order.",
-          "effect": "If your unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of a phase."
         },
         {
           "name": "Veteran Sharpshooters",
@@ -1478,6 +1465,26 @@
           "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability."
         },
         {
+          "name": "No Retreat!",
+          "cp": 1,
+          "category": "Grizzled Company",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Your Command phase.",
+          "target": "One ASTRA MILITARUM unit from your army affected by the Duty and Honour! Order.",
+          "effect": "If your unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of a phase."
+        },
+        {
+          "name": "Snap To It",
+          "cp": 1,
+          "category": "Grizzled Company",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Start of any phase.",
+          "target": "One Astra Militarum Officer unit from your army.",
+          "effect": "Your unit’s OFFICER model can issue 1 Order as if it were your Command phase."
+        },
+        {
           "name": "Purging Fire",
           "cp": 1,
           "category": "Grizzled Company",
@@ -1486,6 +1493,16 @@
           "when": "Your Shooting phase.",
           "target": "One ASTRA MILITARUM unit from your army affected by an Order that has not been selected to shoot this phase.",
           "effect": "If your unit is within range of an objective marker, until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] ability."
+        },
+        {
+          "name": "Mordian Minute",
+          "cp": 1,
+          "category": "Grizzled Company",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One Astra Militarum Infantry unit from your army affected by the First Rank, Fire! Second Rank, Fire! Order.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack, improve the Strength characteristic of that attack by 1."
         }
       ],
       "rules": [
@@ -1503,35 +1520,29 @@
         {
           "id": "43414c4d20554e4445522046495245",
           "name": "Calm Under Fire",
-          "points": 15
+          "points": 15,
+          "description": "Vehicle Officer model only. Once per turn, after the bearer issues an Order to a Squadron unit from your army, it can issue the same Order to another SQUADRON unit from your army."
         },
         {
           "id": "494e444f4d495441424c45205354454544",
           "name": "Indomitable Steed",
-          "points": 15
+          "points": 15,
+          "description": "Vehicle Officer model only. The bearer has the Feel No Pain 6+ ability."
         },
         {
           "id": "524547494d454e54414c2042414e4e4552",
           "name": "Regimental Banner",
-          "points": 20
+          "points": 20,
+          "description": "Vehicle Officer model only. Add 3 to the bearer’s Objective Control characteristic."
         },
         {
           "id": "5645544552414e2043524557",
           "name": "Veteran Crew",
-          "points": 20
+          "points": 20,
+          "description": "Vehicle Officer model only. Each time a model in the bearer’s unit makes a ranged attack, re-roll a Hit roll of 1."
         }
       ],
       "stratagems": [
-        {
-          "name": "Furious Cannonade",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Squadron unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit within 12\", improve the Armour Penetration characteristic of that attack by 1."
-        },
         {
           "name": "Blazing Advance",
           "cp": 1,
@@ -1541,6 +1552,16 @@
           "when": "Your Movement phase, just after a Squadron unit from your army Advances.",
           "target": "That SQUADRON unit.",
           "effect": "Until the end of the turn, your unit is eligible to shoot in a turn in which it Advanced."
+        },
+        {
+          "name": "Furious Cannonade",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One Squadron unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit within 12\", improve the Armour Penetration characteristic of that attack by 1."
         },
         {
           "name": "Final Hour",
@@ -1553,16 +1574,6 @@
           "effect": "Until the end of the battle round, ranged weapons equipped by models in your unit (excluding [ONE SHOT] weapons) have the [HAZARDOUS] ability, and each time a model in your unit makes a ranged attack, you can ignore any or all modifiers to that attack’s Ballistic Skill characteristic and to the Hit roll."
         },
         {
-          "name": "Crash Through",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Movement or Charge phase",
-          "when": "Your Movement phase or your Charge phase.",
-          "target": "One Astra Militarum Vehicle unit from your army that has not been selected to move or charge this phase.",
-          "effect": "Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features as if they were not there."
-        },
-        {
           "name": "Tactical Withdrawal",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1571,6 +1582,16 @@
           "when": "Your Movement phase, just after a Squadron unit from your army Falls Back.",
           "target": "That SQUADRON unit.",
           "effect": "Until the end of the turn, your unit is eligible to shoot in a turn in which it Fell Back."
+        },
+        {
+          "name": "Crash Through",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Movement or Charge phase",
+          "when": "Your Movement phase or your Charge phase.",
+          "target": "One Astra Militarum Vehicle unit from your army that has not been selected to move or charge this phase.",
+          "effect": "Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features as if they were not there."
         },
         {
           "name": "Ablative Plating",
@@ -1598,25 +1619,39 @@
         {
           "id": "424f4c44204c454144455253484950",
           "name": "Bold Leadership",
-          "points": 25
+          "points": 25,
+          "description": "Infantry Officer model only. If you control an objective marker at the end of your Command phase, and the bearer’s unit (or any Transport it is embarked within) is within range of that objective marker, that objective marker remains under you control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
         },
         {
           "id": "53414352454420554e4755454e5453",
           "name": "Sacred Unguents",
-          "points": 10
+          "points": 10,
+          "description": "Astra Militarum Tech-Priest Enginseer model only. At the start of your Shooting phase, select one Transport from your army (excluding Aircraft and Titanic units) within 3\" of the bearer. Until the end of the phase, each time that TRANSPORT makes an attack, you can re-roll the Hit roll."
         },
         {
           "id": "534d4f4b45204752454e41444553",
           "name": "Smoke Grenades",
-          "points": 10
+          "points": 10,
+          "description": "Infantry Officer model only. The bearer’s unit has the Benefit of Cover and the Stealth ability while the bearer’s unit is wholly within 3\" of one or more friendly TRANSPORT models."
         },
         {
           "id": "56414e475541524420484f4e4f555253",
           "name": "Vanguard Honours",
-          "points": 15
+          "points": 15,
+          "description": "Infantry Officer model only. The bearer’s unit can disembark from a Transport after it has Advanced. If it does, it makes a shock disembark move (Core Rules, 18.07) for that disembarkation."
         }
       ],
       "stratagems": [
+        {
+          "name": "Clear And Secure",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One ASTRA MILITARUM unit from your army that disembarked from a Transport this turn and has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit within range of an objective marker, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        },
         {
           "name": "Swift Interception",
           "cp": 1,
@@ -1636,16 +1671,6 @@
           "when": "Your opponent’s Charge phase, after an enemy unit has selected targets for its charge but before it makes a Charge move.",
           "target": "One Astra Militarum Infantry unit from your army that was selected as a target of that charge.",
           "effect": "Provided your unit is not within Engagement Range of one or more enemy units and every model in your unit is within 3\" of an AsTRA Militarum Transport from your army, it can embark within that TRANSPORT."
-        },
-        {
-          "name": "Clear And Secure",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One ASTRA MILITARUM unit from your army that disembarked from a Transport this turn and has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit within range of an objective marker, you can re-roll the Hit roll and you can re-roll the Wound roll."
         },
         {
           "name": "Rapid Dispersal",
@@ -1693,35 +1718,29 @@
         {
           "id": "4755455252494c4c4120484f4e4f555253",
           "name": "Guerrilla Honours",
-          "points": 25
+          "points": 25,
+          "description": "Infantry Officer model only. After both players have deployed their armies, if the bearer is on the battlefield, select up to three other Astra Militarum Infantry units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
         },
         {
           "id": "534341524520474153204752454e41444553",
           "name": "Scare Gas Grenades",
-          "points": 5
+          "points": 5,
+          "description": "Astra Militarum Infantry model only. Once per battle, at the start of any phase, the bearer can use this Enhancement. If it does, select one enemy unit within 8\" of the bearer’s unit (excluding MONSTER and VEHICLE units); that unit must take a Battle-shock test."
         },
         {
           "id": "535552564956414c2047454152",
           "name": "Survival Gear",
-          "points": 5
+          "points": 5,
+          "description": "Astra Militarum Infantry model only. The bearer has the Scouts 6\" ability."
         },
         {
           "id": "545249505749524553",
           "name": "Tripwires",
-          "points": 20
+          "points": 20,
+          "description": "Astra Militarum Infantry model only. Each time an enemy INFANTRY or MOUNTED unit ends a Normal, Advance, Charge or Fall Back move within 8\" of the bearer’s unit, roll one D6: on a 4+, until the start of your next turn, that enemy unit is stunned. While a unit is stunned, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
         }
       ],
       "stratagems": [
-        {
-          "name": "Crack Shots",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Platoon unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [PRECISION] ability."
-        },
         {
           "name": "Scouting Outriders",
           "cp": 1,
@@ -1731,6 +1750,16 @@
           "when": "End of your opponent’s turn.",
           "target": "One Astra Militarum Mounted or Astra Militarum Walker unit from your army that is wholly within 10\" of one or more battlefield edges and not within Engagement Range of one or more enemy units.",
           "effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
+        },
+        {
+          "name": "Crack Shots",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One Platoon unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [PRECISION] ability."
         },
         {
           "name": "Draw Them Out",
@@ -1788,35 +1817,29 @@
         {
           "id": "454147455220414456414e4345",
           "name": "Eager Advance",
-          "points": 20
+          "points": 20,
+          "description": "Infantry Officer model only. While the bearer is leading a Regiment unit, that unit has the Scouts 6\" ability."
         },
         {
           "id": "464c415348204752454e41444553",
           "name": "Flash Grenades",
-          "points": 20
+          "points": 20,
+          "description": "Infantry Officer model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
         },
         {
           "id": "4c4547414359205349444541524d",
           "name": "Legacy Sidearm",
-          "points": 10
+          "points": 10,
+          "description": "Infantry Officer model only. Add 2 to the Attacks characteristics of the bearers Pistols."
         },
         {
           "id": "5354414c57415254e280995320484f4e4f555253",
           "name": "Stalwart’s Honours",
-          "points": 15
+          "points": 15,
+          "description": "Officer model only. While the bearer is leading a unit, when that unit is issued an Order, it is also affected by the Take Cover! Order."
         }
       ],
       "stratagems": [
-        {
-          "name": "Callous Sacrifice",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Platoon unit from your army that is within Engagement Range of one or more enemy units.",
-          "effect": "Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets of ranged weapons. Until the end of the phase, each time an enemy model loses a wound, while that model’s unit is within Engagement Range of your unit, roll one D6: on a 4+, one model from your unit is destroyed after the attacking unit has finished making its attacks."
-        },
         {
           "name": "Trench Fighters",
           "cp": 1,
@@ -1828,14 +1851,14 @@
           "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 2 to the result if it is a Regiment model. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
         },
         {
-          "name": "Furious Fusillade",
+          "name": "Callous Sacrifice",
           "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Battle Tactic",
           "turn": "Your turn",
           "phase": "Shooting phase",
           "when": "Your Shooting phase.",
-          "target": "One Platoon unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, add 1 to the Attacks characteristic of ranged weapons equipped by models in your unit while targeting an enemy unit within half range."
+          "target": "One Platoon unit from your army that is within Engagement Range of one or more enemy units.",
+          "effect": "Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets of ranged weapons. Until the end of the phase, each time an enemy model loses a wound, while that model’s unit is within Engagement Range of your unit, roll one D6: on a 4+, one model from your unit is destroyed after the attacking unit has finished making its attacks."
         },
         {
           "name": "Over The Top",
@@ -1848,14 +1871,14 @@
           "effect": "Until the end of the phase, when your model issues the Move! Move! Move! Order, it can issue that Order to any number of eligible friendly Infantry Regiment units, regardless of range to your model."
         },
         {
-          "name": "Minefield",
+          "name": "Furious Fusillade",
           "cp": 1,
-          "category": "Wargear",
-          "turn": "Opponent’s turn",
-          "phase": "Charge phase",
-          "when": "Start of your opponent’s Charge phase.",
-          "target": "One Platoon unit from your army.",
-          "effect": "Until the end of the phase, each time an enemy unit ends a Charge move within Engagement Range of your unit, roll one D6 for each model in that enemy unit: for each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One Platoon unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, add 1 to the Attacks characteristic of ranged weapons equipped by models in your unit while targeting an enemy unit within half range."
         },
         {
           "name": "Flare Burst",
@@ -1866,6 +1889,16 @@
           "when": "Your Shooting phase.",
           "target": "One Astra Militarum Character unit from your army that has not been selected to shoot this phase.",
           "effect": "Until the end of the phase, each time your unit makes an attack that targets a visible enemy unit within 12\", you can re-roll the Hit roll."
+        },
+        {
+          "name": "Minefield",
+          "cp": 1,
+          "category": "Wargear",
+          "turn": "Opponent’s turn",
+          "phase": "Charge phase",
+          "when": "Start of your opponent’s Charge phase.",
+          "target": "One Platoon unit from your army.",
+          "effect": "Until the end of the phase, each time an enemy unit ends a Charge move within Engagement Range of your unit, roll one D6 for each model in that enemy unit: for each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
         }
       ],
       "rules": [
@@ -1883,22 +1916,26 @@
         {
           "id": "41535341554c542048415443484553",
           "name": "Assault Hatches",
-          "points": 25
+          "points": 25,
+          "description": "Astra Militarum Titanic Character Transport model only. Each time a unit disembarks from the bearer after it has made a Normal move, that unit makes an assault disembark move (Core Rules, 18.06) for that disembarkation."
         },
         {
           "id": "42415454414c494f4e20434f4d4d414e444552",
           "name": "Battalion Commander",
-          "points": 30
+          "points": 30,
+          "description": "Astra Militarum Titanic Character model only. The bearer has the Voice of Command ability and the Officer keyword, and can issue up to 2 Orders to Astra Militarum Titanic and Squadron units."
         },
         {
           "id": "454e47494e4520535045414b4552",
           "name": "Engine Speaker",
-          "points": 15
+          "points": 15,
+          "description": "Astra Militarum Tech-Priest Enginseer model only. Each time the bearer uses its Omnissiah’s Blessing ability, until the start of your next Command phase, add 3\" to the Move characteristic of the selected VEHICLE model."
         },
         {
           "id": "544954414e204b494c4c4552",
           "name": "Titan Killer",
-          "points": 20
+          "points": 20,
+          "description": "Astra Militarum Titanic Character model only. Each time the bearer makes a ranged attack, you can re-roll the Damage roll."
         }
       ],
       "stratagems": [
@@ -1923,16 +1960,6 @@
           "effect": "Select one enemy unit within Engagement Range of your unit. Until the end of the phase, add 6 to the Attacks characteristic of melee weapons equipped by models in your unit, improve the Armour Penetration characteristic of those weapons by 2, and each time a model in your unit fights, it can only target that enemy unit."
         },
         {
-          "name": "Withering Firepower",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase, just after an Astra Militarum Vehicle unit from your army has shot.",
-          "target": "That ASTRA MILITARUM VEHICLE unit.",
-          "effect": "Select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test, subtracting 1 from that test."
-        },
-        {
           "name": "Adamantine Behemoth",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -1951,6 +1978,16 @@
           "when": "Reinforcements step of your Movement phase, from the second battle round onwards.",
           "target": "One Astra Militarum Titanic unit from your army that is in Reserves.",
           "effect": "Set up your unit on the battlefield, wholly within 8\" of the battlefield edge and more than 6\" horizontally away from all enemy units."
+        },
+        {
+          "name": "Withering Firepower",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, just after an Astra Militarum Vehicle unit from your army has shot.",
+          "target": "That ASTRA MILITARUM VEHICLE unit.",
+          "effect": "Select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test, subtracting 1 from that test."
         },
         {
           "name": "Shattering Salvo",

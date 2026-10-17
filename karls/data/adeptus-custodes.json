@@ -877,12 +877,52 @@
         {
           "id": "4e4f542041205348454c4c20574153544544",
           "name": "Not a Shell Wasted",
-          "points": 10
+          "points": 10,
+          "description": "Adeptus Custodes Infantry model only. This unit’s ranged attacks have +1 A."
         },
         {
           "id": "504152454c444f52e28099532043414455434154524958",
           "name": "Pareldor’s Caducatrix",
-          "points": 30
+          "points": 30,
+          "description": "ADEPTUS CUSTODES model only. (Once per battle, per army) At the start of any phase, this model heals D3+3 wounds."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Gilded Guardians",
+          "description": "While a friendly Adeptus Custodes unit (excluding Monster/Vehicle units) is within range of an objective, ranged attacks that target that unit with a S greater than that unit’s T have -1 to wound rolls.\n\nFavoured ka’tah: Salvus\n\nAdditional Effect: Your unit’s ranged attacks have +6\" R."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Rapid Reactions",
+          "cp": 1,
+          "category": "Aquilan Shield",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, when an enemy unit ends a fall-back move.",
+          "target": "One friendly Adeptus Custodes Infantry unit that was engaged with that enemy unit at the start of the phase.",
+          "effect": "Your unit shoots using normal shooting, but while doing so your unit can only target that enemy unit."
+        },
+        {
+          "name": "Manoeuvre And Fire",
+          "cp": 1,
+          "category": "Aquilan Shield",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, when a friendly Adeptus Custodes unit is selected to make a fall-back move.",
+          "target": "That ADEPTUS CUSTODES unit.",
+          "effect": "That move does not prevent your unit from being eligible to shoot/declare a charge."
+        },
+        {
+          "name": "Tip Of The Talon",
+          "cp": 1,
+          "category": "Aquilan Shield",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly Adeptus Custodes unit is selected to shoot.",
+          "target": "That ADEPTUS CUSTODES unit.",
+          "effect": "Your unit’s ranged attacks that target an enemy unit within 9\" of your unit have +1 S."
         }
       ]
     },
@@ -894,86 +934,49 @@
         {
           "id": "494e535049524154494f4e414c204558454d504c4152",
           "name": "Inspirational Exemplar",
-          "points": 10
+          "points": 10,
+          "description": "Adeptus Custodes Infantry model only. (Once per battle round, per army) At the start of any phase, you can select one friendly battle-shocked Adeptus Custodes unit within 9\" of this model. That unit is no longer battle-shocked."
         },
         {
           "id": "5348524f5544204f46205448452048494444454e20424c414445",
           "name": "Shroud of the Hidden Blade",
-          "points": 20
+          "points": 20,
+          "description": "ADEPTUS CUSTODES model only. This model has:\n\n■ Stealth\n\n■ Lone Operative."
         },
         {
           "id": "5355504552494f52204352454154494f4e",
           "name": "Superior Creation",
-          "points": 30
+          "points": 30,
+          "description": "Adeptus Custodes Infantry model only. (Once per battle, per army) At the end of a phase in which this model is destroyed, roll one D6:\n\n■ On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed, unengaged, with 3 wounds remaining."
         }
       ],
       "stratagems": [
         {
-          "name": "Shoulder The Mantle",
+          "name": "Duty Unto Death",
           "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase, before the Reinforcements step.",
-          "target": "One Adeptus Custodes Character model from your army that is not leading a unit.",
-          "effect": "Select one friendly unit (excluding Battle-shocked and Attached units) within 2\" horizontally and 5\" vertically of your model that it could lead (as described in the Leader section of its datasheet). Your model attaches to that unit as a Leader. Change that unit’s Starting Strength accordingly."
-        },
-        {
-          "name": "Superhuman Reserves",
-          "cp": 2,
-          "category": "Epic Deed",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, just after an Adeptus Custodes Warlord model from your army has used an ability on its datasheet or from an Enhancement that says it can only be used Once per battle.",
-          "target": "That Adeptus Custodes Warlord model.",
-          "effect": "Your model can use its Once per battle’ ability one additional time during this battle (but not in the same phase).",
-          "restrictions": "You cannot use this Stratagem more than once per battle."
-        },
-        {
-          "name": "Slayer Of Champions",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase.",
-          "target": "One Adeptus Custodes Character unit from your army that has just destroyed the unit you selected at the start of your Command phase as the target of your Assemblage of Might ability.",
-          "effect": "Select one enemy unit on the battlefield Until the start of your next Command phase, each time an ADEPTUS CUSTODES CHARACTER model from your army makes an attack that target that enemy unit, add 1 to the Wound roll In addition, if the destroyed unit was a CHARACTER unit, gain 1CP."
-        },
-        {
-          "name": "Earning Of A Name",
-          "cp": 1,
-          "category": "Epic Deed",
+          "category": "Auric Champions",
           "turn": "Either player’s turn",
           "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "Up to two Adeptus Custodes Character units from your army that have not been selected to fight this phase.",
-          "effect": "Until the end of the phase, each time a CHARACTER model in either of your units makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+          "when": "Fight phase, when an enemy unit targets a friendly Adeptus Custodes unit.",
+          "target": "That ADEPTUS CUSTODES unit.",
+          "effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6, with +1 to that roll if that model is a Character model:\n\nOn a 3+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
         },
         {
-          "name": "The Emperor’s Auspice",
+          "name": "Gilded Champion",
           "cp": 1,
-          "category": "Epic Deed",
+          "category": "Auric Champions",
           "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Adeptus Custodes Character unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, CHARACTER models in your unit have the Feel No Pain 4+ ability."
-        },
-        {
-          "name": "Vigil Unending",
-          "cp": 2,
-          "category": "Epic Deed",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One Adeptus Custodes Character model from your army that was just destroyed and has not fought this phase. You can use this Stratagem on that unit even though it was just destroyed.",
-          "effect": "Do not remove your destroyed model from play. The destroyed model can fight after the attacking unit has finished making attacks, and is then removed from play."
+          "phase": "Any phase",
+          "when": "Any phase, when a friendly Adeptus Custodes Character model has used a (Once per battle, per unit) datasheet ability.",
+          "target": "That ADEPTUS CUSTODES CHARACTER model.",
+          "effect": "Your model can use that (Once per battle, per unit) datasheet ability one additional time, but not in the same phase.",
+          "restrictions": "You cannot use this stratagem on the same ADEPTUS CUSTODES CHARACTER model more than once per battle."
         }
       ],
       "rules": [
         {
           "name": "Assemblage of Might",
-          "description": "At the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, each time a model in an Adeptus Custodes Character unit from your army makes an attack that targets that enemy unit, add 1 to the Wound roll."
+          "description": "In your Command phase, you can select one enemy unit to be a dreadful foe unit until the start of your next Command phase. Friendly Adeptus Custodes Character models’ attacks that target a dreadful foe unit have +1 to wound rolls."
         }
       ]
     },
@@ -985,12 +988,52 @@
         {
           "id": "4155524943204558454d504c4152",
           "name": "Auric Exemplar",
-          "points": 15
+          "points": 15,
+          "description": "ADEPTUS CUSTODES model only. This model’s melee attacks have [Cleave 1]."
         },
         {
           "id": "464c41574c45535320424c414445574f524b",
           "name": "Flawless Bladework",
-          "points": 15
+          "points": 15,
+          "description": "ADEPTUS CUSTODES model only. This model’s melee attacks have [Sustained Hits 1]."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Instruments of the Emperor’s Wrath",
+          "description": "Friendly Adeptus Custodes units can re-roll charge rolls.\n\nFavoured ka’tah: Dacatarai\n\nAdditional Effect: When an enemy unit engaged with your unit makes a pile-in/consolidation move, -2\" from that pile-in/consolidation move."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Golden Light Of The Moiraides",
+          "cp": 2,
+          "category": "Dread Host",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, when a friendly Adeptus Custodes unit is selected to make an ingress move.",
+          "target": "That ADEPTUS CUSTODES Unit.",
+          "effect": "Until the start of your next turn:\n\nAttacks that target your unit have -1 to hit rolls.\nEnemy units cannot target your unit with snap shooting attacks."
+        },
+        {
+          "name": "Preternatural Rapidity",
+          "cp": 1,
+          "category": "Dread Host",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, when a friendly Adeptus Custodes unit ends an advance move.",
+          "target": "That ADEPTUS CUSTODES unit.",
+          "effect": "That advance move does not prevent your unit from being eligible to declare a charge."
+        },
+        {
+          "name": "Lightning Wrath",
+          "cp": 1,
+          "category": "Dread Host",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when a friendly Adeptus Custodes unit is selected to make a pile-in move.",
+          "target": "That ADEPTUS CUSTODES unit.",
+          "effect": "When making that pile-in move, your unit can move up to D3+3\"."
         }
       ]
     },
@@ -1002,12 +1045,52 @@
         {
           "id": "415552494645524f5553204f5242",
           "name": "Auriferous Orb",
-          "points": 20
+          "points": 20,
+          "description": "ADEPTUS CUSTODES model only. This model has the following weapon:"
         },
         {
           "id": "45444745204f462054484520424c414445",
           "name": "Edge of the Blade",
-          "points": 15
+          "points": 15,
+          "description": "Adeptus Custodes model only. If this unit made a charge move this turn, this model’s attacks can:\n\n■ Re-roll hit rolls of 1.\n\n■ Re-roll wound rolls of 1."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Heralds of the Throne",
+          "description": "Friendly Adeptus Custodes units have Fights First.\n\nFavoured Ka’tah: Conservai\n\nAdditional Effect: Until the end of the turn, being selected to make an advance/fall-back move does not prevent your unit from being eligible to start an action."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Bearers Of His Light",
+          "cp": 1,
+          "category": "Emissaries Imperatus",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when a friendly Adeptus Custodes unit is selected to fight.",
+          "target": "That ADEPTUS CUSTODES unit.",
+          "effect": "Your unit’s melee attacks can ignore modifiers to hit rolls and wound rolls."
+        },
+        {
+          "name": "Slayers Of Nightmares",
+          "cp": 1,
+          "category": "Emissaries Imperatus",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when a friendly Adeptus Custodes unit is selected to fight.",
+          "target": "That ADEPTUS CUSTODES unit.",
+          "effect": "Your unit’s melee attacks that target a unit with a T greater than this unit’s T have +1 to wound rolls."
+        },
+        {
+          "name": "Selfless Service",
+          "cp": 1,
+          "category": "Emissaries Imperatus",
+          "turn": "Opponent’s turn",
+          "phase": "Charge phase",
+          "when": "End of your opponent’s Charge phase.",
+          "target": "One friendly unengaged Adeptus Custodes unit within 6\" of an enemy unit. You can only select a VEHICLE unit if it is a CHARACTER/WALKER unit.",
+          "effect": "Declare a charge with your unit:\n\nWhen making the charge roll, if the result is greater than 6 (after modifiers), change it to 6.\nWhen selecting charge targets, you can select any enemy units that are within 6\" of your unit and within the maximum distance."
         }
       ]
     },
@@ -1019,12 +1102,53 @@
         {
           "id": "46524f4d205448452048414c4c204f462041524d4f5552494553",
           "name": "From the Hall of Armouries",
-          "points": 15
+          "points": 15,
+          "description": "ADEPTUS CUSTODES model only. This model’s melee attacks have [Devastating Wounds]."
         },
         {
           "id": "52414449414e54204d414e544c45",
           "name": "Radiant Mantle",
-          "points": 40
+          "points": 40,
+          "description": "Adeptus Custodes Infantry model only. Attacks that target this unit have -1 to hit rolls."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Magna Imperator",
+          "description": "When a friendly Adeptus Custodes unit is selected to attack, that unit’s attacks can:\n\n■ Re-roll one hit roll.\n\n■ Re-roll one wound roll.\n\nFavoured ka’tah: Rendax\n\nAdditional Effect: You can select one enemy MONSTER/VEHICLE unit engaged with your unit and roll one D6:\n\n■ On a 1-2, that enemy unit suffers 1 mortal wound.\n\n■ On a 3-5, that enemy unit suffers D3 mortal wounds.\n\n■ On a 6, that enemy unit suffers 3 mortal wounds."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Impenetrable Bastion",
+          "cp": 1,
+          "category": "Emperor's Chosen",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "End of your Movement phase.",
+          "target": "One friendly Adeptus Custodes unit (excluding Monster/Vehicle units).",
+          "effect": "Select one objective your unit is controlling. That objective is secured."
+        },
+        {
+          "name": "In Auramite Clad",
+          "cp": 1,
+          "category": "Emperor's Chosen",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly Adeptus Custodes unit (excluding Custodian Wardens units).",
+          "target": "That ADEPTUS CUSTODES unit.",
+          "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
+        },
+        {
+          "name": "Superhuman Focus",
+          "cp": 1,
+          "category": "Emperor's Chosen",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "End of any phase.",
+          "target": "One friendly Adeptus Custodes unit that is not readied.",
+          "effect": "Your unit is readied.",
+          "restrictions": "You cannot select the same unit as the target of this stratagem more than once per battle round."
         }
       ]
     },
@@ -1053,22 +1177,95 @@
         {
           "id": "42414e45204f462041424f4d494e4154494f4e53",
           "name": "Bane of Abominations",
-          "points": 20
+          "points": 20,
+          "description": "ADEPTUS CUSTODES model only. This model’s attacks that target an enemy CHARACTER/MONSTER/VEHICLE unit have +1 to wound rolls."
         },
         {
           "id": "43415354454c4c414ee2809953204d41524b",
           "name": "Castellan’s Mark",
-          "points": 25
+          "points": 25,
+          "description": "ADEPTUS CUSTODES model only. When both players have deployed their armies, you can redeploy up to three friendly Adeptus Custodes units. When doing so, you can set those units up in strategic reserves, regardless of how many units are already in strategic reserves."
         },
         {
           "id": "4541474c45e280995320455945",
           "name": "Eagle’s Eye",
-          "points": 30
+          "points": 30,
+          "description": "ADEPTUS CUSTODES model only.\n\n■ This model has +1 W.\n\n■ (Once per battle, per army) When attacks are allocated to this model, you can use this ability. If you do, this model has 3+ InSv."
         },
         {
           "id": "454d5045524f52e2809953204c49474854",
           "name": "Emperor’s Light",
-          "points": 15
+          "points": 15,
+          "description": "ADEPTUS CUSTODES model only. This model has the following weapon:"
+        }
+      ],
+      "rules": [
+        {
+          "name": "Martial Mastery",
+          "description": "In the Fight phase, when a friendly Adeptus Custodes unit is selected to fight, that unit’s melee attacks have:\n\n■ [Sustained Hits 1].\n\n■ Or: [Lethal Hits]."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Superhuman Focus",
+          "cp": 1,
+          "category": "Guardians of the Throne",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "End of any phase.",
+          "target": "One friendly Adeptus Custodes unit that is not readied.",
+          "effect": "Your unit is readied.",
+          "restrictions": "You cannot select the same unit as the target of this Stratagem more than once per battle round."
+        },
+        {
+          "name": "Shield Of Honour",
+          "cp": 1,
+          "category": "Guardians of the Throne",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Start of the Fight phase.",
+          "target": "One friendly Adeptus Custodes Infantry/Mounted unit.",
+          "effect": "When an enemy model engaged with your unit selects targets, if that enemy model does not select your unit as the target of all of its attacks, that enemy model’s attacks have:\n\n-1 to hit rolls.\n-1 to wound rolls."
+        },
+        {
+          "name": "Unlimited Endurance",
+          "cp": 1,
+          "category": "Guardians of the Throne",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, when a friendly Adeptus Custodes unit ends an advance move.",
+          "target": "That ADEPTUS CUSTODES unit.",
+          "effect": "Until the end of the turn:\n\nYour unit’s ranged attacks have [Assault].\nThat advance move does not prevent your unit from being eligible to declare a charge."
+        },
+        {
+          "name": "Swift As The Eagle",
+          "cp": 1,
+          "category": "Guardians of the Throne",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Trusted Sentinel unit.",
+          "target": "That TRUSTED SENTINEL unit.",
+          "effect": "Your unit can make a normal move of up to D3+3\"."
+        },
+        {
+          "name": "In Auramite Clad",
+          "cp": 1,
+          "category": "Guardians of the Throne",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly Adeptus Custodes unit (excluding Custodian Wardens units).",
+          "target": "That ADEPTUS CUSTODES unit.",
+          "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
+        },
+        {
+          "name": "Prime Target",
+          "cp": 1,
+          "category": "Guardians of the Throne",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly Adeptus Custodes unit is selected to shoot.",
+          "target": "That ADEPTUS CUSTODES unit.",
+          "effect": "Your unit’s ranged attacks can:\n\nRe-roll one hit roll.\nRe-roll one wound roll.\nRe-roll one damage roll."
         }
       ]
     },
@@ -1080,12 +1277,52 @@
         {
           "id": "415241452d534852494b45",
           "name": "Arae-Shrike",
-          "points": 20
+          "points": 20,
+          "description": "Adeptus Custodes Infantry model only. Enemy units that are selected to make an ingress move cannot be set up within 12\" of this unit."
         },
         {
           "id": "43454c455249544f55532053454e545249455320285550475241444529",
           "name": "Celeritous Sentries (Upgrade)",
-          "points": 15
+          "points": 15,
+          "description": "Trusted Sentinel unit only. (Once per phase, per unit) You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n\n■ That use is -1 CP.\n\n■ That use does not prevent any uses of that stratagem on other units this phase."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Companion’s Watch",
+          "description": "While a friendly Trusted Sentinel unit is within range of an objective, that unit’s attacks can re-roll wound rolls of 1."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Avenge The Fallen",
+          "cp": 1,
+          "category": "Honoured Companions",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when a friendly Trusted Sentinel unit that is below starting strength is selected to fight.",
+          "target": "That TRUSTED SENTINEL unit.",
+          "effect": "Your unit’s melee attacks (excluding those made by Character models) have +2 A."
+        },
+        {
+          "name": "Emperor's Domain",
+          "cp": 1,
+          "category": "Honoured Companions",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when a friendly Trusted Sentinel unit is selected to make a consolidation move.",
+          "target": "That TRUSTED SENTINEL unit.",
+          "effect": "You can select the objective consolidation mode for that consolidation move, regardless of that consolidation move’s Before Moving restrictions.\n\nThis means your unit can move out of engagement range with enemy units, provided it meets the conditions of the objective consolidation mode."
+        },
+        {
+          "name": "Swift As The Eagle",
+          "cp": 1,
+          "category": "Honoured Companions",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Trusted Sentinel unit.",
+          "target": "That TRUSTED SENTINEL unit.",
+          "effect": "Your unit can make a normal move of up to D3+3\"."
         }
       ]
     },
@@ -1097,81 +1334,52 @@
         {
           "id": "4c454f4e494e45204645524f43495459",
           "name": "Leonine Ferocity",
-          "points": 20
+          "points": 20,
+          "description": "Shield-Captain in Allarus Terminator Armour model only. (Once per phase, per army) You can target this unit with the Rapid Ingress stratagem, regardless of any other uses of that stratagem this phase. If you do:\n\n■ That use is -1 CP.\n\n■ That use does not prevent any uses of that stratagem on other units this phase."
         },
         {
           "id": "4c494748544e494e472044455343454e54",
           "name": "Lightning Descent",
-          "points": 20
+          "points": 20,
+          "description": "Shield-Captain in Allarus Terminator Armour model only. In your first Movement phase, this unit can make an ingress move."
         }
       ],
       "stratagems": [
         {
-          "name": "Peerless Warrior",
+          "name": "Fury Of The Emperor",
           "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One ADEPTUS CUSTODES unit from your army that has not been selected to fight this phase.",
-          "effect": "Until the end of the phase, melee weapons equipped by models in your unit have the [PRECISION] ability."
-        },
-        {
-          "name": "Defiant To The Last",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One ADEPTUS CUSTODES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 2 to the result if that model has the CHARACTER keyword. On a 4+, do not remove it from play; the destroyed model can fight after the attacking unit has finished making its attacks (when doing so, it is treated as having 1 wound remaining), and is then removed from play."
-        },
-        {
-          "name": "Gilded Champion",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, just after an Adeptus Custodes Character model from your army has used an ability on its datasheet that states it can only be used ‘once per battle’.",
-          "target": "That ADEPTUS CUSTODES CHARACTER model.",
-          "effect": "Your model can use that ‘once per battle’ ability one additional time during the battle (but not in the same phase).",
-          "restrictions": "You cannot use this Stratagem on the same ADEPTUS CUSTODES CHARACTER model more than once per battle."
-        },
-        {
-          "name": "Manoeuvre And Fire",
-          "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Lions of the Emperor",
           "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase, just after an ADEPTUS CUSTODES unit from your army Falls Back.",
-          "target": "That ADEPTUS CUSTODES unit.",
-          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+          "phase": "Charge phase",
+          "when": "Your Charge phase, when a friendly Adeptus Custodes Terminator unit that made an ingress move this turn is selected to declare a charge.",
+          "target": "That ADEPTUS CUSTODES TERMINATOR unit.",
+          "effect": "Your unit has +2 to charge rolls."
         },
         {
           "name": "Unleash The Lions",
           "cp": 1,
-          "category": "Strategic Ploy",
+          "category": "Lions of the Emperor",
           "turn": "Your turn",
           "phase": "Command phase",
           "when": "Your Command phase.",
-          "target": "One Allarus Custodians or Aquilon Custodians unit from your army that is on the battlefield.",
-          "effect": "That unit is split into separate units, each containing one model. These new units each have a Starting Strength of 1."
+          "target": "One friendly Adeptus Custodes Terminator unit that has 2+ models.",
+          "effect": "Your unit is split into separate units, each containing one model. These new units each have a starting strength of 1."
         },
         {
-          "name": "Swift As The Eagle",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
-          "target": "One ADEPTUS CUSTODES unit from your army (excluding VEHICLE units) that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Your unit can make a Normal move of up to D6\"."
+          "name": "Vigil Unending",
+          "cp": 2,
+          "category": "Lions of the Emperor",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly Adeptus Custodes Terminator unit.",
+          "target": "That ADEPTUS CUSTODES TERMINATOR unit.",
+          "effect": "Attacks that target your unit have -1 D until that enemy unit has attacked."
         }
       ],
       "rules": [
         {
-          "name": "Against All Odds",
-          "description": "Each time a model in an Adeptus Custodes unit from your army (excluding Vehicles) makes an attack, if there are no other friendly units within 6\" of that unit, add 1 to the Hit roll and add 1 to the Wound roll."
+          "name": "On Gilded Wings",
+          "description": "At the end of your opponent’s Fight phase, if a friendly Adeptus Custodes Terminator unit is unengaged, you can place that unit in strategic reserves."
         }
       ]
     },
@@ -1183,50 +1391,52 @@
         {
           "id": "4155475552592055504c494e4b20284f4e45205045522041524d592920285550475241444529",
           "name": "Augury Uplink (one per army) (Upgrade)",
-          "points": 30
+          "points": 30,
+          "description": "Adeptus Custodes Dreadnought model only. This model has Feel No Pain 5+."
         },
         {
           "id": "4d454d454e544f204d4f5249544f4920284f4e45205045522041524d592920285550475241444529",
           "name": "Memento Moritoi (one per army) (Upgrade)",
-          "points": 30
+          "points": 30,
+          "description": "Adeptus Custodes Dreadnought model only. This model’s melee attacks have +1 A, S and D."
         }
       ],
       "stratagems": [
         {
-          "name": "Prioritised Eradication",
+          "name": "Unstoppable Momentum",
           "cp": 1,
           "category": "Might of the Moritoi",
           "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase, when a friendly TELEMON HEAVY DREADNOUGHT unit is selected to shoot.",
-          "target": "That TELEMON HEAVY DREADNOUGHT unit.",
-          "effect": "Your unit’s:\n\nArachnus Storm Cannon weapons have [RAPID FIRE 6].\nIliastus Accelerator Culverin weapons have [RAPID FIRE 2]."
+          "phase": "Movement or Charge phase",
+          "when": "Your Movement/Charge phase, when a friendly Adeptus Custodes Dreadnought unit is selected to move or declares a charge.",
+          "target": "That ADEPTUS CUSTODES DREADNOUGHT unit.",
+          "effect": "Your unit has Mobile."
         },
         {
-          "name": "Unstoppable Advance",
-          "cp": 1,
-          "category": "Might of the Moritoi",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase, when a friendly ADEPTUS CUSTODES WALKER unit is selected to move.",
-          "target": "That ADEPTUS CUSTODES WALKER unit.",
-          "effect": "Your unit has MOBILE."
-        },
-        {
-          "name": "Flawless Construction",
+          "name": "Honoured Interred",
           "cp": 1,
           "category": "Might of the Moritoi",
           "turn": "Either player’s turn",
           "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS CUSTODES WALKER unit.",
-          "target": "That ADEPTUS CUSTODES WALKER unit.",
-          "effect": "Attacks that target your unit with a S greater than your unit’s T have -1 to wound rolls."
+          "when": "Your Shooting phase or the Fight phase.",
+          "target": "One friendly Adeptus Custodes Dreadnought unit.",
+          "effect": "Your unit has the following ability:\nHonoured Interred (Aura): Friendly Adeptus Custodes units within 6\" of this unit can re-roll hit rolls of 1."
+        },
+        {
+          "name": "Unceasing Onslaught",
+          "cp": 1,
+          "category": "Might of the Moritoi",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, when a friendly Adeptus Custodes Dreadnought unit ends an advance move.",
+          "target": "That ADEPTUS CUSTODES DREADNOUGHT unit.",
+          "effect": "Your unit’s ranged attacks have [Assault] until the end of the turn.\nThat move does not prevent your unit from being eligible to declare a charge."
         }
       ],
       "rules": [
         {
-          "name": "March of the Honoured Dead",
-          "description": "Friendly ADEPTUS CUSTODES WALKER units:\n\n■ Have +2\" M.\n\n■ Have +1 to advance rolls and charge rolls.\n\nThis detachment has the ARMOURY tag and cannot be taken with another ARMOURY detachment."
+          "name": "Moritoi Ancients",
+          "description": "■ While a friendly Adeptus Custodes Dreadnought unit is at starting strength, that unit has +2 OC.\n\n■ While a friendly ADEPTUS CUSTODES DREADNOUGHT unit is below starting strength, that unit’s attacks can re-roll hit rolls of 1.\n\n■ While a friendly ADEPTUS CUSTODES DREADNOUGHT unit is below half-strength, that unit’s attacks can:\n\n■ Re-roll hit rolls of 1.\n\n■ Re-roll wound rolls of 1."
         }
       ]
     },
@@ -1238,80 +1448,52 @@
         {
           "id": "48554e5452455353e2809920455945",
           "name": "Huntress’ Eye",
-          "points": 10
+          "points": 10,
+          "description": "Anathema Psykana model only. In your Movement phase, you can select one visible enemy unit within 12\" of this unit. That unit makes a battle-shock roll, with -1 to that battle-shock roll."
         },
         {
           "id": "4f424c4956494f4e204b4e49474854",
           "name": "Oblivion Knight",
-          "points": 15
+          "points": 15,
+          "description": "Anathema Psykana model only. This unit’s attacks have:\n\n■ +1 to hit rolls.\n\n■ Or: If this unit targets a PSYKER/battle-shocked unit, +1 to hit rolls and wound rolls."
         }
       ],
       "stratagems": [
         {
-          "name": "Purgation Sweep",
+          "name": "Psy-Chaff Volley",
           "cp": 1,
-          "category": "Battle Tactic",
+          "category": "Null Maiden Vigil",
           "turn": "Your turn",
           "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Witchseekers unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, add 1 to the Attacks characteristic of Torrent weapons equipped by models in your unit. If such a weapon targets a PSYKER or Battle-shocked unit this phase, add 2 to its Attacks characteristic instead."
+          "when": "Your Shooting phase, when a friendly Prosecutor squad unit has shot.",
+          "target": "That PROSECUTOR SQUAD unit.",
+          "effect": "Select one enemy unit hit by those attacks. That unit is prosecuted until the end of the turn:\n\nAttacks that target a prosecuted unit have +1 AP."
+        },
+        {
+          "name": "Purgation Sweep",
+          "cp": 1,
+          "category": "Null Maiden Vigil",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly Witchseeker squad unit is selected to shoot.",
+          "target": "That WITCHSEEKER SQUAD unit.",
+          "effect": "Your unit’s [Torrent] attacks have:\n\n+1 A.\nOr: If those attacks target a PSYKER/battle-shocked unit, +2 A."
         },
         {
           "name": "Anathema Blademastery",
           "cp": 1,
-          "category": "Battle Tactic",
+          "category": "Null Maiden Vigil",
           "turn": "Either player’s turn",
           "phase": "Fight phase",
-          "when": "Fight phase.",
-          "target": "One Vigilators unit from your army that has not been selected to fight this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes a melee attack, you can re-roll the Hit roll If the target of that attack is Battle-shocked or a PSYKER, you can re-roll the Wound roll as well."
-        },
-        {
-          "name": "Witch Hunters",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase.",
-          "target": "One Anathema Psykana unit from your army that has not been selected to shoot or fight this phase.",
-          "effect": "Select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until the end of the phase, weapons equipped by models in your unit have the selected ability, but models in your unit can only target PSYKER units with their attacks."
-        },
-        {
-          "name": "Psychic Abominations",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One Anathema Psykana Infantry unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, your unit has the Stealth ability, and Battle-shocked and PSYKER models can only select your unit as a target of a ranged attack if they are within 12\"."
-        },
-        {
-          "name": "Psy-Chaff Volley",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One Prosecutors unit from your army that has just shot.",
-          "effect": "Select one enemy unit hit by one or more of those attacks. Until the start of your next turn, while your unit is on the battlefield, that enemy unit is prosecuted. While a unit is prosecuted, each time an Anathema Psykana model makes an attack against that unit, improve the Armour Penetration characteristic of that attack by 1. While a PSYKER or Battle-shocked unit is prosecuted, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
-        },
-        {
-          "name": "Desperation’s Price",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, just after an enemy PSYKER unit has either finished using a Psychic ability that targets a unit, or finished making Psychic Attacks.",
-          "target": "One Anathema Psykana unit from your army within 18\" of that enemy PSYKER unit.",
-          "effect": "That enemy PSYKER unit must take a Leadership test If the test is passed, that PSYKER unit is Battle-shocked; if the test is failed that PSYKER unit suffers 3 mortal wounds and is Battle-shocked."
+          "when": "Fight phase, when a friendly Vigilator squad unit is selected to fight.",
+          "target": "That VIGILATOR SQUAD unit.",
+          "effect": "Your unit’s attacks have:\n\n[Sustained Hits 1]\nOr: [Lethal Hits]."
         }
       ],
       "rules": [
         {
-          "name": "Creeping Dread (Aura)",
-          "description": "In the Battle-shock step of your opponent’s Command phase, if an enemy unit that is either a PSYKER unit or below its Starting Strength is within 12\" of one or more Anathema Psykana models from your army, that enemy unit must take a Battle-shock test. If that unit is Below Half-strength, it must subtract 1 from its Battle-shock test this phase instead.\n\nDesigner’s Note: This means that all enemy PSYKER units within range of this Aura ability and all enemy units within range of this Aura ability that have lost one or more models must take a Battle-shock test in your opponents Command phase, not just those that are Below Half-strength."
+          "name": "Silent Sisterhood",
+          "description": "■ When mustering your army, you can select a friendly Anathema Psykana Character model to be your WARLORD.\n\n■ Friendly Prosecutor SQUAD units have BATTLELINE.\n\n■ Friendly Anathema Psykana units have the following ability:\n\nCreeping Dread (Aura): In the Battle-shock step of your opponent’s Command phase, each enemy unit within 12\" of this unit that is a PSYKER unit/below starting strength makes a battle-shock roll, with -1 to that battle-shock roll."
         }
       ]
     },
@@ -1323,12 +1505,52 @@
         {
           "id": "47454e414c4348454d49432057415244494e47",
           "name": "Genalchemic Warding",
-          "points": 30
+          "points": 30,
+          "description": "ADEPTUS CUSTODES model only. This model has Feel No Pain 5+."
         },
         {
           "id": "554e53544f505041424c452044455354524f594552",
           "name": "Unstoppable Destroyer",
-          "points": 25
+          "points": 25,
+          "description": "Adeptus Custodes Infantry model only. When this unit is selected to make a pile-in/consolidation move:\n\n■ This unit can move up to 4\".\n\n■ You can select any consolidation mode for that consolidation move, regardless of that consolidation move’s Before Moving restrictions."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Wardens of the Dark Cells",
+          "description": "While a friendly Adeptus Custodes unit (excluding Monster/Vehicle units) is within range of an objective, melee attacks that target that unit with a S greater than that unit’s T have -1 to wound rolls.\n\nFavoured ka’tah: Kaptaris\n\nAdditional Effect: You can select one enemy unit engaged with your unit. That enemy unit must make a battle-shock roll, with -1 to that battle-shock roll. You cannot select the same enemy unit for this effect more than once per phase."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "Indomitable Guardians",
+          "cp": 1,
+          "category": "Shadowkeepers",
+          "turn": "Opponent’s turn",
+          "phase": "Fight phase",
+          "when": "Your opponent’s Fight phase, when an enemy unit has fought.",
+          "target": "One friendly Adeptus Custodes unit that is within range of an objective and is eligible to fight.",
+          "effect": "Your unit has Fights First and must be the next unit you select to fight."
+        },
+        {
+          "name": "No Escape",
+          "cp": 2,
+          "category": "Shadowkeepers",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, when an enemy unit ends a fall-back move.",
+          "target": "One friendly unengaged Adeptus Custodes Infantry unit that is within 6\" of that enemy unit.",
+          "effect": "Declare a charge with your unit. When selecting charge targets, you can only select enemy units that made a fall-back move this phase and are within the maximum distance."
+        },
+        {
+          "name": "Grim Responsibility",
+          "cp": 1,
+          "category": "Shadowkeepers",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when a friendly Adeptus Custodes Infantry unit is selected to fight.",
+          "target": "That ADEPTUS CUSTODES unit.",
+          "effect": "Your unit’s melee attacks have [Lethal Hits: Character/Monster]."
         }
       ]
     },
@@ -1340,12 +1562,52 @@
         {
           "id": "4155524943204541474c4520285550475241444529",
           "name": "Auric Eagle (Upgrade)",
-          "points": 15
+          "points": 15,
+          "description": "Adeptus Custodes Infantry/Mounted unit only (excluding Terminator units). This unit has +1 to advance rolls and charge rolls."
         },
         {
           "id": "53414c4c5920464f525448",
           "name": "Sally Forth",
-          "points": 30
+          "points": 30,
+          "description": "Adeptus Custodes Shield-Captain model only. At the start of your Charge phase, select one friendly Adeptus Custodes Infantry unit within 6\" of this model. If that unit made an advance move this turn, that advance move does not prevent that unit from being eligible to declare a charge."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Talon Sortie",
+          "description": "When a friendly Adeptus Custodes unit makes a fall-back move, that fall-back move does not prevent that unit from being eligible to charge.\n\nFavoured ka’tah: Calistus\n\nAdditional Effect: Your unit has +2\" M."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "At Spear's Length",
+          "cp": 1,
+          "category": "Solar Watch",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, when a friendly Adeptus Custodes unit is selected to make a fall-back move.",
+          "target": "That ADEPTUS CUSTODES unit.",
+          "effect": "That fall-back move does not prevent your unit from being eligible to shoot."
+        },
+        {
+          "name": "Gravimetric Grenade",
+          "cp": 1,
+          "category": "Solar Watch",
+          "turn": "Opponent’s turn",
+          "phase": "Charge phase",
+          "when": "Start of your opponent’s Charge phase.",
+          "target": "One friendly unengaged Adeptus Custodes unit.",
+          "effect": "Select one visible enemy unit within 12\" of your unit. When that enemy unit declares a charge, that enemy unit has -1 to charge rolls."
+        },
+        {
+          "name": "Inexorable",
+          "cp": 1,
+          "category": "Solar Watch",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, when a friendly Adeptus Custodes unit is selected to move.",
+          "target": "That ADEPTUS CUSTODES unit.",
+          "effect": "Until the end of the turn, your unit can ignore modifiers to your unit’s:\n\nM.\nAdvance rolls and charge rolls."
         }
       ]
     }

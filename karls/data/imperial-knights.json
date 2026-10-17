@@ -372,25 +372,17 @@
         {
           "id": "41524348454f54454348204155544f4c4f4144455253",
           "name": "Archeotech Autoloaders",
-          "points": 25
+          "points": 25,
+          "description": "IMPERIAL KNIGHTS DOMINUS model only. This unit can re-roll rolls to determine the A of a weapon."
         },
         {
           "id": "424c455353454420504c415445",
           "name": "Blessed Plate",
-          "points": 30
+          "points": 30,
+          "description": "IMPERIAL KNIGHTS DOMINUS model only. This model has +1 T."
         }
       ],
       "stratagems": [
-        {
-          "name": "Fire Shocked",
-          "cp": 1,
-          "category": "Dominus Foebreakers",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase, when a friendly IMPERIAL KNIGHTS DOMINUS unit has shot.",
-          "target": "That IMPERIAL KNIGHTS DOMINUS unit.",
-          "effect": "Select one enemy unit hit by those attacks. That enemy unit makes a battle-shock roll, with -1 to that battle-shock roll."
-        },
         {
           "name": "Ground-Shaking Strides",
           "cp": 1,
@@ -410,6 +402,16 @@
           "when": "Your Shooting phase, when a friendly engaged IMPERIAL KNIGHTS DOMINUS unit is selected to shoot.",
           "target": "That IMPERIAL KNIGHTS DOMINUS unit.",
           "effect": "Your unit’s [BLAST] ranged attacks:\n\nDo not have [BLAST].\nHave +1 A."
+        },
+        {
+          "name": "Fire Shocked",
+          "cp": 1,
+          "category": "Dominus Foebreakers",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly IMPERIAL KNIGHTS DOMINUS unit has shot.",
+          "target": "That IMPERIAL KNIGHTS DOMINUS unit.",
+          "effect": "Select one enemy unit hit by those attacks. That enemy unit makes a battle-shock roll, with -1 to that battle-shock roll."
         }
       ],
       "rules": [
@@ -427,22 +429,26 @@
         {
           "id": "4252494e474552204f46204a555354494345",
           "name": "Bringer of Justice",
-          "points": 30
+          "points": 30,
+          "description": "Imperial Knights model only. Improve the Attacks characteristic of melee weapons equipped by the bearer by 2, and each time the bearer makes a melee attack, add 1 to the Hit roll."
         },
         {
           "id": "48554e544552e280995320455945",
           "name": "Hunter’s Eye",
-          "points": 25
+          "points": 25,
+          "description": "IMPERIAL KNIGHTS model only. Ranged weapons equipped by the bearer have the [IGNORES COVER] ability."
         },
         {
           "id": "4d5953544552494f555320475541524449414e",
           "name": "Mysterious Guardian",
-          "points": 35
+          "points": 35,
+          "description": "IMPERIAL KNIGHTS model only. (Once per battle, per army) At the end of your opponent’s turn, if this unit is unengaged, you can use this ability. If you do:\n\n■ Place this unit in strategic reserves.\n\n■ This unit has Deep Strike until the start of your next Shooting phase.\n\n■ This unit must make an ingress move in your next Movement phase (including in your first turn)."
         },
         {
           "id": "53414e435455415259",
           "name": "Sanctuary",
-          "points": 20
+          "points": 20,
+          "description": "IMPERIAL KNIGHTS model only. The bearer has a 5+ invulnerable save."
         }
       ],
       "stratagems": [
@@ -457,16 +463,6 @@
           "effect": "Until the end of the phase, each time a model in your unit makes an attack, if there are no other friendly units within 9\" of your unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
         },
         {
-          "name": "Survivor Of Strife",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One Imperial Knights unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
-        },
-        {
           "name": "Noble Sacrifice",
           "cp": 1,
           "category": "Epic Deed",
@@ -475,6 +471,16 @@
           "when": "Any phase.",
           "target": "One Imperial Knights unit from your army that was just destroyed. You can target that unit with this Stratagem even though it was just destroyed.",
           "effect": "Your unit’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 4+, adding 1 to the result if it is an Armiger unit, instead of only a 6."
+        },
+        {
+          "name": "Survivor Of Strife",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One Imperial Knights unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
         },
         {
           "name": "Point‑blank Barrage",
@@ -522,22 +528,26 @@
         {
           "id": "41435155495349544f522d41542d41524d53",
           "name": "Acquisitor-at-Arms",
-          "points": 15
+          "points": 15,
+          "description": "IMPERIAL KNIGHTS model only. While the bearer is on your defensive line and there are no enemy units on your defensive line, add the bearers Objective Control characteristic to that of each model affected by the bearers Bondsman ability."
         },
         {
           "id": "4155475552592048414c4f",
           "name": "Augury Halo",
-          "points": 20
+          "points": 20,
+          "description": "IMPERIAL KNIGHTS model only. Each time the bearer makes a ranged attack, while the bearer is on your defensive line, weapons equipped by the bearer have the [ignores cover] ability."
         },
         {
           "id": "505552474154494f4ee28099532048414e44",
           "name": "Purgation’s Hand",
-          "points": 20
+          "points": 20,
+          "description": "IMPERIAL KNIGHTS model only. Each time the bearer makes a melee attack, if the bearer is on your defensive line, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
         },
         {
           "id": "56454e474546554c205452454144",
           "name": "Vengeful Tread",
-          "points": 15
+          "points": 15,
+          "description": "IMPERIAL KNIGHTS model only. Once per turn, you can target the bearer with the Crushing Impact Stratagem for 0CP."
         }
       ],
       "stratagems": [
@@ -562,16 +572,6 @@
           "effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 2] ability."
         },
         {
-          "name": "Marshal The Defence",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase.",
-          "target": "Up to two Imperial Knights units from your army that have not been selected to move this phase.",
-          "effect": "Until the end of the phase, add 3\" to the Move characteristic of models in your units."
-        },
-        {
           "name": "Steadfast Superiority",
           "cp": 1,
           "category": "Battle Tactic",
@@ -580,6 +580,16 @@
           "when": "Fight phase.",
           "target": "One Imperial Knights unit from your army that is within Engagement Range of one or more enemy units, that is on your defensive line and that has not already been selected to fight this phase.",
           "effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll."
+        },
+        {
+          "name": "Marshal The Defence",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase.",
+          "target": "Up to two Imperial Knights units from your army that have not been selected to move this phase.",
+          "effect": "Until the end of the phase, add 3\" to the Move characteristic of models in your units."
         },
         {
           "name": "Fortress Of Intimidation",
@@ -617,25 +627,17 @@
         {
           "id": "4b4e49474854204f4620544845204f505553204d414348494e4120284155524129",
           "name": "Knight of the Opus Machina (Aura)",
-          "points": 15
+          "points": 15,
+          "description": "IMPERIAL KNIGHTS model only. While a friendly ADEPTUS MECHANICUS unit is within 6\" of this model, that ADEPTUS MECHANICUS unit’s melee attacks have +1 WS and AP."
         },
         {
           "id": "4d41474f532051554553544f524953",
           "name": "Magos Questoris",
-          "points": 20
+          "points": 20,
+          "description": "TECH-PRIEST model only. When using this model’s Sacristan Pledge ability, the selected IMPERIAL KNIGHTS model heals 2 additional wounds."
         }
       ],
       "stratagems": [
-        {
-          "name": "Omnissiah’s Grace",
-          "cp": 1,
-          "category": "Questor Forgepact",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, when a friendly IMPERIAL KNIGHTS unit suffers a mortal wound.",
-          "target": "That IMPERIAL KNIGHTS unit.",
-          "effect": "Your unit has Feel No Pain 5+ against mortal wounds."
-        },
         {
           "name": "In The Shadow Of Giants",
           "cp": 1,
@@ -655,6 +657,16 @@
           "when": "Any phase, when a friendly IMPERIAL KNIGHTS TITANIC unit is destroyed by an enemy unit.",
           "target": "One friendly ADEPTUS MECHANICUS unit.",
           "effect": "That enemy unit is marked until the end of the battle:\n\nWhile a unit is marked, friendly ADEPTUS MECHANICUS units’ attacks that target that unit can re-roll wound rolls."
+        },
+        {
+          "name": "Omnissiah’s Grace",
+          "cp": 1,
+          "category": "Questor Forgepact",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, when a friendly IMPERIAL KNIGHTS unit suffers a mortal wound.",
+          "target": "That IMPERIAL KNIGHTS unit.",
+          "effect": "Your unit has Feel No Pain 5+ against mortal wounds."
         }
       ],
       "rules": [
@@ -672,44 +684,38 @@
         {
           "id": "4352555348494e4720434f4e44454d4e4154494f4e",
           "name": "Crushing Condemnation",
-          "points": 10
+          "points": 10,
+          "description": "IMPERIAL KNIGHTS model only. When the bearer is selected to fight, after resolving its attacks, if one or more enemy units were destroyed by those attacks, the bearer can use this Enhancement. If it does, this Enhancement is expended, then select one enemy unit that is not within Engagement Range of any units from your army and is within 12\" of and visible to the bearer. Roll six D6: for each 4+, that enemy unit suffers 1 mortal wound."
         },
         {
           "id": "484552414c44204f4620545249554d5048",
           "name": "Herald of Triumph",
-          "points": 15
+          "points": 15,
+          "description": "IMPERIAL KNIGHTS model only. When the bearer ends a Charge move, it can use this Enhancement. If it does, this Enhancement is expended, then each enemy unit within Engagement Range of the bearer must take a Battle-shock test, subtracting 1 from the result."
         },
         {
           "id": "50454e4e414e54204f462053494c56455245442046555259",
           "name": "Pennant of Silvered Fury",
-          "points": 15
+          "points": 15,
+          "description": "IMPERIAL KNIGHTS model only. When the bearer is selected to fight, it can use this Enhancement. If it does, this Enhancement is expended, then until the end of the phase, melee weapons equipped by the bearer have the [sustained hits 2] ability."
         },
         {
           "id": "5759524d534c4159455220444956494e4154494f4e",
           "name": "Wyrmslayer Divination",
-          "points": 10
+          "points": 10,
+          "description": "IMPERIAL KNIGHTS model only. In your Shooting phase, when the bearer is selected to shoot, it can use this Enhancement. If it does, this Enhancement is expended, then until the end of the phase, each time it makes an attack that targets a unit that can FLY, you can re-roll the Hit roll."
         }
       ],
       "stratagems": [
         {
-          "name": "Titanic Duel",
-          "cp": 1,
+          "name": "Unstoppable Warrior",
+          "cp": 2,
           "category": "Epic Deed",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase.",
-          "target": "One Imperial Knights Titanic model from your army that has not been selected to shoot or fight this phase.",
-          "effect": "Until the end of the phase, each time your model makes an attack that targets a MONSTER, TITANIC or WALKER unit, add 1 to the Hit roll and add 1 to the Wound roll."
-        },
-        {
-          "name": "Courageous Stand",
-          "cp": 1,
-          "category": "Epic Deed",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-          "target": "One Imperial Knights Titanic unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability."
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, just after an Imperial Knights Titanic unit from your army Falls Back.",
+          "target": "That IMPERIAL KNIGHTS TITANIC unit.",
+          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
         },
         {
           "name": "Driven By The Past",
@@ -722,24 +728,24 @@
           "effect": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced."
         },
         {
-          "name": "Unstoppable Warrior",
-          "cp": 2,
-          "category": "Epic Deed",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase, just after an Imperial Knights Titanic unit from your army Falls Back.",
-          "target": "That IMPERIAL KNIGHTS TITANIC unit.",
-          "effect": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
-        },
-        {
-          "name": "Hero’s Tread",
+          "name": "Courageous Stand",
           "cp": 1,
           "category": "Epic Deed",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "End of your Command phase.",
-          "target": "One Imperial Knights Titanic model from your army that is within range of an objective marker you control.",
-          "effect": "Your Level of Control over that objective marker is 5 (unless it would otherwise be higher), until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "target": "One Imperial Knights Titanic unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "Titanic Duel",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase.",
+          "target": "One Imperial Knights Titanic model from your army that has not been selected to shoot or fight this phase.",
+          "effect": "Until the end of the phase, each time your model makes an attack that targets a MONSTER, TITANIC or WALKER unit, add 1 to the Hit roll and add 1 to the Wound roll."
         },
         {
           "name": "Moment Of Glory",
@@ -750,6 +756,16 @@
           "when": "Fight phase, just before an Imperial Knights Titanic unit from your army Consolidates.",
           "target": "That IMPERIAL KNIGHTS TITANIC unit.",
           "effect": "Until the end of the phase, each time your unit Consolidates, models in it can move an additional 3\" provided your unit can end that move within Engagement Range of one or more enemy units."
+        },
+        {
+          "name": "Hero’s Tread",
+          "cp": 1,
+          "category": "Epic Deed",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "End of your Command phase.",
+          "target": "One Imperial Knights Titanic model from your army that is within range of an objective marker you control.",
+          "effect": "Your Level of Control over that objective marker is 5 (unless it would otherwise be higher), until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
         }
       ],
       "rules": [
@@ -771,22 +787,26 @@
         {
           "id": "4641424c4553204f46204e494748544d415245",
           "name": "Fables of Nightmare",
-          "points": 10
+          "points": 10,
+          "description": "IMPERIAL KNIGHTS model only. While two or more Armiger models are under the effects of the bearer’s Bondsman ability, melee weapons equipped by those ARMIGER models have the [precision] ability."
         },
         {
           "id": "4d41525449414c2054554954494f4e",
           "name": "Martial Tuition",
-          "points": 15
+          "points": 15,
+          "description": "IMPERIAL KNIGHTS model only. While two or more Armiger models arc under the effects of the bearer’s Bondsman ability, once per turn, you can target one of those ARMIGER models with the Counter-offensive Stratagem for 0CP."
         },
         {
           "id": "4d454e544f52e2809953205052494445",
           "name": "Mentor’s Pride",
-          "points": 20
+          "points": 20,
+          "description": "IMPERIAL KNIGHTS model only. While two or more Armiger models are under the effects of the bearers Bondsman ability, each time each of those ARMIGER models makes an attack, you can re-roll a Hit roll of 1."
         },
         {
           "id": "54414c4553204f46204845524f49534d",
           "name": "Tales of Heroism",
-          "points": 10
+          "points": 10,
+          "description": "IMPERIAL KNIGHTS model only. While two or more Armiger models are under the effects of the bearer’s Bondsman ability, each time one of those ARMIGER models makes a melee attack, you can ignore any or all modifiers to the Hit roll and/or the Wound roll."
         }
       ],
       "stratagems": [
@@ -801,16 +821,6 @@
           "effect": "Select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time one of your ARMIGER models makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1."
         },
         {
-          "name": "Virtue Of Courage",
-          "cp": 1,
-          "category": "Battle Tactic",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Start of the Fight phase.",
-          "target": "One Armiger model from your army, or one Imperial Knights Titanic model from your army, and one or more friendly ARMIGER models affected by that model’s Bondsman ability.",
-          "effect": "Select one enemy unit. Until the end of the phase, each time one of your ARMIGER models makes an attack that targets that enemy unit, add 1 to the Hit roll."
-        },
-        {
           "name": "Thin Their Ranks",
           "cp": 1,
           "category": "Battle Tactic",
@@ -819,6 +829,16 @@
           "when": "Start of your Shooting phase.",
           "target": "One Armiger model from your army, or one Imperial Knights Titanic model from your army, and one or more friendly ARMIGER models affected by that model’s Bondsman ability.",
           "effect": "Until the end of the phase, ranged weapons equipped by your ARMIGER models have the [RAPID FIRE 1] ability."
+        },
+        {
+          "name": "Virtue Of Courage",
+          "cp": 1,
+          "category": "Battle Tactic",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Start of the Fight phase.",
+          "target": "One Armiger model from your army, or one Imperial Knights Titanic model from your army, and one or more friendly ARMIGER models affected by that model’s Bondsman ability.",
+          "effect": "Select one enemy unit. Until the end of the phase, each time one of your ARMIGER models makes an attack that targets that enemy unit, add 1 to the Hit roll."
         },
         {
           "name": "Let Duty Be Your Shield",
@@ -866,25 +886,17 @@
         {
           "id": "414e4345535452414c204f564552424c45454420285550475241444529",
           "name": "Ancestral Overbleed (Upgrade)",
-          "points": 10
+          "points": 10,
+          "description": "ARMIGER unit only. When you target this unit with the Fire Overwatch/Heroic Intervention stratagem, that use is -1 CP."
         },
         {
           "id": "4759524f2d4f5054494d49534544204143545541544f525320285550475241444529",
           "name": "Gyro-optimised Actuators (Upgrade)",
-          "points": 15
+          "points": 15,
+          "description": "ARMIGER unit only. This unit has MOBILE."
         }
       ],
       "stratagems": [
-        {
-          "name": "Helm Conditioning",
-          "cp": 1,
-          "category": "Throne-Bonded Outriders",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase, when a friendly IMPERIAL KNIGHTS unit uses a Bondsman ability.",
-          "target": "That IMPERIAL KNIGHTS unit.",
-          "effect": "When selecting an ARMIGER model for that Bondsman ability, you can select one within 18\" of your unit (excluding models already affected by a Bondsman ability)."
-        },
         {
           "name": "Honoured To Serve",
           "cp": 1,
@@ -904,6 +916,16 @@
           "when": "Command phase.",
           "target": "One friendly IMPERIAL KNIGHTS TITANIC unit.",
           "effect": "Select one friendly battle-shocked ARMIGER unit within 12\" of your unit. That ARMIGER unit is no longer battle-shocked."
+        },
+        {
+          "name": "Helm Conditioning",
+          "cp": 1,
+          "category": "Throne-Bonded Outriders",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Your Command phase, when a friendly IMPERIAL KNIGHTS unit uses a Bondsman ability.",
+          "target": "That IMPERIAL KNIGHTS unit.",
+          "effect": "When selecting an ARMIGER model for that Bondsman ability, you can select one within 18\" of your unit (excluding models already affected by a Bondsman ability)."
         }
       ],
       "rules": [
@@ -921,35 +943,29 @@
         {
           "id": "424541524552204f4620544845204556414e455343454e5420494f4e",
           "name": "Bearer of the Evanescent Ion",
-          "points": 15
+          "points": 15,
+          "description": "IMPERIAL KNIGHTS model only. At the end of your Movement phase, select one other IMPERIAL KNIGHTS model from your army that is within 12\" of and visible to the bearer. Until the start of your next Movement phase, that selected model has the Stealth ability."
         },
         {
           "id": "424541524552204f46205448452049524f4e204348414c494345",
           "name": "Bearer of the Iron Chalice",
-          "points": 20
+          "points": 20,
+          "description": "IMPERIAL KNIGHTS model only. At the end of your Movement phase, select one other IMPERIAL KNIGHTS model from your army that is within 12\" of and visible to the bearer. That selected model regains up to D3 lost wounds, or up to 3 lost wounds if your army is Honoured."
         },
         {
           "id": "424541524552204f4620544845204a55444943414e54e28099532048454c4d",
           "name": "Bearer of the Judicant’s Helm",
-          "points": 25
+          "points": 25,
+          "description": "IMPERIAL KNIGHTS model only. At the start of your Shooting phase, select one other IMPERIAL KNIGHTS model from your army that is within 12\" of and visible to the bearer. Until the end of the phase, ranged weapons equipped by that selected model have the [ignores cover] ability."
         },
         {
           "id": "424541524552204f4620544845204c414e434552e280995320534947494c",
           "name": "Bearer of the Lancer’s Sigil",
-          "points": 25
+          "points": 25,
+          "description": "IMPERIAL KNIGHTS model only. At the start of your Charge phase, select one other IMPERIAL KNIGHTS model from your army that is within 12\" of and visible to the bearer. Until the end of the phase, you can re-roll Charge rolls made for that selected model."
         }
       ],
       "stratagems": [
-        {
-          "name": "Full Tilt",
-          "cp": 2,
-          "category": "Battle Tactic",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase.",
-          "target": "One Imperial Knights unit from your army that has not been selected to move this phase.",
-          "effect": "Until the end of the phase, add 2\" to the Move characteristic of your models and add 2 to Advance rolls made for those model’s units."
-        },
         {
           "name": "Thunderstomp",
           "cp": 1,
@@ -959,6 +975,16 @@
           "when": "Fight phase.",
           "target": "One Imperial Knights model from your army that has not been selected to fight this phase.",
           "effect": "Until the end of the phase, the Attacks characteristic of any armoured Feet melee weapons equipped by your model is 8, the Attacks characteristic of any titanic Feet melee weapons equipped by your model is 12, and improve the Armour Penetration characteristic of those weapons by 1."
+        },
+        {
+          "name": "Full Tilt",
+          "cp": 2,
+          "category": "Battle Tactic",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase.",
+          "target": "One Imperial Knights unit from your army that has not been selected to move this phase.",
+          "effect": "Until the end of the phase, add 2\" to the Move characteristic of your models and add 2 to Advance rolls made for those model’s units."
         },
         {
           "name": "Tactical Foil",

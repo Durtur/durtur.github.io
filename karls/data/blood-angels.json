@@ -1440,25 +1440,39 @@
         {
           "id": "424c415a494e472049434f4e",
           "name": "Blazing Icon",
-          "points": 20
+          "points": 20,
+          "description": "ADEPTUS ASTARTES model only. Enemy units cannot target this unit with snap shooting attacks."
         },
         {
           "id": "4f524441494e454420534143524946494345",
           "name": "Ordained Sacrifice",
-          "points": 25
+          "points": 25,
+          "description": "ADEPTUS ASTARTES model only. (Once per battle, per army) At the end of a phase in which this model is destroyed, roll one D6:\n\n■ On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed, unengaged, with 3 wounds remaining."
         },
         {
           "id": "505245534349454e5420464c415348",
           "name": "Prescient Flash",
-          "points": 25
+          "points": 25,
+          "description": "ADEPTUS ASTARTES model only. This unit has Scouts 6\"."
         },
         {
           "id": "554e544f204445415448",
           "name": "Unto Death",
-          "points": 15
+          "points": 15,
+          "description": "ADEPTUS ASTARTES model only. (Once per battle, per army) In your Command phase you can use this ability. If you do, until the end of the turn this unit can:\n\n■ Re-roll advance rolls.\n\n■ Re-roll charge rolls."
         }
       ],
       "stratagems": [
+        {
+          "name": "In The Shadow Of Great Wings",
+          "cp": 1,
+          "category": "Angelic Inheritors",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly Adeptus Astartes Character unit.",
+          "target": "That ADEPTUS ASTARTES CHARACTER unit.",
+          "effect": "Your unit has:\n\nStealth.\n-3\" detection range."
+        },
         {
           "name": "Instant Of Grace",
           "cp": 1,
@@ -1480,26 +1494,6 @@
           "effect": "Your unit’s ranged attacks have [SUSTAINED HITS 1]."
         },
         {
-          "name": "Focused Fury",
-          "cp": 1,
-          "category": "Angelic Inheritors",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, when a friendly ADEPTUS ASTARTES unit is selected to fight.",
-          "target": "That ADEPTUS ASTARTES unit.",
-          "effect": "Your unit’s melee attacks:\n\nHave [LETHAL HITS].\nOr: If your unit is a Character unit, have [LETHAL HITS], [LANCE]."
-        },
-        {
-          "name": "In The Shadow Of Great Wings",
-          "cp": 1,
-          "category": "Angelic Inheritors",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly Adeptus Astartes Character unit.",
-          "target": "That ADEPTUS ASTARTES CHARACTER unit.",
-          "effect": "Your unit has:\n\nStealth.\n-3\" detection range."
-        },
-        {
           "name": "Unto The Burning Skies",
           "cp": 1,
           "category": "Angelic Inheritors",
@@ -1518,6 +1512,16 @@
           "when": "Your Command phase.",
           "target": "One friendly Adeptus Astartes Character unit.",
           "effect": "Select one combat doctrine. That combat doctrine is active for your unit until the start of your next Command phase."
+        },
+        {
+          "name": "Focused Fury",
+          "cp": 1,
+          "category": "Angelic Inheritors",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when a friendly ADEPTUS ASTARTES unit is selected to fight.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Your unit’s melee attacks:\n\nHave [LETHAL HITS].\nOr: If your unit is a Character unit, have [LETHAL HITS], [LANCE]."
         }
       ],
       "rules": [
@@ -1535,15 +1539,27 @@
         {
           "id": "465552494f55532041535341554c5420285550475241444529",
           "name": "Furious Assault (Upgrade)",
-          "points": 10
+          "points": 10,
+          "description": "Adeptus Astartes Infantry unit only. This unit’s melee attacks have [Sustained Hits 1: non-Monster/Vehicle]."
         },
         {
           "id": "494d50455249554de28099532053574f5244",
           "name": "Imperium’s Sword",
-          "points": 20
+          "points": 20,
+          "description": "ADEPTUS ASTARTES model only. This model has the following weapon:"
         }
       ],
       "stratagems": [
+        {
+          "name": "Armour Of Contempt",
+          "cp": 1,
+          "category": "Assault Brethren",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
+        },
         {
           "name": "Duty In Death",
           "cp": 1,
@@ -1563,16 +1579,6 @@
           "when": "Fight phase, when a friendly ADEPTUS ASTARTES unit is selected to fight.",
           "target": "That ADEPTUS ASTARTES unit.",
           "effect": "Your unit’s melee attacks have:\n\n[Lance].\nOr: If the assault doctrine is active for your unit, [Lance] and +1 AP."
-        },
-        {
-          "name": "Armour Of Contempt",
-          "cp": 1,
-          "category": "Assault Brethren",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
-          "target": "That ADEPTUS ASTARTES unit.",
-          "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
         }
       ],
       "rules": [
@@ -1590,19 +1596,20 @@
         {
           "id": "424541434f4e20414e47454c4953",
           "name": "Beacon Angelis",
-          "points": 25
+          "points": 25,
+          "description": "ADEPTUS ASTARTES model only. If this unit is a Kill Team unit, this unit has:\n\n■ Deep Strike.\n\n■ When you target this unit with the Rapid Ingress Stratagem, that use is -1CP."
         }
       ],
       "stratagems": [
         {
-          "name": "Dragonfire Rounds",
+          "name": "Hellfire Rounds",
           "cp": 1,
           "category": "Deathwatch Support",
           "turn": "Your turn",
           "phase": "Shooting phase",
           "when": "Your Shooting phase when a KILL TEAM unit is selected to shoot.",
           "target": "That KILL TEAM unit.",
-          "effect": "Your unit’s ranged attacks:\n\nCan re-roll wound rolls of 1.\nHave [IGNORES COVER]."
+          "effect": "Your unit’s ranged attacks (excluding [DEVASTATING WOUNDS] attacks) have [ANTI-non-VEHICLE 4+]."
         },
         {
           "name": "Kraken Rounds",
@@ -1615,6 +1622,16 @@
           "effect": "Your unit’s ranged attacks have:\n\nHave +6\" R.\nHave +1 S."
         },
         {
+          "name": "Dragonfire Rounds",
+          "cp": 1,
+          "category": "Deathwatch Support",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase when a KILL TEAM unit is selected to shoot.",
+          "target": "That KILL TEAM unit.",
+          "effect": "Your unit’s ranged attacks:\n\nCan re-roll wound rolls of 1.\nHave [IGNORES COVER]."
+        },
+        {
           "name": "Blackstar Extraction",
           "cp": 1,
           "category": "Deathwatch Support",
@@ -1623,16 +1640,6 @@
           "when": "End of your opponent’s Fight phase.",
           "target": "One friendly unengaged KILL TEAM unit.",
           "effect": "Place your unit in strategic reserves."
-        },
-        {
-          "name": "Hellfire Rounds",
-          "cp": 1,
-          "category": "Deathwatch Support",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase when a KILL TEAM unit is selected to shoot.",
-          "target": "That KILL TEAM unit.",
-          "effect": "Your unit’s ranged attacks (excluding [DEVASTATING WOUNDS] attacks) have [ANTI-non-VEHICLE 4+]."
         }
       ],
       "rules": [
@@ -1650,15 +1657,27 @@
         {
           "id": "484f4e4f5552204f4620564947494c414e4345",
           "name": "Honour of Vigilance",
-          "points": 20
+          "points": 20,
+          "description": "ADEPTUS ASTARTES model only.\n\n■ This unit’s ranged attacks have [Lethal Hits].\n\n■ If the devastator doctrine is active for this unit, this unit can re-roll advance rolls."
         },
         {
           "id": "4d41535445522d464f52474544204649524541524d53",
           "name": "Master-forged Firearms",
-          "points": 15
+          "points": 15,
+          "description": "Adeptus Astartes Infantry/Mounted model only. This model’s ranged attacks (excluding [Psychic] attacks) have +1 A, S, AP and D."
         }
       ],
       "stratagems": [
+        {
+          "name": "Armour Of Contempt",
+          "cp": 1,
+          "category": "Devastator Brethren",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
+        },
         {
           "name": "Hail Of Vengeance",
           "cp": 2,
@@ -1678,16 +1697,6 @@
           "when": "Your Shooting phase, when a friendly ADEPTUS ASTARTES unit is selected to shoot.",
           "target": "That ADEPTUS ASTARTES unit.",
           "effect": "Your unit’s ranged attacks have:\n\n[Ignores Cover].\nOr: If the devastator doctrine is active for your unit, [Ignores Cover] and +1 AP."
-        },
-        {
-          "name": "Armour Of Contempt",
-          "cp": 1,
-          "category": "Devastator Brethren",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
-          "target": "That ADEPTUS ASTARTES unit.",
-          "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
         }
       ],
       "rules": [
@@ -1705,25 +1714,17 @@
         {
           "id": "414e47454c494320455845435554494f4e4552",
           "name": "Angelic Executioner",
-          "points": 20
+          "points": 20,
+          "description": "Adeptus Astartes Jump Pack model only. When this unit is selected to fight, this unit’s melee attacks have:\n\n■ [LETHAL HITS].\n\n■ Or: [SUSTAINED HITS 1]"
         },
         {
           "id": "534841444f57204f462041424f4d494e4154494f4e",
           "name": "Shadow of Abomination",
-          "points": 15
+          "points": 15,
+          "description": "Adeptus Astartes Jump Pack model only. (once per battle, per army) When this unit is selected to fight you can use this ability. If you do, this model’s melee attacks have +1 D."
         }
       ],
       "stratagems": [
-        {
-          "name": "Judgement Of The Golden Host",
-          "cp": 1,
-          "category": "Encarmine Speartip",
-          "turn": "Your turn",
-          "phase": "Charge phase",
-          "when": "Your Charge phase, when a friendly Sanguinary Guard unit form your army ends a charge move.",
-          "target": "That SANGUINARY GUARD unit.",
-          "effect": "Select one enemy unit engaged with your unit. Roll one D6 for each model in your unit engaged with that enemy unit:\n\nFor each 3+, that enemy unit suffers 1 mortal wound."
-        },
         {
           "name": "Inexorable Valour",
           "cp": 1,
@@ -1733,6 +1734,16 @@
           "when": "Your opponent’s Movement phase, when an enemy unit that was engaged with a friendly Sanguinary Guard unit ends a fall-back move, if that SANGUINARY GUARD unit is unengaged.",
           "target": "That SANGUINARY GUARD unit.",
           "effect": "Your unit can make a normal move of up to D3+3\"."
+        },
+        {
+          "name": "Judgement Of The Golden Host",
+          "cp": 1,
+          "category": "Encarmine Speartip",
+          "turn": "Your turn",
+          "phase": "Charge phase",
+          "when": "Your Charge phase, when a friendly Sanguinary Guard unit form your army ends a charge move.",
+          "target": "That SANGUINARY GUARD unit.",
+          "effect": "Select one enemy unit engaged with your unit. Roll one D6 for each model in your unit engaged with that enemy unit:\n\nFor each 3+, that enemy unit suffers 1 mortal wound."
         },
         {
           "name": "Blinding Blurs Of Vengeance",
@@ -1760,25 +1771,17 @@
         {
           "id": "44414d4f434c45532d434c4153532055504c494e4b",
           "name": "Damocles-class Uplink",
-          "points": 15
+          "points": 15,
+          "description": "Captain model only. In your Movement phase, if this unit is embarked within a Transport unit, you can select one friendly Adeptus Astartes Infantry unit within 6\" of that TRANSPORT unit and select one combat doctrine. That combat doctrine is active for that INFANTRY unit."
         },
         {
           "id": "4c494e45425245414b4552204f4e534c4155474854",
           "name": "Linebreaker Onslaught",
-          "points": 20
+          "points": 20,
+          "description": "Adeptus Astartes Infantry model only. If this unit disembarked this turn:\n\n■ This unit can re-roll charge rolls.\n\n■ Enemy units cannot target this unit with snap shooting attacks."
         }
       ],
       "stratagems": [
-        {
-          "name": "Storm And Secure",
-          "cp": 1,
-          "category": "Gauntlet Task Force",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "End of your Movement phase.",
-          "target": "One friendly Adeptus Astartes Transport unit that has an Adeptus Astartes Battleline unit embarked within it.",
-          "effect": "Select one objective your unit is controlling. That objective is secured."
-        },
         {
           "name": "Duty Is Never Done",
           "cp": 1,
@@ -1788,6 +1791,16 @@
           "when": "End of the Fight phase.",
           "target": "One friendly unengaged Adeptus Astartes Infantry unit that was eligible to fight this phase, is wholly within 6\" of a friendly Transport unit, and is eligible to embark within that TRANSPORT unit.",
           "effect": "Your unit embarks within that TRANSPORT unit."
+        },
+        {
+          "name": "Storm And Secure",
+          "cp": 1,
+          "category": "Gauntlet Task Force",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "End of your Movement phase.",
+          "target": "One friendly Adeptus Astartes Transport unit that has an Adeptus Astartes Battleline unit embarked within it.",
+          "effect": "Select one objective your unit is controlling. That objective is secured."
         },
         {
           "name": "Aggressive Disembarkation",
@@ -1815,44 +1828,38 @@
         {
           "id": "4144455054204f462054484520434f444558",
           "name": "Adept of the Codex",
-          "points": 20
+          "points": 20,
+          "description": "Captain model only. The tactical doctrine is active for this unit in addition to any other combat doctrine."
         },
         {
           "id": "4152544946494345522041524d4f5552",
           "name": "Artificer Armour",
-          "points": 15
+          "points": 15,
+          "description": "ADEPTUS ASTARTES model only. This model has:\n\n■ 2+ Sv.\n\n■ Feel No Pain 5+."
         },
         {
           "id": "4c415552454c53204f4620545249554d5048",
           "name": "Laurels of Triumph",
-          "points": 20
+          "points": 20,
+          "description": "ADEPTUS ASTARTES model only. This model’s melee attacks have:\n\n■ +1 S and AP.\n\n■ Or: If the assault doctrine is active for this unit, +2 S and AP."
         },
         {
           "id": "5354414e44415244204f462054484520454d5045524f5220415343454e44414e54",
           "name": "Standard of the Emperor Ascendant",
-          "points": 25
+          "points": 25,
+          "description": "Ancient model only. This model has:\n\n■ +1 OC and Ld.\n\n■ Feel No Pain 5+.\n\n■ The following ability:\n\nAncient Exhortation (Once per battle, per army): When this unit is selected to fight, you can use this ability. If you do, this unit’s melee attacks have +1 A until the end of the phase."
         }
       ],
       "stratagems": [
         {
-          "name": "Armour Of Contempt",
+          "name": "Storm Of Devastation",
           "cp": 1,
           "category": "Gladius Task Force",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase, when a friendly ADEPTUS ASTARTES unit is selected to shoot.",
           "target": "That ADEPTUS ASTARTES unit.",
-          "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
-        },
-        {
-          "name": "A Worthy Death",
-          "cp": 1,
-          "category": "Gladius Task Force",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
-          "target": "That ADEPTUS ASTARTES unit.",
-          "effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6:\n\nOn a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
+          "effect": "Your unit’s ranged attacks have [IGNORES COVER]."
         },
         {
           "name": "Responsive Tactics",
@@ -1865,24 +1872,24 @@
           "effect": "Your unit can make a normal move of up to D6\"."
         },
         {
-          "name": "Storm Of Devastation",
+          "name": "A Worthy Death",
           "cp": 1,
           "category": "Gladius Task Force",
-          "turn": "Your turn",
-          "phase": "Shooting phase",
-          "when": "Your Shooting phase, when a friendly ADEPTUS ASTARTES unit is selected to shoot.",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
           "target": "That ADEPTUS ASTARTES unit.",
-          "effect": "Your unit’s ranged attacks have [IGNORES COVER]."
+          "effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6:\n\nOn a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
         },
         {
-          "name": "Adaptive Strategy",
+          "name": "Armour Of Contempt",
           "cp": 1,
           "category": "Gladius Task Force",
-          "turn": "Your turn",
-          "phase": "Command phase",
-          "when": "Your Command phase.",
-          "target": "One friendly ADEPTUS ASTARTES unit.",
-          "effect": "Select one combat doctrine. That combat doctrine is active for your unit until the start of your next Command phase."
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
         },
         {
           "name": "Might Of Angels",
@@ -1893,6 +1900,16 @@
           "when": "Fight phase, when a friendly ADEPTUS ASTARTES unit is selected to fight.",
           "target": "That ADEPTUS ASTARTES unit.",
           "effect": "Your unit’s melee attacks have [Lance]."
+        },
+        {
+          "name": "Adaptive Strategy",
+          "cp": 1,
+          "category": "Gladius Task Force",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Your Command phase.",
+          "target": "One friendly ADEPTUS ASTARTES unit.",
+          "effect": "Select one combat doctrine. That combat doctrine is active for your unit until the start of your next Command phase."
         }
       ],
       "rules": [
@@ -1910,15 +1927,27 @@
         {
           "id": "494e4445464154494741424c4520464f52544954554445",
           "name": "Indefatigable Fortitude",
-          "points": 20
+          "points": 20,
+          "description": "Gravis model only. Attacks that target this unit with a S greater than this unit’s T have -1 to wound rolls."
         },
         {
           "id": "52454c454e544c45535320414456414e4345",
           "name": "Relentless Advance",
-          "points": 20
+          "points": 20,
+          "description": "Gravis model only. This unit has Scouts 5\"."
         }
       ],
       "stratagems": [
+        {
+          "name": "Armoured Impact",
+          "cp": 1,
+          "category": "Gravis Linebreaker Force",
+          "turn": "Your turn",
+          "phase": "Charge phase",
+          "when": "Your Charge phase, when a friendly Gravis unit ends a charge move.",
+          "target": "That GRAVIS unit.",
+          "effect": "When your unit ends a charge move, you can select one enemy unit engaged with your unit. If you do, roll one D6 for each model in your unit engaged with that enemy unit:\n\nFor each 3+, that enemy unit suffers 1 mortal wound."
+        },
         {
           "name": "Annihilating Force",
           "cp": 1,
@@ -1938,16 +1967,6 @@
           "when": "Your Shooting phase, when a friendly Gravis unit has shot.",
           "target": "That GRAVIS unit.",
           "effect": "If your unit is unengaged, your unit can make a normal move of up to 5\", and must end that move within range of an objective.\nYour unit is not eligible to declare a charge or embark within a Transport until the end of the turn."
-        },
-        {
-          "name": "Armoured Impact",
-          "cp": 1,
-          "category": "Gravis Linebreaker Force",
-          "turn": "Your turn",
-          "phase": "Charge phase",
-          "when": "Your Charge phase, when a friendly Gravis unit ends a charge move.",
-          "target": "That GRAVIS unit.",
-          "effect": "When your unit ends a charge move, you can select one enemy unit engaged with your unit. If you do, roll one D6 for each model in your unit engaged with that enemy unit:\n\nFor each 3+, that enemy unit suffers 1 mortal wound."
         }
       ],
       "rules": [
@@ -1965,12 +1984,14 @@
         {
           "id": "494d4d4f5641424c4520434f4e515545524f525320285550475241444529",
           "name": "Immovable Conquerors (Upgrade)",
-          "points": 15
+          "points": 15,
+          "description": "Gravis unit only. This unit has +1 OC."
         },
         {
           "id": "4e4152544845434953204741554e544c4554",
           "name": "Narthecis Gauntlet",
-          "points": 20
+          "points": 20,
+          "description": "Apothecary Biologis model only. in your Command phase, this unit heals D3+1 wounds."
         }
       ],
       "stratagems": [
@@ -1985,16 +2006,6 @@
           "effect": "Select one enemy unit hit by those attacks. That enemy unit makes a battle-shock roll, with -1 to that battle-shock roll."
         },
         {
-          "name": "Annihilating Force",
-          "cp": 1,
-          "category": "Gravis Siege Force",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your Shooting phase or the Fight phase, when a friendly Gravis unit is selected to attack.",
-          "target": "That GRAVIS unit.",
-          "effect": "Your unit’s attacks have [Lethal Hits]."
-        },
-        {
           "name": "Stand Unyielding",
           "cp": 1,
           "category": "Gravis Siege Force",
@@ -2003,6 +2014,16 @@
           "when": "End of your Movement phase.",
           "target": "One friendly Gravis unit.",
           "effect": "Select one objective your unit is controlling. That objective is secured."
+        },
+        {
+          "name": "Annihilating Force",
+          "cp": 1,
+          "category": "Gravis Siege Force",
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your Shooting phase or the Fight phase, when a friendly Gravis unit is selected to attack.",
+          "target": "That GRAVIS unit.",
+          "effect": "Your unit’s attacks have [Lethal Hits]."
         }
       ],
       "rules": [
@@ -2020,15 +2041,27 @@
         {
           "id": "41525449464943455220534152434f50484147555320285550475241444529",
           "name": "Artificer Sarcophagus (Upgrade)",
-          "points": 40
+          "points": 40,
+          "description": "Dreadnought unit only. Attacks that target this unit have -1 D."
         },
         {
           "id": "56454e455241424c45204348414d50494f4e2028415552412920285550475241444529",
           "name": "Venerable Champion (Aura) (Upgrade)",
-          "points": 30
+          "points": 30,
+          "description": "Dreadnought unit only. While a friendly Adeptus Astartes Infantry/Mounted unit is within 6\" of this unit, that unit’s attacks can re-roll hit rolls of 1."
         }
       ],
       "stratagems": [
+        {
+          "name": "Adamantine Terror",
+          "cp": 1,
+          "category": "Ironclad Champions",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Start of the Fight phase.",
+          "target": "One friendly Dreadnought unit.",
+          "effect": "Each enemy unit engaged with your unit makes a battle-shock roll, with -1 to that battle-shock roll."
+        },
         {
           "name": "Upstoppable Advance",
           "cp": 1,
@@ -2048,16 +2081,6 @@
           "when": "Your Shooting phase or the Fight phase, when a friendly Dreadnought unit is selected to attack.",
           "target": "That DREADNOUGHT unit.",
           "effect": "Your unit’s attacks have:\n\n[lethal hits].\nOr: [Sustained Hits 1]."
-        },
-        {
-          "name": "Adamantine Terror",
-          "cp": 1,
-          "category": "Ironclad Champions",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Start of the Fight phase.",
-          "target": "One friendly Dreadnought unit.",
-          "effect": "Each enemy unit engaged with your unit makes a battle-shock roll, with -1 to that battle-shock roll."
         }
       ],
       "rules": [
@@ -2075,25 +2098,17 @@
         {
           "id": "47554e4e45525920484f4e4f55525320285550475241444529",
           "name": "Gunnery Honours (Upgrade)",
-          "points": 15
+          "points": 15,
+          "description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units). This unit’s ranged attacks have [Heavy]."
         },
         {
           "id": "5245444f55425441424c45204d414348494e452053504952495420285550475241444529",
           "name": "Redoubtable Machine Spirit (Upgrade)",
-          "points": 25
+          "points": 25,
+          "description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units). This unit:\n\n■ Has 5+ InSv.\n\n■ At the end of your Command phase, heals 1 wound."
         }
       ],
       "stratagems": [
-        {
-          "name": "Layered Ceramite",
-          "cp": 1,
-          "category": "Ironstorm Spearhead",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Any phase, when a friendly Adeptus Astartes Vehicle unit suffers a mortal wound.",
-          "target": "That ADEPTUS ASTARTES VEHICLE unit.",
-          "effect": "Your unit has Feel No Pain 5+ against mortal wounds."
-        },
         {
           "name": "Might Of The Machine Spirit",
           "cp": 1,
@@ -2103,6 +2118,16 @@
           "when": "Your Command phase.",
           "target": "One friendly Adeptus Astartes Vehicle unit (excluding Dedicated Transport/Fly/Walker units).",
           "effect": "Until the start of your next Command phase, your unit can ignore modifiers to your unit’s:\n\nM.\nBS.\nHit rolls and wound rolls."
+        },
+        {
+          "name": "Layered Ceramite",
+          "cp": 1,
+          "category": "Ironstorm Spearhead",
+          "turn": "Either player’s turn",
+          "phase": "Any phase",
+          "when": "Any phase, when a friendly Adeptus Astartes Vehicle unit suffers a mortal wound.",
+          "target": "That ADEPTUS ASTARTES VEHICLE unit.",
+          "effect": "Your unit has Feel No Pain 5+ against mortal wounds."
         },
         {
           "name": "Headhunter Doctrine",
@@ -2130,15 +2155,27 @@
         {
           "id": "4558454355544520414e442052454445504c4f59",
           "name": "Execute and Redeploy",
-          "points": 25
+          "points": 25,
+          "description": "Phobos model only. In your Shooting phase, after this unit has shot, if this unit is unengaged, this unit can make a normal move of up to 6\". If it does, this unit is not eligible to declare a charge until the end of the turn."
         },
         {
           "id": "56454e41544f52204f4d4e492d415553504558",
           "name": "Venator Omni-auspex",
-          "points": 15
+          "points": 15,
+          "description": "Phobos model only. This unit’s attacks that target a hidden unit can:\n\n■ Re-roll wound rolls of 1.\n\n■ Or: If the assault doctrine is active for this unit, re-roll wound rolls of 1 and 2."
         }
       ],
       "stratagems": [
+        {
+          "name": "Tactical Withdrawal",
+          "cp": 1,
+          "category": "Phobos Shadow Force",
+          "turn": "Opponent’s turn",
+          "phase": "Fight phase",
+          "when": "End of your opponent’s Fight phase.",
+          "target": "One friendly unengaged Phobos/Scout SQUAD unit.",
+          "effect": "Place your unit in strategic reserves."
+        },
         {
           "name": "Mortis Snares",
           "cp": 1,
@@ -2158,16 +2195,6 @@
           "when": "Your Shooting phase or the Fight phase, when a friendly hidden Phobos unit is selected to attack.",
           "target": "That PHOBOS unit.",
           "effect": "Your unit’s attacks have:\n\n+1 S.\n[Lethal Hits]."
-        },
-        {
-          "name": "Tactical Withdrawal",
-          "cp": 1,
-          "category": "Phobos Shadow Force",
-          "turn": "Opponent’s turn",
-          "phase": "Fight phase",
-          "when": "End of your opponent’s Fight phase.",
-          "target": "One friendly unengaged Phobos/Scout SQUAD unit.",
-          "effect": "Place your unit in strategic reserves."
         }
       ],
       "rules": [
@@ -2185,12 +2212,14 @@
         {
           "id": "5345414c204f46205348524f5544494e47",
           "name": "Seal of Shrouding",
-          "points": 15
+          "points": 15,
+          "description": "Phobos model only. Enemy units cannot target this unit with snap shooting attacks."
         },
         {
           "id": "56454e41544f52204f4d4e492d415553504558",
           "name": "Venator Omni-auspex",
-          "points": 15
+          "points": 15,
+          "description": "Phobos model only. This unit’s attacks that target a hidden unit can:\n\n■ Re-roll wound rolls of 1.\n\n■ Or: If the assault doctrine is active for this unit, re-roll wound rolls of 1-2."
         }
       ],
       "stratagems": [
@@ -2205,16 +2234,6 @@
           "effect": "Your unit’s attacks have:\n\n+1 S.\n[Lethal Hits]."
         },
         {
-          "name": "Umbral Evasion",
-          "cp": 1,
-          "category": "Phobos Shock Force",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly Phobos unit.",
-          "target": "That PHOBOS unit.",
-          "effect": "Ranged attacks that target your unit have -1 to hit rolls."
-        },
-        {
           "name": "Transhuman Reactions",
           "cp": 1,
           "category": "Phobos Shock Force",
@@ -2223,6 +2242,16 @@
           "when": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Phobos unit.",
           "target": "That PHOBOS unit.",
           "effect": "Your unit can make a normal move of:\n\nUp to D6\".\nOr: If the tactical doctrine is active for your unit, up to 6\"."
+        },
+        {
+          "name": "Umbral Evasion",
+          "cp": 1,
+          "category": "Phobos Shock Force",
+          "turn": "Opponent’s turn",
+          "phase": "Shooting phase",
+          "when": "Your opponent’s Shooting phase, when an enemy unit targets a friendly Phobos unit.",
+          "target": "That PHOBOS unit.",
+          "effect": "Ranged attacks that target your unit have -1 to hit rolls."
         }
       ],
       "rules": [
@@ -2240,25 +2269,17 @@
         {
           "id": "41555350455820545249414e47554c4154494f4e20534852494e455320285550475241444529",
           "name": "Auspex Triangulation Shrines (Upgrade)",
-          "points": 10
+          "points": 10,
+          "description": "Adeptus Astartes speeder unit only. At the start of your Shooting phase, select one visible enemy unit within 12\" of this unit. That enemy unit is spotted:\n\n■ While a unit is spotted, that unit has +3\" detection range."
         },
         {
           "id": "53555045524348415247454420454e47494e455320285550475241444529",
           "name": "Supercharged Engines (Upgrade)",
-          "points": 10
+          "points": 10,
+          "description": "Adeptus Astartes Mounted unit only. This unit can re-roll advance rolls."
         }
       ],
       "stratagems": [
-        {
-          "name": "Sudden Onslaught",
-          "cp": 1,
-          "category": "Stormlance Task Force",
-          "turn": "Your turn",
-          "phase": "Movement phase",
-          "when": "Your Movement phase, when a friendly Adeptus Astartes Mounted/Speeder unit is selected to make an advance move.",
-          "target": "That ADEPTUS ASTARTES MOUNTED/SPEEDER unit.",
-          "effect": "Your unit can change its advance rolls to a 6."
-        },
         {
           "name": "Wind-Swift Evasion",
           "cp": 1,
@@ -2268,6 +2289,16 @@
           "when": "End of the Fight phase.",
           "target": "One friendly Adeptus Astartes Mounted unit that was eligible to fight this phase.",
           "effect": "If your unit is unengaged, your unit can make a normal move.\nOr: If your unit is engaged, your unit can make a fall-back move."
+        },
+        {
+          "name": "Sudden Onslaught",
+          "cp": 1,
+          "category": "Stormlance Task Force",
+          "turn": "Your turn",
+          "phase": "Movement phase",
+          "when": "Your Movement phase, when a friendly Adeptus Astartes Mounted/Speeder unit is selected to make an advance move.",
+          "target": "That ADEPTUS ASTARTES MOUNTED/SPEEDER unit.",
+          "effect": "Your unit can change its advance rolls to a 6."
         },
         {
           "name": "Hurtling Targets",
@@ -2295,24 +2326,26 @@
         {
           "id": "4c415552454c53204f4620564947494c414e4345",
           "name": "Laurels of Vigilance",
-          "points": 10
+          "points": 10,
+          "description": "ADEPTUS ASTARTES model only.(Once per battle round, per army) When you use the Fire Overwatch/Heroic Intervention stratagem, if you target a friendly Adeptus Astartes Battleline unit within 12\" of this model with that stratagem, that use is -1 CP."
         },
         {
           "id": "544143544943414c20494e5349474854",
           "name": "Tactical Insight",
-          "points": 15
+          "points": 15,
+          "description": "Captain model only. The tactical doctrine is active for this unit in addition to any other combat doctrine."
         }
       ],
       "stratagems": [
         {
-          "name": "Masterful Tactics",
+          "name": "Armour Of Contempt",
           "cp": 1,
           "category": "Tactical Brethren",
-          "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Adeptus Astartes Infantry/Mounted unit.",
-          "target": "That ADEPTUS ASTARTES INFANTRY/MOUNTED unit.",
-          "effect": "Your unit can make a normal move of:\n\nUp to D6\".\nOr: If the tactical doctrine is active for your unit, up to 6\"."
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "target": "That ADEPTUS ASTARTES unit.",
+          "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
         },
         {
           "name": "Domination Fire",
@@ -2325,14 +2358,14 @@
           "effect": "Select one enemy unit hit by those attacks. That enemy unit is suppressed until the start of your next turn:\n\nWhile a unit is suppressed, that unit’s attacks have -1 to hit rolls."
         },
         {
-          "name": "Armour Of Contempt",
+          "name": "Masterful Tactics",
           "cp": 1,
           "category": "Tactical Brethren",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
-          "target": "That ADEPTUS ASTARTES unit.",
-          "effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Adeptus Astartes Infantry/Mounted unit.",
+          "target": "That ADEPTUS ASTARTES INFANTRY/MOUNTED unit.",
+          "effect": "Your unit can make a normal move of:\n\nUp to D6\".\nOr: If the tactical doctrine is active for your unit, up to 6\"."
         }
       ],
       "rules": [
@@ -2350,25 +2383,17 @@
         {
           "id": "4d41525449414c2050415241474f4e",
           "name": "Martial Paragon",
-          "points": 10
+          "points": 10,
+          "description": "Tacticus model only. This unit’s attacks can:\n\n■ Re-roll one hit roll.\n\n■ Re-roll one wound roll."
         },
         {
           "id": "5350454152504f494e5420574152204c4541444552",
           "name": "Spearpoint War Leader",
-          "points": 15
+          "points": 15,
+          "description": "Tacticus model only. This unit has Scouts 6\"."
         }
       ],
       "stratagems": [
-        {
-          "name": "Transhuman Swiftness",
-          "cp": 1,
-          "category": "Tacticus Attack Force",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, when an enemy unit has fought.",
-          "target": "One friendly Tacticus unit that is within range of an objective and is eligible to fight.",
-          "effect": "Your unit has Fights First and must be the next unit you select to fight."
-        },
         {
           "name": "Tactical Focus",
           "cp": 1,
@@ -2388,6 +2413,16 @@
           "when": "Your Shooting phase or the Fight phase, when a friendly Tacticus unit is selected to attack.",
           "target": "That TACTICUS unit.",
           "effect": "Your unit’s attacks have:\n\n[Sustained Hits 1: non-Monster/Vehicle].\nOr: [Lethal Hits: Monster/Vehicle]."
+        },
+        {
+          "name": "Transhuman Swiftness",
+          "cp": 1,
+          "category": "Tacticus Attack Force",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when an enemy unit has fought.",
+          "target": "One friendly Tacticus unit that is within range of an objective and is eligible to fight.",
+          "effect": "Your unit has Fights First and must be the next unit you select to fight."
         }
       ],
       "rules": [
@@ -2405,25 +2440,17 @@
         {
           "id": "43594245522d46414d494c494152",
           "name": "Cyber-familiar",
-          "points": 15
+          "points": 15,
+          "description": "Tacticus model only. When both players have deployed their armies, you can redeploy up to three friendly Adeptus Astartes Infantry units. When doing so, you can set those units up in strategic reserves, regardless of how many units are already in strategic reserves."
         },
         {
           "id": "54454d504552454420494e20424154544c4520284155524129",
           "name": "Tempered in Battle (Aura)",
-          "points": 10
+          "points": 10,
+          "description": "Tacticus model only. Friendly ADEPTUS ASTARTES units within 6\" of this model can re-roll leadership rolls."
         }
       ],
       "stratagems": [
-        {
-          "name": "For The Emperor!",
-          "cp": 1,
-          "category": "Tacticus Firestorm Force",
-          "turn": "Either player’s turn",
-          "phase": "Command phase",
-          "when": "Command phase.",
-          "target": "One friendly Tacticus unit that is within range of an objective.",
-          "effect": "Your unit has +1 OC until the end of the turn."
-        },
         {
           "name": "Point-Blank Brutality",
           "cp": 1,
@@ -2433,6 +2460,16 @@
           "when": "Your Shooting phase, when a friendly engaged Tacticus unit is selected to shoot.",
           "target": "That TACTICUS unit.",
           "effect": "Your unit’s ranged attacks (excluding [Blast] attacks) have:\n\n[Close-Quarters].\n[Ignores Cover]."
+        },
+        {
+          "name": "For The Emperor!",
+          "cp": 1,
+          "category": "Tacticus Firestorm Force",
+          "turn": "Either player’s turn",
+          "phase": "Command phase",
+          "when": "Command phase.",
+          "target": "One friendly Tacticus unit that is within range of an objective.",
+          "effect": "Your unit has +1 OC until the end of the turn."
         },
         {
           "name": "Relentless Assault",
@@ -2460,24 +2497,26 @@
         {
           "id": "4348414d50494f4e204f462054484520464952535420434f4d50414e59",
           "name": "Champion of the First Company",
-          "points": 20
+          "points": 20,
+          "description": "Adeptus Astartes Terminator model only. This unit’s melee attacks have [Lethal Hits]."
         },
         {
           "id": "434f52504f5245554d2052454c495155415259",
           "name": "Corporeum Reliquary",
-          "points": 25
+          "points": 25,
+          "description": "Adeptus Astartes Terminator model only. In your first Movement phase, this unit can make an ingress move."
         }
       ],
       "stratagems": [
         {
-          "name": "Gunship Extraction",
-          "cp": 1,
+          "name": "Tactical Dreadnought Fortitude",
+          "cp": 2,
           "category": "Terminator Storm Force",
-          "turn": "Opponent’s turn",
-          "phase": "Fight phase",
-          "when": "End of your opponent’s Fight phase.",
-          "target": "One friendly unengaged adeptus astartes terminator unit.",
-          "effect": "Place your unit in strategic reserves."
+          "turn": "Either player’s turn",
+          "phase": "Shooting or Fight phase",
+          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly adeptus astartes Terminator unit.",
+          "target": "That ADEPTUS ASTARTES TERMINATOR unit.",
+          "effect": "Attacks that target your unit have -1 D until that enemy unit has attacked."
         },
         {
           "name": "Merciless Veterans",
@@ -2490,14 +2529,14 @@
           "effect": "Your unit’s ranged attacks have:\n\n[Lethal Hits].\n[Sustained Hits 1]."
         },
         {
-          "name": "Tactical Dreadnought Fortitude",
-          "cp": 2,
+          "name": "Gunship Extraction",
+          "cp": 1,
           "category": "Terminator Storm Force",
-          "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly adeptus astartes Terminator unit.",
-          "target": "That ADEPTUS ASTARTES TERMINATOR unit.",
-          "effect": "Attacks that target your unit have -1 D until that enemy unit has attacked."
+          "turn": "Opponent’s turn",
+          "phase": "Fight phase",
+          "when": "End of your opponent’s Fight phase.",
+          "target": "One friendly unengaged adeptus astartes terminator unit.",
+          "effect": "Place your unit in strategic reserves."
         }
       ],
       "rules": [
@@ -2515,12 +2554,14 @@
         {
           "id": "494e5354494e435449564520494e54455243455054494f4e",
           "name": "Instinctive Interception",
-          "points": 10
+          "points": 10,
+          "description": "Death Company model only. When you target this unit with the Heroic Intervention stratagem, that use is -1 CP."
         },
         {
           "id": "4f4e20544845204152434854524149544f52275320425249444745",
           "name": "On the Archtraitor's Bridge",
-          "points": 20
+          "points": 20,
+          "description": "Death Company model only. This model’s melee attacks have +2 A."
         }
       ],
       "stratagems": [
