@@ -2,7 +2,7 @@
   "slug": "adeptus-mechanicus",
   "name": "Adeptus Mechanicus",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:44:16.771Z",
+  "fetchedAt": "2026-11-03T19:24:27.551Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -931,7 +931,7 @@
           "phase": "Any phase",
           "when": "Any phase.",
           "target": "One ADEPTUS MECHANICUS unit from your army that was just destroyed while it was within range of an objective marker you controlled. You can use this Stratagem on that unit even though it was just destroyed.",
-          "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+          "effect": "That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
         },
         {
           "name": "Reactive Safeguard",
@@ -1233,7 +1233,7 @@
           "phase": "Fight phase",
           "when": "Fight phase, just after an enemy unit has selected its targets.",
           "target": "One ADEPTUS MECHANICUS unit from your army (excluding Vehicle units) that was selected as the target of one or more of that enemy unit’s attacks. If that unit is BATTLELINE, you can also target one friendly SKITARII unit (excluding BATTLELINE units) within 6\" of it.",
-          "effect": "Until the end of the turn, each time an attack is made that targets your unit, subtract 1 from the Wound roll."
+          "effect": "Until the end of the phase, each time an attack targets one of those units from your army, subtract 1 from the Wound roll."
         },
         {
           "name": "Pre-Calibrated Purge Solution",
@@ -1315,14 +1315,35 @@
       ],
       "stratagems": [
         {
-          "name": "Isolate And Destroy",
+          "name": "Expedited Purge Protocol",
           "cp": 1,
           "category": "Strategic Ploy",
           "turn": "Your turn",
+          "phase": "Charge phase",
+          "when": "Your Charge phase.",
+          "target": "One SKITARII unit from your army.",
+          "effect": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced."
+        },
+        {
+          "name": "Shroud Protocols",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
           "phase": "Shooting phase",
-          "when": "Your Shooting phase.",
-          "target": "One SICARIAN, PTERAXII, SYDONIAN,\nIRONSTRIDER BALLISTARII or SKITARII MOUNTED unit from your army that has not been selected to shoot this phase.",
-          "effect": "Until the end of the phase, each time a model in your unit makes an attack, if there are no other enemy units within 6\" of the unit targeted by that attack, add 1 to the Wound roll."
+          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+          "target": "One SKITARII INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "effect": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+        },
+        {
+          "name": "Programmed Withdrawal",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Fight phase",
+          "when": "End of your opponent’s Fight phase.",
+          "target": "Up to two SICARIAN units from your army, or one SKITARII INFANTRY or SKITARII MOUNTED unit from your army.",
+          "effect": "Remove those units from the battlefield and place them into Strategic Reserves.",
+          "restrictions": "Each unit targeted with this Stratagem must be more than 3\" away from all enemy units."
         },
         {
           "name": "Binharic Offence",
@@ -1336,45 +1357,24 @@
           "restrictions": "Until the end of the phase, each time a model in either of your units makes an attack, it can only target that enemy unit (and only if it is an eligible target]."
         },
         {
+          "name": "Isolate And Destroy",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Your turn",
+          "phase": "Shooting phase",
+          "when": "Your Shooting phase.",
+          "target": "One SICARIAN, PTERAXII, SYDONIAN,\nIRONSTRIDER BALLISTARII or SKITARII MOUNTED unit from your army that has not been selected to shoot this phase.",
+          "effect": "Until the end of the phase, each time a model in your unit makes an attack, if there are no other enemy units within 6\" of the unit targeted by that attack, add 1 to the Wound roll."
+        },
+        {
           "name": "Bionic Endurance",
           "cp": 1,
           "category": "Strategic Ploy",
           "turn": "Either player’s turn",
           "phase": "Shooting or Fight phase",
-          "when": "Your opponent’s Shooting phase orthe Fight phase, just after an enemy unit has selected its targets.",
+          "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
           "target": "One SICARIAN, PTERAXII or SYDONIAN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability."
-        },
-        {
-          "name": "Shroud Protocols",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Shooting phase",
-          "when": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-          "target": "One SKITARII INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
-        },
-        {
-          "name": "Expedited Purge Protocol",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Your turn",
-          "phase": "Charge phase",
-          "when": "Your Charge phase.",
-          "target": "One SKITARII unit from your army.",
-          "effect": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced."
-        },
-        {
-          "name": "Programmed Withdrawal",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Fight phase",
-          "when": "End of your opponent’s Fight phase.",
-          "target": "Up to two SICARIAN units from your army, or one SKITARII INFANTRY or SKITARII MOUNTED unit from your army.",
-          "effect": "Remove those units from the battlefield and place them into Strategic Reserves.",
-          "restrictions": "Each unit targeted with this Stratagem must be more than 3\" away from all enemy units."
         }
       ],
       "rules": [

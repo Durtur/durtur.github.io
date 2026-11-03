@@ -2,7 +2,7 @@
   "slug": "blood-angels",
   "name": "Blood Angels",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:44:16.771Z",
+  "fetchedAt": "2026-11-03T19:24:27.551Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -1283,26 +1283,6 @@
             {
               "models": 10,
               "points": 240
-            }
-          ]
-        },
-        {
-          "id": "444541544820434f4d50414e59204341505441494e",
-          "name": "DEATH COMPANY CAPTAIN",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 80
-            }
-          ]
-        },
-        {
-          "id": "444541544820434f4d50414e59204341505441494e2057495448204a554d50205041434b",
-          "name": "DEATH COMPANY CAPTAIN WITH JUMP PACK",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 85
             }
           ]
         },

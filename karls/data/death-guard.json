@@ -2,7 +2,7 @@
   "slug": "death-guard",
   "name": "Death Guard",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:44:16.771Z",
+  "fetchedAt": "2026-11-03T19:24:27.551Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -498,40 +498,6 @@
             {
               "models": 1,
               "points": 280
-            }
-          ]
-        },
-        {
-          "id": "4348414f53205052454441544f522044455354525543544f52",
-          "name": "CHAOS PREDATOR DESTRUCTOR",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 140
-            }
-          ],
-          "repeatFromCopy": 3,
-          "repeatTiers": [
-            {
-              "models": 1,
-              "points": 150
-            }
-          ]
-        },
-        {
-          "id": "4348414f53205248494e4f",
-          "name": "CHAOS RHINO",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 75
-            }
-          ],
-          "repeatFromCopy": 4,
-          "repeatTiers": [
-            {
-              "models": 1,
-              "points": 85
             }
           ]
         },

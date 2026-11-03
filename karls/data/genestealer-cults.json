@@ -2,7 +2,7 @@
   "slug": "genestealer-cults",
   "name": "Genestealer Cults",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:44:16.771Z",
+  "fetchedAt": "2026-11-03T19:24:27.551Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -587,7 +587,7 @@
           "cp": 1,
           "category": "Strategic Ploy",
           "turn": "Opponent’s turn",
-          "phase": "Charge phase",
+          "phase": "Fight phase",
           "when": "End of your opponent’s Fight phase.",
           "target": "One Genestealer Cults or Tyranids unit from your army that is not within Engagement Range of one or more enemy units.",
           "effect": "Remove your unit from the battlefield and place it into Strategic Reserves."

@@ -2,7 +2,7 @@
   "slug": "deathwatch",
   "name": "Deathwatch",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:44:16.771Z",
+  "fetchedAt": "2026-11-03T19:24:27.551Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -1171,40 +1171,6 @@
             {
               "models": 10,
               "points": 240
-            }
-          ]
-        },
-        {
-          "id": "464f52544953204b494c4c205445414d",
-          "name": "FORTIS KILL TEAM",
-          "tiers": [
-            {
-              "models": 10,
-              "points": 210
-            }
-          ],
-          "repeatFromCopy": 3,
-          "repeatTiers": [
-            {
-              "models": 10,
-              "points": 225
-            }
-          ]
-        },
-        {
-          "id": "494e444f4d49544f52204b494c4c205445414d",
-          "name": "INDOMITOR KILL TEAM",
-          "tiers": [
-            {
-              "models": 10,
-              "points": 280
-            }
-          ],
-          "repeatFromCopy": 3,
-          "repeatTiers": [
-            {
-              "models": 10,
-              "points": 300
             }
           ]
         },

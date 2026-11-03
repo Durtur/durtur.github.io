@@ -2,7 +2,7 @@
   "slug": "necrons",
   "name": "Necrons",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:44:16.771Z",
+  "fetchedAt": "2026-11-03T19:24:27.551Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -1296,7 +1296,7 @@
           "cp": 1,
           "category": "Hand of the Dynasty",
           "turn": "Your turn",
-          "phase": "Fight phase",
+          "phase": "Movement phase",
           "when": "End of your Movement phase.",
           "target": "One friendly IMMORTALS/NECRON WARRIORS unit.",
           "effect": "Select one objective your unit is controlling. That objective is secured."
@@ -1545,7 +1545,7 @@
           "id": "53494e47554c4152495459204d4154524958",
           "name": "Singularity Matrix",
           "points": 45,
-          "description": "C’tan Shard of the Deceiver model only. This model has the following ability:\n\nLord of Deceit (Aura): Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP."
+          "description": "C’tan Shard of the Deceiver model only. This model has the following ability:\n\nLord of Deceit (Aura): Once per turn, when your opponent targets a unit from their army within 12\" of this model with a stratagem, you can use this ability. If you do increase the CP cost of that use of that stratagem by 1CP."
         }
       ],
       "stratagems": [

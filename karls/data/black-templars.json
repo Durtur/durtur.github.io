@@ -2,7 +2,7 @@
   "slug": "black-templars",
   "name": "Black Templars",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:44:16.771Z",
+  "fetchedAt": "2026-11-03T19:24:27.551Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -1179,26 +1179,6 @@
             {
               "models": 10,
               "points": 240
-            }
-          ]
-        },
-        {
-          "id": "454d5045524f52e2809953204348414d50494f4e",
-          "name": "EMPEROR’S CHAMPION",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 100
-            }
-          ]
-        },
-        {
-          "id": "455845435241544f52",
-          "name": "EXECRATOR",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 65
             }
           ]
         },

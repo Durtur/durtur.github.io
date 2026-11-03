@@ -2,7 +2,7 @@
   "slug": "chaos-daemons",
   "name": "Chaos Daemons",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:44:16.771Z",
+  "fetchedAt": "2026-11-03T19:24:27.551Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -925,8 +925,8 @@
           "name": "Denizens Of The Warp",
           "cp": 1,
           "category": "Strategic Ploy",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
+          "turn": "Your turn",
+          "phase": "Movement phase",
           "when": "Your Movement phase.",
           "target": "One LEGIONES DAEMONICA unit from your army that is arriving using the Deep Strike ability this phase.",
           "effect": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models."
@@ -1292,7 +1292,7 @@
           "cp": 1,
           "category": "Strategic Ploy",
           "turn": "Either player’s turn",
-          "phase": "Charge phase",
+          "phase": "Fight phase",
           "when": "Fight phase, just after an enemy unit has selected its targets.",
           "target": "One Legiones Daemonica Tzeentch unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Roll one D6, then you can spend one Flux token to re-roll the result: until the end of the phase, each time an attack targets your unit, on an unmodified Hit roll (after any re-roll) of that result, the attack sequence ends, even if the original Hit roll would have been a Critical Hit.\n\nExample: If you roll a 2 and choose to spend one Flux token to re-roll the result, and the re-roll is a 6, then until the end of the phase, each time an attack targets your unit, on an unmodified Hit roll of 6 the attack sequence ends, that attack fails to hit and no Critical Hit effects (e.g. Lethal Hits) are resolved."
@@ -1448,16 +1448,6 @@
       ],
       "stratagems": [
         {
-          "name": "Daemonic Infestation",
-          "cp": 1,
-          "category": "Warptide",
-          "turn": "Your turn",
-          "phase": "Fight phase",
-          "when": "Your Command phase.",
-          "target": "One friendly LEGIONES DAEMONICA BATTLELINE unit (excluding PINK HORRORS units).",
-          "effect": "Your unit heals 3 wounds."
-        },
-        {
           "name": "Incorporeal Entities",
           "cp": 1,
           "category": "Warptide",
@@ -1468,11 +1458,21 @@
           "effect": "Ranged attacks that target your unit with a S greater than your unit’s T have -1 to wound rolls."
         },
         {
+          "name": "Daemonic Infestation",
+          "cp": 1,
+          "category": "Warptide",
+          "turn": "Your turn",
+          "phase": "Command phase",
+          "when": "Your Command phase.",
+          "target": "One friendly LEGIONES DAEMONICA BATTLELINE unit (excluding PINK HORRORS units).",
+          "effect": "Your unit heals 3 wounds."
+        },
+        {
           "name": "Soulseeing",
           "cp": 1,
           "category": "Warptide",
           "turn": "Your turn",
-          "phase": "Fight phase",
+          "phase": "Shooting phase",
           "when": "Start of your Shooting phase.",
           "target": "One friendly LEGIONES DAEMONICA BATTLELINE unit.",
           "effect": "Select one visible enemy unit within 12\" of your unit. That enemy unit has +6\" detection range."

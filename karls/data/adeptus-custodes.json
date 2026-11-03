@@ -2,7 +2,7 @@
   "slug": "adeptus-custodes",
   "name": "Adeptus Custodes",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:44:16.771Z",
+  "fetchedAt": "2026-11-03T19:24:27.551Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -887,12 +887,6 @@
           "description": "ADEPTUS CUSTODES model only. (Once per battle, per army) At the start of any phase, this model heals D3+3 wounds."
         }
       ],
-      "rules": [
-        {
-          "name": "Gilded Guardians",
-          "description": "While a friendly Adeptus Custodes unit (excluding Monster/Vehicle units) is within range of an objective, ranged attacks that target that unit with a S greater than that unit’s T have -1 to wound rolls.\n\nFavoured ka’tah: Salvus\n\nAdditional Effect: Your unit’s ranged attacks have +6\" R."
-        }
-      ],
       "stratagems": [
         {
           "name": "Rapid Reactions",
@@ -923,6 +917,12 @@
           "when": "Your Shooting phase, when a friendly Adeptus Custodes unit is selected to shoot.",
           "target": "That ADEPTUS CUSTODES unit.",
           "effect": "Your unit’s ranged attacks that target an enemy unit within 9\" of your unit have +1 S."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Gilded Guardians",
+          "description": "While a friendly Adeptus Custodes unit (excluding Monster/Vehicle units) is within range of an objective, ranged attacks that target that unit with a S greater than that unit’s T have -1 to wound rolls.\n\nFavoured ka’tah: Salvus\n\nAdditional Effect: Your unit’s ranged attacks have +6\" R."
         }
       ]
     },
@@ -998,12 +998,6 @@
           "description": "ADEPTUS CUSTODES model only. This model’s melee attacks have [Sustained Hits 1]."
         }
       ],
-      "rules": [
-        {
-          "name": "Instruments of the Emperor’s Wrath",
-          "description": "Friendly Adeptus Custodes units can re-roll charge rolls.\n\nFavoured ka’tah: Dacatarai\n\nAdditional Effect: When an enemy unit engaged with your unit makes a pile-in/consolidation move, -2\" from that pile-in/consolidation move."
-        }
-      ],
       "stratagems": [
         {
           "name": "Golden Light Of The Moiraides",
@@ -1035,6 +1029,12 @@
           "target": "That ADEPTUS CUSTODES unit.",
           "effect": "When making that pile-in move, your unit can move up to D3+3\"."
         }
+      ],
+      "rules": [
+        {
+          "name": "Instruments of the Emperor’s Wrath",
+          "description": "Friendly Adeptus Custodes units can re-roll charge rolls.\n\nFavoured ka’tah: Dacatarai\n\nAdditional Effect: When an enemy unit engaged with your unit makes a pile-in/consolidation move, -2\" from that pile-in/consolidation move."
+        }
       ]
     },
     {
@@ -1053,12 +1053,6 @@
           "name": "Edge of the Blade",
           "points": 15,
           "description": "Adeptus Custodes model only. If this unit made a charge move this turn, this model’s attacks can:\n\n■ Re-roll hit rolls of 1.\n\n■ Re-roll wound rolls of 1."
-        }
-      ],
-      "rules": [
-        {
-          "name": "Heralds of the Throne",
-          "description": "Friendly Adeptus Custodes units have Fights First.\n\nFavoured Ka’tah: Conservai\n\nAdditional Effect: Until the end of the turn, being selected to make an advance/fall-back move does not prevent your unit from being eligible to start an action."
         }
       ],
       "stratagems": [
@@ -1092,6 +1086,12 @@
           "target": "One friendly unengaged Adeptus Custodes unit within 6\" of an enemy unit. You can only select a VEHICLE unit if it is a CHARACTER/WALKER unit.",
           "effect": "Declare a charge with your unit:\n\nWhen making the charge roll, if the result is greater than 6 (after modifiers), change it to 6.\nWhen selecting charge targets, you can select any enemy units that are within 6\" of your unit and within the maximum distance."
         }
+      ],
+      "rules": [
+        {
+          "name": "Heralds of the Throne",
+          "description": "Friendly Adeptus Custodes units have Fights First.\n\nFavoured Ka’tah: Conservai\n\nAdditional Effect: Until the end of the turn, being selected to make an advance/fall-back move does not prevent your unit from being eligible to start an action."
+        }
       ]
     },
     {
@@ -1110,12 +1110,6 @@
           "name": "Radiant Mantle",
           "points": 40,
           "description": "Adeptus Custodes Infantry model only. Attacks that target this unit have -1 to hit rolls."
-        }
-      ],
-      "rules": [
-        {
-          "name": "Magna Imperator",
-          "description": "When a friendly Adeptus Custodes unit is selected to attack, that unit’s attacks can:\n\n■ Re-roll one hit roll.\n\n■ Re-roll one wound roll.\n\nFavoured ka’tah: Rendax\n\nAdditional Effect: You can select one enemy MONSTER/VEHICLE unit engaged with your unit and roll one D6:\n\n■ On a 1-2, that enemy unit suffers 1 mortal wound.\n\n■ On a 3-5, that enemy unit suffers D3 mortal wounds.\n\n■ On a 6, that enemy unit suffers 3 mortal wounds."
         }
       ],
       "stratagems": [
@@ -1149,6 +1143,12 @@
           "target": "One friendly Adeptus Custodes unit that is not readied.",
           "effect": "Your unit is readied.",
           "restrictions": "You cannot select the same unit as the target of this stratagem more than once per battle round."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Magna Imperator",
+          "description": "When a friendly Adeptus Custodes unit is selected to attack, that unit’s attacks can:\n\n■ Re-roll one hit roll.\n\n■ Re-roll one wound roll.\n\nFavoured ka’tah: Rendax\n\nAdditional Effect: You can select one enemy MONSTER/VEHICLE unit engaged with your unit and roll one D6:\n\n■ On a 1-2, that enemy unit suffers 1 mortal wound.\n\n■ On a 3-5, that enemy unit suffers D3 mortal wounds.\n\n■ On a 6, that enemy unit suffers 3 mortal wounds."
         }
       ]
     },
@@ -1197,12 +1197,6 @@
           "name": "Emperor’s Light",
           "points": 15,
           "description": "ADEPTUS CUSTODES model only. This model has the following weapon:"
-        }
-      ],
-      "rules": [
-        {
-          "name": "Martial Mastery",
-          "description": "In the Fight phase, when a friendly Adeptus Custodes unit is selected to fight, that unit’s melee attacks have:\n\n■ [Sustained Hits 1].\n\n■ Or: [Lethal Hits]."
         }
       ],
       "stratagems": [
@@ -1267,6 +1261,12 @@
           "target": "That ADEPTUS CUSTODES unit.",
           "effect": "Your unit’s ranged attacks can:\n\nRe-roll one hit roll.\nRe-roll one wound roll.\nRe-roll one damage roll."
         }
+      ],
+      "rules": [
+        {
+          "name": "Martial Mastery",
+          "description": "In the Fight phase, when a friendly Adeptus Custodes unit is selected to fight, that unit’s melee attacks have:\n\n■ [Sustained Hits 1].\n\n■ Or: [Lethal Hits]."
+        }
       ]
     },
     {
@@ -1285,12 +1285,6 @@
           "name": "Celeritous Sentries (Upgrade)",
           "points": 15,
           "description": "Trusted Sentinel unit only. (Once per phase, per unit) You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n\n■ That use is -1 CP.\n\n■ That use does not prevent any uses of that stratagem on other units this phase."
-        }
-      ],
-      "rules": [
-        {
-          "name": "Companion’s Watch",
-          "description": "While a friendly Trusted Sentinel unit is within range of an objective, that unit’s attacks can re-roll wound rolls of 1."
         }
       ],
       "stratagems": [
@@ -1323,6 +1317,12 @@
           "when": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Trusted Sentinel unit.",
           "target": "That TRUSTED SENTINEL unit.",
           "effect": "Your unit can make a normal move of up to D3+3\"."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Companion’s Watch",
+          "description": "While a friendly Trusted Sentinel unit is within range of an objective, that unit’s attacks can re-roll wound rolls of 1."
         }
       ]
     },
@@ -1515,12 +1515,6 @@
           "description": "Adeptus Custodes Infantry model only. When this unit is selected to make a pile-in/consolidation move:\n\n■ This unit can move up to 4\".\n\n■ You can select any consolidation mode for that consolidation move, regardless of that consolidation move’s Before Moving restrictions."
         }
       ],
-      "rules": [
-        {
-          "name": "Wardens of the Dark Cells",
-          "description": "While a friendly Adeptus Custodes unit (excluding Monster/Vehicle units) is within range of an objective, melee attacks that target that unit with a S greater than that unit’s T have -1 to wound rolls.\n\nFavoured ka’tah: Kaptaris\n\nAdditional Effect: You can select one enemy unit engaged with your unit. That enemy unit must make a battle-shock roll, with -1 to that battle-shock roll. You cannot select the same enemy unit for this effect more than once per phase."
-        }
-      ],
       "stratagems": [
         {
           "name": "Indomitable Guardians",
@@ -1552,6 +1546,12 @@
           "target": "That ADEPTUS CUSTODES unit.",
           "effect": "Your unit’s melee attacks have [Lethal Hits: Character/Monster]."
         }
+      ],
+      "rules": [
+        {
+          "name": "Wardens of the Dark Cells",
+          "description": "While a friendly Adeptus Custodes unit (excluding Monster/Vehicle units) is within range of an objective, melee attacks that target that unit with a S greater than that unit’s T have -1 to wound rolls.\n\nFavoured ka’tah: Kaptaris\n\nAdditional Effect: You can select one enemy unit engaged with your unit. That enemy unit must make a battle-shock roll, with -1 to that battle-shock roll. You cannot select the same enemy unit for this effect more than once per phase."
+        }
       ]
     },
     {
@@ -1570,12 +1570,6 @@
           "name": "Sally Forth",
           "points": 30,
           "description": "Adeptus Custodes Shield-Captain model only. At the start of your Charge phase, select one friendly Adeptus Custodes Infantry unit within 6\" of this model. If that unit made an advance move this turn, that advance move does not prevent that unit from being eligible to declare a charge."
-        }
-      ],
-      "rules": [
-        {
-          "name": "Talon Sortie",
-          "description": "When a friendly Adeptus Custodes unit makes a fall-back move, that fall-back move does not prevent that unit from being eligible to charge.\n\nFavoured ka’tah: Calistus\n\nAdditional Effect: Your unit has +2\" M."
         }
       ],
       "stratagems": [
@@ -1608,6 +1602,12 @@
           "when": "Your Movement phase, when a friendly Adeptus Custodes unit is selected to move.",
           "target": "That ADEPTUS CUSTODES unit.",
           "effect": "Until the end of the turn, your unit can ignore modifiers to your unit’s:\n\nM.\nAdvance rolls and charge rolls."
+        }
+      ],
+      "rules": [
+        {
+          "name": "Talon Sortie",
+          "description": "When a friendly Adeptus Custodes unit makes a fall-back move, that fall-back move does not prevent that unit from being eligible to charge.\n\nFavoured ka’tah: Calistus\n\nAdditional Effect: Your unit has +2\" M."
         }
       ]
     }

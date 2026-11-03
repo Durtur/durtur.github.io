@@ -2,7 +2,7 @@
   "slug": "tyranids",
   "name": "Tyranids",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:44:16.771Z",
+  "fetchedAt": "2026-11-03T19:24:27.551Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -873,7 +873,7 @@
           "phase": "Command phase",
           "when": "Command phase.",
           "target": "One Harvester unit from your army that is within range of an objective marker you control.",
-          "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+          "effect": "That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
         },
         {
           "name": "Reclaim Biomass",

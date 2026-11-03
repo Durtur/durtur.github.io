@@ -2,7 +2,7 @@
   "slug": "leagues-of-votann",
   "name": "Leagues of Votann",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:44:16.771Z",
+  "fetchedAt": "2026-11-03T19:24:27.551Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -693,7 +693,7 @@
           "cp": 1,
           "category": "Battle Tactic",
           "turn": "Either player’s turn",
-          "phase": "Shooting phase",
+          "phase": "Shooting or Fight phase",
           "when": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
           "target": "One Kâhl, Ûthar the Destined or Einhyr Hearthguard unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
           "effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save."

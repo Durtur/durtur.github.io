@@ -2,7 +2,7 @@
   "slug": "space-marines",
   "name": "Space Marines",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:44:16.771Z",
+  "fetchedAt": "2026-11-03T19:24:27.551Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -1304,30 +1304,6 @@
             {
               "models": 1,
               "points": 105
-            }
-          ]
-        },
-        {
-          "id": "41504f544845434152592042494f4c4f474953",
-          "name": "APOTHECARY BIOLOGIS",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 60
-            }
-          ]
-        },
-        {
-          "id": "41535341554c5420494e544552434553534f52205351554144",
-          "name": "ASSAULT INTERCESSOR SQUAD",
-          "tiers": [
-            {
-              "models": 5,
-              "points": 85
-            },
-            {
-              "models": 10,
-              "points": 170
             }
           ]
         },

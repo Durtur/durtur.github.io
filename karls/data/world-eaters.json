@@ -2,7 +2,7 @@
   "slug": "world-eaters",
   "name": "World Eaters",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:44:16.771Z",
+  "fetchedAt": "2026-11-03T19:24:27.551Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -808,7 +808,7 @@
           "cp": 1,
           "category": "Strategic Ploy",
           "turn": "Your turn",
-          "phase": "Charge phase",
+          "phase": "Movement phase",
           "when": "Your Movement phase, just after a KHORNE BERZERKERS unit from your army is selected to Advance.",
           "target": "That Khorne Berzerkers unit.",
           "effect": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced."
@@ -1123,7 +1123,7 @@
           "cp": 1,
           "category": "Strategic Ploy",
           "turn": "Either player’s turn",
-          "phase": "Shooting or Fight phase",
+          "phase": "Fight phase",
           "when": "End of the Fight phase.",
           "target": "One World Eaters Infantry unit from your army and one friendly Transport that it is able to embark within.",
           "effect": "If your WORLD EATERS INFANTRY unit is wholly within 6\" of that TRANSPORT, it can embark within it."

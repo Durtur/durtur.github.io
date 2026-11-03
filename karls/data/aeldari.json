@@ -2,7 +2,7 @@
   "slug": "aeldari",
   "name": "Aeldari",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:44:16.771Z",
+  "fetchedAt": "2026-11-03T19:24:27.551Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -989,30 +989,6 @@
             {
               "models": 1,
               "points": 90
-            }
-          ]
-        },
-        {
-          "id": "434c414e424c414445",
-          "name": "CLANBLADE",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 70
-            }
-          ]
-        },
-        {
-          "id": "434f525341495220534b5952454156455253",
-          "name": "CORSAIR SKYREAVERS",
-          "tiers": [
-            {
-              "models": 5,
-              "points": 75
-            },
-            {
-              "models": 10,
-              "points": 140
             }
           ]
         },

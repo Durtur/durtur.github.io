@@ -2,7 +2,7 @@
   "slug": "space-wolves",
   "name": "Space Wolves",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:44:16.771Z",
+  "fetchedAt": "2026-11-03T19:24:27.551Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -1413,26 +1413,6 @@
             {
               "models": 10,
               "points": 240
-            }
-          ]
-        },
-        {
-          "id": "49524f4e20505249455354",
-          "name": "IRON PRIEST",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 60
-            }
-          ]
-        },
-        {
-          "id": "4c4f47414e204752494d4e4152",
-          "name": "LOGAN GRIMNAR",
-          "tiers": [
-            {
-              "models": 1,
-              "points": 150
             }
           ]
         },

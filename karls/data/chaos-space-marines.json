@@ -2,7 +2,7 @@
   "slug": "chaos-space-marines",
   "name": "Chaos Space Marines",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:44:16.771Z",
+  "fetchedAt": "2026-11-03T19:24:27.551Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -1670,16 +1670,6 @@
       ],
       "stratagems": [
         {
-          "name": "Sadistic Display",
-          "cp": 1,
-          "category": "Nightmare Hunt",
-          "turn": "Either player’s turn",
-          "phase": "Fight phase",
-          "when": "Fight phase, just after a HERETIC ASTARTES unit from your army destroys an enemy unit.",
-          "target": "That HERETIC ASTARTES unit.",
-          "effect": "Each enemy unit within 6\" of and visible to your unit (excluding MONSTER and VEHICLE units) must take a Battle-shock test."
-        },
-        {
           "name": "Prey On The Weak",
           "cp": 1,
           "category": "Nightmare Hunt",
@@ -1688,6 +1678,16 @@
           "when": "Your Shooting phase or the Fight phase.",
           "target": "One Heretic Astartes Infantry unit from your army that has not been selected to shoot or fight this phase.",
           "effect": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is Battle-shocked and/or Below Half-strength, you can re-roll the Hit roll."
+        },
+        {
+          "name": "Sadistic Display",
+          "cp": 1,
+          "category": "Nightmare Hunt",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, just after a HERETIC ASTARTES unit from your army destroys an enemy unit.",
+          "target": "That HERETIC ASTARTES unit.",
+          "effect": "Each enemy unit within 6\" of and visible to your unit (excluding MONSTER and VEHICLE units) must take a Battle-shock test."
         },
         {
           "name": "Malicious Surge",
@@ -1832,7 +1832,7 @@
       "rules": [
         {
           "name": "Marks of Chaos",
-          "description": "When mustering your army, when you select a HERETIC ASTARTES unit to include in your army, if that unit is not an EPIC HERO and does not already have one of the following keywords, you must select one for that unit and note it on your Army Roster: KHORNE. TZEENTCH, NURGLE, SLAANESH, CHAOS UNDIVIDED. Each time a unit with one of these keywords gains a weapon ability as the result of a Dark Pact and does not fail the resulting Leadership test, until the end of the phase, that unit gains the associated ability below.\n\nUNITS THAT GAINED [LETHAL HITS]\n\n■ KHORNE: Each time a model in this unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit.\n\n■ TZEENTCH: Each time a model in this unit makes a ranged attack, an unmodified Hit roll of 5+ scores a Critical Hit.\n\n■ CHAOS UNDIVIDED: Each time a model in this unit makes an attack, re-roll a Hit roll of 1.\n\nUNITS THAT GAINED [SUSTAINED HITS 1]\n\n■ NURGLE: Each time a model in this unit makes a ranged attack, an unmodified Hit roll of 5+ scores a Critical Hit.\n\n■ SLAANESH: Each time a model in this unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit.\n\n■ CHAOS UNDIVIDED: Each time a model in this unit makes an attack, re-roll a Hit roll of 1.\n\nRESTRICTIONS\n\n■ You cannot select the KHORNE keyword for a Psyker unit.\n\n■ A Character unit can only be attached to a unit if both units share the same keyword from the list above.\n\n■ A unit can only embark within (or start the battle embarked within) a TRANSPORT if both of those units share the same keyword from the list above."
+          "description": "When mustering your army, when you select a HERETIC ASTARTES unit to include in your army, if that unit is not an EPIC HERO and does not already have one of the following keywords, you must select one for that unit and note it on your Army Roster: KHORNE. TZEENTCH, NURGLE, SLAANESH, CHAOS UNDIVIDED. Each time a unit with one of these keywords gains a weapon ability as the result of a Dark Pact and does not fail the resulting Leadership test, until the end of the phase, that unit gains the associated ability below.\n\nUNITS THAT GAINED [LETHAL HITS]\n\n■ KHORNE: Each time a model in this unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit.\n\n■ TZEENTCH: Each time a model in this unit makes a ranged attack, an unmodified Hit roll of 5+ scores a Critical Hit.\n\n■ CHAOS UNDIVIDED: Each time a model in this unit makes an attack, re-roll a Hit roll of 1.\n\nUNITS THAT GAINED [SUSTAINED HITS 1]\n\n■ NURGLE: Each time a model in this unit makes a ranged attack, an unmodified Hit roll of 5+ scores a Critical Hit.\n\n■ SLAANESH: Each time a model in this unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit.\n\n■ CHAOS UNDIVIDED: Each time a model in this unit makes an attack, re-roll a Hit roll of 1.\n\nRESTRICTIONS\n\n■ You cannot select the KHORNE keyword for a Psyker unit.\n\n■ A Character/EPIC HERO unit can only be attached to a unit if both units share the same keyword from the list above.\n\n■ A unit can only embark within (or start the battle embarked within) a TRANSPORT if both of those units share the same keyword from the list above."
         }
       ]
     },
@@ -2094,6 +2094,26 @@
           "effect": "Until the end of the battle, your unit has the DAEMON keyword."
         },
         {
+          "name": "Predatory Pursuit",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall back move.",
+          "target": "One HERETIC ASTARTES DAEMON VEHICLE or Vashtorr the Arkifane unit from your army that is within 8\" of that enemy unit and not within Engagement Range of one or more enemy units.",
+          "effect": "Your unit can make a Normal move of up to 6\", but must end that move as close as possible to that enemy unit."
+        },
+        {
+          "name": "Feeding Frenzy",
+          "cp": 1,
+          "category": "Strategic Ploy",
+          "turn": "Opponent’s turn",
+          "phase": "Movement phase",
+          "when": "Your opponent’s Movement phase, when an enemy unit (excluding MONSTER and VEHICLES) is selected to Fall Back.",
+          "target": "One HERETIC ASTARTES DAEMON VEHICLE or Vashtorr the Arkifane unit from your army that is within Engagement Range of that enemy unit.",
+          "effect": "Until the end of the phase, each time an enemy unit (excluding MONSTERS and VEHICLES) that is within Engagement Range of your unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, of that enemy unit is Battle-shocked, substract 1 from each of those tests."
+        },
+        {
           "name": "Glut Of Souls",
           "cp": 1,
           "category": "Strategic Ploy",
@@ -2104,33 +2124,13 @@
           "effect": "Until the end of the phase, if your unit invokes its contract, each time it makes an attack that destroys an enemy model, roll one D6: on 5+, your unit regains 1 lost wound after all of its attacks have been resolved (to a maximum of 6 wound)."
         },
         {
-          "name": "Feeding Frenzy",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, when an enemy unit (excluding MONSTER and VEHICLES) is selected to Fall Back.",
-          "target": "One HERETIC ASTARTES DAEMON VEHICLE or Vashtorr the Arkifane unit from your army that is within Engagement Range of that enemy unit.",
-          "effect": "Until the end of the phase, each time an enemy unit (excluding MONSTERS and VEHICLES) that is within Engagement Range of your units Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, of that enemy unit is Battle-shocked, substract 1 from each of those tests."
-        },
-        {
-          "name": "Predatory Pursuit",
-          "cp": 1,
-          "category": "Strategic Ploy",
-          "turn": "Opponent’s turn",
-          "phase": "Movement phase",
-          "when": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall back move.",
-          "target": "One HERETIC ASTARTES VEHICLE or Vashtorr the Arkifane unit from your army that is within 8\" of that enemy unit and not within Engagement Range of one or more enemy units.",
-          "effect": "Your unit can make a Normal move of up to 6\", but must end that move as close as possible to that enemy unit."
-        },
-        {
           "name": "Unstoppable Rampage",
           "cp": 1,
           "category": "Strategic Ploy",
           "turn": "Your turn",
           "phase": "Movement or Charge phase",
           "when": "Your Movement phase or Charge phase.",
-          "target": "One Heretic Astartes Vehicle or Vashtorr the Arkifane unit from your army that has not been selected to move or charge this phase.",
+          "target": "One HERETIC ASTARTES DAEMON VEHICLE or Vashtorr the Arkifane unit from your army that has not been selected to move or charge this phase.",
           "effect": "Until the end of the phase, each time your unit makes Normal, Advance or charge move, it can move horizontally through terrain features as if they were not there."
         }
       ],

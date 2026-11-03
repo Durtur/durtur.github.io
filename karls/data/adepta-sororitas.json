@@ -2,7 +2,7 @@
   "slug": "adepta-sororitas",
   "name": "Adepta Sororitas",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:44:16.771Z",
+  "fetchedAt": "2026-11-03T19:24:27.551Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -516,7 +516,7 @@
           "turn": "Either player’s turn",
           "phase": "Shooting or Fight phase",
           "when": "Your Shooting phase or the Fight phase.",
-          "target": "That ADEPTA SORORITAS unit from your army that has not been selected to shoot or fight this phase.",
+          "target": "One ADEPTA SORORITAS unit from your army that has not been selected to shoot or fight this phase.",
           "effect": "Until the end of the phase, each time a model in your unit makes an attack, improve the Armour Penetration characteristic of that attack by 1. If one or more enemy models are destroyed as the result of any of those attacks, you gain 1 Miracle dice."
         },
         {
@@ -981,7 +981,7 @@
           "phase": "Any phase",
           "when": "Any phase.",
           "target": "One PENITENT unit from your army that was just destroyed while it was within range of an objective marker you controlled. You can use this Stratagem on that unit even though it was just destroyed.",
-          "effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+          "effect": "That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
         },
         {
           "name": "Boundless Zeal",

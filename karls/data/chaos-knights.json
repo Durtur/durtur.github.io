@@ -2,7 +2,7 @@
   "slug": "chaos-knights",
   "name": "Chaos Knights",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:44:16.771Z",
+  "fetchedAt": "2026-11-03T19:24:27.551Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -591,16 +591,6 @@
       ],
       "stratagems": [
         {
-          "name": "Insensate Bloodthirst",
-          "cp": 1,
-          "category": "Hunting Warpack",
-          "turn": "Either player’s turn",
-          "phase": "Any phase",
-          "when": "Fight phase, when an enemy unit targets a friendly WAR DOG unit.",
-          "target": "That WAR DOG unit.",
-          "effect": "Your unit has Feel No Pain 5+"
-        },
-        {
           "name": "Stalking Focus",
           "cp": 1,
           "category": "Hunting Warpack",
@@ -611,11 +601,21 @@
           "effect": "Ranged attacks that target your unit have -1 AP until that enemy unit has attacked."
         },
         {
+          "name": "Insensate Bloodthirst",
+          "cp": 1,
+          "category": "Hunting Warpack",
+          "turn": "Either player’s turn",
+          "phase": "Fight phase",
+          "when": "Fight phase, when an enemy unit targets a friendly WAR DOG unit.",
+          "target": "That WAR DOG unit.",
+          "effect": "Your unit has Feel No Pain 5+"
+        },
+        {
           "name": "Leash Of The Masters",
           "cp": 1,
           "category": "Hunting Warpack",
           "turn": "Your turn",
-          "phase": "Movement phase",
+          "phase": "Shooting phase",
           "when": "Your Shooting phase, when a friendly WAR DOG unit has shot.",
           "target": "That WAR DOG unit.",
           "effect": "Those attacks do not prevent your unit from being eligible to start an action."

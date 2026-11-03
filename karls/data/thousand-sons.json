@@ -2,7 +2,7 @@
   "slug": "thousand-sons",
   "name": "Thousand Sons",
   "version": "v1.6",
-  "fetchedAt": "2026-10-15T22:44:16.771Z",
+  "fetchedAt": "2026-11-03T19:24:27.551Z",
   "unitSections": [
     {
       "title": "UNITS",
@@ -1040,7 +1040,7 @@
           "phase": "Any phase",
           "when": "Any phase, just after an enemy unit has selected its targets.",
           "target": "One Thousand Sons unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-          "effect": "Until the end of the phase, Psychic weapons equipped by models in the attacking unit have the [hazardous] ability, and models in your unit have the Feel No Pain 4+ ability against Psychic Attacks."
+          "effect": "Until the end of the phase, all attacks made against your unit with Psychic weapons have the [hazardous] ability and all models in your unit have the Feel No Pain 4+ ability against Psychic Attacks."
         },
         {
           "name": "Destined By Fate",
