@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Scry · Ogreforge</title>
+    <meta name="description" content="Scry: see what your GM is showing, live and peer to peer.">
+    <meta property="og:title" content="Scry · Ogreforge">
+    <meta property="og:description" content="Join a live Scry session — images stream peer to peer, nothing uploaded.">
+    <meta name="theme-color" content="#0d0f14">
+    <link rel="icon" type="image/png" href="../img/gear-hammer.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scry.css">
+    <link rel="stylesheet" href="client.css">
+</head>
+<body>
+    <!-- Join screen -->
+    <main id="join" class="join" hidden>
+        <div class="join-card">
+            <a class="brand" href="../">
+                <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></span>
+                <span class="app-name">Scry <small>by Ogreforge</small></span>
+            </a>
+            <h1>Join a session</h1>
+            <p class="lead">Paste the session code or link from the host. Images stream straight from their computer to yours — nothing is uploaded.</p>
+            <form id="joinForm" autocomplete="off">
+                <input id="joinInput" type="text" spellcheck="false" placeholder="e.g. 3f2c9a1e-…" aria-label="Session code or link">
+                <button class="btn btn-primary" type="submit">Join</button>
+            </form>
+            <p id="joinError" class="join-error" hidden></p>
+            <p class="hint">Tip: scanning the host's QR code opens this page with the session already filled in.</p>
+        </div>
+    </main>
+
+    <!-- Viewer: just the image, always showing what the host presents -->
+    <main id="stage" class="stage viewer" hidden>
+        <img id="image" alt="" hidden>
+        <div id="emptyState" class="empty">
+            <div>
+                <div class="spinner"></div>
+                <h2 id="emptyTitle">Connecting to host…</h2>
+                <p id="emptyText">Hang tight, setting up a direct peer-to-peer link.</p>
+            </div>
+        </div>
+        <div id="status" class="pill status" data-state="connecting" hidden><span class="dot"></span><span class="label">Connecting</span></div>
+    </main>
+
+    <script src="https://unpkg.com/peerjs@1.5.5/dist/peerjs.min.js"></script>
+    <script src="panzoom.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>

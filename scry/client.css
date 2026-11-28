@@ -1,0 +1,60 @@
+/* ---------- join ---------- */
+.join {
+    min-height: 100%;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    background:
+        radial-gradient(900px 500px at 15% -10%, rgba(255, 122, 61, .16), transparent 60%),
+        radial-gradient(700px 500px at 110% 110%, rgba(255, 181, 71, .10), transparent 60%),
+        var(--bg);
+}
+.join-card {
+    width: min(460px, 100%);
+    padding: 32px;
+    border-radius: 20px;
+    background: rgba(23, 27, 36, .85);
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(10px);
+}
+.join-card h1 {
+    font-family: var(--font-head);
+    font-size: 28px;
+    margin: 28px 0 8px;
+}
+.join-card .lead { color: var(--muted); margin: 0 0 22px; }
+.join-card form { display: flex; gap: 8px; }
+.join-card input {
+    flex: 1;
+    min-width: 0;
+    height: 44px;
+    padding: 0 14px;
+    border-radius: 10px;
+    border: 1px solid var(--line-2);
+    background: var(--bg-2);
+    color: var(--text);
+    font: 500 14px/1 ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+.join-card .btn { height: 44px; padding: 0 22px; }
+.join-error { color: var(--bad); margin: 10px 0 0; font-size: 13px; }
+.hint { color: var(--faint); font-size: 12.5px; margin: 20px 0 0; }
+
+/* ---------- viewer: full-bleed image ---------- */
+.viewer {
+    position: fixed;
+    inset: 0;
+    background: #08090c;
+}
+.viewer img { box-shadow: none; }
+
+/* Only shown when the link is not live. */
+.status {
+    position: absolute;
+    top: max(12px, env(safe-area-inset-top));
+    right: 12px;
+    background: rgba(20, 23, 31, .8);
+    backdrop-filter: blur(10px);
+    z-index: 5;
+    pointer-events: none;
+}

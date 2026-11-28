@@ -1,4 +1,4 @@
-/* Ogreforge Share — host renderer. Runs a PeerJS peer and streams images to connected viewers. */
+/* Scry — host renderer. Runs a PeerJS peer and streams images to connected viewers. */
 (async function () {
     "use strict";
 
@@ -10,9 +10,9 @@
     const SAFE_TYPES = ["image/png", "image/jpeg", "image/webp", "image/gif", "image/avif"];
 
     // ---------- state ----------
-    let sessionId = localStorage.getItem("share.sessionId") || crypto.randomUUID();
-    localStorage.setItem("share.sessionId", sessionId);
-    let sessionName = localStorage.getItem("share.name") || "";
+    let sessionId = localStorage.getItem("scry.sessionId") || crypto.randomUUID();
+    localStorage.setItem("scry.sessionId", sessionId);
+    let sessionName = localStorage.getItem("scry.name") || "";
 
     /** @type {{id:string,name:string,mime:string,w:number,h:number,data:ArrayBuffer,url:string,el?:HTMLElement}[]} */
     const images = [];
@@ -81,7 +81,7 @@
     $("nameInput").value = sessionName;
     $("nameInput").addEventListener("input", (e) => {
         sessionName = e.target.value.trim();
-        localStorage.setItem("share.name", sessionName);
+        localStorage.setItem("scry.name", sessionName);
         clearTimeout(renderSession._nameT);
         renderSession._nameT = setTimeout(() => broadcast({ t: "hello", name: sessionName }), 400);
     });
@@ -89,7 +89,7 @@
     $("newSessionBtn").addEventListener("click", () => {
         if (conns.size && !confirm(`Start a new session? ${conns.size} viewer(s) will be disconnected and the old link will stop working.`)) return;
         sessionId = crypto.randomUUID();
-        localStorage.setItem("share.sessionId", sessionId);
+        localStorage.setItem("scry.sessionId", sessionId);
         startPeer();
         toast("New session code created");
     });

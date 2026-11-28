@@ -1,6 +1,6 @@
 /*
  * PanZoom — a tiny drag / wheel / pinch zoom viewer for a single <img>.
- * Shared by the Ogreforge Share client page and the Electron host app.
+ * Shared by the Scry viewer page and the Electron host app.
  */
 (function (global) {
     "use strict";

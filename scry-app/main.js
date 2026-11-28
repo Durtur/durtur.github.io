@@ -2,9 +2,9 @@ const { app, BrowserWindow, ipcMain, shell, clipboard, nativeImage } = require("
 const path = require("path");
 const QRCode = require("qrcode");
 
-// Where viewers open the share. Override with SHARE_URL for local testing,
-// e.g. SHARE_URL=http://localhost:8080/share/ npm start
-const SHARE_URL = process.env.SHARE_URL || "https://www.ogreforge.me/share/";
+// Where viewers open a session. Override with SCRY_URL for local testing,
+// e.g. SCRY_URL=http://localhost:8080/scry/ npm start
+const SCRY_URL = process.env.SCRY_URL || "https://www.ogreforge.me/scry/";
 
 function createWindow() {
     const win = new BrowserWindow({
@@ -13,7 +13,7 @@ function createWindow() {
         minWidth: 860,
         minHeight: 560,
         backgroundColor: "#0d0f14",
-        title: "Ogreforge Share",
+        title: "Scry",
         icon: path.join(__dirname, "..", "img", "gear-hammer.png"),
         titleBarStyle: "hidden",
         titleBarOverlay: process.platform === "darwin" ? true : {
@@ -44,7 +44,7 @@ function createWindow() {
     });
 }
 
-ipcMain.handle("config", () => ({ shareUrl: SHARE_URL, platform: process.platform }));
+ipcMain.handle("config", () => ({ shareUrl: SCRY_URL, platform: process.platform }));
 
 ipcMain.handle("qr", (_e, text, opts = {}) =>
     QRCode.toDataURL(String(text), {
